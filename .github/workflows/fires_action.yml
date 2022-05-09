@@ -24,3 +24,4 @@ jobs:
           git add -A
           git commit -m 'New fires data. Maps updated!' || echo "No changes"
           git push origin || echo "No changes to commit"
+          
