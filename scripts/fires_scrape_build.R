@@ -82,7 +82,7 @@ names(fed_fires) <- c("name", "state", "county",
 fed_fires$latitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", 35.69468,fed_fires$latitude)
 fed_fires$longitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", -105.335,fed_fires$longitude)
 fed_fires$latitude <- ifelse(fed_fires$fed_fire_id=="2022-NMN4S-000034", 36.243,fed_fires$latitude)
-fed_fires$longitude <- ifelse(fed_fires$fed_fire_id=="2022-NMN4S-000034", -105.39940,fed_fires$longitude)
+fed_fires$longitude <- ifelse(fed_fires$fed_fire_id=="2022-NMN4S-000034", -105.038,fed_fires$longitude)
 
 # Simplify, standardize version of California Fires from CalFire's active list
 cal_fires <- calfire_activefires %>%
