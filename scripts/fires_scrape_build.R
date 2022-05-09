@@ -120,8 +120,8 @@ fireIcons <- icons(
 # setup the popup box content for fire POINTS and assign to a value 
 fireLabel <- paste(sep = "<br/>",
                    paste("<font size='5'><b>",fires$name,"</font size></b>"),
-                   paste("<font size='3'>",fires$location),
-                   paste("<b>County: </b>", fires$county),
+                   paste("<font size='2'>",fires$location),
+                   paste("<font size='3'>,<b>County: </b>", fires$county),
                    paste(" "),
                    paste("<b>Acres burned: </b>",prettyNum(fires$acres_burned,big.mark=",")),
                    paste("<b>Percent contained: </b>",fires$percent_contained),
@@ -129,7 +129,7 @@ fireLabel <- paste(sep = "<br/>",
                    paste("<b>Started: </b>", paste(as.character(as.POSIXct(fires$started, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p"))),
                    paste("<b>Updated: </b>", paste(as.character(as.POSIXct(fires$updated, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p")),"</font size>"),
                    paste(" "),
-                   paste("<font size='2'>","* Acreage burned and containment statistics are updated as state or federal governments release information.","</font size>")
+                   paste("<font size='2'>","* Acres burned and containment are updated as state or federal governments release information.","</font size>")
 )
 
 # New wildfire map include fires, smoke and hotspots
