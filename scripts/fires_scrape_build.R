@@ -127,7 +127,7 @@ fireIcons <- icons(
 fireLabel <- paste(sep = "<br/>",
                    paste("<font size='5'><b>",fires$name,"</font size></b>"),
                    paste("<font size='2'>",fires$location),
-                   paste("<font size='3'>,<b>County: </b>", fires$county),
+                   paste("<font size='3'><b>County: </b>", fires$county),
                    paste(" "),
                    paste("<b>Acres burned: </b>",prettyNum(fires$acres_burned,big.mark=",")),
                    paste("<b>Percent contained: </b>",fires$percent_contained),
