@@ -118,9 +118,9 @@ fires <- st_as_sf(fires, coords = c("longitude", "latitude"),
 
 # make the wildfireIcon
 fireIcons <- icons(
-  iconUrl = ifelse(fires$percent_contained == "100" | !is.na(fires$percent_contained),
-                   "firegrey.png",
-                   "fireorange.png"),
+  iconUrl = ifelse(fires$percent_contained != "100" | is.na(fires$percent_contained),
+                   "fireorange.png",
+                   "firegrey.png"),
   iconWidth = 18, iconHeight = 18)
 
 # setup the popup box content for fire POINTS and assign to a value 
