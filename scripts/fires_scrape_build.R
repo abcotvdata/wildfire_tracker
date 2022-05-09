@@ -109,6 +109,10 @@ fires$name <- gsub("  ", " ", fires$name)
 fires$state <- gsub("US-", "", fires$state)
 # save latest merged fire points file as csv
 write_csv(fires,"wildfires_working.csv")
+# set values for dynamic zoom in feature in map
+max_lat <- fires$latitude[which.max(fires$acres_burned)]
+max_lon <- fires$longitude[which.max(fires$acres_burned)]
+
 # remove fires without lat longs yet
 # validation shows these are tiny almost all <1ac and all <10ac
 fires <- fires %>% filter(!is.na(latitude) & !is.na(longitude))
@@ -139,15 +143,15 @@ fireLabel <- paste(sep = "<br/>",
 
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(noaa_latest_fires) %>%
-  setView(-104.6, 38.2, zoom = 5) %>% 
+  setView(max_lon, max_lat, zoom = 6) %>% 
   addProviderTiles(provider = "Stamen.TonerLite") %>%
-  addCircleMarkers(radius = 2,
+  addCircleMarkers(radius = 1.5,
                    color = "orange",
                    stroke = FALSE,
                    fillOpacity = 0.9,
                    group="Hot Spots") %>%
   addCircleMarkers(data = hotspots,
-                   radius = 2,
+                   radius = 1.5,
                    color = "orange",
                    stroke = FALSE,
                    fillOpacity = 0.9,
@@ -187,13 +191,13 @@ wildfire_map
 california_map <- leaflet(noaa_latest_fires) %>%
   setView(-122.5, 37.5, zoom = 6) %>% 
   addProviderTiles(provider = "Stamen.Toner") %>%
-  addCircleMarkers(radius = 2,
+  addCircleMarkers(radius = 1.5,
                    color = "orange",
                    stroke = FALSE,
                    fillOpacity = 0.9,
                    group="Hot Spots") %>%
   addCircleMarkers(data = hotspots,
-                   radius = 2,
+                   radius = 1.5,
                    color = "orange",
                    stroke = FALSE,
                    fillOpacity = 0.9,
