@@ -134,7 +134,7 @@ fireLabel <- paste(sep = "<br/>",
 
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(noaa_latest_fires) %>%
-  setView(-104.6, 38.2, zoom = 6) %>% 
+  setView(-104.6, 38.2, zoom = 5) %>% 
   addProviderTiles(provider = "Stamen.TonerLite") %>%
   addCircleMarkers(radius = 1,
                    color = "orange",
