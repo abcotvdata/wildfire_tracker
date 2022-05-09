@@ -126,7 +126,7 @@ fireIcons <- icons(
 # setup the popup box content for fire POINTS and assign to a value 
 fireLabel <- paste(sep = "<br/>",
                    paste("<font size='5'><b>",fires$name,"</font size></b>"),
-                   paste("<font size='2'>",fires$location),
+                   paste("<font size='2'>",fires$location,"</font size></b>"),
                    paste("<font size='3'><b>County: </b>", fires$county),
                    paste(" "),
                    paste("<b>Acres burned: </b>",prettyNum(fires$acres_burned,big.mark=",")),
