@@ -11,7 +11,7 @@ jobs:
     name: Scrape fire data
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: r-lib/actions/setup-r@v1
       - name: Set up pandoc for Rmd docs
         uses: r-lib/actions/setup-pandoc@v1

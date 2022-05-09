@@ -62,7 +62,7 @@ air_quality <- st_read("data/airnow_aq.geojson")
 
 # Create temporary perimeter label
 perimeterLabel <- paste("<b><font size='4'>",nfis_perimeters$irwin_IncidentName," Fire</b></font size><br/><font size='3'>",
-                        "Perimeter updated ",nfis_perimeters$poly_DateCurrent,"<br>",nfis_perimeters$irwin_FireBehaviorGeneral,"<font size>")
+                        "Perimeter updated ",nfis_perimeters$poly_DateCurrent,"<font size>")
 # Create color palette for air quality
 airpal <- colorFactor(palette = c("#b1dbad", "#ffffb8", "#ffcc80","#ff8280","#957aa3","#a18f7f"), levels = c("1", "2", "3", "4","5","6"), na.color = "#ff8280")
 
@@ -123,7 +123,7 @@ fireLabel <- paste(sep = "<br/>",
                    paste("<font size='3'>",fires$location),
                    paste("<b>County: </b>", fires$county),
                    paste(" "),
-                   paste("<b>Acres burned: </b>",format(fires$acres_burned,big.mark=",",scientific=FALSE)),
+                   paste("<b>Acres burned: </b>",prettyNum(fires$acres_burned,big.mark=",")),
                    paste("<b>Percent contained: </b>",fires$percent_contained),
                    paste(" "),
                    paste("<b>Started: </b>", fires$started),
