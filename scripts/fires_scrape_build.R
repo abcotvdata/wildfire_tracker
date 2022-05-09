@@ -126,10 +126,10 @@ fireLabel <- paste(sep = "<br/>",
                    paste("<b>Acres burned: </b>",prettyNum(fires$acres_burned,big.mark=",")),
                    paste("<b>Percent contained: </b>",fires$percent_contained),
                    paste(" "),
-                   paste("<b>Started: </b>", fires$started),
-                   paste("<b>Updated: </b>", fires$updated,"</font size>"),
+                   paste("<b>Started: </b>", paste(as.character(as.POSIXct(fires$started, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p"))),
+                   paste("<b>Updated: </b>", paste(as.character(as.POSIXct(fires$updated, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p")),"</font size>"),
                    paste(" "),
-                   paste("<font size='2'>","* Acreage burned and containment statistics are updated as CalFire and/or the federal government releases information.","</font size>")
+                   paste("<font size='2'>","* Acreage burned and containment statistics are updated as state or federal governments release information.","</font size>")
 )
 
 # New wildfire map include fires, smoke and hotspots
