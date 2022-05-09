@@ -7,49 +7,48 @@ library(htmlwidgets)
 
 # California fires data
 download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?inactive=false",
-              "calfire_activefires.geojson")
+              "data/calfire_activefires.geojson")
 # Read in geojson and then transform to sf format
-calfire_activefires <- st_read("calfire_activefires.geojson")
+calfire_activefires <- st_read("data/calfire_activefires.geojson")
 
 # NOAA satellite fires
 download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/latesthms.txt",
-              "noaa_latest_fires.csv")
-noaa_latest_fires <- read_csv("noaa_latest_fires.csv")
+              "data/noaa_latest_fires.csv")
+noaa_latest_fires <- read_csv("data/noaa_latest_fires.csv")
 # convert to geo file next
 
 # NOAA satellite smoke sourced as shapefile, then read in as sf
-download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.shp","latest_smoke.shp")
-download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.dbf","latest_smoke.dbf")
-download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.shx","latest_smoke.shx")
-latest_smoke <- st_read("latest_smoke.shp")
-# lastfall_smoke <- st_read("hms_smoke20211101.shp") # if needed for testing
+download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.shp","data/latest_smoke.shp")
+download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.dbf","data/latest_smoke.dbf")
+download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.shx","data/latest_smoke.shx")
+latest_smoke <- st_read("data/latest_smoke.shp")
 
 # Active wildfire perimeters from NFIS
 download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
-              "active_perimeters.geojson")
+              "data/active_perimeters.geojson")
 # Read in and downsize to just what we need for project
-nfis_perimeters <- st_read("active_perimeters.geojson") %>%
+nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
 
 # NASA series of wildfires hotspots data
 # Alaska is a separate file if we need/want it
 # last 24 hours from VIIRS SUOMI NPP SATELLITE
 download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
-              "hotspots_npp.csv")
+              "data/hotspots_npp.csv")
 # last 24 hours from VIIRS NOAA-20 satellite
 download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
-              "hotspots_noaa20.csv")
+              "data/hotspots_noaa20.csv")
 # last 24 hours from MODIS satellite
 download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
-              "hotspots_modis.csv")
+              "data/hotspots_modis.csv")
 # read-in satellites' data
-hotspots_modis <- read_csv("hotspots_modis.csv", 
+hotspots_modis <- read_csv("data/hotspots_modis.csv", 
                            col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
                                             acq_time = col_time(format = "%H%M")))
-hotspots_noaa20 <- read_csv("hotspots_noaa20.csv", 
+hotspots_noaa20 <- read_csv("data/hotspots_noaa20.csv", 
                             col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
                                              acq_time = col_time(format = "%H%M")))
-hotspots_npp <- read_csv("hotspots_npp.csv", 
+hotspots_npp <- read_csv("data/hotspots_npp.csv", 
                          col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
                                           acq_time = col_time(format = "%H%M")))
 # combine those hotspots files into a single geo layer, clean up
@@ -58,8 +57,8 @@ rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
 
 # Latest AQ geofile from AirNow
 download.file("https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/AirNowLatestContoursCombined/FeatureServer/0/query?where=0%3D0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pgeojson",
-              "airnow_aq.geojson")
-air_quality <- st_read("airnow_aq.geojson")
+              "data/airnow_aq.geojson")
+air_quality <- st_read("data/airnow_aq.geojson")
 
 # Create temporary perimeter label
 perimeterLabel <- paste("<b><font size='4'>",nfis_perimeters$irwin_IncidentName," Fire</b></font size><br/><font size='3'>",
@@ -116,7 +115,7 @@ fireIcons <- icons(
   iconUrl = ifelse(fires$percent_contained == "100",
                    "firegrey.png",
                    "fireorange.png"),
-  iconWidth = 15, iconHeight = 15)
+  iconWidth = 20, iconHeight = 20)
 
 # setup the popup box content for fire POINTS and assign to a value 
 fireLabel <- paste(sep = "<br/>",
