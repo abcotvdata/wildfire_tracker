@@ -134,7 +134,7 @@ fireLabel <- paste(sep = "<br/>",
 
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(noaa_latest_fires) %>%
-  setView(-104.6, 38.2, zoom = 5) %>% 
+  setView(-104.6, 38.2, zoom = 6) %>% 
   addProviderTiles(provider = "Stamen.TonerLite") %>%
   addCircleMarkers(radius = 1,
                    color = "orange",
@@ -226,4 +226,3 @@ california_map
 # Export as HTML file
 saveWidget(california_map, 'docs/map_california.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
 saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
-
