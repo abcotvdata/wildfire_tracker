@@ -1,16 +1,16 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 San Luis Fire,NM,Hidalgo,"37 miles South of Animas, NM",WF,31.32271,-108.8072,2022-03-04T20:05:00Z,2022-03-17T17:26:15Z,2958,50,2022-NMN3S-000048,Minimal,Human,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-05-12T08:37:30Z,259810,33,2022-NMSNF-000027,Extreme,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-05-12T23:52:18Z,259810,30,2022-NMSNF-000027,Active,Human,NFIS,NA
 Nogal Canyon Fire,NM,Lincoln,8 miles NW of Ruidoso in Nogal Canyon.,WF,33.50153,-105.7564,2022-04-12T19:17:00Z,2022-04-17T03:03:33Z,412,100,2022-NMN5S-000114,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-04T21:33:08Z,59359,97,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Active,Undetermined,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,98,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
-Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-05-12T20:04:12Z,43376,11,2022-NMSNF-000049,Active,Undetermined,NFIS,NA
-Bear Trap Fire,NM,Socorro,"22 miles Southwest of Magdalena, NM.",WF,33.83099,-107.5618,2022-05-01T17:58:00Z,2022-05-12T05:02:27Z,6655,0,2022-NMCIF-000138,Active,Undetermined,NFIS,NA
+Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-05-12T20:04:12Z,43887,19,2022-NMSNF-000049,Active,Undetermined,NFIS,NA
+Bear Trap Fire,NM,Socorro,"22 miles Southwest of Magdalena, NM.",WF,33.83099,-107.5618,2022-05-01T17:58:00Z,2022-05-12T05:02:27Z,7552,15,2022-NMCIF-000138,Moderate,Undetermined,NFIS,NA
 Keystone Fire,MN,Chisago,NA,WF,NA,NA,2022-05-04T22:00:25Z,2022-05-05T18:41:48Z,11,NA,2022-MNMNS-344032,NA,NA,NFIS,NA
 Water Fire,NM,Grant,South of FS road 152 east of Highway 35,WF,32.93,-107.9846,2022-04-28T20:29:59Z,2022-05-05T20:45:52Z,760,90,2022-NMGNF-000151,Minimal,Undetermined,NFIS,NA
 Skogland Lake Fire Fire,MN,Isanti,NA,WF,NA,NA,2022-05-07T21:40:45Z,2022-05-08T15:08:30Z,14,NA,2022-MNMNS-344043,NA,NA,NFIS,NA
-San Rafael Fire,AZ,Santa Cruz,Senoita,WF,31.337061,-110.625008,2022-05-08T01:53:00Z,2022-05-10T14:19:46Z,11620,62,2022-AZA3S-220521,Moderate,Undetermined,NFIS,NA
+San Rafael Fire,AZ,Santa Cruz,Senoita,WF,31.337061,-110.625008,2022-05-08T01:53:00Z,2022-05-10T14:19:46Z,11620,88,2022-AZA3S-220521,Moderate,Undetermined,NFIS,NA
 Forest Trail Fire,MA,Norfolk,NA,WF,NA,NA,2022-05-08T17:00:30Z,2022-05-09T01:57:43Z,30,NA,2022-MAMAS-MA04024,NA,NA,NFIS,NA
 312038 Fire,MN,Morrison,NA,WF,NA,NA,2022-05-08T01:29:52Z,2022-05-09T14:15:47Z,10,NA,2022-MNMNS-312038,NA,NA,NFIS,NA
 Beaver Hut Fire,MA,Middlesex,NA,WF,NA,NA,2022-05-09T21:22:39Z,2022-05-10T16:04:45Z,12,NA,2022-MAMAS-FD06014,NA,NA,NFIS,NA
