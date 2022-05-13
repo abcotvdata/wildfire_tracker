@@ -1,6 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 San Luis Fire,NM,Hidalgo,"37 miles South of Animas, NM",WF,31.32271,-108.8072,2022-03-04T20:05:00Z,2022-03-17T17:26:15Z,2958,50,2022-NMN3S-000048,Minimal,Human,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-05-12T23:52:18Z,259810,30,2022-NMSNF-000027,Active,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-05-13T02:16:51Z,259810,30,2022-NMSNF-000027,Active,Human,NFIS,NA
 Nogal Canyon Fire,NM,Lincoln,8 miles NW of Ruidoso in Nogal Canyon.,WF,33.50153,-105.7564,2022-04-12T19:17:00Z,2022-04-17T03:03:33Z,412,100,2022-NMN5S-000114,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-04T21:33:08Z,59359,97,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Active,Undetermined,NFIS,NA
@@ -29,5 +29,5 @@ Flower Fire,MN,Pine,NA,WF,NA,NA,2022-05-10T20:56:08Z,2022-05-11T18:16:53Z,2.1,NA
 Marsh Stream Fire Fire,ME,Waldo,NA,WF,NA,NA,2022-05-09T18:24:00Z,2022-05-11T18:49:04Z,NA,NA,2022-MEMES-22002090,NA,Human,NFIS,NA
 129 Fire,MN,Becker,NA,WF,NA,NA,2022-05-11T16:11:00Z,2022-05-12T14:02:14Z,NA,NA,2022-MNMNA-000015,NA,Human,NFIS,NA
 Moonlight Rx Fire,CA,Plumas,"Antelope Lake, southwest of Janesville in Plumas County. ",Wildfire,40.18494,-120.4849,2022-04-09T17:55:59Z,2022-04-28T08:49:28Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/4/9/moonlight-rx/
-House Fire,CA,Fresno,"Tollhouse Rd and Van Vleet, southwest of Shaver Lake in Fresno County",Fire,36.974622,-119.443013,2022-05-11T12:39:00Z,2022-05-12T10:52:57Z,171,60,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/5/11/house-fire/
-Coastal Fire,CA,Orange,"St. Tropez and Laguna Ridge Trail, southeast of Laguna Beach ",Fire,33.509464,-117.744398,2022-05-11T14:51:00Z,2022-05-12T10:53:45Z,199,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/5/11/coastal-fire/
+House Fire,CA,Fresno,"Tollhouse Rd and Van Vleet, southwest of Shaver Lake in Fresno County",Fire,36.974622,-119.443013,2022-05-11T12:39:00Z,2022-05-12T17:39:42Z,171,70,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/5/11/house-fire/
+Coastal Fire,CA,Orange,"St. Tropez and Laguna Ridge Trail, southeast of Laguna Beach ",Fire,33.509464,-117.744398,2022-05-11T14:51:00Z,2022-05-12T17:39:57Z,200,15,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/5/11/coastal-fire/
