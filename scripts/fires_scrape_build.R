@@ -143,8 +143,10 @@ fireLabel <- paste(sep = "<br/>",
 
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(noaa_latest_fires) %>%
-  setView(max_lon, max_lat, zoom = 6) %>% 
-  addProviderTiles(provider = "Stamen.TonerLite") %>%
+  setView(max_lon, max_lat, zoom = 5) %>% 
+  addTiles(group = "Street Map") %>%
+  addProviderTiles(providers$CartoDB.DarkMatter, group = "Dark") %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
   addCircleMarkers(radius = 1.5,
                    color = "orange",
                    stroke = FALSE,
@@ -181,6 +183,7 @@ wildfire_map <- leaflet(noaa_latest_fires) %>%
             labels=c("Good", "Moderate", "Unhealthy for Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous","No AQ Data"),
             position = 'bottomleft') %>%
   addLayersControl(
+    baseGroups = c("Street Map", "Dark", "Satellite"),
     overlayGroups = c("Fires","Perimeters", "Hot Spots","Smoke","Air Quality"),
     options = layersControlOptions(collapsed = FALSE),
     position = 'bottomright') %>% hideGroup(c("Smoke","Air Quality"))
