@@ -1,6 +1,5 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
-San Luis Fire,NM,Hidalgo,"37 miles South of Animas, NM",WF,31.32271,-108.8072,2022-03-04T20:05:00Z,2022-03-17T17:26:15Z,2958,50,2022-NMN3S-000048,Minimal,Human,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,98,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-05-27T09:03:41Z,312057,47,2022-NMSNF-000027,Active,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-05-19T19:09:08Z,45605,92,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
@@ -9,7 +8,7 @@ Adak Fire,AK,Aleutians West,NA,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,202
 Coastal Fire,CA,Orange,"Laguna Beach, Aliso and Woods Canyon Wilderness Park,  Laguna Niguel",WF,NA,NA,2022-05-11T21:51:00Z,2022-05-13T03:09:58Z,200,100,2022-CAORC-060975,Minimal,Undetermined,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-05-27T10:12:14Z,185234,13,2022-NMGNF-000185,Active,Human,NFIS,NA
 Mesquite Heat Fire,TX,Taylor,"Approximately 7 miles southwest of Abilene, TX",WF,32.26583333,-99.96361167,2022-05-17T21:28:39Z,2022-05-24T14:42:45Z,10960,82,2022-TXTXS-222985,Minimal,Undetermined,NFIS,NA
-201 East Fire,NE,Thomas,"3.5 miles south of Halsey, NE",WF,41.84138,-100.2883,2022-05-17T20:19:00Z,2022-05-20T20:50:17Z,4192,95,2022-NENBF-220286,Minimal,Natural,NFIS,NA
+201 East Fire,NE,Thomas,"3.5 miles south of Halsey, NE",WF,41.84138,-100.2883,2022-05-17T20:19:00Z,2022-05-20T20:50:17Z,4192,100,2022-NENBF-220286,Minimal,Natural,NFIS,NA
 Plumtaw Fire,CO,Archuleta,"7 mi NW of Pagosa Springs, CO",WF,37.42638,-107.1166,2022-05-17T18:49:00Z,2022-05-21T19:58:49Z,735,77,2022-COSJF-000203,Minimal,Undetermined,NFIS,NA
 Simms Fire,CO,Ouray,"14 Miles Southwest of Montrose, CO",WF,38.28299,-107.9271,2022-05-19T22:18:00Z,2022-05-23T22:22:45Z,313,100,2022-COGMF-000068,Minimal,Undetermined,NFIS,NA
 Windfall Mountain Fire,AK,Southeast Fairbanks,NA,WF,65.116667,-141.233367,2022-05-20T23:28:00Z,2022-05-23T20:05:11Z,25.8,NA,2022-AKUYD-000108,NA,Natural,NFIS,NA
