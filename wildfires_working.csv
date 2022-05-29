@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,98,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
-Bear Trap Fire,NM,Socorro,"22 miles Southwest of Magdalena, NM.",WF,33.83099,-107.5618,2022-05-01T17:58:00Z,2022-05-27T17:38:06Z,38225,75,2022-NMCIF-000138,Moderate,Undetermined,NFIS,NA
+Bear Trap Fire,NM,Socorro,"22 miles Southwest of Magdalena, NM.",WF,33.83099,-107.5618,2022-05-01T17:58:00Z,2022-05-27T17:38:06Z,38225,82,2022-NMCIF-000138,Minimal,Undetermined,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-05-27T10:40:05Z,45605,95,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-18T10:24:30Z,59359,100,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
 Adak Fire,AK,Aleutians West,NA,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,NA,2022-AKSWS-204078,NA,Human,NFIS,NA
@@ -14,7 +14,7 @@ Simms Fire,CO,Ouray,"14 Miles Southwest of Montrose, CO",WF,38.28299,-107.9271,2
 Windfall Mountain Fire,AK,Southeast Fairbanks,NA,WF,65.116667,-141.233367,2022-05-20T23:28:00Z,2022-05-23T20:05:11Z,25.8,NA,2022-AKUYD-000108,NA,Natural,NFIS,NA
 Perins Peak Fire,CO,La Plata,"1.5 miles west of Durango, CO",WF,37.29061,-107.9159,2022-05-24T22:50:59Z,2022-05-25T16:48:20Z,106,80,2022-COTSD-000244,Minimal,Undetermined,NFIS,NA
 Brush Fire,MN,Cass,"4.6 Miles NNW of Motley, MN",WF,NA,NA,2022-05-07T19:30:09Z,2022-05-19T20:05:33Z,150,100,2022-MNMNS-142119,Minimal,Undetermined,NFIS,NA
-Elk Trail Fire,CA,San Bernardino,Joshua Tree National Park,WF,34.07631,-116.4352,2022-05-26T19:23:00Z,2022-05-28T05:09:18Z,431,75,2022-CAJTP-008459,Minimal,Undetermined,NFIS,NA
+Elk Trail Fire,CA,San Bernardino,3 MILES SW OF YUCCA VALLEY,WF,34.07631,-116.4352,2022-05-26T19:23:00Z,2022-05-29T23:17:18Z,431,95,2022-CAJTP-008459,Minimal,Undetermined,NFIS,NA
 Lost Lake Fire,CA,Riverside,"Lost Lake Resort, Hidden Valley Resort",WF,34.14945,-114.6114,2022-05-26T14:05:00Z,2022-05-29T16:08:49Z,5500,33,2022-AZCRA-000528,Active,Undetermined,NFIS,NA
 Ma05077 Fire,MA,Essex,NA,WF,NA,NA,2022-05-22T18:22:54Z,2022-05-29T13:39:01Z,0.05,NA,2022-MAMAS-MA05077,NA,NA,NFIS,NA
 Ma05081 Fire,MA,Essex,NA,WF,NA,NA,2022-05-25T14:43:53Z,2022-05-29T14:47:54Z,0.05,NA,2022-MAMAS-MA05081,NA,NA,NFIS,NA
