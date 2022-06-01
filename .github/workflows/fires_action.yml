@@ -16,7 +16,7 @@ jobs:
       - name: Set up pandoc for Rmd docs
         uses: r-lib/actions/setup-pandoc@v1
       - name: Install dependencies and packages
-        run: Rscript -e 'install.packages(c("tidyverse","sf","leaflet","htmlwidgets","leaflet.providers","leaflet.extras"))'
+        run: Rscript -e 'install.packages(c("dplyr","sf","leaflet","htmlwidgets","leaflet.providers","leaflet.extras"))'
       - name: Scrape data, reshape, make fire map
         run: Rscript scripts/fires_scrape_build.R
       - name: Commit results
