@@ -144,6 +144,11 @@ fireLabel <- paste(sep = "<br/>",
                    paste("<font size='1'>","* Acres burned and containment are updated as state or federal governments release information.","</font size>")
 )
 
+
+addSearchFeatures(options =
+                    searchFeaturesOptions(zoom = 10),
+                  targetGroups = 'Public')
+
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(noaa_latest_fires) %>%
   setView(max_lon, max_lat, zoom = 5) %>% 
@@ -189,8 +194,12 @@ wildfire_map <- leaflet(noaa_latest_fires) %>%
     baseGroups = c("Street Map", "Dark", "Satellite"),
     overlayGroups = c("Fires","Perimeters", "Hot Spots","Smoke","Air Quality"),
     options = layersControlOptions(collapsed = FALSE),
-    position = 'bottomright') %>% hideGroup(c("Smoke","Air Quality"))
-wildfire_map
+    position = 'bottomright') %>% hideGroup(c("Smoke","Air Quality")) 
+# %>%
+#  addSearchFeatures(options =
+#                    searchFeaturesOptions(zoom = 10),
+#                  targetGroups = 'Fires')
+# wildfire_map
 
 # Temporary replacement for existing Cali-only
 # wildfire map include fires and perimeters only
@@ -236,7 +245,7 @@ california_map <- leaflet(noaa_latest_fires) %>%
     overlayGroups = c("Fires","Perimeters", "Hot Spots","Smoke","Air Quality"),
     options = layersControlOptions(collapsed = FALSE),
     position = 'bottomright') %>% hideGroup(c("Hot Spots","Smoke","Air Quality"))
-california_map
+# california_map
 
 # Export as HTML file
 saveWidget(california_map, 'docs/map_california.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
