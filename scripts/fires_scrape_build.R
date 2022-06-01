@@ -1,6 +1,7 @@
 # library(tidyverse)
 library(dplyr)
 library(readr)
+library(stringr)
 library(leaflet)
 library(leaflet.extras)
 library(leaflet.providers)
