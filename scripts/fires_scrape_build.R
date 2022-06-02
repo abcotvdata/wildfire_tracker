@@ -144,11 +144,6 @@ fireLabel <- paste(sep = "<br/>",
                    paste("<font size='1'>","* Acres burned and containment are updated as state or federal governments release information.","</font size>")
 )
 
-
-addSearchFeatures(options =
-                    searchFeaturesOptions(zoom = 10),
-                  targetGroups = 'Public')
-
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(noaa_latest_fires) %>%
   setView(max_lon, max_lat, zoom = 5) %>% 
