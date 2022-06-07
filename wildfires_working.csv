@@ -1,22 +1,21 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
+Rattlesnake Creek Fire,MT,Jefferson,NA,WF,46.4463,-111.9594,2022-04-06T20:12:53Z,2022-04-08T16:44:18Z,7,NA,2022-MTLG51-000052,NA,Undetermined,NFIS,NA
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,100,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-02T22:43:06Z,316654,59,2022-NMSNF-000027,Active,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-07T09:14:32Z,318197,65,2022-NMSNF-000027,Moderate,Human,NFIS,NA
 Bear Trap Fire,NM,Socorro,"22 miles Southwest of Magdalena, NM.",WF,33.83099,-107.5618,2022-05-01T17:58:00Z,2022-05-27T17:38:06Z,38225,98,2022-NMCIF-000138,Minimal,Undetermined,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,95,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-18T10:24:30Z,59359,100,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
-Coastal Fire,CA,Orange,"Laguna Beach, Aliso and Woods Canyon Wilderness Park,  Laguna Niguel",WF,NA,NA,2022-05-11T21:51:00Z,2022-05-13T03:09:58Z,200,100,2022-CAORC-060975,Minimal,Undetermined,NFIS,NA
-Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-03T09:45:48Z,258062,25,2022-NMGNF-000185,Active,Human,NFIS,NA
-Mesquite Heat Fire,TX,Taylor,"Approximately 7 miles southwest of Abilene, TX",WF,32.26583333,-99.96361167,2022-05-17T21:28:39Z,2022-05-26T22:55:23Z,10960,100,2022-TXTXS-222985,Minimal,Undetermined,NFIS,NA
-Plumtaw Fire,CO,Archuleta,"7 mi NW of Pagosa Springs, CO",WF,37.42638,-107.1166,2022-05-17T18:49:00Z,2022-05-21T19:58:49Z,735,91,2022-COSJF-000203,Minimal,Undetermined,NFIS,NA
-Simms Fire,CO,Ouray,"14 Miles Southwest of Montrose, CO",WF,38.28299,-107.9271,2022-05-19T22:18:00Z,2022-05-23T22:22:45Z,313,100,2022-COGMF-000068,Minimal,Undetermined,NFIS,NA
+Adak Fire,AK,Aleutians West,NA,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,NA,2022-AKSWS-204078,NA,Human,NFIS,NA
+Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-07T08:49:50Z,288424,47,2022-NMGNF-000185,Active,Human,NFIS,NA
 Perins Peak Fire,CO,La Plata,"1.5 miles west of Durango, CO",WF,37.29061,-107.9159,2022-05-24T22:50:59Z,2022-05-25T16:48:20Z,106,100,2022-COTSD-000244,Minimal,Undetermined,NFIS,NA
 Brush Fire,MN,Cass,"4.6 Miles NNW of Motley, MN",WF,NA,NA,2022-05-07T19:30:09Z,2022-05-19T20:05:33Z,150,100,2022-MNMNS-142119,Minimal,Undetermined,NFIS,NA
-Lost Lake Fire,CA,Riverside,"Lost Lake Resort, Hidden Valley Resort",WF,34.14945,-114.6114,2022-05-26T14:05:00Z,2022-05-30T17:40:50Z,5856,85,2022-AZCRA-000528,Minimal,Undetermined,NFIS,NA
-Foster Fire,NM,Hidalgo,22 Miles South of Rodeo,WF,0,-108.9241,2022-05-29T18:53:00Z,2022-06-02T20:21:49Z,7512,82,2022-AZCNF-000401,Minimal,Human,NFIS,NA
-Bouquet Fire,CA,Los Angeles,NA,WF,34.30555,-118.2645,2022-05-30T21:01:59Z,2022-05-31T03:57:18Z,NA,NA,2022-CAANF-001564,NA,Undetermined,NFIS,NA
-Contact Creek Fire,AK,Lake and Peninsula,NA,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-02T01:22:11Z,3439,NA,2022-AKSWS-204151,NA,Natural,NFIS,NA
-East Fork Fire,AK,Kusilvak,NA,WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-03T00:33:51Z,1800,NA,2022-AKGAD-000160,NA,Natural,NFIS,NA
+Foster Fire,NM,Hidalgo,22 Miles South of Rodeo,WF,0,-108.9241,2022-05-29T18:53:00Z,2022-06-02T20:21:49Z,7598,95,2022-AZCNF-000401,Minimal,Human,NFIS,NA
+Contact Creek Fire,AK,Lake and Peninsula,NA,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-05T19:41:18Z,6632,NA,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
+East Fork Fire,AK,Kusilvak,25 miles upriver from St Marys,WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-06T23:41:23Z,25000,0,2022-AKGAD-000160,Active,Natural,NFIS,NA
+Bear Dance Fire,CO,La Plata,NA,WF,37.74096,-108.0857,2022-06-03T18:23:00Z,2022-06-04T02:22:35Z,89,NA,2022-COSUA-000316,NA,Undetermined,NFIS,NA
+142037 Fire,MN,Crow Wing,NA,WF,NA,NA,2022-06-04T22:16:54Z,2022-06-06T01:16:24Z,2.5,NA,2022-MNMNS-142037,NA,NA,NFIS,NA
+Cienegita Fire,NM,Otero,NA,WF,33.30293,-105.784,2022-06-03T17:03:59Z,2022-06-05T22:06:59Z,37,NA,2022-NMMEA-000322,NA,Natural,NFIS,NA
 Lost Lake Fire Fire,CA,Riverside,"Hwy 95 and Lost Lake, Community of Lost Lake in Riverside County",Wildfire,34.010838,-114.484173,2022-05-26T21:31:18Z,2022-06-02T10:21:18Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/5/26/lost-lake-fire/
 Old Fire,CA,Napa,"Old Soda Springs Road, northeast of Napa",Wildfire,38.370078,-122.270417,2022-05-31T15:35:00Z,2022-06-04T18:06:56Z,570,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/5/31/old-fire/
 62 Fire,CA,Riverside,"Avenue 62 and Monroe Street, East of La Quinta",Wildfire,33.59823,-116.23339,2022-06-04T23:15:00Z,2022-06-05T09:25:29Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/4/62-fire/
