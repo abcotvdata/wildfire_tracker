@@ -2,7 +2,7 @@ name,state,county,location,type,latitude,longitude,started,updated,acres_burned,
 Rattlesnake Creek Fire,MT,Jefferson,NA,WF,46.4463,-111.9594,2022-04-06T20:12:53Z,2022-04-08T16:44:18Z,7,NA,2022-MTLG51-000052,NA,Undetermined,NFIS,NA
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,100,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-09T18:15:50Z,318599,65,2022-NMSNF-000027,Moderate,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-09T19:20:54Z,318599,65,2022-NMSNF-000027,Moderate,Human,NFIS,NA
 Bear Trap Fire,NM,Socorro,"22 miles Southwest of Magdalena, NM.",WF,33.83099,-107.5618,2022-05-01T17:58:00Z,2022-05-27T17:38:06Z,38225,98,2022-NMCIF-000138,Minimal,Undetermined,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,95,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-18T10:24:30Z,59359,100,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
@@ -40,6 +40,7 @@ Upper Talarik Fire,AK,Lake and Peninsula,NA,WF,59.946667,-155.27,2022-06-07T00:4
 Sawpit Creek Fire,AK,Bethel,NA,WF,61.227583,-159.342883,2022-06-08T07:42:23Z,2022-06-09T16:09:48Z,150,NA,2022-AKSWS-204234,Minimal,Undetermined,NFIS,NA
 Johnson River Fire,AK,Bethel,NA,WF,60.71755,-162.075033,2022-06-08T22:06:51Z,2022-06-09T16:42:35Z,50,NA,2022-AKSWS-204235,Minimal,Natural,NFIS,NA
 Cypress Mill Fire,TX,Blanco,about 7.5 miles north east of Johnson City,WF,30.35248448,-98.29543102,2022-06-07T19:28:53Z,2022-06-09T17:42:37Z,978,85,2022-TXTXS-223170,Moderate,Human,NFIS,NA
+Juniper Wilderness Fire,WA,Franklin,NA,WF,46.3213,-118.9415,2022-06-08T23:27:00Z,2022-06-09T19:26:27Z,20,NA,2022-WASPD-000098,NA,Undetermined,NFIS,NA
 62 Fire,CA,Riverside,"Avenue 62 and Monroe Street, East of La Quinta",Wildfire,33.59823,-116.23339,2022-06-04T23:15:00Z,2022-06-07T16:07:52Z,60,25,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/4/62-fire/
 Eagle Fire,CA,San Luis Obispo,"Bald Eagle and Lazy Hill Road, northeast of Paso Robles ",Wildfire,35.72373,-120.56019,2022-06-06T17:50:00Z,2022-06-07T09:54:22Z,36,90,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/6/eagle-fire/
 Hesperia Fire,CA,San Bernardino,"Hwy 138 and Hwy 173, Hesperia ",Wildfire,34.31267,-117.34635,2022-06-06T16:47:00Z,2022-06-07T18:32:11Z,95,70,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/6/hesperia-fire/
