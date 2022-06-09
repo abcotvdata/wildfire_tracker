@@ -2,7 +2,7 @@ name,state,county,location,type,latitude,longitude,started,updated,acres_burned,
 Rattlesnake Creek Fire,MT,Jefferson,NA,WF,46.4463,-111.9594,2022-04-06T20:12:53Z,2022-04-08T16:44:18Z,7,NA,2022-MTLG51-000052,NA,Undetermined,NFIS,NA
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,100,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-08T09:37:33Z,318598,65,2022-NMSNF-000027,Active,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-09T18:15:50Z,318599,65,2022-NMSNF-000027,Moderate,Human,NFIS,NA
 Bear Trap Fire,NM,Socorro,"22 miles Southwest of Magdalena, NM.",WF,33.83099,-107.5618,2022-05-01T17:58:00Z,2022-05-27T17:38:06Z,38225,98,2022-NMCIF-000138,Minimal,Undetermined,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,95,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-18T10:24:30Z,59359,100,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
@@ -12,7 +12,7 @@ Perins Peak Fire,CO,La Plata,"1.5 miles west of Durango, CO",WF,37.29061,-107.91
 Brush Fire,MN,Cass,"4.6 Miles NNW of Motley, MN",WF,NA,NA,2022-05-07T19:30:09Z,2022-05-19T20:05:33Z,150,100,2022-MNMNS-142119,Minimal,Undetermined,NFIS,NA
 Foster Fire,NM,Hidalgo,22 Miles South of Rodeo,WF,0,-108.9241,2022-05-29T18:53:00Z,2022-06-02T20:21:49Z,7598,95,2022-AZCNF-000401,Minimal,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,25 miles SE of King Salmon,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-09T06:39:14Z,8127,0,2022-AKSWS-204151,Moderate,Natural,NFIS,NA
-East Fork Fire,AK,Kusilvak,25 miles upriver from St Marys,WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-09T02:12:50Z,33738,0,2022-AKGAD-000160,Extreme,Natural,NFIS,NA
+East Fork Fire,AK,Kusilvak,25 miles upriver from St Marys,WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-09T16:02:14Z,49904.6,0,2022-AKGAD-000160,Active,Natural,NFIS,NA
 Bear Dance Fire,CO,La Plata,NA,WF,37.74096,-108.0857,2022-06-03T18:23:00Z,2022-06-04T02:22:35Z,89,NA,2022-COSUA-000316,NA,Undetermined,NFIS,NA
 Cienegita Fire,NM,Otero,NA,WF,33.30293,-105.784,2022-06-03T17:03:59Z,2022-06-06T21:46:51Z,37,NA,2022-NMMEA-000322,NA,Natural,NFIS,NA
 Toquerville Falls Fire,UT,Washington,NA,WF,37.28272,-113.273,2022-06-05T18:20:00Z,2022-06-07T13:42:08Z,38,NA,2022-UTCPD-000199,NA,Human,NFIS,NA
@@ -20,7 +20,7 @@ Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-
 Brown Fire,ID,Clearwater,NA,WF,46.3602,-115.8521,2022-05-11T14:57:00Z,2022-06-01T16:33:22Z,0.1,NA,2022-IDCTS-000096,NA,Human,NFIS,NA
 South Lime Lake Fire,AK,Bethel,100 miles south of McGrath,WF,61.395017,-155.39465,2022-06-06T00:12:49Z,2022-06-09T05:38:20Z,526,0,2022-AKSWS-204190,Moderate,Natural,NFIS,NA
 Tatlawiksuk Fire,AK,Yukon-Koyukuk,41 miles south of McGrath,WF,62.321167,-155.2585,2022-06-05T07:24:50Z,2022-06-09T05:04:24Z,8000,0,2022-AKSWS-204183,Active,Natural,NFIS,NA
-Fourth Of July Creek Fire,AK,Yukon-Koyukuk,NA,WF,62.74,-156.6,2022-06-06T16:16:04Z,2022-06-08T22:43:41Z,500,NA,2022-AKSWS-204202,Moderate,Natural,NFIS,NA
+Fourth Of July Creek Fire,AK,Yukon-Koyukuk,Thirty Five Miles West of Mcgrath AK,WF,62.74,-156.6,2022-06-06T16:16:04Z,2022-06-09T17:59:48Z,6500,0,2022-AKSWS-204202,Active,Natural,NFIS,NA
 Omega Creek Fire,AK,Yukon-Koyukuk,NA,WF,65.21653,-150.2555,2022-06-05T00:26:00Z,2022-06-08T22:06:36Z,6.7,NA,2022-AKTAD-000181,NA,Human,NFIS,NA
 Kokwok Fire,AK,Dillingham,75 miles North Of Dillingham AK,WF,59.751233,-158.2251,2022-06-06T17:45:47Z,2022-06-08T20:08:46Z,1000,0,2022-AKSWS-204200,Moderate,Natural,NFIS,NA
 Telaquana River Fire,AK,Bethel,235 miles south of McGrath AK,WF,61.018417,-154.344333,2022-06-07T06:38:08Z,2022-06-08T22:51:56Z,7392.2,0,2022-AKSWS-204216,Active,Natural,NFIS,NA
@@ -37,6 +37,9 @@ Swift River Fire,AK,Bethel,NA,WF,61.458883,-154.964617,2022-06-08T07:22:11Z,2022
 Pike Creek Fire,AK,Dillingham,NA,WF,59.878367,-156.25095,2022-06-09T01:46:51Z,2022-06-09T06:10:30Z,3000,NA,2022-AKSWS-204239,Extreme,Natural,NFIS,NA
 Koktuli Fire,AK,Dillingham,NA,WF,59.894967,-156.091467,2022-06-09T02:13:20Z,2022-06-09T06:18:02Z,3000,NA,2022-AKSWS-204240,Active,Undetermined,NFIS,NA
 Upper Talarik Fire,AK,Lake and Peninsula,NA,WF,59.946667,-155.27,2022-06-07T00:49:14Z,2022-06-09T06:37:03Z,0.5,NA,2022-AKSWS-204205,Minimal,Natural,NFIS,NA
+Sawpit Creek Fire,AK,Bethel,NA,WF,61.227583,-159.342883,2022-06-08T07:42:23Z,2022-06-09T16:09:48Z,150,NA,2022-AKSWS-204234,Minimal,Undetermined,NFIS,NA
+Johnson River Fire,AK,Bethel,NA,WF,60.71755,-162.075033,2022-06-08T22:06:51Z,2022-06-09T16:42:35Z,50,NA,2022-AKSWS-204235,Minimal,Natural,NFIS,NA
+Cypress Mill Fire,TX,Blanco,about 7.5 miles north east of Johnson City,WF,30.35248448,-98.29543102,2022-06-07T19:28:53Z,2022-06-09T17:42:37Z,978,85,2022-TXTXS-223170,Moderate,Human,NFIS,NA
 62 Fire,CA,Riverside,"Avenue 62 and Monroe Street, East of La Quinta",Wildfire,33.59823,-116.23339,2022-06-04T23:15:00Z,2022-06-07T16:07:52Z,60,25,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/4/62-fire/
 Eagle Fire,CA,San Luis Obispo,"Bald Eagle and Lazy Hill Road, northeast of Paso Robles ",Wildfire,35.72373,-120.56019,2022-06-06T17:50:00Z,2022-06-07T09:54:22Z,36,90,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/6/eagle-fire/
 Hesperia Fire,CA,San Bernardino,"Hwy 138 and Hwy 173, Hesperia ",Wildfire,34.31267,-117.34635,2022-06-06T16:47:00Z,2022-06-07T18:32:11Z,95,70,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/6/hesperia-fire/
