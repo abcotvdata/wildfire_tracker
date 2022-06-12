@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,100,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-11T09:37:51Z,320009,70,2022-NMSNF-000027,Active,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-12T08:17:23Z,320009,70,2022-NMSNF-000027,Active,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,95,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-18T10:24:30Z,59359,100,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
 Adak Fire,AK,Aleutians West,5 miles N of Adak,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,0,2022-AKSWS-204078,Active,Human,NFIS,NA
@@ -53,7 +53,7 @@ Fork Ceek Fire,AK,Bethel,60 miles SE of Bethel,WF,60.284483,-160.343,2022-06-10T
 Titnuk Creek Fire,AK,Dillingham,100 miles SE of Aniak,WF,60.79988,-157.015292,2022-06-09T06:29:36Z,2022-06-11T06:40:14Z,17697.4,0,2022-AKSWS-204246,Active,Natural,NFIS,NA
 Iowithla River Fire,AK,Dillingham,14 miles NE of Dillingham,WF,59.205833,-158.09375,2022-06-09T00:22:08Z,2022-06-11T06:51:33Z,9578.6,0,2022-AKSWS-204237,Active,Natural,NFIS,NA
 Skates Fire,NM,Grant,15 Miles NE of Silver City,WF,32.96983,-108.14,2022-06-10T20:11:00Z,2022-06-11T10:23:18Z,111,1,2022-NMGNF-000292,Active,Natural,NFIS,NA
-Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-12T02:24:02Z,3500,0,2022-NMCAF-000200,Extreme,Undetermined,NFIS,NA
+Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-12T08:24:06Z,3500,0,2022-NMCAF-000200,Extreme,Undetermined,NFIS,NA
 Kerto Fire,CA,Kern,NA,WF,NA,NA,2022-06-10T20:03:59Z,2022-06-11T18:43:40Z,NA,NA,2022-CAKRN-027224,NA,NA,NFIS,NA
 Graham Fire,CA,Tehama,Campville area off of Cohassett Rd.,WF,40.050167,-121.772,2022-06-10T01:03:48Z,2022-06-12T01:42:30Z,100,15,2022-CALNF-002814,Minimal,Undetermined,NFIS,NA
 Ponglevik River Fire,AK,Kusilvak,NA,WF,62.27555,-164.4046,2022-06-10T19:08:21Z,2022-06-12T05:06:29Z,629.1,NA,2022-AKSWS-204261,Minimal,Undetermined,NFIS,NA
