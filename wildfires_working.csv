@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
 Tunnel Fire,AZ,Coconino,Northeast of city of Flagstaff city limits,WF,35.30602,-111.5857,2022-04-17T23:22:00Z,2022-04-29T12:07:09Z,19105,100,2022-AZCOF-000159,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-14T12:23:53Z,320495,70,2022-NMSNF-000027,Active,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-14T13:47:27Z,320495,70,2022-NMSNF-000027,Active,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,98,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Cooks Peak Fire,NM,Mora,"Northeast of Ocate NM, burning on private and state trust",WF,36.243,-105.038,2022-04-17T22:44:00Z,2022-05-18T10:24:30Z,59359,100,2022-NMN4S-000034,Minimal,Undetermined,NFIS,NA
 Adak Fire,AK,Aleutians West,5 miles N of Adak,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,0,2022-AKSWS-204078,Active,Human,NFIS,NA
@@ -46,7 +46,7 @@ Fork Creek Fire,AK,Bethel,60 miles SE of Bethel,WF,60.284483,-160.343,2022-06-10
 Titnuk Creek Fire,AK,Dillingham,100 miles SE of Aniak,WF,60.79988,-157.015292,2022-06-09T06:29:36Z,2022-06-13T08:07:16Z,29871.2,0,2022-AKSWS-204246,Active,Natural,NFIS,NA
 Iowithla River Fire,AK,Dillingham,14 miles NE of Dillingham,WF,59.205833,-158.09375,2022-06-09T00:22:08Z,2022-06-13T22:53:00Z,19446.9,0,2022-AKSWS-204237,Active,Natural,NFIS,NA
 Skates Fire,NM,Grant,15 Miles NE of Silver City,WF,32.96983,-108.14,2022-06-10T20:11:00Z,2022-06-11T10:23:18Z,111,70,2022-NMGNF-000292,Minimal,Natural,NFIS,NA
-Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-13T09:24:39Z,3944,0,2022-NMCAF-000200,Extreme,Undetermined,NFIS,NA
+Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-14T13:47:27Z,3944,0,2022-NMCAF-000200,Extreme,Undetermined,NFIS,NA
 Kerto Fire,CA,Kern,NA,WF,NA,NA,2022-06-10T20:03:59Z,2022-06-11T18:43:40Z,NA,NA,2022-CAKRN-027224,NA,NA,NFIS,NA
 Graham Fire,CA,Tehama,Campville area off of Cohassett Rd.,WF,40.050167,-121.772,2022-06-10T01:03:48Z,2022-06-12T01:42:30Z,177,50,2022-CALNF-002814,Minimal,Undetermined,NFIS,NA
 Ponglevik River Fire,AK,Kusilvak,74 miles NE of Hooper Bay,WF,62.27555,-164.4046,2022-06-10T19:08:21Z,2022-06-12T05:06:29Z,629.1,0,2022-AKSWS-204261,Active,Undetermined,NFIS,NA
@@ -68,8 +68,8 @@ Border 13 Fire,CA,San Diego,South of Barrett Junction; West of Tecate Peak,WF,32
 62 Fire,CA,Riverside,"Avenue 62 and Monroe Street, East of La Quinta",Wildfire,33.59823,-116.23339,2022-06-04T23:15:00Z,2022-06-07T16:07:52Z,60,25,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/4/62-fire/
 Graham Fire,CA,Tehama,"Ishi Wilderness and Wildcat Creek,  east of Los Molinos in Tehama County. ",Wildfire,40.027922,-121.857983,2022-06-10T11:51:07Z,2022-06-10T11:57:10Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/10/graham-fire/
 Plant Fire,CA,Kern,"Interstate 5 and Grapevine Rd, Grapevine",Fire,34.9324042,-118.9253809,2022-06-11T02:49:16Z,2022-06-13T07:56:31Z,517,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/11/plant-fire/
-Brandie Fire,CA,Yuba,"Brandie Drive and Loma Rica Rd, northeast of Marysville.  Yuba County",Wildfire,39.319804,-121.392285,2022-06-11T17:22:09Z,2022-06-13T20:19:01Z,72,70,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/11/brandie-fire/
+Brandie Fire,CA,Yuba,"Brandie Drive and Loma Rica Rd, northeast of Marysville.  Yuba County",Wildfire,39.319804,-121.392285,2022-06-11T17:22:09Z,2022-06-14T07:49:05Z,72,80,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/11/brandie-fire/
 Sheep Fire,CA,San Bernardino,"Hwy 2 and Sheep Creek Road, North East of Wrightwood in San Bernardino County",Wildfire,34.355593,-117.61508,2022-06-12T06:45:19Z,2022-06-13T20:26:15Z,990,19,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/12/sheep-fire/
 Barrett Fire,CA,San Diego,"Hwy 94 and Barrett Rd, Barrett in San Diego County",Wildfire,32.8134303,-116.5882585,2022-06-12T18:16:43Z,2022-06-13T20:13:52Z,65,50,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/12/barrett-fire/
-Border 13 Fire Fire,CA,San Diego,East of Marron Valley near Border Road in San Diego County. ,Wildfire,32.607926,-116.768767,2022-06-13T14:56:33Z,2022-06-13T20:01:13Z,577,10,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/13/border-13-fire/
+Border 13 Fire Fire,CA,San Diego,East of Marron Valley near Border Road in San Diego County. ,Wildfire,32.607926,-116.768767,2022-06-13T14:56:33Z,2022-06-14T07:46:31Z,577,15,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/13/border-13-fire/
 Rancho Fire,CA,Tehama,"Rancho Tehama Rd and Alpine Dr, northwest of Corning",Wildfire,40.00919,-122.45621,2022-06-13T21:05:09Z,2022-06-13T21:14:27Z,250,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/13/rancho-fire/
