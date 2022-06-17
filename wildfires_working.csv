@@ -1,9 +1,9 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-16T11:18:22Z,336638,72,2022-NMSNF-000027,Extreme,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-17T09:17:02Z,336638,72,2022-NMSNF-000027,Extreme,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Adak Fire,AK,Aleutians West,5 miles N of Adak,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,0,2022-AKSWS-204078,Active,Human,NFIS,NA
-Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-16T21:22:09Z,321681,50,2022-NMGNF-000185,Active,Human,NFIS,NA
+Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-17T09:22:06Z,321681,50,2022-NMGNF-000185,Active,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,51 miles E of Egegik,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-14T04:40:56Z,10321.9,0,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
 East Fork Fire,AK,Kusilvak,"3.7 miles northwest of St Marys, AK",WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-17T03:03:57Z,153271,67,2022-AKGAD-000160,Moderate,Natural,NFIS,NA
 Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-06-13T18:51:01Z,40699,0,2022-AKTAD-000185,Minimal,Natural,NFIS,NA
@@ -43,7 +43,7 @@ Fork Creek Fire,AK,Bethel,60 miles SE of Bethel,WF,60.284483,-160.343,2022-06-10
 Titnuk Creek Fire,AK,Dillingham,100 miles SE of Aniak,WF,60.79988,-157.015292,2022-06-09T06:29:36Z,2022-06-17T07:25:11Z,29871.2,0,2022-AKSWS-204246,Active,Natural,NFIS,NA
 Iowithla River Fire,AK,Dillingham,14 miles NE of Dillingham,WF,59.205833,-158.09375,2022-06-09T00:22:08Z,2022-06-16T03:23:13Z,27496.6,0,2022-AKSWS-204237,Active,Natural,NFIS,NA
 Skates Fire,NM,Grant,15 Miles NE of Silver City,WF,32.96983,-108.14,2022-06-10T20:11:00Z,2022-06-16T22:38:57Z,111,90,2022-NMGNF-000292,Minimal,Natural,NFIS,NA
-Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-16T23:40:04Z,4896,69,2022-NMCAF-000200,Minimal,Undetermined,NFIS,NA
+Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-17T09:03:57Z,4896,69,2022-NMCAF-000200,Minimal,Undetermined,NFIS,NA
 Graham Fire,CA,Tehama,Campville area off of Cohassett Rd.,WF,40.050167,-121.772,2022-06-10T01:03:48Z,2022-06-12T01:42:30Z,177,100,2022-CALNF-002814,Minimal,Undetermined,NFIS,NA
 Ponglevik River Fire,AK,Kusilvak,74 miles NE of Hooper Bay,WF,62.27555,-164.4046,2022-06-10T19:08:21Z,2022-06-12T05:06:29Z,629.1,0,2022-AKSWS-204261,Minimal,Undetermined,NFIS,NA
 Mule Fire,AZ,Santa Cruz,MULE RIDGE,WF,31.42978,-111.2118,2022-06-10T19:25:00Z,2022-06-12T15:14:54Z,357,100,2022-AZCNF-000442,Minimal,Undetermined,NFIS,NA
