@@ -1,9 +1,9 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-17T22:12:02Z,336638,72,2022-NMSNF-000027,Extreme,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-17T22:12:02Z,341314,72,2022-NMSNF-000027,Moderate,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Adak Fire,AK,Aleutians West,5 miles N of Adak,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,0,2022-AKSWS-204078,Active,Human,NFIS,NA
-Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-17T21:16:29Z,321681,50,2022-NMGNF-000185,Active,Human,NFIS,NA
+Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-17T21:16:29Z,324909,58,2022-NMGNF-000185,Active,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,51 miles E of Egegik,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-14T04:40:56Z,10321.9,0,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
 East Fork Fire,AK,Kusilvak,"3.7 miles northwest of St Marys, AK",WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-17T17:23:09Z,153271,67,2022-AKGAD-000160,Moderate,Natural,NFIS,NA
 Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-06-13T18:51:01Z,40699,0,2022-AKTAD-000185,Minimal,Natural,NFIS,NA
@@ -41,16 +41,16 @@ Fork Creek Fire,AK,Bethel,60 miles SE of Bethel,WF,60.284483,-160.343,2022-06-10
 Titnuk Creek Fire,AK,Dillingham,100 miles SE of Aniak,WF,60.79988,-157.015292,2022-06-09T06:29:36Z,2022-06-17T07:25:11Z,29871.2,0,2022-AKSWS-204246,Active,Natural,NFIS,NA
 Iowithla River Fire,AK,Dillingham,14 miles NE of Dillingham,WF,59.205833,-158.09375,2022-06-09T00:22:08Z,2022-06-16T03:23:13Z,27496.6,0,2022-AKSWS-204237,Active,Natural,NFIS,NA
 Skates Fire,NM,Grant,15 Miles NE of Silver City,WF,32.96983,-108.14,2022-06-10T20:11:00Z,2022-06-16T22:38:57Z,111,95,2022-NMGNF-000292,Minimal,Natural,NFIS,NA
-Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-17T09:03:57Z,4896,69,2022-NMCAF-000200,Minimal,Undetermined,NFIS,NA
+Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-18T01:02:30Z,4896,69,2022-NMCAF-000200,Minimal,Undetermined,NFIS,NA
 Graham Fire,CA,Tehama,Campville area off of Cohassett Rd.,WF,40.050167,-121.772,2022-06-10T01:03:48Z,2022-06-12T01:42:30Z,177,100,2022-CALNF-002814,Minimal,Undetermined,NFIS,NA
 Ponglevik River Fire,AK,Kusilvak,74 miles NE of Hooper Bay,WF,62.27555,-164.4046,2022-06-10T19:08:21Z,2022-06-12T05:06:29Z,629.1,0,2022-AKSWS-204261,Minimal,Undetermined,NFIS,NA
 Mule Fire,AZ,Santa Cruz,MULE RIDGE,WF,31.42978,-111.2118,2022-06-10T19:25:00Z,2022-06-12T15:14:54Z,357,100,2022-AZCNF-000442,Minimal,Undetermined,NFIS,NA
-Pipeline Fire,AZ,Coconino,San Francisco Peaks,WF,35.27563,-111.6745,2022-06-12T17:15:00Z,2022-06-17T08:53:26Z,24815,27,2022-AZCOF-000529,Active,Undetermined,NFIS,NA
-Sheep Fire,CA,San Bernardino,City of Wrightwood,WF,34.35624,-117.6151,2022-06-12T01:36:00Z,2022-06-15T14:24:06Z,865,90,2022-CAANF-001704,Minimal,Undetermined,NFIS,NA
+Pipeline Fire,AZ,Coconino,San Francisco Peaks,WF,35.27563,-111.6745,2022-06-12T17:15:00Z,2022-06-17T08:53:26Z,26297,27,2022-AZCOF-000529,Active,Undetermined,NFIS,NA
+Sheep Fire,CA,San Bernardino,City of Wrightwood,WF,34.35624,-117.6151,2022-06-12T01:36:00Z,2022-06-15T14:24:06Z,865,95,2022-CAANF-001704,Minimal,Undetermined,NFIS,NA
 Door Creek Fire,AK,Bethel,33 miles SW of Lime Village,WF,61.027432,-156.20467,2022-06-13T06:05:55Z,2022-06-17T05:28:01Z,184,0,2022-AKSWS-204273,Minimal,Natural,NFIS,NA
-Haywire Fire,AZ,Coconino,"Cinder Hills, Haywire crater east of Sunset Crater",WF,35.36975,-111.435783,2022-06-13T11:10:00Z,2022-06-17T08:53:26Z,5372,11,2022-AZCOF-000536,Active,Undetermined,NFIS,NA
-Contreras Fire,AZ,Pima,8 MILES SE OF KITT PEAK OBSERVATORY,WF,31.83604,-111.57470000000001,2022-06-11T21:35:00Z,2022-06-17T22:52:59Z,11489,0,2022-AZPPA-000453,Extreme,Undetermined,NFIS,NA
-Tuklung River Fire,AK,Dillingham,33 miles SW of Dillingham,WF,58.940883,-159.960917,2022-06-06T20:32:42Z,2022-06-13T22:56:09Z,3495.1,0,2022-AKSWS-204201,Minimal,Natural,NFIS,NA
+Haywire Fire,AZ,Coconino,"Cinder Hills, Haywire crater east of Sunset Crater",WF,35.36975,-111.435783,2022-06-13T11:10:00Z,2022-06-17T08:53:26Z,5449,11,2022-AZCOF-000536,Active,Undetermined,NFIS,NA
+Contreras Fire,AZ,Pima,8 MILES SE OF KITT PEAK OBSERVATORY,WF,31.83604,-111.57470000000001,2022-06-11T21:35:00Z,2022-06-17T22:52:59Z,17646,0,2022-AZPPA-000453,Extreme,Undetermined,NFIS,NA
+Tuklung River Fire,AK,Dillingham,33 miles SW of Dillingham,WF,58.940883,-159.960917,2022-06-06T20:32:42Z,2022-06-17T23:58:47Z,6163,0,2022-AKSWS-204201,Minimal,Natural,NFIS,NA
 Levelock Creek Fire,AK,Lake and Peninsula,NA,WF,59.190133,-157.075883,2022-06-07T16:42:27Z,2022-06-14T03:16:56Z,0.9,NA,2022-AKSWS-204217,Minimal,Undetermined,NFIS,NA
 Hardscrabble Creek Fire,AK,Yukon-Koyukuk,21 miles NW of Telida,WF,63.602917,-153.758967,2022-06-10T05:00:30Z,2022-06-14T03:29:11Z,44.9,0,2022-AKSWS-204260,Minimal,Undetermined,NFIS,NA
 Fish Lake Fire,AK,Valdez-Cordova,NA,WF,62.599783,-145.8058,2022-06-05T23:53:15Z,2022-06-14T03:47:50Z,66,NA,2022-AKCRS-214187,Extreme,Natural,NFIS,NA
@@ -59,9 +59,9 @@ Bolgen Creek Fire,AK,Yukon-Koyukuk,NA,WF,65.74162,-144.2542,2022-06-10T04:26:00Z
 Tonto Canyon Fire,AZ,Santa Cruz,PAJARITA WILDERNESS,WF,31.38424,-111.1891,2022-06-12T17:29:59Z,2022-06-17T22:57:42Z,9550,50,2022-AZCNF-000456,Moderate,Undetermined,NFIS,NA
 Stockton Inc Fire,CA,Ventura,NA,WF,NA,NA,2022-06-15T13:44:59Z,2022-06-15T15:46:28Z,NA,NA,2022-CAXVE-VNC-52067,NA,NA,NFIS,NA
 Levee Fire,AZ,Yuma,NA,WF,32.71793,-114.5644,2022-06-15T16:05:00Z,2022-06-16T16:13:29Z,30,NA,2022-AZCRD-000737,NA,Undetermined,NFIS,NA
-Sierra Fire,CA,Los Angeles,Bouquet Canyon,WF,34.51051,-118.109,2022-06-15T21:27:00Z,2022-06-16T01:28:59Z,13.2,95,2022-CAANF-001752,Minimal,Undetermined,NFIS,NA
+Sierra Fire,CA,Los Angeles,Bouquet Canyon,WF,34.51051,-118.109,2022-06-15T21:27:00Z,2022-06-16T01:28:59Z,11.2,95,2022-CAANF-001752,Minimal,Undetermined,NFIS,NA
 Cped-Rx-Ba6-20220615-01 Fire,MA,Barnstable,NA,WF,NA,NA,2022-06-16T13:58:25Z,2022-06-16T14:03:55Z,1,NA,2022-MAMAS-MAARNG-013,NA,NA,NFIS,NA
-Raspberry Fire,AZ,Cochise,NORTH FORK RUCKER CANYON SOUTH OF MONTE VISTA PEAK.,WF,31.82131,-109.2947,2022-06-14T18:51:00Z,2022-06-16T15:04:04Z,490,0,2022-AZCNF-000461,Moderate,Undetermined,NFIS,NA
+Raspberry Fire,AZ,Cochise,NORTH FORK RUCKER CANYON SOUTH OF MONTE VISTA PEAK.,WF,31.82131,-109.2947,2022-06-14T18:51:00Z,2022-06-18T01:41:21Z,490,0,2022-AZCNF-000461,Moderate,Undetermined,NFIS,NA
 Melozitna Fire,AK,Yukon-Koyukuk,NA,WF,65.0585,-155.2334,2022-06-14T03:29:00Z,2022-06-16T19:09:26Z,2247.3,NA,2022-AKGAD-000274,NA,Undetermined,NFIS,NA
 2022312063 Fire,MN,Todd,NA,WF,NA,NA,2022-06-16T08:40:42Z,2022-06-16T19:59:49Z,0.3,NA,2022-MNMNS-2022312063,NA,NA,NFIS,NA
 Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.",WF,65.157667,-148.2113,2022-06-16T02:51:03Z,2022-06-17T04:02:30Z,100,0,2022-AKFAS-211284,Moderate,Natural,NFIS,NA
@@ -71,4 +71,4 @@ Snow Fire,CA,Mariposa,NA,WF,37.77032,-119.5394,2022-06-17T00:40:00Z,2022-06-17T1
 Graham Fire,CA,Tehama,"Ishi Wilderness and Wildcat Creek,  east of Los Molinos in Tehama County. ",Wildfire,40.05,-121.776,2022-06-10T11:51:07Z,2022-06-16T14:07:27Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/10/graham-fire/
 Plant Fire,CA,Kern,"Interstate 5 and Grapevine Rd, Grapevine",Fire,34.9324042,-118.9253809,2022-06-11T02:49:16Z,2022-06-15T09:34:08Z,517,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/11/plant-fire/
 Sheep Fire,CA,San Bernardino,"Hwy 2 and Sheep Creek Road, North East of Wrightwood in San Bernardino County",Wildfire,34.355593,-117.61508,2022-06-12T06:45:19Z,2022-06-15T18:57:09Z,865,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/12/sheep-fire/
-Rancho Fire,CA,Tehama,"Rancho Tehama Rd and Alpine Dr, northwest of Corning",Wildfire,40.00919,-122.45621,2022-06-13T16:16:00Z,2022-06-17T09:26:11Z,593,75,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/13/rancho-fire/
+Rancho Fire,CA,Tehama,"Rancho Tehama Rd and Alpine Dr, northwest of Corning",Wildfire,40.00919,-122.45621,2022-06-13T16:16:00Z,2022-06-17T18:16:54Z,593,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/13/rancho-fire/
