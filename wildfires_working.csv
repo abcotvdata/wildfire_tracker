@@ -1,6 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-19T21:11:31Z,341424,72,2022-NMSNF-000027,Moderate,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-19T21:32:53Z,341424,72,2022-NMSNF-000027,Moderate,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-05-12T12:23:33Z,1000,10,2022-UTDIF-000133,Active,Human,NFIS,NA
 Adak Fire,AK,Aleutians West,5 miles N of Adak,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,0,2022-AKSWS-204078,Active,Human,NFIS,NA
@@ -57,7 +57,7 @@ Levee Fire,AZ,Yuma,NA,WF,32.71793,-114.5644,2022-06-15T16:05:00Z,2022-06-19T17:0
 Sierra Fire,CA,Los Angeles,Bouquet Canyon,WF,34.51051,-118.109,2022-06-15T21:27:00Z,2022-06-16T01:28:59Z,0.1,97,2022-CAANF-001752,Minimal,Undetermined,NFIS,NA
 Raspberry Fire,AZ,Cochise,NORTH FORK RUCKER CANYON SOUTH OF MONTE VISTA PEAK.,WF,31.82131,-109.2947,2022-06-14T18:51:00Z,2022-06-19T02:45:02Z,530,70,2022-AZCNF-000461,Minimal,Undetermined,NFIS,NA
 Melozitna Fire,AK,Yukon-Koyukuk,West of Melozitna River,WF,65.0585,-155.2334,2022-06-14T03:29:00Z,2022-06-18T16:26:43Z,5399.7,0,2022-AKGAD-000274,Active,Undetermined,NFIS,NA
-Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.",WF,65.157667,-148.2113,2022-06-16T02:51:03Z,2022-06-17T04:02:30Z,64.1,0,2022-AKFAS-211284,Active,Natural,NFIS,NA
+Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.",WF,65.157667,-148.2113,2022-06-16T02:51:03Z,2022-06-19T21:42:18Z,64.1,0,2022-AKFAS-211284,Active,Natural,NFIS,NA
 Snow Fire,CA,Mariposa,NA,WF,37.77032,-119.5394,2022-06-17T00:40:00Z,2022-06-17T19:42:53Z,1,NA,2022-CAYNP-000026,NA,Undetermined,NFIS,NA
 Schilling Creek Fire,AK,Yukon-Koyukuk,NA,WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-06-18T17:28:57Z,97.1,NA,2022-AKUYD-000294,NA,Natural,NFIS,NA
 Boatman Fire,AK,Yukon-Koyukuk,NA,WF,67.15312,-149.3232,2022-06-16T19:15:59Z,2022-06-18T17:26:02Z,340,NA,2022-AKUYD-000288,NA,Natural,NFIS,NA
