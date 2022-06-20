@@ -2,7 +2,7 @@ name,state,county,location,type,latitude,longitude,started,updated,acres_burned,
 Crooks Fire,AZ,Yavapai,11 nautical miles south of Prescott.,WF,34.37778,-112.4794,2022-04-18T17:02:00Z,2022-05-04T19:57:39Z,9402,96,2022-AZPNF-000271,Minimal,Undetermined,NFIS,NA
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-19T23:22:00Z,341471,72,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
-Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-05-12T12:23:33Z,1000,5,2022-UTDIF-000133,Extreme,Human,NFIS,NA
+Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-05-12T12:23:33Z,2608,5,2022-UTDIF-000133,Extreme,Human,NFIS,NA
 Adak Fire,AK,Aleutians West,5 miles N of Adak,WF,51.950803,-176.667822,2022-05-08T23:58:51Z,2022-05-18T20:34:55Z,919.6,0,2022-AKSWS-204078,Active,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-19T21:05:48Z,325111,68,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,51 miles E of Egegik,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-14T04:40:56Z,10321.9,0,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
@@ -34,7 +34,7 @@ Batztoa Lake Fire,AK,Yukon-Koyukuk,NA,WF,66.18886,-154.1584,2022-06-09T20:06:00Z
 Fish Creek Fire,AK,Yukon-Koyukuk,NA,WF,63.79901,-152.8739,2022-06-08T00:32:00Z,2022-06-10T18:11:13Z,23,NA,2022-AKTAD-000225,NA,Natural,NFIS,NA
 Cerro Bandera Fire,NM,Cibola,18 Miles SE of Grants NM,WF,35.02182,-108.0804,2022-06-09T16:46:00Z,2022-06-11T23:00:45Z,939,98,2022-NMN6S-000234,Minimal,Undetermined,NFIS,NA
 Apoon Pass Fire,AK,Kusilvak,"24 miles north of Mountain Village, AK.",WF,62.58941,-163.4661,2022-06-10T01:17:00Z,2022-06-18T05:47:28Z,63056,0,2022-AKGAD-000256,Moderate,Undetermined,NFIS,NA
-Ongivinuk River Fire,AK,Dillingham,50 miles NW of Dillingham,WF,59.473833,-159.51225,2022-06-09T07:02:57Z,2022-06-11T02:30:22Z,569.8,0,2022-AKSWS-204249,Moderate,Natural,NFIS,NA
+Ongivinuk River Fire,AK,Dillingham,50 miles NW of Dillingham,WF,59.473833,-159.51225,2022-06-09T07:02:57Z,2022-06-11T02:30:22Z,539.8,0,2022-AKSWS-204249,Moderate,Natural,NFIS,NA
 Ongoke River Fire,AK,Dillingham,38 miles NW of Dillingham,WF,59.309167,-159.420217,2022-06-09T06:48:23Z,2022-06-11T02:39:24Z,331.1,0,2022-AKSWS-204248,Minimal,Undetermined,NFIS,NA
 Fork Creek Fire,AK,Bethel,60 miles SE of Bethel,WF,60.284483,-160.343,2022-06-10T03:11:05Z,2022-06-11T06:40:14Z,419.5,0,2022-AKSWS-204258,Minimal,Natural,NFIS,NA
 Titnuk Creek Fire,AK,Dillingham,100 miles SE of Aniak,WF,60.79988,-157.015292,2022-06-09T06:29:36Z,2022-06-18T05:44:03Z,37211,0,2022-AKSWS-204246,Active,Natural,NFIS,NA
