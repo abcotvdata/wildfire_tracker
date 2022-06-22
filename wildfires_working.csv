@@ -54,7 +54,7 @@ Raspberry Fire,AZ,Cochise,NORTH FORK RUCKER CANYON SOUTH OF MONTE VISTA PEAK.,WF
 Melozitna Fire,AK,Yukon-Koyukuk,West of Melozitna River,WF,65.0585,-155.2334,2022-06-14T03:29:00Z,2022-06-21T16:50:29Z,5399.7,0,2022-AKGAD-000274,Active,Undetermined,NFIS,NA
 Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.",WF,65.157667,-148.2113,2022-06-16T02:51:03Z,2022-06-21T18:07:47Z,64.1,0,2022-AKFAS-211284,Minimal,Natural,NFIS,NA
 Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-06-20T16:27:06Z,429.9,0,2022-AKUYD-000294,Moderate,Natural,NFIS,NA
-Boatman Fire,AK,Yukon-Koyukuk,"23 miles southeast of Coldfoot, AK.",WF,67.15312,-149.3232,2022-06-16T19:15:59Z,2022-06-22T00:28:26Z,1234.7,0,2022-AKUYD-000288,Moderate,Natural,NFIS,NA
+Boatman Fire,AK,Yukon-Koyukuk,"23 miles southeast of Coldfoot, AK.",WF,67.15312,-149.3232,2022-06-16T19:15:59Z,2022-06-22T16:35:01Z,1234.7,0,2022-AKUYD-000288,Moderate,Natural,NFIS,NA
 Central Creek Airstrip Fire,AK,Southeast Fairbanks,NA,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-06-21T02:45:30Z,2995.4,NA,2022-AKDAS-212295,Extreme,Natural,NFIS,NA
 West Sf Fire,SD,Todd,7 Miles S/SW Rosebud SD,WF,NA,NA,2022-06-18T18:30:00Z,2022-06-20T17:33:49Z,3000,30,2022-SDRBA-000045,Active,Human,NFIS,NA
 Curky Fire,AK,Yukon-Koyukuk,12 miles due west of the Dalton Highway.,WF,66.17999,-150.6393,2022-06-20T15:49:00Z,2022-06-22T02:32:24Z,2524,0,2022-AKTAD-000318,Active,Natural,NFIS,NA
@@ -70,7 +70,7 @@ Colfax Fire,NM,Eddy,NA,WF,32.41907,-104.2692,2022-06-06T22:05:59Z,2022-06-07T17:
 Border 16 Fire,CA,San Diego,NA,WF,32.56825,-116.746883,2022-06-21T17:08:26Z,2022-06-21T23:45:58Z,0.01,NA,2022-CAMVU-013766,NA,Undetermined,NFIS,NA
 Douglas Fire,AK,Yukon-Koyukuk,0.5 miles east of the Dalton Highway.,WF,66.87197,-150.5214,2022-06-21T21:09:00Z,2022-06-22T03:24:29Z,364.2,0,2022-AKUYD-000336,Active,Natural,NFIS,NA
 Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-06-22T03:19:23Z,443.4,0,2022-AKUYD-000332,Active,Natural,NFIS,NA
-North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-06-22T03:15:07Z,178.7,0,2022-AKUYD-000340,Moderate,Undetermined,NFIS,NA
+North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-06-22T16:27:16Z,178.7,0,2022-AKUYD-000340,Moderate,Undetermined,NFIS,NA
 Wormy Fire,AK,Yukon-Koyukuk,NA,WF,67.48997,-150.8984,2022-06-21T18:24:00Z,2022-06-22T00:36:26Z,9.5,NA,2022-AKTAD-000334,NA,Natural,NFIS,NA
 Snowden Fire,AK,Yukon-Koyukuk,NA,WF,67.85893,-149.8246,2022-06-21T02:03:59Z,2022-06-22T01:06:42Z,26.9,NA,2022-AKUYD-000330,NA,Natural,NFIS,NA
 Tanana River Fire,AK,Yukon-Koyukuk,NA,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-06-22T01:37:50Z,40,NA,2022-AKFAS-211310,Moderate,Natural,NFIS,NA
@@ -81,6 +81,8 @@ Holonada Fire,AK,Yukon-Koyukuk,NA,WF,65.91443,-152.0485,2022-06-21T00:26:00Z,202
 Donut Fire,AK,Yukon-Koyukuk,"38 miles Southeast of Ruby, AK",WF,64.28001,-154.8886,2022-06-21T19:57:00Z,2022-06-22T02:27:38Z,157.3,0,2022-AKTAD-000335,Active,Natural,NFIS,NA
 Grant Fire,CA,Riverside,NA,WF,33.546326,-116.043868,2022-06-21T16:48:36Z,2022-06-22T06:05:32Z,80,NA,2022-CARRU-088850,NA,Undetermined,NFIS,NA
 Hensley Hill Rd Fire,OR,Curry,NA,WF,NA,NA,2022-06-20T22:21:59Z,2022-06-22T16:22:57Z,NA,NA,2022-OR723S-0194-22,NA,NA,NFIS,NA
+Koness Fire,AK,Yukon-Koyukuk,NA,WF,67.8594,-144.1869,2022-06-21T22:12:59Z,2022-06-22T16:24:38Z,1,NA,2022-AKUYD-000339,NA,Undetermined,NFIS,NA
+Kinsley Fire,NV,White Pine,60 miles NE of Ely,WF,40.231167,-114.39375,2022-06-17T19:59:00Z,2022-06-22T16:44:46Z,3209,80,2022-NVELD-040055,Minimal,Undetermined,NFIS,NA
 62 Fire,CA,Riverside,"Avenue 62 and Monroe Street, East of La Quinta",Wildfire,33.59823,-116.23339,2022-06-04T23:15:00Z,2022-06-16T08:31:44Z,60,25,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/4/62-fire/
 Plant Fire,CA,Kern,"Interstate 5 and Grapevine Rd, Grapevine",Fire,34.9324042,-118.9253809,2022-06-11T02:49:16Z,2022-06-15T09:34:08Z,517,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/11/plant-fire/
 Border 16 Fire,CA,San Diego,"Marron Valley Rd and Tecate Creek, south of Dulzura",Wildfire,32.567333,-116.75066700000001,2022-06-21T10:08:00Z,2022-06-22T08:09:23Z,70,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/21/border-16/
