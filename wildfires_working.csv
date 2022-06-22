@@ -56,11 +56,11 @@ Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.
 Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-06-20T16:27:06Z,429.9,0,2022-AKUYD-000294,Moderate,Natural,NFIS,NA
 Boatman Fire,AK,Yukon-Koyukuk,"23 miles southeast of Coldfoot, AK.",WF,67.15312,-149.3232,2022-06-16T19:15:59Z,2022-06-22T16:35:01Z,1234.7,0,2022-AKUYD-000288,Moderate,Natural,NFIS,NA
 Central Creek Airstrip Fire,AK,Southeast Fairbanks,NA,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-06-21T02:45:30Z,2995.4,NA,2022-AKDAS-212295,Extreme,Natural,NFIS,NA
-West Sf Fire,SD,Todd,7 Miles S/SW Rosebud SD,WF,NA,NA,2022-06-18T18:30:00Z,2022-06-20T17:33:49Z,3000,30,2022-SDRBA-000045,Active,Human,NFIS,NA
+West Sf Fire,SD,Todd,7 Miles S/SW Rosebud SD,WF,NA,NA,2022-06-18T18:30:00Z,2022-06-20T17:33:49Z,3810,80,2022-SDRBA-000045,Minimal,Human,NFIS,NA
 Curky Fire,AK,Yukon-Koyukuk,12 miles due west of the Dalton Highway.,WF,66.17999,-150.6393,2022-06-20T15:49:00Z,2022-06-22T02:32:24Z,2524,0,2022-AKTAD-000318,Active,Natural,NFIS,NA
 Fish Fire,AK,Yukon-Koyukuk,"31 miles southeast of Bettles, AK. On the Dalton Highway",WF,66.55998,-150.8293,2022-06-20T15:49:59Z,2022-06-21T16:15:56Z,165.5,0,2022-AKTAD-000319,Active,Natural,NFIS,NA
 Sithylemenkat Fire,AK,Yukon-Koyukuk,"46 miles southeast of Allakaket, AK",WF,68.14869,-151.3848,2022-06-20T18:39:00Z,2022-06-21T16:16:55Z,337.2,40,2022-AKTAD-000320,Active,Natural,NFIS,NA
-Ferebee Road Fire,NC,Hyde,4 miles South of Phelps Lake and 3 miles WNW of New Lake,WF,NA,NA,2022-06-19T15:30:00Z,2022-06-22T19:14:16Z,615,25,2022-NCNCS-220039,Moderate,Natural,NFIS,NA
+Ferebee Road Fire,NC,Hyde,4 miles South of Phelps Lake and 3 miles WNW of New Lake,WF,NA,NA,2022-06-19T15:30:00Z,2022-06-22T20:25:02Z,615,25,2022-NCNCS-220039,Moderate,Natural,NFIS,NA
 Midnight Pine Fire,TX,Houston,NA,WF,31.27929,-95.23071,2022-06-20T06:52:40Z,2022-06-21T15:59:10Z,10,NA,2022-TXTXF-000264,NA,Undetermined,NFIS,NA
 Paddle Fire,AK,Yukon-Koyukuk,"36 miles northeast of Circle, AK",WF,66.07081,-142.9123,2022-06-19T20:03:59Z,2022-06-22T03:06:26Z,674,0,2022-AKUYD-000308,Active,Natural,NFIS,NA
 Eddy Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.40566,-157.7121,2022-06-19T04:05:59Z,2022-06-22T18:20:11Z,600,NA,2022-AKGAD-000306,NA,Undetermined,NFIS,NA
@@ -87,6 +87,7 @@ Bear Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.87849,-155.8882,2022-06-18T01:20:00Z,2
 Nunavulnuk River Fire,AK,Nome,NA,WF,63.20985,-161.8896,2022-06-20T00:04:00Z,2022-06-22T17:24:00Z,299,NA,2022-AKGAD-000313,NA,Undetermined,NFIS,NA
 Tagagawik 1 Fire,AK,Yukon-Koyukuk,NA,WF,65.52766,-159.2755,2022-06-21T03:30:00Z,2022-06-22T18:39:08Z,108,NA,2022-AKGAD-000328,NA,Undetermined,NFIS,NA
 Tagagawik 2 Fire,AK,Yukon-Koyukuk,NA,WF,65.52774,-159.2746,2022-06-21T03:33:00Z,2022-06-22T18:39:08Z,56.2,NA,2022-AKGAD-000329,NA,Undetermined,NFIS,NA
+Cheyenne River Bottom Fire,SD,Haakon,NA,WF,44.72092,-101.1541,2022-06-21T18:17:59Z,2022-06-22T20:29:08Z,211.2,NA,2022-SDOAE-220351,NA,Natural,NFIS,NA
 62 Fire,CA,Riverside,"Avenue 62 and Monroe Street, East of La Quinta",Wildfire,33.59823,-116.23339,2022-06-04T23:15:00Z,2022-06-16T08:31:44Z,60,25,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/4/62-fire/
 Plant Fire,CA,Kern,"Interstate 5 and Grapevine Rd, Grapevine",Fire,34.9324042,-118.9253809,2022-06-11T02:49:16Z,2022-06-15T09:34:08Z,517,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/11/plant-fire/
 Border 16 Fire,CA,San Diego,"Marron Valley Rd and Tecate Creek, south of Dulzura",Wildfire,32.567333,-116.75066700000001,2022-06-21T10:08:00Z,2022-06-22T08:09:23Z,70,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/21/border-16/
