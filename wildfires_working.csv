@@ -50,10 +50,10 @@ Hardscrabble Creek Fire,AK,Yukon-Koyukuk,21 miles NW of Telida,WF,63.602917,-153
 Sierra Fire,CA,Los Angeles,Bouquet Canyon,WF,34.51051,-118.109,2022-06-15T21:27:00Z,2022-06-16T01:28:59Z,0.1,100,2022-CAANF-001752,Minimal,Undetermined,NFIS,NA
 Raspberry Fire,AZ,Cochise,NORTH FORK RUCKER CANYON SOUTH OF MONTE VISTA PEAK.,WF,31.82131,-109.2947,2022-06-14T18:51:00Z,2022-06-19T02:45:02Z,413,90,2022-AZCNF-000461,Minimal,Undetermined,NFIS,NA
 Melozitna Fire,AK,Yukon-Koyukuk,West of Melozitna River,WF,65.0585,-155.2334,2022-06-14T03:29:00Z,2022-06-23T00:47:15Z,5399.7,0,2022-AKGAD-000274,Active,Natural,NFIS,NA
-Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.",WF,65.157667,-148.2113,2022-06-16T02:51:03Z,2022-06-21T18:07:47Z,64.1,0,2022-AKFAS-211284,Minimal,Natural,NFIS,NA
+Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.",WF,65.157667,-148.2113,2022-06-16T02:51:03Z,2022-06-21T18:07:47Z,64.1,20,2022-AKFAS-211284,Minimal,Natural,NFIS,NA
 Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-06-20T16:27:06Z,429.9,0,2022-AKUYD-000294,Moderate,Natural,NFIS,NA
 Boatman Fire,AK,Yukon-Koyukuk,"23 miles southeast of Coldfoot, AK.",WF,67.15312,-149.3232,2022-06-16T19:15:59Z,2022-06-22T16:35:01Z,1333.7,0,2022-AKUYD-000288,Moderate,Natural,NFIS,NA
-Central Creek Airstrip Fire,AK,Southeast Fairbanks,NA,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-06-21T02:45:30Z,2995.4,NA,2022-AKDAS-212295,Extreme,Natural,NFIS,NA
+Central Creek Airstrip Fire,AK,Southeast Fairbanks,Good Pasture and Central Creek drainages,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-06-21T02:45:30Z,2995.4,0,2022-AKDAS-212295,Minimal,Natural,NFIS,NA
 West Sf Fire,SD,Todd,7 Miles S/SW Rosebud SD,WF,NA,NA,2022-06-18T18:30:00Z,2022-06-20T17:33:49Z,3810,80,2022-SDRBA-000045,Minimal,Human,NFIS,NA
 Curky Fire,AK,Yukon-Koyukuk,12 miles due west of the Dalton Highway.,WF,66.17999,-150.6393,2022-06-20T15:49:00Z,2022-06-22T02:32:24Z,2524,0,2022-AKTAD-000318,Active,Natural,NFIS,NA
 Fish Fire,AK,Yukon-Koyukuk,"31 miles southeast of Bettles, AK. On the Dalton Highway",WF,66.55998,-150.8293,2022-06-20T15:49:59Z,2022-06-21T16:15:56Z,165.5,0,2022-AKTAD-000319,Active,Natural,NFIS,NA
@@ -86,9 +86,8 @@ Nunavulnuk River Fire,AK,Nome,NA,WF,63.20985,-161.8896,2022-06-20T00:04:00Z,2022
 Tagagawik 1 Fire,AK,Yukon-Koyukuk,NA,WF,65.52766,-159.2755,2022-06-21T03:30:00Z,2022-06-22T18:39:08Z,108,NA,2022-AKGAD-000328,NA,Natural,NFIS,NA
 Tagagawik 2 Fire,AK,Yukon-Koyukuk,NA,WF,65.52774,-159.2746,2022-06-21T03:33:00Z,2022-06-22T18:39:08Z,56.2,NA,2022-AKGAD-000329,NA,Natural,NFIS,NA
 Thunder Fire,CA,Kern,PASTORIA CANYON,WF,NA,NA,2022-06-22T13:41:00Z,2022-06-22T23:04:58Z,800,10,2022-CAKRN-029315,Active,Undetermined,NFIS,NA
+Clear Fire,AK,Yukon-Koyukuk,NA,WF,64.404667,-149.5065,2022-06-22T01:05:10Z,2022-06-23T02:22:51Z,1924,NA,2022-AKFAS-211346,Active,Natural,NFIS,NA
 62 Fire,CA,Riverside,"Avenue 62 and Monroe Street, East of La Quinta",Wildfire,33.59823,-116.23339,2022-06-04T23:15:00Z,2022-06-16T08:31:44Z,60,25,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/4/62-fire/
 Plant Fire,CA,Kern,"Interstate 5 and Grapevine Rd, Grapevine",Fire,34.9324042,-118.9253809,2022-06-11T02:49:16Z,2022-06-15T09:34:08Z,517,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/11/plant-fire/
-Border 16 Fire,CA,San Diego,"Marron Valley Rd and Tecate Creek, south of Dulzura",Wildfire,32.567333,-116.75066700000001,2022-06-21T10:08:00Z,2022-06-22T08:09:23Z,70,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/21/border-16/
-Edgewood Fire,CA,Santa Cruz,Rocky Way and Eastview Way at Edgewood County Park ,Wildfire,37.459222,-122.27742,2022-06-21T14:30:00Z,2022-06-22T17:55:13Z,20,20,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/21/edgewood/
-Thunder Fire Fire,CA,Kern,"Edmonston Pump Plant Rd East of Interstate 5, South of Bakersfield",Wildfire,34.936618,-118.889446,2022-06-22T18:41:00Z,2022-06-22T17:57:35Z,700,10,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/22/thunder-fire/
-99 Fire,CA,Butte,Hwy 99 and Deniz Brothers Lane,Wildfire,39.37879,-121.68694,2022-06-22T12:00:00Z,2022-06-22T17:50:56Z,65,50,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/22/99-fire/
+Edgewood Fire,CA,Santa Cruz,Rocky Way and Eastview Way at Edgewood County Park ,Wildfire,37.459222,-122.27742,2022-06-21T14:30:00Z,2022-06-22T19:27:03Z,20,20,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/21/edgewood/
+Thunder Fire Fire,CA,Kern,"Edmonston Pump Plant Rd East of Interstate 5, South of Bakersfield",Wildfire,34.936618,-118.889446,2022-06-22T18:41:00Z,2022-06-22T19:37:26Z,700,10,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/22/thunder-fire/
