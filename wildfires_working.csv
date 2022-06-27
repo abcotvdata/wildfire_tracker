@@ -1,5 +1,5 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-24T09:15:38Z,341735,92,2022-NMSNF-000027,Minimal,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-24T09:15:38Z,341735,93,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-06-27T15:24:21Z,4259,13,2022-UTDIF-000133,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,70,2022-NMGNF-000185,Minimal,Human,NFIS,NA
@@ -55,7 +55,7 @@ Sithylemenkat Fire,AK,Yukon-Koyukuk,"46 miles southeast of Allakaket, AK",WF,68.
 Ferebee Road Fire,NC,Hyde,4 miles South of Phelps Lake and 3 miles WNW of New Lake,WF,NA,NA,2022-06-19T15:30:00Z,2022-06-27T13:46:54Z,1938,24,2022-NCNCS-220039,Moderate,Natural,NFIS,NA
 Midnight Pine Fire,TX,Houston,NA,WF,31.27929,-95.23071,2022-06-20T06:52:40Z,2022-06-21T15:59:10Z,10,NA,2022-TXTXF-000264,NA,Undetermined,NFIS,NA
 Paddle Fire,AK,Yukon-Koyukuk,"36 miles northeast of Circle, AK",WF,66.07081,-142.9123,2022-06-19T20:03:59Z,2022-06-27T03:17:17Z,1943.9,0,2022-AKUYD-000308,Active,Natural,NFIS,NA
-Eddy Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.40566,-157.7121,2022-06-19T04:05:59Z,2022-06-27T21:52:03Z,2500,NA,2022-AKGAD-000306,NA,Natural,NFIS,NA
+Eddy Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.40566,-157.7121,2022-06-19T04:05:59Z,2022-06-27T21:52:03Z,3355,NA,2022-AKGAD-000306,NA,Natural,NFIS,NA
 Plant Fire,CA,Kern,South of Grapevine Rd. on Westside of I5,WF,NA,NA,2022-06-11T09:30:00Z,2022-06-21T22:58:42Z,517,100,2022-CAKRN-027343,Minimal,Undetermined,NFIS,NA
 Douglas Fire,AK,Yukon-Koyukuk,0.5 miles east of the Dalton Highway.,WF,66.87197,-150.5214,2022-06-21T21:09:00Z,2022-06-26T03:24:47Z,8742,0,2022-AKUYD-000336,Moderate,Natural,NFIS,NA
 Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-06-27T19:53:35Z,6366.4,0,2022-AKUYD-000332,Minimal,Natural,NFIS,NA
@@ -63,7 +63,6 @@ North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.257
 Snowden Fire,AK,Yukon-Koyukuk,NA,WF,67.85893,-149.8246,2022-06-21T02:03:59Z,2022-06-27T00:33:48Z,65,NA,2022-AKUYD-000330,NA,Natural,NFIS,NA
 Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-06-26T17:38:16Z,6315,1,2022-AKFAS-211310,Active,Natural,NFIS,NA
 Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-06-25T20:13:54Z,13363.3,0,2022-AKTAD-000315,Moderate,Natural,NFIS,NA
-Dinosaur Fire,AK,Yukon-Koyukuk,"41 miles southeast of Tanana, AK.",WF,64.58015,-151.7888,2022-06-21T23:37:00Z,2022-06-23T22:15:41Z,0.1,0,2022-AKTAD-000342,Minimal,Natural,NFIS,NA
 Dragon Fire,AK,Yukon-Koyukuk,NA,WF,64.84998,-151.0192,2022-06-21T23:44:00Z,2022-06-25T17:23:56Z,257.2,NA,2022-AKTAD-000343,NA,Natural,NFIS,NA
 Holonada Fire,AK,Yukon-Koyukuk,NA,WF,65.91443,-152.0485,2022-06-21T00:26:00Z,2022-06-22T02:22:38Z,38.7,NA,2022-AKTAD-000322,NA,Natural,NFIS,NA
 Donut Fire,AK,Yukon-Koyukuk,"38 miles Southeast of Ruby, AK",WF,64.28001,-154.8886,2022-06-21T19:57:00Z,2022-06-22T02:27:38Z,157.3,0,2022-AKTAD-000335,Minimal,Natural,NFIS,NA
@@ -105,4 +104,4 @@ Thunder Fire Fire,CA,Kern,"Edmonston Pump Plant Rd East of Interstate 5, South o
 Canyon Fire Fire,CA,Alameda,"Kilkare Rd, near Sunol",Wildfire,37.642217,-121.903018,2022-06-23T13:47:38Z,2022-06-27T08:15:30Z,71,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/23/canyon-fire/
 Union Fire,CA,Riverside,"Clay Street and General Road, Jurupa Valley in Riverside County",Wildfire,33.968307,-117.462524,2022-06-25T17:22:36Z,2022-06-27T08:17:01Z,110,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/25/union-fire/
 Ridge Fire,CA,Siskiyou,"Rainbow ridge , West of Mount Shasta in Siskiyou County. ",Wildfire,41.317476,-122.359698,2022-06-26T08:13:12Z,2022-06-27T08:12:45Z,12,50,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/26/ridge-fire/
-Roblar Fire Fire,CA,Sonoma,Roblar Road and Canfield Road. southwest of Rohnert Park,Wildfire,38.323263,-122.796221,2022-06-27T15:47:53Z,2022-06-27T15:50:01Z,30,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/27/roblar-fire/
+Roblar Fire Fire,CA,Sonoma,Roblar Road and Canfield Road. southwest of Rohnert Park,Wildfire,38.323263,-122.796221,2022-06-27T15:47:53Z,2022-06-27T16:25:52Z,30,50,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/27/roblar-fire/
