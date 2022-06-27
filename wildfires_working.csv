@@ -45,8 +45,8 @@ Tuklung River Fire,AK,Dillingham,33 miles SW of Dillingham,WF,58.940883,-159.960
 Hardscrabble Creek Fire,AK,Yukon-Koyukuk,21 miles NW of Telida,WF,63.602917,-153.758967,2022-06-10T05:00:30Z,2022-06-14T03:29:11Z,44.9,0,2022-AKSWS-204260,Minimal,Undetermined,NFIS,NA
 Melozitna Fire,AK,Yukon-Koyukuk,West of Melozitna River,WF,65.0585,-155.2334,2022-06-14T03:29:00Z,2022-06-25T17:10:56Z,7000,0,2022-AKGAD-000274,Active,Natural,NFIS,NA
 Aggie Creek Fire,AK,Fairbanks North Star,"South of Wickersham Dome, Aggie Creek.",WF,65.157667,-148.2113,2022-06-16T02:51:03Z,2022-06-21T18:07:47Z,64.1,50,2022-AKFAS-211284,Minimal,Natural,NFIS,NA
-Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-06-20T16:27:06Z,429.9,0,2022-AKUYD-000294,Minimal,Natural,NFIS,NA
-Boatman Fire,AK,Yukon-Koyukuk,"23 miles southeast of Coldfoot, AK.",WF,67.15312,-149.3232,2022-06-16T19:15:59Z,2022-06-25T22:22:41Z,1877,0,2022-AKUYD-000288,Minimal,Natural,NFIS,NA
+Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-06-27T16:36:24Z,429.9,0,2022-AKUYD-000294,Minimal,Natural,NFIS,NA
+Boatman Fire,AK,Yukon-Koyukuk,"23 miles southeast of Coldfoot, AK.",WF,67.15312,-149.3232,2022-06-16T19:15:59Z,2022-06-27T16:36:24Z,1877,0,2022-AKUYD-000288,Minimal,Natural,NFIS,NA
 Central Creek Airstrip Fire,AK,Southeast Fairbanks,Good Pasture and Central Creek drainages,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-06-21T02:45:30Z,2995.4,0,2022-AKDAS-212295,Minimal,Natural,NFIS,NA
 West Sf Fire,SD,Todd,"7 Miles S/SW Rosebud, SD",WF,NA,NA,2022-06-18T18:30:00Z,2022-06-23T22:39:43Z,3810,100,2022-SDRBA-000045,Minimal,Human,NFIS,NA
 Curky Fire,AK,Yukon-Koyukuk,12 miles due west of the Dalton Highway.,WF,66.17999,-150.6393,2022-06-20T15:49:00Z,2022-06-26T19:19:06Z,6775,0,2022-AKTAD-000318,Active,Natural,NFIS,NA
@@ -58,7 +58,7 @@ Paddle Fire,AK,Yukon-Koyukuk,"36 miles northeast of Circle, AK",WF,66.07081,-142
 Eddy Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.40566,-157.7121,2022-06-19T04:05:59Z,2022-06-22T18:20:11Z,2500,NA,2022-AKGAD-000306,NA,Natural,NFIS,NA
 Plant Fire,CA,Kern,South of Grapevine Rd. on Westside of I5,WF,NA,NA,2022-06-11T09:30:00Z,2022-06-21T22:58:42Z,517,100,2022-CAKRN-027343,Minimal,Undetermined,NFIS,NA
 Douglas Fire,AK,Yukon-Koyukuk,0.5 miles east of the Dalton Highway.,WF,66.87197,-150.5214,2022-06-21T21:09:00Z,2022-06-26T03:24:47Z,8742,0,2022-AKUYD-000336,Moderate,Natural,NFIS,NA
-Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-06-25T22:22:41Z,6366.4,0,2022-AKUYD-000332,Minimal,Natural,NFIS,NA
+Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-06-27T19:53:35Z,6366.4,0,2022-AKUYD-000332,Minimal,Natural,NFIS,NA
 North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-06-27T00:27:27Z,4525.1,0,2022-AKUYD-000340,Moderate,Natural,NFIS,NA
 Snowden Fire,AK,Yukon-Koyukuk,NA,WF,67.85893,-149.8246,2022-06-21T02:03:59Z,2022-06-27T00:33:48Z,65,NA,2022-AKUYD-000330,NA,Natural,NFIS,NA
 Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-06-26T17:38:16Z,6315,1,2022-AKFAS-211310,Active,Natural,NFIS,NA
@@ -96,6 +96,8 @@ Harpers Fire,CO,Moffat,NA,WF,40.52424,-109.0193,2022-06-19T21:04:59Z,2022-06-27T
 Ma05089 Fire,MA,Essex,NA,WF,NA,NA,2022-06-20T15:04:40Z,2022-06-27T18:58:09Z,0.04,NA,2022-MAMAS-MA05089,NA,NA,NFIS,NA
 Sudden Pond Fire,MA,Essex,NA,WF,NA,NA,2022-06-20T21:00:06Z,2022-06-27T19:08:54Z,0.04,NA,2022-MAMAS-MA05090,NA,NA,NFIS,NA
 Ma05091 Fire,MA,Essex,NA,WF,NA,NA,2022-06-25T17:56:17Z,2022-06-27T19:18:07Z,0.02,NA,2022-MAMAS-MA05091,NA,NA,NFIS,NA
+Pole Hill Fire,MA,Essex,NA,WF,NA,NA,2022-06-25T18:00:26Z,2022-06-27T19:36:27Z,0.1,NA,2022-MAMAS-MA05092,NA,NA,NFIS,NA
+Black Burn Fire,MA,Essex,NA,WF,NA,NA,2022-06-25T18:41:33Z,2022-06-27T19:40:15Z,0.27,NA,2022-MAMAS-MA05093,NA,NA,NFIS,NA
 Edgewood Fire,CA,Santa Cruz,Rocky Way and Eastview Way at Edgewood County Park ,Wildfire,37.459222,-122.27742,2022-06-21T14:30:00Z,2022-06-23T21:00:26Z,20,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/21/edgewood/
 Thunder Fire Fire,CA,Kern,"Edmonston Pump Plant Rd East of Interstate 5, South of Bakersfield",Wildfire,34.936618,-118.889446,2022-06-22T18:41:00Z,2022-06-26T19:05:05Z,2500,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/22/thunder-fire/
 Canyon Fire Fire,CA,Alameda,"Kilkare Rd, near Sunol",Wildfire,37.642217,-121.903018,2022-06-23T13:47:38Z,2022-06-27T08:15:30Z,71,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/23/canyon-fire/
