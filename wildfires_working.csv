@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-24T09:15:38Z,341735,92,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
-Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-06-26T19:26:35Z,4254,13,2022-UTDIF-000133,Minimal,Human,NFIS,NA
+Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-06-26T19:26:35Z,4259,13,2022-UTDIF-000133,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,70,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,51 miles E of Egegik,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-26T17:20:53Z,10704.2,0,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
 East Fork Fire,AK,Kusilvak,"3.7 miles northwest of St Mary's, AK",WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-21T02:46:47Z,166587,100,2022-AKGAD-000160,Minimal,Natural,NFIS,NA
@@ -59,7 +59,7 @@ Eddy Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.40566,-157.7121,2022-06-19T04:05:59Z,2
 Plant Fire,CA,Kern,South of Grapevine Rd. on Westside of I5,WF,NA,NA,2022-06-11T09:30:00Z,2022-06-21T22:58:42Z,517,100,2022-CAKRN-027343,Minimal,Undetermined,NFIS,NA
 Douglas Fire,AK,Yukon-Koyukuk,0.5 miles east of the Dalton Highway.,WF,66.87197,-150.5214,2022-06-21T21:09:00Z,2022-06-26T03:24:47Z,8742,0,2022-AKUYD-000336,Moderate,Natural,NFIS,NA
 Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-06-25T22:22:41Z,6366.4,0,2022-AKUYD-000332,Minimal,Natural,NFIS,NA
-North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-06-25T22:22:41Z,4525.1,0,2022-AKUYD-000340,Moderate,Natural,NFIS,NA
+North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-06-27T00:27:27Z,4525.1,0,2022-AKUYD-000340,Moderate,Natural,NFIS,NA
 Snowden Fire,AK,Yukon-Koyukuk,NA,WF,67.85893,-149.8246,2022-06-21T02:03:59Z,2022-06-25T07:10:51Z,69.6,NA,2022-AKUYD-000330,NA,Natural,NFIS,NA
 Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-06-26T17:38:16Z,6315,1,2022-AKFAS-211310,Active,Natural,NFIS,NA
 Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-06-25T20:13:54Z,13363.3,0,2022-AKTAD-000315,Moderate,Natural,NFIS,NA
@@ -72,17 +72,15 @@ Koness Fire,AK,Yukon-Koyukuk,NA,WF,67.8594,-144.1869,2022-06-21T22:12:59Z,2022-0
 Bear Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.87849,-155.8882,2022-06-18T01:20:00Z,2022-06-24T16:54:48Z,18.3,NA,2022-AKGAD-000300,NA,Natural,NFIS,NA
 Tagagawik 1 Fire,AK,Yukon-Koyukuk,NA,WF,65.52766,-159.2755,2022-06-21T03:30:00Z,2022-06-25T17:47:30Z,246.3,NA,2022-AKGAD-000328,NA,Natural,NFIS,NA
 Tagagawik 2 Fire,AK,Yukon-Koyukuk,NA,WF,65.52774,-159.2746,2022-06-21T03:33:00Z,2022-06-25T17:57:38Z,619.9,NA,2022-AKGAD-000329,NA,Natural,NFIS,NA
-Thunder Fire,CA,Kern,PASTORIA CANYON,WF,NA,NA,2022-06-22T13:41:00Z,2022-06-23T23:25:51Z,2500,98,2022-CAKRN-029315,Minimal,Natural,NFIS,NA
-Clear Fire,AK,Yukon-Koyukuk,10 NM from City of Anderson along the Teklanika River,WF,64.404667,-149.5065,2022-06-22T01:05:10Z,2022-06-25T19:54:57Z,5500,5,2022-AKFAS-211346,Extreme,Natural,NFIS,NA
+Thunder Fire,CA,Kern,PASTORIA CANYON,WF,NA,NA,2022-06-22T13:41:00Z,2022-06-23T23:25:51Z,2500,99,2022-CAKRN-029315,Minimal,Natural,NFIS,NA
+Clear Fire,AK,Yukon-Koyukuk,10 NM from City of Anderson along the Teklanika River,WF,64.404667,-149.5065,2022-06-22T01:05:10Z,2022-06-27T00:07:15Z,5500,5,2022-AKFAS-211346,Extreme,Natural,NFIS,NA
 Bills Branch Fire,FL,Marion,NA,WF,29.30276,-81.67242,2022-06-22T20:15:30Z,2022-06-23T13:54:54Z,1.5,NA,2022-FLFNF-001221,NA,Undetermined,NFIS,NA
 Camp Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.17569,-156.1086,2022-06-22T04:28:00Z,2022-06-26T15:52:50Z,250,NA,2022-AKGAD-000352,NA,Natural,NFIS,NA
-Minto Lakes Fire,AK,Yukon-Koyukuk,Minto Lakes/Chatanika River,WF,64.95945,-148.824722,2022-06-22T00:34:39Z,2022-06-26T06:38:22Z,8715.5,0,2022-AKFAS-211349,Extreme,Natural,NFIS,NA
-Hutlinana Fire,AK,Yukon-Koyukuk,10 Miles East of Manley Hot Springs,WF,65.21829,-150.2945,2022-06-21T03:11:00Z,2022-06-25T22:58:41Z,338.6,0,2022-AKTAD-000327,Moderate,Natural,NFIS,NA
+Minto Lakes Fire,AK,Yukon-Koyukuk,Minto Lakes/Chatanika River,WF,64.95945,-148.824722,2022-06-22T00:34:39Z,2022-06-27T00:46:28Z,8715.5,0,2022-AKFAS-211349,Extreme,Natural,NFIS,NA
+Hutlinana Fire,AK,Yukon-Koyukuk,10 Miles East of Manley Hot Springs,WF,65.21829,-150.2945,2022-06-21T03:11:00Z,2022-06-27T00:59:45Z,338.6,0,2022-AKTAD-000327,Moderate,Natural,NFIS,NA
 Allen Fire,AK,Yukon-Koyukuk,NA,WF,65.21996,-150.4385,2022-06-22T03:11:00Z,2022-06-23T22:15:41Z,80,NA,2022-AKTAD-000348,NA,Natural,NFIS,NA
-Bean Fire,AK,Yukon-Koyukuk,NA,WF,64.97212,-151.1047,2022-06-16T00:17:00Z,2022-06-23T22:15:41Z,1.4,NA,2022-AKTAD-000282,NA,Natural,NFIS,NA
 Pack Fire,AK,Yukon-Koyukuk,NA,WF,65.83409,-142.9913,2022-06-20T19:50:59Z,2022-06-23T22:15:41Z,67.7,NA,2022-AKUYD-000321,NA,Natural,NFIS,NA
 Bitzshitini Fire,AK,Yukon-Koyukuk,43 Miles South of Tanana,WF,64.51074,-151.9654,2022-06-20T01:04:00Z,2022-06-25T20:13:54Z,8537.5,0,2022-AKTAD-000312,Active,Natural,NFIS,NA
-East Kyle Fire,SD,Jackson,NA,WF,NA,NA,2022-06-24T00:30:00Z,2022-06-24T01:49:26Z,1,NA,2022-SDPRA-000048,NA,Human,NFIS,NA
 Nps Canyon View Fire,AL,Cherokee,NA,WF,34.36164,-85.65624,2022-05-11T23:35:00Z,2022-06-07T19:18:33Z,0.5,NA,2022-ALLRP-220200,NA,Undetermined,NFIS,NA
 Jack Fire,CA,Kern,NA,WF,35.76632,-118.6835,2022-06-23T19:52:00Z,2022-06-24T15:15:37Z,20,NA,2022-CASQF-001260,NA,Undetermined,NFIS,NA
 Radio Creek Fire,AK,Yukon-Koyukuk,NA,WF,65.27569,-155.0947,2022-06-21T23:55:00Z,2022-06-26T16:08:11Z,4000,NA,2022-AKGAD-000344,NA,Natural,NFIS,NA
@@ -92,9 +90,9 @@ Baldy Fire,CA,Los Angeles,NA,WF,34.237,-117.6601,2022-06-23T03:34:01Z,2022-06-25
 Oval Fire,AK,Yukon-Koyukuk,NA,WF,64.86098,-151.0904,2022-06-24T03:46:59Z,2022-06-25T17:23:56Z,17.7,NA,2022-AKTAD-000366,NA,Natural,NFIS,NA
 Galatea Creek Fire,AK,Yukon-Koyukuk,NA,WF,63.99006,-156.9278,2022-06-21T01:15:59Z,2022-06-25T17:37:08Z,4.8,NA,2022-AKGAD-000325,NA,Natural,NFIS,NA
 Troublesome Fire,AK,Yukon-Koyukuk,NA,WF,65.49601,-149.7203,2022-06-23T20:38:00Z,2022-06-25T20:13:54Z,152.5,NA,2022-AKTAD-000359,NA,Natural,NFIS,NA
-Porcupine Creek Fire,AK,Fairbanks North Star,NA,WF,64.648,-145.013167,2022-06-25T04:34:35Z,2022-06-26T23:32:21Z,250,NA,2022-AKFAS-211375,Minimal,Natural,NFIS,NA
+Porcupine Creek Fire,AK,Fairbanks North Star,NA,WF,64.648,-145.013167,2022-06-25T04:34:35Z,2022-06-26T23:32:21Z,256,NA,2022-AKFAS-211375,Minimal,Natural,NFIS,NA
 Edgewood Fire,CA,Santa Cruz,Rocky Way and Eastview Way at Edgewood County Park ,Wildfire,37.459222,-122.27742,2022-06-21T14:30:00Z,2022-06-23T21:00:26Z,20,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/21/edgewood/
-Thunder Fire Fire,CA,Kern,"Edmonston Pump Plant Rd East of Interstate 5, South of Bakersfield",Wildfire,34.936618,-118.889446,2022-06-22T18:41:00Z,2022-06-26T08:27:24Z,2500,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/22/thunder-fire/
-Canyon Fire Fire,CA,Alameda,"Kilkare Rd, near Sunol",Wildfire,37.642217,-121.903018,2022-06-23T13:47:38Z,2022-06-26T08:26:43Z,71,75,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/23/canyon-fire/
-Union Fire,CA,Riverside,"Clay Street and General Road, Jurupa Valley in Riverside County",Wildfire,33.968307,-117.462524,2022-06-25T17:22:36Z,2022-06-26T08:28:17Z,110,40,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/25/union-fire/
-Ridge Fire,CA,Siskiyou,"Rainbow ridge , West of Mount Shasta in Siskiyou County. ",Wildfire,41.317476,-122.359698,2022-06-26T08:13:12Z,2022-06-26T08:17:35Z,10,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/26/ridge-fire/
+Thunder Fire Fire,CA,Kern,"Edmonston Pump Plant Rd East of Interstate 5, South of Bakersfield",Wildfire,34.936618,-118.889446,2022-06-22T18:41:00Z,2022-06-26T19:05:05Z,2500,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/22/thunder-fire/
+Canyon Fire Fire,CA,Alameda,"Kilkare Rd, near Sunol",Wildfire,37.642217,-121.903018,2022-06-23T13:47:38Z,2022-06-26T19:05:07Z,71,75,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/23/canyon-fire/
+Union Fire,CA,Riverside,"Clay Street and General Road, Jurupa Valley in Riverside County",Wildfire,33.968307,-117.462524,2022-06-25T17:22:36Z,2022-06-26T19:05:09Z,110,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/25/union-fire/
+Ridge Fire,CA,Siskiyou,"Rainbow ridge , West of Mount Shasta in Siskiyou County. ",Wildfire,41.317476,-122.359698,2022-06-26T08:13:12Z,2022-06-26T19:05:11Z,12,40,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/26/ridge-fire/
