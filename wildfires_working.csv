@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-24T09:15:38Z,341735,93,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
-Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-06-27T15:24:21Z,4254,40,2022-UTDIF-000133,Minimal,Human,NFIS,NA
+Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-06-28T22:22:09Z,4254,40,2022-UTDIF-000133,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,70,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,51 miles E of Egegik,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-26T17:20:53Z,10704.2,0,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
 East Fork Fire,AK,Kusilvak,"3.7 miles northwest of St Mary's, AK",WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-21T02:46:47Z,166587,100,2022-AKGAD-000160,Minimal,Natural,NFIS,NA
@@ -26,7 +26,7 @@ Door Mountain Fire,AK,Bethel,126 miles south of McGrath,WF,61.16255,-156.086367,
 Dummy Creek Fire,AK,Lake and Peninsula,82 miles NE of Igiugig,WF,60.484967,-155.22495,2022-06-09T06:57:02Z,2022-06-18T05:44:03Z,178,0,2022-AKSWS-204247,Minimal,Natural,NFIS,NA
 Submarine Creek Fire,AK,Yukon-Koyukuk,45 miles W of Telida,WF,63.2934,-154.733733,2022-06-07T21:01:41Z,2022-06-26T06:02:05Z,24344.2,0,2022-AKSWS-204220,Minimal,Natural,NFIS,NA
 Kiknik Fire,AK,Dillingham,91 miles SE if Aniak,WF,60.891533,-157.217917,2022-06-09T06:40:07Z,2022-06-24T22:56:24Z,45734,0,2022-AKSWS-204245,Minimal,Natural,NFIS,NA
-Snohomish Fire,AK,Yukon-Koyukuk,"15 miles southwest of Lake Minchumina, AK",WF,63.79901,-152.8739,2022-06-08T00:32:00Z,2022-06-28T05:38:05Z,1694.8,0,2022-AKTAD-000225,Moderate,Natural,NFIS,NA
+Snohomish Fire,AK,Yukon-Koyukuk,"15 miles southwest of Lake Minchumina, AK",WF,63.79901,-152.8739,2022-06-08T00:32:00Z,2022-06-28T22:48:30Z,1694.8,0,2022-AKTAD-000225,Moderate,Natural,NFIS,NA
 Apoon Pass Fire,AK,Kusilvak,"24 miles north of Mountain Village, AK.",WF,62.58941,-163.4661,2022-06-10T01:17:00Z,2022-06-20T18:40:40Z,84138,0,2022-AKGAD-000256,Moderate,Undetermined,NFIS,NA
 Ongivinuk River Fire,AK,Dillingham,50 miles NW of Dillingham,WF,59.473833,-159.51225,2022-06-09T07:02:57Z,2022-06-23T04:22:31Z,735,10,2022-AKSWS-204249,Minimal,Natural,NFIS,NA
 Ongoke River Fire,AK,Dillingham,38 miles NW of Dillingham,WF,59.309167,-159.420217,2022-06-09T06:48:23Z,2022-06-23T04:02:00Z,1426.2,0,2022-AKSWS-204248,Minimal,Undetermined,NFIS,NA
@@ -61,7 +61,7 @@ Douglas Fire,AK,Yukon-Koyukuk,0.5 miles east of the Dalton Highway.,WF,66.87197,
 Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-06-28T20:12:33Z,22038,0,2022-AKUYD-000332,Minimal,Natural,NFIS,NA
 North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-06-28T20:07:29Z,12295,0,2022-AKUYD-000340,Moderate,Natural,NFIS,NA
 Snowden Fire,AK,Yukon-Koyukuk,NA,WF,67.85893,-149.8246,2022-06-21T02:03:59Z,2022-06-27T00:33:48Z,65,NA,2022-AKUYD-000330,NA,Natural,NFIS,NA
-Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-06-28T17:27:15Z,8136.6,1,2022-AKFAS-211310,Active,Natural,NFIS,NA
+Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-06-28T22:27:25Z,8136.6,1,2022-AKFAS-211310,Active,Natural,NFIS,NA
 Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-06-28T03:42:43Z,13363.3,0,2022-AKTAD-000315,Moderate,Natural,NFIS,NA
 Dragon Fire,AK,Yukon-Koyukuk,NA,WF,64.84998,-151.0192,2022-06-21T23:44:00Z,2022-06-28T03:35:06Z,257.2,NA,2022-AKTAD-000343,NA,Natural,NFIS,NA
 Holonada Fire,AK,Yukon-Koyukuk,NA,WF,65.91443,-152.0485,2022-06-21T00:26:00Z,2022-06-28T18:02:50Z,38.7,NA,2022-AKTAD-000322,NA,Natural,NFIS,NA
@@ -106,4 +106,4 @@ Ridge Fire,CA,Siskiyou,"Rainbow ridge , West of Mount Shasta in Siskiyou County.
 Redwood Fire,CA,Marin,"Interstate 101 & Redwood Landfill, southeast of Petaluma ",Wildfire,38.163521,-122.574563,2022-06-27T16:27:00Z,2022-06-27T19:06:58Z,113,75,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/27/redwood-fire/
 Burrows Fire Fire,CA,Glenn,"County Rd 306 and County Rd 315, north of Elk Creek",Wildfire,39.713372,-122.55002,2022-06-28T13:09:03Z,2022-06-28T14:13:38Z,275,50,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/burrows-fire/
 Camino Fire,CA,San Luis Obispo,"Husana Rd and Mary Hall Rd, north of Nipomo",Wildfire,35.136141,-120.437395,2022-06-28T11:57:00Z,2022-06-28T14:45:50Z,200,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/camino-fire/
-Rice Fire,CA,Nevada,"Rices Crossing Rd & Cranston Rd, south of Dobbins",Wildfire,39.29988,-121.189233,2022-06-28T14:00:00Z,2022-06-28T15:25:27Z,60,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/rice-fire/
+Rices Fire,CA,Nevada,"Rices Crossing Rd & Cranston Rd, south of Dobbins",Wildfire,39.29988,-121.189233,2022-06-28T14:00:00Z,2022-06-28T15:37:44Z,150,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/rices-fire/
