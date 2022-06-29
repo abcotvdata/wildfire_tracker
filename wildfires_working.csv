@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-24T09:15:38Z,341735,93,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
-Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-06-29T02:23:15Z,4254,50,2022-UTDIF-000133,Minimal,Human,NFIS,NA
+Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:16:59Z,2022-06-29T15:28:26Z,4254,50,2022-UTDIF-000133,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,70,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,51 miles E of Egegik,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-26T17:20:53Z,10704.2,0,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
 East Fork Fire,AK,Kusilvak,"3.7 miles northwest of St Mary's, AK",WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-21T02:46:47Z,166587,100,2022-AKGAD-000160,Minimal,Natural,NFIS,NA
@@ -36,7 +36,6 @@ Iowithla River Fire,AK,Dillingham,14 miles NE of Dillingham,WF,59.205833,-158.09
 Midnight Fire,NM,Rio Arriba,8 miles NW of El Rito,WF,36.3233,-106.2529,2022-06-10T01:46:00Z,2022-06-18T08:55:43Z,4896,98,2022-NMCAF-000200,Minimal,Natural,NFIS,NA
 Ponglevik River Fire,AK,Kusilvak,74 miles NE of Hooper Bay,WF,62.27555,-164.4046,2022-06-10T19:08:21Z,2022-06-25T07:11:50Z,3081,0,2022-AKSWS-204261,Minimal,Undetermined,NFIS,NA
 Pipeline Fire,AZ,Coconino,San Francisco Peaks,WF,35.27563,-111.6745,2022-06-12T17:15:00Z,2022-06-21T08:19:24Z,26532,90,2022-AZCOF-000529,Minimal,Undetermined,NFIS,NA
-Sheep Fire,CA,San Bernardino,City of Wrightwood,WF,34.35624,-117.6151,2022-06-12T01:36:00Z,2022-06-15T14:24:06Z,865,100,2022-CAANF-001704,Minimal,Undetermined,NFIS,NA
 Door Creek Fire,AK,Bethel,33 miles SW of Lime Village,WF,61.027432,-156.20467,2022-06-13T06:05:55Z,2022-06-29T05:15:30Z,10188,0,2022-AKSWS-204273,Minimal,Natural,NFIS,NA
 Haywire Fire,AZ,Coconino,"Cinder Hills, Haywire Crater east of Sunset Crater",WF,35.36975,-111.435783,2022-06-13T11:10:00Z,2022-06-21T08:19:24Z,5575,95,2022-AZCOF-000536,Minimal,Undetermined,NFIS,NA
 Contreras Fire,AZ,Pima,15 miles NE of Topawa AZ,WF,31.83604,-111.57470000000001,2022-06-11T21:35:00Z,2022-06-22T21:02:25Z,29482,95,2022-AZPPA-000453,Minimal,Natural,NFIS,NA
@@ -102,6 +101,8 @@ Hiawatha West Fire,WA,Grant,NA,WF,47.11059,-119.46,2022-06-28T13:56:00Z,2022-06-
 Punch Fire,SD,Oglala Lakota,NA,WF,NA,NA,2022-06-27T16:40:02Z,2022-06-28T17:47:06Z,0.2,NA,2022-SDPRA-000054,NA,NA,NFIS,NA
 Road 14 And Adams Fire,WA,Grant,NA,WF,47.30031,-119.7793,2022-06-28T22:18:59Z,2022-06-29T02:17:10Z,123,NA,2022-WASPD-000134,NA,Undetermined,NFIS,NA
 Bagley Road Fire,MN,Rice,NA,WF,NA,NA,2022-06-27T19:20:20Z,2022-06-29T14:05:31Z,6,NA,2022-MNMNS-2022341006,NA,NA,NFIS,NA
+Porcupine - Rosebud Fire,MT,Rosebud,NA,WF,46.85394,-106.7859,2022-06-29T03:00:00Z,2022-06-29T15:21:11Z,NA,NA,2022-MTLG29-000070,NA,Natural,NFIS,NA
+Wadsworth Fire,NV,Washoe,NA,WF,39.6338,-119.2841,2022-06-28T19:59:00Z,2022-06-29T15:46:56Z,0.1,NA,2022-NVCCD-030510,NA,Undetermined,NFIS,NA
 Canyon Fire Fire,CA,Alameda,"Kilkare Rd, near Sunol",Wildfire,37.642217,-121.903018,2022-06-23T13:47:38Z,2022-06-27T19:05:50Z,71,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/23/canyon-fire/
 Ridge Fire,CA,Siskiyou,"Rainbow ridge , West of Mount Shasta in Siskiyou County. ",Wildfire,41.317476,-122.359698,2022-06-26T08:13:12Z,2022-06-28T19:40:00Z,12,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/26/ridge-fire/
 Burrows Fire Fire,CA,Glenn,"County Rd 306 and County Rd 315, north of Elk Creek",Wildfire,39.713372,-122.55002,2022-06-28T13:09:03Z,2022-06-29T07:25:08Z,317,75,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/burrows-fire/
