@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:51:00Z,2022-06-30T17:42:37Z,341735,93,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
-Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:17:00Z,2022-06-30T22:19:34Z,4254,83,2022-UTDIF-000133,Minimal,Human,NFIS,NA
+Left Fork Fire,UT,Kane,10 Miles SW of Bryce Canyon City in Kanab Creek Drainage,WF,37.48333,-112.358,2022-05-09T20:17:00Z,2022-06-30T22:43:31Z,4254,83,2022-UTDIF-000133,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,70,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Contact Creek Fire,AK,Lake and Peninsula,51 miles E of Egegik,WF,58.219117,-155.966217,2022-05-30T06:10:53Z,2022-06-30T19:09:26Z,10654.2,0,2022-AKSWS-204151,Minimal,Natural,NFIS,NA
 East Fork Fire,AK,Kusilvak,"3.7 miles northwest of St Mary's, AK",WF,62.3333,-162.5329,2022-05-31T21:57:00Z,2022-06-21T02:46:47Z,166587,100,2022-AKGAD-000160,Minimal,Natural,NFIS,NA
@@ -86,7 +86,7 @@ Troublesome Fire,AK,Yukon-Koyukuk,13 Miles East of Rampart,WF,65.49601,-149.7203
 Porcupine Creek Fire,AK,Fairbanks North Star,NA,WF,64.648,-145.013167,2022-06-25T04:34:36Z,2022-06-26T23:32:21Z,256,NA,2022-AKFAS-211375,Minimal,Natural,NFIS,NA
 Middle Fork Fire,AK,Fairbanks North Star,MP 44-46 Chena Hotsprings Road,WF,64.949667,-146.211,2022-06-26T18:44:29Z,2022-06-29T00:41:24Z,800,0,2022-AKFAS-211383,Active,Natural,NFIS,NA
 Harpers Fire,CO,Moffat,NA,WF,40.52424,-109.0193,2022-06-19T21:05:00Z,2022-06-27T18:53:42Z,1,NA,2022-CODSP-000053,NA,Natural,NFIS,NA
-Hilltop Fire,AK,Yukon-Koyukuk,65 Miles SW of Tanana,WF,64.56346,-153.711,2022-06-25T18:39:00Z,2022-06-30T19:17:38Z,4102.9,0,2022-AKTAD-000377,Extreme,Natural,NFIS,NA
+Hilltop Fire,AK,Yukon-Koyukuk,65 Miles SW of Tanana,WF,64.56346,-153.711,2022-06-25T18:39:00Z,2022-06-30T19:17:38Z,4102.9,0,2022-AKTAD-000377,Active,Natural,NFIS,NA
 Dempsey Fire,TX,Palo Pinto,"7 miles West of Mineral Wells, TX",WF,32.80428333,-98.25086667,2022-06-23T19:25:09Z,2022-06-30T13:59:17Z,11597.7,60,2022-TXTXS-223410,Moderate,Undetermined,NFIS,NA
 Huron Fire,AK,Yukon-Koyukuk,20 Miles NE of Rampart,WF,65.54533,-149.3954,2022-06-24T23:16:00Z,2022-06-30T16:49:56Z,5172.1,0,2022-AKTAD-000372,Active,Natural,NFIS,NA
 Punch Fire,SD,Oglala Lakota,NA,WF,NA,NA,2022-06-27T16:40:02Z,2022-06-28T17:47:06Z,0.2,NA,2022-SDPRA-000054,NA,NA,NFIS,NA
@@ -96,7 +96,7 @@ Porcupine - Rosebud Fire,MT,Rosebud,NA,WF,46.85394,-106.7859,2022-06-29T03:00:00
 Wadsworth Fire,NV,Washoe,NA,WF,39.6338,-119.2841,2022-06-28T19:59:00Z,2022-06-29T15:46:56Z,0.1,NA,2022-NVCCD-030510,NA,Undetermined,NFIS,NA
 Sandy Fire,WY,Sublette,"7 miles southwest of Bondurant, WY",WF,43.16348,-110.5147,2022-06-28T21:36:00Z,2022-06-30T15:59:42Z,80,0,2022-WYBTF-002201,Active,Undetermined,NFIS,NA
 Midnight Fire,MT,Fergus,NA,WF,47.496667,-109.921389,2022-06-29T06:17:00Z,2022-06-29T19:54:19Z,4,NA,2022-MTLG08-000148,NA,Undetermined,NFIS,NA
-Rices Fire,CA,Nevada,8 miles Southeast of North San Juan,WF,39.304947,-121.199444,2022-06-28T21:00:56Z,2022-06-30T06:32:43Z,0.01,12,2022-CANEU-017228,Minimal,Undetermined,NFIS,NA
+Rices Fire,CA,Nevada,8 miles Southeast of North San Juan,WF,39.304947,-121.199444,2022-06-28T21:00:56Z,2022-06-30T22:55:24Z,0.01,12,2022-CANEU-017228,Minimal,Undetermined,NFIS,NA
 Sunset Fire,AK,Yukon-Koyukuk,49 Miles East of Tanana,WF,65.10989,-153.7495,2022-06-24T18:49:00Z,2022-06-30T16:49:56Z,2968,0,2022-AKTAD-000369,Moderate,Natural,NFIS,NA
 Leaf Fire,AK,Yukon-Koyukuk,NA,WF,63.85987,-154.4235,2022-06-27T00:01:00Z,2022-06-30T18:39:59Z,1,NA,2022-AKTAD-000385,NA,Natural,NFIS,NA
 Mud River Fire,AK,Yukon-Koyukuk,NA,WF,64.099333,-157.010333,2022-06-26T03:34:00Z,2022-06-30T17:10:40Z,100,NA,2022-AKGAD-000380,NA,Undetermined,NFIS,NA
@@ -105,4 +105,4 @@ Canyon Fire Fire,CA,Alameda,"Kilkare Rd, near Sunol",Wildfire,37.642217,-121.903
 Camino Fire,CA,San Luis Obispo,"Husana Rd and Mary Hall Rd, north of Nipomo",Wildfire,35.136141,-120.437395,2022-06-28T11:57:00Z,2022-06-30T06:59:23Z,375,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/camino-fire/
 Rices Fire,CA,Nevada,"Rices Crossing Rd and Cranston Rd, south of Dobbins",Wildfire,39.29988,-121.189233,2022-06-28T14:00:00Z,2022-06-30T06:59:29Z,904,12,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/rices-fire/
 Evan Hewes Fire,CA,Imperial,"Evan Hewes Hwy and Jessup Rd, West of Seeley ",Wildfire,32.79106,-115.71861,2022-06-29T12:53:35Z,2022-06-30T08:38:03Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/29/evan-hewes/
-Nelson Fire,CA,Butte,"Nelson Ave and Wilber Rd,  west of Oroville",Wildfire,39.524038,-121.650851,2022-06-30T15:18:00Z,2022-06-30T15:56:15Z,75,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/30/nelson-fire/
+Nelson Fire,CA,Butte,"Nelson Ave and Wilber Rd,  west of Oroville",Wildfire,39.524038,-121.650851,2022-06-30T15:18:00Z,2022-06-30T15:56:31Z,75,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/30/nelson-fire/
