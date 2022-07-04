@@ -1,4 +1,5 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
+Blackjack Fire,SD,Stanley,NA,WF,44.35596,-100.4387,2022-04-08T19:21:00Z,2022-04-09T03:28:21Z,92.5,NA,2022-SDSTX-220185,NA,Undetermined,NFIS,NA
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-30T17:42:37Z,341735,93,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,70,2022-NMGNF-000185,Minimal,Human,NFIS,NA
@@ -99,7 +100,7 @@ Helens Trial Fire,MA,Essex,NA,WF,NA,NA,2022-06-28T16:16:39Z,2022-07-02T13:23:23Z
 Thunder Fire,SD,Oglala Lakota,NA,WF,NA,NA,2022-07-01T19:02:47Z,2022-07-02T21:33:14Z,0.1,NA,2022-SDPRA-000067,NA,NA,NFIS,NA
 Emigrant Fire,NV,Eureka,"10 miles west of Carlin, Nevada",WF,40.6505,-116.295167,2022-07-01T19:39:00Z,2022-07-02T23:02:23Z,1024,95,2022-NVEURX-010096,Minimal,Undetermined,NFIS,NA
 East Yuki Fire,AK,Yukon-Koyukuk,NA,WF,64.13178,-156.6346,2022-07-02T03:07:00Z,2022-07-03T16:48:21Z,829,NA,2022-AKGAD-000418,NA,Undetermined,NFIS,NA
-Waterfall Fire,AK,Southeast Fairbanks,"37 miles north of Eagle, AK",WF,65.33993,-141.1991,2022-07-02T15:45:00Z,2022-07-03T17:49:02Z,1689.2,0,2022-AKUYD-000423,Active,Natural,NFIS,NA
+Waterfall Fire,AK,Southeast Fairbanks,"37 miles north of Eagle, AK",WF,65.33993,-141.1991,2022-07-02T15:45:00Z,2022-07-03T17:49:02Z,1216.8,0,2022-AKUYD-000423,Active,Natural,NFIS,NA
 Ladue Fire,AK,Southeast Fairbanks,NA,WF,63.4955,-141.819,2022-07-01T01:07:25Z,2022-07-03T04:42:56Z,1125.8,NA,2022-AKTAS-213410,Active,Natural,NFIS,NA
 Seaton Fire,AK,Southeast Fairbanks,NA,WF,62.740583,-141.205533,2022-07-02T22:43:05Z,2022-07-03T07:34:18Z,22.6,NA,2022-AKTAS-213429,Moderate,Natural,NFIS,NA
 Belle Fire,AK,Yukon-Koyukuk,NA,WF,66.90318,-143.7021,2022-06-29T23:15:00Z,2022-07-04T15:29:51Z,36,NA,2022-AKUYD-000398,NA,Natural,NFIS,NA
@@ -113,6 +114,8 @@ South Fork Fire,AK,Southeast Fairbanks,NA,WF,64.183333,-145.35,2022-07-02T21:49:
 Charlya Fire,TX,Moore,NA,WF,NA,NA,2022-07-04T01:37:54Z,2022-07-04T04:12:10Z,1.02,NA,2022-TXTXS-LAP022047,NA,NA,NFIS,NA
 Potrero Fire,CA,San Diego,NA,WF,32.62615,-116.5691,2022-07-04T15:26:56Z,2022-07-04T16:12:47Z,0.1,NA,2022-CACDD-010404,NA,Undetermined,NFIS,NA
 Pipe Fire,AK,Yukon-Koyukuk,NA,WF,66.14499,-146.2798,2022-07-01T00:13:00Z,2022-07-04T16:48:12Z,17.3,NA,2022-AKUYD-000408,NA,Natural,NFIS,NA
+Under Cloud Fire,AK,Yukon-Koyukuk,NA,WF,68.2755,-145.5735,2022-06-30T02:38:00Z,2022-07-04T17:27:50Z,0.1,NA,2022-AKUYD-000400,NA,Natural,NFIS,NA
+Leach Fire,NE,Blaine,NA,WF,42.03295,-100.3297,2022-04-23T01:46:00Z,2022-06-02T17:15:57Z,2000,NA,2022-NENES-220220,NA,Undetermined,NFIS,NA
 Rices Fire,CA,Nevada,"Rices Crossing Road and Cranston Road, south of Dobbins in Nevada County",Wildfire,39.29988,-121.189233,2022-06-28T14:00:00Z,2022-07-04T08:31:53Z,904,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/28/rices-fire/
 Evan Hewes Fire,CA,Imperial,"Evan Hewes Hwy and Jessup Rd, West of Seeley ",Wildfire,32.79106,-115.71861,2022-06-29T12:53:35Z,2022-06-30T17:34:48Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/6/29/evan-hewes/
 Table Fire,CA,Fresno,"White Thorne Road and Auberry Road, Table Mountain in Fresno County",Wildfire,37.013878,-119.576797,2022-07-01T13:31:00Z,2022-07-03T08:12:22Z,52,75,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/1/table-fire/
