@@ -6,6 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+._*
 
 # Executables
 *.swf
@@ -18,4 +19,5 @@ bin-release/
 # information for Eclipse / Flash Builder.
 .Rproj.user
 .Rproj
+.Rhistory
 *.Rproj
