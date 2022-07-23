@@ -146,7 +146,7 @@ Redstar Fire,AK,Yukon-Koyukuk,"28 miles NW of Wiseman, AK",WF,67.69148,-150.8845
 Fort Hamlin Hills Fire,AK,Yukon-Koyukuk,"25.5 miles west of Stevens Village, AK",WF,66.02161,-150.1124,2022-07-12T18:14:00Z,2022-07-16T22:45:10Z,615,33,2022-AKTAD-000562,Minimal,Natural,NFIS,NA
 Caribou Creek Fire,AK,Yukon-Koyukuk,NA,WF,66.04728,-155.691,2022-07-11T23:53:00Z,2022-07-15T01:50:12Z,1354.3,NA,2022-AKGAD-000552,NA,Natural,NFIS,NA
 Hogatza Fire,AK,Yukon-Koyukuk,NA,WF,66.06995,-155.4999,2022-07-10T23:40:00Z,2022-07-14T14:42:56Z,19.3,NA,2022-AKGAD-000538,NA,Natural,NFIS,NA
-Wildcat Fire,NV,Elko,"Approximately 40 miles northwest of Wells, NV",WF,41.679293,-115.302496,2022-07-13T23:45:00Z,2022-07-16T20:35:31Z,21429,98,2022-NVHTF-010139,Minimal,Undetermined,NFIS,NA
+Wildcat Fire,NV,Elko,"Approximately 40 miles northwest of Wells, NV",WF,41.679293,-115.302496,2022-07-13T23:45:00Z,2022-07-16T20:35:31Z,21429,100,2022-NVHTF-010139,Minimal,Undetermined,NFIS,NA
 Cow Fire,AZ,Mohave,NA,WF,34.74756,-113.7087,2022-07-16T21:30:00Z,2022-07-20T19:34:46Z,20,NA,2022-AZCRD-001000,NA,Natural,NFIS,NA
 Pine Peak Fire,AZ,Mohave,20 SE of Kingman,WF,34.87452,-113.8568,2022-07-16T15:44:00Z,2022-07-23T03:42:58Z,1295,0,2022-AZCRD-000996,Moderate,Natural,NFIS,NA
 Moors Mountain Fire,MT,Lewis and Clark,"24 miles NNE of Helena, MT",WF,46.88728,-111.7334,2022-07-16T21:35:00Z,2022-07-23T11:46:31Z,98,43,2022-MTHLF-000182,Minimal,Undetermined,NFIS,NA
@@ -172,7 +172,7 @@ Natan Fire,SD,Todd,NA,WF,NA,NA,2022-07-22T02:10:00Z,2022-07-22T06:43:29Z,NA,NA,2
 Ma05116 Fire,MA,Essex,NA,WF,NA,NA,2022-07-22T13:24:58Z,2022-07-22T13:27:53Z,0.06,NA,2022-MAMAS-MA05116,NA,NA,NFIS,NA
 Ma05115 Fire,MA,Essex,NA,WF,NA,NA,2022-07-21T13:10:15Z,2022-07-22T13:21:27Z,1.33,NA,2022-MAMAS-MA05115,NA,NA,NFIS,NA
 Royal Fire,UT,Tooele,NA,WF,40.23426,-113.8514,2022-07-22T01:31:00Z,2022-07-22T21:40:01Z,35.4,NA,2022-UTWDD-000410,NA,Natural,NFIS,NA
-Busby Fire,UT,Tooele,34 miles south east of Wendover UT,WF,40.15971,-113.8048,2022-07-21T23:51:00Z,2022-07-22T19:04:13Z,455.3,25,2022-UTWDD-000409,Active,Natural,NFIS,NA
+Busby Fire,UT,Tooele,34 miles south east of Wendover UT,WF,40.15971,-113.8048,2022-07-21T23:51:00Z,2022-07-22T19:04:13Z,455.3,95,2022-UTWDD-000409,Minimal,Natural,NFIS,NA
 Mm 35 Fire (06) Fire,FL,Broward,UNKNOWN ADDRESS,WF,NA,NA,2022-07-12T01:15:00Z,2022-07-22T16:06:55Z,3000,100,2022-FLFLS-221800160,Minimal,Natural,NFIS,NA
 Hike Fire,MT,Garfield,NA,WF,47.14443,-106.2372,2022-07-22T18:09:00Z,2022-07-22T20:33:15Z,NA,NA,2022-MTLG50-000124,NA,Human,NFIS,NA
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,2368,80,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA
@@ -188,4 +188,4 @@ Electra Fire,CA,"Amador, Calaveras","Electra Road and Hwy 49, southeast of Jacks
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-07-14T13:50:24Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Winding Fire,CA,Yuba,"Winding Way and Regent Way, 3 miles south of Oregon House in Yuba County",Wildfire,39.314076,-121.27693,2022-07-18T16:43:31Z,2022-07-21T15:13:14Z,82,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/18/winding-fire/
 Anzar Fire,CA,San Benito,"Anzar Rd and Forest Rd,  West of Aromas ",Wildfire,36.8927679,-121.604728,2022-07-21T15:21:00Z,2022-07-23T07:57:36Z,101,60,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/21/anzar-fire/
-Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-07-23T15:15:31Z,9500,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
+Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-07-23T16:16:04Z,9500,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
