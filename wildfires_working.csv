@@ -1,5 +1,5 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-30T17:42:37Z,341735,94,2022-NMSNF-000027,Minimal,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-30T17:42:37Z,341735,93,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Cerro Pelado Fire,NM,Sandoval,7 Miles East of Jemez Springs,WF,35.77995,-106.5907,2022-04-22T21:39:00Z,2022-06-01T10:52:32Z,45605,100,2022-NMSNF-000049,Minimal,Undetermined,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,90,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Windfall Mountain Fire,AK,Southeast Fairbanks,NA,WF,65.116667,-141.233367,2022-05-20T23:28:00Z,2022-06-08T21:59:10Z,25.8,NA,2022-AKUYD-000108,NA,Natural,NFIS,NA
@@ -188,4 +188,4 @@ Electra Fire,CA,"Amador, Calaveras","Electra Road and Hwy 49, southeast of Jacks
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-07-14T13:50:24Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Winding Fire,CA,Yuba,"Winding Way and Regent Way, 3 miles south of Oregon House in Yuba County",Wildfire,39.314076,-121.27693,2022-07-18T16:43:31Z,2022-07-21T15:13:14Z,82,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/18/winding-fire/
 Anzar Fire,CA,San Benito,"Anzar Rd and Forest Rd,  West of Aromas ",Wildfire,36.8927679,-121.604728,2022-07-21T15:21:00Z,2022-07-23T07:57:36Z,101,60,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/21/anzar-fire/
-Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-07-23T12:09:53Z,6555,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
+Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-07-23T15:15:31Z,9500,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
