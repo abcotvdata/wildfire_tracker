@@ -32,7 +32,7 @@ Pipeline Fire,AZ,Coconino,San Francisco Peaks,WF,35.27563,-111.6745,2022-06-12T1
 Door Creek Fire,AK,Bethel,33 miles SW of Lime Village,WF,61.027432,-156.20467,2022-06-13T06:05:55Z,2022-07-15T02:16:10Z,54006,0,2022-AKSWS-204273,Minimal,Natural,NFIS,NA
 Haywire Fire,AZ,Coconino,"Cinder Hills, Haywire Crater east of Sunset Crater",WF,35.36975,-111.435783,2022-06-13T11:10:00Z,2022-06-21T08:19:25Z,5575,95,2022-AZCOF-000536,Minimal,Undetermined,NFIS,NA
 Hardscrabble Creek Fire,AK,Yukon-Koyukuk,21 miles NW of Telida,WF,63.602917,-153.758967,2022-06-10T05:00:30Z,2022-07-15T01:33:21Z,2514,0,2022-AKSWS-204260,Minimal,Undetermined,NFIS,NA
-Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-07-19T19:10:20Z,53138.7,0,2022-AKUYD-000294,Minimal,Natural,NFIS,NA
+Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-07-25T20:13:42Z,53138.7,0,2022-AKUYD-000294,Minimal,Natural,NFIS,NA
 Boatman Fire,AK,Yukon-Koyukuk,"23 miles southeast of Coldfoot, AK.",WF,67.15312,-149.3232,2022-06-16T19:16:00Z,2022-07-13T23:55:35Z,5250,0,2022-AKUYD-000288,Minimal,Natural,NFIS,NA
 Central Creek Airstrip Fire,AK,Southeast Fairbanks,Good Pasture and Central Creek drainages,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-07-25T04:44:36Z,6978,0,2022-AKDAS-212295,Active,Natural,NFIS,NA
 Curky Fire,AK,Yukon-Koyukuk,12 miles due west of the Dalton Highway.,WF,66.17999,-150.6393,2022-06-20T15:49:00Z,2022-07-16T22:45:10Z,28961,0,2022-AKTAD-000318,Moderate,Natural,NFIS,NA
@@ -143,6 +143,7 @@ Caribou Creek Fire,AK,Yukon-Koyukuk,NA,WF,66.04728,-155.691,2022-07-11T23:53:00Z
 Hogatza Fire,AK,Yukon-Koyukuk,NA,WF,66.06995,-155.4999,2022-07-10T23:40:00Z,2022-07-14T14:42:56Z,19.3,NA,2022-AKGAD-000538,NA,Natural,NFIS,NA
 Wildcat Fire,NV,Elko,"Approximately 40 miles northwest of Wells, NV",WF,41.679293,-115.302496,2022-07-13T23:45:00Z,2022-07-16T20:35:31Z,21429,100,2022-NVHTF-010139,Minimal,Undetermined,NFIS,NA
 Cow Fire,AZ,Mohave,NA,WF,34.74756,-113.7087,2022-07-16T21:30:00Z,2022-07-20T19:34:46Z,20,NA,2022-AZCRD-001000,NA,Natural,NFIS,NA
+Pine Peak Fire,AZ,Mohave,20 SE of Kingman,WF,34.87452,-113.8568,2022-07-16T15:44:00Z,2022-07-25T20:16:14Z,1578,0,2022-AZCRD-000996,Moderate,Natural,NFIS,NA
 Moors Mountain Fire,MT,Lewis and Clark,"24 miles NNE of Helena, MT",WF,46.88728,-111.7334,2022-07-16T21:35:00Z,2022-07-24T10:06:08Z,98,74,2022-MTHLF-000182,Minimal,Undetermined,NFIS,NA
 Committee Fire,AZ,Coconino,"4 miles East of Sedona, AZ",WF,34.71996,-111.6434,2022-07-15T19:20:00Z,2022-07-23T22:19:30Z,362,70,2022-AZCOF-000773,Minimal,Undetermined,NFIS,NA
 1148 Fire,TX,Palo Pinto,North side of Possum Kingdom Lake,WF,32.896,-98.52,2022-07-18T18:01:52Z,2022-07-21T11:28:33Z,457,95,2022-TXTXS-224018,Minimal,Undetermined,NFIS,NA
@@ -186,6 +187,9 @@ Ma07090 Fire,MA,Worcester,NA,WF,NA,NA,2022-07-22T18:40:00Z,2022-07-25T17:46:52Z,
 Pumper Road Fire,TX,Caldwell,6 miles east of Luling,WF,29.74118333,-97.62008333,2022-07-24T02:20:44Z,2022-07-25T19:15:50Z,15.5,85,2022-TXTXS-224240,Extreme,Undetermined,NFIS,NA
 Heath Canyon Fire,NV,Nye,"20 miles southwest of Lund, Nevada.",WF,38.38744,-115.4643,2022-07-23T23:20:00Z,2022-07-25T19:43:42Z,396,1,2022-NVELD-040155,Active,Natural,NFIS,NA
 River Bottom 2 Fire,TX,Hood,NA,WF,32.31083333,-97.94483333,2022-07-19T22:06:16Z,2022-07-25T19:50:52Z,275,75,2022-TXTXS-224081,NA,Undetermined,NFIS,NA
+Kocacho Fire,AK,Yukon-Koyukuk,"18 miles west of Venetie, AK",WF,67.06355,-145.7761,2022-07-24T00:24:00Z,2022-07-25T16:36:54Z,512,0,2022-AKUYD-000592,Active,Natural,NFIS,NA
+Powerline 2 Fire,MA,Essex,NA,WF,NA,NA,2022-07-25T20:20:22Z,2022-07-25T20:23:53Z,0.1,NA,2022-MAMAS-MA05108,NA,NA,NFIS,NA
+Powerline 1 Fire,MA,Essex,NA,WF,NA,NA,2022-07-12T23:21:25Z,2022-07-25T20:20:16Z,0.6,NA,2022-MAMAS-MA05107,NA,NA,NFIS,NA
 Electra Fire,CA,"Amador, Calaveras","Electra Road and Hwy 49, southeast of Jackson in Amador County",Wildfire,38.334802,-120.665415,2022-07-04T18:42:17Z,2022-07-22T08:14:01Z,4478,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/4/electra-fire/
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-07-24T07:11:35Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Winding Fire,CA,Yuba,"Winding Way and Regent Way, 3 miles south of Oregon House in Yuba County",Wildfire,39.314076,-121.27693,2022-07-18T16:43:31Z,2022-07-25T09:24:56Z,82,97,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/18/winding-fire/
