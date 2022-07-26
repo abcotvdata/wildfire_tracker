@@ -149,6 +149,7 @@ Honey Creek Fire,TX,Uvalde,26 miles North North West of Uvalde,WF,29.57833333,-9
 Moose Fire,ID,Lemhi,"17MI north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-07-26T09:20:03Z,32330,10,2022-IDSCF-022105,Active,Undetermined,NFIS,NA
 Shawnee Creek Fire,WY,Converse,NA,WF,42.58426,-105.2546,2022-07-18T21:49:59Z,2022-07-19T14:41:11Z,77,NA,2022-WYCOX-220233,NA,Undetermined,NFIS,NA
  Iron Mountain Fire,GA,Murray,NA,WF,34.984667,-84.661117,2022-07-13T13:15:00Z,2022-07-19T17:24:03Z,89,NA,2022-GACHF-220087,NA,Natural,NFIS,NA
+Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-07-26T15:52:27Z,584,9,2022-MTBRF-022161,Minimal,Natural,NFIS,NA
 Chalk Mountain Fire,TX,Somervell,"4.6 miles Southwest of Glen Rose, TX",WF,32.18776374,-97.86832962,2022-07-18T20:41:24Z,2022-07-25T19:02:54Z,6746,20,2022-TXTXS-224028,Active,Undetermined,NFIS,NA
 Rock Fire,NE,Rock,1 Mile North of Newport,WF,42.61706,-99.3406,2022-07-14T23:35:00Z,2022-07-20T18:56:17Z,1000,100,2022-NENES-220468,Minimal,Undetermined,NFIS,NA
 Rainbow Fire,AK,North Slope,NA,WF,68.23994,-156.4099,2022-07-11T22:23:00Z,2022-07-20T19:05:10Z,335.4,NA,2022-AKGAD-000551,NA,Natural,NFIS,NA
@@ -159,7 +160,6 @@ Mm 35 Fire (06) Fire,FL,Broward,UNKNOWN ADDRESS,WF,NA,NA,2022-07-12T01:15:00Z,20
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,2368,80,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA
 Oak Fire,CA,Mariposa,Midpines,WF,37.548708,-119.920769,2022-07-22T21:10:08Z,2022-07-26T02:27:39Z,18087,26,2022-CAMMU-016149,Active,Undetermined,NFIS,NA
 Alkali Fire,WY,Converse,NA,WF,42.80721,-106.049,2022-07-23T07:08:00Z,2022-07-25T13:59:41Z,20.6,NA,2022-WYCOX-220252,NA,Undetermined,NFIS,NA
-Long Drive - Dawson Fire,MT,Dawson,NA,WF,47.02694,-105.105,2022-07-16T20:38:00Z,2022-07-24T00:01:54Z,NA,NA,2022-MTLG16-000126,NA,Human,NFIS,NA
 Canal - Dawson Fire,MT,Dawson,NA,WF,47.04417,-104.7982,2022-07-11T20:10:00Z,2022-07-24T00:00:56Z,NA,NA,2022-MTLG16-000128,NA,Human,NFIS,NA
 Olson Fire,WY,Campbell,NA,WF,44.22817,-105.4577,2022-07-23T22:56:00Z,2022-07-25T14:03:49Z,33.43,NA,2022-WYCMX-220257,NA,Undetermined,NFIS,NA
 Wall Fire,MT,Rosebud,"30 miles SW of Ashland, MT",WF,45.24339,-106.5726,2022-07-21T20:45:00Z,2022-07-24T01:49:08Z,1998.8,100,2022-MTMCD-000123,Minimal,Natural,NFIS,NA
@@ -195,8 +195,9 @@ Buffer West (31) Fire,FL,Indian River,"INDIAN RIVER COUNTY, FELLSMERE",WF,NA,NA,
 4 Mile Creek (48) Fire,FL,Orange,"WEDGEFIELD, ORANGE",WF,NA,NA,2022-07-15T22:30:00Z,2022-07-26T12:25:17Z,525,100,2022-FLFLS-221200336,Minimal,Natural,NFIS,NA
 Black Cypress Swamp (64) Fire,FL,Volusia,"VOLUSIA COUNTY, PENNICHAW",WF,NA,NA,2022-07-08T23:00:00Z,2022-07-26T12:35:39Z,205,100,2022-FLFLS-221000338,Minimal,Natural,NFIS,NA
 Porter Fire,MT,Missoula,NA,WF,46.96545,-114.1232,2022-07-26T00:14:53Z,2022-07-26T14:35:14Z,1,NA,2022-MTLG04-200678,NA,Human,NFIS,NA
+Allen Fire,LA,Grant,NA,WF,31.53495,-92.38723,2022-07-25T18:20:59Z,2022-07-26T15:58:19Z,150,NA,2022-LAKIF-000198,NA,Undetermined,NFIS,NA
 Electra Fire,CA,"Amador, Calaveras","Electra Road and Hwy 49, southeast of Jackson in Amador County",Wildfire,38.334802,-120.665415,2022-07-04T18:42:17Z,2022-07-22T08:14:01Z,4478,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/4/electra-fire/
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-07-24T07:11:35Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Winding Fire,CA,Yuba,"Winding Way and Regent Way, 3 miles south of Oregon House in Yuba County",Wildfire,39.314076,-121.27693,2022-07-18T16:43:31Z,2022-07-25T09:24:56Z,82,97,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/18/winding-fire/
 Anzar Fire,CA,San Benito,"Anzar Rd and Forest Rd,  East of Aromas",Wildfire,36.8927679,-121.604728,2022-07-21T15:21:00Z,2022-07-26T07:16:39Z,104,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/21/anzar-fire/
-Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-07-26T07:52:13Z,18087,26,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
+Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-07-26T09:24:26Z,18087,26,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
