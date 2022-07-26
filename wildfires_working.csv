@@ -42,8 +42,8 @@ Douglas Fire,AK,Yukon-Koyukuk,0.5 miles east of the Dalton Highway.,WF,66.87197,
 Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-07-26T00:50:39Z,56371.6,0,2022-AKUYD-000332,Minimal,Natural,NFIS,NA
 North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-07-23T19:17:28Z,60750.7,0,2022-AKUYD-000340,Minimal,Natural,NFIS,NA
 Wormy Fire,AK,Yukon-Koyukuk,NA,WF,67.48997,-150.8984,2022-06-21T18:24:00Z,2022-06-30T23:15:50Z,76.1,NA,2022-AKTAD-000334,NA,Natural,NFIS,NA
-Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-07-25T23:54:05Z,25016,40,2022-AKFAS-211310,Active,Natural,NFIS,NA
-Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-07-25T23:44:12Z,99481,39,2022-AKTAD-000315,Moderate,Natural,NFIS,NA
+Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-07-25T23:54:05Z,25063,80,2022-AKFAS-211310,Active,Natural,NFIS,NA
+Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-07-25T23:44:12Z,100233,78,2022-AKTAD-000315,Moderate,Natural,NFIS,NA
 Holonada Fire,AK,Yukon-Koyukuk,52 Miles North of Tanana,WF,65.91443,-152.0485,2022-06-21T00:26:00Z,2022-07-11T20:30:45Z,632.2,0,2022-AKTAD-000322,Minimal,Natural,NFIS,NA
 Donut Fire,AK,Yukon-Koyukuk,"38 miles Southeast of Ruby, AK",WF,64.28001,-154.8886,2022-06-21T19:57:00Z,2022-07-21T23:43:55Z,65621,0,2022-AKTAD-000335,Active,Natural,NFIS,NA
 Koness Fire,AK,Yukon-Koyukuk,"37 miles southeast of Arctic Village, AK",WF,67.8594,-144.1869,2022-06-21T22:12:59Z,2022-07-15T15:57:54Z,7244,0,2022-AKUYD-000339,Minimal,Natural,NFIS,NA
@@ -51,7 +51,7 @@ Clear Fire,AK,Yukon-Koyukuk,10 NW from City of Anderson along the Teklanika Rive
 Camp Creek Fire,AK,Yukon-Koyukuk,Near Camp Creek,WF,64.17569,-156.1086,2022-06-22T04:28:00Z,2022-07-15T19:22:24Z,59809,0,2022-AKGAD-000352,Active,Natural,NFIS,NA
 Minto Lakes Fire,AK,Yukon-Koyukuk,Minto Lakes/Chatanika River,WF,64.95945,-148.824722,2022-06-22T00:34:39Z,2022-07-14T19:38:26Z,37554,53,2022-AKFAS-211349,Minimal,Natural,NFIS,NA
 Pack Fire,AK,Yukon-Koyukuk,"29 miles due east of Circle, AK",WF,65.83409,-142.9913,2022-06-20T19:50:59Z,2022-07-16T16:08:47Z,29969.5,0,2022-AKUYD-000321,Minimal,Natural,NFIS,NA
-Bitzshitini Fire,AK,Yukon-Koyukuk,43 Miles South of Tanana,WF,64.51074,-151.9654,2022-06-20T01:04:00Z,2022-07-25T23:42:32Z,69909,44,2022-AKTAD-000312,Active,Natural,NFIS,NA
+Bitzshitini Fire,AK,Yukon-Koyukuk,43 Miles South of Tanana,WF,64.51074,-151.9654,2022-06-20T01:04:00Z,2022-07-25T23:42:32Z,70970,88,2022-AKTAD-000312,Active,Natural,NFIS,NA
 Radio Creek Fire,AK,Yukon-Koyukuk,40 miles north of Ruby,WF,65.27569,-155.0947,2022-06-21T23:55:00Z,2022-07-14T14:34:41Z,45801.6,0,2022-AKGAD-000344,Moderate,Natural,NFIS,NA
 Bishop Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.55001,-157.7098,2022-06-21T00:09:00Z,2022-07-11T14:18:09Z,3556.9,NA,2022-AKGAD-000323,NA,Natural,NFIS,NA
 Galatea Creek Fire,AK,Yukon-Koyukuk,NA,WF,63.99006,-156.9278,2022-06-21T01:15:59Z,2022-07-14T14:14:01Z,10433.6,NA,2022-AKGAD-000325,NA,Natural,NFIS,NA
@@ -147,7 +147,7 @@ Committee Fire,AZ,Coconino,"4 miles East of Sedona, AZ",WF,34.71996,-111.6434,20
 1148 Fire,TX,Palo Pinto,North side of Possum Kingdom Lake,WF,32.896,-98.52,2022-07-18T18:01:51Z,2022-07-21T11:28:33Z,457,100,2022-TXTXS-224018,Minimal,Undetermined,NFIS,NA
 Dragon Fire,AZ,Coconino,NORTH RIM GRAND CANYON NP,WF,36.2641,-112.1571,2022-07-17T16:21:59Z,2022-07-26T00:04:23Z,1280,0,2022-AZGCP-000722,Moderate,Natural,NFIS,NA
 Honey Creek Fire,TX,Uvalde,26 miles North North West of Uvalde,WF,29.57833333,-99.90183333,2022-07-17T21:16:46Z,2022-07-25T15:29:14Z,353,95,2022-TXTXS-223995,Minimal,Undetermined,NFIS,NA
-Moose Fire,ID,Lemhi,"17MI north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-07-26T02:13:59Z,32330,10,2022-IDSCF-022105,Active,Undetermined,NFIS,NA
+Moose Fire,ID,Lemhi,"17MI north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-07-26T03:42:32Z,32330,10,2022-IDSCF-022105,Active,Undetermined,NFIS,NA
 Shawnee Creek Fire,WY,Converse,NA,WF,42.58426,-105.2546,2022-07-18T21:49:59Z,2022-07-19T14:41:11Z,77,NA,2022-WYCOX-220233,NA,Undetermined,NFIS,NA
  Iron Mountain Fire,GA,Murray,NA,WF,34.984667,-84.661117,2022-07-13T13:15:00Z,2022-07-19T17:24:03Z,89,NA,2022-GACHF-220087,NA,Natural,NFIS,NA
 Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-07-25T10:46:41Z,584,9,2022-MTBRF-022161,Minimal,Natural,NFIS,NA
@@ -194,6 +194,7 @@ Blaze Fire,CA,Santa Barbara,NA,WF,NA,NA,2022-07-24T19:47:59Z,2022-07-25T19:58:08
 Sky Diver Fire,TX,Caldwell,NA,WF,29.69240353,-97.6453452,2022-07-21T19:44:18Z,2022-07-25T23:31:17Z,10,95,2022-TXTXS-224144,NA,Undetermined,NFIS,NA
 Pigmy Fire,TX,Caldwell,NA,WF,29.83290667,-97.65912333,2022-07-24T20:46:30Z,2022-07-25T23:32:59Z,14.1,95,2022-TXTXS-224256,NA,Undetermined,NFIS,NA
 Mustang Fire,TX,Williamson,NA,WF,30.4488223,-97.26655293,2022-07-25T19:01:57Z,2022-07-25T23:40:54Z,41.3,90,2022-TXTXS-224281,NA,Undetermined,NFIS,NA
+Arnold 2 Fire,CA,Imperial,NA,WF,32.65204,-114.7537,2022-07-26T00:14:59Z,2022-07-26T03:39:00Z,1,NA,2022-AZCRD-001093,NA,Undetermined,NFIS,NA
 Electra Fire,CA,"Amador, Calaveras","Electra Road and Hwy 49, southeast of Jackson in Amador County",Wildfire,38.334802,-120.665415,2022-07-04T18:42:17Z,2022-07-22T08:14:01Z,4478,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/4/electra-fire/
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-07-24T07:11:35Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Winding Fire,CA,Yuba,"Winding Way and Regent Way, 3 miles south of Oregon House in Yuba County",Wildfire,39.314076,-121.27693,2022-07-18T16:43:31Z,2022-07-25T09:24:56Z,82,97,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/18/winding-fire/
