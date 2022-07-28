@@ -52,7 +52,7 @@ hotspots_noaa20 <- read_csv("data/hotspots_noaa20.csv",
                             col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
                                              acq_time = col_time(format = "%H%M")))
 hotspots_npp <- read_csv("data/hotspots_npp.csv", 
-                         col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
+                         col_types = cols(bright_ti4 = col_double(), bright_ti5 = col_double(), frp = col_double(), scan = col_double(), track = col_double(), latitude = col_double(), longitude = col_double(), satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
                                           acq_time = col_time(format = "%H%M")))
 # combine those hotspots files into a single geo layer, clean up
 hotspots <- bind_rows(hotspots_modis,hotspots_noaa20,hotspots_npp)
@@ -245,3 +245,4 @@ california_map <- leaflet(noaa_latest_fires) %>%
 # Export as HTML file
 saveWidget(california_map, 'docs/map_california.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
 saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
+
