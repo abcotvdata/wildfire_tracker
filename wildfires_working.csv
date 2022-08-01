@@ -1,5 +1,5 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
-Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:51:00Z,2022-06-30T17:42:37Z,341735,96,2022-NMSNF-000027,Minimal,Human,NFIS,NA
+Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:51:00Z,2022-06-30T17:42:37Z,341735,98,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,90,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Windfall Mountain Fire,AK,Southeast Fairbanks,NA,WF,65.116667,-141.233367,2022-05-20T23:28:00Z,2022-06-08T21:59:10Z,25.8,NA,2022-AKUYD-000108,NA,Natural,NFIS,NA
 Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-08-01T05:13:39Z,204145,50,2022-AKTAD-000185,Moderate,Natural,NFIS,NA
@@ -127,7 +127,7 @@ Moose Fire,ID,Lemhi,"17MI north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-
  Iron Mountain Fire,GA,Murray,NA,WF,34.984667,-84.661117,2022-07-13T13:15:00Z,2022-07-19T17:24:03Z,89,NA,2022-GACHF-220087,NA,Natural,NFIS,NA
 Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-01T10:43:15Z,635,9,2022-MTBRF-022161,Moderate,Natural,NFIS,NA
 Chalk Mountain Fire,TX,Somervell,"4.6 miles Southwest of Glen Rose, TX",WF,32.18776374,-97.86832962,2022-07-18T20:41:24Z,2022-07-30T18:56:24Z,6755,93,2022-TXTXS-224028,Minimal,Undetermined,NFIS,NA
-Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:01:00Z,2022-08-01T13:52:41Z,3000,18,2022-IDSCF-022097,Active,Natural,NFIS,NA
+Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:01:00Z,2022-08-01T13:52:41Z,4130,18,2022-IDSCF-022097,Moderate,Natural,NFIS,NA
 Sand Springs Fire,WY,Converse,"23nm NE of Casper, WY",WF,42.92833,-106.0066,2022-07-20T18:48:00Z,2022-08-01T18:39:25Z,3193,100,2022-WYCOX-220245,Minimal,Undetermined,NFIS,NA
 Casino Fire,SD,Oglala Lakota,14 miles W of Oglala SD,WF,43.13107,-102.8712,2022-07-19T21:22:00Z,2022-08-01T16:08:18Z,12636,100,2022-SDPRA-220486,Minimal,Undetermined,NFIS,NA
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,2368,100,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA
@@ -152,7 +152,7 @@ Buda Fire,TX,Hays,NA,WF,30.10521667,-97.8492,2022-07-27T17:51:18Z,2022-07-28T14:
 Dodge Springs Fire,NV,Lincoln,"30 miles north of Mesquite, directly on the Utah/Nevada border.",WF,37.6352,-114.0621,2022-07-21T21:48:00Z,2022-07-29T17:21:50Z,5644,99,2022-NVELD-040152,Minimal,Natural,NFIS,NA
 Snow Bear Fire,AK,Yukon-Koyukuk,NA,WF,65.8084,-143.3414,2022-07-19T03:09:00Z,2022-08-01T05:27:37Z,36.7,NA,2022-AKUYD-000583,NA,Natural,NFIS,NA
 Woodard Fire,WA,Okanogan,NA,WF,48.866,-119.6459,2022-07-29T21:51:00Z,2022-07-30T17:02:10Z,53,NA,2022-WANES-001451,NA,Undetermined,NFIS,NA
-Elmo Fire,MT,Flathead,8 MILES WEST OF ELMO MT,WF,NA,NA,2022-07-30T00:30:00Z,2022-08-01T10:14:04Z,10923,0,2022-MTFHA-000106,Active,Human,NFIS,NA
+Elmo Fire,MT,Flathead,8 MILES WEST OF ELMO MT,WF,NA,NA,2022-07-30T00:30:00Z,2022-08-01T10:14:04Z,12975,10,2022-MTFHA-000106,Active,Human,NFIS,NA
 Ottertail Fire,AK,Yukon-Koyukuk,NA,WF,67.95411,-145.3719,2022-07-25T02:40:00Z,2022-07-30T21:21:02Z,0.25,NA,2022-AKUYD-000597,NA,Natural,NFIS,NA
 Leech Fire,AK,Yukon-Koyukuk,NA,WF,66.65,-149.55,2022-07-28T22:38:00Z,2022-07-30T21:21:02Z,55.5,NA,2022-AKUYD-000609,NA,Natural,NFIS,NA
 Mckinney Fire,CA,Siskiyou,Klamath River,WF,41.8302,-122.895367,2022-07-29T21:16:34Z,2022-08-01T09:50:24Z,55493,0,2022-CAKNF-006177,Active,Undetermined,NFIS,NA
@@ -177,9 +177,10 @@ Weasel Fire,MT,Lincoln,NA,WF,48.97661,-114.749,2022-07-30T22:05:00Z,2022-08-01T1
 Weasel Fire,MT,Lincoln,NA,WF,48.97661,-114.749,2022-07-30T22:05:00Z,2022-08-01T18:38:49Z,150,NA,2022-MTKNF-000123,NA,Natural,NFIS,NA
 Fish Fire,WY,Crook,7 miles south of Sundance WY East of Highway 585 (Iron Mountain),WF,44.3189,-104.2835,2022-07-31T17:34:00Z,2022-08-01T19:58:25Z,527,0,2022-WYCRX-220541,Extreme,Undetermined,NFIS,NA
 720 Fire,OK,Blaine,"5 miles west of Hitchcock, OK",WF,NA,NA,2022-07-14T22:32:00Z,2022-08-01T20:12:48Z,10000,100,2022-OKOKS-220898,Minimal,Undetermined,NFIS,NA
-Margarita Fire,TX,Bastrop,NA,WF,30.07023629,-97.618007,2022-08-01T17:06:29Z,2022-08-01T22:15:59Z,45,50,2022-TXTXS-224500,NA,Undetermined,NFIS,NA
+Margarita Fire,TX,Bastrop,NA,WF,30.07023629,-97.618007,2022-08-01T17:06:29Z,2022-08-01T22:15:59Z,90,60,2022-TXTXS-224500,NA,Undetermined,NFIS,NA
 Juniper Ridge Fire,TX,King,NA,WF,33.61427,-100.24535,2022-07-31T19:52:12Z,2022-08-01T21:41:37Z,4.6,90,2022-TXTXS-224486,NA,Undetermined,NFIS,NA
-Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-08-01T21:47:19Z,150,0,2022-ORWIF-220170,Moderate,Undetermined,NFIS,NA
+Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-08-01T22:36:53Z,150,0,2022-ORWIF-220170,Moderate,Undetermined,NFIS,NA
+Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:17:00Z,2022-08-01T22:42:04Z,5,0,2022-ORUPF-000234,Active,Undetermined,NFIS,NA
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-07-24T07:11:35Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-01T07:22:10Z,19244,72,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Apple Fire,CA,Yuba,"White Oak Lane and Red Hill Way, 5 miles northeast of Browns Valley",Wildfire,39.323167,-121.304167,2022-07-27T15:08:00Z,2022-08-01T07:22:41Z,39,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/27/apple-fire/
