@@ -6,6 +6,7 @@ Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-
 South Lime Lake Fire,AK,Bethel,100 miles south of McGrath,WF,61.395017,-155.39465,2022-06-06T00:12:49Z,2022-07-15T02:16:10Z,3429,0,2022-AKSWS-204190,Minimal,Natural,NFIS,NA
 Tatlawiksuk Fire,AK,Yukon-Koyukuk,41 miles south of McGrath,WF,62.321167,-155.2585,2022-06-05T07:24:50Z,2022-07-13T03:32:55Z,229439,0,2022-AKSWS-204183,Minimal,Natural,NFIS,NA
 Fourth Of July Creek Fire,AK,Yukon-Koyukuk,Thirty Five Miles West of Mcgrath AK,WF,62.74,-156.6,2022-06-06T16:16:04Z,2022-06-23T03:52:46Z,51146,2,2022-AKSWS-204202,Minimal,Natural,NFIS,NA
+Omega Creek Fire,AK,Yukon-Koyukuk,NA,WF,65.21653,-150.2555,2022-06-05T00:26:00Z,2022-07-28T19:19:57Z,6.7,NA,2022-AKTAD-000181,NA,Human,NFIS,NA
 Kokwok Fire,AK,Dillingham,43 miles North Of Dillingham AK,WF,59.751233,-158.2251,2022-06-06T17:45:47Z,2022-06-23T04:36:54Z,31497,0,2022-AKSWS-204200,Minimal,Natural,NFIS,NA
 Telaquana River Fire,AK,Bethel,117 miles NW of Soldotna,WF,61.018417,-154.344333,2022-06-07T06:38:08Z,2022-07-28T19:19:57Z,7791,0,2022-AKSWS-204216,Minimal,Natural,NFIS,NA
 Hook Creek Fire,AK,Bethel,134 miles S of McGrath,WF,60.993733,-156.16065,2022-06-06T00:02:53Z,2022-07-15T02:16:10Z,4275,0,2022-AKSWS-204188,Minimal,Natural,NFIS,NA
@@ -52,7 +53,6 @@ Bishop Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.55001,-157.7098,2022-06-21T00:09:00Z
 Oval Fire,AK,Yukon-Koyukuk,NA,WF,64.86098,-151.0904,2022-06-24T03:46:59Z,2022-07-28T19:19:57Z,399.2,NA,2022-AKTAD-000366,NA,Natural,NFIS,NA
 Galatea Creek Fire,AK,Yukon-Koyukuk,NA,WF,63.99006,-156.9278,2022-06-21T01:15:59Z,2022-07-29T18:21:24Z,10536.8,NA,2022-AKGAD-000325,NA,Natural,NFIS,NA
 Troublesome Fire,AK,Yukon-Koyukuk,13 Miles East of Rampart,WF,65.49601,-149.7203,2022-06-23T20:38:00Z,2022-07-28T23:23:08Z,13526.5,0,2022-AKTAD-000359,Active,Natural,NFIS,NA
-Porcupine Creek Fire,AK,Fairbanks North Star,NA,WF,64.648,-145.013167,2022-06-25T04:34:35Z,2022-07-28T19:19:57Z,12391,NA,2022-AKFAS-211375,Minimal,Natural,NFIS,NA
 Goshute Fire,NV,Elko,"25 miles south of Wendover ,NV west of Alternate 93",WF,40.50779,-114.2963,2022-06-25T22:28:59Z,2022-07-02T23:03:56Z,1966,90,2022-NVEKD-010089,Minimal,Undetermined,NFIS,NA
 Hilltop Fire,AK,Yukon-Koyukuk,"65 Miles SW of Tanana, AK",WF,64.56346,-153.711,2022-06-25T18:39:00Z,2022-07-28T23:23:08Z,32151.2,0,2022-AKTAD-000377,Minimal,Natural,NFIS,NA
 Huron Fire,AK,Yukon-Koyukuk,20 Miles NE of Rampart,WF,65.54533,-149.3954,2022-06-24T23:16:00Z,2022-07-28T23:23:08Z,18967.3,0,2022-AKTAD-000372,Active,Natural,NFIS,NA
@@ -125,7 +125,7 @@ Committee Fire,AZ,Coconino,"4 miles East of Sedona, AZ",WF,34.71996,-111.6434,20
 Dragon Fire,AZ,Coconino,NORTH RIM GRAND CANYON NP,WF,36.2641,-112.1571,2022-07-17T16:21:59Z,2022-07-29T00:56:09Z,1362,0,2022-AZGCP-000722,Minimal,Natural,NFIS,NA
 Moose Fire,ID,Lemhi,"17MI north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-01T09:39:09Z,56049,23,2022-IDSCF-022105,Active,Undetermined,NFIS,NA
  Iron Mountain Fire,GA,Murray,NA,WF,34.984667,-84.661117,2022-07-13T13:15:00Z,2022-07-19T17:24:03Z,89,NA,2022-GACHF-220087,NA,Natural,NFIS,NA
-Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-01T10:43:14Z,635,9,2022-MTBRF-022161,Moderate,Natural,NFIS,NA
+Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-01T10:43:14Z,731,9,2022-MTBRF-022161,Moderate,Natural,NFIS,NA
 Chalk Mountain Fire,TX,Somervell,"4.6 miles Southwest of Glen Rose, TX",WF,32.18776374,-97.86832962,2022-07-18T20:41:24Z,2022-07-30T18:56:24Z,6755,93,2022-TXTXS-224028,Minimal,Undetermined,NFIS,NA
 Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:00:59Z,2022-08-01T13:52:41Z,4130,18,2022-IDSCF-022097,Moderate,Natural,NFIS,NA
 Sand Springs Fire,WY,Converse,"23nm NE of Casper, WY",WF,42.92833,-106.0066,2022-07-20T18:48:00Z,2022-08-01T18:39:25Z,3193,100,2022-WYCOX-220245,Minimal,Undetermined,NFIS,NA
@@ -151,7 +151,6 @@ Prewett Creek Canyon Fire,MT,Cascade,NA,WF,47.25417,-111.8672,2022-07-26T21:10:0
 Buda Fire,TX,Hays,NA,WF,30.10521667,-97.8492,2022-07-27T17:51:18Z,2022-07-28T14:16:51Z,89.5,95,2022-TXTXS-224352,NA,Undetermined,NFIS,NA
 Dodge Springs Fire,NV,Lincoln,"30 miles north of Mesquite, directly on the Utah/Nevada border.",WF,37.6352,-114.0621,2022-07-21T21:48:00Z,2022-07-29T17:21:50Z,5644,99,2022-NVELD-040152,Minimal,Natural,NFIS,NA
 Snow Bear Fire,AK,Yukon-Koyukuk,NA,WF,65.8084,-143.3414,2022-07-19T03:09:00Z,2022-08-01T05:27:37Z,36.7,NA,2022-AKUYD-000583,NA,Natural,NFIS,NA
-Woodard Fire,WA,Okanogan,NA,WF,48.866,-119.6459,2022-07-29T21:51:00Z,2022-07-30T17:02:10Z,53,NA,2022-WANES-001451,NA,Undetermined,NFIS,NA
 Elmo Fire,MT,Flathead,8 MILES WEST OF ELMO MT,WF,NA,NA,2022-07-30T00:30:00Z,2022-08-01T10:14:03Z,12975,10,2022-MTFHA-000106,Active,Human,NFIS,NA
 Ottertail Fire,AK,Yukon-Koyukuk,NA,WF,67.95411,-145.3719,2022-07-25T02:40:00Z,2022-07-30T21:21:02Z,0.25,NA,2022-AKUYD-000597,NA,Natural,NFIS,NA
 Leech Fire,AK,Yukon-Koyukuk,NA,WF,66.65,-149.55,2022-07-28T22:38:00Z,2022-07-30T21:21:02Z,55.5,NA,2022-AKUYD-000609,NA,Natural,NFIS,NA
@@ -174,19 +173,19 @@ Snake Draw Fire,TX,Parker,NA,WF,32.87626254,-97.98862116,2022-07-31T22:29:55Z,20
 Prairie Dog Fire,TX,Hall,NA,WF,34.563061,-100.686922,2022-07-31T01:12:08Z,2022-08-01T17:04:57Z,148,95,2022-TXTXS-224472,NA,Natural,NFIS,NA
 Weasel Fire,MT,Lincoln,"14 miles NE of Eureka, MT",WF,48.97661,-114.749,2022-07-30T22:05:00Z,2022-08-01T18:38:49Z,150,0,2022-MTKNF-000123,Active,Natural,NFIS,NA
 Weasel Fire,MT,Lincoln,"14 miles NE of Eureka, MT",WF,48.97661,-114.749,2022-07-30T22:05:00Z,2022-08-01T18:38:49Z,150,0,2022-MTKNF-000123,Active,Natural,NFIS,NA
-Fish Fire,WY,Crook,7 miles south of Sundance WY East of Highway 585 (Iron Mountain),WF,44.3189,-104.2835,2022-07-31T17:34:00Z,2022-08-01T19:58:25Z,750,0,2022-WYCRX-220541,Extreme,Undetermined,NFIS,NA
+Fish Fire,WY,Crook,7 miles south of Sundance WY East of Highway 585 (Iron Mountain),WF,44.3189,-104.2835,2022-07-31T17:34:00Z,2022-08-02T02:54:30Z,750,0,2022-WYCRX-220541,Extreme,Undetermined,NFIS,NA
 720 Fire,OK,Blaine,"5 miles west of Hitchcock, OK",WF,NA,NA,2022-07-14T22:31:59Z,2022-08-01T20:12:48Z,10000,100,2022-OKOKS-220898,Minimal,Undetermined,NFIS,NA
 Margarita Fire,TX,Bastrop,NA,WF,30.07023629,-97.618007,2022-08-01T17:06:29Z,2022-08-01T22:15:59Z,96,80,2022-TXTXS-224500,NA,Undetermined,NFIS,NA
 Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-08-01T23:11:13Z,150,0,2022-ORWIF-220170,Moderate,Undetermined,NFIS,NA
-Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:16:59Z,2022-08-01T23:11:13Z,5,0,2022-ORUPF-000234,Active,Undetermined,NFIS,NA
+Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:16:59Z,2022-08-01T23:11:13Z,5,0,2022-ORUPF-000234,Moderate,Undetermined,NFIS,NA
 Sage Hen Fire,OR,Harney,NA,WF,43.51982,-119.2872,2022-08-01T19:20:00Z,2022-08-01T22:53:50Z,92,NA,2022-ORRFPN-002296,NA,Undetermined,NFIS,NA
 Juniper Creek 0491 Od Fire,OR,Jefferson,NA,WF,44.50606,-121.4442,2022-08-01T03:16:39Z,2022-08-01T23:04:18Z,1.6,NA,2022-OR955S-000491,NA,Natural,NFIS,NA
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-07-24T07:11:35Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
-Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-01T07:22:10Z,19244,72,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
+Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-01T18:53:52Z,19244,74,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Apple Fire,CA,Yuba,"White Oak Lane and Red Hill Way, 5 miles northeast of Browns Valley",Wildfire,39.323167,-121.304167,2022-07-27T15:08:00Z,2022-08-01T07:22:41Z,39,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/27/apple-fire/
-Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Rd, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:38:00Z,2022-08-01T12:06:42Z,55493,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
+Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Rd, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:38:00Z,2022-08-01T19:17:22Z,55493,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Mesa Fire,CA,Kern,"Erskine Creek Rd and Willow Gulch, Southeast of Lake Isabella ",Wildfire,35.5745007,-118.4125811,2022-07-30T16:05:00Z,2022-08-01T10:36:30Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/mesa-fire/
-Shackleford Fire,CA,Siskiyou,"Shackleford Rd and Big Meadows Creek, West of Fort Jones  ",Wildfire,41.5734543,-123.0213226,2022-07-30T18:06:00Z,2022-08-01T07:07:56Z,31,20,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/shackleford-fire/
-Pebble Fire,CA,Fresno,"Pebble Ln and Ripple Ln, East of Fresno ",Wildfire,36.6760553,-119.1902259,2022-07-31T14:27:00Z,2022-08-01T10:34:56Z,55,50,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/pebble-fire/
-Kelsey Fire,CA,Siskiyou,"Buker Rd and  Punkin Rd, Southwest of Scott Bar",Wildfire,41.6430162,-123.1193265,2022-07-30T21:17:00Z,2022-08-01T10:34:13Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/kelsey-fire/
-Meamber Fire,CA,Siskiyou,"Meamber Creek Rd and Scott River Rd, Northwest of Fort Jones",Wildfire,41.640867,-122.988315,2022-07-31T19:17:00Z,2022-08-01T10:24:36Z,40,5,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/meamber-fire/
+Shackleford Fire,CA,Siskiyou,"Shackleford Rd and Big Meadows Creek, West of Fort Jones  ",Wildfire,41.5734543,-123.0213226,2022-07-30T18:06:00Z,2022-08-01T19:17:54Z,31,35,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/shackleford-fire/
+Pebble Fire,CA,Fresno,"Pebble Ln and Ripple Ln, East of Fresno ",Wildfire,36.6760553,-119.1902259,2022-07-31T14:27:00Z,2022-08-01T19:14:31Z,55,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/pebble-fire/
+Kelsey Fire,CA,Siskiyou,"Buker Rd and  Punkin Rd, Southwest of Scott Bar",Wildfire,41.6430162,-123.1193265,2022-07-30T21:17:00Z,2022-08-01T19:24:17Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/kelsey-fire/
+Meamber Fire,CA,Siskiyou,"Meamber Creek Rd and Scott River Rd, Northwest of Fort Jones",Wildfire,41.640867,-122.988315,2022-07-31T19:17:00Z,2022-08-01T19:11:38Z,63,25,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/meamber-fire/
