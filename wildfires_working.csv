@@ -126,8 +126,8 @@ Committee Fire,AZ,Coconino,"4 miles East of Sedona, AZ",WF,34.71996,-111.6434,20
 Dragon Fire,AZ,Coconino,NORTH RIM GRAND CANYON NP,WF,36.2641,-112.1571,2022-07-17T16:21:59Z,2022-07-29T00:56:09Z,1362,0,2022-AZGCP-000722,Minimal,Natural,NFIS,NA
 Moose Fire,ID,Lemhi,"17MI north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-02T09:42:24Z,56049,23,2022-IDSCF-022105,Active,Undetermined,NFIS,NA
 Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-01T10:43:14Z,731,9,2022-MTBRF-022161,Moderate,Natural,NFIS,NA
-Chalk Mountain Fire,TX,Somervell,"4.6 miles Southwest of Glen Rose, TX",WF,32.18776374,-97.86832962,2022-07-18T20:41:24Z,2022-07-30T18:56:24Z,6755,93,2022-TXTXS-224028,Minimal,Undetermined,NFIS,NA
-Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:00:59Z,2022-08-01T13:52:41Z,4130,18,2022-IDSCF-022097,Moderate,Natural,NFIS,NA
+Chalk Mountain Fire,TX,Somervell,"4.6 miles Southwest of Glen Rose, TX",WF,32.18776374,-97.86832962,2022-07-18T20:41:24Z,2022-07-30T18:56:24Z,6755,96,2022-TXTXS-224028,Minimal,Undetermined,NFIS,NA
+Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:00:59Z,2022-08-01T13:52:41Z,4230,18,2022-IDSCF-022097,Minimal,Natural,NFIS,NA
 Sand Springs Fire,WY,Converse,"23nm NE of Casper, WY",WF,42.92833,-106.0066,2022-07-20T18:48:00Z,2022-08-01T18:39:25Z,3193,100,2022-WYCOX-220245,Minimal,Undetermined,NFIS,NA
 Casino Fire,SD,Oglala Lakota,14 miles W of Oglala SD,WF,43.13107,-102.8712,2022-07-19T21:22:00Z,2022-08-01T16:08:18Z,12636,100,2022-SDPRA-220486,Minimal,Undetermined,NFIS,NA
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,2368,100,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA
@@ -176,12 +176,12 @@ Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,
 Juniper Creek 0491 Od Fire,OR,Jefferson,NA,WF,44.50606,-121.4442,2022-08-01T03:16:39Z,2022-08-01T23:04:18Z,1.6,NA,2022-OR955S-000491,NA,Natural,NFIS,NA
 Ram Fire,TX,Gillespie,NA,WF,30.26555,-99.216017,2022-08-01T19:00:06Z,2022-08-02T13:40:30Z,95,90,2022-TXTXS-224502,NA,Undetermined,NFIS,NA
 Mm22 Fire,MT,Prairie,NA,WF,47.01811,-105.5878,2022-07-30T22:04:00Z,2022-08-02T15:01:41Z,NA,NA,2022-MTLG45-000158,NA,Human,NFIS,NA
-Carter Canyon Fire,NE,Scotts Bluff,"7 Miles SW Gering, NE",WF,41.78472,-103.7003,2022-07-30T20:02:50Z,2022-08-02T16:55:19Z,15592,30,2022-NENES-220540,Active,Undetermined,NFIS,NA
+Carter Canyon Fire,NE,Scotts Bluff,"7 miles southwest of Gering, NE",WF,41.78472,-103.7003,2022-07-30T20:02:50Z,2022-08-02T16:55:19Z,15592,50,2022-NENES-220540,Moderate,Undetermined,NFIS,NA
 Taco Fire,SD,Oglala Lakota,NA,WF,NA,NA,2022-08-02T01:15:00Z,2022-08-02T17:20:06Z,5,NA,2022-SDPRA-000104,NA,Human,NFIS,NA
 Cow Creek Fire,WY,Converse,61nm NNE from Casper,WF,43.29742,-104.9081,2022-08-01T20:12:00Z,2022-08-02T19:16:15Z,4000,5,2022-WYWYS-220299,Active,Undetermined,NFIS,NA
-Kinney Fire,NV,Washoe,NA,WF,39.45516,-119.8159,2022-08-01T22:21:00Z,2022-08-02T18:31:45Z,15,NA,2022-NVTMFX-030712,NA,Undetermined,NFIS,NA
+Kinney Fire,NV,Washoe,NA,WF,39.45516,-119.8159,2022-08-01T22:21:00Z,2022-08-02T18:31:45Z,17.4,NA,2022-NVTMFX-030712,NA,Undetermined,NFIS,NA
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-08-02T09:57:50Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
-Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-02T14:16:07Z,19244,76,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
+Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Rd, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-02T14:25:14Z,19244,76,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Apple Fire,CA,Yuba,"White Oak Lane and Red Hill Way, 5 miles northeast of Browns Valley",Wildfire,39.323167,-121.304167,2022-07-27T15:08:00Z,2022-08-02T09:34:28Z,39,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/27/apple-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Rd, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-02T11:52:27Z,56165,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Mesa Fire,CA,Kern,"Erskine Creek Rd and Willow Gulch, Southeast of Lake Isabella ",Wildfire,35.5745007,-118.4125811,2022-07-30T16:05:00Z,2022-08-01T10:36:30Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/mesa-fire/
