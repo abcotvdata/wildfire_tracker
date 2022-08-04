@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-30T17:42:37Z,341735,98,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,90,2022-NMGNF-000185,Minimal,Human,NFIS,NA
-Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-08-02T18:40:27Z,204145,50,2022-AKTAD-000185,Moderate,Natural,NFIS,NA
+Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-08-02T18:40:27Z,204145.6,50,2022-AKTAD-000185,Moderate,Natural,NFIS,NA
 South Lime Lake Fire,AK,Bethel,100 miles south of McGrath,WF,61.395017,-155.39465,2022-06-06T00:12:49Z,2022-07-15T02:16:10Z,3429,0,2022-AKSWS-204190,Minimal,Natural,NFIS,NA
 Tatlawiksuk Fire,AK,Yukon-Koyukuk,41 miles south of McGrath,WF,62.321167,-155.2585,2022-06-05T07:24:50Z,2022-07-13T03:32:55Z,229439,0,2022-AKSWS-204183,Minimal,Natural,NFIS,NA
 Fourth Of July Creek Fire,AK,Yukon-Koyukuk,Thirty Five Miles West of Mcgrath AK,WF,62.74,-156.6,2022-06-06T16:16:04Z,2022-08-02T18:46:30Z,51146,2,2022-AKSWS-204202,Minimal,Natural,NFIS,NA
@@ -100,7 +100,7 @@ Prospect Fire,AK,Yukon-Koyukuk,NA,WF,66.76078,-150.5798,2022-07-06T18:11:00Z,202
 American Fire,AK,Yukon-Koyukuk,NA,WF,64.09833,-153.7748,2022-07-07T03:33:59Z,2022-07-28T19:19:57Z,9843.2,0,2022-AKTAD-000504,NA,Natural,NFIS,NA
 South Fork Kuskokwim Fire,AK,Yukon-Koyukuk,"35 miles SE of Nikolai, AK",WF,62.819867,-153.927783,2022-07-08T04:36:22Z,2022-07-28T19:19:57Z,2866,0,2022-AKSWS-204518,Minimal,Natural,NFIS,NA
 Kyikhgyit Fire,AK,Yukon-Koyukuk,"20.5 miles northwest of Hughes, AK",WF,66.3005,-154.6465,2022-07-09T01:04:00Z,2022-08-03T22:00:45Z,11495.5,0,2022-AKTAD-000523,Minimal,Natural,NFIS,NA
-Bear Paw Fire,AK,Denali,NA,WF,64.02999,-151.2198,2022-07-07T20:42:59Z,2022-07-28T19:19:57Z,2040,0,2022-AKTAD-000510,NA,Natural,NFIS,NA
+Bear Paw Fire,AK,Denali,NA,WF,64.02999,-151.2198,2022-07-07T20:42:59Z,2022-07-28T19:19:57Z,3208.3,0,2022-AKTAD-000510,NA,Natural,NFIS,NA
 East Henshaw Fire,AK,Yukon-Koyukuk,"26 miles east of Evansville, AK",WF,66.90516,-152.3245,2022-07-08T05:15:00Z,2022-08-01T05:27:37Z,495,0,2022-AKTAD-000516,Minimal,Natural,NFIS,NA
 Starr Fire,AK,Denali,21 miles east of Lake Minchumina,WF,63.93995,-151.5899,2022-07-07T16:15:00Z,2022-08-04T16:47:13Z,301.8,75,2022-AKTAD-000508,Moderate,Natural,NFIS,NA
  Halfway Hill Fire,UT,Millard,3 miles SE of Fillmore,WF,38.9097,-112.338,2022-07-08T20:13:00Z,2022-07-23T20:48:14Z,11701,83,2022-UTSCS-220216,Minimal,Human,NFIS,NA
@@ -142,7 +142,7 @@ Dodge Springs Fire,NV,Lincoln,"30 miles north of Mesquite, directly on the Utah/
 Snow Bear Fire,AK,Yukon-Koyukuk,NA,WF,65.8084,-143.3414,2022-07-19T03:09:00Z,2022-08-01T05:27:37Z,36.7,NA,2022-AKUYD-000583,NA,Natural,NFIS,NA
 Elmo Fire,MT,Flathead,8 MILES WEST OF ELMO MT,WF,NA,NA,2022-07-30T00:30:00Z,2022-08-04T10:39:02Z,18427,6,2022-MTFHA-000106,Active,Human,NFIS,NA
 Leech Fire,AK,Yukon-Koyukuk,NA,WF,66.65,-149.55,2022-07-28T22:38:00Z,2022-07-30T21:21:02Z,55.5,NA,2022-AKUYD-000609,NA,Natural,NFIS,NA
-Mckinney Fire,CA,Siskiyou,Klamath River,WF,41.8302,-122.895367,2022-07-29T21:16:33Z,2022-08-04T13:23:20Z,57519,10,2022-CAKNF-006177,Active,Undetermined,NFIS,NA
+Mckinney Fire,CA,Siskiyou,Klamath River,WF,41.8302,-122.895367,2022-07-29T21:16:33Z,2022-08-04T18:45:32Z,57519,10,2022-CAKNF-006177,Active,Undetermined,NFIS,NA
 Shiilik Fire,AK,Yukon-Koyukuk,NA,WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022-08-03T18:50:13Z,120,NA,2022-AKUYD-000611,NA,Natural,NFIS,NA
 Sherwood Fire,WY,Natrona,NA,WF,43.40197,-106.2211,2022-07-31T17:42:59Z,2022-08-01T16:30:09Z,34.5,NA,2022-WYNAX-220289,NA,Undetermined,NFIS,NA
 Sarpy Fire,MT,Big Horn,Sarpy Mountains NE corner of Crow Reservation,WF,45.7672,-107.0817,2022-07-30T20:18:00Z,2022-08-01T00:09:58Z,74,70,2022-MTCRA-220399,Moderate,Undetermined,NFIS,NA
@@ -182,7 +182,7 @@ Dismal Fire,ID,Idaho,"37NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.949
 Wilson Fire,TX,Parker,NA,WF,32.76621667,-98.0158,2022-08-03T19:35:02Z,2022-08-03T21:40:26Z,50,50,2022-TXTXS-224579,Moderate,Undetermined,NFIS,NA
 Miller Road Fire,OR,Wasco,"8 miles Southwest from Maupin, CA",WF,45.14538,-121.321,2022-08-02T19:47:00Z,2022-08-04T03:03:38Z,10500,0,2022-OR954S-000659,Active,Undetermined,NFIS,NA
 Kelsey Fire,CA,Siskiyou,NA,WF,41.6397,-123.122033,2022-07-31T04:17:48Z,2022-08-03T22:05:10Z,80,NA,2022-CAKNF-006273,NA,Undetermined,NFIS,NA
-Colony Fire,TX,Hood,2 miles North of Tolar / 8 miles West of Granbury,WF,32.41846845,-97.91937348,2022-08-03T19:48:48Z,2022-08-04T02:02:41Z,467,50,2022-TXTXS-224582,Active,Undetermined,NFIS,NA
+Colony Fire,TX,Hood,2 miles North of Tolar / 8 miles West of Granbury,WF,32.41846845,-97.91937348,2022-08-03T19:48:48Z,2022-08-04T02:02:41Z,467,60,2022-TXTXS-224582,Active,Undetermined,NFIS,NA
 Bracket Butte - Fallon Fire,MT,Fallon,NA,WF,46.30394,-104.2309,2022-08-04T06:20:59Z,2022-08-04T13:39:31Z,NA,NA,2022-MTLG39-000184,NA,Human,NFIS,NA
 Triple S Fire,SD,Harding,NA,WF,45.76893,-103.4721,2022-08-03T22:53:00Z,2022-08-04T14:22:40Z,NA,NA,2022-SDHRX-000183,NA,Undetermined,NFIS,NA
 Williams Lake Fire,WA,Spokane,"SOUTH WEST SPOKANE COUNTY, SOUTH OF TURNBULL",WF,47.33191,-117.6288,2022-08-03T21:35:00Z,2022-08-04T03:59:12Z,1500,0,2022-WANES-001491,Active,Human,NFIS,NA
@@ -191,6 +191,7 @@ Airport Fire,SD,Todd,NA,WF,NA,NA,2022-08-03T19:10:00Z,2022-08-04T15:18:14Z,20,NA
 Crystal Fire,NV,Washoe,NA,WF,39.52613,-120.0027,2022-08-04T04:15:32Z,2022-08-04T17:18:41Z,2.5,NA,2022-NVHTF-030723,NA,Undetermined,NFIS,NA
 Marmot Fire,CA,Tulare,NA,WF,36.378029,-118.853699,2022-08-02T20:39:44Z,2022-08-04T17:31:25Z,0.01,NA,2022-CATUU-000572,NA,Undetermined,NFIS,NA
 Cedar Creek Fire,OR,Lane,NA,WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-08-04T18:05:34Z,300,NA,2022-ORWIF-220180,NA,Natural,NFIS,NA
+Two 14 Fire,SD,Bennett,NA,WF,NA,NA,2022-08-04T18:26:46Z,2022-08-04T18:50:07Z,6,NA,2022-SDPRA-000109,NA,NA,NFIS,NA
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-08-02T09:57:50Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-04T07:24:34Z,19244,86,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-04T07:22:52Z,58668,10,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
@@ -200,4 +201,4 @@ Kelsey Fire,CA,Siskiyou,"Buker Rd and  Punkin Rd, Southwest of Scott Bar",Wildfi
 Meamber Fire,CA,Siskiyou,"Meamber Creek Road and Scott River Road, Northwest of Fort Jones",Wildfire,41.640867,-122.988315,2022-07-31T19:17:00Z,2022-08-04T07:08:30Z,63,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/meamber-fire/
 Marmot Fire,CA,Tulare,"South Fork Drive and Cinnamon Canyon Road, southeast of Three Rivers",Wildfire,36.378236,-118.853671,2022-08-02T13:35:00Z,2022-08-04T07:07:02Z,127,60,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/2/marmot-fire/
 Springs Fire,CA,Tuolumne,"HWY 108 and La Grange Road, Jamestown",Wildfire,37.84349,-120.50806,2022-08-03T15:16:00Z,2022-08-04T07:06:47Z,47,99,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/3/springs-fire/
-Smokey Fire Fire,CA,Siskiyou,"Beaver Creek and Forest Road 48N01, west of Hilt",Wildfire,41.9708541,-122.7825581,2022-08-04T09:05:00Z,2022-08-04T11:27:43Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/4/smokey-fire/
+Smokey Fire Fire,CA,Siskiyou,"Beaver Creek and Forest Road 48N01, west of Hilt",Wildfire,41.9708541,-122.7825581,2022-08-04T09:05:00Z,2022-08-04T11:29:43Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/4/smokey-fire/
