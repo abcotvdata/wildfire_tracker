@@ -1,7 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-30T17:42:37Z,341735,98,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,90,2022-NMGNF-000185,Minimal,Human,NFIS,NA
-Windfall Mountain Fire,AK,Southeast Fairbanks,NA,WF,65.116667,-141.233367,2022-05-20T23:28:00Z,2022-08-02T18:30:36Z,25.8,NA,2022-AKUYD-000108,NA,Natural,NFIS,NA
 Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-08-02T18:40:27Z,204145,50,2022-AKTAD-000185,Moderate,Natural,NFIS,NA
 South Lime Lake Fire,AK,Bethel,100 miles south of McGrath,WF,61.395017,-155.39465,2022-06-06T00:12:49Z,2022-07-15T02:16:10Z,3429,0,2022-AKSWS-204190,Minimal,Natural,NFIS,NA
 Tatlawiksuk Fire,AK,Yukon-Koyukuk,41 miles south of McGrath,WF,62.321167,-155.2585,2022-06-05T07:24:50Z,2022-07-13T03:32:55Z,229439,0,2022-AKSWS-204183,Minimal,Natural,NFIS,NA
@@ -33,41 +32,41 @@ Melozitna Fire,AK,Yukon-Koyukuk,West of Melozitna River,WF,65.0585,-155.2334,202
 Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-08-02T19:19:07Z,53529.6,0,2022-AKUYD-000294,Minimal,Natural,NFIS,NA
 Central Creek Airstrip Fire,AK,Southeast Fairbanks,Good Pasture and Central Creek drainages,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-07-28T19:19:57Z,6978,0,2022-AKDAS-212295,Active,Natural,NFIS,NA
 Curky Fire,AK,Yukon-Koyukuk,12 miles due west of the Dalton Highway.,WF,66.17999,-150.6393,2022-06-20T15:49:00Z,2022-08-02T19:26:58Z,30394.6,0,2022-AKTAD-000318,Moderate,Natural,NFIS,NA
-Sithylemenkat Fire,AK,Yukon-Koyukuk,"46 miles southeast of Allakaket, AK",WF,68.14869,-151.3848,2022-06-20T18:39:00Z,2022-08-04T15:31:09Z,397.2,40,2022-AKTAD-000320,Minimal,Natural,NFIS,NA
+Sithylemenkat Fire,AK,Yukon-Koyukuk,"46 miles southeast of Allakaket, AK",WF,68.14869,-151.3848,2022-06-20T18:39:00Z,2022-08-04T16:47:13Z,410.1,40,2022-AKTAD-000320,Minimal,Natural,NFIS,NA
 Paddle Fire,AK,Yukon-Koyukuk,"36 miles northeast of Circle, AK",WF,66.07081,-142.9123,2022-06-19T20:03:59Z,2022-08-02T19:26:01Z,30948,0,2022-AKUYD-000308,Minimal,Natural,NFIS,NA
 Eddy Creek Fire,AK,Yukon-Koyukuk,31 Miles SW of Galena,WF,64.40566,-157.7121,2022-06-19T04:05:59Z,2022-08-02T19:24:03Z,4230,0,2022-AKGAD-000306,Minimal,Natural,NFIS,NA
 Douglas Fire,AK,Yukon-Koyukuk,0.5 miles east of the Dalton Highway.,WF,66.87197,-150.5214,2022-06-21T21:09:00Z,2022-07-30T21:21:02Z,23161.7,36,2022-AKUYD-000336,Moderate,Natural,NFIS,NA
 Lansing Creek Fire,AK,Yukon-Koyukuk,"30 miles southeast of Coldfoot, AK",WF,66.86999,-149.4497,2022-06-21T17:02:00Z,2022-08-02T19:47:27Z,56371.6,0,2022-AKUYD-000332,Minimal,Natural,NFIS,NA
 North Fork Fire,AK,Yukon-Koyukuk,"18 miles southwest of Chandalar, AK",WF,67.25764,-148.6909,2022-06-21T22:20:00Z,2022-07-30T21:21:02Z,60750.7,0,2022-AKUYD-000340,Minimal,Natural,NFIS,NA
-Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-08-04T15:35:33Z,25223,98,2022-AKFAS-211310,Active,Natural,NFIS,NA
-Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-07-30T05:46:08Z,100246,98,2022-AKTAD-000315,Moderate,Natural,NFIS,NA
+Tanana River Fire,AK,Yukon-Koyukuk,Tanana River 15 miles west of Fairbanks,WF,64.9005,-149.6743,2022-06-20T00:53:53Z,2022-08-04T16:47:13Z,25223,98,2022-AKFAS-211310,Active,Natural,NFIS,NA
+Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-08-04T16:47:13Z,100246,98,2022-AKTAD-000315,Moderate,Natural,NFIS,NA
 Holonada Fire,AK,Yukon-Koyukuk,52 Miles North of Tanana,WF,65.91443,-152.0485,2022-06-21T00:26:00Z,2022-08-02T19:32:34Z,623.2,0,2022-AKTAD-000322,Minimal,Natural,NFIS,NA
-Donut Fire,AK,Yukon-Koyukuk,"38 miles Southeast of Ruby, AK",WF,64.28001,-154.8886,2022-06-21T19:57:00Z,2022-07-28T23:23:08Z,68562,75,2022-AKTAD-000335,Active,Natural,NFIS,NA
+Donut Fire,AK,Yukon-Koyukuk,"38 miles Southeast of Ruby, AK",WF,64.28001,-154.8886,2022-06-21T19:57:00Z,2022-08-04T16:47:13Z,68562,75,2022-AKTAD-000335,Active,Natural,NFIS,NA
 Koness Fire,AK,Yukon-Koyukuk,"37 miles southeast of Arctic Village, AK",WF,67.8594,-144.1869,2022-06-21T22:12:59Z,2022-07-15T15:57:54Z,7244,0,2022-AKUYD-000339,Minimal,Natural,NFIS,NA
 Clear Fire,AK,Yukon-Koyukuk,10 NW from City of Anderson along the Teklanika River,WF,64.404667,-149.5065,2022-06-22T01:05:10Z,2022-08-02T15:27:24Z,72191,77,2022-AKFAS-211346,Minimal,Natural,NFIS,NA
 Camp Creek Fire,AK,Yukon-Koyukuk,Near Camp Creek,WF,64.17569,-156.1086,2022-06-22T04:28:00Z,2022-07-29T18:25:26Z,79928.6,75,2022-AKGAD-000352,Active,Natural,NFIS,NA
 Minto Lakes Fire,AK,Yukon-Koyukuk,Minto Lakes/Chatanika River,WF,64.95945,-148.824722,2022-06-22T00:34:39Z,2022-07-28T19:19:57Z,37554,53,2022-AKFAS-211349,Minimal,Natural,NFIS,NA
 Pack Fire,AK,Yukon-Koyukuk,"29 miles due east of Circle, AK",WF,65.83409,-142.9913,2022-06-20T19:50:59Z,2022-08-02T19:26:58Z,30007.6,0,2022-AKUYD-000321,Minimal,Natural,NFIS,NA
-Bitzshitini Fire,AK,Yukon-Koyukuk,43 Miles South of Tanana,WF,64.51074,-151.9654,2022-06-20T01:04:00Z,2022-07-30T05:46:08Z,71266,98,2022-AKTAD-000312,Active,Natural,NFIS,NA
+Bitzshitini Fire,AK,Yukon-Koyukuk,43 Miles South of Tanana,WF,64.51074,-151.9654,2022-06-20T01:04:00Z,2022-08-04T16:47:13Z,71266,98,2022-AKTAD-000312,Active,Natural,NFIS,NA
 Radio Creek Fire,AK,Yukon-Koyukuk,40 miles north of Ruby,WF,65.27569,-155.0947,2022-06-21T23:55:00Z,2022-08-03T16:45:39Z,46037.5,100,2022-AKGAD-000344,Minimal,Natural,NFIS,NA
 Bishop Creek Fire,AK,Yukon-Koyukuk,NA,WF,64.55001,-157.7098,2022-06-21T00:09:00Z,2022-08-02T19:35:50Z,3556.9,NA,2022-AKGAD-000323,NA,Natural,NFIS,NA
 Galatea Creek Fire,AK,Yukon-Koyukuk,NA,WF,63.99006,-156.9278,2022-06-21T01:15:59Z,2022-07-29T18:21:24Z,10536.8,NA,2022-AKGAD-000325,NA,Natural,NFIS,NA
 Troublesome Fire,AK,Yukon-Koyukuk,13 Miles East of Rampart,WF,65.49601,-149.7203,2022-06-23T20:38:00Z,2022-07-28T23:23:08Z,13526.5,0,2022-AKTAD-000359,Active,Natural,NFIS,NA
 Goshute Fire,NV,Elko,"25 miles south of Wendover ,NV west of Alternate 93",WF,40.50779,-114.2963,2022-06-25T22:28:59Z,2022-07-02T23:03:56Z,1966,90,2022-NVEKD-010089,Minimal,Undetermined,NFIS,NA
-Hilltop Fire,AK,Yukon-Koyukuk,"65 Miles SW of Tanana, AK",WF,64.56346,-153.711,2022-06-25T18:39:00Z,2022-07-28T23:23:08Z,32151.2,0,2022-AKTAD-000377,Minimal,Natural,NFIS,NA
+Hilltop Fire,AK,Yukon-Koyukuk,"65 Miles SW of Tanana, AK",WF,64.56346,-153.711,2022-06-25T18:39:00Z,2022-08-04T16:47:13Z,32151.2,0,2022-AKTAD-000377,Minimal,Natural,NFIS,NA
 Huron Fire,AK,Yukon-Koyukuk,20 Miles NE of Rampart,WF,65.54533,-149.3954,2022-06-24T23:16:00Z,2022-07-28T23:23:08Z,18967.3,0,2022-AKTAD-000372,Active,Natural,NFIS,NA
-Sunset Fire,AK,Yukon-Koyukuk,49 Miles East of Tanana,WF,65.10989,-153.7495,2022-06-24T18:49:00Z,2022-07-28T19:19:57Z,3001.5,75,2022-AKTAD-000369,Moderate,Natural,NFIS,NA
+Sunset Fire,AK,Yukon-Koyukuk,49 Miles East of Tanana,WF,65.10989,-153.7495,2022-06-24T18:49:00Z,2022-08-04T16:47:13Z,3001.5,75,2022-AKTAD-000369,Moderate,Natural,NFIS,NA
 Leaf Fire,AK,Yukon-Koyukuk,"46 miles northwest of Telida, AK",WF,63.85987,-154.4235,2022-06-27T00:01:00Z,2022-07-28T19:19:57Z,11177.6,100,2022-AKTAD-000385,Moderate,Natural,NFIS,NA
 Mud River Fire,AK,Yukon-Koyukuk,NA,WF,64.099333,-157.010333,2022-06-26T03:33:59Z,2022-07-29T18:24:58Z,43603.6,NA,2022-AKGAD-000380,NA,Natural,NFIS,NA
 Yukon Creek Fire,AK,Fairbanks North Star,NA,WF,64.70645,-145.959367,2022-06-17T23:01:54Z,2022-08-02T19:19:07Z,12489,NA,2022-AKFAS-211296,Minimal,Natural,NFIS,NA
-Goose Fire,AK,Yukon-Koyukuk,"15 Miles Northwest of Chalkyitsik, AK.",WF,66.87611,-143.8876,2022-06-29T16:38:00Z,2022-08-04T16:27:16Z,6258.5,0,2022-AKUYD-000395,Minimal,Natural,NFIS,NA
+Goose Fire,AK,Yukon-Koyukuk,"15 Miles Northwest of Chalkyitsik, AK.",WF,66.87611,-143.8876,2022-06-29T16:38:00Z,2022-08-04T16:27:16Z,6357.3,0,2022-AKUYD-000395,Minimal,Natural,NFIS,NA
 East Yuki Fire,AK,Yukon-Koyukuk,NA,WF,64.13178,-156.6346,2022-07-02T03:07:00Z,2022-07-09T14:49:29Z,2192,NA,2022-AKGAD-000418,NA,Natural,NFIS,NA
 Waterfall Fire,AK,Southeast Fairbanks,"37 miles north of Eagle, AK",WF,65.33993,-141.1991,2022-07-02T15:45:00Z,2022-08-01T05:27:37Z,5971.5,0,2022-AKUYD-000423,Minimal,Natural,NFIS,NA
 Ladue Fire,AK,Southeast Fairbanks,NA,WF,63.4955,-141.819,2022-07-01T01:07:25Z,2022-07-28T19:19:57Z,1199,NA,2022-AKTAS-213410,Active,Natural,NFIS,NA
 Belle Fire,AK,Yukon-Koyukuk,"17 miles north of Chalkyitsik, AK",WF,66.90318,-143.7021,2022-06-29T23:15:00Z,2022-07-21T17:26:32Z,920.6,0,2022-AKUYD-000398,Minimal,Natural,NFIS,NA
 Slathtouka Fire,AK,Yukon-Koyukuk,"19 miles southwest of Allakaket, AK.",WF,66.37583,-153.2218,2022-07-03T16:44:59Z,2022-08-01T05:27:37Z,7789.1,90,2022-AKTAD-000431,Minimal,Natural,NFIS,NA
 South Fork Fire,AK,Southeast Fairbanks,NA,WF,64.183333,-145.35,2022-07-02T21:49:20Z,2022-07-28T19:19:57Z,3785,NA,2022-AKDAS-212427,Active,Natural,NFIS,NA
-Bearman Fire,AK,Yukon-Koyukuk,"25 miles northwest of Fort Yukon, AK",WF,66.80502,-145.9862,2022-07-04T02:58:00Z,2022-07-30T21:21:02Z,632.2,0,2022-AKUYD-000444,Minimal,Natural,NFIS,NA
+Bearman Fire,AK,Yukon-Koyukuk,"25 miles northwest of Fort Yukon, AK",WF,66.80502,-145.9862,2022-07-04T02:58:00Z,2022-08-04T16:47:13Z,649.3,0,2022-AKUYD-000444,Minimal,Natural,NFIS,NA
 Sucker Fire,AK,Yukon-Koyukuk,"27 miles southwest of Chalkyitsik, AK",WF,66.36022,-144.4057,2022-07-04T15:33:00Z,2022-08-03T20:45:13Z,834,0,2022-AKUYD-000451,Minimal,Natural,NFIS,NA
 Chalatna Fire,AK,Yukon-Koyukuk,"The fire is located 29.6 miles southeast of Allakaket, AK",WF,66.41978,-151.6286,2022-07-04T21:59:00Z,2022-08-01T05:13:39Z,954.5,0,2022-AKTAD-000464,Minimal,Natural,NFIS,NA
 Dennison Fork Fire,AK,Southeast Fairbanks,NA,WF,63.444167,-141.961833,2022-07-04T21:15:04Z,2022-07-28T19:19:57Z,1015,NA,2022-AKTAS-213462,Extreme,Natural,NFIS,NA
@@ -88,7 +87,7 @@ Fanny Mountain Fire,AK,Yukon-Koyukuk,"Fire is east, slightly northeast of Circle
 Flat Fire,AK,Yukon-Koyukuk,"28 miles southeast of Hughes, AK",WF,65.66869,-153.9719,2022-07-04T20:21:00Z,2022-08-01T05:27:37Z,1757.6,0,2022-AKTAD-000459,Minimal,Natural,NFIS,NA
 Heart Fire,AK,Yukon-Koyukuk,"30 miles northwest of Evansville, AK",WF,67.09286,-152.5927,2022-07-05T16:56:00Z,2022-08-01T05:27:37Z,5465.6,0,2022-AKTAD-000481,Minimal,Natural,NFIS,NA
 Sinyalak Fire,AK,Yukon-Koyukuk,"Fire is 20.6 miles northwest of Allakaket, AK",WF,66.83884,-153.9395,2022-07-05T21:36:00Z,2022-08-01T05:27:37Z,1282,0,2022-AKTAD-000484,Minimal,Natural,NFIS,NA
-Little Mud Fire,AK,Yukon-Koyukuk,51.6 miles east of Ruby,WF,64.71449,-153.7677,2022-07-06T00:04:00Z,2022-07-28T23:23:08Z,12778.8,0,2022-AKTAD-000488,Minimal,Natural,NFIS,NA
+Little Mud Fire,AK,Yukon-Koyukuk,51.6 miles east of Ruby,WF,64.71449,-153.7677,2022-07-06T00:04:00Z,2022-08-04T16:47:13Z,12778.8,0,2022-AKTAD-000488,Minimal,Natural,NFIS,NA
 Gilles Creek Fire,AK,Southeast Fairbanks,NA,WF,64.408667,-145.841833,2022-07-04T20:24:24Z,2022-07-28T19:19:57Z,2817,NA,2022-AKDAS-212460,Minimal,Natural,NFIS,NA
 Little Dall Fire,AK,Yukon-Koyukuk,"Approximately 14 mile northwest of Stevens Village, AK",WF,66.07445,-149.5701,2022-07-05T23:44:00Z,2022-07-28T23:23:08Z,289.8,30,2022-AKUYD-000487,Minimal,Natural,NFIS,NA
 Sischu Fire,AK,Yukon-Koyukuk,NA,WF,64.05995,-152.8299,2022-07-07T16:12:00Z,2022-07-28T23:23:08Z,8577.2,0,2022-AKTAD-000507,NA,Natural,NFIS,NA
@@ -103,10 +102,10 @@ South Fork Kuskokwim Fire,AK,Yukon-Koyukuk,"35 miles SE of Nikolai, AK",WF,62.81
 Kyikhgyit Fire,AK,Yukon-Koyukuk,"20.5 miles northwest of Hughes, AK",WF,66.3005,-154.6465,2022-07-09T01:04:00Z,2022-08-03T22:00:45Z,11495.5,0,2022-AKTAD-000523,Minimal,Natural,NFIS,NA
 Bear Paw Fire,AK,Denali,NA,WF,64.02999,-151.2198,2022-07-07T20:42:59Z,2022-07-28T19:19:57Z,2040,0,2022-AKTAD-000510,NA,Natural,NFIS,NA
 East Henshaw Fire,AK,Yukon-Koyukuk,"26 miles east of Evansville, AK",WF,66.90516,-152.3245,2022-07-08T05:15:00Z,2022-08-01T05:27:37Z,495,0,2022-AKTAD-000516,Minimal,Natural,NFIS,NA
-Starr Fire,AK,Denali,21 miles east of Lake Minchumina,WF,63.93995,-151.5899,2022-07-07T16:15:00Z,2022-08-01T05:13:39Z,247.7,75,2022-AKTAD-000508,Moderate,Natural,NFIS,NA
+Starr Fire,AK,Denali,21 miles east of Lake Minchumina,WF,63.93995,-151.5899,2022-07-07T16:15:00Z,2022-08-04T16:47:13Z,247.7,75,2022-AKTAD-000508,Moderate,Natural,NFIS,NA
  Halfway Hill Fire,UT,Millard,3 miles SE of Fillmore,WF,38.9097,-112.338,2022-07-08T20:13:00Z,2022-07-23T20:48:14Z,11701,83,2022-UTSCS-220216,Minimal,Human,NFIS,NA
-Christian Fire,AK,Yukon-Koyukuk,"24 miles east of Venetie, AK",WF,66.99512,-145.3864,2022-07-09T15:55:00Z,2022-08-03T20:51:46Z,3514.1,0,2022-AKUYD-000528,Minimal,Natural,NFIS,NA
-Minnkohwin Fire,AK,Yukon-Koyukuk,"19 miles southeast of Allakaket, AK",WF,66.366,-152.1294,2022-07-09T01:57:00Z,2022-08-04T15:30:21Z,7439.2,0,2022-AKTAD-000525,Minimal,Natural,NFIS,NA
+Christian Fire,AK,Yukon-Koyukuk,"24 miles east of Venetie, AK",WF,66.99512,-145.3864,2022-07-09T15:55:00Z,2022-08-04T16:47:13Z,4695.6,0,2022-AKUYD-000528,Minimal,Natural,NFIS,NA
+Minnkohwin Fire,AK,Yukon-Koyukuk,"19 miles southeast of Allakaket, AK",WF,66.366,-152.1294,2022-07-09T01:57:00Z,2022-08-04T16:47:13Z,7439.2,0,2022-AKTAD-000525,Minimal,Natural,NFIS,NA
 Helpmejack Hills Fire,AK,Yukon-Koyukuk,"38.2 miles northwest of Allakaket, AK",WF,66.90133,-153.7535,2022-07-10T12:54:00Z,2022-08-01T05:27:37Z,9136.7,0,2022-AKTAD-000532,Minimal,Natural,NFIS,NA
 Little Mud West Fire,AK,Yukon-Koyukuk,58 miles southeast of Tanana.,WF,64.65317,-153.6687,2022-07-10T14:34:00Z,2022-07-28T23:23:08Z,2158.3,0,2022-AKTAD-000533,Minimal,Natural,NFIS,NA
 Kichaiakaka Fire,AK,Yukon-Koyukuk,"49.8 miles northeast of Allakaket, AK",WF,67.03933,-154.0282,2022-07-11T15:30:59Z,2022-08-01T05:27:37Z,3519.5,0,2022-AKTAD-000548,Minimal,Natural,NFIS,NA
@@ -131,9 +130,9 @@ Oak Fire,CA,Mariposa,Community of Midpines. Approximately 6 miles N/E of Maripos
 C-3 Fire,AZ,Coconino,"25 miles north of Peach Springs, AZ /Eastside of Hualapai Reservation",WF,35.8539,-113.233,2022-07-21T18:32:00Z,2022-07-27T00:39:25Z,1378,75,2022-AZTCA-000773,Minimal,Undetermined,NFIS,NA
 Clover Fire,MT,Madison,Middle Fork of Warm Springs Creek,WF,44.99343,-111.7968,2022-07-13T23:51:00Z,2022-08-03T11:57:12Z,1098,32,2022-MTBDF-006132,Moderate,Natural,NFIS,NA
 Heath Canyon Fire,NV,Nye,"20 miles southwest of Lund, Nevada.",WF,38.38744,-115.4643,2022-07-23T23:19:59Z,2022-07-25T21:09:23Z,423,65,2022-NVELD-040155,Minimal,Natural,NFIS,NA
-Kocacho Fire,AK,Yukon-Koyukuk,"18 miles west of Venetie, AK",WF,67.06355,-145.7761,2022-07-24T00:24:00Z,2022-07-30T21:21:02Z,5413.5,0,2022-AKUYD-000592,Minimal,Natural,NFIS,NA
+Kocacho Fire,AK,Yukon-Koyukuk,"18 miles west of Venetie, AK",WF,67.06355,-145.7761,2022-07-24T00:24:00Z,2022-08-04T16:47:13Z,5758.3,0,2022-AKUYD-000592,Minimal,Natural,NFIS,NA
 Unit 45 Fire,TX,Wise,NA,WF,33.32886,-97.61531,2022-07-20T21:29:00Z,2022-07-25T20:27:32Z,145,NA,2022-TXTXF-000298,NA,Undetermined,NFIS,NA
- Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 4 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:04Z,2022-07-25T22:43:36Z,20,0,2022-IDIPF-000212,Minimal,Natural,NFIS,NA
+ Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 4 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:04Z,2022-07-25T22:43:36Z,120,0,2022-IDIPF-000212,Minimal,Natural,NFIS,NA
 Sky Diver Fire,TX,Caldwell,NA,WF,29.69240353,-97.6453452,2022-07-21T19:44:18Z,2022-07-25T23:31:17Z,10,98,2022-TXTXS-224144,NA,Undetermined,NFIS,NA
 Buffer West (31) Fire,FL,Indian River,"INDIAN RIVER COUNTY, FELLSMERE",WF,NA,NA,2022-07-22T18:14:59Z,2022-07-26T12:06:32Z,860,100,2022-FLFLS-221600632,Minimal,Natural,NFIS,NA
 4 Mile Creek (48) Fire,FL,Orange,"WEDGEFIELD, ORANGE",WF,NA,NA,2022-07-15T22:30:00Z,2022-07-26T12:25:17Z,525,100,2022-FLFLS-221200336,Minimal,Natural,NFIS,NA
@@ -149,7 +148,7 @@ Shiilik Fire,AK,Yukon-Koyukuk,NA,WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022
 Sherwood Fire,WY,Natrona,NA,WF,43.40197,-106.2211,2022-07-31T17:42:59Z,2022-08-01T16:30:09Z,34.5,NA,2022-WYNAX-220289,NA,Undetermined,NFIS,NA
 Sarpy Fire,MT,Big Horn,Sarpy Mountains NE corner of Crow Reservation,WF,45.7672,-107.0817,2022-07-30T20:18:00Z,2022-08-01T00:09:58Z,74,70,2022-MTCRA-220399,Moderate,Undetermined,NFIS,NA
 Big Fire,AK,Yukon-Koyukuk,NA,WF,66.1454,-143.7271,2022-06-18T00:08:00Z,2022-08-02T19:23:11Z,6.4,NA,2022-AKUYD-000298,NA,Natural,NFIS,NA
-Yeti Fire,CA,Siskiyou,Seiad south of HWY 96 and south of the Klamath River.,WF,41.867893,-123.278193,2022-07-30T03:58:11Z,2022-08-04T06:20:10Z,2986,0,2022-CAKNF-006200,Moderate,Undetermined,NFIS,NA
+Yeti Fire,CA,Siskiyou,Seiad south of HWY 96 and south of the Klamath River.,WF,41.867893,-123.278193,2022-07-30T03:58:11Z,2022-08-04T06:20:10Z,4626,0,2022-CAKNF-006200,Moderate,Undetermined,NFIS,NA
 Weasel Fire,MT,Lincoln,"14 miles NE of Eureka, MT",WF,48.97661,-114.749,2022-07-30T22:05:00Z,2022-08-04T14:09:53Z,162,0,2022-MTKNF-000123,Moderate,Natural,NFIS,NA
 Fish Fire,WY,Crook,7 miles south of Sundance WY East of Highway 585 (Iron Mountain),WF,44.3189,-104.2835,2022-07-31T17:34:00Z,2022-08-03T21:11:08Z,6668,20,2022-WYCRX-220541,Moderate,Undetermined,NFIS,NA
 720 Fire,OK,Blaine,"5 miles west of Hitchcock, OK",WF,NA,NA,2022-07-14T22:31:59Z,2022-08-01T20:12:48Z,10000,100,2022-OKOKS-220898,Minimal,Undetermined,NFIS,NA
