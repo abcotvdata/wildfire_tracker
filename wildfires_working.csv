@@ -69,7 +69,7 @@ Belle Fire,AK,Yukon-Koyukuk,"17 miles north of Chalkyitsik, AK",WF,66.90318,-143
 Slathtouka Fire,AK,Yukon-Koyukuk,"19 miles southwest of Allakaket, AK.",WF,66.37583,-153.2218,2022-07-03T16:44:59Z,2022-08-01T05:27:37Z,7789.1,90,2022-AKTAD-000431,Minimal,Natural,NFIS,NA
 South Fork Fire,AK,Southeast Fairbanks,NA,WF,64.183333,-145.35,2022-07-02T21:49:20Z,2022-07-28T19:19:57Z,3785,NA,2022-AKDAS-212427,Active,Natural,NFIS,NA
 Bearman Fire,AK,Yukon-Koyukuk,"25 miles northwest of Fort Yukon, AK",WF,66.80502,-145.9862,2022-07-04T02:58:00Z,2022-07-30T21:21:02Z,632.2,0,2022-AKUYD-000444,Minimal,Natural,NFIS,NA
-Sucker Fire,AK,Yukon-Koyukuk,"27 miles southwest of Chalkyitsik, AK",WF,66.36022,-144.4057,2022-07-04T15:33:00Z,2022-08-03T20:45:13Z,799.7,0,2022-AKUYD-000451,Minimal,Natural,NFIS,NA
+Sucker Fire,AK,Yukon-Koyukuk,"27 miles southwest of Chalkyitsik, AK",WF,66.36022,-144.4057,2022-07-04T15:33:00Z,2022-08-03T20:45:13Z,834,0,2022-AKUYD-000451,Minimal,Natural,NFIS,NA
 Chalatna Fire,AK,Yukon-Koyukuk,"The fire is located 29.6 miles southeast of Allakaket, AK",WF,66.41978,-151.6286,2022-07-04T21:59:00Z,2022-08-01T05:13:39Z,954.5,0,2022-AKTAD-000464,Minimal,Natural,NFIS,NA
 Dennison Fork Fire,AK,Southeast Fairbanks,NA,WF,63.444167,-141.961833,2022-07-04T21:15:04Z,2022-07-28T19:19:57Z,1015,NA,2022-AKTAS-213462,Extreme,Natural,NFIS,NA
 Mm 125 Fire,AK,Yukon-Koyukuk,NA,WF,66.64678,-150.6592,2022-07-04T02:03:00Z,2022-07-30T21:23:56Z,3304.5,30,2022-AKUYD-000441,NA,Natural,NFIS,NA
@@ -158,7 +158,7 @@ Weasel Fire,MT,Lincoln,"14 miles NE of Eureka, MT",WF,48.97661,-114.749,2022-07-
 Fish Fire,WY,Crook,7 miles south of Sundance WY East of Highway 585 (Iron Mountain),WF,44.3189,-104.2835,2022-07-31T17:34:00Z,2022-08-03T21:11:08Z,6668,20,2022-WYCRX-220541,Moderate,Undetermined,NFIS,NA
 720 Fire,OK,Blaine,"5 miles west of Hitchcock, OK",WF,NA,NA,2022-07-14T22:31:59Z,2022-08-01T20:12:48Z,10000,100,2022-OKOKS-220898,Minimal,Undetermined,NFIS,NA
 Margarita Fire,TX,Bastrop,NA,WF,30.07023629,-97.618007,2022-08-01T17:06:29Z,2022-08-02T13:38:10Z,96,95,2022-TXTXS-224500,NA,Undetermined,NFIS,NA
-Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-08-03T18:34:17Z,110,0,2022-ORWIF-220170,Moderate,Undetermined,NFIS,NA
+Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-08-03T18:34:17Z,300,0,2022-ORWIF-220170,Moderate,Undetermined,NFIS,NA
 Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:16:59Z,2022-08-03T18:38:57Z,978,0,2022-ORUPF-000234,Moderate,Natural,NFIS,NA
 Juniper Creek 0491 Od Fire,OR,Jefferson,NA,WF,44.50606,-121.4442,2022-08-01T03:16:39Z,2022-08-01T23:04:18Z,1.6,NA,2022-OR955S-000491,NA,Natural,NFIS,NA
 Mm22 Fire,MT,Prairie,NA,WF,47.01811,-105.5878,2022-07-30T22:04:00Z,2022-08-02T15:01:41Z,NA,NA,2022-MTLG45-000158,NA,Human,NFIS,NA
@@ -166,38 +166,38 @@ Carter Canyon Fire,NE,Scotts Bluff,"7 miles southwest of Gering, NE",WF,41.78472
 Taco Fire,SD,Oglala Lakota,NA,WF,NA,NA,2022-08-02T01:15:00Z,2022-08-02T17:20:06Z,5,NA,2022-SDPRA-000104,NA,Human,NFIS,NA
 Cow Creek Fire,WY,Converse,61nm NNE from Casper,WF,43.29742,-104.9081,2022-08-01T20:12:00Z,2022-08-02T19:16:15Z,3997.07,100,2022-WYWYS-220299,Minimal,Undetermined,NFIS,NA
 Kinney Fire,NV,Washoe,NA,WF,39.45516,-119.8159,2022-08-01T22:21:00Z,2022-08-02T18:31:45Z,17.4,NA,2022-NVTMFX-030712,NA,Undetermined,NFIS,NA
-Beech Creek Fire,OR,Grant,"8.9 miles South of Long Creek, OR",WF,44.56686,-119.1041,2022-08-01T20:39:00Z,2022-08-03T03:22:27Z,200,15,2022-ORMAF-022131,Moderate,Undetermined,NFIS,NA
+Beech Creek Fire,OR,Grant,"8.9 miles South of Long Creek, OR",WF,44.56686,-119.1041,2022-08-01T20:39:00Z,2022-08-03T03:22:27Z,254,15,2022-ORMAF-022131,Moderate,Undetermined,NFIS,NA
 Sunset Hill Fire,MA,Essex,NA,WF,NA,NA,2022-08-03T01:38:56Z,2022-08-03T01:42:52Z,14,NA,2022-MAMAS-MA05127,NA,NA,NFIS,NA
 H Street Fire,WA,Whatcom,NA,WF,49.002,-122.49,2022-08-02T23:15:38Z,2022-08-03T02:11:06Z,0.25,NA,2022-WANWS-000050,NA,Undetermined,NFIS,NA
 Brush Butte Fire,SD,Bennett,NA,WF,NA,NA,2022-08-02T23:45:50Z,2022-08-03T02:59:50Z,100,NA,2022-SDPRA-000107,NA,NA,NFIS,NA
-Alex Fire,CA,Siskiyou,Approximately 1 mile due west of Condrey Mountain along the Siskiyou Crest.,WF,41.938055,-122.966388,2022-07-31T14:43:31Z,2022-08-03T10:28:05Z,140,0,2022-CAKNF-006290,Moderate,Undetermined,NFIS,NA
+Alex Fire,CA,Siskiyou,Approximately 1 mile due west of Condrey Mountain along the Siskiyou Crest.,WF,41.938055,-122.966388,2022-07-31T14:43:31Z,2022-08-03T10:28:05Z,151,0,2022-CAKNF-006290,Moderate,Undetermined,NFIS,NA
 Mesa Fire,CA,Kern,NA,WF,35.63892,-118.4226,2022-07-30T23:05:00Z,2022-08-03T14:47:19Z,50,NA,2022-CACND-001889,NA,Undetermined,NFIS,NA
 Smoke Rider Fire,TX,Blanco,10 miles SW / W of Dripping Springs,WF,30.15693,-98.25264,2022-08-02T18:02:45Z,2022-08-03T20:14:41Z,800,60,2022-TXTXS-224530,Active,Undetermined,NFIS,NA
 Mission Street 2 Fire,TX,Starr,NA,WF,26.309444,-98.664167,2022-08-02T17:58:16Z,2022-08-03T15:09:44Z,145,95,2022-TXTXS-224529,NA,Undetermined,NFIS,NA
-Oakland Fire,TX,Comanche,NA,WF,32.13367,-98.71945,2022-08-02T20:32:24Z,2022-08-03T15:12:57Z,74,85,2022-TXTXS-224539,NA,Undetermined,NFIS,NA
 Big Sky Fire,TX,Gillespie,9.5 miles N / NE of Fredericksburg,WF,30.39558333,-98.7921,2022-08-02T17:42:21Z,2022-08-03T22:55:12Z,1400,50,2022-TXTXS-224528,Extreme,Undetermined,NFIS,NA
 Pan Slam Fire,TX,Duval,5 miles NE of Hebbronville,WF,27.364438,-98.598206,2022-08-03T00:46:46Z,2022-08-03T15:17:48Z,510,95,2022-TXTXS-224560,Minimal,Undetermined,NFIS,NA
 Saltillo Fire,TX,Milam,NA,WF,30.59480278,-96.96620053,2022-08-02T22:12:20Z,2022-08-03T15:16:33Z,120,90,2022-TXTXS-224550,NA,Human,NFIS,NA
 Unit 54 Fire,TX,Bastrop,NA,WF,30.11053945,-97.21115401,2022-08-02T17:29:59Z,2022-08-03T15:22:57Z,4.9,90,2022-TXTXS-224563,NA,Undetermined,NFIS,NA
-Gifco Road Fire,TX,Ellis,NA,WF,32.5273,-97.02993,2022-08-02T21:09:28Z,2022-08-03T15:28:30Z,28.9,65,2022-TXTXS-224543,NA,Undetermined,NFIS,NA
 Tolo Mountain 445 Cr Fire,OR,Klamath,NA,WF,43.31847,-121.9973,2022-07-28T00:45:43Z,2022-08-03T17:49:57Z,38.6,NA,2022-ORDEF-000445,NA,Natural,NFIS,NA
 Fly Creek 0487 Cs Fire,OR,Jefferson,NA,WF,44.56012,-121.4615,2022-08-01T02:12:00Z,2022-08-03T17:59:29Z,274,NA,2022-ORDEF-000487,NA,Natural,NFIS,NA
 Oak Fork Fire,TX,San Jacinto,NA,WF,30.449566,-95.052142,2022-08-02T23:55:00Z,2022-08-03T18:54:57Z,0.5,NA,2022-TXTXF-000318,NA,Undetermined,NFIS,NA
 Warpath Fire,TX,Callahan,NA,WF,32.19023,-99.34507,2022-07-31T17:35:32Z,2022-08-03T19:40:32Z,55,95,2022-TXTXS-224478,NA,Undetermined,NFIS,NA
 Black Ranch Fire,TX,Palo Pinto,NA,WF,32.5637588,-98.11246485,2022-08-02T20:40:41Z,2022-08-03T19:55:44Z,13,95,2022-TXTXS-224540,NA,Undetermined,NFIS,NA
 Van Ausdle Fire,WA,Walla Walla,"Van Ausdle LN, Walla Walla WA",WF,NA,NA,2022-07-29T23:28:00Z,2022-08-03T20:54:40Z,1100,100,2022-WAWFS-001161,Minimal,Human,NFIS,NA
-Green Butte 537 Ne Fire,OR,Lake,NA,WF,43.55221,-121.2821,2022-08-03T01:29:15Z,2022-08-03T20:55:02Z,30,NA,2022-ORDEF-000537,NA,Undetermined,NFIS,NA
-Vantage Highway Fire,WA,Kittitas,5 miles west of Vantage,WF,46.96867,-120.1847,2022-08-01T19:05:00Z,2022-08-03T21:50:30Z,10500,18,2022-WASES-000263,Active,Undetermined,NFIS,NA
+Green Butte 537 Ne Fire,OR,Lake,NA,WF,43.55221,-121.2821,2022-08-03T01:29:15Z,2022-08-03T20:55:02Z,22.9,NA,2022-ORDEF-000537,NA,Undetermined,NFIS,NA
+Vantage Highway Fire,WA,Kittitas,5 miles west of Vantage,WF,46.96867,-120.1847,2022-08-01T19:05:00Z,2022-08-03T21:50:30Z,26490,21,2022-WASES-000263,Active,Undetermined,NFIS,NA
 Dismal Fire,ID,Idaho,"37NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.9493,2022-07-23T18:14:59Z,2022-08-03T21:05:26Z,580,0,2022-IDPAF-005292,Active,Natural,NFIS,NA
 Wilson Fire,TX,Parker,NA,WF,32.76621667,-98.0158,2022-08-03T19:35:02Z,2022-08-03T21:40:26Z,50,10,2022-TXTXS-224579,Moderate,Undetermined,NFIS,NA
 Miller Road Fire,OR,Wasco,NA,WF,45.14538,-121.321,2022-08-02T19:47:00Z,2022-08-03T21:46:24Z,75,NA,2022-OR954S-000659,NA,Undetermined,NFIS,NA
 Kelsey Fire,CA,Siskiyou,NA,WF,41.6397,-123.122033,2022-07-31T04:17:48Z,2022-08-03T22:05:10Z,80,NA,2022-CAKNF-006273,NA,Undetermined,NFIS,NA
-Colony Fire,TX,Hood,2 miles North of Tolar / 8 miles West of Granbury,WF,32.41846845,-97.91937348,2022-08-03T19:48:48Z,2022-08-03T23:50:48Z,300,0,2022-TXTXS-224582,Active,Undetermined,NFIS,NA
+Colony Fire,TX,Hood,2 miles North of Tolar / 8 miles West of Granbury,WF,32.41846845,-97.91937348,2022-08-03T19:48:48Z,2022-08-04T02:02:41Z,450,20,2022-TXTXS-224582,Active,Undetermined,NFIS,NA
+5 Mile Fire,TX,Hill,NA,WF,31.83875,-96.97986167,2022-08-03T21:40:56Z,2022-08-04T02:14:21Z,81,90,2022-TXTXS-224592,NA,Undetermined,NFIS,NA
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-08-02T09:57:50Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
-Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-03T07:36:27Z,19244,81,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
-Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-03T07:49:40Z,57519,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
+Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-03T18:22:48Z,19244,83,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
+Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-03T19:08:29Z,57519,10,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Mesa Fire,CA,Kern,"Erskine Creek Rd and Willow Gulch, Southeast of Lake Isabella ",Wildfire,35.5745007,-118.4125811,2022-07-30T16:05:00Z,2022-08-01T10:36:30Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/mesa-fire/
-Shackleford Fire,CA,Siskiyou,"Shackleford Road and Big Meadows Creek, West of Fort Jones  ",Wildfire,41.5734543,-123.0213226,2022-07-30T18:06:00Z,2022-08-03T07:45:57Z,31,55,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/shackleford-fire/
+Shackleford Fire,CA,Siskiyou,"Shackleford Road and Big Meadows Creek, West of Fort Jones  ",Wildfire,41.5734543,-123.0213226,2022-07-30T18:06:00Z,2022-08-03T19:04:29Z,31,65,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/shackleford-fire/
 Kelsey Fire,CA,Siskiyou,"Buker Rd and  Punkin Rd, Southwest of Scott Bar",Wildfire,41.6430162,-123.1193265,2022-07-30T21:17:00Z,2022-08-01T19:24:17Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/kelsey-fire/
-Meamber Fire,CA,Siskiyou,"Meamber Creek Road and Scott River Road, Northwest of Fort Jones",Wildfire,41.640867,-122.988315,2022-07-31T19:17:00Z,2022-08-03T07:43:24Z,63,45,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/meamber-fire/
-Marmot Fire,CA,Tulare,"South Fork Drive and Cinnamon Canyon Road, southeast of Three Rivers",Wildfire,36.378236,-118.853671,2022-08-02T13:35:00Z,2022-08-03T07:40:48Z,127,15,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/2/marmot-fire/
+Meamber Fire,CA,Siskiyou,"Meamber Creek Road and Scott River Road, Northwest of Fort Jones",Wildfire,41.640867,-122.988315,2022-07-31T19:17:00Z,2022-08-03T19:01:51Z,63,55,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/meamber-fire/
+Marmot Fire,CA,Tulare,"South Fork Drive and Cinnamon Canyon Road, southeast of Three Rivers",Wildfire,36.378236,-118.853671,2022-08-02T13:35:00Z,2022-08-03T18:59:30Z,127,40,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/2/marmot-fire/
+Springs Fire,CA,Tuolumne,"HWY 108 and La Grange Road, Jamestown",Wildfire,37.84349,-120.50806,2022-08-03T15:16:00Z,2022-08-03T18:56:19Z,51,50,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/3/springs-fire/
