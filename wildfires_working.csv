@@ -121,7 +121,7 @@ Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00
 Fox Hills Fire,AK,Yukon-Koyukuk,NA,WF,62.334167,-158.962167,2022-07-11T21:29:03Z,2022-07-23T00:08:41Z,33.6,NA,2022-AKSWS-204550,Minimal,Natural,NFIS,NA
 Oak Fire,CA,Mariposa,Community of Midpines. Approximately 6 miles N/E of Mariposa CA,WF,37.548708,-119.920769,2022-07-22T21:10:08Z,2022-08-01T22:09:20Z,19244,88,2022-CAMMU-016149,Minimal,Undetermined,NFIS,NA
 Clover Fire,MT,Madison,Middle Fork of Warm Springs Creek,WF,44.99343,-111.7968,2022-07-13T23:51:00Z,2022-08-05T12:14:13Z,1098,33,2022-MTBDF-006132,Moderate,Natural,NFIS,NA
-Heath Canyon Fire,NV,Nye,"20 miles southwest of Lund, Nevada.",WF,38.38744,-115.4643,2022-07-23T23:19:59Z,2022-07-25T21:09:23Z,423,75,2022-NVELD-040155,Minimal,Natural,NFIS,NA
+Heath Canyon Fire,NV,Nye,"20 miles southwest of Lund, Nevada.",WF,38.38744,-115.4643,2022-07-23T23:19:59Z,2022-07-25T21:09:23Z,423,85,2022-NVELD-040155,Minimal,Natural,NFIS,NA
 Kocacho Fire,AK,Yukon-Koyukuk,"18 miles west of Venetie, AK",WF,67.06355,-145.7761,2022-07-24T00:24:00Z,2022-08-05T17:27:07Z,5835.9,0,2022-AKUYD-000592,Moderate,Natural,NFIS,NA
  Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:04Z,2022-07-25T22:43:36Z,120,0,2022-IDIPF-000212,Moderate,Natural,NFIS,NA
 Buffer West (31) Fire,FL,Indian River,"INDIAN RIVER COUNTY, FELLSMERE",WF,NA,NA,2022-07-22T18:14:59Z,2022-07-26T12:06:32Z,860,100,2022-FLFLS-221600632,Minimal,Natural,NFIS,NA
@@ -180,10 +180,11 @@ Hop Creek Fire,MT,Golden Valley,"West of Broadview, MT",WF,46.13869,-109.1382,20
 141 Fire,SD,Meade,NA,WF,44.24622,-103.2419,2022-07-29T20:21:00Z,2022-08-05T17:23:07Z,53.7,NA,2022-SDMDX-220531,NA,Undetermined,NFIS,NA
 Wood Baler Fire,SD,Mellette,NA,WF,NA,NA,2022-07-23T19:05:00Z,2022-08-05T17:28:13Z,26.5,NA,2022-SDRBA-SDRBA082,NA,Human,NFIS,NA
 Rural Assist 4 Fire,ID,Cassia,NA,WF,42.40416,-113.3937,2022-07-25T19:05:00Z,2022-08-05T17:35:20Z,151.9,NA,2022-IDCAX-000141,NA,Undetermined,NFIS,NA
-Busman Road Fire,MT,Treasure,58 Miles East of Billings MT,WF,46.2476,-107.4353,2022-08-04T21:10:00Z,2022-08-05T19:22:06Z,12886,0,2022-MTLG33-220423,Extreme,Undetermined,NFIS,NA
+Busman Road Fire,MT,Treasure,58 Miles East of Billings MT,WF,46.2476,-107.4353,2022-08-04T21:10:00Z,2022-08-05T19:22:06Z,12886,15,2022-MTLG33-220423,Moderate,Undetermined,NFIS,NA
 Gulch Fire,AZ,Yavapai,NA,WF,34.28683,-111.9723,2022-07-18T01:30:33Z,2022-08-05T18:07:37Z,22.5,NA,2022-AZPNF-001027,NA,Natural,NFIS,NA
 Griffin Fire,OR,Harney,"10 miles NW of Drewsey, OR",WF,43.95495,-118.7142,2022-08-04T22:57:59Z,2022-08-05T19:18:25Z,850,0,2022-ORBUD-002313,Active,Natural,NFIS,NA
 Matt Staff Rd Fire,MT,Lewis and Clark,"12 miles East of Helena, MT and West of Canyon Ferry Lake",WF,46.57954,-112.9372,2022-08-04T20:45:00Z,2022-08-05T19:34:45Z,20,0,2022-MTLG05-000260,Active,Undetermined,NFIS,NA
+6 Cows Fire,SD,Todd,NA,WF,NA,NA,2022-08-04T23:35:00Z,2022-08-05T21:48:10Z,NA,NA,2022-SDRBA-000090,NA,Natural,NFIS,NA
 Washburn Fire,CA,Mariposa,"Hwy 41 and Mariposa Grove Road, Fish Camp in Mariposa County",Wildfire,37.499,-119.614,2022-07-07T14:13:08Z,2022-08-05T12:15:18Z,4886,100,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/7/washburn-fire/
 Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-05T07:31:09Z,19244,90,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-05T07:30:55Z,59636,10,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
@@ -193,3 +194,4 @@ Kelsey Fire,CA,Siskiyou,"Buker Rd and  Punkin Rd, Southwest of Scott Bar",Wildfi
 Meamber Fire,CA,Siskiyou,"Meamber Creek Road and Scott River Road, Northwest of Fort Jones",Wildfire,41.640867,-122.988315,2022-07-31T19:17:00Z,2022-08-05T07:29:52Z,63,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/31/meamber-fire/
 Marmot Fire,CA,Tulare,"South Fork Drive and Cinnamon Canyon Road, southeast of Three Rivers",Wildfire,36.378236,-118.853671,2022-08-02T13:35:00Z,2022-08-05T07:29:16Z,127,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/2/marmot-fire/
 Smokey Fire Fire,CA,Siskiyou,"Beaver Creek and Forest Road 48N01, west of Hilt",Wildfire,41.9708541,-122.7825581,2022-08-04T09:05:00Z,2022-08-04T11:29:43Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/4/smokey-fire/
+Campbell Fire,CA,Trinity,"Campbell Ridge Road & Huckleberry Creek Road, southeast of Willow Creek ",Wildfire,40.9023,-123.5955,2022-08-05T03:39:00Z,2022-08-05T14:40:54Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/campbell-fire/
