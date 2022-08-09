@@ -146,7 +146,7 @@ Airport Fire,SD,Todd,NA,WF,NA,NA,2022-08-03T19:10:00Z,2022-08-04T15:18:14Z,20,NA
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-08-09T15:06:17Z,3234,0,2022-ORWIF-220180,Active,Natural,NFIS,NA
 Hermosa Fire,TX,Hays,NA,WF,30.00326574,-98.00957904,2022-08-03T23:18:30Z,2022-08-07T19:31:23Z,44,98,2022-TXTXS-224600,Moderate,Undetermined,NFIS,NA
 Cow Canyon Fire,WA,Yakima,"11 miles north of Naches, WA",WF,46.87723,-120.7712,2022-08-03T21:49:59Z,2022-08-09T03:22:03Z,4878,40,2022-WASES-000277,Minimal,Undetermined,NFIS,NA
-Redhorn Fire,MT,Lake,7 MILES NE OF ST.IGNAIUS MT.,WF,NA,NA,2022-08-01T23:47:00Z,2022-08-08T10:58:56Z,398,0,2022-MTFHA-000109,Active,Natural,NFIS,NA
+Redhorn Fire,MT,Lake,7 MILES NE OF ST.IGNAIUS MT.,WF,NA,NA,2022-08-01T23:47:00Z,2022-08-08T10:58:56Z,483,0,2022-MTFHA-000109,Active,Natural,NFIS,NA
 Hop Creek Fire,MT,Golden Valley,"West of Broadview, MT",WF,46.13869,-109.1382,2022-07-30T17:28:00Z,2022-08-05T15:23:37Z,2479,100,2022-MTLG53-220389,Minimal,Undetermined,NFIS,NA
 312070 Fire,MN,Sherburne,NA,WF,NA,NA,2022-08-02T19:07:15Z,2022-08-05T16:09:17Z,20,NA,2022-MNMNS-312070,NA,NA,NFIS,NA
 Busman Road Fire,MT,Treasure,58 Miles East of Billings MT,WF,46.2476,-107.4353,2022-08-04T21:10:00Z,2022-08-05T19:22:06Z,12886,90,2022-MTLG33-220423,Minimal,Undetermined,NFIS,NA
@@ -164,20 +164,19 @@ Charlie Fire,CA,Humboldt,NA,WF,40.83669,-123.6072,2022-08-05T10:05:24Z,2022-08-0
 Bremer Fire,CA,Humboldt,NA,WF,40.96157,-123.6002,2022-08-05T14:26:13Z,2022-08-09T06:58:51Z,543,NA,2022-CASRF-000623,NA,Undetermined,NFIS,NA
 Cedar Fire,CA,Humboldt,NA,WF,40.97655,-123.571,2022-08-05T18:10:35Z,2022-08-08T22:37:06Z,455,100,2022-CASRF-000629,NA,Undetermined,NFIS,NA
 Waterman Fire,CA,Humboldt,NA,WF,40.98356,-123.5692,2022-08-05T18:14:24Z,2022-08-09T06:58:51Z,728,NA,2022-CASRF-000630,NA,Undetermined,NFIS,NA
-Ma0200160 Fire,MA,Plymouth,NA,WF,NA,NA,2022-08-01T10:00:28Z,2022-08-08T12:54:35Z,3.6,NA,2022-MAMAS-MA0200160,NA,NA,NFIS,NA
 Burns Creek Fire,TX,Washington,"13 miles NW of Brenham, TX",WF,30.27695,-96.58891667,2022-08-07T21:17:32Z,2022-08-09T13:59:39Z,397.8,60,2022-TXTXS-224712,Moderate,Undetermined,NFIS,NA
 Sarco Fire,TX,Goliad,18.5 miles NE of Beeville,WF,28.464265,-97.438361,2022-08-07T17:53:27Z,2022-08-08T17:19:57Z,515,95,2022-TXTXS-224703,Minimal,Undetermined,NFIS,NA
 569 Nw Fire,OR,Deschutes,NA,WF,43.769,-121.9576,2022-08-08T01:26:03Z,2022-08-08T23:09:00Z,0.25,NA,2022-ORDEF-000569,NA,Natural,NFIS,NA
 Campbell Fire,CA,Trinity,NA,WF,40.90715,-123.5987,2022-08-05T10:39:47Z,2022-08-09T06:58:52Z,3063,NA,2022-CASRF-000616,NA,Undetermined,NFIS,NA
 Ma05120 Fire,MA,Essex,NA,WF,NA,NA,2022-07-24T21:17:53Z,2022-08-08T17:53:50Z,0.06,NA,2022-MAMAS-MA05120,NA,NA,NFIS,NA
 Pittman Fire,FL,Lake,NA,WF,29.00199,-81.6733,2022-08-08T19:00:21Z,2022-08-09T12:27:14Z,1.1,NA,2022-FLFNF-001644,NA,Natural,NFIS,NA
-Fountain Creek Fire,TX,Trinity,NA,WF,31.01956,-95.15363,2022-08-09T00:38:00Z,2022-08-09T13:51:15Z,480,90,2022-TXTXS-224742,NA,Undetermined,NFIS,NA
+Fountain Creek Fire,TX,Trinity,NA,WF,31.01956,-95.15363,2022-08-09T00:38:00Z,2022-08-09T16:06:53Z,480,90,2022-TXTXS-224742,NA,Undetermined,NFIS,NA
 Hidden Valley Fire,TX,Brooks,NA,WF,26.95015,-98.132813,2022-08-08T22:47:12Z,2022-08-09T13:56:23Z,124,90,2022-TXTXS-224734,NA,Undetermined,NFIS,NA
 Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-09T07:38:55Z,19244,96,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-09T08:53:50Z,60389,55,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Mesa Fire,CA,Kern,"Erskine Creek Rd and Willow Gulch, Southeast of Lake Isabella ",Wildfire,35.5745007,-118.4125811,2022-07-30T16:05:00Z,2022-08-01T10:36:30Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/mesa-fire/
 Kelsey Fire,CA,Siskiyou,"Buker Rd and  Punkin Rd, Southwest of Scott Bar",Wildfire,41.6430162,-123.1193265,2022-07-30T21:17:00Z,2022-08-01T19:24:17Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/kelsey-fire/
 Smokey Fire Fire,CA,Siskiyou,"Beaver Creek and Forest Road 48N01, west of Hilt",Wildfire,41.9708541,-122.7825581,2022-08-04T09:05:00Z,2022-08-04T11:29:43Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/4/smokey-fire/
-Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-09T08:52:49Z,6775,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
+Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-09T09:02:11Z,8975,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
 Yeti And Alex Fire,CA,Siskiyou,Seiad south of HWY 96 and south of the Klamath River,Wildfire,41.868,-123.278,2022-07-29T17:14:12Z,2022-08-06T19:30:46Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/yeti-and-alex-fire/
 3-8 Fire Fire,CA,Lassen,"Highway 299/Big Valley Summit, East of Pittville ",Wildfire,41.060445,-121.211449,2022-08-08T02:30:00Z,2022-08-09T07:38:48Z,14,5,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/8/3-8-fire/
