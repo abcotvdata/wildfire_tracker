@@ -108,7 +108,7 @@ Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00
 Oak Fire,CA,Mariposa,Community of Midpines. Approximately 6 miles N/E of Mariposa CA,WF,37.548708,-119.920769,2022-07-22T21:10:08Z,2022-08-01T22:09:20Z,19244,98,2022-CAMMU-016149,Minimal,Undetermined,NFIS,NA
 Clover Fire,MT,Madison,Middle Fork of Warm Springs Creek,WF,44.99343,-111.7968,2022-07-13T23:51:00Z,2022-08-05T12:14:13Z,1101,38,2022-MTBDF-006132,Minimal,Natural,NFIS,NA
 Kocacho Fire,AK,Yukon-Koyukuk,"18 miles west of Venetie, AK",WF,67.06355,-145.7761,2022-07-24T00:24:00Z,2022-08-05T17:27:07Z,5835.9,0,2022-AKUYD-000592,Moderate,Natural,NFIS,NA
- Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:04Z,2022-07-25T22:43:36Z,270,0,2022-IDIPF-000212,Moderate,Natural,NFIS,NA
+ Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:04Z,2022-07-25T22:43:36Z,302,0,2022-IDIPF-000212,Moderate,Natural,NFIS,NA
 Buffer West (31) Fire,FL,Indian River,"INDIAN RIVER COUNTY, FELLSMERE",WF,NA,NA,2022-07-22T18:14:59Z,2022-07-26T12:06:32Z,860,100,2022-FLFLS-221600632,Minimal,Natural,NFIS,NA
 Allen Fire,LA,Grant,South of Allen road,WF,31.53495,-92.38723,2022-07-25T18:20:59Z,2022-07-26T15:58:19Z,205,100,2022-LAKIF-000198,Minimal,Undetermined,NFIS,NA
 Sugarloaf Fire,WY,Albany,"25 miles NW of Wheatland, WY",WF,42.24974,-105.4727,2022-07-25T21:14:00Z,2022-08-05T11:23:26Z,839,60,2022-WYMRF-220267,Minimal,Undetermined,NFIS,NA
@@ -120,8 +120,8 @@ Shiilik Fire,AK,Yukon-Koyukuk,"28 miles northeast of Christian, AK",WF,67.44841,
 Yeti Fire,CA,Siskiyou,Seiad south of HWY 96 and south of the Klamath River.,WF,41.867893,-123.278193,2022-07-30T03:58:11Z,2022-08-10T06:58:55Z,7886,78,2022-CAKNF-006200,Moderate,Undetermined,NFIS,NA
 Weasel Fire,MT,Lincoln,"14 miles NE of Eureka, MT",WF,48.97661,-114.749,2022-07-30T22:05:00Z,2022-08-10T11:49:48Z,1465,0,2022-MTKNF-000123,Moderate,Natural,NFIS,NA
 Fish Fire,WY,Crook,7 miles south of Sundance WY East of Highway 585 (Iron Mountain),WF,44.3189,-104.2835,2022-07-31T17:34:00Z,2022-08-09T20:01:20Z,6793,98,2022-WYCRX-220541,Minimal,Undetermined,NFIS,NA
-Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-08-10T07:56:18Z,279,0,2022-ORWIF-220170,Active,Undetermined,NFIS,NA
-Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:16:59Z,2022-08-10T07:56:18Z,1053,25,2022-ORUPF-000234,Active,Natural,NFIS,NA
+Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-08-10T14:32:54Z,279,0,2022-ORWIF-220170,Active,Undetermined,NFIS,NA
+Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:16:59Z,2022-08-10T14:25:18Z,1053,25,2022-ORUPF-000234,Active,Natural,NFIS,NA
 Carter Canyon Fire,NE,Scotts Bluff,"7 miles southwest of Gering, NE",WF,41.78472,-103.7003,2022-07-30T20:02:50Z,2022-08-02T16:55:19Z,15592,100,2022-NENES-220540,Minimal,Undetermined,NFIS,NA
 Cow Creek Fire,WY,Converse,61nm NNE from Casper,WF,43.29742,-104.9081,2022-08-01T20:12:00Z,2022-08-02T19:16:15Z,3997.07,100,2022-WYWYS-220299,Minimal,Undetermined,NFIS,NA
 Beech Creek Fire,OR,Grant,"8.9 miles South of Long Creek, OR",WF,44.56686,-119.1041,2022-08-01T20:39:00Z,2022-08-07T03:42:02Z,155,75,2022-ORMAF-022131,Moderate,Undetermined,NFIS,NA
@@ -143,7 +143,7 @@ Hop Creek Fire,MT,Golden Valley,"West of Broadview, MT",WF,46.13869,-109.1382,20
 Busman Road Fire,MT,Treasure,58 Miles East of Billings MT,WF,46.2476,-107.4353,2022-08-04T21:10:00Z,2022-08-05T19:22:06Z,12886,100,2022-MTLG33-220423,Minimal,Undetermined,NFIS,NA
 Griffin Fire,OR,Harney,"10 miles NW of Drewsey, OR",WF,43.95495,-118.7142,2022-08-04T22:57:59Z,2022-08-05T22:30:51Z,1927,50,2022-ORBUD-002313,Active,Natural,NFIS,NA
 Lind Fire,WA,Adams,"1 mile SW of Lind, WA",WF,46.96805,-118.6043,2022-08-04T20:06:00Z,2022-08-10T00:17:34Z,2000,100,2022-WAWFS-001497,Minimal,Undetermined,NFIS,NA
-Big Swamp Fire,OR,Douglas,NA,WF,43.41649,-122.1687,2022-08-02T00:22:00Z,2022-08-10T07:56:18Z,10,NA,2022-ORWIF-220189,NA,Natural,NFIS,NA
+Big Swamp Fire,OR,Douglas,NA,WF,43.41649,-122.1687,2022-08-02T00:22:00Z,2022-08-10T14:37:28Z,10,NA,2022-ORWIF-220189,NA,Natural,NFIS,NA
 Norton Fire,ID,Valley,"36 nm northwest of Challis, ID",WF,44.89939,-115.031,2022-08-01T23:26:00Z,2022-08-09T14:00:26Z,344,0,2022-IDSCF-022139,Minimal,Natural,NFIS,NA
 Riparia Fire,WA,Whitman,Southern Whitman County of Washington State along the breaks of the Snake River,WF,46.6397,-117.8147,2022-08-05T16:46:00Z,2022-08-07T14:11:03Z,5680,100,2022-WAWFS-020205,Minimal,Undetermined,NFIS,NA
 Ammon Fire,CA,Humboldt,NA,WF,40.82289,-123.6387,2022-08-05T09:59:59Z,2022-08-10T08:14:18Z,3149,NA,2022-CASRF-000635,NA,Undetermined,NFIS,NA
@@ -163,6 +163,7 @@ Chouteau--76 Fire,MT,Chouteau,NA,WF,47.9537,-111.0035,2022-04-09T19:57:59Z,2022-
 142055 Fire,MN,Cass,NA,WF,NA,NA,2022-07-30T14:40:47Z,2022-08-09T20:54:03Z,0.25,NA,2022-MNMNS-142055,NA,NA,NFIS,NA
 Hickman Fire,TX,Palo Pinto,NA,WF,32.560503,-98.145841,2022-08-09T22:34:59Z,2022-08-09T23:55:58Z,1.7,90,2022-TXTXS-224778,Minimal,Undetermined,NFIS,NA
 Ma010110 Fire,MA,Barnstable,NA,WF,NA,NA,2022-08-09T21:25:00Z,2022-08-10T11:02:47Z,0.5,NA,2022-MAMAS-MA010110,NA,Human,NFIS,NA
+Shelter Fire,OR,Douglas,NA,WF,43.42383,-122.3603,2022-08-02T23:37:00Z,2022-08-10T11:56:51Z,3,NA,2022-ORWIF-220201,NA,Natural,NFIS,NA
 Oak Fire Fire,CA,"Alameda, Mariposa","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-10T06:46:44Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-10T06:46:50Z,60389,60,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Mesa Fire,CA,Kern,"Erskine Creek Rd and Willow Gulch, Southeast of Lake Isabella ",Wildfire,35.5745007,-118.4125811,2022-07-30T16:05:00Z,2022-08-01T10:36:30Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/mesa-fire/
