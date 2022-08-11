@@ -2,17 +2,9 @@ name,state,county,location,type,latitude,longitude,started,updated,acres_burned,
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-30T17:42:37Z,341735,98,2022-NMSNF-000027,Minimal,Human,NFIS,NA
 Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,90,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-08-02T18:40:27Z,204145.6,50,2022-AKTAD-000185,Moderate,Natural,NFIS,NA
-Aghaluk Mountain Fire,AK,Bethel,51 miles E of Aniak,WF,61.570283,-158.0063,2022-06-06T20:22:30Z,2022-07-15T02:16:10Z,115030,0,2022-AKSWS-204206,Minimal,Natural,NFIS,NA
 Pike Creek Fire,AK,Dillingham,38 miles N of Igiugig,WF,59.878367,-156.25095,2022-06-09T01:46:51Z,2022-07-15T02:16:10Z,88108,88,2022-AKSWS-204239,Minimal,Natural,NFIS,NA
-Koktuli River Fire,AK,Dillingham,36 miles N of Igiugig,WF,59.894967,-156.091467,2022-06-09T02:13:20Z,2022-07-15T02:16:10Z,205862,56,2022-AKSWS-204240,Minimal,Natural,NFIS,NA
-Door Mountain Fire,AK,Bethel,126 miles south of McGrath,WF,61.16255,-156.086367,2022-06-09T06:09:14Z,2022-07-15T02:16:10Z,114294,43,2022-AKSWS-204244,Minimal,Natural,NFIS,NA
-Dummy Creek Fire,AK,Lake and Peninsula,82 miles NE of Igiugig,WF,60.484967,-155.22495,2022-06-09T06:57:02Z,2022-07-15T02:16:10Z,179,0,2022-AKSWS-204247,Minimal,Natural,NFIS,NA
-Kiknik Fire,AK,Dillingham,91 miles SE if Aniak,WF,60.891533,-157.217917,2022-06-09T06:40:07Z,2022-07-15T02:16:10Z,45734,0,2022-AKSWS-204245,Minimal,Natural,NFIS,NA
 Snohomish Fire,AK,Yukon-Koyukuk,"15 miles southwest of Lake Minchumina, AK",WF,63.79901,-152.8739,2022-06-08T00:32:00Z,2022-08-02T18:50:34Z,38449.3,50,2022-AKTAD-000225,Moderate,Natural,NFIS,NA
-Titnuk Creek Fire,AK,Dillingham,100 miles SE of Aniak,WF,60.79988,-157.015292,2022-06-09T06:29:36Z,2022-07-15T02:16:10Z,53291,0,2022-AKSWS-204246,Active,Natural,NFIS,NA
-Iowithla River Fire,AK,Dillingham,14 miles NE of Dillingham,WF,59.205833,-158.09375,2022-06-09T00:22:08Z,2022-08-02T18:59:24Z,42880,1,2022-AKSWS-204237,Minimal,Natural,NFIS,NA
 Ponglevik River Fire,AK,Kusilvak,74 miles NE of Hooper Bay,WF,62.27555,-164.4046,2022-06-10T19:08:21Z,2022-08-02T19:05:11Z,3081,0,2022-AKSWS-204261,Minimal,Natural,NFIS,NA
-Door Creek Fire,AK,Bethel,33 miles SW of Lime Village,WF,61.027432,-156.20467,2022-06-13T06:05:55Z,2022-07-15T02:16:10Z,54006,0,2022-AKSWS-204273,Minimal,Natural,NFIS,NA
 Hardscrabble Creek Fire,AK,Yukon-Koyukuk,21 miles NW of Telida,WF,63.602917,-153.758967,2022-06-10T05:00:30Z,2022-07-28T19:19:57Z,2514,0,2022-AKSWS-204260,Minimal,Undetermined,NFIS,NA
 Melozitna Fire,AK,Yukon-Koyukuk,West of Melozitna River,WF,65.0585,-155.2334,2022-06-14T03:29:00Z,2022-07-29T18:45:46Z,7692,100,2022-AKGAD-000274,Minimal,Natural,NFIS,NA
 Schilling Creek Fire,AK,Yukon-Koyukuk,"4 miles southeast of Caro, AK",WF,67.09994,-147.8298,2022-06-17T21:32:00Z,2022-08-02T19:19:07Z,53529.6,0,2022-AKUYD-000294,Minimal,Natural,NFIS,NA
@@ -153,6 +145,8 @@ Puma Fire,WY,Natrona,NA,WF,42.807322,-106.370333,2022-08-11T03:46:59Z,2022-08-11
 Mohr Fire,WA,Douglas,"Douglas Creek, 8 miles SE of Waterville, WA",WF,47.51723,-119.8868,2022-08-08T22:56:00Z,2022-08-11T16:10:03Z,3600,28,2022-WASPD-000307,Active,Undetermined,NFIS,NA
 Battlefield Fire,MT,Big Horn,NA,WF,45.57193,-107.4104,2022-08-10T23:03:00Z,2022-08-11T14:23:42Z,35.1,NA,2022-MTCRA-220457,NA,Undetermined,NFIS,NA
 Leon 4799 Fire,TX,Leon,NA,WF,31.2445,-96.23216667,2022-08-10T19:55:00Z,2022-08-11T16:07:50Z,15,99,2022-TXTXS-224799,Minimal,Human,NFIS,NA
+Fort. Teran Fire,TX,Tyler,"16 mi. NNW of Woodville, TX / 25 mi. SSE of Lufkin, TX.",WF,31.00393333,-94.49788333,2022-08-09T19:31:59Z,2022-08-11T16:42:42Z,173,90,2022-TXTXS-224766,Minimal,Undetermined,NFIS,NA
+Polk 4812 Fire,TX,Polk,NA,WF,30.765,-94.8785,2022-08-11T14:42:29Z,2022-08-11T16:45:42Z,10,50,2022-TXTXS-224812,NA,Natural,NFIS,NA
 Oak Fire Fire,CA,"Alameda, Mariposa","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-11T07:44:21Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-11T07:36:30Z,60389,75,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Mesa Fire,CA,Kern,"Erskine Creek Rd and Willow Gulch, Southeast of Lake Isabella ",Wildfire,35.5745007,-118.4125811,2022-07-30T16:05:00Z,2022-08-01T10:36:30Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/mesa-fire/
