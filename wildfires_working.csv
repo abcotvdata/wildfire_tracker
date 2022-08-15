@@ -50,7 +50,7 @@ Minnkohwin Fire,AK,Yukon-Koyukuk,"19 miles southeast of Allakaket, AK",WF,66.366
 Fort Hamlin Hills Fire,AK,Yukon-Koyukuk,"25.5 miles west of Stevens Village, AK",WF,66.02161,-150.1124,2022-07-12T18:14:00Z,2022-07-30T21:21:02Z,755.2,69,2022-AKTAD-000562,Minimal,Natural,NFIS,NA
 Committee Fire,AZ,Coconino,"4 miles East of Sedona, AZ",WF,34.71996,-111.6434,2022-07-15T19:20:00Z,2022-07-23T22:19:30Z,362,100,2022-AZCOF-000773,Minimal,Undetermined,NFIS,NA
 Dragon Fire,AZ,Coconino,NORTH RIM GRAND CANYON NP,WF,36.2641,-112.1571,2022-07-17T16:21:59Z,2022-07-29T00:56:09Z,1362,0,2022-AZGCP-000722,Minimal,Natural,NFIS,NA
-Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-15T09:16:21Z,78084,34,2022-IDSCF-022105,Moderate,Undetermined,NFIS,NA
+Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-15T09:16:21Z,78084,34,2022-IDSCF-022105,Minimal,Undetermined,NFIS,NA
 Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-12T21:30:18Z,832,71,2022-MTBRF-022161,Minimal,Natural,NFIS,NA
 Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:00:59Z,2022-08-10T16:07:42Z,5543,17,2022-IDSCF-022097,Minimal,Natural,NFIS,NA
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,25000,60,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA
@@ -116,10 +116,12 @@ Frost Fire,ID,Kootenai,NA,WF,47.48,-116.3427,2022-08-14T20:00:59Z,2022-08-15T15:
 Ma05 Fire,MA,Essex,NA,WF,NA,NA,2022-07-29T13:33:38Z,2022-08-15T19:29:07Z,0.1,NA,2022-MAMAS-MA05124,NA,NA,NFIS,NA
 Ma0513 Fire,MA,Essex,NA,WF,NA,NA,2022-07-31T13:52:20Z,2022-08-15T19:36:14Z,0.2,NA,2022-MAMAS-MA05134,NA,NA,NFIS,NA
 Ma05128 Fire,MA,Essex,NA,WF,NA,NA,2022-08-03T16:42:23Z,2022-08-15T19:40:37Z,4,NA,2022-MAMAS-MA05128,NA,NA,NFIS,NA
-Cannon Fire,MT,Flathead,15 miles NE of Condon MT,WF,47.69949,-113.5351,2022-08-07T18:35:00Z,2022-08-15T19:39:39Z,500,0,2022-MTFNF-000388,Moderate,Natural,NFIS,NA
+Cannon Fire,MT,Flathead,15 miles NE of Condon MT,WF,47.69949,-113.5351,2022-08-07T18:35:00Z,2022-08-15T19:39:39Z,765,0,2022-MTFNF-000388,Active,Natural,NFIS,NA
 Ma05132 Fire,MA,Essex,NA,WF,NA,NA,2022-08-15T19:58:50Z,2022-08-15T20:01:23Z,0.14,NA,2022-MAMAS-MA05132,NA,NA,NFIS,NA
 Ma05137 Fire,MA,Essex,NA,WF,NA,NA,2022-08-12T16:45:31Z,2022-08-15T20:18:06Z,0.34,NA,2022-MAMAS-MA05137,NA,NA,NFIS,NA
-Oak Fire Fire,CA,"Alameda, Mariposa","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-11T15:12:54Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
+Dean Creek Fire,MT,Flathead,2 1/2 miles north east of Shadow Mountain,WF,47.94341,-113.2109,2022-08-14T18:49:51Z,2022-08-15T21:53:02Z,5,0,2022-MTFNF-000466,Moderate,Natural,NFIS,NA
+Dennis Fire,WA,Benton,NA,WF,46.20666,-119.4329,2022-08-15T18:13:59Z,2022-08-15T22:19:36Z,7.1,NA,2022-WASPD-000353,NA,Undetermined,NFIS,NA
+Oak Fire Fire,CA,"Mariposa, Amador","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-15T15:05:43Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-15T07:05:01Z,60392,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Mesa Fire,CA,Kern,"Erskine Creek Rd and Willow Gulch, Southeast of Lake Isabella ",Wildfire,35.5745007,-118.4125811,2022-07-30T16:05:00Z,2022-08-01T10:36:30Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/mesa-fire/
 Kelsey Fire,CA,Siskiyou,"Buker Rd and  Punkin Rd, Southwest of Scott Bar",Wildfire,41.6430162,-123.1193265,2022-07-30T21:17:00Z,2022-08-01T19:24:17Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/30/kelsey-fire/
