@@ -78,19 +78,19 @@ Dismal Fire,ID,Idaho,"37NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.949
 Miller Road Fire,OR,Wasco,"8 miles Southwest from Maupin, CA",WF,45.14538,-121.321,2022-08-02T19:47:00Z,2022-08-06T05:07:26Z,10847,98,2022-OR954S-000659,Minimal,Undetermined,NFIS,NA
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-08-16T13:17:39Z,4422,0,2022-ORWIF-220180,Active,Natural,NFIS,NA
 Cow Canyon Fire,WA,Yakima,"11 miles north of Naches, WA",WF,46.87723,-120.7712,2022-08-03T21:49:59Z,2022-08-09T03:22:03Z,4878,90,2022-WASES-000277,Minimal,Undetermined,NFIS,NA
-Redhorn Fire,MT,Lake,7 MILES NE OF ST.IGNAIUS MT.,WF,NA,NA,2022-08-01T23:47:00Z,2022-08-08T10:58:56Z,511,0,2022-MTFHA-000109,Minimal,Natural,NFIS,NA
+Redhorn Fire,MT,Lake,7 MILES NE OF ST.IGNAIUS MT.,WF,NA,NA,2022-08-01T23:47:00Z,2022-08-08T10:58:56Z,511,0,2022-MTFHA-000109,Moderate,Natural,NFIS,NA
 Busman Road Fire,MT,Treasure,58 Miles East of Billings MT,WF,46.2476,-107.4353,2022-08-04T21:10:00Z,2022-08-05T19:22:06Z,12886,100,2022-MTLG33-220423,Minimal,Undetermined,NFIS,NA
 Lind Fire,WA,Adams,"1 mile SW of Lind, WA",WF,46.96805,-118.6043,2022-08-04T20:06:00Z,2022-08-10T00:17:34Z,2000,100,2022-WAWFS-001497,Minimal,Undetermined,NFIS,NA
 Norton Fire,ID,Valley,"36 nm northwest of Challis, ID",WF,44.89939,-115.031,2022-08-01T23:26:00Z,2022-08-16T13:44:56Z,470,0,2022-IDSCF-022139,Moderate,Natural,NFIS,NA
 Riparia Fire,WA,Whitman,Southern Whitman County of Washington State along the breaks of the Snake River,WF,46.6397,-117.8147,2022-08-05T16:46:00Z,2022-08-07T14:11:03Z,5680,100,2022-WAWFS-020205,Minimal,Undetermined,NFIS,NA
-Ammon Fire,CA,Humboldt,NA,WF,40.82289,-123.6387,2022-08-05T09:59:59Z,2022-08-16T07:26:28Z,7521,4,2022-CASRF-000635,NA,Undetermined,NFIS,NA
+Ammon Fire,CA,Humboldt,NA,WF,40.82289,-123.6387,2022-08-05T09:59:59Z,2022-08-16T23:05:44Z,7521,4,2022-CASRF-000635,NA,Undetermined,NFIS,NA
 Oak Fire,CA,Humboldt,NA,WF,40.84676,-123.6149,2022-08-05T13:31:13Z,2022-08-10T08:14:18Z,1562,100,2022-CASRF-000621,NA,Undetermined,NFIS,NA
 Charlie Fire,CA,Humboldt,NA,WF,40.83669,-123.6072,2022-08-05T10:05:24Z,2022-08-14T23:01:54Z,135,3,2022-CASRF-000614,NA,Undetermined,NFIS,NA
 Bremer Fire,CA,Humboldt,NA,WF,40.96157,-123.6002,2022-08-05T14:26:13Z,2022-08-14T23:01:54Z,1410,100,2022-CASRF-000623,NA,Undetermined,NFIS,NA
 Cedar Fire,CA,Humboldt,NA,WF,40.97655,-123.571,2022-08-05T18:10:35Z,2022-08-08T22:37:06Z,455,100,2022-CASRF-000629,NA,Undetermined,NFIS,NA
 Waterman Fire,CA,Humboldt,NA,WF,40.98356,-123.5692,2022-08-05T18:14:24Z,2022-08-14T23:01:54Z,1476,100,2022-CASRF-000630,NA,Undetermined,NFIS,NA
 Campbell Fire,CA,Trinity,NA,WF,40.90715,-123.5987,2022-08-05T10:39:47Z,2022-08-16T07:26:29Z,8884,4,2022-CASRF-000616,NA,Undetermined,NFIS,NA
-Lions Roar Fire,ID,Bonner,"Lion Creek Drainage, Priest Lake State Forest",WF,48.7357,-116.8305,2022-08-08T22:42:00Z,2022-08-13T22:39:02Z,45,100,2022-IDPLS-000364,Minimal,Undetermined,NFIS,NA
+Lions Roar Fire,ID,Bonner,"Lion Creek Drainage, Priest Lake State Forest",WF,48.7357,-116.8305,2022-08-08T22:42:00Z,2022-08-16T21:38:46Z,45,100,2022-IDPLS-000364,Minimal,Undetermined,NFIS,NA
 Indian Ridge Fire,ID,Idaho,"30 Miles SW of Darby, MT",WF,45.78605,-114.735,2022-07-08T02:23:18Z,2022-08-16T17:13:12Z,2562,0,2022-MTBRF-022131,Moderate,Natural,NFIS,NA
 Kigalik River 2 Fire,AK,North Slope,NA,WF,69.24995,-155.7165,2022-08-09T22:28:59Z,2022-08-10T16:07:39Z,22.8,NA,2022-AKGAD-000632,NA,Natural,NFIS,NA
 Two Bulls Fire,SD,Oglala Lakota,15 miles west of Pine Ridge,WF,NA,NA,2022-08-09T23:00:16Z,2022-08-10T16:37:38Z,500,100,2022-SDPRA-000115,Minimal,Undetermined,NFIS,NA
@@ -128,6 +128,8 @@ Canyon Road Fire,WA,Yakima,"5 miles south of Grandview, WA",WF,46.19064,-119.896
 212 Mf Fire,OR,Douglas,NA,WF,43.3674,-122.3388,2022-08-06T20:56:39Z,2022-08-16T19:19:11Z,0.5,NA,2022-ORWIF-220212,NA,Natural,NFIS,NA
 Porphyry Fire,ID,Idaho,9 miles E of the town of Warren,WF,45.29139,-115.4801,2022-08-13T14:55:00Z,2022-08-16T19:39:22Z,380,0,2022-IDPAF-005393,Active,Natural,NFIS,NA
 Ross Fork Fire,ID,Camas,"6 miles E of Atlanta, ID",WF,43.78911,-115.0113,2022-08-14T20:25:00Z,2022-08-16T20:45:30Z,322,5,2022-IDSTF-000193,Active,Natural,NFIS,NA
+Eneas Peak Fire,ID,Boundary,"6 miles west of Copeland, ID",WF,48.82996,-116.5599,2022-08-12T04:42:50Z,2022-08-16T21:40:10Z,8,0,2022-IDIPF-000385,Active,Undetermined,NFIS,NA
+Story Creek  Fire,AR,Montgomery,NA,WF,34.69079,-93.53516,2022-08-16T21:30:21Z,2022-08-16T23:14:59Z,0.1,NA,2022-AROUF-002305,NA,Undetermined,NFIS,NA
 Oak Fire Fire,CA,"Mariposa, Amador","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-16T13:37:14Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-16T07:30:14Z,60392,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-16T13:30:33Z,21609,19,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
@@ -136,4 +138,4 @@ S-2 Fire,CA,Modoc,"Massacre Rim , northeast of Ceadarville ",Wildfire,41.748601,
 Rail Fire,CA,Kern,"Bealville Rd and Caliente Bodfish Rd, Southeast of Bakersfield",Wildfire,35.2882644,-118.6292243,2022-08-14T17:40:00Z,2022-08-16T07:31:57Z,250,90,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/14/rail-fire/
 Oak Fire,CA,Placer,"Live Oak Road & Smothers Ravine Road, near Weimar ",Wildfire,39.04941,-120.9526,2022-08-15T15:48:00Z,2022-08-16T07:20:11Z,22,20,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/15/oak-fire/
 Wishon Fire,CA,Tulare,"Highway 190 and NF 20S82, east of Springville",Wildfire,36.17768,-118.71829,2022-08-15T17:15:00Z,2022-08-16T07:31:27Z,350,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/15/wishon-fire/
-Los Bueyes Fire,CA,Monterey,"Training Area 20, Gabilian Road, Fort Hunter Liggett Military Base",Wildfire,36.003814,-121.23129,2022-08-16T12:38:00Z,2022-08-16T15:56:33Z,261,10,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/16/los-bueyes/
+Los Bueyes Fire,CA,Monterey,"Training Area 20, Gabilian Road, Fort Hunter Liggett Military Base",Wildfire,36.003814,-121.23129,2022-08-16T12:38:00Z,2022-08-16T16:21:47Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/16/los-bueyes/
