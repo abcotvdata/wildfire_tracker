@@ -1,5 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,info_url
 Hermits Peak Fire,NM,San Miguel,12 Miles NW of Las Vegas NM,WF,35.69468,-105.335,2022-04-06T22:50:59Z,2022-06-30T17:42:37Z,341735,98,2022-NMSNF-000027,Minimal,Human,NFIS,NA
+Black Fire,NM,Catron,"24 miles north of Mimbres, NM",WF,33.203639,-108.059222,2022-05-14T03:30:00Z,2022-06-26T23:25:40Z,325136,91,2022-NMGNF-000185,Minimal,Human,NFIS,NA
 Hog Butte Fire,AK,Yukon-Koyukuk,"21 miles northwest of Telida, AK",WF,63.98208,-153.5575,2022-06-05T22:42:00Z,2022-08-12T20:49:42Z,204193,50,2022-AKTAD-000185,Moderate,Natural,NFIS,NA
 Snohomish Fire,AK,Yukon-Koyukuk,"15 miles southwest of Lake Minchumina, AK",WF,63.79901,-152.8739,2022-06-08T00:32:00Z,2022-08-02T18:50:34Z,38449.3,50,2022-AKTAD-000225,Moderate,Natural,NFIS,NA
 Central Creek Airstrip Fire,AK,Southeast Fairbanks,Good Pasture and Central Creek drainages,WF,64.344233,-144.966333,2022-06-17T22:07:04Z,2022-07-28T19:19:57Z,7802.9,0,2022-AKDAS-212295,Active,Natural,NFIS,NA
@@ -40,7 +41,7 @@ Washburn Fire,CA,Mariposa,Mariposa Grove of Giant Sequoias,WF,37.4997,-119.6139,
 Kyikhgyit Fire,AK,Yukon-Koyukuk,"20.5 miles northwest of Hughes, AK",WF,66.3005,-154.6465,2022-07-09T01:04:00Z,2022-08-15T18:10:27Z,11403.4,0,2022-AKTAD-000523,Minimal,Natural,NFIS,NA
 East Henshaw Fire,AK,Yukon-Koyukuk,"26 miles east of Evansville, AK",WF,66.90516,-152.3245,2022-07-08T05:15:00Z,2022-08-01T05:27:37Z,545,0,2022-AKTAD-000516,Minimal,Natural,NFIS,NA
 Starr Fire,AK,Denali,21 miles east of Lake Minchumina,WF,63.93995,-151.5899,2022-07-07T16:15:00Z,2022-08-04T16:47:13Z,301.8,75,2022-AKTAD-000508,Moderate,Natural,NFIS,NA
- Halfway Hill Fire,UT,Millard,3 miles SE of Fillmore,WF,38.9097,-112.338,2022-07-08T20:13:00Z,2022-07-23T20:48:14Z,11702,90,2022-UTSCS-220216,Minimal,Human,NFIS,NA
+ Halfway Hill Fire,UT,Millard,3 miles SE of Fillmore,WF,38.9097,-112.338,2022-07-08T20:13:00Z,2022-07-23T20:48:14Z,11702,93,2022-UTSCS-220216,Minimal,Human,NFIS,NA
 Christian Fire,AK,Yukon-Koyukuk,"24 miles east of Venetie, AK",WF,66.99512,-145.3864,2022-07-09T15:55:00Z,2022-08-11T19:56:02Z,8769.4,0,2022-AKUYD-000528,Moderate,Natural,NFIS,NA
 Minnkohwin Fire,AK,Yukon-Koyukuk,"19 miles southeast of Allakaket, AK",WF,66.366,-152.1294,2022-07-09T01:57:00Z,2022-08-16T18:57:26Z,4717.7,0,2022-AKTAD-000525,Minimal,Natural,NFIS,NA
 Fort Hamlin Hills Fire,AK,Yukon-Koyukuk,"25.5 miles west of Stevens Village, AK",WF,66.02161,-150.1124,2022-07-12T18:14:00Z,2022-07-30T21:21:02Z,755.2,69,2022-AKTAD-000562,Minimal,Natural,NFIS,NA
@@ -121,7 +122,7 @@ Detborn Fire,MT,Powder River,NA,WF,45.57096,-106.0204,2022-08-17T00:16:00Z,2022-
 Lake Creek Fire,TX,Palo Pinto,NA,WF,32.69161333,-98.32600833,2022-08-17T20:42:15Z,2022-08-18T15:55:21Z,10,95,2022-TXTXS-224969,NA,Natural,NFIS,NA
 Tucker Lake Fire,TX,Palo Pinto,NA,WF,32.52833333,-98.53666667,2022-08-18T12:42:11Z,2022-08-18T15:56:58Z,7,35,2022-TXTXS-224975,NA,Undetermined,NFIS,NA
 Tower - Garfield Fire,MT,Garfield,NA,WF,46.86294,-106.3759,2022-08-17T15:51:00Z,2022-08-18T16:05:44Z,NA,NA,2022-MTLG50-000227,NA,Natural,NFIS,NA
-Dixie Fire,MT,Petroleum,NA,WF,47.256,-108.332,2022-08-17T14:51:00Z,2022-08-18T16:50:00Z,75,NA,2022-MTNCD-000297,NA,Undetermined,NFIS,NA
+Pipeline Fire,TX,San Jacinto,NA,WF,30.54409,-95.14131,2022-08-14T21:52:00Z,2022-08-18T21:40:19Z,0.25,NA,2022-TXTXF-000353,NA,Natural,NFIS,NA
 Oak Fire Fire,CA,"Mariposa, Amador","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-16T13:37:14Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-18T07:18:47Z,60392,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-18T10:27:19Z,26000,33,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
