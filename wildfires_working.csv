@@ -59,7 +59,6 @@ Carter Canyon Fire,NE,Scotts Bluff,"7 miles southwest of Gering, NE",WF,41.78472
 Vantage Highway Fire,WA,Kittitas,5 miles west of Vantage,WF,46.96867,-120.1847,2022-08-01T19:05:00Z,2022-08-10T13:59:03Z,30659,100,2022-WASES-000263,Minimal,Undetermined,NFIS,NA
 Dismal Fire,ID,Idaho,"37NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.9493,2022-07-23T18:14:59Z,2022-08-21T14:54:35Z,1664,0,2022-IDPAF-005292,Moderate,Natural,NFIS,NA
 Miller Road Fire,OR,Wasco,"8 miles Southwest from Maupin, CA",WF,45.14538,-121.321,2022-08-02T19:47:00Z,2022-08-06T05:07:26Z,10847,98,2022-OR954S-000659,Minimal,Undetermined,NFIS,NA
-Green Stone Fire,AK,Bethel,NA,WF,60.33845,-160.355583,2022-06-24T05:13:00Z,2022-08-03T22:02:14Z,4.7,NA,2022-AKSWS-204368,Minimal,Natural,NFIS,NA
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-08-21T11:24:38Z,6121,0,2022-ORWIF-220180,Active,Natural,NFIS,NA
 Cow Canyon Fire,WA,Yakima,"11 miles north of Naches, WA",WF,46.87723,-120.7712,2022-08-03T21:49:59Z,2022-08-09T03:22:03Z,4878,95,2022-WASES-000277,Minimal,Undetermined,NFIS,NA
 Redhorn Fire,MT,Lake,7 MILES NE OF ST.IGNAIUS MT.,WF,NA,NA,2022-08-01T23:47:00Z,2022-08-08T10:58:56Z,511,5,2022-MTFHA-000109,Moderate,Natural,NFIS,NA
@@ -100,6 +99,7 @@ Coffee Fire,ID,Owyhee,NA,WF,NA,NA,2022-08-18T18:30:07Z,2022-08-18T22:46:38Z,2.25
 Ma010115 Fire,MA,Barnstable,NA,WF,NA,NA,2022-08-18T20:45:00Z,2022-08-18T23:12:44Z,0.5,NA,2022-MAMAS-MA010115,NA,Undetermined,NFIS,NA
 Windsor Fire,NE,Sioux,NA,WF,42.80159,-103.6115,2022-08-19T02:40:15Z,2022-08-19T06:06:38Z,7.02,NA,2022-NENBF-220651,NA,Natural,NFIS,NA
 Wagner Road Fire,WA,Whitman,12 MILES WEST OF ST JOHN,WF,47.09726,-117.8423,2022-08-18T21:04:00Z,2022-08-20T21:48:15Z,7381,80,2022-WAWFS-001642,Minimal,Undetermined,NFIS,NA
+Rum Creek Fire,OR,Josephine,Rogue River  Cooridor,WF,42.6356,-123.5857,2022-08-17T18:59:59Z,2022-08-21T16:32:01Z,41,0,2022-ORMED-000243,Moderate,Natural,NFIS,NA
 Hog Creek 1 Fire,OR,Josephine,NA,WF,42.60707,-123.543,2022-08-18T17:15:00Z,2022-08-20T22:50:06Z,1,NA,2022-ORMED-000236,NA,Natural,NFIS,NA
 Tallowbox Fire,OR,Jackson,NA,WF,42.19594,-123.1547,2022-08-18T01:44:59Z,2022-08-20T01:07:54Z,26.3,NA,2022-ORMED-000221,NA,Natural,NFIS,NA
 Chapman Creek Fire,OR,Jackson,NA,WF,42.20978,-123.1439,2022-08-18T00:52:00Z,2022-08-20T01:51:58Z,3.5,NA,2022-ORMED-000215,NA,Natural,NFIS,NA
@@ -116,7 +116,7 @@ Picnic Fire,CA,Riverside,NA,WF,34.01139,-116.1683,2022-08-20T20:35:00Z,2022-08-2
 Mormon Bend Fire,ID,Custer,NA,WF,44.26163,-114.841,2022-08-19T22:47:00Z,2022-08-21T16:18:54Z,53,NA,2022-IDSTF-000207,NA,Undetermined,NFIS,NA
 Oak Fire Fire,CA,"Mariposa, Amador","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-16T13:37:14Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-19T13:52:25Z,60392,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
-Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-20T21:48:08Z,25832,81,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
+Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-21T09:48:14Z,25832,81,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
 Yeti And Alex Fire,CA,Siskiyou,Seiad south of HWY 96 and south of the Klamath River,Wildfire,41.868,-123.278,2022-07-29T17:14:12Z,2022-08-09T18:55:58Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/yeti-and-alex-fire/
 S-2 Fire,CA,Modoc,"Massacre Rim , northeast of Ceadarville ",Wildfire,41.649229,-120.008429,2022-08-10T14:17:00Z,2022-08-17T10:38:34Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/10/s-2-fire/
 Oak Fire,CA,Placer,"Live Oak Road & Smothers Ravine Road, near Weimar ",Wildfire,39.04941,-120.9526,2022-08-15T15:48:00Z,2022-08-17T07:24:32Z,22,76,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/15/oak-fire/
