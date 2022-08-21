@@ -47,7 +47,7 @@ Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,18600,100,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA
 Clover Fire,MT,Madison,Middle Fork of Warm Springs Creek,WF,44.99343,-111.7968,2022-07-13T23:51:00Z,2022-08-05T12:14:13Z,1103,51,2022-MTBDF-006132,Minimal,Natural,NFIS,NA
 Kocacho Fire,AK,Yukon-Koyukuk,"18 miles west of Venetie, AK",WF,67.06355,-145.7761,2022-07-24T00:24:00Z,2022-08-15T18:10:27Z,6878,0,2022-AKUYD-000592,Minimal,Natural,NFIS,NA
- Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:28:59Z,2022-08-21T14:08:49Z,701,0,2022-IDIPF-000212,Moderate,Natural,NFIS,NA
+ Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:28:59Z,2022-08-21T14:08:49Z,763,0,2022-IDIPF-000212,Moderate,Natural,NFIS,NA
 Elmo Fire,MT,Flathead,8 MILES WEST OF ELMO MT,WF,NA,NA,2022-07-30T00:30:00Z,2022-08-18T14:17:01Z,21349,81,2022-MTFHA-000106,Minimal,Human,NFIS,NA
 Mckinney Fire,CA,Siskiyou,Klamath River,WF,41.8302,-122.895367,2022-07-29T21:16:33Z,2022-08-21T03:28:47Z,60138,95,2022-CAKNF-006177,Minimal,Undetermined,NFIS,NA
 Shiilik Fire,AK,Yukon-Koyukuk,"28 miles northeast of Christian, AK",WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022-08-11T19:56:02Z,537.6,0,2022-AKUYD-000611,Minimal,Natural,NFIS,NA
@@ -57,7 +57,7 @@ Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00
 Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:16:59Z,2022-08-20T00:38:39Z,1007,96,2022-ORUPF-000234,Minimal,Natural,NFIS,NA
 Carter Canyon Fire,NE,Scotts Bluff,"7 miles southwest of Gering, NE",WF,41.78472,-103.7003,2022-07-30T20:02:50Z,2022-08-02T16:55:19Z,15592,100,2022-NENES-220540,Minimal,Undetermined,NFIS,NA
 Vantage Highway Fire,WA,Kittitas,5 miles west of Vantage,WF,46.96867,-120.1847,2022-08-01T19:05:00Z,2022-08-10T13:59:03Z,30659,100,2022-WASES-000263,Minimal,Undetermined,NFIS,NA
-Dismal Fire,ID,Idaho,"37NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.9493,2022-07-23T18:14:59Z,2022-08-18T14:36:18Z,1664,0,2022-IDPAF-005292,Moderate,Natural,NFIS,NA
+Dismal Fire,ID,Idaho,"37NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.9493,2022-07-23T18:14:59Z,2022-08-21T14:54:35Z,1664,0,2022-IDPAF-005292,Moderate,Natural,NFIS,NA
 Miller Road Fire,OR,Wasco,"8 miles Southwest from Maupin, CA",WF,45.14538,-121.321,2022-08-02T19:47:00Z,2022-08-06T05:07:26Z,10847,98,2022-OR954S-000659,Minimal,Undetermined,NFIS,NA
 Green Stone Fire,AK,Bethel,NA,WF,60.33845,-160.355583,2022-06-24T05:13:00Z,2022-08-03T22:02:14Z,4.7,NA,2022-AKSWS-204368,Minimal,Natural,NFIS,NA
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-08-21T11:24:38Z,6121,0,2022-ORWIF-220180,Active,Natural,NFIS,NA
@@ -113,6 +113,7 @@ Camel Hump Fire,OR,Douglas,NA,WF,43.32191,-122.4871,2022-08-17T23:35:00Z,2022-08
 Slapjack Fire,OR,Lane,NA,WF,43.6417,-122.3653,2022-08-17T23:22:00Z,2022-08-21T11:14:39Z,3,NA,2022-ORWIF-220303,NA,Natural,NFIS,NA
 Schools In Fire,SD,Oglala Lakota,NA,WF,NA,NA,2022-08-19T20:45:43Z,2022-08-20T23:45:50Z,15,NA,2022-SDPRA-000128,NA,NA,NFIS,NA
 Woodward Creek Fire,OR,Coos,NA,WF,NA,NA,2022-08-20T22:56:00Z,2022-08-21T02:11:04Z,NA,NA,2022-OR722S-004923,NA,NA,NFIS,NA
+Picnic Fire,CA,Riverside,NA,WF,34.01139,-116.1683,2022-08-20T20:35:00Z,2022-08-21T15:15:26Z,0.25,NA,2022-CAJTP-012249,NA,Undetermined,NFIS,NA
 Oak Fire Fire,CA,"Mariposa, Amador","Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-16T13:37:14Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-19T13:52:25Z,60392,95,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-20T21:48:08Z,25832,81,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
