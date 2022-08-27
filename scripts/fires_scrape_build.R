@@ -21,10 +21,15 @@ noaa_latest_fires <- read_csv("data/noaa_latest_fires.csv")
 # convert to geo file next
 
 # NOAA satellite smoke sourced as shapefile, then read in as sf
-try(download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.shp","data/latest_smoke.shp"))
-try(download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.dbf","data/latest_smoke.dbf"))
-try(download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/GIS/latest_smoke.shx","data/latest_smoke.shx"))
-latest_smoke <- st_read("data/latest_smoke.shp")
+# Create url to get the file for today, using the new naming convention
+# instituted 7/19/2022
+smokeurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/Shapefile/",
+                  format(Sys.Date(), "%Y"),"/",
+                  format(Sys.Date(), "%m"),"/",
+                  "hms_smoke",format(Sys.Date(), "%Y%m%d"),".zip")
+try(download.file(smokeurl,"data/latest_smoke.zip"))
+unzip("data/latest_smoke.zip", exdir = "data/")
+latest_smoke <- st_read(paste(sep="","data/","hms_smoke",format(Sys.Date(), "%Y%m%d"),".shp"))
 
 # Active wildfire perimeters from NFIS
 try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
