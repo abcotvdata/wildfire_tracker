@@ -29,7 +29,6 @@ Starr Fire,AK,Denali,21 miles east of Lake Minchumina,WF,63.93995,-151.5899,2022
  Halfway Hill Fire,UT,Millard,3 miles SE of Fillmore,WF,38.9097,-112.338,2022-07-08T20:13:00Z,2022-07-23T20:48:14Z,11702,95,2022-UTSCS-220216,Minimal,Human,NFIS,NA
 Christian Fire,AK,Yukon-Koyukuk,"24 miles east of Venetie, AK",WF,66.99512,-145.3864,2022-07-09T15:55:00Z,2022-08-11T19:56:02Z,8769.4,0,2022-AKUYD-000528,Minimal,Natural,NFIS,NA
 Minnkohwin Fire,AK,Yukon-Koyukuk,"19 miles southeast of Allakaket, AK",WF,66.366,-152.1294,2022-07-09T01:57:00Z,2022-08-16T18:57:26Z,7414.6,0,2022-AKTAD-000525,Minimal,Natural,NFIS,NA
-Committee Fire,AZ,Coconino,"4 miles East of Sedona, AZ",WF,34.71996,-111.6434,2022-07-15T19:20:00Z,2022-07-23T22:19:30Z,362,100,2022-AZCOF-000773,Minimal,Undetermined,NFIS,NA
 Dragon Fire,AZ,Coconino,NORTH RIM GRAND CANYON NP,WF,36.2641,-112.1571,2022-07-17T16:21:59Z,2022-07-29T00:56:09Z,1362,0,2022-AZGCP-000722,Minimal,Natural,NFIS,NA
 Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-27T15:30:19Z,96681,42,2022-IDSCF-022105,Moderate,Undetermined,NFIS,NA
 Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-26T10:28:11Z,1701,77,2022-MTBRF-022161,Minimal,Natural,NFIS,NA
@@ -107,6 +106,7 @@ Rattlesnake Fire,MT,Rosebud,NA,WF,46.42717,-106.5976,2022-08-27T00:48:00Z,2022-0
 Marvin Road Fire,WA,Grant,NA,WF,47.28701,-119.65,2022-08-27T03:25:00Z,2022-08-27T15:59:48Z,45,NA,2022-WASPD-000414,NA,Undetermined,NFIS,NA
 Barber Mountain Fire,WA,Okanogan,NA,WF,48.96489,-119.6797,2022-08-25T22:38:00Z,2022-08-27T17:46:52Z,42,NA,2022-WASPD-001739,NA,Natural,NFIS,NA
 Spider Fire,MT,Garfield,NA,WF,47.60512,-107.0234,2022-08-26T18:20:00Z,2022-08-27T17:55:38Z,NA,NA,2022-MTMCD-000255,NA,Undetermined,NFIS,NA
+Cherry Gulch Fire,NV,Humboldt,Approx. 15 miles south of Denio NC,WF,41.75325,-118.7513,2022-08-26T23:29:59Z,2022-08-27T21:03:24Z,15785.8,0,2022-NVWID-020545,Extreme,Undetermined,NFIS,NA
 Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-25T14:28:56Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-22T14:40:28Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-22T15:39:34Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
@@ -119,20 +119,4 @@ Quail Fire,CA,Los Angeles,"Tapia Canyon Road and Charlie Canyon Road, Castaic in
 Pleasant Fire,CA,Nevada,"Owl Creek Road and Lost Ranch Way, West of Nevada City. ",Wildfire,39.2805,-121.1329,2022-08-20T16:35:12Z,2022-08-22T12:24:38Z,48,85,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/20/pleasant-fire/
 Valley Fire,CA,San Diego,Pine Creek Road,Wildfire,32.8647,-116.5185,2022-08-22T23:55:00Z,2022-08-22T14:56:15Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/22/valley-fire/
 East Fire,CA,Los Angeles,East Fork Rd and Shoemaker Rd at San Gabriel Canyon,Fire,34.2338842,-117.8004523,2022-08-25T13:39:48Z,2022-08-25T16:30:54Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/25/east-fire/
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Still Fire,CA,Nevada,"Still Road and Wolf Road, Northwest of Higgins Corners in Nevada County ",Wildfire,39.0543,-121.1103,2022-08-27T11:43:00Z,2022-08-27T13:46:54Z,30,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/27/still-fire/
-=======
-Still Fire,CA,Nevada,"Still Road and Wolf Road, Northwest of Higgins Corners in Nevada County ",Wildfire,39.0543,-121.1103,2022-08-27T11:43:00Z,2022-08-27T13:37:17Z,30,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/27/still-fire/
->>>>>>> 1e290516bd12acd9c663f50780198d3747a3c678
-=======
-Still Fire,CA,Nevada,"Still Road and Wolf Road, Northwest of Higgins Corners in Nevada County ",Wildfire,39.0543,-121.1103,2022-08-27T11:43:00Z,2022-08-27T13:37:17Z,30,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/27/still-fire/
->>>>>>> 1e290516bd12acd9c663f50780198d3747a3c678
-=======
-Still Fire,CA,Nevada,"Still Road and Wolf Road, Northwest of Higgins Corners in Nevada County ",Wildfire,39.0543,-121.1103,2022-08-27T11:43:00Z,2022-08-27T13:37:17Z,30,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/27/still-fire/
->>>>>>> 1e290516bd12acd9c663f50780198d3747a3c678
-=======
-Still Fire,CA,Nevada,"Still Road and Wolf Road, Northwest of Higgins Corners in Nevada County ",Wildfire,39.0543,-121.1103,2022-08-27T11:43:00Z,2022-08-27T13:37:17Z,30,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/27/still-fire/
->>>>>>> 1e290516bd12acd9c663f50780198d3747a3c678
+Still Fire,CA,Nevada,"Still Road and Wolf Road, Northwest of Higgins Corners in Nevada County ",Wildfire,39.0543,-121.1103,2022-08-27T11:43:00Z,2022-08-27T14:10:10Z,30,0,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/27/still-fire/
