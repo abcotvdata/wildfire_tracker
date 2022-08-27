@@ -30,7 +30,7 @@ Starr Fire,AK,Denali,21 miles east of Lake Minchumina,WF,63.93995,-151.5899,2022
 Christian Fire,AK,Yukon-Koyukuk,"24 miles east of Venetie, AK",WF,66.99512,-145.3864,2022-07-09T15:55:00Z,2022-08-11T19:56:02Z,8769.4,0,2022-AKUYD-000528,Minimal,Natural,NFIS,NA
 Minnkohwin Fire,AK,Yukon-Koyukuk,"19 miles southeast of Allakaket, AK",WF,66.366,-152.1294,2022-07-09T01:57:00Z,2022-08-16T18:57:26Z,7414.6,0,2022-AKTAD-000525,Minimal,Natural,NFIS,NA
 Dragon Fire,AZ,Coconino,NORTH RIM GRAND CANYON NP,WF,36.2641,-112.1571,2022-07-17T16:21:59Z,2022-07-29T00:56:09Z,1362,0,2022-AZGCP-000722,Minimal,Natural,NFIS,NA
-Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-27T15:30:19Z,96681,42,2022-IDSCF-022105,Moderate,Undetermined,NFIS,NA
+Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-27T22:26:32Z,96681,42,2022-IDSCF-022105,Moderate,Undetermined,NFIS,NA
 Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-26T10:28:11Z,1701,77,2022-MTBRF-022161,Minimal,Natural,NFIS,NA
 Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:00:59Z,2022-08-10T16:07:42Z,6050,16,2022-IDSCF-022097,Moderate,Natural,NFIS,NA
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,18600,100,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA
@@ -101,12 +101,13 @@ Cherry Fire,CA,Siskiyou,NA,WF,41.825,-122.974,2022-08-26T00:37:41Z,2022-08-26T16
 Paradise Peak Fire,WA,Ferry,NA,WF,48.61465,-118.3898,2022-08-26T01:40:48Z,2022-08-26T23:55:42Z,0.5,NA,2022-WACOF-001759,NA,Natural,NFIS,NA
 North Fork Fire,WA,Stevens,NA,WF,48.68273,-117.7532,2022-08-25T23:27:00Z,2022-08-27T00:00:12Z,20,NA,2022-WANES-001744,NA,Natural,NFIS,NA
 Brush Creek 1 Fire,WA,Whatcom,NA,WF,48.88889,-121.4095,2022-08-25T00:10:00Z,2022-08-27T13:43:39Z,10,NA,2022-WANCP-000302,NA,Undetermined,NFIS,NA
-Brush Creek 2 Fire,WA,Whatcom,Brush Creek Drainage off the Little Chilliwack River,WF,48.88115,-121.407,2022-08-25T00:11:00Z,2022-08-27T13:41:32Z,500,0,2022-WANCP-000303,Active,Natural,NFIS,NA
+Brush Creek 2 Fire,WA,Whatcom,Brush Creek Drainage off the Little Chilliwack River,WF,48.88115,-121.407,2022-08-25T00:11:00Z,2022-08-27T13:41:32Z,350,0,2022-WANCP-000303,Active,Natural,NFIS,NA
 Rattlesnake Fire,MT,Rosebud,NA,WF,46.42717,-106.5976,2022-08-27T00:48:00Z,2022-08-27T15:06:50Z,NA,NA,2022-MTLG29-000257,NA,Natural,NFIS,NA
 Marvin Road Fire,WA,Grant,NA,WF,47.28701,-119.65,2022-08-27T03:25:00Z,2022-08-27T15:59:48Z,45,NA,2022-WASPD-000414,NA,Undetermined,NFIS,NA
 Barber Mountain Fire,WA,Okanogan,NA,WF,48.96489,-119.6797,2022-08-25T22:38:00Z,2022-08-27T17:46:52Z,42,NA,2022-WASPD-001739,NA,Natural,NFIS,NA
 Spider Fire,MT,Garfield,NA,WF,47.60512,-107.0234,2022-08-26T18:20:00Z,2022-08-27T17:55:38Z,NA,NA,2022-MTMCD-000255,NA,Undetermined,NFIS,NA
 Cherry Gulch Fire,NV,Humboldt,Approx. 15 miles south of Denio NC,WF,41.75325,-118.7513,2022-08-26T23:29:59Z,2022-08-27T21:03:24Z,15785.8,0,2022-NVWID-020545,Extreme,Undetermined,NFIS,NA
+Fence Fire,NV,Elko,NA,WF,NA,NA,2022-08-27T18:45:41Z,2022-08-27T22:46:16Z,1,NA,2022-NVDVT-000435,NA,NA,NFIS,NA
 Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-25T14:28:56Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/
 Mckinney Fire Fire,CA,Siskiyou,"Hwy 96 and McKinney Creed Road, southwest of Klamath River",Wildfire,41.833813,-122.894782,2022-07-29T14:16:00Z,2022-08-22T14:40:28Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/29/mckinney-fire/
 Six Rivers (Srf) Lightning Complex Fire,CA,"Humboldt, Trinity",Willow Creek Area,Wildfire,40.9269568,-123.5862017,2022-08-05T21:44:29Z,2022-08-22T15:39:34Z,NA,NA,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/8/5/six-rivers-srf-lightning-complex/
