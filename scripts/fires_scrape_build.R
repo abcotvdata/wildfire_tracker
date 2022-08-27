@@ -147,7 +147,7 @@ fireLabel <- paste(sep = "<br/>",
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(noaa_latest_fires) %>%
   setView(max_lon, max_lat, zoom = 5) %>% 
-  addTiles(group = "Street Map") %>%
+  addProviderTiles(providers$Esri.WorldGrayCanvas, group = "Street Map") %>%
   addProviderTiles(providers$CartoDB.DarkMatter, group = "Dark") %>%
   addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
   addCircleMarkers(radius = 1.5,
