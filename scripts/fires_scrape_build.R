@@ -186,20 +186,14 @@ wildfire_map <- leaflet(hotspots) %>%
 
 # Temporary replacement for existing Cali-only
 # wildfire map include fires and perimeters only
-california_map <- leaflet(noaa_latest_fires) %>%
+california_map <- leaflet(hotspots) %>%
   setView(-122.5, 37.5, zoom = 6) %>% 
   addProviderTiles(provider = "Stamen.Toner") %>%
-  addCircleMarkers(radius = 1.5,
+  addCircleMarkers(radius = 1,
                    color = "orange",
                    stroke = FALSE,
-                   fillOpacity = 0.9,
+                   fillOpacity = 0.6,
                    group="Hot Spots") %>%
-#  addCircleMarkers(data = hotspots,
-#                   radius = 1.5,
-#                   color = "orange",
-#                   stroke = FALSE,
-#                   fillOpacity = 0.9,
-#                   group="Hot Spots") %>%
   addMarkers(data = fires,
              popup = fireLabel,
              icon = fireIcons,
