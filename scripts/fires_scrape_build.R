@@ -8,8 +8,6 @@ library(leaflet.providers)
 library(sf)
 library(htmlwidgets)
 
-Sys.setenv(TZ = "America/Los_Angeles")
-
 # California fires data
 try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?inactive=false",
               "data/calfire_activefires.geojson"))
