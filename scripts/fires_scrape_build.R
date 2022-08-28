@@ -14,35 +14,11 @@ try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?i
 # Read in geojson and then transform to sf format
 calfire_activefires <- st_read("data/calfire_activefires.geojson")
 
-# NOAA satellite fires
-# noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
-                   #  format(Sys.Date(), "%Y"),"/",
-                   #  format(Sys.Date(), "%m"),"/",
-                  #   "hms_fire",format(Sys.Date(), "%Y%m%d"),".txt")
-# try(download.file(noaafireurl,"data/noaa_latest_fires.csv"))
-# noaa_latest_fires <- read_csv("data/noaa_latest_fires.csv")
+# Read in NOAA sat fire hot spot shapefile fetched daily in separate script/action
+# noaa_latest_fires <- st_read("data/satellite/fire/noaa_latest_fire.shp")
 
-# alternate use geo file instead
-noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Shapefile/",
-                  format(Sys.Date(), "%Y"),"/",
-                  format(Sys.Date(), "%m"),"/",
-                  "hms_fire",format(Sys.Date(), "%Y%m%d"),".zip")
-try(download.file(noaafireurl,"data/noaa_latest_fires.zip"))
-unzip("data/noaa_latest_fires.zip", exdir = "data/")
-noaa_latest_fires <- st_read(paste(sep="","data/","hms_fire",format(Sys.Date(), "%Y%m%d"),".shp"))
-
-
-
-# NOAA satellite smoke sourced as shapefile, then read in as sf
-# Create url to get the file for today, using the new naming convention
-# instituted 7/19/2022
-smokeurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/Shapefile/",
-                  format(Sys.Date(), "%Y"),"/",
-                  format(Sys.Date(), "%m"),"/",
-                  "hms_smoke",format(Sys.Date(), "%Y%m%d"),".zip")
-try(download.file(smokeurl,"data/latest_smoke.zip"))
-unzip("data/latest_smoke.zip", exdir = "data/")
-latest_smoke <- st_read(paste(sep="","data/","hms_smoke",format(Sys.Date(), "%Y%m%d"),".shp"))
+# Read in NOAA satellite smoke shapefile fetched daily in separate script/action
+noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
 
 # Active wildfire perimeters from NFIS
 try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
@@ -54,13 +30,13 @@ nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
 # NASA series of wildfires hotspots data
 # Alaska is a separate file if we need/want it
 # last 24 hours from VIIRS SUOMI NPP SATELLITE
-try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
+ try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
               "data/hotspots_npp.csv"))
 # last 24 hours from VIIRS NOAA-20 satellite
-try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
-              "data/hotspots_noaa20.csv"))
+ try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
+               "data/hotspots_noaa20.csv"))
 # last 24 hours from MODIS satellite
-try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
+ try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
               "data/hotspots_modis.csv"))
 # read-in satellites' data
 hotspots_modis <- read_csv("data/hotspots_modis.csv", 
@@ -128,11 +104,14 @@ fires$name <- gsub("Fire Fire", "Fire", fires$name)
 fires$name <- gsub("  ", " ", fires$name)
 # standardize state column
 fires$state <- gsub("US-", "", fires$state)
+# standardize state column
+fires$active <- if_else(fires$updated>as.POSIXct.Date(Sys.Date()-7),"Yes","No")
 # save latest merged fire points file as csv
 write_csv(fires,"wildfires_working.csv")
 # set values for dynamic zoom in feature in map
-max_lat <- fires$latitude[which.max(fires$acres_burned)]
-max_lon <- fires$longitude[which.max(fires$acres_burned)]
+activefires <- fires %>% filter(fires$active=="Yes")
+max_lat <- activefires$latitude[which.max(activefires$acres_burned)]
+max_lon <- activefires$longitude[which.max(activefires$acres_burned)]
 
 # remove fires without lat longs yet
 # validation shows these are tiny almost all <1ac and all <10ac
@@ -143,41 +122,31 @@ fires <- st_as_sf(fires, coords = c("longitude", "latitude"),
 
 # make the wildfireIcon
 fireIcons <- icons(
-  iconUrl = ifelse(fires$percent_contained != "100" | is.na(fires$percent_contained),
-                   "fireorange.png",
-                   "firegrey.png"),
-  iconWidth = 18, iconHeight = 18)
+  iconUrl = ifelse(fires$percent_contained == "100" | fires$active == "No",
+                   "firegrey.png",
+                   "fireorange.png"),
+  iconWidth = 15, iconHeight = 15)
 
 # setup the popup box content for fire POINTS and assign to a value 
 fireLabel <- paste(sep = "<br/>",
-                   paste("<font size='4'><b>",fires$name,"</font size></b>"),
-                   paste("<font size='2'>In <b>",fires$county," County</font size></b>"),
-                   paste(" "),
-                   paste("<b>Acres burned: </b>",prettyNum(fires$acres_burned,big.mark=",")),
-                   paste("<b>Percent contained: </b>",fires$percent_contained),
-                   paste(" "),
-                   paste("<b>Started: </b>", paste(as.character(as.POSIXct(fires$started, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p"))),
-                   paste("<b>Updated: </b>", paste(as.character(as.POSIXct(fires$updated, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p")),"</font size>"),
-                   paste(" "),
-                   paste("<font size='1'>","* Acres burned and containment are updated as state or federal governments release information.","</font size>")
+                   paste("<font size='3'><b>",fires$name,"</font size></b>"),
+                   paste("In ",fires$county," County</font size>,",fires$state,"</b>"),
+                   paste(""),
+                   paste("Started ",round(difftime(Sys.time(),fires$updated,units='days'),0), "days ago"),
+                   paste(prettyNum(fires$acres_burned,big.mark=","),"acres burned"),
+                   paste(fires$percent_contained," percent contained"),
+                   paste("<font size='1'>Updated ", paste(as.character(as.POSIXct(fires$updated, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p")),"</font size>")
 )
 
 # New wildfire map include fires, smoke and hotspots
-wildfire_map <- leaflet(noaa_latest_fires) %>%
+wildfire_map <- leaflet(hotspots) %>%
   setView(max_lon, max_lat, zoom = 5) %>% 
-  addProviderTiles(providers$Esri.WorldGrayCanvas, group = "Street Map") %>%
-  addProviderTiles(providers$CartoDB.DarkMatter, group = "Dark") %>%
-  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
+  addProviderTiles(providers$Esri.WorldTerrain) %>%
+  addProviderTiles(providers$Stamen.TonerLines) %>%
+  addProviderTiles(providers$Stamen.TonerLabels) %>%
   addCircleMarkers(radius = 1.5,
                    color = "red",
                    weight = 1,
-                   stroke = FALSE,
-                   fillOpacity = 0.6,
-                   group="Hot Spots") %>%
-  addCircleMarkers(data = hotspots,
-                   radius = 1.5,
-                  color = "red",
-                  weight = 1,
                    stroke = FALSE,
                    fillOpacity = 0.6,
                    group="Hot Spots") %>%
@@ -190,7 +159,7 @@ wildfire_map <- leaflet(noaa_latest_fires) %>%
               popup = perimeterLabel,
               weight = 1.5,
               group="Perimeters") %>%
-  addPolygons(data = latest_smoke, 
+  addPolygons(data = noaa_latest_smoke, 
               color = "#916d61",
               fillOpacity = 0.6,
               weight = 0,
@@ -206,7 +175,6 @@ wildfire_map <- leaflet(noaa_latest_fires) %>%
             labels=c("Good", "Moderate", "Unhealthy for Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous","No AQ Data"),
             position = 'bottomleft') %>%
   addLayersControl(
-    baseGroups = c("Light", "Dark", "Satellite"),
     overlayGroups = c("Fires","Perimeters", "Hot Spots","Smoke","Air Quality"),
     options = layersControlOptions(collapsed = FALSE),
     position = 'bottomright') %>% hideGroup(c("Smoke","Air Quality")) 
@@ -226,12 +194,12 @@ california_map <- leaflet(noaa_latest_fires) %>%
                    stroke = FALSE,
                    fillOpacity = 0.9,
                    group="Hot Spots") %>%
-  addCircleMarkers(data = hotspots,
-                   radius = 1.5,
-                   color = "orange",
-                   stroke = FALSE,
-                   fillOpacity = 0.9,
-                   group="Hot Spots") %>%
+#  addCircleMarkers(data = hotspots,
+#                   radius = 1.5,
+#                   color = "orange",
+#                   stroke = FALSE,
+#                   fillOpacity = 0.9,
+#                   group="Hot Spots") %>%
   addMarkers(data = fires,
              popup = fireLabel,
              icon = fireIcons,
@@ -241,7 +209,7 @@ california_map <- leaflet(noaa_latest_fires) %>%
               popup = perimeterLabel,
               weight = 1.5,
               group="Perimeters") %>%
-  addPolygons(data = latest_smoke, 
+  addPolygons(data = noaa_latest_smoke, 
               color = "#916d61",
               fillOpacity = 0.6,
               weight = 0,
@@ -265,4 +233,3 @@ california_map <- leaflet(noaa_latest_fires) %>%
 # Export as HTML file
 saveWidget(california_map, 'docs/map_california.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
 saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
-
