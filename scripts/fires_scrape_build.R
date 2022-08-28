@@ -26,10 +26,10 @@ noaa_latest_fires <- read_csv("data/noaa_latest_fires.csv")
 noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Shapefile/",
                   format(Sys.Date(), "%Y"),"/",
                   format(Sys.Date(), "%m"),"/",
-                  "hms_fire",format(Sys.Date(), "%Y%m%d"),".zip")
+                  "hms_fire",format(Sys.Date(), "%Y%m%d",tz="America/Los_Angeles"),".zip")
 try(download.file(noaafireurl,"data/noaa_latest_fires.zip"))
 unzip("data/noaa_latest_fires.zip", exdir = "data/")
-noaa_latest_fires <- st_read(paste(sep="","data/","hms_fire",format(Sys.Date(), "%Y%m%d"),".shp"))
+noaa_latest_fires <- st_read(paste(sep="","data/","hms_fire",format(Sys.Date(), "%Y%m%d",tz="America/Los_Angeles"),".shp"))
 
 
 
@@ -39,10 +39,10 @@ noaa_latest_fires <- st_read(paste(sep="","data/","hms_fire",format(Sys.Date(), 
 smokeurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/Shapefile/",
                   format(Sys.Date(), "%Y"),"/",
                   format(Sys.Date(), "%m"),"/",
-                  "hms_smoke",format(Sys.Date(), "%Y%m%d"),".zip")
+                  "hms_smoke",format(Sys.Date(), "%Y%m%d",tz="America/Los_Angeles"),".zip")
 try(download.file(smokeurl,"data/latest_smoke.zip"))
 unzip("data/latest_smoke.zip", exdir = "data/")
-latest_smoke <- st_read(paste(sep="","data/","hms_smoke",format(Sys.Date(), "%Y%m%d"),".shp"))
+latest_smoke <- st_read(paste(sep="","data/","hms_smoke",format(Sys.Date(), "%Y%m%d",tz="America/Los_Angeles"),".shp"))
 
 # Active wildfire perimeters from NFIS
 try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
