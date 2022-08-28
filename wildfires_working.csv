@@ -30,7 +30,7 @@ Starr Fire,AK,Denali,21 miles east of Lake Minchumina,WF,63.93995,-151.5899,2022
 Christian Fire,AK,Yukon-Koyukuk,"24 miles east of Venetie, AK",WF,66.99512,-145.3864,2022-07-09T15:55:00Z,2022-08-11T19:56:02Z,8769.4,0,2022-AKUYD-000528,Minimal,Natural,NFIS,NA,No
 Minnkohwin Fire,AK,Yukon-Koyukuk,"19 miles southeast of Allakaket, AK",WF,66.366,-152.1294,2022-07-09T01:57:00Z,2022-08-16T18:57:26Z,7414.6,0,2022-AKTAD-000525,Minimal,Natural,NFIS,NA,No
 Dragon Fire,AZ,Coconino,NORTH RIM GRAND CANYON NP,WF,36.2641,-112.1571,2022-07-17T16:21:59Z,2022-07-29T00:56:09Z,1362,0,2022-AZGCP-000722,Minimal,Natural,NFIS,NA,No
-Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-27T22:26:32Z,96821,44,2022-IDSCF-022105,Active,Undetermined,NFIS,NA,Yes
+Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-08-27T22:26:32Z,96821,44,2022-IDSCF-022105,Moderate,Undetermined,NFIS,NA,Yes
 Hog Trough Fire,MT,Ravalli,"18 miles SE of Hamilton, MT",WF,46.18618,-113.8246,2022-07-18T00:25:00Z,2022-08-26T10:28:11Z,1701,77,2022-MTBRF-022161,Minimal,Natural,NFIS,NA,Yes
 Woodtick Fire,ID,Lemhi,"27 miles northwest of Challis, Idaho",WF,44.86872,-114.6153,2022-07-14T23:00:59Z,2022-08-10T16:07:42Z,6050,16,2022-IDSCF-022097,Moderate,Natural,NFIS,NA,No
 Leilani Fire,HI,Hawaii,20 miles SE of Waikoloa Village,WF,NA,NA,2022-07-21T18:00:00Z,2022-07-22T22:11:55Z,18600,100,2022-HIPTYQ-000951,Minimal,Undetermined,NFIS,NA,No
@@ -64,7 +64,7 @@ Juniper Road Two Fire,NC,Pender,15 miles east of Burgaw in Holly Shelter Game La
 Irving Peak Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.89679,-121.0263,2022-08-11T12:53:00Z,2022-08-28T12:05:32Z,1536,1,2022-WAOWF-000315,Active,Natural,NFIS,NA,Yes
 Red Fire,CA,Mariposa,SOUTHERN SECTION OF YOSEMITE NP NEAR GREY PEAK,WF,37.66138,-119.4713,2022-08-04T15:52:00Z,2022-08-27T05:42:07Z,1833,10,2022-CAYNP-000056,Moderate,Undetermined,NFIS,NA,Yes
 Rodgers Fire,CA,Tuolumne,"Yosemite National Park wilderness, 10 miles east of Hetch-Hetchy Reservoir",WF,37.95372,-119.5521,2022-08-08T20:03:00Z,2022-08-27T05:53:39Z,0.75,10,2022-CAYNP-000058,Moderate,Undetermined,NFIS,NA,Yes
-Thor Fire,WA,Pend Oreille,6 miles southeast of Metaline Falls WA,WF,48.83178,-117.1756,2022-08-13T22:27:00Z,2022-08-26T23:49:35Z,190,0,2022-WACOF-001595,Minimal,Natural,NFIS,NA,Yes
+Thor Fire,WA,Pend Oreille,6 miles southeast of Metaline Falls WA,WF,48.83178,-117.1756,2022-08-13T22:27:00Z,2022-08-28T20:41:24Z,190,0,2022-WACOF-001595,Minimal,Natural,NFIS,NA,Yes
 Cannon Fire,MT,Flathead,15 miles NE of Condon MT,WF,47.69949,-113.5351,2022-08-07T18:35:00Z,2022-08-22T13:06:07Z,1384,0,2022-MTFNF-000388,Minimal,Natural,NFIS,NA,Yes
 Dean Creek Fire,MT,Flathead,2 1/2 miles north east of Shadow Mountain,WF,47.94341,-113.2109,2022-08-14T18:49:00Z,2022-08-22T12:38:55Z,328,0,2022-MTFNF-000466,Minimal,Natural,NFIS,NA,Yes
 Four Corners Fire,ID,Adams,"6 Miles west of the City of Cascade, ID",WF,44.53882,-116.17,2022-08-13T15:55:00Z,2022-08-28T19:31:56Z,10179,18,2022-IDPAF-005394,Active,Natural,NFIS,NA,Yes
@@ -107,7 +107,7 @@ Barber Mountain Fire,WA,Okanogan,NA,WF,48.96489,-119.6797,2022-08-25T22:38:00Z,2
 Spider Fire,MT,Garfield,NA,WF,47.60512,-107.0234,2022-08-26T18:20:00Z,2022-08-27T17:55:38Z,NA,NA,2022-MTMCD-000255,NA,Undetermined,NFIS,NA,Yes
 Cherry Gulch Fire,NV,Humboldt,Approx. 15 miles south of Denio NV,WF,41.75325,-118.7513,2022-08-26T23:29:59Z,2022-08-28T20:05:05Z,15785.8,50,2022-NVWID-020545,Moderate,Undetermined,NFIS,NA,Yes
 Fence Fire,NV,Elko,NA,WF,NA,NA,2022-08-27T18:45:41Z,2022-08-27T22:46:16Z,1,NA,2022-NVDVT-000435,NA,NA,NFIS,NA,Yes
-Medicine Valley Fire,WA,Yakima,4 miles west of White Swan,WF,NA,NA,2022-08-26T22:07:00Z,2022-08-28T16:47:11Z,300,98,2022-WAYAA-000091,Minimal,Human,NFIS,NA,Yes
+Medicine Valley Fire,WA,Yakima,4 miles west of White Swan,WF,NA,NA,2022-08-26T22:07:00Z,2022-08-28T20:46:59Z,300,98,2022-WAYAA-000091,Minimal,Human,NFIS,NA,Yes
 Alligator Fire,WA,Ferry,NA,WF,48.73178,-118.3373,2022-08-25T17:37:08Z,2022-08-28T19:46:00Z,5,NA,2022-WACOF-001723,NA,Natural,NFIS,NA,Yes
 Forum Fire,WY,Natrona,NA,WF,42.96604,-106.1391,2022-08-28T01:02:00Z,2022-08-28T15:10:51Z,21.5,NA,2022-WYWYS-220411,NA,Undetermined,NFIS,NA,Yes
 Oak Fire Fire,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-25T14:28:56Z,19244,98,NA,NA,NA,Cal Fire,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/,Yes
