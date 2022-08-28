@@ -15,10 +15,23 @@ try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?i
 calfire_activefires <- st_read("data/calfire_activefires.geojson")
 
 # NOAA satellite fires
-try(download.file("https://satepsanone.nesdis.noaa.gov/pub/FIRE/HMS/latesthms.txt",
-              "data/noaa_latest_fires.csv"))
+noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
+                     format(Sys.Date(), "%Y"),"/",
+                     format(Sys.Date(), "%m"),"/",
+                     "hms_fire",format(Sys.Date(), "%Y%m%d"),".txt")
+try(download.file(noaafireurl,"data/noaa_latest_fires.csv"))
 noaa_latest_fires <- read_csv("data/noaa_latest_fires.csv")
-# convert to geo file next
+
+# alternate use geo file instead
+noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Shapefile/",
+                  format(Sys.Date(), "%Y"),"/",
+                  format(Sys.Date(), "%m"),"/",
+                  "hms_fire",format(Sys.Date(), "%Y%m%d"),".zip")
+try(download.file(noaafireurl,"data/noaa_latest_fires.zip"))
+unzip("data/noaa_latest_fires.zip", exdir = "data/")
+noaa_latest_fires <- st_read(paste(sep="","data/","hms_fire",format(Sys.Date(), "%Y%m%d"),".shp"))
+
+
 
 # NOAA satellite smoke sourced as shapefile, then read in as sf
 # Create url to get the file for today, using the new naming convention
@@ -156,15 +169,17 @@ wildfire_map <- leaflet(noaa_latest_fires) %>%
   addProviderTiles(providers$CartoDB.DarkMatter, group = "Dark") %>%
   addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
   addCircleMarkers(radius = 1.5,
-                   color = "orange",
+                   color = "red",
+                   weight = 1,
                    stroke = FALSE,
-                   fillOpacity = 0.9,
+                   fillOpacity = 0.6,
                    group="Hot Spots") %>%
   addCircleMarkers(data = hotspots,
                    radius = 1.5,
-                   color = "orange",
+                  color = "red",
+                  weight = 1,
                    stroke = FALSE,
-                   fillOpacity = 0.9,
+                   fillOpacity = 0.6,
                    group="Hot Spots") %>%
   addMarkers(data = fires,
              popup = fireLabel,
@@ -191,7 +206,7 @@ wildfire_map <- leaflet(noaa_latest_fires) %>%
             labels=c("Good", "Moderate", "Unhealthy for Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous","No AQ Data"),
             position = 'bottomleft') %>%
   addLayersControl(
-    baseGroups = c("Street Map", "Dark", "Satellite"),
+    baseGroups = c("Light", "Dark", "Satellite"),
     overlayGroups = c("Fires","Perimeters", "Hot Spots","Smoke","Air Quality"),
     options = layersControlOptions(collapsed = FALSE),
     position = 'bottomright') %>% hideGroup(c("Smoke","Air Quality")) 
