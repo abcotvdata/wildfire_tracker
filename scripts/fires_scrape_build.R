@@ -15,12 +15,12 @@ try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?i
 calfire_activefires <- st_read("data/calfire_activefires.geojson")
 
 # NOAA satellite fires
-noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
-                     format(Sys.Date(), "%Y"),"/",
-                     format(Sys.Date(), "%m"),"/",
-                     "hms_fire",format(Sys.Date(), "%Y%m%d"),".txt")
-try(download.file(noaafireurl,"data/noaa_latest_fires.csv"))
-noaa_latest_fires <- read_csv("data/noaa_latest_fires.csv")
+# noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
+                   #  format(Sys.Date(), "%Y"),"/",
+                   #  format(Sys.Date(), "%m"),"/",
+                  #   "hms_fire",format(Sys.Date(), "%Y%m%d"),".txt")
+# try(download.file(noaafireurl,"data/noaa_latest_fires.csv"))
+# noaa_latest_fires <- read_csv("data/noaa_latest_fires.csv")
 
 # alternate use geo file instead
 noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Shapefile/",
