@@ -8,7 +8,7 @@ name: Download data files
 
 jobs:
   render:
-    name: Download data files
+    name: Download files
     runs-on: macos-latest
     steps:
       - name: Start Actions
