@@ -14,23 +14,14 @@ try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?i
 # Read in geojson and then transform to sf format
 calfire_activefires <- st_read("data/calfire_activefires.geojson")
 
-# Read in NOAA sat fire hot spot shapefile fetched daily in separate script/action
-# noaa_latest_fires <- st_read("data/satellite/fire/noaa_latest_fire.shp")
-
 # Read in NOAA satellite smoke shapefile fetched daily in separate script/action
 noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
 
 # Active wildfire perimeters from NFIS
 # Point file if we ever need again is here: https://opendata.arcgis.com/datasets/51192330d3f14664bd69b6faed0fdf05_0.geojson
-# try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
-   #           "data/active_perimeters.geojson"))
 # Read in and downsize to just what we need for project
  nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
    select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
-# Read in and downsize to just what we need for project
-# nfis_perimeters <- st_read("datafiles/active_perimeters.geojson") %>%
-#  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
-
 
 # NASA series of wildfires hotspots data
 # Alaska is a separate file if we need/want it
