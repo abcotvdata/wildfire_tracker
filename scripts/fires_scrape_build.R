@@ -21,13 +21,13 @@ calfire_activefires <- st_read("data/calfire_activefires.geojson")
 noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
 
 # Active wildfire perimeters from NFIS
-try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
-              "data/active_perimeters.geojson"))
+# try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
+   #           "data/active_perimeters.geojson"))
 # Read in and downsize to just what we need for project
-nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
-  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+# nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
+#   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
 # Read in and downsize to just what we need for project
-nfis_perimeters222 <- st_read("datafiles/active_perimeters.geojson") %>%
+nfis_perimeters <- st_read("datafiles/active_perimeters.geojson") %>%
   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
 
 
