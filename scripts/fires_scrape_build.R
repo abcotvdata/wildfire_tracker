@@ -25,11 +25,11 @@ noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
 # try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
    #           "data/active_perimeters.geojson"))
 # Read in and downsize to just what we need for project
-# nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
-#   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+ nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
+   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
 # Read in and downsize to just what we need for project
-nfis_perimeters <- st_read("datafiles/active_perimeters.geojson") %>%
-  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+# nfis_perimeters <- st_read("datafiles/active_perimeters.geojson") %>%
+#  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
 
 
 # NASA series of wildfires hotspots data
@@ -73,7 +73,7 @@ airpal <- colorFactor(palette = c("#b1dbad", "#ffffb8", "#ffcc80","#ff8280","#95
 # Start by create a simplified, standard version of fed fire POINTS from current perimeters file
 fed_fires <- nfis_perimeters %>%
   select(14,25,22,15,16,17,18,13,4,7,20,27,11,12) %>%
-  filter(irwin_IncidentTypeCategory=="WF") %>%
+#  filter(irwin_IncidentTypeCategory=="WF") %>%
   st_drop_geometry() %>%
   mutate(source="NFIS")
 names(fed_fires) <- c("name", "state", "county", 
