@@ -38,6 +38,7 @@ nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
 # last 24 hours from MODIS satellite
  try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
               "data/hotspots_modis.csv"))
+
 # read-in satellites' data
 hotspots_modis <- read_csv("data/hotspots_modis.csv", 
                            col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
