@@ -26,6 +26,10 @@ try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab
 # Read in and downsize to just what we need for project
 nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+# Read in and downsize to just what we need for project
+nfis_perimeters222 <- st_read("datafiles/active_perimeters.geojson") %>%
+  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+
 
 # NASA series of wildfires hotspots data
 # Alaska is a separate file if we need/want it
