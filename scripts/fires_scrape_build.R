@@ -21,6 +21,7 @@ calfire_activefires <- st_read("data/calfire_activefires.geojson")
 noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
 
 # Active wildfire perimeters from NFIS
+# Point file if we ever need again is here: https://opendata.arcgis.com/datasets/51192330d3f14664bd69b6faed0fdf05_0.geojson
 # try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
    #           "data/active_perimeters.geojson"))
 # Read in and downsize to just what we need for project
