@@ -33,3 +33,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: print file path
         run: echo "The file was downloaded to ${{ steps.download-file.outputs.file-path }}"       
+      - name: Commit results
+        run: |
+          git add -A
+          git commit -m 'New fire files!' || echo "No changes"
+          git push origin || echo "No changes to commit"
