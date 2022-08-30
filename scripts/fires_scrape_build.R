@@ -165,9 +165,6 @@ cal_fires_unique <- cal_fires %>%
 fires <- bind_rows(fed_fires,cal_fires_unique)
 rm(cal_fires_unique)
 
-# Drop duplicates 
-# my_data %>% distinct(Sepal.Length, Petal.Width, .keep_all = TRUE)
-
 # Create flag for active vs. not for map icons
 fires$active <- if_else(fires$days_sinceupdate<4,"Yes","No")
 
