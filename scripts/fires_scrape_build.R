@@ -212,35 +212,34 @@ fireIcons <- icons(
 
 # Create color palette for air quality
 airpal <- colorFactor(palette = c("#b1dbad", "#ffffb8", "#ffcc80","#ff8280","#957aa3","#a18f7f"), levels = c("1", "2", "3", "4","5","6"), na.color = "#ff8280")
-# For now no color palettes needed for other elements
-# OPEN WORK add a smokepal for the varying levels of intensity of smoke
-
+# Create color palette smokepal for the varying levels of intensity of smoke
+smokepal <- colorFactor(palette = c("#99a0a5", "#51585f", "#2d343a"), levels = c("Light","Medium","Heavy"))
 
 ### SECTION 9. Script national leaflet map. ###
 
 # New wildfire map include fires, smoke and hotspots
 wildfire_map <- leaflet(hotspots) %>%
-  setView(max_lon, max_lat, zoom = 5) %>% 
+  setView(max_lon, max_lat, zoom = 7) %>% 
   addProviderTiles(providers$Esri.WorldTerrain) %>%
   addProviderTiles(providers$Stamen.TonerLines) %>%
   addProviderTiles(providers$Stamen.TonerLabels) %>%
-  addCircleMarkers(radius = 1,
-                   color = "red",
+  addCircleMarkers(radius = 1.5,
+                   color = "#be0000",
                    weight = 1,
                    stroke = FALSE,
-                   fillOpacity = 0.6,
+                   fillOpacity = 0.7,
                    group="Hot Spots") %>%
-  addMarkers(data = fires,
-             popup = fireLabel,
-             icon = fireIcons,
-             group="Fires") %>%
   addPolygons(data = nfis_perimeters, 
-              color = "#be0000",
+              color = "#00318b",
               popup = perimeterLabel,
               weight = 1.5,
               group="Perimeters") %>%
+  addAwesomeMarkers(data = fires,
+                    popup = fireLabel,
+                    icon = my_icons,
+                    group="Fires") %>%
   addPolygons(data = noaa_latest_smoke, 
-              color = "#916d61",
+              color = ~smokepal(Density),
               fillOpacity = 0.6,
               weight = 0,
               group="Smoke") %>%
@@ -258,12 +257,6 @@ wildfire_map <- leaflet(hotspots) %>%
     overlayGroups = c("Fires","Perimeters","Hot Spots","Smoke","Air Quality"),
     options = layersControlOptions(collapsed = FALSE),
     position = 'bottomright') %>% hideGroup(c("Smoke","Air Quality")) 
-# OPEN WORK: Adding a search features option to search fires by name
-# %>%
-#  addSearchFeatures(options =
-#                    searchFeaturesOptions(zoom = 10),
-#                  targetGroups = 'Fires')
-# wildfire_map
 
 
 ### SECTION 10. Script California leaflet map. ###
