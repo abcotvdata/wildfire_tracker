@@ -19,6 +19,8 @@ noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
 
 # Active wildfire perimeters from NFIS
 # Point file if we ever need again is here: https://opendata.arcgis.com/datasets/51192330d3f14664bd69b6faed0fdf05_0.geojson
+try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
+           "data/active_perimeters.geojson"))
 # Read in and downsize to just what we need for project
  nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
    select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
@@ -73,10 +75,8 @@ names(fed_fires) <- c("name", "state", "county",
                       "fed_fire_id","fire_behavior", "fire_cause","source")
 
 # Manual fixes of a couple fires with mistaken geocoordinates
-fed_fires$latitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", 35.69468,fed_fires$latitude)
-fed_fires$longitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", -105.335,fed_fires$longitude)
-fed_fires$latitude <- ifelse(fed_fires$fed_fire_id=="2022-NMN4S-000034", 36.243,fed_fires$latitude)
-fed_fires$longitude <- ifelse(fed_fires$fed_fire_id=="2022-NMN4S-000034", -105.038,fed_fires$longitude)
+# fed_fires$latitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", 35.69468,fed_fires$latitude)
+# fed_fires$longitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", -105.335,fed_fires$longitude)
 
 # Simplify, standardize version of California Fires from CalFire's active list
 cal_fires <- calfire_activefires %>%
