@@ -207,6 +207,12 @@ fireIcons <- icons(
                    "fireorange.png"),
   iconWidth = 18, iconHeight = 18)
 
+my_icons <- awesomeIcons(
+  icon = "fire",
+  iconColor = "white",
+  library = 'glyphicon',
+  squareMarker = TRUE,
+  markerColor = "orange")
 
 ### SECTION 8. Script color palettes for maps. ###
 
