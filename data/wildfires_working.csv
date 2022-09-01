@@ -54,7 +54,7 @@ Dutchman Fire,SD,Oglala Lakota,NA,WF,NA,NA,2022-08-28T17:30:53Z,2022-08-31T19:16
 Route Fire,CA,Los Angeles,"Castaic, CA",WF,NA,NA,2022-08-31T21:22:00Z,2022-09-01T07:25:29Z,5208,12,2022-CALAC-22294803,Moderate,Undetermined,NFIS,1,-0.309363425925926,NA,Yes
 Border 32 Fire,CA,San Diego,Barrett Lake Junction x Hwy 94,WF,32.612778,-116.706457,2022-08-31T21:18:45Z,2022-09-01T18:12:45Z,4246,5,2022-CAMVU-018864,Active,Undetermined,NFIS,1,-0.758854166666667,NA,Yes
 Double Creek Fire,OR,Wallowa,NA,WF,45.42796,-116.7457,2022-08-30T22:02:59Z,2022-09-01T13:19:30Z,1000,NA,2022-ORWWF-000400,NA,Natural,NFIS,2,-0.555208333333333,NA,Yes
-Mill Lake  Fire,MT,Ravalli,10 miles west of Pinesdale MT,WF,46.31173,-114.4113,2022-08-29T20:22:13Z,2022-09-01T14:26:55Z,3,0,2022-MTBRF-022265,Moderate,Undetermined,NFIS,3,-0.602025462962963,NA,Yes
+Mill Lake  Fire,MT,Ravalli,10 miles west of Pinesdale MT,WF,46.31173,-114.4113,2022-08-29T20:22:13Z,2022-09-01T14:26:55Z,0.25,0,2022-MTBRF-022265,Moderate,Undetermined,NFIS,3,-0.602025462962963,NA,Yes
 White Trail (56) Fire,FL,St. Lucie,PORT ST. LUCIE,WF,NA,NA,2022-08-20T18:20:59Z,2022-09-01T16:01:08Z,284,100,2022-FLFLS-1600709,Minimal,Human,NFIS,12,-0.667453703703704,NA,Yes
 Union Valley Fire,WA,Chelan,NA,WF,47.89489,-120.0389,2022-08-30T21:17:00Z,2022-09-01T16:11:15Z,25,NA,2022-WASES-000430,NA,Undetermined,NFIS,2,-0.674479166666667,NA,Yes
 Cayuse Fire,ID,Idaho,30 miles SW of Darby MT,WF,45.72247,-114.6277,2022-08-29T21:10:43Z,2022-09-01T17:12:17Z,10,0,2022-MTBRF-022266,Moderate,Natural,NFIS,3,-0.716863425925926,NA,Yes
@@ -67,3 +67,4 @@ Pleasant Fire,CA,Nevada,"Owl Creek Road and Lost Ranch Way, West of Nevada City.
 Still Fire,CA,Nevada,"Still Road and Wolf Road, Northwest of Higgins Corners in Nevada County ",Wildfire,39.0543,-121.1103,2022-08-27T11:43:00Z,2022-08-29T10:03:16Z,44,85,NA,NA,NA,Cal Fire,5,2.58106481481481,https://www.fire.ca.gov/incidents/2022/8/27/still-fire/,Yes
 Ranch Fire,CA,Humboldt,HWY 169 Near McCovey Ranch on the East side of the Klamath River,Wildfire,41.4626,-123.9477,2022-08-29T07:53:00Z,2022-08-30T18:39:40Z,26,95,NA,NA,NA,Cal Fire,3,1.2224537037037,https://www.fire.ca.gov/incidents/2022/8/29/ranch-fire/,Yes
 Border 32,CA,San Diego,"Barret Lake Road & Hwy 94, near Barret Lake ",Wildfire,32.612181,-116.707395,2022-08-31T14:17:00Z,2022-09-01T10:04:35Z,4246,5,NA,NA,NA,Cal Fire,1,-0.419849537037037,https://www.fire.ca.gov/incidents/2022/8/31/border-32/,Yes
+Branstetter Fire ,CA,Shasta,"Branstetter Lane and Cedars Road, City of Redding ",Wildfire,40.5336,-122.3975,2022-09-01T12:13:00Z,2022-09-01T14:08:55Z,34,0,NA,NA,NA,Cal Fire,0,-0.589525462962963,https://www.fire.ca.gov/incidents/2022/9/1/branstetter-fire/,Yes
