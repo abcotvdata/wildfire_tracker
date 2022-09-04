@@ -1,6 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,active
 Yukon Creek Fire,AK,Fairbanks North Star,NA,WF,64.70645,-145.959367,2022-06-17T23:01:54Z,2022-08-31T20:09:24Z,12998.1,NA,2022-AKFAS-211296,Minimal,Natural,NFIS,79,3.16013888888889,NA,Yes
-Moose  Fire,ID,Lemhi,"17 miles northwest of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-09-03T14:53:01Z,102103,44,2022-IDSCF-022105,Moderate,Undetermined,NFIS,49,0.379849537037037,NA,Yes
+Moose  Fire,ID,Lemhi,"17 miles northwest of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-09-04T10:39:07Z,102103,44,2022-IDSCF-022105,Moderate,Undetermined,NFIS,49,-0.443831018518519,NA,Yes
 Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:28:59Z,2022-09-03T12:15:36Z,835,44,2022-IDIPF-000212,Minimal,Natural,NFIS,52,0.489166666666667,NA,Yes
 Shiilik Fire,AK,Yukon-Koyukuk,"28 miles northeast of Christian, AK",WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022-08-31T20:52:04Z,674,0,2022-AKUYD-000611,Minimal,Natural,NFIS,37,3.13050925925926,NA,Yes
 Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-09-03T13:35:33Z,631,96,2022-ORWIF-220170,Minimal,Undetermined,NFIS,35,0.433645833333333,NA,Yes
