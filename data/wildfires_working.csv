@@ -1,6 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,active
 Yukon Creek Fire,AK,Fairbanks North Star,NA,WF,64.70645,-145.959367,2022-06-17T23:01:54Z,2022-08-31T20:09:24Z,12998.1,NA,2022-AKFAS-211296,Minimal,Natural,NFIS,80,4.16013888888889,NA,No
-Moose  Fire,ID,Lemhi,"17 miles northwest of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-09-04T10:39:07Z,103922,44,2022-IDSCF-022105,Active,Undetermined,NFIS,50,0.556168981481482,NA,Yes
+Moose  Fire,ID,Lemhi,"17 miles northwest of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-09-05T10:46:46Z,103922,44,2022-IDSCF-022105,Active,Undetermined,NFIS,50,-0.449143518518519,NA,Yes
 Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:28:59Z,2022-09-04T11:53:17Z,835,44,2022-IDIPF-000212,Minimal,Natural,NFIS,53,0.504664351851852,NA,Yes
 Shiilik Fire,AK,Yukon-Koyukuk,"28 miles northeast of Christian, AK",WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022-08-31T20:52:04Z,674,0,2022-AKUYD-000611,Minimal,Natural,NFIS,38,4.13050925925926,NA,No
 Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-09-04T14:18:55Z,631,99,2022-ORWIF-220170,Minimal,Undetermined,NFIS,36,0.403530092592593,NA,Yes
@@ -36,7 +36,7 @@ Nebo Fire,OR,Wallowa,"21 Miles SE of Enterprise, OR.  Near Mount Nebo.",WF,45.14
 Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-09-04T23:03:54Z,12121,0,2022-ORWWF-000334,Active,Natural,NFIS,14,0.0389583333333333,NA,Yes
 North Fork  Fire,WA,Whatcom,North Fork of the Little Chilliwack River,WF,48.98849,-121.4385,2022-08-25T00:06:00Z,2022-09-02T22:35:44Z,15,0,2022-WANCP-000301,Moderate,Undetermined,NFIS,11,2.05851851851852,NA,Yes
 Valley Fire,CA,San Diego,NA,WF,32.82595,-116.5354,2022-08-22T18:36:59Z,2022-08-30T04:38:35Z,193,NA,2022-CACNF-002040,NA,Undetermined,NFIS,14,5.80653935185185,NA,No
-Trail Ridge Fire,MT,Beaverhead,"Gibbon pass, trail creek Beaverhead Deer lodge NF, Wisdom RD",WF,45.78101,-113.8687,2022-08-26T19:11:00Z,2022-09-04T12:18:41Z,2500,0,2022-MTBDF-006286,Active,Natural,NFIS,10,0.487025462962963,NA,Yes
+Trail Ridge Fire,MT,Beaverhead,"Gibbon pass, trail creek Beaverhead Deer lodge NF, Wisdom RD",WF,45.78101,-113.8687,2022-08-26T19:11:00Z,2022-09-05T10:46:19Z,2500,0,2022-MTBDF-006286,Active,Natural,NFIS,10,-0.448831018518519,NA,Yes
 Copper Lake  Fire,WA,Whatcom,Copper Ridge in the Chilliwack River Drainage,WF,48.9413,-121.4481,2022-08-24T23:19:59Z,2022-09-02T22:19:18Z,77,0,2022-WANCP-000300,Active,Undetermined,NFIS,12,2.06993055555556,NA,Yes
 Route Fire,CA,Los Angeles,"10 miles northwest of Santa Clarita, CA",WF,NA,NA,2022-08-31T21:22:00Z,2022-09-03T02:44:12Z,5208,96,2022-CALAC-22294803,Minimal,Undetermined,NFIS,5,1.88597222222222,NA,Yes
 Border 32 Fire,CA,San Diego,Barrett Lake Junction x Hwy 94,WF,32.612778,-116.706457,2022-08-31T21:18:45Z,2022-09-04T03:24:43Z,4456,90,2022-CAMVU-018864,Minimal,Undetermined,NFIS,5,0.857835648148148,NA,Yes
