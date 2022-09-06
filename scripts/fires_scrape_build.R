@@ -106,7 +106,7 @@ rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
 ### SECTION 4. Read in and reshape Federal fire data into points and polygons. ###
 
 # Load/read federal fire perimeters and downsize to just what we need for project
-nfis_perimeters <- st_read("data/active_perimeters2.geojson") %>%
+nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
 fed_fire_points <- st_read("data/active_points.geojson")
 
