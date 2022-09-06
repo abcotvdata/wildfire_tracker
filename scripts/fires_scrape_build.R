@@ -1,4 +1,3 @@
-# library(tidyverse)
 library(dplyr)
 library(readr)
 library(stringr)
@@ -7,6 +6,7 @@ library(leaflet.extras)
 library(leaflet.providers)
 library(sf)
 library(htmlwidgets)
+library(htmltools)
 
 # Quick notes on source data
 # Data fetched once a day is downloaded in a separate script + action
@@ -22,28 +22,34 @@ library(htmlwidgets)
 # SECTION 6. Merge federal and California fire points.
 # SECTION 7. Script popup and icons for fire layer(s).
 # SECTION 8. Script color palettes for maps.
-# SECTION 9. Script national leaflet map.
-# SECTION 10. Script California leaflet map.
-# SECTION 11. Write leaflet maps to html.
+# SECTION 9. Script a base wildfire map.
+# SECTION 10. Script national map variant(s).
+# SECTION 11. Script California map variant(s).
+# SECTION 12. Write all leaflet maps to html.
 
 ### SECTION 1. Fetch all data ###
 # We use try function throughout so that if a file is down temporarily
 # this script won't stop; the map will be made with the last/newest data
 
-# Get active California fires data from Calfire
+# Get active CALIFORNIA FIRES data from Calfire
 try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?inactive=false",
                   "data/calfire_activefires.geojson"))
 
-# Get active wildfire perimeters from NFIS, which we use for both perimeters and points
+# Get active FEDERAL WILDFIRE PERIMETERS from NFIS, which we use for both perimeters and points
 # Separate point file if we ever need again is here: https://opendata.arcgis.com/datasets/51192330d3f14664bd69b6faed0fdf05_0.geojson
-try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
+try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Locations/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
+                  "data/active_points.geojson"))
+#try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
+#                  "data/active_perimeters.geojson"))
+try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Perimeters/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
                   "data/active_perimeters.geojson"))
 
-# Latest AQ geofile from AirNow
+
+# Get latest AIR QUALITY geojson polygon data from government's AirNow
 try(download.file("https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/AirNowLatestContoursCombined/FeatureServer/0/query?where=0%3D0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pgeojson",
                   "data/airnow_aq.geojson"))
 
-# NASA series of wildfires hotspots data
+# Get SATELLITE HOTSPOTS data from NASA
 # Alaska is a separate file if we need/want it
 # last 24 hours from VIIRS SUOMI NPP satellite
 try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
@@ -55,11 +61,29 @@ try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20
 try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
                   "data/hotspots_modis.csv"))
 
+# Get FIRE DANGER FORECASTS from U.S. Forest Service's Wildland Fire Assessment System
+try(download.file("https://www.wfas.net/images/firedanger/fdr_fcst.txt","data/wfas_forecast.txt"))
+# OPEN WORK: Move this to the separate once-a-day download script + action
+
 ### SECTION 2. Read in Air Quality and Smoke data. ###
-# Load/Read Air Quality geojson
+
+# Load/read Air Quality geojson
 air_quality <- st_read("data/airnow_aq.geojson")
-# Load/Read NOAA satellite smoke shapefile fetched daily in separate script/action
+# Load/read NOAA satellite smoke shapefile fetched daily in separate script/action
 noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
+# Load, read and clean portion of USFS fire forecast station file with forecast adjectives
+usfs_forecast <- read_fwf("data/wfas_forecast.txt", skip = 7,
+                          fwf_cols(station_id = c(1, 7), 
+                                   station_name = c(8, 26),
+                                   latitude = c(32, 36),
+                                   longitude = c(37, 42),
+                                   fdc_adj = c(112, 114)))
+usfs_forecast <- usfs_forecast %>% filter(!is.na(latitude) & !is.na(longitude) & !is.na(fdc_adj))
+usfs_forecast <- usfs_forecast %>% filter(latitude != "lat" & longitude != "long" & fdc_adj != "ADJ")
+usfs_forecast$longitude <- paste(sep="","-",usfs_forecast$longitude)
+usfs_forecast$longitude <- gsub("--", "-", usfs_forecast$longitude)
+usfs_forecast$latitude <- as.numeric(usfs_forecast$latitude)
+usfs_forecast$longitude <- as.numeric(usfs_forecast$longitude)
 
 ### SECTION 3. Read in and reshape satellite hot spots data. ###
 
@@ -82,8 +106,9 @@ rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
 ### SECTION 4. Read in and reshape Federal fire data into points and polygons. ###
 
 # Load/read federal fire perimeters and downsize to just what we need for project
-nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
+nfis_perimeters <- st_read("data/active_perimeters2.geojson") %>%
   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+fed_fire_points <- st_read("data/active_points.geojson")
 
 # Create tighter federal fire points file from current perimeters file
 fed_fires <- nfis_perimeters %>%
@@ -95,9 +120,24 @@ names(fed_fires) <- c("name", "state", "county",
                       "location", "type", "latitude", "longitude", 
                       "started", "updated", "acres_burned", "percent_contained",
                       "fed_fire_id","fire_behavior", "fire_cause","source")
+
+# saved function to convert the milliseconds from UTC 
+ms_to_date = function(ms, t0="1970-01-01", timezone) {
+  sec = ms / 1000
+  as.POSIXct(sec, origin=t0, tz=timezone)
+}
+
+# Convert started and updated fields to dates
+fed_fires$started <- ms_to_date(as.numeric(fed_fires$started), timezone="America/Los_Angeles")
+fed_fires$updated <- ms_to_date(as.numeric(fed_fires$updated), timezone="America/Los_Angeles")
+
 # Clean numeric fields, round for days burning and days since update for later filtering
-fed_fires$days_burning <- floor(difftime(Sys.Date(),fed_fires$started, units="days"))+1
-fed_fires$days_sinceupdate <- difftime(Sys.Date(),fed_fires$updated, units="days")
+fed_fires$days_burning <- floor(difftime(Sys.time(),fed_fires$started, units="days"))
+fed_fires$days_sinceupdate <- round(difftime(Sys.time(),fed_fires$updated, units="days"),1)
+# OPEN WORK: Verify and solve the time zones for the math for Calif. and fed time stamps
+# Currently the time is being converted during processing to Pacific Time; Sys.time calc is adjusting
+# Quick save note: ET to PT 10800 seconds, UTC to PT (25200 during ST and 28800 during DST)
+
 # filter out small fires and old fires not updated for more than a week
 # except for leaving in very new fires
 fed_fires <- fed_fires %>%
@@ -107,9 +147,10 @@ fed_fires <- fed_fires %>%
 # Fix fire name field so it's consistent as possible across all data we're using
 fed_fires$name <- str_to_title(fed_fires$name)
 fed_fires$name <- paste0(fed_fires$name," Fire")
+fed_fires$name <- gsub("  "," ",fed_fires$name)
 fed_fires$name <- trimws(fed_fires$name)
 # standardize state column
-fed_fires$state <- gsub("US-", "", fed_fires$state)
+fed_fires$state <- gsub("US-","", fed_fires$state)
 
 # Leave in, but comment out until/unless needed for MANUAL FIRE EDITS
 # Manual fixes of a couple fires with mistaken geocoordinates for point origin
@@ -126,7 +167,6 @@ names(nfis_perimeters) <- c("name", "fed_fire_id", "geometry")
 # Fix fire name field so it's consistent as possible across all data we're using
 nfis_perimeters$name <- str_to_title(nfis_perimeters$name)
 nfis_perimeters$name <- paste0(nfis_perimeters$name," Fire")
-
 
 ### SECTION 5. Read in and reshape California fire data. ###
 
@@ -148,7 +188,10 @@ cal_fires$acres_burned <- round(as.numeric(cal_fires$acres_burned),0)
 cal_fires$percent_contained <- as.numeric(cal_fires$percent_contained)
 # calculating fields for time passed elements in popups and for filtering old fires
 cal_fires$days_burning <- floor(difftime(Sys.Date(),cal_fires$started, units="days"))+1
-cal_fires$days_sinceupdate <- difftime(Sys.Date(),cal_fires$updated, units="days")
+cal_fires$days_sinceupdate <- floor(difftime(Sys.Date(),cal_fires$updated, units="days"))+1
+# OPEN WORK: Verify and solve the time zones for the math for
+# both the California and federal files' time stamps
+
 # filter out small fires and old fires not updated for more than a week
 # except for leaving in very new fires
 cal_fires <- cal_fires %>%
@@ -164,52 +207,54 @@ cal_fires_unique <- cal_fires %>%
 # Combine into one file and clean up
 fires <- bind_rows(fed_fires,cal_fires_unique)
 rm(cal_fires_unique)
-
-# Create flag for active vs. not for map icons
-fires$active <- if_else(fires$days_sinceupdate<4,"Yes","No")
+# Add full state name; pulling states from R built in reference data
+states <- as.data.frame(cbind(state.abb,state.name)) %>% janitor::clean_names()
+fires <- left_join(fires,states,by=c("state"="state_abb"))
 
 # Save latest merged fire points file as csv
 write_csv(fires,"data/wildfires_working.csv")
 
 # set values for dynamic zoom in feature in map
-max_lat <- fires$latitude[which.max(fires$acres_burned)]
-max_lon <- fires$longitude[which.max(fires$acres_burned)]
+# max_lat <- fires$latitude[which.max(fires$acres_burned)]
+# max_lon <- fires$longitude[which.max(fires$acres_burned)]
+top_states <- fires %>%
+  group_by(state_name) %>%
+  summarise(acres=sum(acres_burned),count=n()) %>%
+  arrange(desc(acres))
 
 # remove fires without lat longs yet so they can be mapped
 # validation shows these are tiny almost all <1ac and all <10ac
 fires <- fires %>% filter(!is.na(latitude) & !is.na(longitude))
+# Create flag for active vs. not for map icons
+fires$active <- if_else(fires$days_sinceupdate<4,"Yes","No")
+
 # transform to properly projected spatial points data
 fires <- st_as_sf(fires, coords = c("longitude", "latitude"), 
                   crs = 4326)
 
+
 ### SECTION 7. Script popup and icons for fire layer(s). ###
 
-fireLabel <- paste(sep = "<br/>",
-                   paste("<font size='3'><b>",fires$name,"</font size></b>"),
-                   paste("In ",fires$county," County</font size>,",fires$state,"</b>"),
-                   paste(""),
-                   paste("Started ",round(difftime(Sys.time(),fires$started,units='days'),0), "days ago"),
-                   paste(prettyNum(fires$acres_burned,big.mark=","),"acres burned"),
-                   paste(fires$percent_contained," percent contained"),
-                   paste("<font size='1'>Updated ", paste(as.character(as.POSIXct(fires$updated, format = "%Y-%m-%d %H:%M"), format = "%b %d, %Y at %I:%M %p")),"</font size>")
+fireLabel <- paste(sep = "",
+                   paste("<font size='3'><b>",fires$name,"</font size></b><hr style='margin-top:0px; margin-bottom:0px;'><font size='1'>",fires$county," County<b>,",fires$state_name,"</b>"),
+                   paste("<hr style='margin-top:0px; margin-bottom:0px;'>Burning for ",ifelse(fires$days_burning<2,"about <b>1</b> day",paste(sep="","<b>",fires$days_burning,"</b> days"))),
+                   paste("<hr style='margin-top:0px; margin-bottom:0px;'><b>",prettyNum(fires$acres_burned,big.mark=","),"</b> acres burned"),
+                   paste("<hr style='margin-top:0px; margin-bottom:0px;'><b>",ifelse(is.na(fires$percent_contained),"</b>Percent contained not available",paste(sep="",fires$percent_contained,"</b>","% contained"))),
+                   paste("<hr style='margin-top:0px; margin-bottom:2px;'>"),
+                   paste("<i>Updated ", paste(as.character(as.POSIXct(fires$updated, format = "%Y-%m-%d %H:%M"), format = "%b %d at %I:%M %p")),"</font size>")
 )
 
 # Create temporary perimeter label
 perimeterLabel <- paste(nfis_perimeters$name)
 
 # Create the fire icons
-fireIcons <- icons(
-  iconUrl = ifelse(fires$percent_contained == "100" | fires$active == "No",
-                   "firegrey.png",
-                   "fireorange.png"),
-  iconWidth = 18, iconHeight = 18)
-
-my_icons <- awesomeIcons(
+fireIcons <- awesomeIcons(
   icon = "fire",
   iconColor = "white",
   library = 'glyphicon',
   squareMarker = TRUE,
   markerColor = "orange")
+# options include ion-flame, ion-fireball, fa-fire
 
 ### SECTION 8. Script color palettes for maps. ###
 
@@ -217,12 +262,74 @@ my_icons <- awesomeIcons(
 airpal <- colorFactor(palette = c("#b1dbad", "#ffffb8", "#ffcc80","#ff8280","#957aa3","#a18f7f"), levels = c("1", "2", "3", "4","5","6"), na.color = "#ff8280")
 # Create color palette smokepal for the varying levels of intensity of smoke
 smokepal <- colorFactor(palette = c("#99a0a5", "#51585f", "#2d343a"), levels = c("Light","Medium","Heavy"))
+# Create color palette for air quality
+riskpal <- colorFactor(palette = c("#006400", "green", "yellow","orange","red"), levels = c("L", "M", "H", "V","E"), na.color = "#ff8280")
 
-### SECTION 9. Script national leaflet map. ###
+# SECTION 9. Script a base wildfire map.
+
+tag.map.title <- tags$style(HTML("
+  .leaflet-control.map-title {
+    position: fixed !important;
+    left: 0.8%;
+    top: 1%;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.80); 
+    width: 40%;
+    border-radius: 4px;
+  }
+  
+  .leaflet-control.map-title .headline{
+    font-weight: bold; 
+    font-family: Roboto;
+    font-size: 24px; 
+    color: black; 
+    padding: 0px 5px;
+  }
+  
+  .leaflet-control.map-title .subheadline {
+    font-family: Roboto;
+    font-size: 12px; 
+    color: black; 
+    padding: 0px 5px;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .leaflet-control.map-title .headline {
+      font-size: 20px;
+    }
+    .leaflet-control.map-title .subheadline {
+      font-size: 10px;
+    }
+  
+  @media only screen and (max-width: 420px) {
+    .leaflet-control.map-title .headline {
+      font-size: 18px;
+    }
+    .leaflet-control.map-title .subheadline {
+      font-size: 8px;
+    }
+"))
+
+headerhtml <- tags$div(
+  tag.map.title, HTML(paste(sep="","
+  <div class='headline'>2022 Wildfire Tracker</div>
+  <div class='subheadline'>This tracker shows wildfires and hot spots tracked by firefighters, sensors and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
+  The most active state is <a href='https://abcotvdata.github.io/wildfire_tracker/",
+                            tolower(top_states[1,1]),
+                            "_map.html'>",
+                            top_states[1,1],"</a>, with ",
+                            top_states[1,3]," fires that have burned ",
+                            prettyNum(round(top_states[1,2],0),big.mark=",")," acres so far.<div>")
+  )
+)
+
+caliheaderhtml <- tags$div(
+  tag.map.title, HTML('<div class="headline">2022 California Wildfire Tracker</div><div class="subheadline">Every California wildfire tracked by firefighters, sensors and satellites. Click the layers button below to add or remove live data about air quality, smoke levels and fire danger forecast.<div>')
+)
 
 # New wildfire map include fires, smoke and hotspots
-wildfire_map <- leaflet(hotspots) %>%
-  setView(max_lon, max_lat, zoom = 7) %>% 
+base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
+  setView(-116, 43.5, zoom = 5) %>% 
   addProviderTiles(providers$Esri.WorldTerrain) %>%
   addProviderTiles(providers$Stamen.TonerLines) %>%
   addProviderTiles(providers$Stamen.TonerLabels) %>%
@@ -236,10 +343,11 @@ wildfire_map <- leaflet(hotspots) %>%
               color = "#00318b",
               popup = perimeterLabel,
               weight = 1.5,
-              group="Perimeters") %>%
+              group="Fires") %>%
   addAwesomeMarkers(data = fires,
                     popup = fireLabel,
-                    icon = my_icons,
+                    popupOptions = popupOptions(keepInView = T),
+                    icon = fireIcons,
                     group="Fires") %>%
   addPolygons(data = noaa_latest_smoke, 
               color = ~smokepal(Density),
@@ -251,24 +359,83 @@ wildfire_map <- leaflet(hotspots) %>%
               weight = 0,
               fillOpacity = 0.6,
               group = "Air Quality") %>%
-  addLegend(values = values(air_quality$gridcode), title = "Air Quality Index<br><a href='https://www.airnow.gov/aqi/aqi-basics/' target='blank'>What AQI ratings mean</a>", 
+  addCircleMarkers(data = usfs_forecast,
+                   radius = 5,
+                   color = ~riskpal(fdc_adj),
+                   weight = 1,
+                   stroke = FALSE,
+                   fillOpacity = 0.8,
+                   group="Fire Danger Forecast") %>%
+  addLegend(values = values(air_quality$gridcode), title = "Air Quality Index<br><a href='https://www.airnow.gov/aqi/aqi-basics/' target='blank'><small>What AQI ratings mean</a>", 
             group = "Air Quality", 
             colors = c("#b1dbad", "#ffffb8", "#ffcc80","#ff8280","#957aa3","#a18f7f","#dde4f0"),
             labels=c("Good", "Moderate", "Unhealthy for Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous","No AQ Data"),
-            position = 'bottomleft') %>%
+            position = 'bottomright') %>%
+  addLegend(values = values(usfs_forecast$fdc_adj), title = "Wildland Fire Danger Rating<br><a href='https://www.wfas.net/index.php/fire-danger-rating-fire-potential--danger-32/class-rating-fire-potential-danger-51?task=view' target='blank'><small>More detailed on these risk ratings</a>", 
+            group = "Forecast", 
+            colors = c("#006400", "green", "yellow","orange","red"),
+            labels=c("Low", "Moderate", "High", "Very High", "Extreme"),
+            position = 'bottomright') %>%
   addLayersControl(
-    overlayGroups = c("Fires","Perimeters","Hot Spots","Smoke","Air Quality"),
+    overlayGroups = c("Fires","Hot Spots","Smoke","Air Quality","Fire Danger Forecast"),
     options = layersControlOptions(collapsed = FALSE),
-    position = 'bottomright') %>% hideGroup(c("Smoke","Air Quality")) 
+    position = 'bottomleft') %>% hideGroup(c("Smoke","Air Quality","Forecast")) %>% 
+  htmlwidgets::onRender("function(el, x) {
+        L.control.zoom({ position: 'topright'}).addTo(this)
+    }")
+base_map
 
+### SECTION 10. Script national map variant(s). ###
 
-### SECTION 10. Script California leaflet map. ###
+# New wildfire map include fires, smoke and hotspots
+# Adding the customized national map header
+wildfire_map <- base_map %>% 
+  addControl(position = "topleft", html = headerhtml, className="map-title")
+wildfire_map
 
-california_map <- wildfire_map %>%
-  setView(-122.5, 37.5, zoom = 6) %>% 
-  addProviderTiles(provider = "Stamen.Toner")
+# Create customized versions zoomed to center of states with frequent fires
+# to create a nav ability from the header to zoom to states with most activity
+idaho_map <- wildfire_map %>% setView(-114.4, 45.3, zoom = 6)
+colorado_map <- wildfire_map %>% setView(-105.3, 39, zoom = 6)
+arizona_map <- wildfire_map %>% setView(-111.5, 34.4, zoom = 6)
+nevada_map <- wildfire_map %>% setView(-117.22, 39.87, zoom = 6)
+oregon_map <- wildfire_map %>% setView(-120.5, 44, zoom = 6)
+washington_map <- wildfire_map %>% setView(-120.74, 47.75, zoom = 6)
+montana_map <- wildfire_map %>% setView(-112, 46.96, zoom = 6)
+utah_map <- wildfire_map %>% setView(-111.95, 39.41, zoom = 6)
+newmexico_map <- wildfire_map %>% setView(-106.01, 34.3, zoom = 6)
+texas_map <- wildfire_map %>% setView(-99, 31, zoom = 6)
+wyoming_map <- wildfire_map %>% setView(-107.29, 43.07, zoom = 6)
 
-### SECTION 11. Write leaflet maps to html. ###
+### SECTION 11. Script California map variant(s). ###
+
+california_map <- base_map %>%
+  addControl(position = "topleft", html = caliheaderhtml, className="map-title") %>%
+  setView(-122.5, 37.5, zoom = 6)
+
+# Create customized versions zoomed to our stations' regions of the state
+bayarea_map <- california_map %>% setView(-122.27, 37.8, zoom = 7)
+fresno_map <- california_map %>% setView(-119.78, 36.74, zoom = 7)
+socal_map <- california_map %>% setView(-118.1, 34.05, zoom = 7)
+
+### SECTION 12. Write all leaflet maps to html. ###
 saveWidget(california_map, 'docs/map_california.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
-saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations Wildfire Tracker", selfcontained = TRUE)
+saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
+
+saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker", selfcontained = TRUE)
+saveWidget(fresno_map, 'docs/fresno_map.html', title = "ABC30 Central Valley Wildfire Tracker", selfcontained = TRUE)
+saveWidget(socal_map, 'docs/socal_map.html', title = "ABC7 Southern California Wildfire Tracker", selfcontained = TRUE)
+
+saveWidget(idaho_map, 'docs/idaho_map.html', title = "ABC Owned Television Stations and ABC News Idaho Wildfire Tracker", selfcontained = TRUE)
+saveWidget(colorado_map, 'docs/colorado_map.html', title = "ABC Owned Television Stations and ABC News Colorado Wildfire Tracker", selfcontained = TRUE)
+saveWidget(nevada_map, 'docs/nevada_map.html', title = "ABC Owned Television Stations and ABC News Nevada Wildfire Tracker", selfcontained = TRUE)
+saveWidget(arizona_map, 'docs/arizona_map.html', title = "ABC Owned Television Stations and ABC News Arizona Wildfire Tracker", selfcontained = TRUE)
+saveWidget(newmexico_map, 'docs/newmexico_map.html', title = "ABC Owned Television Stations and ABC News New Mexico Wildfire Tracker", selfcontained = TRUE)
+saveWidget(oregon_map, 'docs/oregon_map.html', title = "ABC Owned Television Stations and ABC News Oregon Wildfire Tracker", selfcontained = TRUE)
+saveWidget(washington_map, 'docs/washington_map.html', title = "ABC Owned Television Stations and ABC News Wyoming Wildfire Tracker", selfcontained = TRUE)
+saveWidget(wyoming_map, 'docs/wyoming_map.html', title = "ABC Owned Television Stations and ABC News Wyoming Wildfire Tracker", selfcontained = TRUE)
+saveWidget(utah_map, 'docs/utah_map.html', title = "ABC Owned Television Stations and ABC News Utah Wildfire Tracker", selfcontained = TRUE)
+saveWidget(montana_map, 'docs/montana_map.html', title = "ABC Owned Television Stations and ABC News Montana Wildfire Tracker", selfcontained = TRUE)
+saveWidget(texas_map, 'docs/texas_map.html', title = "ABC13 Texas Wildfire Tracker", selfcontained = TRUE)
+
 
