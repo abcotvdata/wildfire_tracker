@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,active
 Yukon Creek Fire,AK,Fairbanks North Star,NA,WF,64.70645,-145.959367,2022-06-17T23:01:54Z,2022-08-31T20:09:24Z,12998.1,NA,2022-AKFAS-211296,Minimal,Natural,NFIS,81,5.16013888888889,NA,No
 Moose  Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-09-06T10:17:33Z,105322,44,2022-IDSCF-022105,Active,Undetermined,NFIS,51,-0.428854166666667,NA,Yes
-Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:28:59Z,2022-09-05T11:26:10Z,835,44,2022-IDIPF-000212,Minimal,Natural,NFIS,54,0.52349537037037,NA,Yes
+Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:28:59Z,2022-09-06T14:04:04Z,835,44,2022-IDIPF-000212,Minimal,Natural,NFIS,54,-0.586157407407407,NA,Yes
 Shiilik Fire,AK,Yukon-Koyukuk,"28 miles northeast of Christian, AK",WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022-08-31T20:52:04Z,674,0,2022-AKUYD-000611,Minimal,Natural,NFIS,39,5.13050925925926,NA,No
 Potter Fire,OR,Douglas,Potter Mountain,WF,43.38631,-122.3389,2022-07-31T17:00:00Z,2022-09-05T15:37:10Z,631,99,2022-ORWIF-220170,Minimal,Undetermined,NFIS,37,0.349189814814815,NA,Yes
 Windigo Fire,OR,Douglas,"10 miles NE of Lemolo Lake, 20NM SW of La Pine, OR",WF,43.35732,-122.2591,2022-07-30T23:16:59Z,2022-09-05T15:37:10Z,1007,100,2022-ORUPF-000234,Minimal,Natural,NFIS,38,0.349189814814815,NA,Yes
@@ -58,7 +58,7 @@ Little Chill Fire,WA,Whatcom,NA,WF,48.97352,-121.5108,2022-08-30T01:42:00Z,2022-
 Suiattle River Fire,WA,Skagit,"Forest Road 26, Suiattle River",WF,48.29141,-121.3726,2022-08-30T21:46:00Z,2022-09-06T00:23:33Z,70,0,2022-WAMSF-000334,Moderate,Undetermined,NFIS,7,-0.0163541666666667,NA,Yes
 Lemonade Fire,MT,Flathead,Approximately 21 miles west of Kalispell MT near the community of Marion,WF,48.22501,-114.7933,2022-09-01T16:15:59Z,2022-09-06T09:42:09Z,564,0,2022-MTFNF-000651,Active,Natural,NFIS,5,-0.404270833333333,NA,Yes
 Patrol Point Fire,ID,Idaho,"43NM northeast of Yellow Pine, ID",WF,45.42633,-114.9376,2022-08-20T18:06:00Z,2022-09-05T15:17:41Z,5195,0,2022-IDPAF-005433,Moderate,Natural,NFIS,17,0.362719907407407,NA,Yes
-Sawtell Peak Fire,ID,Fremont,"16 miles southwest of West Yellowstone, MT.",WF,44.56392,-111.437,2022-08-31T19:22:16Z,2022-09-03T19:17:50Z,34,40,2022-IDCTF-000153,Minimal,Natural,NFIS,6,2.19594907407407,NA,Yes
+Sawtell Peak Fire,ID,Fremont,"16 miles southwest of West Yellowstone, MT.",WF,44.56392,-111.437,2022-08-31T19:22:16Z,2022-09-06T13:59:03Z,34,40,2022-IDCTF-000153,Minimal,Natural,NFIS,6,-0.582673611111111,NA,Yes
 Ruby Fire,ID,Elmore,"2 MILES NE OF PRAIRIE, ID",WF,43.5237,-115.5678,2022-09-02T20:03:00Z,2022-09-03T21:33:26Z,152,20,2022-IDBOF-000706,Minimal,Human,NFIS,4,2.10178240740741,NA,Yes
 Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-09-06T11:48:13Z,140,0,2022-MTKNF-000235,NA,Natural,NFIS,5,-0.49181712962963,NA,Yes
 Rough Creek  Fire,MT,Powder River,NA,WF,45.06261,-105.9684,2022-09-01T23:11:00Z,2022-09-03T23:27:40Z,NA,NA,2022-MTMCD-000278,NA,Natural,NFIS,5,2.0224537037037,NA,Yes
@@ -106,4 +106,4 @@ Oak Fire ,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.550
 Gulch Fire,CA,Los Angeles,San Gabriel Canyon Road ,Wildfire,34.2026,-117.8608,2022-08-29T11:26:45Z,2022-09-03T19:38:16Z,NA,NA,NA,NA,NA,Cal Fire,8,2.18175925925926,https://www.fire.ca.gov/incidents/2022/8/29/gulch-fire/,Yes
 Mountain Fire ,CA,Siskiyou,"Gazelle-Callahan Road,  east of Gazelle Mountain , southeast of Gazelle",Wildfire,41.459009,-122.627469,2022-09-02T15:48:00Z,2022-09-06T06:40:23Z,11690,20,NA,NA,NA,Cal Fire,4,-0.278043981481481,https://www.fire.ca.gov/incidents/2022/9/2/mountain-fire/,Yes
 Sandia Fire,CA,San Diego,"Sandia Creek Dr, north of De Luz Rd in De Luz",Wildfire,33.432924,-117.246996,2022-09-04T13:42:00Z,2022-09-04T17:01:46Z,30,10,NA,NA,NA,Cal Fire,2,1.29043981481481,https://www.fire.ca.gov/incidents/2022/9/4/sandia-fire/,Yes
-Fairview Fire,CA,Riverside,"Fairview Ave and Bautista Canyon Rd, near Hemet",Wildfire,33.717062,-116.893227,2022-09-05T16:00:00Z,2022-09-06T06:46:23Z,2000,5,NA,NA,NA,Cal Fire,1,-0.282210648148148,https://www.fire.ca.gov/incidents/2022/9/5/fairview-fire/,Yes
+Fairview Fire,CA,Riverside,"Fairview Avenue and Bautista Canyon Road, near Hemet",Wildfire,33.717062,-116.893227,2022-09-05T16:00:00Z,2022-09-06T07:15:45Z,2400,5,NA,NA,NA,Cal Fire,1,-0.302604166666667,https://www.fire.ca.gov/incidents/2022/9/5/fairview-fire/,Yes
