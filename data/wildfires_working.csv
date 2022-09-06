@@ -24,7 +24,7 @@ Ross Fork Fire,ID,Camas,"2 miles west of Smiley Creek, 1 mile south of Alturas L
 Eneas Peak Fire,ID,Boundary,"6 miles west of Copeland, ID",WF,48.82996,-116.5599,2022-08-12T04:42:00Z,2022-09-05T12:09:58Z,1408,0,2022-IDIPF-000385,Moderate,Undetermined,NFIS,25,0.493078703703704,NA,Yes
 Rum Creek  Fire,OR,Josephine,"Rand, Or",WF,42.6356,-123.5857,2022-08-17T18:59:59Z,2022-09-06T05:48:50Z,19495,34,2022-ORMED-000243,Active,Natural,NFIS,20,-0.24224537037037,NA,Yes
 Camel Hump Fire,OR,Douglas,6 miles SW of Potter Mountain,WF,43.32191,-122.4871,2022-08-17T23:35:00Z,2022-09-05T15:37:10Z,6.14,100,2022-ORUPF-000312,Minimal,Natural,NFIS,20,0.349189814814815,NA,Yes
-Crockets Knob Fire,OR,Grant,"19 miles north of Prairie City, Oregon",WF,44.66,-118.633333,2022-08-22T10:52:00Z,2022-09-06T10:49:49Z,4265,25,2022-ORMAF-022199,Active,Natural,NFIS,15,-0.451261574074074,NA,Yes
+Crockets Knob Fire,OR,Grant,"19 miles north of Prairie City, Oregon",WF,44.66,-118.633333,2022-08-22T10:52:00Z,2022-09-06T11:16:03Z,4265,25,2022-ORMAF-022199,Active,Natural,NFIS,15,-0.469479166666667,NA,Yes
 Trout Fire,ID,Boundary,"8 miles southwest of Copeland, Idaho",WF,48.8265,-116.4716,2022-08-21T23:57:00Z,2022-09-05T12:09:58Z,1740,0,2022-IDIPF-000486,Active,Natural,NFIS,16,0.493078703703704,NA,Yes
 Parks Fire,WA,Okanogan,3 miles East of Mount Winthrop,WF,48.97687,-120.7031,2022-08-21T23:00:00Z,2022-09-02T22:52:23Z,1000,0,2022-WAOWF-000380,Moderate,Natural,NFIS,16,3.04695601851852,NA,Yes
 Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:36Z,2022-09-05T12:09:58Z,5402,0,2022-IDIPF-000515,Active,Undetermined,NFIS,13,0.493078703703704,NA,Yes
@@ -77,7 +77,7 @@ Wallow Fire,ID,Clearwater,8.5 miles from Canyon Work Center,WF,46.92786,-115.417
 Thompson Creek Fire,MT,Beaverhead,"Continental lake, Thompson Creek drainage",WF,45.8504,-113.5749,2022-09-01T23:50:00Z,2022-09-05T02:01:58Z,85,20,2022-MTBDF-006298,Moderate,Undetermined,NFIS,5,0.915300925925926,NA,Yes
 Caledonia  Fire,ID,Shoshone,NA,WF,46.98575,-115.1726,2022-09-01T23:57:21Z,2022-09-06T00:26:44Z,0.1,NA,2022-IDNCF-000802,NA,Undetermined,NFIS,5,-0.0185648148148148,NA,Yes
 North Star Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:16:23Z,2022-09-05T11:44:06Z,239,0,2022-MTKNF-000233,NA,Natural,NFIS,5,0.511041666666667,NA,Yes
-Isabella Fire,ID,Clearwater,NA,WF,46.91325,-115.6063,2022-08-23T02:14:32Z,2022-09-04T22:17:39Z,0.5,NA,2022-IDNCF-000691,NA,Natural,NFIS,14,1.07107638888889,NA,Yes
+Isabella Fire,ID,Clearwater,NA,WF,46.91325,-115.6063,2022-08-23T02:14:32Z,2022-09-06T02:30:20Z,0.5,NA,2022-IDNCF-000691,NA,Natural,NFIS,14,-0.104398148148148,NA,Yes
 South Fork Fire,ID,Idaho,18 miles east of Powell Ranger Station,WF,46.57092,-114.3497,2022-08-22T21:53:00Z,2022-09-04T22:26:22Z,194.95,0,2022-IDNCF-000682,Moderate,Natural,NFIS,15,1.06502314814815,NA,Yes
 Mountain Fire,CA,Siskiyou,"Gazelle-Callahan RD., 9 miles S/W of the community of Gazelle.",WF,41.429267,-122.637483,2022-09-02T22:48:10Z,2022-09-05T21:01:53Z,11464,20,2022-CASKU-007586,Active,Undetermined,NFIS,4,0.12369212962963,NA,Yes
 Fire Creek Fire,ID,Idaho,"Fire Creek drainage approx. 17 miles E of Lowell, ID",WF,46.15928,-115.4216,2022-08-12T20:44:20Z,2022-09-04T23:08:12Z,214,0,2022-IDNCF-000510,Moderate,Natural,NFIS,25,1.03597222222222,NA,Yes
@@ -99,6 +99,8 @@ Boulder Lake Fire,MT,Missoula,NA,WF,47.08154,-113.7971,2022-09-04T02:50:04Z,2022
 Caesar Fire,CA,San Diego,NA,WF,33.066705,-116.809063,2022-09-05T18:49:33Z,2022-09-05T23:39:32Z,0.01,NA,2022-CAMVU-019304,NA,Undetermined,NFIS,1,0.014212962962963,NA,Yes
 Murray Fire,MT,Powell,"11 miles NW of Drummond  11 miles west of Helmville, MT",WF,46.82441,-113.1887,2022-09-05T12:53:00Z,2022-09-06T01:46:56Z,53,0,2022-MTSWS-201240,Active,Undetermined,NFIS,1,-0.0742592592592593,NA,Yes
 Seven Bays Fire,WA,Lincoln,"Fifteen miles NW of Davenport, WA.",WF,47.82459,-118.3234,2022-09-04T22:34:59Z,2022-09-06T03:16:44Z,1000,0,2022-WANES-001919,Active,Undetermined,NFIS,2,-0.13662037037037,NA,Yes
+Heart Fire,ID,Clearwater,"20 Miles from Headquarters, ID",WF,46.92788,-115.585,2022-08-25T14:13:27Z,2022-09-06T02:31:08Z,0.1,0,2022-IDNCF-000722,Moderate,Natural,NFIS,12,-0.104953703703704,NA,Yes
+Lower Twin Fire,ID,Clearwater,2.5 miles from Canyon Work Center to the Southwest,WF,46.85537,-115.5428,2022-08-12T01:20:02Z,2022-09-06T02:22:30Z,1,0,2022-IDNCF-000476,Moderate,Natural,NFIS,25,-0.0989583333333333,NA,Yes
 Oak Fire ,CA,Mariposa,"Hwy 140 and Carstens Road, near Midpines",Wildfire,37.5509366,-119.9234728,2022-07-22T14:10:00Z,2022-08-29T09:58:24Z,19244,98,NA,NA,NA,Cal Fire,46,7.58444444444444,https://www.fire.ca.gov/incidents/2022/7/22/oak-fire/,No
 Gulch Fire,CA,Los Angeles,San Gabriel Canyon Road ,Wildfire,34.2026,-117.8608,2022-08-29T11:26:45Z,2022-09-03T19:38:16Z,NA,NA,NA,NA,NA,Cal Fire,8,2.18175925925926,https://www.fire.ca.gov/incidents/2022/8/29/gulch-fire/,Yes
 Mountain Fire ,CA,Siskiyou,"Gazelle-Callahan Road,  east of Gazelle Mountain , southeast of Gazelle",Wildfire,41.459009,-122.627469,2022-09-02T15:48:00Z,2022-09-05T20:03:03Z,11464,20,NA,NA,NA,Cal Fire,4,0.164548611111111,https://www.fire.ca.gov/incidents/2022/9/2/mountain-fire/,Yes
