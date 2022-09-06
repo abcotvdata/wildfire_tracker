@@ -19,7 +19,7 @@ jobs:
         run: |
           brew install gdal
       - name: Install dependencies and packages
-        run: Rscript -e 'install.packages(c("stringr","readr","dplyr","sf","leaflet","htmlwidgets","leaflet.providers","leaflet.extras","htmltools"))'
+        run: Rscript -e 'install.packages(c("stringr","janitor","readr","dplyr","sf","leaflet","htmlwidgets","leaflet.providers","leaflet.extras","htmltools"))'
       - name: Scrape data, reshape, make fire map
         run: Rscript scripts/fires_scrape_build.R
       - name: Commit results
