@@ -7,6 +7,7 @@ library(leaflet.providers)
 library(sf)
 library(htmlwidgets)
 library(htmltools)
+library(janitor)
 
 # Quick notes on source data
 # Data fetched once a day is downloaded in a separate script + action
