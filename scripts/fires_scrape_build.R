@@ -380,7 +380,7 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
   addLayersControl(
     overlayGroups = c("Fires","Hot Spots","Smoke","Air Quality","Fire Danger Forecast"),
     options = layersControlOptions(collapsed = FALSE),
-    position = 'bottomleft') %>% hideGroup(c("Smoke","Air Quality","Forecast")) %>% 
+    position = 'bottomleft') %>% hideGroup(c("Smoke","Air Quality","Fire Danger Forecast")) %>% 
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topright'}).addTo(this)
     }")
