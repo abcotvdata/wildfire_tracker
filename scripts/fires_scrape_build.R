@@ -38,10 +38,10 @@ try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?i
 
 # Get active FEDERAL WILDFIRE PERIMETERS from NFIS, which we use for both perimeters and points
 # Separate point file if we ever need again is here: https://opendata.arcgis.com/datasets/51192330d3f14664bd69b6faed0fdf05_0.geojson
-try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Locations/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
-                  "data/active_points.geojson"))
-#try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
-#                  "data/active_perimeters.geojson"))
+# try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Locations/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
+#                  "data/active_points.geojson"))
+try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
+                 "data/active_perimeters2.geojson"))
 try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Perimeters/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
                   "data/active_perimeters.geojson"))
 
@@ -109,7 +109,6 @@ rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
 # Load/read federal fire perimeters and downsize to just what we need for project
 nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
-fed_fire_points <- st_read("data/active_points.geojson")
 
 # Create tighter federal fire points file from current perimeters file
 fed_fires <- nfis_perimeters %>%
@@ -237,7 +236,7 @@ fires <- st_as_sf(fires, coords = c("longitude", "latitude"),
 ### SECTION 7. Script popup and icons for fire layer(s). ###
 
 fireLabel <- paste(sep = "",
-                   paste("<font size='3'><b>",fires$name,"</font size></b><hr style='margin-top:0px; margin-bottom:0px;'><font size='1'>",fires$county," County<b>,",fires$state_name,"</b>"),
+                   paste("<font size='3'><b>",fires$name,"</font size></b><hr style='margin-top:0px; margin-bottom:0px;'><font size='2'>",fires$county," County<b>,",fires$state_name,"</b>"),
                    paste("<hr style='margin-top:0px; margin-bottom:0px;'>Burning for ",ifelse(fires$days_burning<2,"about <b>1</b> day",paste(sep="","<b>",fires$days_burning,"</b> days"))),
                    paste("<hr style='margin-top:0px; margin-bottom:0px;'><b>",prettyNum(fires$acres_burned,big.mark=","),"</b> acres burned"),
                    paste("<hr style='margin-top:0px; margin-bottom:0px;'><b>",ifelse(is.na(fires$percent_contained),"</b>Percent contained not available",paste(sep="",fires$percent_contained,"</b>","% contained"))),
@@ -274,47 +273,48 @@ tag.map.title <- tags$style(HTML("
     left: 0.7%;
     top: 1%;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.80); 
-    width: 40%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 70%;
     border-radius: 4px;
   }
-  
   .leaflet-control.map-title .headline{
-    font-weight: bold; 
-    font-family: Roboto;
-    font-size: 24px; 
-    color: black; 
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
     padding: 0px 5px;
+    background-color: #F98C00;
+    background: linear-gradient(90deg, rgba(190,0,0,1) 0%, rgba(249,140,0,1) 43%, rgba(255,186,0,1) 90%, rgba(255,186,0,0) 100%);
   }
-  
   .leaflet-control.map-title .subheadline {
-    font-family: Roboto;
-    font-size: 12px; 
-    color: black; 
-    padding: 0px 5px;
+    font-size: 15px;
+    color: black;
+    padding: 5px 30px 5px 10px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 100%);
   }
-  
+  .leaflet-control.map-title .subheadline a {
+    color: #BE0000;
+    font-weight: bold;
+  }
   @media only screen and (max-width: 550px) {
+    .leaflet-control.map-title .headline {
+      font-size: 25px;
+    }
+    .leaflet-control.map-title .subheadline {
+      font-size: 12px;
+    }
+  @media only screen and (max-width: 420px) {
     .leaflet-control.map-title .headline {
       font-size: 20px;
     }
     .leaflet-control.map-title .subheadline {
       font-size: 10px;
     }
-  
-  @media only screen and (max-width: 420px) {
-    .leaflet-control.map-title .headline {
-      font-size: 18px;
-    }
-    .leaflet-control.map-title .subheadline {
-      font-size: 8px;
-    }
 "))
 
 headerhtml <- tags$div(
   tag.map.title, HTML(paste(sep="","
   <div class='headline'>Wildfire Tracker</div>
-  <div class='subheadline'>This tracker shows wildfires and hot spots tracked by firefighters, sensors and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
+  <div class='subheadline'>This tracker shows wildfires and hot spots tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
   The most active state is <a href='https://abcotvdata.github.io/wildfire_tracker/",
                             tolower(top_states[1,1]),
                             "_map.html'>",
@@ -347,7 +347,8 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
               group="Active wildfires") %>%
   addAwesomeMarkers(data = fires,
                     popup = fireLabel,
-                    popupOptions = popupOptions(keepInView = T),
+                    popupOptions = popupOptions(keepInView = T, 
+                                                autoPanPaddingTopLeft=c(100,120)),
                     icon = fireIcons,
                     group="Active wildfires") %>%
   addPolygons(data = noaa_latest_smoke, 
@@ -390,8 +391,13 @@ base_map
 
 # New wildfire map include fires, smoke and hotspots
 # Adding the customized national map header
+fed_fires2 <- fed_fires %>% filter(state!="AK")
 wildfire_map <- base_map %>% 
-  addControl(position = "topleft", html = headerhtml, className="map-title")
+  addControl(position = "topleft", html = headerhtml, className="map-title") %>%
+  fitBounds(lng1 = min(fed_fires2$longitude,na.rm = TRUE) - 12, 
+            lat1 = min(fed_fires2$latitude,na.rm = TRUE), 
+            lng2 = max(fed_fires2$longitude,na.rm = TRUE) - 5, 
+            lat2 = max(fed_fires2$latitude,na.rm = TRUE) + 2)
 wildfire_map
 
 # Create customized versions zoomed to center of states with frequent fires
@@ -420,7 +426,7 @@ fresno_map <- california_map %>% setView(-119.78, 36.74, zoom = 7)
 socal_map <- california_map %>% setView(-118.1, 34.05, zoom = 7)
 
 ### SECTION 12. Write all leaflet maps to html. ###
-saveWidget(california_map, 'docs/map_california.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
+saveWidget(california_map, 'docs/california_map.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
 saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
 
 saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker", selfcontained = TRUE)
@@ -438,5 +444,3 @@ saveWidget(wyoming_map, 'docs/wyoming_map.html', title = "ABC Owned Television S
 saveWidget(utah_map, 'docs/utah_map.html', title = "ABC Owned Television Stations and ABC News Utah Wildfire Tracker", selfcontained = TRUE)
 saveWidget(montana_map, 'docs/montana_map.html', title = "ABC Owned Television Stations and ABC News Montana Wildfire Tracker", selfcontained = TRUE)
 saveWidget(texas_map, 'docs/texas_map.html', title = "ABC13 Texas Wildfire Tracker", selfcontained = TRUE)
-
-
