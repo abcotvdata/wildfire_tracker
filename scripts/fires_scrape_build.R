@@ -271,7 +271,7 @@ riskpal <- colorFactor(palette = c("#006400", "green", "yellow","orange","red"),
 tag.map.title <- tags$style(HTML("
   .leaflet-control.map-title {
     position: fixed !important;
-    left: 0.75%;
+    left: 0.7%;
     top: 1%;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.80); 
