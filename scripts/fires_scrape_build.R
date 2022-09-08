@@ -222,7 +222,7 @@ write_csv(fires,"data/wildfires_working.csv")
 # max_lon <- fires$longitude[which.max(fires$acres_burned)]
 top_states <- fires %>%
   group_by(state_name) %>%
-  summarise(acres=sum(acres_burned),count=n()) %>%
+  summarise(acres=sum(acres_burned,na.rm = TRUE),count=n()) %>%
   arrange(desc(acres))
 top_calfires <- fires %>%
   filter(state=="CA") %>%
