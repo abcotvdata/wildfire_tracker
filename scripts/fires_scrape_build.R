@@ -450,7 +450,7 @@ largest_calfire_map <- base_map %>%
   setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
 
 # Create customized versions zoomed to our stations' regions of the state
-bayarea_map <- california_map %>% fitBounds(-123,36,-120,41)
+bayarea_map <- california_map %>% fitBounds(-122,36,-119,41)
 fresno_map <- california_map %>% fitBounds(-121.1052,36.1837,-118.4987,37.5551)
 socal_map <- california_map %>% fitBounds(-120.8358,32.5566,-114.5195,35.5286)
 
