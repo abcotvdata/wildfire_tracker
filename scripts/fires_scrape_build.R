@@ -404,7 +404,13 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
     position = 'bottomleft') %>% hideGroup(c("Wildfire smoke","Air Quality Index","Fire danger forecast")) %>% 
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topright'}).addTo(this)
-    }")
+    }") %>%
+  htmlwidgets::onRender("
+    function() {
+        $('.leaflet-control-layers-overlays').prepend('<b>Select to show or hide:</b>');
+    }
+")
+
 base_map
 
 ### SECTION 10. Script national map variant(s). ###
