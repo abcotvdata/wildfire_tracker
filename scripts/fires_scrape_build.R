@@ -458,7 +458,6 @@ socal_map <- california_map %>% fitBounds(-120.8358,32.5566,-114.5195,35.5286)
 ### SECTION 12. Write all leaflet maps to html. ###
 saveWidget(california_map, 'docs/california_map.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
 saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
-# saveWidget(base_map, 'docs/base_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
 saveWidget(largest_calfire_map, 'docs/largest_calfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
 
 saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker", selfcontained = TRUE)
