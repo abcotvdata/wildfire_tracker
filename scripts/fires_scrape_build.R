@@ -340,8 +340,8 @@ headerhtml <- tags$div(
 caliheaderhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
   "<div class='headline'>California Wildfire Tracker</div>
-  <div class='subheadline'>The latest wildfires tracked by firefighters and satellites. Select layers below to add live data about air quality, smoke and fire risk forecast. 
-  The biggest fire is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
+  <div class='subheadline'>The latest wildfires tracked by firefighters and satellites. Select layers to add data about air quality, smoke and fire risk forecast. 
+  The largest is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
                             top_calfires[1,1],"</a>, which has burned ",
                             prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres.<div>")
   )
