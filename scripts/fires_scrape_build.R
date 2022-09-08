@@ -285,7 +285,7 @@ tag.map.title <- tags$style(HTML("
   }
   .leaflet-control.map-title .headline{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     padding: 0px 5px;
     background-color: #F98C00;
@@ -293,7 +293,7 @@ tag.map.title <- tags$style(HTML("
         border-radius: 4px;
   }
   .leaflet-control.map-title .subheadline {
-    font-size: 15px;
+    font-size: 14px;
     color: black;
     padding: 5px 30px 5px 10px;
     background: linear-gradient(90deg, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 100%);
@@ -315,7 +315,7 @@ tag.map.title <- tags$style(HTML("
     }
   @media only screen and (max-width: 420px) {
     .leaflet-control.map-title .headline {
-      font-size: 20px;
+      font-size: 18px;
               border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
