@@ -194,7 +194,7 @@ cal_fires$days_burning <- floor(difftime(Sys.Date(),cal_fires$started, units="da
 cal_fires$days_sinceupdate <- floor(difftime(Sys.Date(),cal_fires$updated, units="days"))+1
 # OPEN WORK: Verify and solve the time zones for the math for
 # both the California and federal files' time stamps
-
+cal_fires$name <- trimws(cal_fires$name)
 # filter out small fires and old fires not updated for more than a week
 # except for leaving in very new fires
 cal_fires <- cal_fires %>%
@@ -224,6 +224,9 @@ top_states <- fires %>%
   group_by(state_name) %>%
   summarise(acres=sum(acres_burned),count=n()) %>%
   arrange(desc(acres))
+top_calfires <- fires %>%
+  filter(state=="CA") %>%
+  arrange(desc(acres_burned))
 
 # remove fires without lat longs yet so they can be mapped
 # validation shows these are tiny almost all <1ac and all <10ac
@@ -287,36 +290,43 @@ tag.map.title <- tags$style(HTML("
     padding: 0px 5px;
     background-color: #F98C00;
     background: linear-gradient(90deg, rgba(190,0,0,1) 0%, rgba(249,140,0,1) 43%, rgba(255,186,0,1) 90%, rgba(255,186,0,0) 100%);
+        border-radius: 4px;
   }
   .leaflet-control.map-title .subheadline {
     font-size: 15px;
     color: black;
     padding: 5px 30px 5px 10px;
     background: linear-gradient(90deg, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 100%);
+        border-radius: 4px;
   }
   .leaflet-control.map-title .subheadline a {
     color: #BE0000;
     font-weight: bold;
+            border-radius: 4px;
   }
   @media only screen and (max-width: 550px) {
     .leaflet-control.map-title .headline {
       font-size: 25px;
+              border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
       font-size: 12px;
+              border-radius: 4px;
     }
   @media only screen and (max-width: 420px) {
     .leaflet-control.map-title .headline {
       font-size: 20px;
+              border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
       font-size: 10px;
+              border-radius: 4px;
     }
 "))
 
 headerhtml <- tags$div(
-  tag.map.title, HTML(paste(sep="","
-  <div class='headline'>Wildfire Tracker</div>
+  tag.map.title, HTML(paste(sep="",
+  "<div class='headline'>Wildfire Tracker</div>
   <div class='subheadline'>This tracker shows wildfires and hot spots tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
   The most active state is <a href='https://abcotvdata.github.io/wildfire_tracker/",
                             tolower(top_states[1,1]),
@@ -328,7 +338,14 @@ headerhtml <- tags$div(
 )
 
 caliheaderhtml <- tags$div(
-  tag.map.title, HTML('<div class="headline">California Wildfire Tracker</div><div class="subheadline">Every California wildfire tracked by firefighters, sensors and satellites. Click the layers button below to add or remove live data about air quality, smoke levels and fire danger forecast.<div>')
+  tag.map.title, HTML(paste(sep="",
+  "<div class='headline'>California Wildfire Tracker</div>
+  <div class='subheadline'>Every California wildfire tracked by firefighters, sensors and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
+  The biggest fire today is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
+                            top_calfires[1,1],"</a> in ",
+                            top_calfires[1,3]," County, which has burned ",
+                            prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres so far.<div>")
+  )
 )
 
 # New wildfire map include fires, smoke and hotspots
@@ -423,6 +440,10 @@ california_map <- base_map %>%
   addControl(position = "topleft", html = caliheaderhtml, className="map-title") %>%
   setView(-122.5, 37.5, zoom = 6)
 
+largest_calfire_map <- base_map %>%
+  addControl(position = "topleft", html = caliheaderhtml, className="map-title") %>%
+  setView(top_calfires[1,7], top_calfires[1,6], zoom = 8)
+
 # Create customized versions zoomed to our stations' regions of the state
 bayarea_map <- california_map %>% setView(-122.27, 37.8, zoom = 7)
 fresno_map <- california_map %>% setView(-119.78, 36.74, zoom = 7)
@@ -431,6 +452,8 @@ socal_map <- california_map %>% setView(-118.1, 34.05, zoom = 7)
 ### SECTION 12. Write all leaflet maps to html. ###
 saveWidget(california_map, 'docs/california_map.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
 saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
+saveWidget(base_map, 'docs/base_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
+saveWidget(largest_calfire_map, 'docs/largest_calfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
 
 saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker", selfcontained = TRUE)
 saveWidget(fresno_map, 'docs/fresno_map.html', title = "ABC30 Central Valley Wildfire Tracker", selfcontained = TRUE)
