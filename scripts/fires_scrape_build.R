@@ -340,11 +340,11 @@ headerhtml <- tags$div(
 caliheaderhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
   "<div class='headline'>California Wildfire Tracker</div>
-  <div class='subheadline'>Every California wildfire tracked by firefighters, sensors and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
+  <div class='subheadline'>The latest on wildfires tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
   The biggest fire today is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
                             top_calfires[1,1],"</a> in ",
                             top_calfires[1,3]," County, which has burned ",
-                            prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres so far.<div>")
+                            prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres.<div>")
   )
 )
 
@@ -451,9 +451,9 @@ largest_calfire_map <- base_map %>%
   setView(top_calfires[1,7], top_calfires[1,6], zoom = 11)
 
 # Create customized versions zoomed to our stations' regions of the state
-bayarea_map <- california_map %>% setView(-122.27, 37.8, zoom = 7)
-fresno_map <- california_map %>% setView(-119.78, 36.74, zoom = 7)
-socal_map <- california_map %>% setView(-118.1, 34.05, zoom = 7)
+bayarea_map <- california_map %>% fitBounds(-123,36,-120,41)
+fresno_map <- california_map %>% fitBounds(-123,36,-120,41)
+socal_map <- california_map %>% fitBounds(-123,36,-120,41)
 
 ### SECTION 12. Write all leaflet maps to html. ###
 saveWidget(california_map, 'docs/california_map.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
