@@ -447,7 +447,7 @@ california_map <- base_map %>%
 
 largest_calfire_map <- base_map %>%
   addControl(position = "topleft", html = caliheaderhtml, className="map-title") %>%
-  setView(top_calfires[1,7], top_calfires[1,6], zoom = 11)
+  setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
 
 # Create customized versions zoomed to our stations' regions of the state
 bayarea_map <- california_map %>% fitBounds(-123,36,-120,41)
