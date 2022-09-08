@@ -327,7 +327,7 @@ tag.map.title <- tags$style(HTML("
 headerhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
   "<div class='headline'>Wildfire Tracker</div>
-  <div class='subheadline'>This tracker shows wildfires and hot spots tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
+  <div class='subheadline'>The latest wildfires and hot spots tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke and fire risk forecast. 
   The most active state is <a href='https://abcotvdata.github.io/wildfire_tracker/",
                             tolower(top_states[1,1]),
                             "_map.html'>",
@@ -340,7 +340,7 @@ headerhtml <- tags$div(
 caliheaderhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
   "<div class='headline'>California Wildfire Tracker</div>
-  <div class='subheadline'>The latest on wildfires tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke levels and wildfire danger forecast. 
+  <div class='subheadline'>The latest on wildfires tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke and fire risk forecast. 
   The biggest fire today is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
                             top_calfires[1,1],"</a> in ",
                             top_calfires[1,3]," County, which has burned ",
