@@ -306,12 +306,12 @@ tag.map.title <- tags$style(HTML("
   }
   @media only screen and (max-width: 550px) {
     .leaflet-control.map-title .headline {
-      font-size: 25px;
+      font-size: 22px;
     width: 30%;
               border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
-      font-size: 12px;
+      font-size: 10px;
     width: 30%;
               border-radius: 4px;
     }
@@ -322,7 +322,7 @@ tag.map.title <- tags$style(HTML("
               border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
-      font-size: 10px;
+      font-size: 9px;
     width: 30%;
               border-radius: 4px;
     }
@@ -344,10 +344,9 @@ headerhtml <- tags$div(
 caliheaderhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
   "<div class='headline'>California Wildfire Tracker</div>
-  <div class='subheadline'>The latest on wildfires tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke and fire risk forecast. 
-  The biggest fire today is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
-                            top_calfires[1,1],"</a> in ",
-                            top_calfires[1,3]," County, which has burned ",
+  <div class='subheadline'>The latest wildfires tracked by firefighters and satellites. Select layers below to add live data about air quality, smoke and fire risk forecast. 
+  The biggest fire is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
+                            top_calfires[1,1],"</a>, which has burned ",
                             prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres.<div>")
   )
 )
