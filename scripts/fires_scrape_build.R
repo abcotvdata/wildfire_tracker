@@ -40,8 +40,8 @@ try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?i
 # Separate point file if we ever need again is here: https://opendata.arcgis.com/datasets/51192330d3f14664bd69b6faed0fdf05_0.geojson
 # try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Locations/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
 #                  "data/active_points.geojson"))
-try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
-                 "data/active_perimeters2.geojson"))
+#try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
+#                 "data/active_perimeters2.geojson"))
 try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Perimeters/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
                   "data/active_perimeters.geojson"))
 
@@ -109,6 +109,9 @@ rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
 # Load/read federal fire perimeters and downsize to just what we need for project
 nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
   select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+#nfis_perimeters2 <- st_read("data/active_perimeters2.geojson") %>%
+#  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
+
 
 # Create tighter federal fire points file from current perimeters file
 fed_fires <- nfis_perimeters %>%
