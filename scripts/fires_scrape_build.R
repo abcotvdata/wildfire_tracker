@@ -333,7 +333,7 @@ headerhtml <- tags$div(
                             "_map.html'>",
                             top_states[1,1],"</a>, with ",
                             top_states[1,3]," fires that have burned ",
-                            prettyNum(round(top_states[1,2],0),big.mark=",")," acres so far.<div>")
+                            prettyNum(round(top_states[1,2],0),big.mark=",")," acres.<div>")
   )
 )
 
