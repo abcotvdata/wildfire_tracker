@@ -307,19 +307,23 @@ tag.map.title <- tags$style(HTML("
   @media only screen and (max-width: 550px) {
     .leaflet-control.map-title .headline {
       font-size: 25px;
+    width: 30%;
               border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
       font-size: 12px;
+    width: 30%;
               border-radius: 4px;
     }
   @media only screen and (max-width: 420px) {
     .leaflet-control.map-title .headline {
       font-size: 20px;
+    width: 30%;
               border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
       font-size: 10px;
+    width: 30%;
               border-radius: 4px;
     }
 "))
