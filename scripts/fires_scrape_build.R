@@ -277,7 +277,7 @@ tag.map.title <- tags$style(HTML("
   .leaflet-control.map-title {
     position: fixed !important;
     left: 0.7%;
-    top: 1%;
+    top: 0.7%;
     text-align: left;
     background-color: rgba(255, 255, 255, 0);
     width: 75%;
@@ -306,7 +306,7 @@ tag.map.title <- tags$style(HTML("
   }
   @media only screen and (max-width: 550px) {
     .leaflet-control.map-title .headline {
-      font-size: 22px;
+      font-size: 20px;
       border-radius: 4px;
     }
     .leaflet-control.map-title .subheadline {
