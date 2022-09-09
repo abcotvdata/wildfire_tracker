@@ -293,7 +293,7 @@ tag.map.title <- tags$style(HTML("
     text-align: left;
     background-color: rgba(255, 255, 255, 0);
     width: 90%;
-    border-radius: 4px;
+    border-radius: 4px 4px 4px 4px;
   }
   .leaflet-control.map-title .headline{
     font-weight: bold;
@@ -302,37 +302,37 @@ tag.map.title <- tags$style(HTML("
     padding: 0px 5px;
     background-color: #F98C00;
     background: linear-gradient(90deg, rgba(190,0,0,1) 0%, rgba(249,140,0,1) 43%, rgba(255,186,0,1) 90%, rgba(255,186,0,0) 100%);
-        border-radius: 4px;
+    border-radius: 4px 4px 0px 0px;
   }
   .leaflet-control.map-title .subheadline {
     font-size: 14px;
     color: black;
     padding: 5px 30px 5px 10px;
     background: linear-gradient(90deg, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 100%);
-        border-radius: 4px;
+    border-radius: 0px 0px 4px 4px;
   }
   .leaflet-control.map-title .subheadline a {
     color: #BE0000;
     font-weight: bold;
-            border-radius: 4px;
   }
+  
   @media only screen and (max-width: 550px) {
     .leaflet-control.map-title .headline {
       font-size: 20px;
-      border-radius: 4px;
+    border-radius: 4px 4px 0px 0px;
     }
     .leaflet-control.map-title .subheadline {
       font-size: 10px;
-              border-radius: 4px;
+    border-radius: 0px 0px 4px 4px;
     }
   @media only screen and (max-width: 420px) {
     .leaflet-control.map-title .headline {
       font-size: 18px;
-              border-radius: 4px;
+    border-radius: 4px 4px 0px 0px;
     }
     .leaflet-control.map-title .subheadline {
       font-size: 9px;
-              border-radius: 4px;
+    border-radius: 0px 0px 4px 4px;
     }
 "))
 
