@@ -288,11 +288,11 @@ riskpal <- colorFactor(palette = c("#006400", "green", "yellow","orange","red"),
 
 tag.map.title <- tags$style(HTML("
   .leaflet-control.map-title {
-    left: 0.6%;
-    top: 0.6%;
+    left: 0.5%;
+    top: 0.8%;
     text-align: left;
     background-color: rgba(255, 255, 255, 0);
-    width: 85%;
+    width: 90%;
     border-radius: 4px;
   }
   .leaflet-control.map-title .headline{
