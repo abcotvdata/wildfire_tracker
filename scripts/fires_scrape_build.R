@@ -280,7 +280,7 @@ tag.map.title <- tags$style(HTML("
     top: 1%;
     text-align: left;
     background-color: rgba(255, 255, 255, 0);
-    width: 75%;
+    width: 70%;
     border-radius: 4px;
   }
   .leaflet-control.map-title .headline{
@@ -428,16 +428,16 @@ wildfire_map
 # Create customized versions zoomed to center of states with frequent fires
 # to create a nav ability from the header to zoom to states with most activity
 idaho_map <- wildfire_map %>% setView(-114.4, 45.3, zoom = 6)
-colorado_map <- wildfire_map %>% setView(-105.3, 39, zoom = 6)
-arizona_map <- wildfire_map %>% setView(-111.5, 34.4, zoom = 6)
-nevada_map <- wildfire_map %>% setView(-117.22, 39.87, zoom = 6)
-oregon_map <- wildfire_map %>% setView(-120.5, 44, zoom = 6)
-washington_map <- wildfire_map %>% setView(-120.74, 47.75, zoom = 6)
-montana_map <- wildfire_map %>% setView(-112, 46.96, zoom = 6)
-utah_map <- wildfire_map %>% setView(-111.95, 39.41, zoom = 6)
-newmexico_map <- wildfire_map %>% setView(-106.01, 34.3, zoom = 6)
-texas_map <- wildfire_map %>% setView(-99, 31, zoom = 6)
-wyoming_map <- wildfire_map %>% setView(-107.29, 43.07, zoom = 6)
+#colorado_map <- wildfire_map %>% setView(-105.3, 39, zoom = 6)
+#arizona_map <- wildfire_map %>% setView(-111.5, 34.4, zoom = 6)
+#nevada_map <- wildfire_map %>% setView(-117.22, 39.87, zoom = 6)
+#oregon_map <- wildfire_map %>% setView(-120.5, 44, zoom = 6)
+#washington_map <- wildfire_map %>% setView(-120.74, 47.75, zoom = 6)
+#montana_map <- wildfire_map %>% setView(-112, 46.96, zoom = 6)
+#utah_map <- wildfire_map %>% setView(-111.95, 39.41, zoom = 6)
+#newmexico_map <- wildfire_map %>% setView(-106.01, 34.3, zoom = 6)
+#texas_map <- wildfire_map %>% setView(-99, 31, zoom = 6)
+#wyoming_map <- wildfire_map %>% setView(-107.29, 43.07, zoom = 6)
 
 ### SECTION 11. Script California map variant(s). ###
 
@@ -450,7 +450,7 @@ largest_calfire_map <- base_map %>%
   setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
 
 # Create customized versions zoomed to our stations' regions of the state
-bayarea_map <- california_map %>% fitBounds(-124,36,-121,41)
+bayarea_map <- california_map %>% fitBounds(-122,36,-119,41)
 fresno_map <- california_map %>% fitBounds(-121.1052,36.1837,-118.4987,37.5551)
 socal_map <- california_map %>% fitBounds(-120.8358,32.5566,-114.5195,35.5286)
 
@@ -464,13 +464,13 @@ saveWidget(fresno_map, 'docs/fresno_map.html', title = "ABC30 Central Valley Wil
 saveWidget(socal_map, 'docs/socal_map.html', title = "ABC7 Southern California Wildfire Tracker", selfcontained = TRUE)
 
 saveWidget(idaho_map, 'docs/idaho_map.html', title = "ABC Owned Television Stations and ABC News Idaho Wildfire Tracker", selfcontained = TRUE)
-saveWidget(colorado_map, 'docs/colorado_map.html', title = "ABC Owned Television Stations and ABC News Colorado Wildfire Tracker", selfcontained = TRUE)
-saveWidget(nevada_map, 'docs/nevada_map.html', title = "ABC Owned Television Stations and ABC News Nevada Wildfire Tracker", selfcontained = TRUE)
-saveWidget(arizona_map, 'docs/arizona_map.html', title = "ABC Owned Television Stations and ABC News Arizona Wildfire Tracker", selfcontained = TRUE)
-saveWidget(newmexico_map, 'docs/newmexico_map.html', title = "ABC Owned Television Stations and ABC News New Mexico Wildfire Tracker", selfcontained = TRUE)
-saveWidget(oregon_map, 'docs/oregon_map.html', title = "ABC Owned Television Stations and ABC News Oregon Wildfire Tracker", selfcontained = TRUE)
-saveWidget(washington_map, 'docs/washington_map.html', title = "ABC Owned Television Stations and ABC News Wyoming Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(colorado_map, 'docs/colorado_map.html', title = "ABC Owned Television Stations and ABC News Colorado Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(nevada_map, 'docs/nevada_map.html', title = "ABC Owned Television Stations and ABC News Nevada Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(arizona_map, 'docs/arizona_map.html', title = "ABC Owned Television Stations and ABC News Arizona Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(newmexico_map, 'docs/newmexico_map.html', title = "ABC Owned Television Stations and ABC News New Mexico Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(oregon_map, 'docs/oregon_map.html', title = "ABC Owned Television Stations and ABC News Oregon Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(washington_map, 'docs/washington_map.html', title = "ABC Owned Television Stations and ABC News Wyoming Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(wyoming_map, 'docs/wyoming_map.html', title = "ABC Owned Television Stations and ABC News Wyoming Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(utah_map, 'docs/utah_map.html', title = "ABC Owned Television Stations and ABC News Utah Wildfire Tracker", selfcontained = TRUE)
-saveWidget(montana_map, 'docs/montana_map.html', title = "ABC Owned Television Stations and ABC News Montana Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(montana_map, 'docs/montana_map.html', title = "ABC Owned Television Stations and ABC News Montana Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(texas_map, 'docs/texas_map.html', title = "ABC13 Texas Wildfire Tracker", selfcontained = TRUE)
