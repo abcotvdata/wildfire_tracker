@@ -407,7 +407,7 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
     }") %>%
   htmlwidgets::onRender("
     function() {
-        $('.leaflet-control-layers-overlays').prepend('<b>Select to show or hide:</b>');
+        $('.leaflet-control-layers-overlays').prepend('<b>Select to show<br>or hide:</b>');
     }
 ")
 
