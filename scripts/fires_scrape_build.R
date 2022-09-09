@@ -359,49 +359,49 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
                    weight = 1,
                    stroke = FALSE,
                    fillOpacity = 0.7,
-                   group="Satellite hot spots") %>%
+                   group="Hot spots") %>%
   addPolygons(data = nfis_perimeters, 
               color = "#00318b",
               popup = perimeterLabel,
               weight = 1.5,
-              group="Active wildfires") %>%
+              group="Wildfires") %>%
   addAwesomeMarkers(data = fires,
                     popup = fireLabel,
                     popupOptions = popupOptions(keepInView = T, 
                                                 autoPanPaddingTopLeft=c(100,120)),
                     icon = fireIcons,
-                    group="Active wildfires") %>%
+                    group="Wildfires") %>%
   addPolygons(data = noaa_latest_smoke, 
               color = ~smokepal(Density),
               fillOpacity = 0.6,
               weight = 0,
-              group="Wildfire smoke") %>%
+              group="Fire smoke") %>%
   addPolygons(data = air_quality, 
               color = ~airpal(gridcode),
               weight = 0,
               fillOpacity = 0.6,
-              group = "Air Quality Index") %>%
+              group = "Air quality") %>%
   addCircleMarkers(data = usfs_forecast,
                    radius = 5,
                    color = ~riskpal(fdc_adj),
                    weight = 1,
                    stroke = FALSE,
                    fillOpacity = 0.8,
-                   group="Fire danger forecast") %>%
+                   group="Fire forecast") %>%
   addLegend(values = values(air_quality$gridcode), title = "Air Quality Index<br><a href='https://www.airnow.gov/aqi/aqi-basics/' target='blank'><small>What AQI ratings mean</a>", 
-            group = "Air Quality Index", 
+            group = "Air quality", 
             colors = c("#b1dbad", "#ffffb8", "#ffcc80","#ff8280","#957aa3","#a18f7f","#dde4f0"),
             labels=c("Good", "Moderate", "Unhealthy/Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous","No AQ Data"),
             position = 'bottomright') %>%
   addLegend(values = values(usfs_forecast$fdc_adj), title = "Wildland Fire Danger Rating<br><a href='https://www.wfas.net/index.php/fire-danger-rating-fire-potential--danger-32/class-rating-fire-potential-danger-51?task=view' target='blank'><small>More detailed on these risk ratings</a>", 
-            group = "Fire danger forecast", 
+            group = "Fire forecast", 
             colors = c("#006400", "green", "yellow","orange","red"),
             labels=c("Low", "Moderate", "High", "Very High", "Extreme"),
             position = 'bottomright') %>%
   addLayersControl(
-    overlayGroups = c("Active wildfires","Satellite hot spots","Wildfire smoke","Air Quality Index","Fire danger forecast"),
+    overlayGroups = c("Wildfires","Hot spots","Fire smoke","Air quality","Fire forecast"),
     options = layersControlOptions(collapsed = FALSE),
-    position = 'bottomleft') %>% hideGroup(c("Wildfire smoke","Air Quality Index","Fire danger forecast")) %>% 
+    position = 'bottomleft') %>% hideGroup(c("Fire smoke","Air quality","Fire forecast")) %>% 
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topright'}).addTo(this)
     }") %>%
