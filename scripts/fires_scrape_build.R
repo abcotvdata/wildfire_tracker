@@ -272,7 +272,7 @@ aq_button <- "glyphicon-scale"
 aq_buttontitle <- "Air Quality Index"
 smoke_button <- "fa-cloud"
 smoke_buttontitle <- "Wildfire smoke levels"
-forecast_button <- "glyphicon-fire"
+forecast_button <- "glyphicon-flag"
 forecast_buttontitle <- "Fire Danger Forecast"
 
 ### SECTION 8. Script color palettes for maps. ###
