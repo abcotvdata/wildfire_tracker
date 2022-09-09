@@ -233,13 +233,14 @@ top_calfires <- fires %>%
 fires <- fires %>% filter(!is.na(latitude) & !is.na(longitude))
 # Create flag for active vs. not for map icons
 fires$active <- if_else(fires$days_sinceupdate<4,"Yes","No")
+fires_count <- count(fires)
 
 # transform to properly projected spatial points data
 fires <- st_as_sf(fires, coords = c("longitude", "latitude"), 
                   crs = 4326)
 
 
-### SECTION 7. Script popup and icons for fire layer(s). ###
+### SECTION 7. Script popups, buttons and icons ###
 
 fireLabel <- paste(sep = "",
                    paste("<font size='3'><b>",fires$name,"</font size></b><hr style='margin-top:0px; margin-bottom:0px;'><font size='2'>",fires$county," County<b>,",fires$state_name,"</b>"),
@@ -262,6 +263,18 @@ fireIcons <- awesomeIcons(
   markerColor = "orange")
 # options include ion-flame, ion-fireball, fa-fire
 
+# Set values for EasyButtonBar controls here
+fire_button <- "glyphicon-fire"
+fire_buttontitle <- "Active wildfires"
+hotspot_button <- "glyphicon-certificate"
+hotspot_buttontitle <- "Satellite-detected hot spots"
+aq_button <- "glyphicon-scale"
+aq_buttontitle <- "Air Quality Index"
+smoke_button <- "fa-cloud"
+smoke_buttontitle <- "Wildfire smoke levels"
+forecast_button <- "glyphicon-fire"
+forecast_buttontitle <- "Fire Danger Forecast"
+
 ### SECTION 8. Script color palettes for maps. ###
 
 # Create color palette for air quality
@@ -275,12 +288,11 @@ riskpal <- colorFactor(palette = c("#006400", "green", "yellow","orange","red"),
 
 tag.map.title <- tags$style(HTML("
   .leaflet-control.map-title {
-    position: fixed !important;
-    left: 0.7%;
-    top: 0.7%;
+    left: 0.6%;
+    top: 0.6%;
     text-align: left;
     background-color: rgba(255, 255, 255, 0);
-    width: 75%;
+    width: 85%;
     border-radius: 4px;
   }
   .leaflet-control.map-title .headline{
@@ -327,13 +339,14 @@ tag.map.title <- tags$style(HTML("
 headerhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
   "<div class='headline'>Wildfire Tracker</div>
-  <div class='subheadline'>The latest wildfires and hot spots tracked by firefighters and satellites. Select layers below to add or remove live data about air quality, smoke and fire risk forecast. 
+  <div class='subheadline'>ABC News is tracking data about ",fires_count," wildfires nationwide. 
   The most active state is <a href='https://abcotvdata.github.io/wildfire_tracker/",
                             tolower(top_states[1,1]),
                             "_map.html'>",
                             top_states[1,1],"</a>, with ",
                             top_states[1,3]," fires that have burned ",
-                            prettyNum(round(top_states[1,2],0),big.mark=",")," acres.<div>")
+                            prettyNum(round(top_states[1,2],0),big.mark=",")," acres.
+  The buttons below add or remove more data about air quality, smoke and fire risk forecast. <div>")
   )
 )
 
@@ -344,11 +357,11 @@ caliheaderhtml <- tags$div(
                             The largest is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
                             top_calfires[1,1],"</a>, burning ",
                             prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres. 
-                            Click the boxes below to add data about air quality, smoke and the fire risk forecast.<div>")
+                            The buttons below add or remove data about air quality, smoke and the fire risk forecast.<div>")
   )
 )
 
-# New wildfire map include fires, smoke and hotspots
+# New wildfire base map include fires, smoke and hotspots
 base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
   setView(-116, 43.5, zoom = 5) %>% 
   addProviderTiles(providers$Esri.WorldTerrain) %>%
@@ -401,30 +414,65 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
   addLayersControl(
     overlayGroups = c("Wildfires","Hot spots","Fire smoke","Air quality","Fire forecast"),
     options = layersControlOptions(collapsed = FALSE),
-    position = 'bottomleft') %>% hideGroup(c("Fire smoke","Air quality","Fire forecast")) %>% 
-  htmlwidgets::onRender("function(el, x) {
-        L.control.zoom({ position: 'topright'}).addTo(this)
-    }") %>%
-  htmlwidgets::onRender("
-    function() {
-        $('.leaflet-control-layers-overlays').prepend('<b>Select to show<br>or hide:</b>');
-    }
-")
+    position = 'bottomleft') %>% hideGroup(c("Fire smoke","Air quality","Fire forecast"))
+# base_map
 
-base_map
+### SECTION 10. Script national map + variant(s). ###
 
-### SECTION 10. Script national map variant(s). ###
-
-# New wildfire map include fires, smoke and hotspots
-# Adding the customized national map header
+# National wildfire map include fires, smoke and hotspots
+# Adding the customized national bounding box, map header and EasyButtonsBar in order
+# Which must be added separately 
 fed_fires2 <- fed_fires %>% filter(state!="AK")
 wildfire_map <- base_map %>% 
   addControl(position = "topleft", html = headerhtml, className="map-title") %>%
   fitBounds(lng1 = min(fed_fires2$longitude,na.rm = TRUE) - 12, 
             lat1 = min(fed_fires2$latitude,na.rm = TRUE), 
             lng2 = max(fed_fires2$longitude,na.rm = TRUE) - 5, 
-            lat2 = max(fed_fires2$latitude,na.rm = TRUE) + 2)
-wildfire_map
+            lat2 = max(fed_fires2$latitude,na.rm = TRUE) + 2) %>% 
+  addEasyButtonBar(easyButton(icon = fire_button, title = fire_buttontitle,
+                              onClick = JS("function(btn, map) {
+                     
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[0].click();
+
+                }")), 
+                   easyButton(icon = hotspot_button, title = hotspot_buttontitle,
+                              onClick = JS("function(btn, map) {
+
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[1].click();
+
+                }")),
+                   
+                   easyButton(icon = smoke_button, title = smoke_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[2].click();
+                              }")),
+                   
+                   easyButton(icon = aq_button, title = aq_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[3].click();
+                              }")),
+                   
+                   easyButton(icon = forecast_button, title = forecast_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[4].click();
+
+                }"))) %>% 
+  htmlwidgets::onRender("function(el, x) {
+        L.control.zoom({ position: 'topleft'}).addTo(this)
+    }") %>%
+  htmlwidgets::onRender("
+    function(el, x) {
+        document.getElementsByClassName('leaflet-control-layers')[0].style.display = 'none';
+    }")
+#wildfire_map
 
 # Create customized versions zoomed to center of states with frequent fires
 # to create a nav ability from the header to zoom to states with most activity
@@ -440,18 +488,60 @@ idaho_map <- wildfire_map %>% setView(-114.4, 45.3, zoom = 6)
 #texas_map <- wildfire_map %>% setView(-99, 31, zoom = 6)
 #wyoming_map <- wildfire_map %>% setView(-107.29, 43.07, zoom = 6)
 
-### SECTION 11. Script California map variant(s). ###
+### SECTION 11. Script California map + variant(s). ###
 
 california_map <- base_map %>%
   addControl(position = "topleft", html = caliheaderhtml, className="map-title") %>%
-  setView(-122.5, 37.5, zoom = 6)
+  setView(-122.5, 37.5, zoom = 6) %>%
+  addEasyButtonBar(easyButton(icon = fire_button, title = fire_buttontitle,
+                              onClick = JS("function(btn, map) {
+                     
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[0].click();
 
-largest_calfire_map <- base_map %>%
-  addControl(position = "topleft", html = caliheaderhtml, className="map-title") %>%
+                }")), 
+                   easyButton(icon = hotspot_button, title = hotspot_buttontitle,
+                              onClick = JS("function(btn, map) {
+
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[1].click();
+
+                }")),
+                   
+                   easyButton(icon = smoke_button, title = smoke_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[2].click();
+                              }")),
+                   
+                   easyButton(icon = aq_button, title = aq_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[3].click();
+                              }")),
+                   
+                   easyButton(icon = forecast_button, title = forecast_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[4].click();
+
+                }"))) %>% 
+  htmlwidgets::onRender("function(el, x) {
+        L.control.zoom({ position: 'topleft'}).addTo(this)
+    }") %>%
+  htmlwidgets::onRender("
+    function(el, x) {
+        document.getElementsByClassName('leaflet-control-layers')[0].style.display = 'none';
+    }")
+
+largest_calfire_map <- california_map %>%
   setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
 
 # Create customized versions zoomed to our stations' regions of the state
-bayarea_map <- california_map %>% fitBounds(-123.5,35,-120.5,40)
+bayarea_map <- california_map %>% fitBounds(-123.5,36,-120.5,41)
 fresno_map <- california_map %>% fitBounds(-121.1052,36.1837,-118.4987,37.5551)
 socal_map <- california_map %>% fitBounds(-120.8358,32.5566,-114.5195,35.5286)
 
