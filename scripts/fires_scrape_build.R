@@ -346,7 +346,7 @@ headerhtml <- tags$div(
                             top_states[1,1],"</a>, with ",
                             top_states[1,3]," fires that have burned ",
                             prettyNum(round(top_states[1,2],0),big.mark=",")," acres.
-  The buttons below add or remove more data about air quality, smoke and fire risk forecast. <div>")
+  Click on a fire for live status details. The buttons below add or remove more data about air quality, smoke and fire risk forecast. <div>")
   )
 )
 
@@ -357,7 +357,7 @@ caliheaderhtml <- tags$div(
                             The largest is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
                             top_calfires[1,1],"</a>, burning ",
                             prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres. 
-                            The buttons below add or remove data about air quality, smoke and the fire risk forecast.<div>")
+                            Click on a fire for live status details. The buttons below add or remove data about air quality, smoke and the fire risk forecast.<div>")
   )
 )
 
