@@ -1,6 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Boulder Mountain Fire,WA,Pend Oreille,"Boulder Mountain, 9 miles northwest of Cusick.",WF,48.44631,-117.522,2022-09-01T00:58:00Z,2022-09-18T12:31:48Z,2305,74,2022-WANES-001858,Minimal,Natural,NFIS,17,0.5,NA,Washington
-Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-09-18T14:44:52Z,1118,0,2022-MTKNF-000235,NA,Natural,NFIS,17,0.4,NA,Montana
+Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-09-18T14:44:52Z,1125,6,2022-MTKNF-000235,NA,Natural,NFIS,17,0.4,NA,Montana
 Mill Fire,CA,Siskiyou,Weed and Lake Shastina,WF,41.43225,-122.384117,2022-09-02T19:49:04Z,2022-09-11T04:34:05Z,3935,95,2022-CASKU-007568,Minimal,Undetermined,NFIS,16,7.8,NA,California
 Mountain Fire,CA,Siskiyou,"Gazelle-Callahan RD., 9 miles S/W of the community of Gazelle.",WF,41.429267,-122.637483,2022-09-02T22:48:10Z,2022-09-16T00:50:33Z,13440,90,2022-CASKU-007586,Minimal,Undetermined,NFIS,16,3,NA,California
 Fairview Fire,CA,Riverside,Unincorporated area of Hemet/Sage,WF,33.716765,-116.89326199999999,2022-09-05T22:40:40Z,2022-09-13T04:26:55Z,28307,98,2022-CARRU-129712,Minimal,Undetermined,NFIS,13,5.8,NA,California
@@ -24,7 +24,7 @@ Lower Twin Fire,ID,Clearwater,2.5 miles from Canyon Work Center to the Southwest
 Van Camp Fire,ID,Idaho,"Approx. 30 mi N of Syringa, ID - 50 mi E of Kamiah, ID",WF,46.270804,-115.484841,2022-08-12T12:50:00Z,2022-09-16T23:10:02Z,1786,0,2022-IDNCF-000493,Minimal,Natural,NFIS,37,2,NA,Idaho
 Glover Fire,ID,Idaho,5 miles east of Coolwater Lookout,WF,46.11427,-115.3628,2022-08-12T23:15:00Z,2022-09-18T15:47:45Z,319,0,2022-IDNCF-000523,Minimal,Natural,NFIS,37,0.3,NA,Idaho
 Little Copper Fire,ID,Idaho,6 miles south east of Indian Hill Lookout,WF,45.97025,-115.1516,2022-08-13T01:47:00Z,2022-09-11T22:52:53Z,747,0,2022-IDNCF-000532,Minimal,Natural,NFIS,36,7,NA,Idaho
-Howard Creek Fire,ID,Idaho,37 miles NE of Lowell ID,WF,46.5366,-115.0617,2022-08-17T21:43:11Z,2022-09-18T01:01:07Z,73,0,2022-IDNCF-000613,Moderate,Natural,NFIS,32,0.9,NA,Idaho
+Howard Creek Fire,ID,Idaho,37 miles NE of Lowell ID,WF,46.5366,-115.0617,2022-08-17T21:43:11Z,2022-09-18T01:01:07Z,73,0,2022-IDNCF-000613,Moderate,Natural,NFIS,32,1,NA,Idaho
 Wash Fire,ID,Clearwater,"2.9 miles north of Canyon Work Center, 1.6 miles west of Black Mtn",WF,46.87775,-115.5858,2022-08-20T17:11:00Z,2022-09-16T16:42:31Z,308,0,2022-IDNCF-000636,Moderate,Natural,NFIS,29,2.3,NA,Idaho
 Rhoda Fire,ID,Idaho,6 Miles south of Fish Lake landing strip,WF,46.2503,-115.0802,2022-08-20T17:25:33Z,2022-09-18T02:14:52Z,0.1,0,2022-IDNCF-000637,Minimal,Natural,NFIS,29,0.9,NA,Idaho
 Post Office Fire,ID,Idaho,12 miles west of Powell Ranger Station,WF,46.55112,-114.9569,2022-08-21T21:30:00Z,2022-09-18T01:25:51Z,2260,0,2022-IDNCF-000659,Moderate,Natural,NFIS,28,0.9,NA,Idaho
@@ -37,7 +37,7 @@ Ranger Fire,ID,Idaho,13 miles east of Powell RS,WF,46.53662,-114.4117,2022-08-31
 Warm Springs Fire,ID,Idaho,11 miles SSE of Powell Ranger Station,WF,46.36121,-114.8159,2022-08-31T17:52:00Z,2022-09-18T00:14:40Z,4638,1,2022-IDNCF-000787,Moderate,Natural,NFIS,18,1,NA,Idaho
 Huckelberry Fire,ID,Idaho,"36 mi NE of Lowell, ID",WF,46.28571,-115.2783,2022-09-04T20:02:41Z,2022-09-18T15:09:12Z,20,0,2022-IDNCF-000827,Minimal,Natural,NFIS,14,0.4,NA,Idaho
 Gold Meadows Fire,ID,Idaho,NA,WF,46.38096,-115.1502,2022-09-08T20:14:17Z,2022-09-16T22:28:54Z,20,NA,2022-IDNCF-000852,NA,Natural,NFIS,10,2.1,NA,Idaho
-Dismal Fire,ID,Idaho,"43 NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.9493,2022-07-23T18:15:00Z,2022-09-14T15:34:26Z,9501,66,2022-IDPAF-005292,Active,Natural,NFIS,57,4.3,NA,Idaho
+Dismal Fire,ID,Idaho,"43 NM northeast of Yellow Pine, Idaho",WF,45.32256,-114.9493,2022-07-23T18:15:00Z,2022-09-14T15:34:26Z,9501,66,2022-IDPAF-005292,Active,Natural,NFIS,57,4.4,NA,Idaho
 Four Corners Fire,ID,Adams,"6 Miles west of the City of Cascade, ID",WF,44.53882,-116.17,2022-08-13T15:55:00Z,2022-09-15T13:30:39Z,13727,96,2022-IDPAF-005394,Minimal,Natural,NFIS,36,3.4,NA,Idaho
 Patrol Point Fire,ID,Idaho,"43NM northeast of Yellow Pine, ID",WF,45.42633,-114.9376,2022-08-20T18:06:00Z,2022-09-16T01:39:12Z,16561,66,2022-IDPAF-005433,Active,Natural,NFIS,29,2.9,NA,Idaho
 Tenmile Fire,ID,Idaho,"9 miles west of Warren, Idaho",WF,45.32524,-115.8939,2022-09-07T17:28:00Z,2022-09-17T10:06:27Z,2003,0,2022-IDPAF-005567,Minimal,Natural,NFIS,11,1.6,NA,Idaho
@@ -67,11 +67,11 @@ Margaret Fire,MT,Flathead,"13 miles east of Bigfork, MT. West side of Hungry Hor
 Ursus Fire,MT,Lewis and Clark,"26 miles NE of Ovando, MT",WF,47.37725,-113.0244,2022-08-25T14:57:00Z,2022-09-15T21:24:09Z,4224,0,2022-MTFNF-000592,Minimal,Natural,NFIS,24,3.1,NA,Montana
 Lemonade Fire,MT,Flathead,Approximately 21 miles west of Kalispell MT near the community of Marion,WF,48.22501,-114.7933,2022-09-01T16:16:00Z,2022-09-15T15:21:48Z,668,90,2022-MTFNF-000651,Minimal,Natural,NFIS,17,3.4,NA,Montana
 George Lake Fire,MT,Missoula,"15 NE of Seeley Lake, MT",WF,47.37667,-113.4774,2022-09-06T18:11:00Z,2022-09-15T21:52:24Z,682,0,2022-MTFNF-000688,Minimal,Natural,NFIS,12,3.1,NA,Montana
-Government Fire,MT,Sanders,NA,WF,48.0394,-115.7753,2022-09-01T06:09:00Z,2022-09-18T14:44:52Z,2376,0,2022-MTKNF-000240,NA,Natural,NFIS,17,0.4,NA,Montana
-Isabella Lake Fire,MT,Sanders,NA,WF,48.08196,-115.667,2022-09-01T16:06:30Z,2022-09-18T14:44:52Z,280,0,2022-MTKNF-000248,NA,Natural,NFIS,17,0.4,NA,Montana
+Government Fire,MT,Sanders,NA,WF,48.0394,-115.7753,2022-09-01T06:09:00Z,2022-09-18T14:44:52Z,2413,0,2022-MTKNF-000240,NA,Natural,NFIS,17,0.4,NA,Montana
+Isabella Lake Fire,MT,Sanders,NA,WF,48.08196,-115.667,2022-09-01T16:06:30Z,2022-09-18T14:44:52Z,285,0,2022-MTKNF-000248,NA,Natural,NFIS,17,0.4,NA,Montana
 Solomon Fire,MT,Granite,"Welcome Creek Wilderness, Rock Creek, Missoula Ranger District",WF,46.72524,-113.6837,2022-08-25T02:55:00Z,2022-09-12T22:24:16Z,434,37,2022-MTLNF-201110,Minimal,Natural,NFIS,24,6.1,NA,Montana
-Boulder Lake Fire,MT,Missoula,"15 miles Northeast of Missoula, MT",WF,47.08154,-113.7971,2022-09-04T02:50:00Z,2022-09-12T22:46:51Z,1831,13,2022-MTLNF-201228,Moderate,Natural,NFIS,14,6,NA,Montana
-Rum Creek Fire,OR,Josephine,"Rand, Or",WF,42.6356,-123.5857,2022-08-17T19:00:00Z,2022-09-17T05:47:49Z,21347,83,2022-ORMED-000243,Minimal,Natural,NFIS,32,1.7,NA,Oregon
+Boulder Lake Fire,MT,Missoula,"15 miles Northeast of Missoula, MT",WF,47.08154,-113.7971,2022-09-04T02:50:00Z,2022-09-12T22:46:51Z,1831,13,2022-MTLNF-201228,Moderate,Natural,NFIS,14,6.1,NA,Montana
+Rum Creek Fire,OR,Josephine,"Rand, Or",WF,42.6356,-123.5857,2022-08-17T19:00:00Z,2022-09-17T05:47:49Z,21347,83,2022-ORMED-000243,Minimal,Natural,NFIS,32,1.8,NA,Oregon
 Van Meter Fire,OR,Klamath,"13 miles Southeast of Klamath Falls, Oregon",WF,42.07497,-121.6101,2022-09-07T19:24:00Z,2022-09-14T02:58:30Z,2639,99,2022-ORLAD-220351,Minimal,Undetermined,NFIS,11,4.9,NA,Oregon
 Crockets Knob Fire,OR,Grant,"19 miles north of Prairie City, Oregon",WF,44.66,-118.633333,2022-08-22T10:52:00Z,2022-09-13T23:50:50Z,4331,85,2022-ORMAF-022199,Minimal,Natural,NFIS,27,5,NA,Oregon
 Cougar Gulch Fire,OR,Grant,NA,WF,44.22587,-119.472,2022-09-15T14:51:25Z,2022-09-15T21:16:58Z,131.91,NA,2022-ORMAF-022270,NA,Natural,NFIS,3,3.1,NA,Oregon
@@ -89,7 +89,7 @@ Kalama Fire,WA,Cowlitz,East of Kalama Horse Camp,WF,46.13498,-122.3171,2022-09-0
 Boulder Lake Fire,WA,Skagit,"Darrington Ranger District, Tenas River Drainage",WF,48.19115,-121.6294,2022-08-25T00:20:00Z,2022-09-14T04:53:45Z,655,0,2022-WAMSF-000304,Moderate,Natural,NFIS,24,4.8,NA,Washington
 Lake Toketie Fire,WA,Skagit,"Darrington Ranger District, Glacier Peak Wilderness",WF,48.33044,-121.295,2022-08-25T21:24:00Z,2022-09-14T04:53:45Z,465,0,2022-WAMSF-000312,Moderate,Natural,NFIS,24,4.8,NA,Washington
 Loch Katrine Fire,WA,King,Sunday Lake Trail Near Lock Katrine off the North Fork Road. Snoqualmie RD.,WF,47.63933,-121.6054,2022-09-02T20:08:00Z,2022-09-16T19:17:43Z,1,0,2022-WAMSF-000348,Minimal,Undetermined,NFIS,16,2.2,NA,Washington
-Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-09-18T13:12:56Z,10220,71,2022-WANWS-000150,Minimal,Human,NFIS,8,0.4,NA,Washington
+Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-09-18T13:12:56Z,10220,71,2022-WANWS-000150,Minimal,Human,NFIS,8,0.5,NA,Washington
 Brush Creek 2 Fire,WA,Whatcom,Brush Creek Drainage off the Little Chilliwack River,WF,48.88115,-121.407,2022-08-25T00:11:00Z,2022-09-18T21:01:31Z,4306,0,2022-WANCP-000303,Minimal,Natural,NFIS,24,0.1,NA,Washington
 Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-09-18T21:01:31Z,1218,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,23,0.1,NA,Washington
 Little Chill Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.97352,-121.5108,2022-08-30T01:42:00Z,2022-09-18T21:01:31Z,1739,0,2022-WANCP-000329,Minimal,Undetermined,NFIS,19,0.1,NA,Washington
@@ -99,9 +99,8 @@ Parks Fire,WA,Okanogan,3 miles East of Mount Winthrop,WF,48.97687,-120.7031,2022
 Shull Creek Fire,WA,Whatcom,Central Washington Interagency Communication Center,WF,48.84916,-120.8318,2022-08-23T15:37:00Z,2022-09-18T01:32:48Z,426,0,2022-WAOWF-000389,Moderate,Undetermined,NFIS,26,0.9,NA,Washington
 Three Fools Fire,WA,Whatcom,Central Washington Interagency CC,WF,48.89346,-120.8556,2022-08-25T00:34:00Z,2022-09-18T18:50:25Z,1112,0,2022-WAOWF-000398,Moderate,Undetermined,NFIS,24,0.2,NA,Washington
 Skagit Fire,WA,Whatcom,Further reporting will occur on NW Pasayten 209 WA-OWF-000469.,WF,48.9248,-120.9476,2022-08-25T01:08:00Z,2022-09-18T01:32:48Z,445,0,2022-WAOWF-000399,Moderate,Undetermined,NFIS,24,0.9,NA,Washington
-Kid Fire,WA,Okanogan,Central Washington Interagency CC,WF,48.89005,-120.6949,2022-08-30T23:58:00Z,2022-09-18T01:32:48Z,3797,0,2022-WAOWF-000431,Moderate,Undetermined,NFIS,18,0.9,NA,Washington
+Kid Fire,WA,Okanogan,Central Washington Interagency CC,WF,48.89005,-120.6949,2022-08-30T23:58:00Z,2022-09-18T01:32:48Z,3797,0,2022-WAOWF-000431,Moderate,Undetermined,NFIS,19,0.9,NA,Washington
 Minnow Ridge Fire,WA,Chelan,10 miles northeast of Lake Wenatchee,WF,47.96355,-120.6849,2022-09-09T21:59:00Z,2022-09-18T15:14:47Z,620,0,2022-WAOWF-000479,Moderate,Undetermined,NFIS,9,0.4,NA,Washington
 Washakie Park Fire,WY,Fremont,"10 miles west of Fort Washakie, Wyoming",WF,42.99098,-109.1566,2022-09-06T21:12:00Z,2022-09-14T03:19:28Z,2464,75,2022-WYWRA-000353,Minimal,Undetermined,NFIS,12,4.9,NA,Wyoming
-Eliza Fire,CA,Siskiyou,Hawkinsville Humbug Rd and Humbug Creek Rd west of Yreka,Wildfire,41.793769,-122.692408,2022-09-08T19:57:47Z,2022-09-16T09:28:46Z,NA,NA,NA,NA,NA,Cal Fire,10,2,https://www.fire.ca.gov/incidents/2022/9/8/eliza-fire/,California
-Dutch Fire,CA,Placer,"I-80 & Ridge Rd, Dutch Flat",Wildfire,39.1902,-120.8266,2022-09-13T12:51:00Z,2022-09-18T07:42:52Z,48,85,NA,NA,NA,Cal Fire,5,0,https://www.fire.ca.gov/incidents/2022/9/13/dutch-fire/,California
-Garden Fire,CA,Placer,"Garden Bar Road and Big Hill Road, Northwest of Auburn",Wildfire,39.9929,-121.2122,2022-09-17T14:58:32Z,2022-09-18T07:42:25Z,29,75,NA,NA,NA,Cal Fire,1,0,https://www.fire.ca.gov/incidents/2022/9/17/garden-fire/,California
+Dutch Fire,CA,Placer,"I-80 & Ridge Rd, Dutch Flat",Wildfire,39.1902,-120.8266,2022-09-13T12:51:00Z,2022-09-18T07:42:52Z,48,85,NA,NA,NA,Cal Fire,6,1,https://www.fire.ca.gov/incidents/2022/9/13/dutch-fire/,California
+Garden Fire,CA,Placer,"Garden Bar Road and Big Hill Road, Northwest of Auburn",Wildfire,39.9929,-121.2122,2022-09-17T14:58:32Z,2022-09-18T07:42:25Z,29,75,NA,NA,NA,Cal Fire,2,1,https://www.fire.ca.gov/incidents/2022/9/17/garden-fire/,California
