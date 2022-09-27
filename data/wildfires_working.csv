@@ -1,37 +1,37 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Wash Fire,ID,Clearwater,"2.9 miles north of Canyon Work Center, 1.6 miles west of Black Mtn",WF,46.87775,-115.5858,2022-08-20T17:11:00Z,2022-09-20T22:46:04Z,444,0,2022-IDNCF-000636,Minimal,Natural,NFIS,37,6.7,NA,Idaho
 Blodgett Lake Fire,MT,Ravalli,11 Miles west of Hamilton MT,WF,46.26797,-114.4279,2022-08-25T17:06:00Z,2022-09-21T10:39:16Z,2307,51,2022-MTBRF-022252,Minimal,Natural,NFIS,32,6.2,NA,Montana
-Volkmar River Fire,AK,Southeast Fairbanks,NA,WF,64.277221,-144.400153,2022-07-03T17:47:40Z,2022-09-22T18:05:06Z,7644.3,NA,2022-AKDAS-212433,Moderate,Natural,NFIS,85,4.8,NA,Alaska
+Volkmar River Fire,AK,Southeast Fairbanks,NA,WF,64.277221,-144.400153,2022-07-03T17:47:40Z,2022-09-22T18:05:06Z,7644.3,NA,2022-AKDAS-212433,Moderate,Natural,NFIS,85,4.9,NA,Alaska
 Cherokee Trail Fire,WY,Converse,NA,WF,42.78751,-105.5452,2022-09-23T18:34:00Z,2022-09-26T14:27:09Z,16.1,NA,2022-WYCOX-220482,NA,Undetermined,NFIS,3,1,NA,Wyoming
-Shiilik Fire,AK,Yukon-Koyukuk,"28 miles northeast of Christian, AK",WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022-09-19T23:04:03Z,1125.2,0,2022-AKUYD-000611,Minimal,Natural,NFIS,59,7.6,NA,Alaska
-Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-09-19T22:56:30Z,1218,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,32,7.6,NA,Washington
+Shiilik Fire,AK,Yukon-Koyukuk,"28 miles northeast of Christian, AK",WF,67.44841,-143.9463,2022-07-29T19:04:00Z,2022-09-19T23:04:03Z,1125.2,0,2022-AKUYD-000611,Minimal,Natural,NFIS,59,7.7,NA,Alaska
+Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-09-19T22:56:30Z,1218,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,32,7.7,NA,Washington
 Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-09-27T12:55:09Z,20192,72,2022-ORWWF-000334,Minimal,Natural,NFIS,35,0.1,NA,Oregon
 Warm Springs Fire,ID,Idaho,11 miles SSE of Powell Ranger Station,WF,46.36121,-114.8159,2022-08-31T17:52:00Z,2022-09-20T21:15:45Z,5232,1,2022-IDNCF-000787,Moderate,Natural,NFIS,26,6.7,NA,Idaho
-Red Fire,CA,Mariposa,SOUTHERN SECTION OF YOSEMITE NP NEAR GREY PEAK,WF,37.66138,-119.4713,2022-08-04T15:52:00Z,2022-09-26T15:52:05Z,8364,100,2022-CAYNP-000056,Minimal,Undetermined,NFIS,53,0.9,NA,California
+Red Fire,CA,Mariposa,SOUTHERN SECTION OF YOSEMITE NP NEAR GREY PEAK,WF,37.66138,-119.4713,2022-08-04T15:52:00Z,2022-09-26T15:52:05Z,8364,100,2022-CAYNP-000056,Minimal,Undetermined,NFIS,53,1,NA,California
 Wallow Fire,ID,Clearwater,8.5 miles from Canyon Work Center,WF,46.92786,-115.4172,2022-08-13T21:42:00Z,2022-09-20T21:58:03Z,481,0,2022-IDNCF-000554,Minimal,Natural,NFIS,44,6.7,NA,Idaho
-Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-09-26T20:07:57Z,114422,20,2022-ORWIF-220180,Minimal,Natural,NFIS,56,0.8,NA,Oregon
+Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-09-27T14:24:33Z,114422,20,2022-ORWIF-220180,Minimal,Natural,NFIS,56,0,NA,Oregon
 Howard Creek Fire,ID,Idaho,37 miles NE of Lowell ID,WF,46.5366,-115.0617,2022-08-17T21:43:11Z,2022-09-21T02:02:13Z,339,0,2022-IDNCF-000613,Active,Natural,NFIS,40,6.5,NA,Idaho
-Four Corners Fire,ID,Adams,"6 Miles west of the City of Cascade, ID",WF,44.53882,-116.17,2022-08-13T15:55:00Z,2022-09-27T11:10:01Z,13729,96,2022-IDPAF-005394,Minimal,Natural,NFIS,44,0.1,NA,Idaho
-Margaret Fire,MT,Flathead,"13 miles east of Bigfork, MT. West side of Hungry Horse Reservoir.",WF,48.07951,-113.8634,2022-08-22T21:07:00Z,2022-09-21T15:57:12Z,1554,0,2022-MTFNF-000567,Minimal,Natural,NFIS,35,5.9,NA,Montana
+Four Corners Fire,ID,Adams,"6 Miles west of the City of Cascade, ID",WF,44.53882,-116.17,2022-08-13T15:55:00Z,2022-09-27T11:10:01Z,13729,96,2022-IDPAF-005394,Minimal,Natural,NFIS,44,0.2,NA,Idaho
+Margaret Fire,MT,Flathead,"13 miles east of Bigfork, MT. West side of Hungry Horse Reservoir.",WF,48.07951,-113.8634,2022-08-22T21:07:00Z,2022-09-21T15:57:12Z,1554,0,2022-MTFNF-000567,Minimal,Natural,NFIS,35,6,NA,Montana
 Mill Lake Fire,MT,Ravalli,6.5 miles west of Pinesdale MT,WF,46.31173,-114.4113,2022-08-29T20:22:00Z,2022-09-21T10:39:16Z,915,63,2022-MTBRF-022265,Minimal,Undetermined,NFIS,28,6.2,NA,Montana
 Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-09-26T12:09:25Z,1202,45,2022-MTKNF-000235,NA,Natural,NFIS,26,1.1,NA,Montana
-Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-09-27T13:27:27Z,536,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,34,0,NA,Oregon
+Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-09-27T13:27:27Z,536,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,34,0.1,NA,Oregon
 Trail Ridge Fire,MT,Beaverhead,"22 mi NW of Wisdom, MT",WF,45.78101,-113.8687,2022-08-26T19:11:00Z,2022-09-27T04:12:34Z,17157,65,2022-MTBDF-006286,Minimal,Natural,NFIS,31,0.4,NA,Montana
 Mosquito Fire,CA,Placer,Oxbow Reservoir.  4 miles east of Foresthill.,WF,39.001220000000004,-120.7246,2022-09-07T01:27:00Z,2022-09-27T12:45:32Z,76775,85,2022-CATNF-001371,Minimal,Undetermined,NFIS,20,0.1,NA,California
-Boulder Mountain Fire,WA,Pend Oreille,"Boulder Mountain, 9 miles northwest of Cusick.",WF,48.44631,-117.522,2022-09-01T00:58:00Z,2022-09-23T01:29:56Z,2310,99,2022-WANES-001858,Minimal,Natural,NFIS,26,4.5,NA,Washington
+Boulder Mountain Fire,WA,Pend Oreille,"Boulder Mountain, 9 miles northwest of Cusick.",WF,48.44631,-117.522,2022-09-01T00:58:00Z,2022-09-23T01:29:56Z,2310,99,2022-WANES-001858,Minimal,Natural,NFIS,26,4.6,NA,Washington
 Copper Lake Fire,WA,Whatcom,Copper Ridge in the Chilliwack River Drainage,WF,48.9413,-121.4481,2022-08-24T23:20:00Z,2022-09-19T22:27:58Z,1291,0,2022-WANCP-000300,Minimal,Undetermined,NFIS,33,7.7,NA,Washington
 Little Chill Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.97352,-121.5108,2022-08-30T01:42:00Z,2022-09-19T22:29:27Z,1739,0,2022-WANCP-000329,Minimal,Undetermined,NFIS,28,7.7,NA,Washington
 Ranger Fire,ID,Idaho,13 miles east of Powell RS,WF,46.53662,-114.4117,2022-08-31T17:08:04Z,2022-09-21T01:52:09Z,124,0,2022-IDNCF-000785,Moderate,Natural,NFIS,26,6.5,NA,Idaho
 Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-09-27T10:12:06Z,330,0,2022-IDIPF-000629,NA,Undetermined,NFIS,26,0.2,NA,Idaho
-Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-09-19T23:04:03Z,87145.4,98,2022-AKTAD-000315,Moderate,Natural,NFIS,99,7.6,NA,Alaska
+Chitanana Fire,AK,Yukon-Koyukuk,"24 miles southeast of Tanana, AK",WF,64.87531,-151.6411,2022-06-20T03:45:00Z,2022-09-19T23:04:03Z,87145.4,98,2022-AKTAD-000315,Moderate,Natural,NFIS,99,7.7,NA,Alaska
 Campbell Fire,CA,Trinity,NA,WF,40.90715,-123.5987,2022-08-05T10:39:48Z,2022-09-25T15:22:19Z,26623,97,2022-CASRF-000616,NA,Undetermined,NFIS,53,2,NA,California
-Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-09-25T19:57:30Z,11355,7,2022-WANWS-000150,Moderate,Undetermined,NFIS,16,1.8,NA,Washington
+Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-09-25T19:57:30Z,11355,7,2022-WANWS-000150,Moderate,Undetermined,NFIS,17,1.8,NA,Washington
 South Fork Fire,ID,Idaho,18 miles east of Powell Ranger Station,WF,46.57092,-114.3497,2022-08-22T21:53:00Z,2022-09-20T22:51:26Z,1604,0,2022-IDNCF-000682,Minimal,Natural,NFIS,35,6.7,NA,Idaho
 Isabella Fire,ID,Clearwater,5 Miles NNW of Canyon Work Center,WF,46.91325,-115.6063,2022-08-23T02:14:00Z,2022-09-21T02:28:57Z,467,0,2022-IDNCF-000691,Minimal,Natural,NFIS,35,6.5,NA,Idaho
 Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-09-27T12:20:06Z,130110,51,2022-IDSCF-022105,Minimal,Human,NFIS,71,0.1,NA,Idaho
 Tetthajik Fire,AK,Yukon-Koyukuk,NA,WF,66.71582,-141.2832,2022-09-21T19:02:00Z,2022-09-21T19:51:05Z,122.8,NA,2022-AKUYD-000663,NA,Natural,NFIS,5,5.8,NA,Alaska
-Goose Fire,AK,Yukon-Koyukuk,"15 Miles Northwest of Chalkyitsik, AK.",WF,66.87611,-143.8876,2022-06-29T16:38:00Z,2022-09-19T23:04:03Z,11035.4,0,2022-AKUYD-000395,Minimal,Natural,NFIS,89,7.6,NA,Alaska
-Yukon Creek Fire,AK,Fairbanks North Star,NA,WF,64.70645,-145.959367,2022-06-17T23:01:54Z,2022-09-22T18:05:06Z,13280.4,NA,2022-AKFAS-211296,Minimal,Natural,NFIS,101,4.8,NA,Alaska
+Goose Fire,AK,Yukon-Koyukuk,"15 Miles Northwest of Chalkyitsik, AK.",WF,66.87611,-143.8876,2022-06-29T16:38:00Z,2022-09-19T23:04:03Z,11035.4,0,2022-AKUYD-000395,Minimal,Natural,NFIS,89,7.7,NA,Alaska
+Yukon Creek Fire,AK,Fairbanks North Star,NA,WF,64.70645,-145.959367,2022-06-17T23:01:54Z,2022-09-22T18:05:06Z,13280.4,NA,2022-AKFAS-211296,Minimal,Natural,NFIS,101,4.9,NA,Alaska
 Ross Fork Fire,ID,Camas,"2 miles west of Smiley Creek, 1 mile south of Alturas Lake",WF,43.78911,-115.0113,2022-08-14T20:25:00Z,2022-09-25T02:42:23Z,37836,64,2022-IDSTF-000193,Minimal,Natural,NFIS,43,2.5,NA,Idaho
 Irving Peak Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.89679,-121.0263,2022-08-11T12:53:00Z,2022-09-22T23:39:07Z,4635,7,2022-WAOWF-000315,Moderate,Natural,NFIS,47,4.6,NA,Washington
 Tenmile Fire,ID,Idaho,"9 miles west of Warren, Idaho",WF,45.32524,-115.8939,2022-09-07T17:28:00Z,2022-09-24T10:20:11Z,2028,64,2022-IDPAF-005567,Minimal,Natural,NFIS,19,3.2,NA,Idaho
@@ -41,30 +41,29 @@ Goat Rocks Fire,WA,Lewis,"Packwood, WA",WF,46.629867,-121.5142,2022-08-09T16:43:
 Double Creek Fire,OR,Wallowa,"10 miles SE of Imnaha, Grizzly Ridge",WF,45.42796,-116.7457,2022-08-30T22:03:00Z,2022-09-27T14:21:40Z,157717,89,2022-ORWWF-000400,Minimal,Natural,NFIS,27,0,NA,Oregon
 Big Creek Fire,MT,Ravalli,"12 Miles SW of Stevensville, MT",WF,46.48277,-114.3521,2022-08-31T19:16:00Z,2022-09-21T10:39:16Z,157,75,2022-MTBRF-022274,Minimal,Natural,NFIS,26,6.2,NA,Montana
 Brush Creek 2 Fire,WA,Whatcom,Brush Creek Drainage off the Little Chilliwack River,WF,48.88115,-121.407,2022-08-25T00:11:00Z,2022-09-19T22:27:58Z,4306,0,2022-WANCP-000303,Minimal,Natural,NFIS,33,7.7,NA,Washington
-Dennison Fork Fire,AK,Southeast Fairbanks,NA,WF,63.444167,-141.961833,2022-07-04T21:15:04Z,2022-09-22T18:05:06Z,983.5,NA,2022-AKTAS-213462,Extreme,Natural,NFIS,84,4.8,NA,Alaska
-Rodgers Fire,CA,Tuolumne,"Yosemite National Park wilderness, 10 miles east of Hetch-Hetchy Reservoir",WF,37.95372,-119.5521,2022-08-08T20:03:00Z,2022-09-26T15:46:15Z,2785,100,2022-CAYNP-000058,Minimal,Undetermined,NFIS,49,0.9,NA,California
+Dennison Fork Fire,AK,Southeast Fairbanks,NA,WF,63.444167,-141.961833,2022-07-04T21:15:04Z,2022-09-22T18:05:06Z,983.5,NA,2022-AKTAS-213462,Extreme,Natural,NFIS,84,4.9,NA,Alaska
+Rodgers Fire,CA,Tuolumne,"Yosemite National Park wilderness, 10 miles east of Hetch-Hetchy Reservoir",WF,37.95372,-119.5521,2022-08-08T20:03:00Z,2022-09-26T15:46:15Z,2785,100,2022-CAYNP-000058,Minimal,Undetermined,NFIS,49,1,NA,California
 Castle Fire,ID,Idaho,"Castle Butte Lookout - 50 mi NE of Lowell, ID",WF,46.43429,-115.2347,2022-08-17T20:21:00Z,2022-09-20T23:34:11Z,678,0,2022-IDNCF-000611,Minimal,Natural,NFIS,40,6.6,NA,Idaho
-Gibbon Fire,WA,Benton,NA,WF,46.24025,-119.6417,2022-09-24T22:32:00Z,2022-09-26T22:26:57Z,1800,NA,2022-WASPD-000518,NA,Undetermined,NFIS,2,0.7,NA,Washington
 Minnow Ridge Fire,WA,Chelan,10 miles northeast of Lake Wenatchee,WF,47.96355,-120.6849,2022-09-09T21:59:00Z,2022-09-26T22:24:46Z,1653,0,2022-WAOWF-000479,Moderate,Undetermined,NFIS,17,0.7,NA,Washington
 Kalama Fire,WA,Cowlitz,"6 miles North of Cougar, WA",WF,46.13498,-122.3171,2022-09-01T02:40:00Z,2022-09-26T22:08:22Z,355,6,2022-WAGPF-001028,Moderate,Undetermined,NFIS,26,0.7,NA,Washington
 Siouxon Fire,WA,Skamania,"13 miles NW of Stabler, WA",WF,45.93077,-122.0664,2022-09-23T01:09:00Z,2022-09-26T22:11:10Z,109,0,2022-WAGPF-001208,Moderate,Undetermined,NFIS,4,0.7,NA,Washington
 Post Office Fire,ID,Idaho,12 miles west of Powell Ranger Station,WF,46.55112,-114.9569,2022-08-21T21:30:00Z,2022-09-20T22:24:08Z,2145,0,2022-IDNCF-000659,Moderate,Natural,NFIS,36,6.7,NA,Idaho
-Gold Hub Fire,AK,Southeast Fairbanks,NA,WF,64.3935,-145.471,2022-07-04T17:04:52Z,2022-09-22T18:05:06Z,16247.7,NA,2022-AKDAS-212455,Minimal,Natural,NFIS,84,4.8,NA,Alaska
+Gold Hub Fire,AK,Southeast Fairbanks,NA,WF,64.3935,-145.471,2022-07-04T17:04:52Z,2022-09-22T18:05:06Z,16247.7,NA,2022-AKDAS-212455,Minimal,Natural,NFIS,84,4.9,NA,Alaska
 Lower Twin Fire,ID,Clearwater,2.5 miles from Canyon Work Center to the Southwest,WF,46.85537,-115.5428,2022-08-12T01:20:00Z,2022-09-21T02:40:02Z,1993,0,2022-IDNCF-000476,Moderate,Natural,NFIS,46,6.5,NA,Idaho
 Nebo Fire,OR,Wallowa,"21 Miles SE of Enterprise, OR.  Near Mount Nebo.",WF,45.14103,-117.1131,2022-08-25T23:19:00Z,2022-09-27T12:59:13Z,12600,78,2022-ORWWF-000380,Minimal,Natural,NFIS,32,0.1,NA,Oregon
 Chilliwack Complex Fire,WA,Whatcom,North Cascade National Park; West of Ross Lake,CX,48.925243,-121.379805,2022-09-01T21:49:47Z,2022-09-19T22:05:28Z,8909.61,0,2022-WANCP-000339,Moderate,Undetermined,NFIS,25,7.7,NA,Washington
-Caledonia Fire,ID,Shoshone,20 miles from Kelly Forks Work Center,WF,46.98575,-115.1726,2022-09-01T23:57:00Z,2022-09-20T22:52:26Z,1408,0,2022-IDNCF-000802,Minimal,Natural,NFIS,25,6.6,NA,Idaho
-California Creek Fire,AK,Southeast Fairbanks,NA,WF,64.375,-144.632,2022-07-05T00:56:47Z,2022-09-22T18:05:06Z,770.1,NA,2022-AKDAS-212472,Active,Natural,NFIS,84,4.8,NA,Alaska
-Slathtouka Fire,AK,Yukon-Koyukuk,"19 miles southwest of Allakaket, AK.",WF,66.37583,-153.2218,2022-07-03T16:45:00Z,2022-09-19T23:04:03Z,7789.1,90,2022-AKTAD-000431,Minimal,Natural,NFIS,85,7.6,NA,Alaska
-Serpentine Creek Fire,AK,Southeast Fairbanks,NA,WF,64.196,-144.244,2022-07-05T03:04:31Z,2022-09-22T18:05:06Z,1319,NA,2022-AKDAS-212477,Minimal,Natural,NFIS,84,4.8,NA,Alaska
-Dragon Fire,AK,Yukon-Koyukuk,NA,WF,64.84998,-151.0192,2022-06-21T23:44:00Z,2022-09-19T23:04:03Z,14562,0,2022-AKTAD-000343,NA,Natural,NFIS,97,7.6,NA,Alaska
+Caledonia Fire,ID,Shoshone,20 miles from Kelly Forks Work Center,WF,46.98575,-115.1726,2022-09-01T23:57:00Z,2022-09-20T22:52:26Z,1408,0,2022-IDNCF-000802,Minimal,Natural,NFIS,25,6.7,NA,Idaho
+California Creek Fire,AK,Southeast Fairbanks,NA,WF,64.375,-144.632,2022-07-05T00:56:47Z,2022-09-22T18:05:06Z,770.1,NA,2022-AKDAS-212472,Active,Natural,NFIS,84,4.9,NA,Alaska
+Slathtouka Fire,AK,Yukon-Koyukuk,"19 miles southwest of Allakaket, AK.",WF,66.37583,-153.2218,2022-07-03T16:45:00Z,2022-09-19T23:04:03Z,7789.1,90,2022-AKTAD-000431,Minimal,Natural,NFIS,85,7.7,NA,Alaska
+Serpentine Creek Fire,AK,Southeast Fairbanks,NA,WF,64.196,-144.244,2022-07-05T03:04:31Z,2022-09-22T18:05:06Z,1319,NA,2022-AKDAS-212477,Minimal,Natural,NFIS,84,4.9,NA,Alaska
+Dragon Fire,AK,Yukon-Koyukuk,NA,WF,64.84998,-151.0192,2022-06-21T23:44:00Z,2022-09-19T23:04:03Z,14562,0,2022-AKTAD-000343,NA,Natural,NFIS,97,7.7,NA,Alaska
 Little Copper Fire,ID,Idaho,6 miles south east of Indian Hill Lookout,WF,45.97025,-115.1516,2022-08-13T01:47:00Z,2022-09-20T21:32:32Z,747,0,2022-IDNCF-000532,Minimal,Natural,NFIS,45,6.7,NA,Idaho
 Belle Fire,AK,Yukon-Koyukuk,"17 miles north of Chalkyitsik, AK",WF,66.90318,-143.7021,2022-06-29T23:15:00Z,2022-09-19T23:30:53Z,925.2,0,2022-AKUYD-000398,Minimal,Natural,NFIS,89,7.6,NA,Alaska
 Horse Fire,ID,Lemhi,45 Miles west of Salmon,WF,45.4086,-114.7141,2022-09-08T19:06:00Z,2022-09-26T19:41:45Z,397,0,2022-IDSCF-022250,Minimal,Natural,NFIS,18,0.8,NA,Idaho
 Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:37Z,2022-09-27T10:12:06Z,11455,85,2022-IDIPF-000515,Active,Undetermined,NFIS,33,0.2,NA,Idaho
 Isabella Lake Fire,MT,Sanders,NA,WF,48.08196,-115.667,2022-09-01T16:06:30Z,2022-09-26T12:23:30Z,290,90,2022-MTKNF-000248,NA,Natural,NFIS,25,1.1,NA,Montana
-Ladue Fire,AK,Southeast Fairbanks,NA,WF,63.4955,-141.819,2022-07-01T01:07:26Z,2022-09-22T18:05:06Z,1231.5,NA,2022-AKTAS-213410,Active,Natural,NFIS,88,4.8,NA,Alaska
-White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-09-26T22:53:29Z,4635,10,2022-WAOWF-000319,Moderate,Natural,NFIS,47,0.6,NA,Washington
+Ladue Fire,AK,Southeast Fairbanks,NA,WF,63.4955,-141.819,2022-07-01T01:07:26Z,2022-09-22T18:05:06Z,1231.5,NA,2022-AKTAS-213410,Active,Natural,NFIS,88,4.9,NA,Alaska
+White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-09-26T22:53:29Z,4635,10,2022-WAOWF-000319,Moderate,Natural,NFIS,47,0.7,NA,Washington
 Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:00Z,2022-09-26T14:00:01Z,1208,55,2022-IDIPF-000212,Minimal,Natural,NFIS,74,1,NA,Washington
 Frenchman Butte Fire,ID,Idaho,"Approx 30 mi N of Kamiah, ID ",WF,46.32875,-115.5289,2022-08-12T17:27:28Z,2022-09-20T22:05:14Z,111,0,2022-IDNCF-000505,Minimal,Natural,NFIS,45,6.7,NA,Idaho
 Summit Fire,CA,Tulare,Southern part of Hockett Plateau in Sequoia National Park,WF,36.33307,-118.6514,2022-08-03T22:12:00Z,2022-09-19T19:56:02Z,1394,90,2022-CAKNP-000075,Minimal,Natural,NFIS,54,7.8,NA,California
