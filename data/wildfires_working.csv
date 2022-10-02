@@ -16,7 +16,7 @@ Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-10-01T
 Tee Lake Fire,AK,Southeast Fairbanks,NA,WF,63.722083,-144.040583,2022-09-17T23:13:55Z,2022-09-27T21:55:27Z,106.2,NA,2022-AKTAS-213662,Minimal,Human,NFIS,14,4.6,NA,Alaska
 Campbell Fire,CA,Trinity,NA,WF,40.90715,-123.5987,2022-08-05T10:39:48Z,2022-09-25T15:22:19Z,26625,97,2022-CASRF-000616,NA,Undetermined,NFIS,58,6.8,NA,California
 Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-10-01T16:00:18Z,12142,28,2022-WANWS-000150,Moderate,Undetermined,NFIS,21,0.8,NA,Washington
-South Fork Fire,ID,Idaho,18 miles east of Powell Ranger Station,WF,46.57092,-114.3497,2022-08-22T21:53:00Z,2022-09-29T00:47:06Z,1604,0,2022-IDNCF-000682,Minimal,Natural,NFIS,40,3.4,NA,Idaho
+South Fork Fire,ID,Idaho,18 miles east of Powell Ranger Station,WF,46.57092,-114.3497,2022-08-22T21:53:00Z,2022-09-29T00:47:06Z,1604,0,2022-IDNCF-000682,Minimal,Natural,NFIS,40,3.5,NA,Idaho
 Isabella Fire,ID,Clearwater,5 Miles NNW of Canyon Work Center,WF,46.91325,-115.6063,2022-08-23T02:14:00Z,2022-09-29T01:10:59Z,467,0,2022-IDNCF-000691,Minimal,Natural,NFIS,40,3.4,NA,Idaho
 Lazy Fire,TX,Palo Pinto,"11 miles West of Palo Pinto, TX",WF,32.79629166,-98.47958697,2022-09-29T17:45:28Z,2022-09-30T14:06:31Z,1800,75,2022-TXTXS-225405,Minimal,Undetermined,NFIS,2,1.9,NA,Texas
 Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-09-29T15:33:47Z,130112,75,2022-IDSCF-022105,Minimal,Human,NFIS,76,2.8,NA,Idaho
@@ -26,10 +26,10 @@ Tenmile Fire,ID,Idaho,"9 miles west of Warren, Idaho",WF,45.32524,-115.8939,2022
 Thor Fire,WA,Pend Oreille,"6 miles southeast of Metaline Falls, WA.",WF,48.83178,-117.1756,2022-08-13T22:27:00Z,2022-10-01T20:40:44Z,1464,0,2022-WACOF-001595,Minimal,Natural,NFIS,49,0.6,NA,Washington
 Government Fire,MT,Sanders,NA,WF,48.0394,-115.7753,2022-09-01T06:09:00Z,2022-10-01T10:53:37Z,2786,26,2022-MTKNF-000240,NA,Natural,NFIS,31,1,NA,Montana
 Goat Rocks Fire,WA,Lewis,"Packwood, WA",WF,46.629867,-121.5142,2022-08-09T16:43:00Z,2022-10-01T12:22:47Z,4114,0,2022-WAGPF-000743,Minimal,Natural,NFIS,53,1,NA,Washington
-Fir Fire,SD,Oglala Lakota,"4 Miles South of Porcupine, SD",WF,NA,NA,2022-09-30T19:05:32Z,2022-10-01T17:37:19Z,900,20,2022-SDPRA-000160,Active,Human,NFIS,1,0.7,NA,South Dakota
+Fir Fire,SD,Oglala Lakota,"4 Miles South of Porcupine, SD",WF,NA,NA,2022-09-30T19:05:32Z,2022-10-01T17:37:19Z,900,20,2022-SDPRA-000160,Active,Human,NFIS,1,0.8,NA,South Dakota
 Double Creek Fire,OR,Wallowa,"10 miles SE of Imnaha, Grizzly Ridge",WF,45.42796,-116.7457,2022-08-30T22:03:00Z,2022-10-01T19:37:46Z,171497,89,2022-ORWWF-000400,Minimal,Natural,NFIS,32,0.7,NA,Oregon
 Rodgers Fire,CA,Tuolumne,"Yosemite National Park wilderness, 10 miles east of Hetch-Hetchy Reservoir",WF,37.95372,-119.5521,2022-08-08T20:03:00Z,2022-09-26T15:46:15Z,2825,98,2022-CAYNP-000058,Minimal,Undetermined,NFIS,54,5.8,NA,California
-Minnow Ridge Fire,WA,Chelan,10 miles northeast of Lake Wenatchee,WF,47.96355,-120.6849,2022-09-09T21:59:00Z,2022-10-02T00:47:06Z,2212,0,2022-WAOWF-000479,Moderate,Undetermined,NFIS,22,0.4,NA,Washington
+Minnow Ridge Fire,WA,Chelan,10 miles northeast of Lake Wenatchee,WF,47.96355,-120.6849,2022-09-09T21:59:00Z,2022-10-02T00:47:06Z,2212,0,2022-WAOWF-000479,Moderate,Undetermined,NFIS,22,0.5,NA,Washington
 Kalama Fire,WA,Cowlitz,"6 miles North of Cougar, WA",WF,46.13498,-122.3171,2022-09-01T02:40:00Z,2022-10-01T22:03:33Z,435,5,2022-WAGPF-001028,Moderate,Undetermined,NFIS,31,0.6,NA,Washington
 Siouxon Fire,WA,Skamania,"13 miles NW of Stabler, WA",WF,45.93077,-122.0664,2022-09-23T01:09:00Z,2022-10-01T22:31:44Z,297,0,2022-WAGPF-001208,Moderate,Undetermined,NFIS,9,0.5,NA,Washington
 Lower Twin Fire,ID,Clearwater,2.5 miles from Canyon Work Center to the Southwest,WF,46.85537,-115.5428,2022-08-12T01:20:00Z,2022-09-29T01:15:10Z,1993,0,2022-IDNCF-000476,Minimal,Natural,NFIS,51,3.4,NA,Idaho
@@ -41,4 +41,4 @@ Isabella Lake Fire,MT,Sanders,NA,WF,48.08196,-115.667,2022-09-01T16:06:30Z,2022-
 White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-10-02T00:35:08Z,4206,10,2022-WAOWF-000319,Moderate,Natural,NFIS,51,0.5,NA,Washington
 Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:00Z,2022-09-26T14:00:01Z,1208,60,2022-IDIPF-000212,Minimal,Natural,NFIS,79,5.9,NA,Washington
 Frenchman Butte Fire,ID,Idaho,"Approx 30 mi N of Kamiah, ID ",WF,46.32875,-115.5289,2022-08-12T17:27:28Z,2022-09-29T01:01:28Z,267,0,2022-IDNCF-000505,Minimal,Natural,NFIS,50,3.4,NA,Idaho
-Mcallister Creek Fire,WA,Skagit,"6NM SE of Newhalem, WA",WF,48.62544,-121.0889,2022-09-15T01:26:00Z,2022-09-26T15:14:21Z,550,0,2022-WANCP-000397,Active,Natural,NFIS,17,5.8,NA,Washington
+Mcallister Creek Fire,WA,Skagit,"6NM SE of Newhalem, WA",WF,48.62544,-121.0889,2022-09-15T01:26:00Z,2022-09-26T15:14:21Z,550,0,2022-WANCP-000397,Active,Natural,NFIS,17,5.9,NA,Washington
