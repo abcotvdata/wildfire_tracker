@@ -1,7 +1,7 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Alligator Fire,WA,Ferry,15 miles northwest of Kettle Falls,WF,48.73178,-118.3373,2022-08-25T17:37:00Z,2022-09-30T16:25:54Z,800,60,2022-WACOF-001723,Minimal,Natural,NFIS,39,3.1,NA,Washington
 Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-10-03T12:38:25Z,21625,80,2022-ORWWF-000334,Minimal,Natural,NFIS,41,0.2,NA,Oregon
-Herm Covey Wma-Hc4d-Dfg-Rx Fire,MA,Hampshire,NA,RX,NA,NA,2022-09-30T16:00:19Z,2022-10-03T16:42:23Z,6,NA,2022-MAMAS-DFG-RX25,NA,NA,NFIS,3,0,NA,Massachusetts
+Herm Covey Wma-Hc4d-Dfg-Rx Fire,MA,Hampshire,NA,RX,NA,NA,2022-09-30T16:00:19Z,2022-10-03T16:42:23Z,6,NA,2022-MAMAS-DFG-RX25,NA,NA,NFIS,3,0.1,NA,Massachusetts
 Slate Creek Fire,WA,Pend Oreille,"7 miles northeast from Metaline Falls, WA.",WF,48.94362,-117.2322,2022-08-27T22:59:00Z,2022-10-01T20:19:00Z,820,0,2022-WACOF-001805,Minimal,Undetermined,NFIS,36,1.9,NA,Washington
 Red Fire,CA,Mariposa,SOUTHERN SECTION OF YOSEMITE NP NEAR GREY PEAK,WF,37.66138,-119.4713,2022-08-04T15:52:00Z,2022-09-26T16:09:08Z,8415,95,2022-CAYNP-000056,Minimal,Undetermined,NFIS,60,7.1,NA,California
 Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:21Z,2022-10-02T00:35:08Z,11,0,2022-WAOWF-000397,Minimal,Undetermined,NFIS,40,1.7,NA,Washington
@@ -16,7 +16,7 @@ Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-10-01T
 Tee Lake Fire,AK,Southeast Fairbanks,NA,WF,63.722083,-144.040583,2022-09-17T23:13:55Z,2022-09-27T21:55:27Z,106.2,NA,2022-AKTAS-213662,Minimal,Human,NFIS,15,5.8,NA,Alaska
 Skagit Fire,WA,Whatcom,Further reporting will occur on NW Pasayten 209 WA-OWF-000469.,WF,48.9248,-120.9476,2022-08-25T01:08:00Z,2022-10-02T22:55:36Z,695,0,2022-WAOWF-000399,Moderate,Undetermined,NFIS,39,0.8,NA,Washington
 Kid Fire,WA,Okanogan,Central Washington Interagency CC,WF,48.89005,-120.6949,2022-08-30T23:58:00Z,2022-10-02T21:52:41Z,5100,0,2022-WAOWF-000431,Moderate,Undetermined,NFIS,33,0.8,NA,Washington
-Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-10-02T16:38:01Z,12486,36,2022-WANWS-000150,Moderate,Undetermined,NFIS,23,1,NA,Washington
+Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-10-02T16:38:01Z,12486,36,2022-WANWS-000150,Moderate,Undetermined,NFIS,23,1.1,NA,Washington
 South Fork Fire,ID,Idaho,18 miles east of Powell Ranger Station,WF,46.57092,-114.3497,2022-08-22T21:53:00Z,2022-09-29T00:47:06Z,1604,0,2022-IDNCF-000682,Minimal,Natural,NFIS,41,4.7,NA,Idaho
 Shull Creek Fire,WA,Whatcom,Central Washington Interagency Communication Center,WF,48.84916,-120.8318,2022-08-23T15:37:00Z,2022-10-02T22:23:27Z,516,0,2022-WAOWF-000389,Moderate,Undetermined,NFIS,41,0.8,NA,Washington
 Isabella Fire,ID,Clearwater,5 Miles NNW of Canyon Work Center,WF,46.91325,-115.6063,2022-08-23T02:14:00Z,2022-09-29T01:10:59Z,467,0,2022-IDNCF-000691,Minimal,Natural,NFIS,41,4.7,NA,Idaho
@@ -46,4 +46,4 @@ Isabella Lake Fire,MT,Sanders,NA,WF,48.08196,-115.667,2022-09-01T16:06:30Z,2022-
 White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-10-02T00:35:08Z,4206,10,2022-WAOWF-000319,Moderate,Natural,NFIS,53,1.7,NA,Washington
 Diamond Watch Fire,WA,Pend Oreille,Diamond Peak 5 miles west of Nordman Idaho.,WF,48.63872,-117.0495,2022-07-14T22:29:00Z,2022-09-26T14:00:01Z,1208,60,2022-IDIPF-000212,Minimal,Natural,NFIS,80,7.2,NA,Washington
 Frenchman Butte Fire,ID,Idaho,"Approx 30 mi N of Kamiah, ID ",WF,46.32875,-115.5289,2022-08-12T17:27:28Z,2022-09-29T01:01:28Z,267,0,2022-IDNCF-000505,Minimal,Natural,NFIS,52,4.7,NA,Idaho
-Mcallister Creek Fire,WA,Skagit,"6NM SE of Newhalem, WA",WF,48.62544,-121.0889,2022-09-15T01:26:00Z,2022-10-02T21:25:06Z,550,0,2022-WANCP-000397,Active,Natural,NFIS,18,0.8,NA,Washington
+Mcallister Creek Fire,WA,Skagit,"6NM SE of Newhalem, WA",WF,48.62544,-121.0889,2022-09-15T01:26:00Z,2022-10-02T21:25:06Z,550,0,2022-WANCP-000397,Active,Natural,NFIS,18,0.9,NA,Washington
