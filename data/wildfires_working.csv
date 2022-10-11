@@ -1,12 +1,12 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-10-07T18:27:06Z,1218,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,46,3.7,NA,Washington
-Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-10-06T12:56:32Z,21710,80,2022-ORWWF-000334,Minimal,Natural,NFIS,49,4.9,NA,Oregon
+Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-10-06T12:56:32Z,21710,80,2022-ORWWF-000334,Minimal,Natural,NFIS,49,5,NA,Oregon
 Cayuse Fire,ID,Idaho,30 miles SW of Darby MT,WF,45.72247,-114.6277,2022-08-29T21:10:00Z,2022-10-06T22:11:05Z,758,0,2022-MTBRF-022266,Minimal,Natural,NFIS,42,4.6,NA,Idaho
 Slate Creek Fire,WA,Pend Oreille,"7 miles northeast from Metaline Falls, WA.",WF,48.94362,-117.2322,2022-08-27T22:59:00Z,2022-10-05T00:33:46Z,820,1,2022-WACOF-001805,Minimal,Undetermined,NFIS,44,6.5,NA,Washington
 Red Fire,CA,Mariposa,SOUTHERN SECTION OF YOSEMITE NP NEAR GREY PEAK,WF,37.66138,-119.4713,2022-08-04T15:52:00Z,2022-10-05T15:04:01Z,8415,95,2022-CAYNP-000056,Minimal,Undetermined,NFIS,67,5.9,NA,California
 Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:21Z,2022-10-10T15:49:58Z,41,0,2022-WAOWF-000397,Moderate,Undetermined,NFIS,47,0.8,NA,Washington
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-10-11T03:16:24Z,122210,38,2022-ORWIF-220180,Moderate,Natural,NFIS,70,0.4,NA,Oregon
-Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-10-06T13:04:13Z,584,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,48,4.9,NA,Oregon
+Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-10-06T13:04:13Z,584,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,48,5,NA,Oregon
 Desolation Fire,WA,Whatcom,NA,WF,48.91336,-121.0453,2022-09-14T21:10:00Z,2022-10-07T20:50:50Z,100,NA,2022-WANCP-000395,NA,Undetermined,NFIS,26,3.6,NA,Washington
 Eagle Creek Fire,ID,Idaho,"38 Miles SW of Darby, MT",WF,45.82247,-114.9083,2022-08-24T20:04:00Z,2022-10-06T22:11:05Z,187,0,2022-MTBRF-022240,Minimal,Natural,NFIS,47,4.6,NA,Idaho
 Mosquito Fire,CA,Placer,Oxbow Reservoir.  4 miles east of Foresthill.,WF,39.001220000000004,-120.7246,2022-09-07T01:27:00Z,2022-10-04T13:26:56Z,76788,95,2022-CATNF-001371,Minimal,Undetermined,NFIS,34,6.9,NA,California
