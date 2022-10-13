@@ -1,25 +1,25 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-10-07T18:27:06Z,1218,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,48,6.1,NA,Washington
-East Fork Fire,SD,Jones,NA,WF,43.89355,-100.6585,2022-10-12T20:11:00Z,2022-10-12T22:26:50Z,233.5,NA,2022-SDJOX-220816,NA,Undetermined,NFIS,1,0.9,NA,South Dakota
-Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-10-06T12:56:32Z,21710,80,2022-ORWWF-000334,Minimal,Natural,NFIS,52,7.3,NA,Oregon
-Cayuse Fire,ID,Idaho,30 miles SW of Darby MT,WF,45.72247,-114.6277,2022-08-29T21:10:00Z,2022-10-06T22:11:05Z,758,0,2022-MTBRF-022266,Minimal,Natural,NFIS,44,7,NA,Idaho
+East Fork Fire,SD,Jones,NA,WF,43.89355,-100.6585,2022-10-12T20:11:00Z,2022-10-12T22:26:50Z,233.5,NA,2022-SDJOX-220816,NA,Undetermined,NFIS,1,1,NA,South Dakota
+Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-10-06T12:56:32Z,21710,80,2022-ORWWF-000334,Minimal,Natural,NFIS,52,7.4,NA,Oregon
+Cayuse Fire,ID,Idaho,30 miles SW of Darby MT,WF,45.72247,-114.6277,2022-08-29T21:10:00Z,2022-10-06T22:11:05Z,758,0,2022-MTBRF-022266,Minimal,Natural,NFIS,45,7,NA,Idaho
 Big Bar Fire,CA,Humboldt,NA,WF,41.25653,-123.6006,2022-10-12T05:12:00Z,2022-10-12T22:43:46Z,11.9,NA,2022-CASRF-000883,NA,Undetermined,NFIS,1,0.9,NA,California
 Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:21Z,2022-10-12T14:10:49Z,50,0,2022-WAOWF-000397,Minimal,Undetermined,NFIS,50,1.3,NA,Washington
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-10-13T13:47:22Z,122706,40,2022-ORWIF-220180,Moderate,Natural,NFIS,73,0.3,NA,Oregon
 Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-10-13T14:15:43Z,1210,50,2022-MTKNF-000235,NA,Natural,NFIS,42,0.3,NA,Montana
 Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-10-06T13:04:13Z,584,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,51,7.3,NA,Oregon
-Desolation Fire,WA,Whatcom,NA,WF,48.91336,-121.0453,2022-09-14T21:10:00Z,2022-10-07T20:50:50Z,100,NA,2022-WANCP-000395,NA,Undetermined,NFIS,28,6,NA,Washington
+Desolation Fire,WA,Whatcom,NA,WF,48.91336,-121.0453,2022-09-14T21:10:00Z,2022-10-07T20:50:50Z,100,NA,2022-WANCP-000395,NA,Undetermined,NFIS,29,6,NA,Washington
 Eagle Creek Fire,ID,Idaho,"38 Miles SW of Darby, MT",WF,45.82247,-114.9083,2022-08-24T20:04:00Z,2022-10-06T22:11:05Z,187,0,2022-MTBRF-022240,Minimal,Natural,NFIS,50,7,NA,Idaho
 Copper Lake Fire,WA,Whatcom,Copper Ridge in the Chilliwack River Drainage,WF,48.9413,-121.4481,2022-08-24T23:20:00Z,2022-10-07T18:27:06Z,1870,0,2022-WANCP-000300,Minimal,Undetermined,NFIS,49,6.1,NA,Washington
 Slick Ear Fire,OR,Wallowa,"23 Miles East of Walla Walla, Washington",WF,45.97154,-117.778,2022-09-14T23:53:46Z,2022-10-10T16:01:58Z,243,0,2022-ORUMF-000479,Minimal,Natural,NFIS,28,3.2,NA,Oregon
 Little Chill Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.97352,-121.5108,2022-08-30T01:42:00Z,2022-10-10T02:53:54Z,1618,0,2022-WANCP-000329,Minimal,Undetermined,NFIS,44,3.8,NA,Washington
-Arlington Fire,MN,Sibley,NA,WF,NA,NA,2022-10-12T01:10:47Z,2022-10-13T15:12:04Z,0.1,NA,2022-MNMNS-MNMNS344,NA,NA,NFIS,1,0.2,NA,Minnesota
-Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-10-12T15:08:38Z,375,0,2022-IDIPF-000629,NA,Undetermined,NFIS,42,1.2,NA,Idaho
+Arlington Fire,MN,Sibley,NA,WF,NA,NA,2022-10-12T01:10:47Z,2022-10-13T15:12:04Z,0.1,NA,2022-MNMNS-MNMNS344,NA,NA,NFIS,1,0.3,NA,Minnesota
+Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-10-12T15:08:38Z,375,0,2022-IDIPF-000629,NA,Undetermined,NFIS,42,1.3,NA,Idaho
 Elk Creek Fire,OR,Douglas,NA,WF,43.67524,-123.491,2022-10-10T23:58:00Z,2022-10-12T19:38:46Z,10,NA,2022-ORROD-000410,NA,Undetermined,NFIS,2,1.1,NA,Oregon
 Lemhi Fire,ID,Idaho,"17NM NE of Warren, ID",WF,45.40711,-115.4678,2022-09-21T02:00:00Z,2022-10-13T13:50:28Z,845,0,2022-IDPAF-005658,Minimal,Natural,NFIS,22,0.3,NA,Idaho
 Skagit Fire,WA,Whatcom,Further reporting will occur on NW Pasayten 209 WA-OWF-000469.,WF,48.9248,-120.9476,2022-08-25T01:08:00Z,2022-10-06T21:32:06Z,695,0,2022-WAOWF-000399,Moderate,Undetermined,NFIS,49,7,NA,Washington
 Shull Creek Fire,WA,Whatcom,Central Washington Interagency Communication Center,WF,48.84916,-120.8318,2022-08-23T15:37:00Z,2022-10-06T21:32:06Z,516,0,2022-WAOWF-000389,Moderate,Undetermined,NFIS,51,7,NA,Washington
-Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-10-13T12:55:56Z,130130,80,2022-IDSCF-022105,Minimal,Human,NFIS,87,0.3,NA,Idaho
+Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-10-13T12:55:56Z,130130,80,2022-IDSCF-022105,Minimal,Human,NFIS,87,0.4,NA,Idaho
 Fire Creek Fire,ID,Idaho,"34 Miles SW of Darby, MT",WF,45.79277,-114.7977,2022-08-24T20:24:00Z,2022-10-06T22:11:05Z,342,0,2022-MTBRF-022241,Minimal,Undetermined,NFIS,50,7,NA,Idaho
 Irving Peak Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.89679,-121.0263,2022-08-11T12:53:00Z,2022-10-07T22:57:27Z,5386,8,2022-WAOWF-000315,Moderate,Natural,NFIS,63,5.9,NA,Washington
 Nakia Creek Fire,WA,Clark,"9MI FROM CAMAS, WA",WF,45.70132,-122.2803,2022-10-09T22:45:00Z,2022-10-13T05:56:59Z,250,10,2022-WAPCS-000220,Active,Undetermined,NFIS,3,0.6,NA,Washington
@@ -31,15 +31,15 @@ Green Ridge Fire,ID,Idaho,"31 miles SW of Darby, MT",WF,45.8634,-114.7956,2022-0
 Transformer Fire,NV,Elko,NA,WF,NA,NA,2022-10-11T21:01:12Z,2022-10-12T21:11:43Z,2.5,NA,2022-NVDVT-000441,NA,NA,NFIS,2,1,NA,Nevada
 Double Creek Fire,OR,Wallowa,"10 miles SE of Imnaha, Grizzly Ridge",WF,45.42796,-116.7457,2022-08-30T22:03:00Z,2022-10-13T01:14:19Z,171532,89,2022-ORWWF-000400,Minimal,Natural,NFIS,43,0.8,NA,Oregon
 Twist Creek Fire,ID,Idaho,"28 miles southeast of Elk City, ID",WF,45.6267,-114.9512,2022-08-23T18:54:54Z,2022-10-06T22:11:05Z,2598,0,2022-MTBRF-022237,Minimal,Natural,NFIS,51,7,NA,Idaho
-Loch Katrine Fire,WA,King,Sunday Lake Trail Near Lock Katrine off the North Fork Road. Snoqualmie RD.,WF,47.63933,-121.6054,2022-09-02T20:08:00Z,2022-10-11T15:23:05Z,20,1,2022-WAMSF-000348,Minimal,Undetermined,NFIS,41,2.2,NA,Washington
+Loch Katrine Fire,WA,King,Sunday Lake Trail Near Lock Katrine off the North Fork Road. Snoqualmie RD.,WF,47.63933,-121.6054,2022-09-02T20:08:00Z,2022-10-11T15:23:05Z,20,1,2022-WAMSF-000348,Minimal,Undetermined,NFIS,41,2.3,NA,Washington
 Minnow Ridge Fire,WA,Chelan,10 miles northeast of Lake Wenatchee,WF,47.96355,-120.6849,2022-09-09T21:59:00Z,2022-10-12T14:10:49Z,3383,0,2022-WAOWF-000479,Moderate,Undetermined,NFIS,33,1.3,NA,Washington
 Kalama Fire,WA,Cowlitz,"6 miles North of Cougar, WA",WF,46.13498,-122.3171,2022-09-01T02:40:00Z,2022-10-12T23:46:02Z,478,9,2022-WAGPF-001028,Minimal,Undetermined,NFIS,42,0.9,NA,Washington
 Siouxon Fire,WA,Skamania,"13 miles NW of Stabler, WA",WF,45.93077,-122.0664,2022-09-23T01:09:00Z,2022-10-10T21:10:18Z,437,0,2022-WAGPF-001208,Moderate,Undetermined,NFIS,20,3,NA,Washington
-Long Canyon Fire,ID,Boundary,NA,WF,48.91919,-116.5839,2022-09-16T23:23:34Z,2022-10-12T15:08:38Z,416,0,2022-IDIPF-000771,NA,Natural,NFIS,26,1.2,NA,Idaho
+Long Canyon Fire,ID,Boundary,NA,WF,48.91919,-116.5839,2022-09-16T23:23:34Z,2022-10-12T15:08:38Z,416,0,2022-IDIPF-000771,NA,Natural,NFIS,26,1.3,NA,Idaho
 Nebo Fire,OR,Wallowa,"21 Miles SE of Enterprise, OR.  Near Mount Nebo.",WF,45.14103,-117.1131,2022-08-25T23:19:00Z,2022-10-06T13:15:05Z,12609,94,2022-ORWWF-000380,Minimal,Natural,NFIS,48,7.3,NA,Oregon
 Indian Ridge Fire,ID,Idaho,"30 Miles SW of Darby, MT",WF,45.78605,-114.735,2022-07-08T02:23:00Z,2022-10-06T22:11:05Z,9492,0,2022-MTBRF-022131,Minimal,Natural,NFIS,97,7,NA,Idaho
 Three Fools Fire,WA,Whatcom,Central Washington Interagency CC,WF,48.89346,-120.8556,2022-08-25T00:34:00Z,2022-10-06T21:32:06Z,2183,0,2022-WAOWF-000398,Moderate,Undetermined,NFIS,49,7,NA,Washington
 Parks Fire,WA,Okanogan,3 miles East of Mount Winthrop,WF,48.97687,-120.7031,2022-08-21T23:00:00Z,2022-10-10T23:29:23Z,20759,0,2022-WAOWF-000380,Active,Natural,NFIS,52,2.9,NA,Washington
-Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:37Z,2022-10-12T15:08:38Z,12947,85,2022-IDIPF-000515,Active,Undetermined,NFIS,50,1.2,NA,Idaho
+Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:37Z,2022-10-12T15:08:38Z,12947,85,2022-IDIPF-000515,Active,Undetermined,NFIS,50,1.3,NA,Idaho
 White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-10-12T14:10:49Z,5386,10,2022-WAOWF-000319,Moderate,Natural,NFIS,63,1.3,NA,Washington
 Mcallister Creek Fire,WA,Skagit,"6NM SE of Newhalem, WA",WF,48.62544,-121.0889,2022-09-15T01:26:00Z,2022-10-07T18:49:19Z,1580,0,2022-WANCP-000397,Moderate,Natural,NFIS,28,6.1,NA,Washington
