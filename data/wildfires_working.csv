@@ -1,10 +1,10 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
-Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-10-14T00:13:55Z,1651,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,49,0.7,NA,Washington
+Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-10-14T00:13:55Z,1651,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,49,0.8,NA,Washington
 East Fork Fire,SD,Jones,NA,WF,43.89355,-100.6585,2022-10-12T20:11:00Z,2022-10-12T22:26:50Z,233.5,NA,2022-SDJOX-220816,NA,Undetermined,NFIS,1,1.8,NA,South Dakota
 Boulder Lake Fire,WA,Skagit,"Darrington Ranger District, Tenas River Drainage",WF,48.19115,-121.6294,2022-08-25T00:20:00Z,2022-10-10T16:21:58Z,1100,0,2022-WAMSF-000304,Moderate,Natural,NFIS,50,4.1,NA,Washington
 Cayuse Fire,ID,Idaho,30 miles SW of Darby MT,WF,45.72247,-114.6277,2022-08-29T21:10:00Z,2022-10-06T22:11:05Z,758,0,2022-MTBRF-022266,Minimal,Natural,NFIS,45,7.8,NA,Idaho
 Big Bar Fire,CA,Humboldt,NA,WF,41.25653,-123.6006,2022-10-12T05:12:00Z,2022-10-12T22:43:46Z,11.9,NA,2022-CASRF-000883,NA,Undetermined,NFIS,2,1.8,NA,California
-Refuge Fire,FL,Marion,NA,WF,29.18485,-81.83253,2022-10-07T19:21:00Z,2022-10-14T12:01:38Z,2,NA,2022-FLFNF-002095,NA,Human,NFIS,6,0.2,NA,Florida
+Refuge Fire,FL,Marion,NA,WF,29.18485,-81.83253,2022-10-07T19:21:00Z,2022-10-14T12:01:38Z,2,NA,2022-FLFNF-002095,NA,Human,NFIS,6,0.3,NA,Florida
 Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:21Z,2022-10-12T14:10:49Z,50,0,2022-WAOWF-000397,Minimal,Undetermined,NFIS,51,2.2,NA,Washington
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-10-14T15:57:26Z,122794,40,2022-ORWIF-220180,Moderate,Natural,NFIS,74,0.1,NA,Oregon
 Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-10-13T14:15:43Z,1210,50,2022-MTKNF-000235,NA,Natural,NFIS,43,1.2,NA,Montana
@@ -15,13 +15,13 @@ Slick Ear Fire,OR,Wallowa,"23 Miles East of Walla Walla, Washington",WF,45.97154
 Little Chill Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.97352,-121.5108,2022-08-30T01:42:00Z,2022-10-13T23:36:51Z,1720,0,2022-WANCP-000329,Minimal,Undetermined,NFIS,45,0.8,NA,Washington
 Arlington Fire,MN,Sibley,NA,WF,NA,NA,2022-10-12T01:10:47Z,2022-10-13T15:12:04Z,0.1,NA,2022-MNMNS-MNMNS344,NA,NA,NFIS,2,1.1,NA,Minnesota
 Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-10-12T15:08:38Z,375,0,2022-IDIPF-000629,NA,Undetermined,NFIS,43,2.1,NA,Idaho
-Elk Creek Fire,OR,Douglas,NA,WF,43.67524,-123.491,2022-10-10T23:58:00Z,2022-10-12T19:38:46Z,10,NA,2022-ORROD-000410,NA,Undetermined,NFIS,3,1.9,NA,Oregon
+Elk Creek Fire,OR,Douglas,NA,WF,43.67524,-123.491,2022-10-10T23:58:00Z,2022-10-12T19:38:46Z,10,NA,2022-ORROD-000410,NA,Undetermined,NFIS,3,2,NA,Oregon
 Lemhi Fire,ID,Idaho,"17NM NE of Warren, ID",WF,45.40711,-115.4678,2022-09-21T02:00:00Z,2022-10-13T13:50:28Z,845,0,2022-IDPAF-005658,Minimal,Natural,NFIS,23,1.2,NA,Idaho
-Chimney Fire,CA,Tulare,NA,WF,35.79936,-118.0701,2022-10-09T19:47:00Z,2022-10-12T21:32:10Z,0.1,NA,2022-CACND-002625,NA,Undetermined,NFIS,4,1.8,NA,California
+Chimney Fire,CA,Tulare,NA,WF,35.79936,-118.0701,2022-10-09T19:47:00Z,2022-10-12T21:32:10Z,0.1,NA,2022-CACND-002625,NA,Undetermined,NFIS,4,1.9,NA,California
 Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-10-13T12:55:56Z,130144,80,2022-IDSCF-022105,Minimal,Human,NFIS,88,1.2,NA,Idaho
 Fire Creek Fire,ID,Idaho,"34 Miles SW of Darby, MT",WF,45.79277,-114.7977,2022-08-24T20:24:00Z,2022-10-06T22:11:05Z,342,0,2022-MTBRF-022241,Minimal,Undetermined,NFIS,50,7.8,NA,Idaho
 Irving Peak Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.89679,-121.0263,2022-08-11T12:53:00Z,2022-10-07T22:57:27Z,5410,8,2022-WAOWF-000315,Moderate,Natural,NFIS,64,6.8,NA,Washington
-Nakia Creek Fire,WA,Clark,"9MI FROM CAMAS, WA",WF,45.70132,-122.2803,2022-10-09T22:45:00Z,2022-10-14T02:33:34Z,250,10,2022-WAPCS-000220,Active,Undetermined,NFIS,4,0.6,NA,Washington
+Nakia Creek Fire,WA,Clark,"9MI FROM CAMAS, WA",WF,45.70132,-122.2803,2022-10-09T22:45:00Z,2022-10-14T02:33:34Z,250,10,2022-WAPCS-000220,Active,Undetermined,NFIS,4,0.7,NA,Washington
 Cayuse Mountain Fire,ID,Idaho,"30 Miles SW of Darby, MT",WF,45.749217,-114.654,2022-09-01T13:47:00Z,2022-10-06T22:11:05Z,5077,0,2022-MTBRF-022275,Minimal,Natural,NFIS,43,7.8,NA,Idaho
 Tenmile Fire,ID,Idaho,"9 miles west of Warren, Idaho",WF,45.32524,-115.8939,2022-09-07T17:28:00Z,2022-10-13T14:05:33Z,2158,65,2022-IDPAF-005567,Minimal,Natural,NFIS,37,1.2,NA,Idaho
 Suiattle River Fire,WA,Skagit,"Forest Road 26, Suiattle River",WF,48.29141,-121.3726,2022-08-30T21:46:00Z,2022-10-10T16:16:04Z,500,0,2022-WAMSF-000334,Active,Undetermined,NFIS,44,4.1,NA,Washington
@@ -36,5 +36,5 @@ Siouxon Fire,WA,Skamania,"13 miles NW of Stabler, WA",WF,45.93077,-122.0664,2022
 Long Canyon Fire,ID,Boundary,NA,WF,48.91919,-116.5839,2022-09-16T23:23:34Z,2022-10-12T15:08:38Z,416,0,2022-IDIPF-000771,NA,Natural,NFIS,27,2.1,NA,Idaho
 Indian Ridge Fire,ID,Idaho,"30 Miles SW of Darby, MT",WF,45.78605,-114.735,2022-07-08T02:23:00Z,2022-10-06T22:11:05Z,9492,0,2022-MTBRF-022131,Minimal,Natural,NFIS,98,7.8,NA,Idaho
 Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:37Z,2022-10-12T15:08:38Z,12947,85,2022-IDIPF-000515,Active,Undetermined,NFIS,50,2.1,NA,Idaho
-White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-10-14T14:45:56Z,5410,10,2022-WAOWF-000319,Moderate,Natural,NFIS,64,0.1,NA,Washington
+White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-10-14T14:45:56Z,5410,10,2022-WAOWF-000319,Moderate,Natural,NFIS,64,0.2,NA,Washington
 Mcallister Creek Fire,WA,Skagit,"6NM SE of Newhalem, WA",WF,48.62544,-121.0889,2022-09-15T01:26:00Z,2022-10-13T23:40:22Z,1580,0,2022-WANCP-000397,Moderate,Natural,NFIS,29,0.8,NA,Washington
