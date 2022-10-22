@@ -1,8 +1,8 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
-Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-10-18T21:30:50Z,1977,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,57,3.3,NA,Washington
-Boulder Lake Fire,WA,Skagit,"Darrington Ranger District, Tenas River Drainage",WF,48.19115,-121.6294,2022-08-25T00:20:00Z,2022-10-20T16:39:13Z,2317,0,2022-WAMSF-000304,Minimal,Natural,NFIS,58,1.5,NA,Washington
+Silesia Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.93547,-121.4922,2022-08-26T02:57:00Z,2022-10-18T21:30:50Z,1977,0,2022-WANCP-000315,Minimal,Undetermined,NFIS,57,3.4,NA,Washington
+Boulder Lake Fire,WA,Skagit,"Darrington Ranger District, Tenas River Drainage",WF,48.19115,-121.6294,2022-08-25T00:20:00Z,2022-10-20T16:39:13Z,2317,0,2022-WAMSF-000304,Minimal,Natural,NFIS,58,1.6,NA,Washington
 Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-10-22T03:50:42Z,23162,80,2022-ORWWF-000334,Moderate,Natural,NFIS,60,0.1,NA,Oregon
-Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:00Z,2022-10-20T16:49:35Z,126,0,2022-WAOWF-000397,Minimal,Undetermined,NFIS,58,1.5,NA,Washington
+Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:00Z,2022-10-20T16:49:35Z,126,0,2022-WAOWF-000397,Minimal,Undetermined,NFIS,58,1.6,NA,Washington
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles west of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-10-22T03:20:30Z,127283,55,2022-ORWIF-220180,Minimal,Natural,NFIS,81,0.1,NA,Oregon
 8 Road Fire,WA,Pierce,4 miles East of Eatonville,WF,46.8423,-122.1852,2022-10-15T23:19:00Z,2022-10-21T00:40:07Z,158,50,2022-WASPS-000275,Minimal,Undetermined,NFIS,6,1.2,NA,Washington
 312084 Fire,MN,Sherburne,NA,WF,NA,NA,2022-10-20T19:54:58Z,2022-10-21T15:27:22Z,0.01,NA,2022-MNMNS-312084,NA,NA,NFIS,1,0.6,NA,Minnesota
@@ -11,27 +11,27 @@ Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-10-21
 Popcorn - Rosebud Fire,MT,Rosebud,NA,WF,46.75782,-106.3986,2022-10-20T17:50:24Z,2022-10-20T18:30:58Z,NA,NA,2022-MTLG29-000331,NA,Human,NFIS,1,1.5,NA,Montana
 Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-10-21T22:56:43Z,584,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,59,0.3,NA,Oregon
 Desolation Fire,WA,Whatcom,NA,WF,48.91336,-121.0453,2022-09-14T21:10:00Z,2022-10-18T20:49:27Z,363,NA,2022-WANCP-000395,NA,Undetermined,NFIS,37,3.4,NA,Washington
-Copper Lake Fire,WA,Whatcom,Copper Ridge in the Chilliwack River Drainage,WF,48.9413,-121.4481,2022-08-24T23:20:00Z,2022-10-18T21:41:29Z,2182,0,2022-WANCP-000300,Minimal,Undetermined,NFIS,58,3.3,NA,Washington
-Slick Ear Fire,OR,Wallowa,"23 Miles East of Walla Walla, Washington",WF,45.97154,-117.778,2022-09-14T23:53:00Z,2022-10-19T18:51:57Z,243,0,2022-ORUMF-000479,Moderate,Natural,NFIS,37,2.4,NA,Oregon
-Little Chill Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.97352,-121.5108,2022-08-30T01:42:00Z,2022-10-18T21:39:59Z,1747,0,2022-WANCP-000329,Minimal,Undetermined,NFIS,53,3.3,NA,Washington
+Copper Lake Fire,WA,Whatcom,Copper Ridge in the Chilliwack River Drainage,WF,48.9413,-121.4481,2022-08-24T23:20:00Z,2022-10-18T21:41:29Z,2182,0,2022-WANCP-000300,Minimal,Undetermined,NFIS,58,3.4,NA,Washington
+Slick Ear Fire,OR,Wallowa,"23 Miles East of Walla Walla, Washington",WF,45.97154,-117.778,2022-09-14T23:53:00Z,2022-10-19T18:51:57Z,243,0,2022-ORUMF-000479,Moderate,Natural,NFIS,37,2.5,NA,Oregon
+Little Chill Fire,WA,Whatcom,"21 miles NW of Diablo, WA",WF,48.97352,-121.5108,2022-08-30T01:42:00Z,2022-10-18T21:39:59Z,1747,0,2022-WANCP-000329,Minimal,Undetermined,NFIS,53,3.4,NA,Washington
 Tillicum Creek Fire,WA,Pend Oreille,NA,WF,48.73362,-117.106,2022-10-01T19:30:03Z,2022-10-21T23:04:41Z,240,NA,2022-IDIPF-000826,NA,Natural,NFIS,20,0.3,NA,Washington
 Bk Kristy Fire,AL,Winston,NA,WF,34.102,-87.349,2022-10-18T19:51:08Z,2022-10-19T17:50:09Z,18,NA,2022-ALALF-220234,NA,Undetermined,NFIS,3,2.5,NA,Alabama
 New Holland Fire,SD,Mellette,NA,WF,NA,NA,2022-10-17T22:06:00Z,2022-10-19T16:02:00Z,45,NA,2022-SDRBA-1666278342,NA,Human,NFIS,4,2.6,NA,South Dakota
 Murphy Lake Fire,WA,King,West of Murphy Lakes,WF,47.67096,-121.1208,2022-08-18T19:29:00Z,2022-10-20T18:07:32Z,444,0,2022-WAMSF-000267,Minimal,Natural,NFIS,64,1.5,NA,Washington
 Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-10-20T18:07:32Z,14820,51,2022-WANWS-000150,Minimal,Undetermined,NFIS,41,1.5,NA,Washington
 Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-10-19T12:29:37Z,130198,80,2022-IDSCF-022105,Moderate,Human,NFIS,96,2.7,NA,Idaho
-Ross Fork Fire,ID,Camas,"2 miles west of Smiley Creek, 1 mile south of Alturas Lake",WF,43.78911,-115.0113,2022-08-14T20:25:00Z,2022-10-21T19:06:04Z,38013,75,2022-IDSTF-000193,Minimal,Natural,NFIS,68,0.4,NA,Idaho
-Salmo Fire,WA,Pend Oreille,NA,WF,48.8663,-117.0871,2022-09-03T21:35:00Z,2022-10-19T23:34:26Z,321,NA,2022-WACOF-001912,NA,Natural,NFIS,48,2.2,NA,Washington
-Nakia Creek Fire,WA,Clark,"9MI FROM CAMAS, WA",WF,45.70132,-122.2803,2022-10-09T22:45:00Z,2022-10-22T02:14:09Z,1918,43,2022-WAPCS-000220,Minimal,Undetermined,NFIS,12,0.1,NA,Washington
-Suiattle River Fire,WA,Skagit,"Forest Road 26, Suiattle River",WF,48.29141,-121.3726,2022-08-30T21:46:00Z,2022-10-20T16:39:13Z,4272,0,2022-WAMSF-000334,Minimal,Undetermined,NFIS,52,1.5,NA,Washington
+Ross Fork Fire,ID,Camas,"2 miles west of Smiley Creek, 1 mile south of Alturas Lake",WF,43.78911,-115.0113,2022-08-14T20:25:00Z,2022-10-21T19:06:04Z,38013,75,2022-IDSTF-000193,Minimal,Natural,NFIS,68,0.5,NA,Idaho
+Salmo Fire,WA,Pend Oreille,NA,WF,48.8663,-117.0871,2022-09-03T21:35:00Z,2022-10-19T23:34:26Z,321,NA,2022-WACOF-001912,NA,Natural,NFIS,48,2.3,NA,Washington
+Nakia Creek Fire,WA,Clark,"9MI FROM CAMAS, WA",WF,45.70132,-122.2803,2022-10-09T22:45:00Z,2022-10-22T02:14:09Z,1918,43,2022-WAPCS-000220,Minimal,Undetermined,NFIS,12,0.2,NA,Washington
+Suiattle River Fire,WA,Skagit,"Forest Road 26, Suiattle River",WF,48.29141,-121.3726,2022-08-30T21:46:00Z,2022-10-20T16:39:13Z,4272,0,2022-WAMSF-000334,Minimal,Undetermined,NFIS,52,1.6,NA,Washington
 Government Fire,MT,Sanders,NA,WF,48.0394,-115.7753,2022-09-01T06:09:00Z,2022-10-21T19:31:11Z,2786,35,2022-MTKNF-000240,NA,Natural,NFIS,50,0.4,NA,Montana
-Goat Rocks Fire,WA,Lewis,"Packwood, WA",WF,46.629867,-121.5142,2022-08-09T16:43:00Z,2022-10-20T11:32:25Z,6196,8,2022-WAGPF-000743,Minimal,Natural,NFIS,73,1.7,NA,Washington
+Goat Rocks Fire,WA,Lewis,"Packwood, WA",WF,46.629867,-121.5142,2022-08-09T16:43:00Z,2022-10-20T11:32:25Z,6196,8,2022-WAGPF-000743,Minimal,Natural,NFIS,73,1.8,NA,Washington
 Double Creek Fire,OR,Wallowa,"10 miles SE of Imnaha, Grizzly Ridge",WF,45.42796,-116.7457,2022-08-30T22:03:00Z,2022-10-21T22:41:02Z,171532,88,2022-ORWWF-000400,Minimal,Natural,NFIS,52,0.3,NA,Oregon
-Brush Creek 2 Fire,WA,Whatcom,Brush Creek Drainage off the Little Chilliwack River,WF,48.88115,-121.407,2022-08-25T00:11:00Z,2022-10-15T16:28:53Z,3393,0,2022-WANCP-000303,Minimal,Natural,NFIS,58,6.5,NA,Washington
+Brush Creek 2 Fire,WA,Whatcom,Brush Creek Drainage off the Little Chilliwack River,WF,48.88115,-121.407,2022-08-25T00:11:00Z,2022-10-15T16:28:53Z,3393,0,2022-WANCP-000303,Minimal,Natural,NFIS,58,6.6,NA,Washington
 Loch Katrine Fire,WA,King,Lock Katrine in Alpine Lakes Wilderness. Private timber land on state protection,WF,47.63933,-121.6054,2022-09-02T20:08:00Z,2022-10-20T12:08:08Z,1225,2,2022-WAMSF-000348,Minimal,Undetermined,NFIS,49,1.7,NA,Washington
 Minnow Ridge Fire,WA,Chelan,10 miles northeast of Lake Wenatchee,WF,47.96355,-120.6849,2022-09-09T21:59:00Z,2022-10-21T15:23:09Z,4989,0,2022-WAOWF-000479,Moderate,Undetermined,NFIS,42,0.6,NA,Washington
-Kalama Fire,WA,Cowlitz,"6 miles North of Cougar, WA",WF,46.13498,-122.3171,2022-09-01T02:40:00Z,2022-10-21T04:48:58Z,497,43,2022-WAGPF-001028,Minimal,Undetermined,NFIS,51,1,NA,Washington
-Siouxon Fire,WA,Skamania,"13 miles NW of Stabler, WA",WF,45.93077,-122.0664,2022-09-23T01:09:00Z,2022-10-20T02:30:45Z,2396,0,2022-WAGPF-001208,Minimal,Undetermined,NFIS,29,2.1,NA,Washington
+Kalama Fire,WA,Cowlitz,"6 miles North of Cougar, WA",WF,46.13498,-122.3171,2022-09-01T02:40:00Z,2022-10-21T04:48:58Z,497,43,2022-WAGPF-001028,Minimal,Undetermined,NFIS,51,1.1,NA,Washington
+Siouxon Fire,WA,Skamania,"13 miles NW of Stabler, WA",WF,45.93077,-122.0664,2022-09-23T01:09:00Z,2022-10-20T02:30:45Z,2396,0,2022-WAGPF-001208,Minimal,Undetermined,NFIS,29,2.2,NA,Washington
 Sunset Fire,WA,Skamania,"8 miles E of Moulton, WA",WF,45.82913,-122.1601,2022-10-16T16:15:00Z,2022-10-20T08:49:44Z,139,0,2022-WAGPF-001359,Minimal,Undetermined,NFIS,5,1.9,NA,Washington
 Nebo Fire,OR,Wallowa,"21 Miles SE of Enterprise, OR.  Near Mount Nebo.",WF,45.14103,-117.1131,2022-08-25T23:19:00Z,2022-10-21T17:31:25Z,12609,94,2022-ORWWF-000380,Minimal,Natural,NFIS,57,0.5,NA,Oregon
 Loc Pond Ridge Road Fire,IL,Jackson,NA,WF,37.7308,-89.392717,2022-10-21T21:06:55Z,2022-10-21T23:21:38Z,0.1,NA,2022-ILSHF-220498,NA,Undetermined,NFIS,0,0.3,NA,Illinois
