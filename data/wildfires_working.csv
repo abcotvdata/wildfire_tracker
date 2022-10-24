@@ -1,12 +1,12 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-10-19T12:29:37Z,130198,80,2022-IDSCF-022105,Moderate,Human,NFIS,98,5.3,NA,Idaho
-Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles east of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-10-22T13:57:50Z,127283,55,2022-ORWIF-220180,Minimal,Natural,NFIS,84,2.2,NA,Oregon
+Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles east of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-10-22T13:57:50Z,127283,55,2022-ORWIF-220180,Minimal,Natural,NFIS,84,2.3,NA,Oregon
 Goat Rocks Fire,WA,Lewis,"Packwood, WA",WF,46.629867,-121.5142,2022-08-09T16:43:00Z,2022-10-23T00:40:03Z,6196,9,2022-WAGPF-000743,Minimal,Natural,NFIS,76,1.8,NA,Washington
 White River Fire,WA,Chelan,"Leavenworth, Plain, and Lake Wenatchee",WF,47.88238,-120.8982,2022-08-11T13:17:00Z,2022-10-18T20:09:25Z,5640,10,2022-WAOWF-000319,Moderate,Natural,NFIS,74,6,NA,Washington
 Ross Fork Fire,ID,Camas,"2 miles west of Smiley Creek, 1 mile south of Alturas Lake",WF,43.78911,-115.0113,2022-08-14T20:25:00Z,2022-10-21T19:06:04Z,38013,85,2022-IDSTF-000193,Minimal,Natural,NFIS,70,3,NA,Idaho
 Murphy Lake Fire,WA,King,West of Murphy Lakes,WF,47.67096,-121.1208,2022-08-18T19:29:00Z,2022-10-20T18:07:32Z,444,0,2022-WAMSF-000267,Minimal,Natural,NFIS,67,4.1,NA,Washington
 Sturgill Fire,OR,Wallowa,"15 Miles SW of Enterprise, OR.  Intersection of Minam and North Minam Rivers.",WF,45.28514,-117.5504,2022-08-22T19:08:00Z,2022-10-22T05:57:18Z,23162,80,2022-ORWWF-000334,Moderate,Natural,NFIS,63,2.6,NA,Oregon
-Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-10-22T05:57:18Z,584,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,61,2.6,NA,Oregon
+Goat Mountain Two Fire,OR,Wallowa,"9 Miles South of Lostine, OR.",WF,45.94382,-116.9755,2022-08-23T19:56:00Z,2022-10-22T05:57:18Z,584,0,2022-ORWWF-000353,Minimal,Undetermined,NFIS,62,2.6,NA,Oregon
 Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:00Z,2022-10-20T16:49:35Z,126,0,2022-WAOWF-000397,Minimal,Undetermined,NFIS,61,4.1,NA,Washington
 Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:37Z,2022-10-24T15:47:43Z,14213,85,2022-IDIPF-000515,Active,Undetermined,NFIS,60,0.2,NA,Idaho
 Copper Lake Fire,WA,Whatcom,Copper Ridge in the Chilliwack River Drainage,WF,48.9413,-121.4481,2022-08-24T23:20:00Z,2022-10-18T21:41:29Z,2182,0,2022-WANCP-000300,Minimal,Undetermined,NFIS,60,5.9,NA,Washington
@@ -39,3 +39,4 @@ Montague Plains Wma-Blitzer-Dfg-Rx Fire,MA,Franklin,NA,RX,NA,NA,2022-10-21T16:10
 Scoffner Fire,MN,Cass,NA,WF,46.98329,-94.61852,2022-10-23T15:10:40Z,2022-10-24T15:41:16Z,23,NA,2022-MNCPF-000354,NA,Undetermined,NFIS,1,0.2,NA,Minnesota
 Johnson Lake Fire,MN,St. Louis,NA,WF,47.8087,-91.93119,2022-10-23T22:20:00Z,2022-10-24T00:34:40Z,2,NA,2022-MNSUF-000356,NA,Human,NFIS,0,0.8,NA,Minnesota
 Bay Mill Fire,MO,Ripley,NA,WF,36.703133,-90.850617,2022-10-24T09:30:00Z,2022-10-24T15:04:56Z,5.85,NA,2022-MOMTF-000453,NA,Undetermined,NFIS,0,0.2,NA,Missouri
+Curd Fire,KY,Whitley,NA,WF,36.91991,-84.28319,2022-10-24T12:21:00Z,2022-10-24T19:51:08Z,13.1,NA,2022-KYDBF-000150,NA,Undetermined,NFIS,0,0,NA,Kentucky
