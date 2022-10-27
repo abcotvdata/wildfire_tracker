@@ -1,6 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Vale Fire Fire,MN,Sibley,NA,WF,NA,NA,2022-10-23T00:00:24Z,2022-10-25T16:35:11Z,24.5,NA,2022-MNMNS-343012,NA,NA,NFIS,4,1.7,NA,Minnesota
-Bay Mill Fire,MO,Ripley,NA,WF,36.703133,-90.850617,2022-10-24T09:30:00Z,2022-10-24T15:04:56Z,5.85,NA,2022-MOMTF-000453,NA,Undetermined,NFIS,2,2.8,NA,Missouri
+Bay Mill Fire,MO,Ripley,NA,WF,36.703133,-90.850617,2022-10-24T09:30:00Z,2022-10-24T15:04:56Z,5.85,NA,2022-MOMTF-000453,NA,Undetermined,NFIS,3,2.8,NA,Missouri
 Boulder Lake Fire,WA,Skagit,"Darrington Ranger District, Tenas River Drainage",WF,48.19115,-121.6294,2022-08-25T00:20:00Z,2022-10-20T16:39:13Z,2317,0,2022-WAMSF-000304,Minimal,Natural,NFIS,63,6.7,NA,Washington
 Meander Fire,WA,Chelan,"Cady Ridge, Little Wenatchee Drainage",WF,47.93219,-121.1153,2022-08-24T17:22:00Z,2022-10-20T16:49:35Z,126,0,2022-WAOWF-000397,Minimal,Undetermined,NFIS,63,6.7,NA,Washington
 Cedar Creek Fire,OR,Lane,"15 miles east of Oakridge, OR and 3 miles east of Waldo Lake",WF,43.70266,-122.1398,2022-08-01T16:39:00Z,2022-10-22T13:57:50Z,127283,60,2022-ORWIF-220180,Minimal,Natural,NFIS,86,4.8,NA,Oregon
@@ -10,11 +10,11 @@ Billiard Fire,MT,Sanders,NA,WF,48.0933,-115.9279,2022-09-01T04:44:19Z,2022-10-21
 Powers Church Road Fire,IL,Massac,NA,WF,37.1895,-88.621111,2022-10-24T21:45:00Z,2022-10-25T16:46:52Z,78.1,NA,2022-ILILS-220501,NA,Human,NFIS,2,1.7,NA,Illinois
 Slick Ear Fire,OR,Wallowa,"23 Miles East of Walla Walla, Washington",WF,45.97154,-117.778,2022-09-14T23:53:00Z,2022-10-19T18:51:57Z,243,0,2022-ORUMF-000479,Moderate,Natural,NFIS,42,7.6,NA,Oregon
 Tillicum Creek Fire,WA,Pend Oreille,NA,WF,48.73362,-117.106,2022-10-01T19:30:03Z,2022-10-21T23:04:41Z,240,NA,2022-IDIPF-000826,NA,Natural,NFIS,25,5.4,NA,Washington
-Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-10-24T15:47:43Z,423,0,2022-IDIPF-000629,NA,Undetermined,NFIS,56,2.7,NA,Idaho
+Katka Fire,ID,Boundary,NA,WF,48.64397,-116.1563,2022-09-01T04:02:00Z,2022-10-24T15:47:43Z,423,0,2022-IDIPF-000629,NA,Undetermined,NFIS,56,2.8,NA,Idaho
 New Holland Fire,SD,Mellette,NA,WF,NA,NA,2022-10-17T22:06:00Z,2022-10-24T20:58:49Z,45,NA,2022-SDRBA-1666278342,NA,Human,NFIS,9,2.5,NA,South Dakota
 Cliff Lake Fire Fire,MN,Becker,NA,WF,NA,NA,2022-10-20T20:20:43Z,2022-10-25T21:01:46Z,15,NA,2022-MNMNS-161-028,NA,NA,NFIS,6,1.5,NA,Minnesota
-Murphy Lake Fire,WA,King,West of Murphy Lakes,WF,47.67096,-121.1208,2022-08-18T19:29:00Z,2022-10-20T18:07:32Z,444,0,2022-WAMSF-000267,Minimal,Natural,NFIS,69,6.6,NA,Washington
-Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-10-20T18:07:32Z,14820,51,2022-WANWS-000150,Minimal,Undetermined,NFIS,46,6.6,NA,Washington
+Murphy Lake Fire,WA,King,West of Murphy Lakes,WF,47.67096,-121.1208,2022-08-18T19:29:00Z,2022-10-20T18:07:32Z,444,0,2022-WAMSF-000267,Minimal,Natural,NFIS,69,6.7,NA,Washington
+Bolt Creek Fire,WA,King,"One and a half miles north of Skykomish, WA",WF,47.75788,-121.3085,2022-09-10T14:35:00Z,2022-10-20T18:07:32Z,14820,51,2022-WANWS-000150,Minimal,Undetermined,NFIS,46,6.7,NA,Washington
 Unit B Central Tract Freetown Sf Fire,MA,Bristol,NA,RX,NA,NA,2022-10-22T15:45:28Z,2022-10-26T21:35:22Z,20,NA,2022-MAMAS-DCRRX-0305,NA,NA,NFIS,4,0.5,NA,Massachusetts
 Montague Plains Wma-Blitzer-Dfg-Rx Fire,MA,Franklin,NA,RX,NA,NA,2022-10-21T16:10:31Z,2022-10-24T12:58:44Z,22,NA,2022-MAMAS-DFG-RX26,NA,NA,NFIS,5,2.9,NA,Massachusetts
 Moose Fire,ID,Lemhi,"17 miles north of Salmon, Idaho",WF,45.37942,-114.0808,2022-07-17T22:04:00Z,2022-10-19T12:29:37Z,130198,80,2022-IDSCF-022105,Moderate,Human,NFIS,101,7.9,NA,Idaho
@@ -29,8 +29,8 @@ Kalama Fire,WA,Cowlitz,"6 miles North of Cougar, WA",WF,46.13498,-122.3171,2022-
 Siouxon Fire,WA,Skamania,"13 miles NW of Stabler, WA",WF,45.93077,-122.0664,2022-09-23T01:09:00Z,2022-10-20T02:30:45Z,2359,0,2022-WAGPF-001208,Minimal,Undetermined,NFIS,34,7.3,NA,Washington
 Sunset Fire,WA,Skamania,"8 miles E of Moulton, WA",WF,45.82913,-122.1601,2022-10-16T16:15:00Z,2022-10-20T08:49:44Z,277,0,2022-WAGPF-001359,Minimal,Undetermined,NFIS,10,7,NA,Washington
 Unit A Central Tract Freetown Sf Fire,MA,Bristol,NA,RX,NA,NA,2022-10-21T15:30:52Z,2022-10-26T21:31:15Z,9,NA,2022-MAMAS-DCRRX-0304,NA,NA,NFIS,5,0.5,NA,Massachusetts
-Long Canyon Fire,ID,Boundary,NA,WF,48.91919,-116.5839,2022-09-16T23:23:34Z,2022-10-24T15:47:43Z,836,0,2022-IDIPF-000771,NA,Natural,NFIS,40,2.7,NA,Idaho
-Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:37Z,2022-10-24T15:47:43Z,14213,85,2022-IDIPF-000515,Active,Undetermined,NFIS,63,2.7,NA,Idaho
+Long Canyon Fire,ID,Boundary,NA,WF,48.91919,-116.5839,2022-09-16T23:23:34Z,2022-10-24T15:47:43Z,836,0,2022-IDIPF-000771,NA,Natural,NFIS,40,2.8,NA,Idaho
+Russell Mountain Fire,ID,Boundary,"13 miles northwest of Bonners Ferry, ID",WF,48.78625,-116.5709,2022-08-24T20:47:37Z,2022-10-24T15:47:43Z,14213,85,2022-IDIPF-000515,Active,Undetermined,NFIS,63,2.8,NA,Idaho
 Isabella Lake Fire,MT,Sanders,NA,WF,48.08196,-115.667,2022-09-01T16:06:30Z,2022-10-21T19:35:51Z,290,100,2022-MTKNF-000248,NA,Natural,NFIS,55,5.6,NA,Montana
 Curd Fire,KY,Whitley,NA,WF,36.91991,-84.28319,2022-10-24T12:21:00Z,2022-10-24T19:51:08Z,13.1,NA,2022-KYDBF-000150,NA,Undetermined,NFIS,2,2.6,NA,Kentucky
 142061 Fire,MN,Crow Wing,NA,WF,NA,NA,2022-10-22T20:33:12Z,2022-10-24T17:14:30Z,0.5,NA,2022-MNMNS-142061,NA,NA,NFIS,4,2.7,NA,Minnesota
