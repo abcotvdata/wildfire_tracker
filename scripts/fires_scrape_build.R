@@ -33,7 +33,7 @@ library(janitor)
 # this script won't stop; the map will be made with the last/newest data
 
 # Get active CALIFORNIA FIRES data from Calfire
-try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?inactive=false",
+try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?inactive=true",
                   "data/calfire_activefires.geojson"))
 
 # Get active FEDERAL WILDFIRE PERIMETERS from NFIS, which we use for both perimeters and points
@@ -340,10 +340,8 @@ headerhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
   "<div class='headline'>Wildfire Tracker</div>
   <div class='subheadline'>ABC News is tracking data about ",fires_count," wildfires nationwide. 
-  The most active state is <a href='https://abcotvdata.github.io/wildfire_tracker/",
-                            tolower(top_states[1,1]),
-                            "_map.html'>",
-                            top_states[1,1],"</a>, with ",
+  The most active state is ",
+                            top_states[1,1],", with ",
                             top_states[1,3]," fires that have burned ",
                             prettyNum(round(top_states[1,2],0),big.mark=",")," acres.
   Click on a fire for live status details. The buttons below add or remove more data about air quality, smoke and fire risk forecast. <div>")
@@ -353,11 +351,11 @@ headerhtml <- tags$div(
 caliheaderhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
                             "<div class='headline'>Wildfire Tracker</div>
-  <div class='subheadline'>We're tracking ",count(top_calfires)," wildfires statewide.  
-                            The largest is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
-                            top_calfires[1,1],"</a>, burning ",
-                            prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres. 
-                            Click on a fire for live status details. The buttons below add or remove data about air quality, smoke and the fire risk forecast.<div>")
+  <div class='subheadline'>We're tracking ",count(top_calfires)," wildfires statewide. ",  
+                       #     The largest is the <a href='https://abcotvdata.github.io/wildfire_tracker/largest_calfire_map.html'>",
+                        #    top_calfires[1,1],"</a>, burning ",
+                        #    prettyNum(round(top_calfires[1,10],0),big.mark=",")," acres. 
+                            "Click on a fire for live status details. The buttons below add or remove data about air quality, smoke and the fire risk forecast.<div>")
   )
 )
 
@@ -476,11 +474,11 @@ wildfire_map <- base_map %>%
 
 # Create customized versions zoomed to center of states with frequent fires
 # to create a nav ability from the header to zoom to states with most activity
-idaho_map <- wildfire_map %>% setView(-114.4, 45.3, zoom = 6)
+#idaho_map <- wildfire_map %>% setView(-114.4, 45.3, zoom = 6)
 #colorado_map <- wildfire_map %>% setView(-105.3, 39, zoom = 6)
 #arizona_map <- wildfire_map %>% setView(-111.5, 34.4, zoom = 6)
 #nevada_map <- wildfire_map %>% setView(-117.22, 39.87, zoom = 6)
-oregon_map <- wildfire_map %>% setView(-120.5, 44, zoom = 6)
+#oregon_map <- wildfire_map %>% setView(-120.5, 44, zoom = 6)
 #washington_map <- wildfire_map %>% setView(-120.74, 47.75, zoom = 6)
 #montana_map <- wildfire_map %>% setView(-112, 46.96, zoom = 6)
 #utah_map <- wildfire_map %>% setView(-111.95, 39.41, zoom = 6)
@@ -537,8 +535,8 @@ california_map <- base_map %>%
         document.getElementsByClassName('leaflet-control-layers')[0].style.display = 'none';
     }")
 
-largest_calfire_map <- california_map %>%
-  setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
+#largest_calfire_map <- california_map %>%
+#  setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
 
 # Create customized versions zoomed to our stations' regions of the state
 bayarea_map <- california_map %>% fitBounds(-123.5,36,-120.5,41)
@@ -548,18 +546,18 @@ socal_map <- california_map %>% fitBounds(-120.8358,32.5566,-114.5195,35.5286)
 ### SECTION 12. Write all leaflet maps to html. ###
 saveWidget(california_map, 'docs/california_map.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
 saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
-saveWidget(largest_calfire_map, 'docs/largest_calfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
+# saveWidget(largest_calfire_map, 'docs/largest_calfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
 
 saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker", selfcontained = TRUE)
 saveWidget(fresno_map, 'docs/fresno_map.html', title = "ABC30 Central Valley Wildfire Tracker", selfcontained = TRUE)
 saveWidget(socal_map, 'docs/socal_map.html', title = "ABC7 Southern California Wildfire Tracker", selfcontained = TRUE)
 
-saveWidget(idaho_map, 'docs/idaho_map.html', title = "ABC Owned Television Stations and ABC News Idaho Wildfire Tracker", selfcontained = TRUE)
+#saveWidget(idaho_map, 'docs/idaho_map.html', title = "ABC Owned Television Stations and ABC News Idaho Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(colorado_map, 'docs/colorado_map.html', title = "ABC Owned Television Stations and ABC News Colorado Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(nevada_map, 'docs/nevada_map.html', title = "ABC Owned Television Stations and ABC News Nevada Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(arizona_map, 'docs/arizona_map.html', title = "ABC Owned Television Stations and ABC News Arizona Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(newmexico_map, 'docs/newmexico_map.html', title = "ABC Owned Television Stations and ABC News New Mexico Wildfire Tracker", selfcontained = TRUE)
-saveWidget(oregon_map, 'docs/oregon_map.html', title = "ABC Owned Television Stations and ABC News Oregon Wildfire Tracker", selfcontained = TRUE)
+# saveWidget(oregon_map, 'docs/oregon_map.html', title = "ABC Owned Television Stations and ABC News Oregon Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(washington_map, 'docs/washington_map.html', title = "ABC Owned Television Stations and ABC News Wyoming Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(wyoming_map, 'docs/wyoming_map.html', title = "ABC Owned Television Stations and ABC News Wyoming Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(utah_map, 'docs/utah_map.html', title = "ABC Owned Television Stations and ABC News Utah Wildfire Tracker", selfcontained = TRUE)
