@@ -1,6 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,info_url,state_name
 Ocmulgee Bluffs Fire,GA,Jones,NA,WF,33.0357,-83.7232,2022-11-09T17:45:30Z,2022-11-28T18:00:05Z,175,NA,2022-GACHF-220103,NA,Undetermined,NFIS,19,1,NA,Georgia
-98 Delta Fire,OR,Clatsop,"Approximately 40 miles East of Seaside, Oregon",WF,NA,NA,2022-11-16T12:00:00Z,2022-11-28T18:41:42Z,290,50,2022-OR520S-521110,Minimal,Human,NFIS,13,0.9,NA,Oregon
+98 Delta Fire,OR,Clatsop,"Approximately 40 miles East of Seaside, Oregon",WF,NA,NA,2022-11-16T12:00:00Z,2022-11-28T18:41:42Z,290,50,2022-OR520S-521110,Minimal,Human,NFIS,13,1,NA,Oregon
 Turkey Day Fire,SD,Oglala Lakota,9.5 miles North of Manderson SD on BIA Hwy 33,WF,NA,NA,2022-11-23T18:00:00Z,2022-11-24T21:54:21Z,5945,90,2022-SDPRA-000185,Minimal,Undetermined,NFIS,5,4.8,NA,South Dakota
 Hurricane Ridge Fire,NC,Haywood,Harmon Den / Horse Camp / Wildlife Mgmt. Area,WF,35.7375,-82.998167,2022-11-23T18:27:00Z,2022-11-28T20:51:34Z,151,0,2022-NCNCF-220280,Active,Undetermined,NFIS,5,0.9,NA,North Carolina
 Chinook Fire,WA,Pacific,NA,WF,46.27925,-123.9227,2022-11-15T19:09:08Z,2022-11-22T02:17:24Z,120,NA,2022-WAPCS-000247,NA,Undetermined,NFIS,13,7.6,NA,Washington
