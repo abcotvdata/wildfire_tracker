@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '*/45 * * * *'
+    - cron: '0 8 * * *'
       # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
