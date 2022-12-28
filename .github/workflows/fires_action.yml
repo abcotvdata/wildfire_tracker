@@ -9,7 +9,7 @@ name: Wildfire data maps scrape reshape build
 jobs:
   render:
     name: Scrape fire data
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: r-lib/actions/setup-r@v2
