@@ -180,8 +180,8 @@ fed_fires$days_sinceupdate <- round(difftime(Sys.time(),fed_fires$updated, units
 # filter out small fires and old fires not updated for more than a week
 # except for leaving in very new fires
 fed_fires <- fed_fires %>%
-  filter(acres_burned>99 & days_sinceupdate<90 |
-           days_sinceupdate<90)
+  filter(acres_burned>99 & days_sinceupdate<60 |
+           days_sinceupdate<60)
 
 # Fix fire name field so it's consistent as possible across all data we're using
 fed_fires$name <- str_to_title(fed_fires$name)
@@ -213,39 +213,59 @@ nfis_perimeters$name <- paste0(nfis_perimeters$name," Fire")
 calfire_activefires <- st_read("data/calfire_activefires.geojson")
 
 # Simplify, standardize version of California Fires from CalFire's active list
-cal_fires <- calfire_activefires %>%
+try(
+  cal_fires <- calfire_activefires %>%
   mutate(state="CA") %>%
   select(1,25,7,8,15,14,13,4,3,9,10,17) %>%
   st_drop_geometry() %>%
   mutate(source="Cal Fire")
+)
+try(
 names(cal_fires) <- c("name", "state", "county", 
                       "location", "type", "latitude", "longitude", 
                       "started", "updated", "acres_burned", "percent_contained",
                       "info_url","source")
+)
+
 # clean numeric fields
+try(
 cal_fires$acres_burned <- round(as.numeric(cal_fires$acres_burned),0)
+)
+try(
 cal_fires$percent_contained <- as.numeric(cal_fires$percent_contained)
+)
 # calculating fields for time passed elements in popups and for filtering old fires
+try(
 cal_fires$days_burning <- floor(difftime(Sys.Date(),cal_fires$started, units="days"))+1
+)
+try(
 cal_fires$days_sinceupdate <- floor(difftime(Sys.Date(),cal_fires$updated, units="days"))+1
+)
 # OPEN WORK: Verify and solve the time zones for the math for
 # both the California and federal files' time stamps
+try(
 cal_fires$name <- trimws(cal_fires$name)
+)
 # filter out small fires and old fires not updated for more than a week
 # except for leaving in very new fires
-cal_fires <- cal_fires %>%
+try(
+  cal_fires <- cal_fires %>%
   filter(acres_burned>99 & days_sinceupdate<8 |
            days_sinceupdate<3)
+)
 
 ### SECTION 6. Merge federal and California fire points. ###
 
 # Temporarily reduce California file
-cal_fires_unique <- cal_fires %>%
+try(
+  cal_fires_unique <- cal_fires %>%
   filter(!cal_fires$name %in% fed_fires$name)
+)
 
 # Combine into one file and clean up
-fires <- bind_rows(fed_fires,cal_fires_unique)
-rm(cal_fires_unique)
+fires <- fed_fires
+try(fires <- bind_rows(fires,cal_fires_unique))
+try(rm(cal_fires_unique))
 # Add full state name; pulling states from R built in reference data
 states <- as.data.frame(cbind(state.abb,state.name)) %>% janitor::clean_names()
 fires <- left_join(fires,states,by=c("state"="state_abb"))
