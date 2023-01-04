@@ -90,14 +90,50 @@ usfs_forecast$longitude <- as.numeric(usfs_forecast$longitude)
 
 # Load/read three satellites shapefiles
 hotspots_modis <- read_csv("data/hotspots_modis.csv", 
-                           col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
-                                            acq_time = col_time(format = "%H%M")))
+                           col_types = cols(satellite = col_character(),
+                                            latitude = col_number(),
+                                            longitude = col_number(),
+                                            scan = col_number(),
+                                            track = col_number(),
+                                            frp = col_number(),
+                                            bright_t31 = col_number(),
+                                            brightness = col_number(),
+                                            confidence = col_character(),
+                                            version = col_character(),
+                                            daynight = col_character(),
+                                            acq_date = col_date(format = "%Y-%m-%d"), 
+                                            acq_time = col_time(format = "%H%M")
+                                            ))
 hotspots_noaa20 <- read_csv("data/hotspots_noaa20.csv", 
-                            col_types = cols(satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
-                                             acq_time = col_time(format = "%H%M")))
+                            col_types = cols(satellite = col_character(),
+                                             latitude = col_number(),
+                                             longitude = col_number(),
+                                             scan = col_number(),
+                                             track = col_number(),
+                                             frp = col_number(),
+                                             bright_ti5 = col_number(),
+                                             bright_ti4 = col_number(),
+                                             confidence = col_character(),
+                                             version = col_character(),
+                                             daynight = col_character(),
+                                             acq_date = col_date(format = "%Y-%m-%d"), 
+                                             acq_time = col_time(format = "%H%M")
+                            ))
 hotspots_npp <- read_csv("data/hotspots_npp.csv", 
-                         col_types = cols(bright_ti4 = col_double(), bright_ti5 = col_double(), frp = col_double(), scan = col_double(), track = col_double(), latitude = col_double(), longitude = col_double(), satellite = col_character(), confidence = col_character(), acq_date = col_date(format = "%Y-%m-%d"), 
-                                          acq_time = col_time(format = "%H%M")))
+                         col_types = cols(satellite = col_character(),
+                                          latitude = col_number(),
+                                          longitude = col_number(),
+                                          scan = col_number(),
+                                          track = col_number(),
+                                          frp = col_number(),
+                                          bright_ti5 = col_number(),
+                                          bright_ti4 = col_number(),
+                                          confidence = col_character(),
+                                          version = col_character(),
+                                          daynight = col_character(),
+                                          acq_date = col_date(format = "%Y-%m-%d"), 
+                                          acq_time = col_time(format = "%H%M")
+                         ))
 
 # Combine those three hotspots files into a single geo layer, then clean up
 hotspots <- bind_rows(hotspots_modis,hotspots_noaa20,hotspots_npp)
@@ -144,8 +180,8 @@ fed_fires$days_sinceupdate <- round(difftime(Sys.time(),fed_fires$updated, units
 # filter out small fires and old fires not updated for more than a week
 # except for leaving in very new fires
 fed_fires <- fed_fires %>%
-  filter(acres_burned>99 & days_sinceupdate<8 |
-           days_sinceupdate<3)
+  filter(acres_burned>99 & days_sinceupdate<90 |
+           days_sinceupdate<90)
 
 # Fix fire name field so it's consistent as possible across all data we're using
 fed_fires$name <- str_to_title(fed_fires$name)
