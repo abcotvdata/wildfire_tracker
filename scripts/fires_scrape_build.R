@@ -600,13 +600,13 @@ fresno_map <- california_map %>% fitBounds(-121.1052,36.1837,-118.4987,37.5551)
 socal_map <- california_map %>% fitBounds(-120.8358,32.5566,-114.5195,35.5286)
 
 ### SECTION 12. Write all leaflet maps to html. ###
-saveWidget(california_map, 'docs/california_map.html', title = "ABC Owned Television Stations California Wildfire Tracker", selfcontained = TRUE)
-saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
-# saveWidget(largest_calfire_map, 'docs/largest_calfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker", selfcontained = TRUE)
+saveWidget(california_map, 'docs/california_map.html', title = "ABC Owned Television Stations California Wildfire Tracker")
+saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker")
+# saveWidget(largest_calfire_map, 'docs/largest_calfire_map.html', title = "ABC Owned Television Stations and ABC News U.S. Wildfire Tracker")
 
-saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker", selfcontained = TRUE)
-saveWidget(fresno_map, 'docs/fresno_map.html', title = "ABC30 Central Valley Wildfire Tracker", selfcontained = TRUE)
-saveWidget(socal_map, 'docs/socal_map.html', title = "ABC7 Southern California Wildfire Tracker", selfcontained = TRUE)
+saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker")
+saveWidget(fresno_map, 'docs/fresno_map.html', title = "ABC30 Central Valley Wildfire Tracker")
+saveWidget(socal_map, 'docs/socal_map.html', title = "ABC7 Southern California Wildfire Tracker")
 
 #saveWidget(idaho_map, 'docs/idaho_map.html', title = "ABC Owned Television Stations and ABC News Idaho Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(colorado_map, 'docs/colorado_map.html', title = "ABC Owned Television Stations and ABC News Colorado Wildfire Tracker", selfcontained = TRUE)

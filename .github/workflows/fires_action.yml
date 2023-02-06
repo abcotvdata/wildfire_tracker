@@ -1,7 +1,8 @@
 on:
   schedule:
-    - cron: '0 0/4 * * *'
-      # Allows you to run this workflow manually from the Actions tab
+    - cron: '0 0/6 * * *'
+      # Above is temporary for winter season; change back 2 hours in late
+      # sping and then to 2 in summer and 1 during height of fire season
   workflow_dispatch:
 
 name: Wildfire data maps scrape reshape build
