@@ -180,8 +180,8 @@ fed_fires$days_sinceupdate <- round(difftime(Sys.time(),fed_fires$updated, units
 # filter out small fires and old fires not updated for more than a week
 # except for leaving in very new fires
 fed_fires <- fed_fires %>%
-  filter(acres_burned>99 & days_sinceupdate<60 |
-           days_sinceupdate<60)
+  filter(acres_burned>99 & days_sinceupdate<120 |
+           days_sinceupdate<120)
 
 # Fix fire name field so it's consistent as possible across all data we're using
 fed_fires$name <- str_to_title(fed_fires$name)
