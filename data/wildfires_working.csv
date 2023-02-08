@@ -1,2 +1,3 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,state_name
-Chinook Fire,WA,Pacific,NA,WF,46.27925,-123.9227,2022-11-15T19:09:08Z,2022-11-22T02:17:24Z,120,NA,2022-WAPCS-000247,NA,Human,NFIS,83,77.7,Washington
+Chinook Fire,WA,Pacific,NA,WF,46.27925,-123.9227,2022-11-15T19:09:08Z,2022-11-22T02:17:24Z,120,NA,2022-WAPCS-000247,NA,Human,NFIS,84,78,Washington
+Transformer Fire,OK,Osage,NA,WF,36.44855,-96.37297,2023-02-06T17:00:00Z,2023-02-07T20:01:47Z,2.69,NA,2023-OKOSA-000234,NA,Human,NFIS,1,0.2,Oklahoma
