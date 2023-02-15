@@ -1,3 +1,5 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,state_name
-Norwalk Fire,FL,Marion,NA,WF,29.42954,-81.74969,2023-02-08T18:19:52Z,2023-02-14T13:06:13Z,30,NA,2023-FLFNF-000485,NA,Undetermined,NFIS,6,1,Florida
-Graves Fire,OK,Osage,NA,WF,36.57473,-96.80323,2023-02-13T20:28:00Z,2023-02-13T22:42:38Z,30,NA,2023-OKOSA-000259,NA,Human,NFIS,1,1.6,Oklahoma
+Shubert Fire Fire,NM,Mora,NA,WF,35.89291,-104.7333,2023-02-02T21:45:00Z,2023-02-15T17:52:43Z,500,NA,2023-NMN4S-000017,NA,Human,NFIS,12,0,New Mexico
+Mogote Fire,NM,Mora,15 Miles South East of Wagon Mound NM,WF,35.85579,-104.7075,2023-02-06T19:00:00Z,2023-02-15T17:53:11Z,3803,100,2023-NMN4S-000018,Minimal,Undetermined,NFIS,8,0,New Mexico
+Norwalk Fire,FL,Marion,NA,WF,29.42954,-81.74969,2023-02-08T18:19:52Z,2023-02-14T13:06:13Z,30,NA,2023-FLFNF-000485,NA,Undetermined,NFIS,7,1.2,Florida
+Graves Fire,OK,Osage,NA,WF,36.57473,-96.80323,2023-02-13T20:28:00Z,2023-02-13T22:42:38Z,30,NA,2023-OKOSA-000259,NA,Human,NFIS,1,1.8,Oklahoma
