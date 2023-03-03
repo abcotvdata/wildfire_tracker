@@ -1,7 +1,6 @@
 name,state,county,location,type,latitude,longitude,started,updated,acres_burned,percent_contained,fed_fire_id,fire_behavior,fire_cause,source,days_burning,days_sinceupdate,state_name
-Dumb Betty Branch Fire,KY,Breathitt,5.5 miles east of Jackson KY.,WF,NA,NA,2023-02-14T19:15:00Z,2023-02-24T18:19:00Z,416,100,2023-KYKYS-0230250119,Minimal,Human,NFIS,15,6,Kentucky
-Cedar Mt Fire,AR,Conway,NA,RX,35.44976,-92.71834,2023-02-18T14:36:39Z,2023-03-01T18:27:10Z,661,NA,2023-AROZF-000287,NA,Undetermined,NFIS,12,1,Arkansas
-Woolverton Fire,AR,Conway,"8 Austin road, Center Ridge, AR",WF,NA,NA,2023-02-20T23:15:00Z,2023-03-01T18:31:19Z,122,100,2023-ARARS-0008D7,Minimal,Human,NFIS,9,1,Arkansas
-Solar Park Fire,TX,Jeff Davis,"6.5 miles west of Fort Davis, TX",WF,30.62866667,-104.00571667,2023-02-27T01:30:59Z,2023-03-01T21:02:46Z,2816,75,2023-TXTXS-230628,Moderate,Human,NFIS,3,0.9,Texas
-Slade Fire,MS,Forrest,"2 Miles East of Maxie, MS",WF,30.97684,-89.16817,2023-03-01T01:59:00Z,2023-03-01T14:07:06Z,199,90,2023-MSMNF-000130,Minimal,Human,NFIS,1,1.2,Mississippi
-Mill Fire,IN,Lawrence,NA,WF,38.856328,-86.659008,2023-03-01T19:37:00Z,2023-03-02T13:31:09Z,15,NA,2023-INHOF-230018,NA,Undetermined,NFIS,0,0.2,Indiana
+Cedar Mt Fire,AR,Conway,NA,RX,35.44976,-92.71834,2023-02-18T14:36:39Z,2023-03-01T18:27:10Z,661,NA,2023-AROZF-000287,NA,Undetermined,NFIS,12,1.4,Arkansas
+Woolverton Fire,AR,Conway,"8 Austin road, Center Ridge, AR",WF,NA,NA,2023-02-20T23:15:00Z,2023-03-01T18:31:19Z,122,100,2023-ARARS-0008D7,Minimal,Human,NFIS,10,1.4,Arkansas
+Solar Park Fire,TX,Jeff Davis,"6.5 miles west of Fort Davis, TX",WF,30.62866667,-104.00571667,2023-02-27T01:30:59Z,2023-03-01T21:02:46Z,2816,85,2023-TXTXS-230628,Moderate,Undetermined,NFIS,4,1.3,Texas
+Slade Fire,MS,Forrest,"2 Miles East of Maxie, MS",WF,30.97684,-89.16817,2023-03-01T01:59:00Z,2023-03-01T14:07:06Z,199,90,2023-MSMNF-000130,Minimal,Human,NFIS,2,1.5,Mississippi
+Mill Fire,IN,Lawrence,NA,WF,38.856328,-86.659008,2023-03-01T19:37:00Z,2023-03-02T21:06:25Z,15,NA,2023-INHOF-230018,NA,Undetermined,NFIS,1,0.3,Indiana
