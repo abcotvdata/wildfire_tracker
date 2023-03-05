@@ -42,15 +42,10 @@ try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?i
 #                  "data/active_points.geojson"))
 #try(download.file("https://opendata.arcgis.com/datasets/2191f997056547bd9dc530ab9866ab61_0.geojson",
 #                 "data/active_perimeters2.geojson"))
-try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Perimeters/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
+# try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Perimeters/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
+#                  "data/active_perimeters.geojson"))
+try(download.file("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
                   "data/active_perimeters.geojson"))
-
-https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_YearToDate/FeatureServer/0/query?where=0%3D0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&relationParam=&returnGeodetic=false&outFields=*&returnGeometry=true&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&defaultSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pgeojson
-
-https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?where=0%3D0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&relationParam=&returnGeodetic=false&outFields=&returnGeometry=true&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&defaultSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pgeojson
-
-
-
 
 # Get latest AIR QUALITY geojson polygon data from government's AirNow
 try(download.file("https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/AirNowLatestContoursCombined/FeatureServer/0/query?where=0%3D0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pgeojson",
@@ -145,73 +140,64 @@ hotspots_npp <- read_csv("data/hotspots_npp.csv",
 hotspots <- bind_rows(hotspots_modis,hotspots_noaa20,hotspots_npp)
 rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
 
-
-### SECTION 4. Read in and reshape Federal fire data into points and polygons. ###
-
-# Load/read federal fire perimeters and downsize to just what we need for project
-nfis_perimeters <- st_read("data/active_perimeters.geojson") %>%
-  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
-#nfis_perimeters2 <- st_read("data/active_perimeters2.geojson") %>%
-#  select(1,2,6,7,9,10,17,18,19,20,24,28,33,48,49,50,52,53,64,65,67,68,70,84,85,90,91,109)
-
-
-# Create tighter federal fire points file from current perimeters file
-fed_fires <- nfis_perimeters %>%
-  select(14,25,22,15,16,17,18,13,4,7,20,27,11,12) %>%
-  st_drop_geometry() %>%
-  mutate(source="NFIS")
-# Rename fields to match the California fire points file
-names(fed_fires) <- c("name", "state", "county", 
-                      "location", "type", "latitude", "longitude", 
-                      "started", "updated", "acres_burned", "percent_contained",
-                      "fed_fire_id","fire_behavior", "fire_cause","source")
-
 # saved function to convert the milliseconds from UTC 
 ms_to_date = function(ms, t0="1970-01-01", timezone) {
   sec = ms / 1000
   as.POSIXct(sec, origin=t0, tz=timezone)
 }
 
-# Convert started and updated fields to dates
-fed_fires$started <- ms_to_date(as.numeric(fed_fires$started), timezone="America/Los_Angeles")
-fed_fires$updated <- ms_to_date(as.numeric(fed_fires$updated), timezone="America/Los_Angeles")
+### SECTION 4. Read in and reshape Federal fire data into points and polygons. ###
 
-# Clean numeric fields, round for days burning and days since update for later filtering
-fed_fires$days_burning <- floor(difftime(Sys.time(),fed_fires$started, units="days"))
-fed_fires$days_sinceupdate <- round(difftime(Sys.time(),fed_fires$updated, units="days"),1)
-# OPEN WORK: Verify and solve the time zones for the math for Calif. and fed time stamps
-# Currently the time is being converted during processing to Pacific Time; Sys.time calc is adjusting
-# Quick save note: ET to PT 10800 seconds, UTC to PT (25200 during ST and 28800 during DST)
+# Read in federal fire perimeters and select relevant columns
+nfis_perimeters <- st_read("data/active_perimeters.geojson") %>% 
+  select(attr_UniqueFireIdentifier, poly_IncidentName, attr_POOState, attr_POOCounty, 
+         attr_FireDiscoveryDateTime, poly_DateCurrent, attr_IncidentSize,attr_PercentContained,
+         attr_IncidentTypeCategory, attr_FireBehaviorGeneral, attr_FireCause,
+         attr_InitialLatitude,attr_InitialLongitude) %>% 
+  rename(fed_fire_id = attr_UniqueFireIdentifier, 
+         name = poly_IncidentName, 
+         state = attr_POOState,
+         county = attr_POOCounty,
+         started = attr_FireDiscoveryDateTime, 
+         updated = poly_DateCurrent, 
+         acres_burned = attr_IncidentSize,
+         percent_contained = attr_PercentContained,
+         type = attr_IncidentTypeCategory,
+         fire_behavior = attr_FireBehaviorGeneral, 
+         fire_cause = attr_FireCause,
+         latitude = attr_InitialLatitude,
+         longitude = attr_InitialLongitude)
 
-# filter out small fires and old fires not updated for more than a week
-# except for leaving in very new fires
-fed_fires <- fed_fires %>%
-  filter(acres_burned>99 & days_sinceupdate<120 |
-           days_sinceupdate<120)
+# Convert milliseconds to dates and clean numeric fields
+fed_fires <- nfis_perimeters %>% 
+  st_drop_geometry() %>%
+  mutate(source="NFIS") %>%
+  mutate_at(vars(started, updated), ms_to_date, t0 = "1970-01-01", timezone = "America/Los_Angeles") %>% 
+  mutate(days_burning = floor(difftime(Sys.time(), started, units = "days")), 
+         days_sinceupdate = round(difftime(Sys.time(), updated, units = "days"), 1)) %>% 
+  filter(acres_burned > 99 & days_sinceupdate < 120 | days_sinceupdate < 120)
 
-# Fix fire name field so it's consistent as possible across all data we're using
-fed_fires$name <- str_to_title(fed_fires$name)
-fed_fires$name <- paste0(fed_fires$name," Fire")
-fed_fires$name <- gsub("  "," ",fed_fires$name)
-fed_fires$name <- trimws(fed_fires$name)
-# standardize state column
-fed_fires$state <- gsub("US-","", fed_fires$state)
+# Standardize fire name and state columns
+fed_fires <- fed_fires %>% 
+  mutate(name = str_to_title(name),
+         name = paste0(name, " Fire"),
+         name = gsub("  ", " ", name),
+         name = trimws(name),
+         state = gsub("US-", "", state))
+
+# Select relevant columns and filter to only include fires that remain in points file
+nfis_perimeters <- nfis_perimeters %>% 
+  select(name, fed_fire_id, geometry) %>% 
+  filter(fed_fire_id %in% fed_fires$fed_fire_id)
+
+# Standardize fire name column
+nfis_perimeters$name <- str_to_title(nfis_perimeters$name)
+nfis_perimeters$name <- paste0(nfis_perimeters$name, " Fire")
 
 # Leave in, but comment out until/unless needed for MANUAL FIRE EDITS
 # Manual fixes of a couple fires with mistaken geocoordinates for point origin
 # fed_fires$latitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", 35.69468,fed_fires$latitude)
 # fed_fires$longitude <- ifelse(fed_fires$fed_fire_id=="2022-NMSNF-000027", -105.335,fed_fires$longitude)
-
-# filter, shrink perimeters file to include only fields we need for layer
-# and only leaves in those fires that remain in points file
-nfis_perimeters <- nfis_perimeters %>%
-  select(2,27) %>%
-  filter(nfis_perimeters$irwin_UniqueFireIdentifier %in% fed_fires$fed_fire_id)
-# simplifies and standardizes col names
-names(nfis_perimeters) <- c("name", "fed_fire_id", "geometry")
-# Fix fire name field so it's consistent as possible across all data we're using
-nfis_perimeters$name <- str_to_title(nfis_perimeters$name)
-nfis_perimeters$name <- paste0(nfis_perimeters$name," Fire")
 
 ### SECTION 5. Read in and reshape California fire data. ###
 
@@ -285,17 +271,24 @@ write_csv(fires,"data/wildfires_working.csv")
 top_states <- fires %>%
   group_by(state_name) %>%
   summarise(acres=sum(acres_burned,na.rm = TRUE),count=n()) %>%
-  arrange(desc(acres))
+  arrange(desc(acres)) %>%
+  head(1)
 top_calfires <- fires %>%
   filter(state=="CA") %>%
-  arrange(desc(acres_burned))
+  arrange(desc(acres_burned)) %>% st_drop_geometry()
 
 # remove fires without lat longs yet so they can be mapped
 # validation shows these are tiny almost all <1ac and all <10ac
 fires <- fires %>% filter(!is.na(latitude) & !is.na(longitude))
 # Create flag for active vs. not for map icons
 fires$active <- if_else(fires$days_sinceupdate<4,"Yes","No")
-fires_count <- count(fires)
+# Create variables for header
+fires_count <- fires %>% st_drop_geometry() %>% count()
+fires_topstate <- top_states$state_name
+fires_topstatecount <- top_states$count
+fires_topstateacres <- prettyNum(top_states$acres,big.mark=",")
+
+
 
 # transform to properly projected spatial points data
 fires <- st_as_sf(fires, coords = c("longitude", "latitude"), 
@@ -403,9 +396,9 @@ headerhtml <- tags$div(
   "<div class='headline'>Wildfire Tracker</div>
   <div class='subheadline'>ABC News is tracking data about ",fires_count," wildfires nationwide. 
   The most active state is ",
-                            top_states[1,1],", with ",
-                            top_states[1,3]," fires that have burned ",
-                            prettyNum(round(top_states[1,2],0),big.mark=",")," acres.
+  fires_topstate,", with ",
+  fires_topstatecount," fires that have burned ",
+  fires_topstateacres," acres.
   Click on a fire for live status details. The buttons below add or remove more data about air quality, smoke and fire risk forecast. <div>")
   )
 )
