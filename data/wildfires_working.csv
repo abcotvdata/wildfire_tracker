@@ -1,31 +1,31 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2023-NMGNF-000191,Pass Fire,NM,Catron,2023-05-19T00:26:00Z,2023-06-15T19:02:45Z,48750,13,WF,Minimal,Natural,33.396264,-108.288375,NFIS,29,1.7,NA,NA,New Mexico
-2023-AZKNF-000337,Ridge Fire,AZ,Coconino,2023-06-05T01:08:00Z,2023-06-17T01:07:10Z,120,3,WF,Moderate,Natural,35.905733,-111.985694,NFIS,12,0.5,NA,NA,Arizona
-2023-VAVAF-230076,Falls Ridge Fire,VA,Shenandoah,2023-06-09T00:57:00Z,2023-06-11T14:33:22Z,270,100,WF,Minimal,Undetermined,38.880194,-78.760972,NFIS,8,5.9,NA,NA,Virginia
-2023-MN2NS-000009,Echo Lake Fire,MN,St. Louis,2023-06-07T20:49:48Z,2023-06-08T14:22:39Z,5,0,WF,Active,Natural,NA,NA,NFIS,9,8.9,NA,NA,Minnesota
-2023-NCNCS-230028,Pulp Road Fire,NC,Brunswick,2023-06-15T17:00:00Z,2023-06-16T22:27:02Z,2000,0,WF,Active,Human,NA,NA,NFIS,1,0.6,NA,NA,North Carolina
-2023-AZKNF-000336,Hull Fire,AZ,Coconino,2023-06-04T20:49:00Z,2023-06-17T01:03:06Z,145,5,WF,Moderate,Undetermined,35.946431,-111.993256,NFIS,12,0.5,NA,NA,Arizona
-2023-MN2PS-000032,Thursday Fire,MN,Carlton,2023-06-08T19:26:57Z,2023-06-12T15:39:49Z,5,NA,WF,NA,NA,NA,NA,NFIS,8,4.9,NA,NA,Minnesota
-2023-ORPENN-000097,Mt Hebron Fire,OR,Umatilla,2023-06-13T21:22:30Z,2023-06-17T01:46:57Z,370,100,WF,Minimal,Undetermined,45.677597,-118.756062,NFIS,3,0.4,NA,NA,Oregon
-2023-MN3VS-000014,000014 Fire,MN,Mille Lacs,2023-05-04T20:52:13Z,2023-05-19T19:07:19Z,2,100,WF,Minimal,Undetermined,NA,NA,NFIS,43,28.7,NA,NA,Minnesota
-2023-ORUM7N-000096,Hat Rock Fire,OR,Umatilla,2023-06-13T19:05:00Z,2023-06-17T01:46:57Z,16816,100,WF,Minimal,Undetermined,45.912324,-119.142789,NFIS,3,0.4,NA,NA,Oregon
-2023-NENES-230216,Lowery Fire,NE,Garfield,2023-04-11T19:42:00Z,2023-05-11T16:20:14Z,4691,100,WF,Minimal,Undetermined,41.98938,-99.10987,NFIS,66,36.8,NA,NA,Nebraska
-2023-AZCOF-000281,Volunteer Fire,AZ,Coconino,2023-05-23T22:38:46Z,2023-06-05T23:18:48Z,2675,90,WF,Minimal,Undetermined,35.11695,-111.952883,NFIS,24,11.5,NA,NA,Arizona
-2023-WAWFS-000227,Hover Park Fire,WA,Benton,2023-06-13T23:46:40Z,2023-06-17T01:46:57Z,411,90,WF,Minimal,Undetermined,46.084444,-118.961944,NFIS,3,0.4,NA,NA,Washington
-2023-WAYAA-000028,South Satus Fire,WA,Yakima,2023-06-12T20:13:00Z,2023-06-13T13:45:12Z,997,100,WF,Minimal,Undetermined,NA,NA,NFIS,4,3.9,NA,NA,Washington
-2023-AZCOF-000265,Miller Fire,AZ,Yavapai,2023-05-21T22:24:00Z,2023-05-27T23:31:11Z,35,70,WF,Minimal,Undetermined,34.955882,-111.834877,NFIS,26,20.5,NA,NA,Arizona
-2023-NCNCF-230180,Great Lakes Fire,NC,Craven,2023-04-19T23:14:00Z,2023-05-22T17:11:15Z,32156,95,WF,Minimal,Undetermined,34.86013,-77.05155,NFIS,58,25.8,NA,NA,North Carolina
-2023-AKFAS-311117,Ridgetop Fire,AK,Denali,2023-06-12T19:41:12Z,2023-06-14T00:22:17Z,250,70,WF,Minimal,Human,63.923283,-149.111067,NFIS,4,3.5,NA,NA,Alaska
-2023-AZCOF-000272,Wilbur Fire,AZ,Coconino,2023-05-22T22:30:00Z,2023-06-16T23:46:20Z,5228,26,WF,Moderate,Undetermined,34.570516,-111.479417,NFIS,25,0.5,NA,NA,Arizona
-2023-WASPD-000224,Hansen Road Fire,WA,Benton,2023-06-13T22:09:00Z,2023-06-17T01:46:57Z,6334,70,WF,Moderate,Undetermined,46.250102,-119.63223,NFIS,3,0.4,NA,NA,Washington
-2023-MNSUF-000180,Spice Lake Fire,MN,Lake,2023-06-13T20:33:00Z,2023-06-16T14:52:13Z,30,30,WF,Active,Undetermined,48.10145,-91.10495,NFIS,3,0.9,NA,NA,Minnesota
-2023-CAJTP-008414,Geology Fire,CA,Riverside,2023-06-10T22:41:00Z,2023-06-11T18:35:04Z,0.1,95,WF,Minimal,Undetermined,33.9567,-116.0777,NFIS,6,5.7,NA,NA,California
-2023-AKFAS-311122,Louise Creek Fire,AK,Denali,2023-06-15T06:18:37Z,2023-06-16T23:34:54Z,215,0,WF,Active,Natural,63.923167,-148.872667,NFIS,2,0.5,NA,NA,Alaska
-2023-WASPD-000242,R Junction Fire,WA,Grant,2023-06-16T20:42:00Z,2023-06-17T01:50:34Z,10,NA,WF,NA,Undetermined,46.737453,-119.917163,NFIS,0,0.4,NA,NA,Washington
-2023-WAWFS-000232,Ruppert Road Fire,WA,Benton,2023-06-14T02:31:59Z,2023-06-16T13:39:41Z,155,100,WF,Minimal,Undetermined,46.309333,-119.46,NFIS,3,0.9,NA,NA,Washington
-2023-MN2NS-000908,Slate Fire,MN,Lake,2023-05-27T21:16:55Z,2023-06-05T14:50:07Z,2,0,WF,Extreme,Undetermined,NA,NA,NFIS,20,11.9,NA,NA,Minnesota
-2023-AZTNF-000567,Bullet Fire,AZ,Maricopa,2023-06-04T21:15:00Z,2023-06-07T17:59:39Z,3240,100,WF,Minimal,Undetermined,33.64264,-111.5517,NFIS,12,9.8,NA,NA,Arizona
+2023-NMGNF-000191,Pass Fire,NM,Catron,2023-05-19T00:26:00Z,2023-06-15T19:02:45Z,48750,13,WF,Minimal,Natural,33.396264,-108.288375,NFIS,29,2,NA,NA,New Mexico
+2023-AZKNF-000337,Ridge Fire,AZ,Coconino,2023-06-05T01:08:00Z,2023-06-17T01:07:10Z,120,3,WF,Moderate,Natural,35.905733,-111.985694,NFIS,12,0.7,NA,NA,Arizona
+2023-VAVAF-230076,Falls Ridge Fire,VA,Shenandoah,2023-06-09T00:57:00Z,2023-06-11T14:33:22Z,270,100,WF,Minimal,Undetermined,38.880194,-78.760972,NFIS,8,6.2,NA,NA,Virginia
+2023-NCNCS-230028,Pulp Road Fire,NC,Brunswick,2023-06-15T17:00:00Z,2023-06-16T22:27:02Z,3500,0,WF,Active,Human,NA,NA,NFIS,2,0.8,NA,NA,North Carolina
+2023-AZCRD-000639,Skunk Fire,AZ,Mohave,2023-06-16T22:51:51Z,2023-06-17T16:27:06Z,4.2,NA,WF,NA,Undetermined,34.473801,-113.325996,NFIS,0,0.1,NA,NA,Arizona
+2023-AZKNF-000336,Hull Fire,AZ,Coconino,2023-06-04T20:49:00Z,2023-06-17T01:03:06Z,145,5,WF,Moderate,Undetermined,35.946431,-111.993256,NFIS,12,0.7,NA,NA,Arizona
+2023-MN2PS-000032,Thursday Fire,MN,Carlton,2023-06-08T19:26:57Z,2023-06-12T15:39:49Z,5,NA,WF,NA,NA,NA,NA,NFIS,8,5.1,NA,NA,Minnesota
+2023-ORPENN-000097,Mt Hebron Fire,OR,Umatilla,2023-06-13T21:22:30Z,2023-06-17T01:46:57Z,370,100,WF,Minimal,Undetermined,45.677597,-118.756062,NFIS,3,0.7,NA,NA,Oregon
+2023-MN3VS-000014,000014 Fire,MN,Mille Lacs,2023-05-04T20:52:13Z,2023-05-19T19:07:19Z,2,100,WF,Minimal,Undetermined,NA,NA,NFIS,43,29,NA,NA,Minnesota
+2023-ORUM7N-000096,Hat Rock Fire,OR,Umatilla,2023-06-13T19:05:00Z,2023-06-17T01:46:57Z,16816,100,WF,Minimal,Undetermined,45.912324,-119.142789,NFIS,3,0.7,NA,NA,Oregon
+2023-NENES-230216,Lowery Fire,NE,Garfield,2023-04-11T19:42:00Z,2023-05-11T16:20:14Z,4691,100,WF,Minimal,Undetermined,41.98938,-99.10987,NFIS,66,37.1,NA,NA,Nebraska
+2023-AZCOF-000281,Volunteer Fire,AZ,Coconino,2023-05-23T22:38:46Z,2023-06-05T23:18:48Z,2675,90,WF,Minimal,Undetermined,35.11695,-111.952883,NFIS,24,11.8,NA,NA,Arizona
+2023-WAWFS-000227,Hover Park Fire,WA,Benton,2023-06-13T23:46:40Z,2023-06-17T01:46:57Z,528,100,WF,Minimal,Undetermined,46.084444,-118.961944,NFIS,3,0.7,NA,NA,Washington
+2023-WAYAA-000028,South Satus Fire,WA,Yakima,2023-06-12T20:13:00Z,2023-06-13T13:45:12Z,997,100,WF,Minimal,Undetermined,NA,NA,NFIS,4,4.2,NA,NA,Washington
+2023-AZCOF-000265,Miller Fire,AZ,Yavapai,2023-05-21T22:24:00Z,2023-05-27T23:31:11Z,35,70,WF,Minimal,Undetermined,34.955882,-111.834877,NFIS,26,20.8,NA,NA,Arizona
+2023-NCNCF-230180,Great Lakes Fire,NC,Craven,2023-04-19T23:14:00Z,2023-05-22T17:11:15Z,32156,95,WF,Minimal,Undetermined,34.86013,-77.05155,NFIS,58,26,NA,NA,North Carolina
+2023-AKFAS-311117,Ridgetop Fire,AK,Denali,2023-06-12T19:41:12Z,2023-06-14T00:22:17Z,250,70,WF,Minimal,Human,63.923283,-149.111067,NFIS,4,3.7,NA,NA,Alaska
+2023-AZCOF-000272,Wilbur Fire,AZ,Coconino,2023-05-22T22:30:00Z,2023-06-17T17:12:30Z,5228,26,WF,Moderate,Undetermined,34.570516,-111.479417,NFIS,25,0,NA,NA,Arizona
+2023-WASPD-000224,Hansen Road Fire,WA,Benton,2023-06-13T22:09:00Z,2023-06-17T01:46:57Z,6289,100,WF,Minimal,Undetermined,46.250102,-119.63223,NFIS,3,0.7,NA,NA,Washington
+2023-MNSUF-000180,Spice Lake Fire,MN,Lake,2023-06-13T20:33:00Z,2023-06-16T14:52:13Z,30,30,WF,Active,Undetermined,48.10145,-91.10495,NFIS,3,1.1,NA,NA,Minnesota
+2023-CAJTP-008414,Geology Fire,CA,Riverside,2023-06-10T22:41:00Z,2023-06-11T18:35:04Z,0.1,95,WF,Minimal,Undetermined,33.9567,-116.0777,NFIS,6,6,NA,NA,California
+2023-AKFAS-311122,Louise Creek Fire,AK,Denali,2023-06-15T06:18:37Z,2023-06-16T23:34:54Z,215,0,WF,Active,Natural,63.923167,-148.872667,NFIS,2,0.8,NA,NA,Alaska
+2023-WASPD-000242,R Junction Fire,WA,Grant,2023-06-16T20:42:00Z,2023-06-17T01:50:34Z,10,NA,WF,NA,Undetermined,46.737453,-119.917163,NFIS,0,0.7,NA,NA,Washington
+2023-WAWFS-000232,Ruppert Road Fire,WA,Benton,2023-06-14T02:31:59Z,2023-06-16T13:39:41Z,155,100,WF,Minimal,Undetermined,46.309333,-119.46,NFIS,3,1.2,NA,NA,Washington
+2023-AZTNF-000567,Bullet Fire,AZ,Maricopa,2023-06-04T21:15:00Z,2023-06-07T17:59:39Z,3240,100,WF,Minimal,Undetermined,33.64264,-111.5517,NFIS,12,10,NA,NA,Arizona
 NA,Henderson Fire,CA,Lake,2023-06-14T16:41:00Z,2023-06-16T19:00:39Z,21,100,Wildfire,NA,NA,39.023,-122.7145,Cal Fire,3,1,"Henderson Drive and Terrace Drive, west of Clearlake Oaks in Lake County ",https://incidents.fire.ca.gov/incidents/2023/6/14/henderson-fire/,California
 NA,Frank Fire,CA,Tehama,2023-06-15T14:06:00Z,2023-06-16T19:01:39Z,32,100,Wildfire,NA,NA,40.2869,-122.5955,Cal Fire,2,1,"Hwy 36 and Frank Ball Road, northwest of Red Bluff",https://incidents.fire.ca.gov/incidents/2023/6/15/frank-fire/,California
-NA,Scott Fire,CA,Yuba,2023-06-15T17:26:28Z,2023-06-16T19:02:45Z,97,80,Wildfire,NA,NA,39.3256,-121.3686,Cal Fire,2,1,"Fargo Way and Dusty Trail, north of Browns Valley in Yuba County",https://incidents.fire.ca.gov/incidents/2023/6/15/scott-fire/,California
-NA,Snell Fire,CA,Napa,2023-06-16T17:36:16Z,2023-06-16T21:54:49Z,103,30,Wildfire,NA,NA,38.6994,-122.4379,Cal Fire,1,1,"Snell Valley Road and Walker Road, southeast of Middletown in Napa County",https://incidents.fire.ca.gov/incidents/2023/6/16/snell-fire/,California
+NA,Scott Fire,CA,Yuba,2023-06-15T17:26:28Z,2023-06-17T07:18:03Z,115,85,Wildfire,NA,NA,39.3256,-121.3686,Cal Fire,2,0,"Fargo Way and Dusty Trail, north of Browns Valley in Yuba County",https://incidents.fire.ca.gov/incidents/2023/6/15/scott-fire/,California
+NA,Wildcat Fire,CA,Fresno,2023-06-16T20:11:00Z,2023-06-17T07:51:37Z,NA,NA,Wildfire,NA,NA,36.9351,-119.2043,Cal Fire,1,0,"Forest Service Road 10S069 and Trimmer Springs Road, Pine Flat ",https://incidents.fire.ca.gov/incidents/2023/6/16/wildcat-fire/,California
+NA,Snell Fire,CA,Napa,2023-06-16T17:36:16Z,2023-06-17T07:18:18Z,103,45,Wildfire,NA,NA,38.6994,-122.4379,Cal Fire,1,0,"Snell Valley Road and Walker Road, southeast of Middletown in Napa County",https://incidents.fire.ca.gov/incidents/2023/6/16/snell-fire/,California
