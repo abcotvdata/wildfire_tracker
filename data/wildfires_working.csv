@@ -8,7 +8,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-WAWFS-000227,Hover Park Fire,WA,Benton,2023-06-13T23:46:40Z,2023-06-17T01:46:57Z,528,100,WF,Minimal,Undetermined,46.084444,-118.961944,NFIS,30,27.9,NA,NA,Washington
 2023-WAWFS-000232,Ruppert Road Fire,WA,Benton,2023-06-14T02:31:59Z,2023-06-16T13:39:41Z,155,100,WF,Minimal,Undetermined,46.309333,-119.46,NFIS,30,28.4,NA,NA,Washington
 2023-AZKNF-000391,Three Lakes Fire,AZ,Coconino,2023-06-16T23:06:00Z,2023-07-11T01:03:52Z,5450,70,WF,Moderate,Natural,36.633333,-112.2,NFIS,27,3.9,NA,NA,Arizona
-2023-WAWFS-000251,Oasis Fire,WA,Walla Walla,2023-06-19T22:22:00Z,2023-06-27T17:16:24Z,4250,100,WF,Moderate,Undetermined,46.069998,-118.814083,NFIS,24,17.2,NA,NA,Washington
+2023-WAWFS-000251,Oasis Fire,WA,Walla Walla,2023-06-19T22:22:00Z,2023-06-27T17:16:24Z,4250,100,WF,Moderate,Undetermined,46.069998,-118.814083,NFIS,25,17.2,NA,NA,Washington
 2023-COGFX-230097,Spring Creek Fire,CO,Garfield,2023-06-24T20:27:00Z,2023-07-10T21:55:15Z,3256,65,WF,Moderate,Undetermined,39.409718,-108.042769,NFIS,20,4,NA,NA,Colorado
 2023-AKTAS-313146,Billy Creek Fire,AK,Southeast Fairbanks,2023-06-26T03:36:36Z,2023-07-13T00:35:30Z,385,NA,WF,Minimal,Natural,63.782,-143.592,NFIS,18,1.9,NA,NA,Alaska
 2023-COAUX-000312,Coal Mine Fire,CO,Archuleta,2023-06-27T17:57:00Z,2023-07-05T23:58:35Z,292,100,WF,Minimal,Natural,37.0681,-107.0997,NFIS,17,8.9,NA,NA,Colorado
@@ -21,7 +21,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-WASES-000336,Tunnel Five Fire,WA,Skamania,2023-07-02T18:37:00Z,2023-07-10T18:10:53Z,546,100,WF,Minimal,Undetermined,45.722232,-121.579246,NFIS,12,4.2,NA,NA,Washington
 2023-NMN3S-000324,Brushy Fire,NM,Hidalgo,2023-07-03T18:52:00Z,2023-07-07T17:55:58Z,6045,100,WF,Minimal,Undetermined,31.53206,-108.68958,NFIS,11,7.2,NA,NA,New Mexico
 2023-IDNCF-000321,Little Bear Fire,ID,Idaho,2023-07-03T19:57:00Z,2023-07-11T17:07:29Z,253,0,WF,Moderate,Undetermined,46.443367,-114.897633,NFIS,11,3.2,NA,NA,Idaho
-2023-WAWFS-000350,Oie Highway Fire,WA,Benton,2023-07-03T23:32:35Z,2023-07-08T21:11:58Z,1300,100,WF,Minimal,Undetermined,46.26434,-119.569587,NFIS,10,6,NA,NA,Washington
+2023-WAWFS-000350,Oie Highway Fire,WA,Benton,2023-07-03T23:32:35Z,2023-07-08T21:11:58Z,1300,100,WF,Minimal,Undetermined,46.26434,-119.569587,NFIS,10,6.1,NA,NA,Washington
 2023-COARF-000360,Devil's Thumb Fire,CO,Grand,2023-07-04T20:16:00Z,2023-07-14T01:12:28Z,95,25,WF,Minimal,Undetermined,39.9842,-105.731,NFIS,10,0.9,NA,NA,Colorado
 2023-WASPS-000112,Mcewan Fire,WA,Mason,2023-07-04T21:07:00Z,2023-07-11T21:42:14Z,250,85,WF,Minimal,Undetermined,47.26518,-123.0563,NFIS,10,3,NA,NA,Washington
 2023-AZA4S-231015,Avenue 3 Fire,AZ,Yuma,2023-07-05T03:25:00Z,2023-07-05T08:49:01Z,115,NA,WF,NA,Undetermined,32.71701,-114.5806,NFIS,9,9.6,NA,NA,Arizona
@@ -35,11 +35,11 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-ORPRD-000439,Devils Butte 0439 Rv Fire,OR,Gilliam,2023-07-10T17:56:00Z,2023-07-13T16:06:51Z,2859,75,WF,Minimal,Natural,45.640723,-120.425781,NFIS,4,1.3,NA,NA,Oregon
 2023-WIWIS-6211189202,Pallet Fire,WI,Waushara,2023-07-10T18:00:00Z,2023-07-14T14:07:53Z,730,100,WF,Minimal,Human,NA,NA,NFIS,4,0.3,NA,NA,Wisconsin
 2023-AZCOF-000607,Flat Fire,AZ,Coconino,2023-07-10T21:33:00Z,2023-07-12T20:52:57Z,156,5,WF,Minimal,Undetermined,35.469404,-111.641414,NFIS,4,2.1,NA,NA,Arizona
-2023-WASPD-000401,Baird Springs Fire,WA,Grant,2023-07-10T22:10:00Z,2023-07-12T21:03:39Z,2400,95,WF,Minimal,Undetermined,47.231859,-120.00734,NFIS,4,2,NA,NA,Washington
+2023-WASPD-000401,Baird Springs Fire,WA,Grant,2023-07-10T22:10:00Z,2023-07-12T21:03:39Z,2400,95,WF,Minimal,Undetermined,47.231859,-120.00734,NFIS,4,2.1,NA,NA,Washington
 2023-AZASF-000447,Campbell Fire,AZ,Apache,2023-07-10T22:13:14Z,2023-07-14T12:32:17Z,476,0,WF,Moderate,Natural,33.799697,-109.289572,NFIS,4,0.4,NA,NA,Arizona
 2023-AZCNF-000602,Iron Springs Fire,AZ,Santa Cruz,2023-07-11T01:41:00Z,2023-07-12T16:06:43Z,30,NA,WF,NA,Undetermined,31.6959,-110.848,NFIS,3,2.3,NA,NA,Arizona
 2023-MN3VS-000073,000073 Fire,MN,Benton,2023-07-11T20:16:38Z,2023-07-12T14:45:21Z,0.3,NA,WF,NA,NA,NA,NA,NFIS,3,2.3,NA,NA,Minnesota
-2023-MIOTF-230416,Wolf Mountain Fire,MI,Gogebic,2023-07-12T15:44:00Z,2023-07-14T16:15:38Z,1.3,NA,WF,NA,Natural,46.411949,-89.792054,NFIS,2,0.2,NA,NA,Michigan
+2023-MIOTF-230416,Wolf Mountain Fire,MI,Gogebic,2023-07-12T15:44:00Z,2023-07-14T16:15:38Z,1.3,NA,WF,NA,Natural,46.411949,-89.792054,NFIS,2,0.3,NA,NA,Michigan
 2023-NMSCD-000301,Torreon Fire,NM,Socorro,2023-07-12T21:35:00Z,2023-07-13T23:09:51Z,37,NA,WF,NA,Undetermined,33.990949,-107.067445,NFIS,2,1,NA,NA,New Mexico
 2023-WAWFS-001625,Wagner Road Fire,WA,Whitman,2023-07-13T00:33:00Z,2023-07-14T19:10:19Z,1700,75,WF,Active,Undetermined,47.123921,-117.764683,NFIS,1,0.1,NA,NA,Washington
 2023-MTNCD-000091,Shed Fire,MT,Phillips,2023-07-13T14:46:22Z,2023-07-13T22:06:00Z,14,NA,WF,NA,Undetermined,47.7091,-107.5735,NFIS,1,1,NA,NA,Montana
@@ -48,7 +48,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AZCNF-000626,Homestead Fire,AZ,Graham,2023-07-13T19:38:00Z,2023-07-14T18:12:56Z,1835,NA,WF,NA,Natural,32.57,-109.91,NFIS,1,0.2,NA,NA,Arizona
 2023-WASES-000418,Knight Fire,WA,Klickitat,2023-07-13T22:15:00Z,2023-07-14T19:12:33Z,128,NA,WF,NA,Undetermined,45.875376,-120.874597,NFIS,1,0.1,NA,NA,Washington
 2023-ORPRD-000462,Gordon Butte 0462 Rv Fire,OR,Sherman,2023-07-14T04:02:00Z,2023-07-14T14:57:36Z,600,NA,WF,NA,Undetermined,45.666747,-120.840783,NFIS,0,0.3,NA,NA,Oregon
-2023-OR953S-023118,Ben Glenn Fire,OR,Wheeler,2023-07-14T16:04:08Z,2023-07-14T18:41:14Z,5,NA,WF,NA,Undetermined,44.829692,-120.018432,NFIS,0,0.1,NA,NA,Oregon
+2023-OR953S-023118,Ben Glenn Fire,OR,Wheeler,2023-07-14T16:04:08Z,2023-07-14T18:41:14Z,5,NA,WF,NA,Undetermined,44.829692,-120.018432,NFIS,0,0.2,NA,NA,Oregon
 NA,District Fire,CA,Kern,2023-07-07T14:27:00Z,2023-07-10T18:41:08Z,1044,95,Wildfire,NA,NA,34.8866,-118.9033,Cal Fire,7,4,"Interstate 5 and Fort Tejon Road, north of Lebec",https://incidents.fire.ca.gov/incidents/2023/7/7/district-fire/,California
 NA,Park Fire,CA,San Diego,2023-07-09T16:28:27Z,2023-07-12T15:01:02Z,64,100,Wildfire,NA,NA,32.6003,-116.5836,Cal Fire,5,2,Potrero Park Drive and Potrero Valley Rd,https://incidents.fire.ca.gov/incidents/2023/7/9/park-fire/,California
 NA,Vineyard Fire,CA,"Monterey, San Luis Obispo",2023-07-09T18:31:43Z,2023-07-10T18:22:04Z,355,100,Wildfire,NA,NA,35.8,-120.8169,Cal Fire,5,4,"Vineyard Canyon Road and Indian Valley Road, East of San Miguel ",https://incidents.fire.ca.gov/incidents/2023/7/9/vineyard-fire/,California
@@ -58,4 +58,4 @@ NA,Spring Fire,CA,Riverside,2023-07-11T16:46:00Z,2023-07-12T07:29:34Z,35,100,Wil
 NA,Liberty Fire,CA,Amador,2023-07-11T18:11:00Z,2023-07-14T08:32:09Z,71,100,Wildfire,NA,NA,38.2387,-121.0089,Cal Fire,3,0,"East Liberty Road and Ranchero Road, north of Camanche Reservoir",https://incidents.fire.ca.gov/incidents/2023/7/11/liberty-fire/,California
 NA,Avocado Fire,CA,Riverside,2023-07-12T16:29:00Z,2023-07-13T07:14:49Z,10,100,Wildfire,NA,NA,33.505725,-117.300098,Cal Fire,2,1,"near Avocado Mesa Road, in La Cresta",https://incidents.fire.ca.gov/incidents/2023/7/12/avocado-fire/,California
 NA,Pulsar Fire,CA,Riverside,2023-07-13T20:39:00Z,2023-07-14T10:49:27Z,12,50,Wildfire,NA,NA,33.821929,-117.068009,Cal Fire,1,0,"Pulsar View Road, Lakeview",https://incidents.fire.ca.gov/incidents/2023/7/13/pulsar-fire/,California
-NA,Reche Fire,CA,Riverside,2023-07-14T12:58:00Z,2023-07-14T15:09:23Z,160,NA,Wildfire,NA,NA,33.9835,-117.2169,Cal Fire,0,0,"9400 blk Reche Canyon Rd., Moreno Valley",https://incidents.fire.ca.gov/incidents/2023/7/14/reche-fire/,California
+NA,Reche Fire,CA,Riverside,2023-07-14T12:58:00Z,2023-07-14T15:17:13Z,160,NA,Wildfire,NA,NA,33.9835,-117.2169,Cal Fire,0,0,"9400 blk Reche Canyon Rd., Moreno Valley",https://incidents.fire.ca.gov/incidents/2023/7/14/reche-fire/,California
