@@ -54,14 +54,14 @@ try(download.file("https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/serv
 # Get SATELLITE HOTSPOTS data from NASA
 # Alaska is a separate file if we need/want it
 # last 24 hours from VIIRS SUOMI NPP satellite
-try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
-                  "data/hotspots_npp.csv"))
+# try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
+#                  "data/hotspots_npp.csv"))
 # last 24 hours from VIIRS NOAA-20 satellite
-try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
-                  "data/hotspots_noaa20.csv"))
+#try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_USA_contiguous_and_Hawaii_24h.csv",
+#                  "data/hotspots_noaa20.csv"))
 # last 24 hours from MODIS satellite
-try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
-                  "data/hotspots_modis.csv"))
+#try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
+#                  "data/hotspots_modis.csv"))
 
 # Get FIRE DANGER FORECASTS from U.S. Forest Service's Wildland Fire Assessment System
 try(download.file("https://www.wfas.net/images/firedanger/fdr_fcst.txt","data/wfas_forecast.txt"))
