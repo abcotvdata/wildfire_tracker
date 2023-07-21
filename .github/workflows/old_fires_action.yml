@@ -5,7 +5,7 @@ on:
       # sping and then to 2 in summer and 1 during height of fire season
   workflow_dispatch:
 
-name: Wildfire data maps scrape reshape build
+name: OLD Wildfire data maps scrape reshape build
 
 jobs:
   render:
