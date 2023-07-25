@@ -142,7 +142,7 @@ usfs_forecast$longitude <- as.numeric(usfs_forecast$longitude)
 # rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
 
 # Read in hotspots 
-hotspots <- read_csv("fire.csv")
+hotspots <- read_csv("data/hotspots.csv")
 
 # saved function to convert the milliseconds from UTC 
 ms_to_date = function(ms, t0="1970-01-01", timezone) {
