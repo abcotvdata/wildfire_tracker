@@ -34,39 +34,19 @@ try(file.rename(paste(sep="",
                       format(Sys.Date(), "%Y%m%d"),
                       ".dbf"), "data/satellite/smoke/noaa_latest_smoke.dbf"))
 
+## NEED TO STREAMLINE THIS TEST-and-DOWNLOAD METHOD
+# create a pair of urls based on yesterday's date and today's
+# idea is to make sure we have the latest
+hotspot_url2 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
+                      format(Sys.Date(), "%Y"),"/",
+                      format(Sys.Date(), "%m"),"/",
+                      "hms_fire",format(Sys.Date()-1, "%Y%m%d"),".txt")
+hotspot_url1 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
+                      format(Sys.Date(), "%Y"),"/",
+                      format(Sys.Date(), "%m"),"/",
+                      "hms_fire",format(Sys.Date(), "%Y%m%d"),".txt")
 
-# Formulate url for today's fire file
-# There is a WFS version with simpler URL but moves hours later
-# noaafireurl <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Shapefile/",
-#                     format(Sys.Date(), "%Y"),"/",
-#                     format(Sys.Date(), "%m"),"/",
-#                     "hms_fire",format(Sys.Date(), "%Y%m%d"),".zip")
-# Tries to download the file; if not there, script won't fail
-# try(download.file(noaafireurl,"data/satellite/fire/noaa_latest_fires.zip"))
-# unzip("data/satellite/fire/noaa_latest_fires.zip", exdir = "data/satellite/fire/")
-# noaa_latest_fires <- st_read(paste(sep="","data/satellite/fire/","hms_fire",format(Sys.Date(), "%Y%m%d"),".shp"))
-
-# Rename the file to simplify map-building script
-#try(file.rename(paste(sep="",
-#                    "data/satellite/fire/",
-#                    "hms_fire",
-#                    format(Sys.Date(), "%Y%m%d"),
-#                    ".shp"), "data/satellite/fire/noaa_latest_fire.shp"))
-#try(file.rename(paste(sep="",
-#                    "data/satellite/fire/",
-#                    "hms_fire",
-#                    format(Sys.Date(), "%Y%m%d"),
-#                    ".shx"), "data/satellite/fire/noaa_latest_fire.shx"))
-#try(file.rename(paste(sep="",
-#                    "data/satellite/fire/",
-#                    "hms_fire",
-#                    format(Sys.Date(), "%Y%m%d"),
-#                    ".prj"), "data/satellite/fire/noaa_latest_fire.prj"))
-#try(file.rename(paste(sep="",
-#                    "data/satellite/fire/",
-#                    "hms_fire",
-#                    format(Sys.Date(), "%Y%m%d"),
-#                    ".dbf"), "data/satellite/fire/noaa_latest_fire.dbf"))
-
-
-
+## download the yesterday file and then download the today file
+# which will replace if today file exists and won't if not
+download.file(hotspot_url2,"hotspots.csv")
+download.file(hotspot_url1,"hotspots.csv")

@@ -63,6 +63,7 @@ try(download.file("https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/serv
 #try(download.file("https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv",
 #                  "data/hotspots_modis.csv"))
 
+
 # Get FIRE DANGER FORECASTS from U.S. Forest Service's Wildland Fire Assessment System
 try(download.file("https://www.wfas.net/images/firedanger/fdr_fcst.txt","data/wfas_forecast.txt"))
 # OPEN WORK: Move this to the separate once-a-day download script + action
@@ -90,55 +91,58 @@ usfs_forecast$longitude <- as.numeric(usfs_forecast$longitude)
 ### SECTION 3. Read in and reshape satellite hot spots data. ###
 
 # Load/read three satellites shapefiles
-hotspots_modis <- read_csv("data/hotspots_modis.csv", 
-                           col_types = cols(satellite = col_character(),
-                                            latitude = col_number(),
-                                            longitude = col_number(),
-                                            scan = col_number(),
-                                            track = col_number(),
-                                            frp = col_number(),
-                                            bright_t31 = col_number(),
-                                            brightness = col_number(),
-                                            confidence = col_character(),
-                                            version = col_character(),
-                                            daynight = col_character(),
-                                            acq_date = col_date(format = "%Y-%m-%d"), 
-                                            acq_time = col_time(format = "%H%M")
-                                            ))
-hotspots_noaa20 <- read_csv("data/hotspots_noaa20.csv", 
-                            col_types = cols(satellite = col_character(),
-                                             latitude = col_number(),
-                                             longitude = col_number(),
-                                             scan = col_number(),
-                                             track = col_number(),
-                                             frp = col_number(),
-                                             bright_ti5 = col_number(),
-                                             bright_ti4 = col_number(),
-                                             confidence = col_character(),
-                                             version = col_character(),
-                                             daynight = col_character(),
-                                             acq_date = col_date(format = "%Y-%m-%d"), 
-                                             acq_time = col_time(format = "%H%M")
-                            ))
-hotspots_npp <- read_csv("data/hotspots_npp.csv", 
-                         col_types = cols(satellite = col_character(),
-                                          latitude = col_number(),
-                                          longitude = col_number(),
-                                          scan = col_number(),
-                                          track = col_number(),
-                                          frp = col_number(),
-                                          bright_ti5 = col_number(),
-                                          bright_ti4 = col_number(),
-                                          confidence = col_character(),
-                                          version = col_character(),
-                                          daynight = col_character(),
-                                          acq_date = col_date(format = "%Y-%m-%d"), 
-                                          acq_time = col_time(format = "%H%M")
-                         ))
+#hotspots_modis <- read_csv("data/hotspots_modis.csv", 
+#                           col_types = cols(satellite = col_character(),
+#                                            latitude = col_number(),
+#                                            longitude = col_number(),
+#                                            scan = col_number(),
+#                                            track = col_number(),
+#                                            frp = col_number(),
+#                                            bright_t31 = col_number(),
+#                                            brightness = col_number(),
+#                                            confidence = col_character(),
+#                                            version = col_character(),
+#                                            daynight = col_character(),
+#                                            acq_date = col_date(format = "%Y-%m-%d"), 
+#                                            acq_time = col_time(format = "%H%M")
+#                                            ))
+#hotspots_noaa20 <- read_csv("data/hotspots_noaa20.csv", 
+#                            col_types = cols(satellite = col_character(),
+#                                             latitude = col_number(),
+#                                             longitude = col_number(),
+#                                            scan = col_number(),
+#                                             track = col_number(),
+#                                             frp = col_number(),
+#                                             bright_ti5 = col_number(),
+#                                             bright_ti4 = col_number(),
+#                                             confidence = col_character(),
+#                                             version = col_character(),
+#                                             daynight = col_character(),
+#                                             acq_date = col_date(format = "%Y-%m-%d"), 
+#                                             acq_time = col_time(format = "%H%M")
+#                            ))
+#hotspots_npp <- read_csv("data/hotspots_npp.csv", 
+#                         col_types = cols(satellite = col_character(),
+#                                          latitude = col_number(),
+#                                          longitude = col_number(),
+#                                          scan = col_number(),
+#                                          track = col_number(),
+#                                          frp = col_number(),
+#                                          bright_ti5 = col_number(),
+#                                          bright_ti4 = col_number(),
+#                                          confidence = col_character(),
+#                                          version = col_character(),
+#                                          daynight = col_character(),
+#                                          acq_date = col_date(format = "%Y-%m-%d"), 
+#                                          acq_time = col_time(format = "%H%M")
+#                         ))
 
 # Combine those three hotspots files into a single geo layer, then clean up
-hotspots <- bind_rows(hotspots_modis,hotspots_noaa20,hotspots_npp)
-rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
+# hotspots <- bind_rows(hotspots_modis,hotspots_noaa20,hotspots_npp)
+# rm(hotspots_modis,hotspots_noaa20,hotspots_npp)
+
+# Read in hotspots 
+hotspots <- read_csv("fire.csv")
 
 # saved function to convert the milliseconds from UTC 
 ms_to_date = function(ms, t0="1970-01-01", timezone) {
