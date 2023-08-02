@@ -48,5 +48,5 @@ hotspot_url1 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/H
 
 ## download the yesterday file and then download the today file
 # which will replace if today file exists and won't if not
-download.file(hotspot_url2,"data/hotspots.csv")
-download.file(hotspot_url1,"data/hotspots.csv")
+try(download.file(hotspot_url2,"data/hotspots.csv"))
+try(download.file(hotspot_url1,"data/hotspots.csv"))
