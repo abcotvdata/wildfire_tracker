@@ -421,7 +421,7 @@ caliheaderhtml <- tags$div(
 hawaiiheaderhtml <- tags$div(
   tag.map.title, HTML(paste(sep="",
                             "<div class='headline'>Hawaii Wildfire Tracker</div>
-  <div class='subheadline'>We're tracking wildfire hot spots detected by U.S. satellites on the islands of Hawaii.",  
+  <div class='subheadline'>We're tracking wildfire hot spots detected by U.S. satellites on the islands of Hawaii. ",  
                             "The buttons below add or remove data about air quality, smoke and the fire risk forecast, and allow you to zoom in and out.<div>")
   )
 )
