@@ -418,17 +418,26 @@ caliheaderhtml <- tags$div(
   )
 )
 
+hawaiiheaderhtml <- tags$div(
+  tag.map.title, HTML(paste(sep="",
+                            "<div class='headline'>Hawaii Wildfire Tracker</div>
+  <div class='subheadline'>We're tracking wildfire hot spots detected by U.S. satellites on the islands of Hawaii.",  
+                            "The buttons below add or remove data about air quality, smoke and the fire risk forecast, and allow you to zoom in and out.<div>")
+  )
+)
+
+
 # New wildfire base map include fires, smoke and hotspots
 base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
   setView(-116, 43.5, zoom = 5) %>% 
   addProviderTiles(providers$Esri.WorldTerrain) %>%
   addProviderTiles(providers$Stamen.TonerLines) %>%
   addProviderTiles(providers$Stamen.TonerLabels) %>%
-  addCircleMarkers(radius = 1.5,
+  addCircleMarkers(radius = 2.5,
                    color = "#be0000",
                    weight = 1,
                    stroke = FALSE,
-                   fillOpacity = 0.7,
+                   fillOpacity = 0.8,
                    group="Hot spots") %>%
   addPolygons(data = nfis_perimeters, 
               color = "#00318b",
@@ -594,6 +603,59 @@ california_map <- base_map %>%
         document.getElementsByClassName('leaflet-control-layers')[0].style.display = 'none';
     }")
 
+### SECTION 11. Script California map + variant(s). ###
+
+hawaii_map <- base_map %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  addProviderTiles(providers$Stamen.TonerLines) %>%
+  addProviderTiles(providers$Stamen.TonerLabels) %>%
+  addControl(position = "topleft", html = hawaiiheaderhtml, className="map-title") %>%
+  setView(-156.4, 20.798, zoom = 8) %>%
+  addEasyButtonBar(easyButton(icon = fire_button, title = fire_buttontitle,
+                              onClick = JS("function(btn, map) {
+                     
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[0].click();
+
+                }")), 
+                   easyButton(icon = hotspot_button, title = hotspot_buttontitle,
+                              onClick = JS("function(btn, map) {
+
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[1].click();
+
+                }")),
+                   
+                   easyButton(icon = smoke_button, title = smoke_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[2].click();
+                              }")),
+                   
+                   easyButton(icon = aq_button, title = aq_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[3].click();
+                              }")),
+                   
+                   easyButton(icon = forecast_button, title = forecast_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[4].click();
+
+                }"))) %>% 
+  htmlwidgets::onRender("function(el, x) {
+        L.control.zoom({ position: 'topleft'}).addTo(this)
+    }") %>%
+  htmlwidgets::onRender("
+    function(el, x) {
+        document.getElementsByClassName('leaflet-control-layers')[0].style.display = 'none';
+    }")
+
+
 #largest_calfire_map <- california_map %>%
 #  setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
 
@@ -610,6 +672,8 @@ saveWidget(wildfire_map, 'docs/wildfire_map.html', title = "ABC Owned Television
 saveWidget(bayarea_map, 'docs/bayarea_map.html', title = "ABC7 Bay Area Wildfire Tracker")
 saveWidget(fresno_map, 'docs/fresno_map.html', title = "ABC30 Central Valley Wildfire Tracker")
 saveWidget(socal_map, 'docs/socal_map.html', title = "ABC7 Southern California Wildfire Tracker")
+
+saveWidget(hawaii_map, 'docs/hawaii_map.html', title = "ABC Owned Television Stations Hawaii Wildfire Tracker")
 
 #saveWidget(idaho_map, 'docs/idaho_map.html', title = "ABC Owned Television Stations and ABC News Idaho Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(colorado_map, 'docs/colorado_map.html', title = "ABC Owned Television Stations and ABC News Colorado Wildfire Tracker", selfcontained = TRUE)
