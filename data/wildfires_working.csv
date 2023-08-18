@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2023-NMGNF-000191,Pass Fire,NM,Catron,2023-05-19T00:26:00Z,2023-07-08T11:15:01Z,59833,98,WF,Minimal,Natural,33.396264,-108.288375,NFIS,91,41.2,NA,NA,New Mexico
-2023-ORUM7N-000096,Hat Rock Fire,OR,Umatilla,2023-06-13T19:05:00Z,2023-06-17T01:46:57Z,400,100,WF,Minimal,Undetermined,45.912324,-119.142789,NFIS,65,62.6,NA,NA,Oregon
+2023-NMGNF-000191,Pass Fire,NM,Catron,2023-05-19T00:26:00Z,2023-07-08T11:15:01Z,59833,98,WF,Minimal,Natural,33.396264,-108.288375,NFIS,91,41.3,NA,NA,New Mexico
+2023-ORUM7N-000096,Hat Rock Fire,OR,Umatilla,2023-06-13T19:05:00Z,2023-06-17T01:46:57Z,400,100,WF,Minimal,Undetermined,45.912324,-119.142789,NFIS,65,62.7,NA,NA,Oregon
 2023-COGFX-230097,Spring Creek Fire,CO,Garfield,2023-06-24T20:27:00Z,2023-07-10T21:55:15Z,3286,90,WF,Moderate,Undetermined,39.409718,-108.042769,NFIS,54,38.8,NA,NA,Colorado
 2023-IDIPF-000238,Beetop Fire,ID,Bonner,2023-07-01T19:24:00Z,2023-07-17T00:53:29Z,45,95,WF,Minimal,Natural,48.21345,-116.07816,NFIS,47,32.7,NA,NA,Idaho
 2023-IDIPF-000234,Consalus Fire,WA,Pend Oreille,2023-06-30T20:42:00Z,2023-08-12T10:10:05Z,475,83,WF,Minimal,Natural,48.452833,-117.065667,NFIS,48,6.3,NA,NA,Washington
-2023-IDNCF-000321,Little Bear Fire,ID,Idaho,2023-07-03T19:57:00Z,2023-08-17T11:26:30Z,1204,20,WF,Moderate,Natural,46.443367,-114.897633,NFIS,45,1.2,NA,NA,Idaho
+2023-IDNCF-000321,Little Bear Fire,ID,Idaho,2023-07-03T19:57:00Z,2023-08-17T11:26:30Z,1204,20,WF,Moderate,Natural,46.443367,-114.897633,NFIS,45,1.3,NA,NA,Idaho
 2023-IDNCF-000370,Midnight Fire,ID,Idaho,2023-07-10T14:10:49Z,2023-07-19T13:55:15Z,179,75,WF,Minimal,Natural,46.002256,-115.889342,NFIS,39,30.1,NA,NA,Idaho
 2023-ORRSF-000209,Flat Fire,OR,Curry,2023-07-16T00:51:00Z,2023-08-17T12:12:44Z,33895,58,WF,Minimal,Undetermined,42.516315,-124.039078,NFIS,33,1.2,NA,NA,Oregon
 2023-NMGNF-000360,Divide Fire,NM,Catron,2023-07-13T21:12:11Z,2023-08-04T12:45:18Z,26514,100,WF,Minimal,Natural,33.570892,-108.409418,NFIS,35,14.2,NA,NA,New Mexico
@@ -13,7 +13,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-IDSCF-023084,Hayden Fire,ID,Lemhi,2023-07-19T17:28:00Z,2023-08-16T12:15:12Z,24706,84,WF,Moderate,Undetermined,44.849896,-113.695879,NFIS,29,2.2,NA,NA,Idaho
 2023-MTSWS-200549,Colt Fire,MT,Missoula,2023-07-18T12:59:00Z,2023-08-17T03:52:28Z,7202,45,WF,Minimal,Natural,47.352167,-113.629913,NFIS,31,1.6,NA,NA,Montana
 2023-NMGNF-000390,Tub Fire,NM,Catron,2023-07-16T21:12:42Z,2023-08-05T00:54:58Z,305,65,WF,Minimal,Natural,33.917098,-108.279824,NFIS,32,13.7,NA,NA,New Mexico
-2023-MTBDF-006210,Bowles Creek Fire,MT,Granite,2023-07-21T02:28:00Z,2023-08-18T11:14:27Z,4481,20,WF,Active,Undetermined,46.200935,-113.581295,NFIS,28,0.2,NA,NA,Montana
+2023-MTBDF-006210,Bowles Creek Fire,MT,Granite,2023-07-21T02:28:00Z,2023-08-18T11:14:27Z,4481,20,WF,Active,Undetermined,46.200935,-113.581295,NFIS,28,0.3,NA,NA,Montana
 2023-AZTNF-001046,Diamond Fire,AZ,Maricopa,2023-07-22T23:16:44Z,2023-08-02T17:51:38Z,5060,90,WF,Minimal,Natural,33.836036,-111.521984,NFIS,26,16,NA,NA,Arizona
 2023-AZPNF-000991,Grapevine Fire,AZ,Yavapai,2023-07-21T22:48:00Z,2023-07-28T05:50:41Z,1049,100,WF,Minimal,Natural,34.624534,-112.151201,NFIS,27,21.5,NA,NA,Arizona
 2023-TXTXF-000309,Rolling Fire,TX,Angelina,2023-07-23T18:45:51Z,2023-07-24T12:43:10Z,22,NA,WF,NA,Human,31.080518,-94.299603,NFIS,25,25.2,NA,NA,Texas
@@ -27,12 +27,12 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AKTAD-000203,Rock Fire,AK,Yukon-Koyukuk,2023-07-25T01:18:00Z,2023-08-17T22:36:32Z,402.85,0,WF,Minimal,Natural,65.2758,-150.4675,NFIS,24,0.8,NA,NA,Alaska
 2023-AKTAD-000205,Morelock Fire,AK,Yukon-Koyukuk,2023-07-25T02:17:00Z,2023-08-17T20:36:42Z,139.9,0,WF,Minimal,Natural,65.38313,-151.5792,NFIS,24,0.9,NA,NA,Alaska
 2023-AKTAD-000199,Cosna Fire,AK,Yukon-Koyukuk,2023-07-25T00:24:00Z,2023-08-17T20:36:42Z,235.1,0,WF,Minimal,Natural,64.46993,-152.4696,NFIS,24,0.9,NA,NA,Alaska
-2023-AKTAD-000223,Nowitna Fire,AK,Yukon-Koyukuk,2023-07-25T17:17:00Z,2023-08-17T20:36:42Z,191.3,0,WF,Minimal,Natural,64.02117,-154.5858,NFIS,23,0.9,NA,NA,Alaska
-2023-AKTAD-000225,Titna Fire,AK,Yukon-Koyukuk,2023-07-25T17:25:00Z,2023-08-17T20:36:42Z,612.2,0,WF,Minimal,Natural,64.32749,-152.586,NFIS,23,0.9,NA,NA,Alaska
+2023-AKTAD-000223,Nowitna Fire,AK,Yukon-Koyukuk,2023-07-25T17:17:00Z,2023-08-17T20:36:42Z,191.3,0,WF,Minimal,Natural,64.02117,-154.5858,NFIS,24,0.9,NA,NA,Alaska
+2023-AKTAD-000225,Titna Fire,AK,Yukon-Koyukuk,2023-07-25T17:25:00Z,2023-08-17T20:36:42Z,612.2,0,WF,Minimal,Natural,64.32749,-152.586,NFIS,24,0.9,NA,NA,Alaska
 2023-TXTXF-000311,Hogpen Fire,TX,Sabine,2023-07-24T22:00:00Z,2023-08-02T19:50:27Z,1219,85,WF,Active,Undetermined,31.334046,-93.769341,NFIS,24,15.9,NA,NA,Texas
 2023-IDPAF-002673,Elkhorn Fire,ID,Idaho,2023-07-24T23:34:00Z,2023-08-17T15:12:59Z,26048,45,WF,Moderate,Undetermined,45.528061,-115.30501,NFIS,24,1.1,NA,NA,Idaho
 2023-WAWFS-001726,Wawawai Fire,WA,Whitman,2023-07-25T04:02:00Z,2023-07-27T00:47:58Z,526,99,WF,Minimal,Undetermined,46.65338,-117.37205,NFIS,24,22.7,NA,NA,Washington
-2023-AKTAD-000235,Holonada Fire,AK,Yukon-Koyukuk,2023-07-25T23:03:00Z,2023-08-17T23:23:47Z,300,0,WF,Minimal,Natural,65.87,-151.9396,NFIS,23,0.7,NA,NA,Alaska
+2023-AKTAD-000235,Holonada Fire,AK,Yukon-Koyukuk,2023-07-25T23:03:00Z,2023-08-17T23:23:47Z,300,0,WF,Minimal,Natural,65.87,-151.9396,NFIS,23,0.8,NA,NA,Alaska
 2023-AKTAD-000204,Jordan Fire,AK,Yukon-Koyukuk,2023-07-25T01:35:00Z,2023-08-17T22:27:40Z,1627,0,WF,Minimal,Natural,65.18713,-151.1598,NFIS,24,0.8,NA,NA,Alaska
 2023-AKUYD-000240,Wickersham Fire,AK,Yukon-Koyukuk,2023-07-25T22:05:00Z,2023-08-17T20:36:42Z,1862.1,0,WF,Minimal,Natural,65.35132,-147.8908,NFIS,23,0.9,NA,NA,Alaska
 2023-AKTAD-000227,Mooseheart Fire,AK,Yukon-Koyukuk,2023-07-25T20:22:00Z,2023-08-17T20:37:01Z,297,0,WF,Minimal,Natural,64.85,-150.483,NFIS,23,0.9,NA,NA,Alaska
@@ -44,7 +44,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AKDAS-312196,6 Mile Pogo Fire,AK,Southeast Fairbanks,2023-07-25T00:10:46Z,2023-08-17T20:36:42Z,4963,NA,WF,Minimal,Natural,64.28005,-145.938833,NFIS,24,0.9,NA,NA,Alaska
 2023-AKDAS-312217,Keystone Creek Fire,AK,Southeast Fairbanks,2023-07-25T04:49:01Z,2023-08-17T20:36:42Z,54,NA,WF,Minimal,Natural,64.357833,-145.782333,NFIS,24,0.9,NA,NA,Alaska
 2023-AKFAS-311201,Mccoy Creek Fire,AK,Fairbanks North Star,2023-07-25T01:03:33Z,2023-08-17T20:36:42Z,14060.4,0,WF,Minimal,Natural,64.499817,-146.3773,NFIS,24,0.9,NA,NA,Alaska
-2023-IDNCF-000414,West Fork Fire,ID,Idaho,2023-07-18T01:56:25Z,2023-08-17T11:26:30Z,543,20,WF,Moderate,Undetermined,46.514542,-114.974327,NFIS,31,1.2,NA,NA,Idaho
+2023-IDNCF-000414,West Fork Fire,ID,Idaho,2023-07-18T01:56:25Z,2023-08-17T11:26:30Z,543,20,WF,Moderate,Undetermined,46.514542,-114.974327,NFIS,31,1.3,NA,NA,Idaho
 2023-AKUYD-000234,Ikheenjik Fire,AK,Yukon-Koyukuk,2023-07-25T22:56:00Z,2023-08-17T20:36:42Z,95.5,NA,WF,NA,Natural,65.36898,-145.75,NFIS,23,0.9,NA,NA,Alaska
 2023-NMGNF-000423,Noonday Fire,NM,Grant,2023-07-23T02:15:00Z,2023-08-04T19:46:32Z,927,0,WF,Minimal,Undetermined,32.931719,-107.86416,NFIS,26,13.9,NA,NA,New Mexico
 2023-COGMF-000176,Lowline Fire,CO,Gunnison,2023-07-26T14:02:00Z,2023-08-08T15:11:59Z,1116,55,WF,Active,Natural,38.719369,-107.028465,NFIS,23,10.1,NA,NA,Colorado
@@ -76,7 +76,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AKFAS-311287,Rock Creek Fire,AK,Denali,2023-07-28T05:28:36Z,2023-08-17T20:36:42Z,34004,31,WF,Moderate,Natural,64.048217,-149.67195,NFIS,21,0.9,NA,NA,Alaska
 2023-MTFNF-000506,Kah Mountain Fire,MT,Flathead,2023-07-30T16:28:57Z,2023-08-16T20:37:57Z,826,0,WF,NA,Undetermined,47.983577,-113.720217,NFIS,19,1.9,NA,NA,Montana
 2023-MTFHA-000100,Niarada Fire,MT,Flathead,2023-07-30T14:36:00Z,2023-08-17T21:20:25Z,20365,85,WF,Moderate,Natural,NA,NA,NFIS,19,0.8,NA,NA,Montana
-2023-NMEMP-000364,Crosscut Fire,NM,Cibola,2023-07-27T21:08:00Z,2023-08-17T16:13:38Z,226,0,WF,Minimal,Natural,34.879421,-108.088111,NFIS,21,1,NA,NA,New Mexico
+2023-NMEMP-000364,Crosscut Fire,NM,Cibola,2023-07-27T21:08:00Z,2023-08-17T16:13:38Z,226,0,WF,Minimal,Natural,34.879421,-108.088111,NFIS,21,1.1,NA,NA,New Mexico
 2023-MTFHA-000099,Communication Butte Fire,MT,Sanders,2023-07-30T06:36:00Z,2023-08-03T17:34:14Z,1423,100,WF,Minimal,Human,NA,NA,NFIS,19,15,NA,NA,Montana
 2023-AKUYD-000304,Sunagun Fire,AK,Yukon-Koyukuk,2023-07-29T22:39:00Z,2023-08-18T16:26:24Z,108.96,0,WF,Minimal,Natural,67.39996,-141.2395,NFIS,19,0,NA,NA,Alaska
 2023-TXTXS-232667,Classic Canyon Fire,TX,Coryell,2023-07-27T23:04:52Z,2023-08-15T22:54:20Z,235,100,WF,NA,Undetermined,31.59686718,-97.62771553,NFIS,21,2.8,NA,NA,Texas
@@ -108,9 +108,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AKFAS-311336,Baseline Fire,AK,Fairbanks North Star,2023-08-04T02:41:42Z,2023-08-17T20:36:42Z,669,NA,WF,Minimal,Natural,64.8235,-145.077,NFIS,14,0.9,NA,NA,Alaska
 2023-OR772S-000002,Priceboro Fire,OR,Linn,2023-08-04T22:13:00Z,2023-08-08T20:30:10Z,309.5,45,WF,Minimal,Human,NA,NA,NFIS,13,9.9,NA,NA,Oregon
 2023-IDIPF-000447,Ridge Creek Fire,ID,Kootenai,2023-08-03T21:25:00Z,2023-08-17T10:54:24Z,3248,12,WF,Active,Undetermined,47.825696,-116.715543,NFIS,14,1.3,NA,NA,Idaho
-2023-AZASF-000611,Willow Fire,AZ,Greenlee,2023-07-27T22:24:00Z,2023-08-08T01:48:11Z,401,63,WF,Active,Natural,33.667524,-109.308386,NFIS,21,10.6,NA,NA,Arizona
+2023-AZASF-000611,Willow Fire,AZ,Greenlee,2023-07-27T22:24:00Z,2023-08-08T01:48:11Z,401,63,WF,Active,Natural,33.667524,-109.308386,NFIS,21,10.7,NA,NA,Arizona
 2023-AZASF-000459,Corduroy Fire,AZ,Greenlee,2023-07-12T21:47:41Z,2023-08-09T19:34:56Z,1027,98,WF,Active,Natural,33.605608,-109.366364,NFIS,36,8.9,NA,NA,Arizona
-2023-AZASF-000610,Boundary Fire,AZ,Apache,2023-07-27T21:37:00Z,2023-08-10T01:48:02Z,929,79,WF,Active,Natural,33.582033,-109.487815,NFIS,21,8.6,NA,NA,Arizona
+2023-AZASF-000610,Boundary Fire,AZ,Apache,2023-07-27T21:37:00Z,2023-08-10T01:48:02Z,929,79,WF,Active,Natural,33.582033,-109.487815,NFIS,21,8.7,NA,NA,Arizona
 2023-AKUYD-000332,Draanjik Fire,AK,Yukon-Koyukuk,2023-08-03T22:32:00Z,2023-08-17T20:36:42Z,1890.1,0,WF,Minimal,Natural,66.36996,-142.6195,NFIS,14,0.9,NA,NA,Alaska
 2023-AKGAD-000243,Aloha Fire,AK,Northwest Arctic,2023-07-26T01:27:00Z,2023-08-17T20:36:42Z,119.4,NA,WF,NA,Natural,66.41,-155.8897,NFIS,23,0.9,NA,NA,Alaska
 2023-NMCAF-000342,American Mesa Fire,NM,Rio Arriba,2023-08-05T19:18:00Z,2023-08-13T01:02:32Z,386,85,WF,Minimal,Natural,36.827211,-107.270567,NFIS,12,5.7,NA,NA,New Mexico
@@ -126,13 +126,13 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-UTFIF-230252,Thompson Ridge Fire,UT,Beaver,2023-08-04T23:55:34Z,2023-08-17T19:59:37Z,7253,29,WF,Minimal,Natural,38.195561,-112.456741,NFIS,13,0.9,NA,NA,Utah
 2023-AKUYD-000350,Easy Moose Fire,AK,Yukon-Koyukuk,2023-08-07T18:06:00Z,2023-08-17T20:36:42Z,16.54,NA,WF,NA,Natural,65.48661,-141.8085,NFIS,10,0.9,NA,NA,Alaska
 2023-AKUYD-000337,Waterfall Fire,AK,Southeast Fairbanks,2023-08-04T16:05:00Z,2023-08-17T20:36:42Z,1182.47,0,WF,Minimal,Natural,65.31452,-141.1554,NFIS,14,0.9,NA,NA,Alaska
-2023-ORWIF-230329,Salmon Fire,OR,Lane,2023-08-06T20:16:00Z,2023-08-10T03:56:54Z,135,95,WF,Minimal,Undetermined,43.7625,-122.375,NFIS,11,8.5,NA,NA,Oregon
+2023-ORWIF-230329,Salmon Fire,OR,Lane,2023-08-06T20:16:00Z,2023-08-10T03:56:54Z,135,95,WF,Minimal,Undetermined,43.7625,-122.375,NFIS,11,8.6,NA,NA,Oregon
 2023-AKTAD-000241,Browns Fire,AK,Yukon-Koyukuk,2023-07-26T00:20:00Z,2023-08-17T20:36:42Z,51.5,0,WF,Minimal,Natural,63.73516,-154.0544,NFIS,23,0.9,NA,NA,Alaska
-2023-ORWWF-000347,High Range Fire,OR,Wallowa,2023-08-06T17:22:49Z,2023-08-07T23:28:48Z,248,100,WF,Minimal,Undetermined,45.743029,-116.543794,NFIS,11,10.7,NA,NA,Oregon
-2023-AKDAS-312252,Glacier Creek Fire,AK,Southeast Fairbanks,2023-07-26T17:12:04Z,2023-08-17T20:36:42Z,49.9,NA,WF,Minimal,Natural,64.520333,-144.855333,NFIS,22,0.9,NA,NA,Alaska
+2023-ORWWF-000347,High Range Fire,OR,Wallowa,2023-08-06T17:22:49Z,2023-08-07T23:28:48Z,248,100,WF,Minimal,Undetermined,45.743029,-116.543794,NFIS,12,10.7,NA,NA,Oregon
+2023-AKDAS-312252,Glacier Creek Fire,AK,Southeast Fairbanks,2023-07-26T17:12:04Z,2023-08-17T20:36:42Z,49.9,NA,WF,Minimal,Natural,64.520333,-144.855333,NFIS,23,0.9,NA,NA,Alaska
 2023-IDIPF-000454,Buckskin 2 Fire,ID,Bonner,2023-08-05T04:13:00Z,2023-08-17T23:49:28Z,242,45,WF,Moderate,Undetermined,48.023845,-116.101456,NFIS,13,0.7,NA,NA,Idaho
 2023-AZASF-000716,Black River Complex Fire,AZ,Greenlee,2023-08-06T20:57:02Z,2023-08-08T03:15:16Z,2357,88,CX,Minimal,Undetermined,33.618388,-109.387522,NFIS,11,10.6,NA,NA,Arizona
-2023-AZA4S-231468,Brady Fire,AZ,Gila,2023-08-06T21:35:00Z,2023-08-12T18:31:37Z,264,80,WF,Minimal,Undetermined,34.42927,-111.3446,NFIS,11,5.9,NA,NA,Arizona
+2023-AZA4S-231468,Brady Fire,AZ,Gila,2023-08-06T21:35:00Z,2023-08-12T18:31:37Z,264,80,WF,Minimal,Undetermined,34.42927,-111.3446,NFIS,11,6,NA,NA,Arizona
 2023-AKTAD-000347,Chitsia Fire,AK,Denali,2023-08-06T23:44:00Z,2023-08-17T20:36:42Z,200.64,1,WF,Minimal,Natural,64.06828,-150.2471,NFIS,11,0.9,NA,NA,Alaska
 2023-NMLNF-000662,West Mountain Fire,NM,Lincoln,2023-08-03T23:05:00Z,2023-08-18T13:20:37Z,268,5,WF,Minimal,Natural,40.023408,-113.686523,NFIS,14,0.2,NA,NA,New Mexico
 2023-COUPD-000186,Little Mesa Fire,CO,Montrose,2023-07-31T16:42:00Z,2023-08-17T23:38:33Z,3677,30,WF,Active,Natural,38.655052,-108.33315,NFIS,18,0.7,NA,NA,Colorado
@@ -157,7 +157,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-SDPRA-000027,Sage Fire,SD,Oglala Lakota,2023-07-14T21:00:47Z,2023-07-19T14:57:55Z,0.01,NA,WF,NA,NA,NA,NA,NFIS,34,30.1,NA,NA,South Dakota
 2023-OR581S-000005,Blue Jay Fire,OR,Clackamas,2023-08-14T14:00:00Z,2023-08-14T23:32:10Z,NA,NA,WF,NA,NA,NA,NA,NFIS,4,3.7,NA,NA,Oregon
 2023-MSMNF-000427,Silver Fire,MS,Stone,2023-08-11T20:01:04Z,2023-08-15T11:46:30Z,44,NA,WF,NA,Human,31.112347,-88.865597,NFIS,6,3.2,NA,NA,Mississippi
-2023-TXTPR-000361,Dry Fire,TX,Jefferson,2023-08-12T13:02:02Z,2023-08-15T16:00:13Z,800,45,WF,Active,Undetermined,29.717059,-93.903785,NFIS,6,3,NA,NA,Texas
+2023-TXTPR-000361,Dry Fire,TX,Jefferson,2023-08-12T13:02:02Z,2023-08-15T16:00:13Z,800,45,WF,Active,Undetermined,29.717059,-93.903785,NFIS,6,3.1,NA,NA,Texas
 2023-AKUYD-000360,Pingo Fire,AK,Yukon-Koyukuk,2023-08-14T21:33:00Z,2023-08-17T20:36:42Z,4.85,NA,WF,NA,Natural,65.56846,-142.1628,NFIS,3,0.9,NA,NA,Alaska
 2023-TXTXS-233145,Bird Fire,TX,Cottle,2023-08-13T22:53:54Z,2023-08-15T21:16:33Z,140,90,WF,NA,Undetermined,34.03232,-100.42096,NFIS,4,2.8,NA,NA,Texas
 2023-TXTXS-232894,Yowell Rd. Fire,TX,Montague,2023-08-07T15:02:55Z,2023-08-15T22:48:27Z,100,0,WF,Minimal,Undetermined,33.67167826,-97.89037258,NFIS,11,2.8,NA,NA,Texas
@@ -174,7 +174,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-WASPD-000559,Trinity Fire,WA,Benton,2023-08-14T18:37:56Z,2023-08-16T22:11:42Z,602,90,WF,Active,Human,46.320197,-119.499742,NFIS,3,1.8,NA,NA,Washington
 2023-AKUYD-000340,Crater Fire,AK,Yukon-Koyukuk,2023-08-05T00:45:00Z,2023-08-17T20:36:42Z,2.5,NA,WF,NA,Natural,65.69378,-148.1549,NFIS,13,0.9,NA,NA,Alaska
 2023-CASRF-000945,Diamond Fire,CA,Del Norte,2023-08-15T16:24:53Z,2023-08-18T00:57:30Z,252,0,WF,NA,Undetermined,41.938613,-123.951946,NFIS,3,0.7,NA,NA,California
-2023-CASRF-000939,Kelly Fire,CA,Del Norte,2023-08-15T14:19:00Z,2023-08-18T04:02:30Z,2569,0,WF,NA,Undetermined,41.860828,-123.94475,NFIS,3,0.5,NA,NA,California
+2023-CASRF-000939,Kelly Fire,CA,Del Norte,2023-08-15T14:19:00Z,2023-08-18T04:02:30Z,2569,0,WF,NA,Undetermined,41.860828,-123.94475,NFIS,3,0.6,NA,NA,California
 2023-CASRF-000972,3_9 Fire,CA,Humboldt,2023-08-16T09:22:13Z,2023-08-18T13:59:48Z,500,NA,WF,NA,Undetermined,40.636317,-123.5797,NFIS,2,0.1,NA,NA,California
 2023-TXTXS-233245,Spotted Opossum Fire,TX,Lampasas,2023-08-16T22:30:03Z,2023-08-17T17:25:40Z,110,95,WF,NA,Undetermined,31.36694444,-98.13472222,NFIS,1,1,NA,NA,Texas
 2023-MTNCA-000242,Jimtown Creek Fire,MT,Rosebud,2023-08-16T21:30:00Z,2023-08-17T20:24:35Z,200,NA,WF,NA,Natural,45.67172,-106.6309,NFIS,1,0.9,NA,NA,Montana
@@ -195,15 +195,17 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AKUYD-000365,Sand Fire,AK,Yukon-Koyukuk,2023-08-17T22:16:00Z,2023-08-18T15:09:52Z,2,NA,WF,NA,Natural,65.82117,-146.5368,NFIS,0,0.1,NA,NA,Alaska
 2023-WISCP-230005,23 Rice Lake Flats Bil Fire,WI,St. Croix,2023-05-15T17:30:21Z,2023-08-18T16:36:22Z,40,NA,RX,NA,NA,NA,NA,NFIS,94,0,NA,NA,Wisconsin
 2023-MTBRF-023257,Throng Fire,ID,Idaho,2023-08-11T21:41:13Z,2023-08-18T16:56:36Z,150,0,WF,Moderate,Natural,45.73225,-114.902167,NFIS,6,0,NA,NA,Idaho
+2023-IDBOF-000740,East Fire,ID,Valley,2023-08-16T22:21:00Z,2023-08-18T17:13:49Z,2750,0,WF,Active,Natural,44.3895,-115.9271,NFIS,1,0,NA,NA,Idaho
 NA,No Name Fire,CA,Kern,2023-08-05T17:42:23Z,2023-08-11T14:11:11Z,1120,100,Wildfire,NA,NA,35.78611,-117.8875,Cal Fire,13,7,"Sand Canyon Rd , southwest of Pearsonville",https://incidents.fire.ca.gov/incidents/2023/8/5/no-name-fire/,California
 NA,Bunnie Fire,CA,San Diego,2023-08-09T11:18:00Z,2023-08-11T17:09:19Z,184,100,Wildfire,NA,NA,32.994676,-116.855731,Cal Fire,9,7,"San Vicente Road and Chuck Wagon Road, Ramona",https://incidents.fire.ca.gov/incidents/2023/8/9/bunnie-fire/,California
 NA,Dry Creek Complex,CA,Tulare,2023-08-10T18:51:00Z,2023-08-13T18:42:34Z,441,100,Wildfire,NA,NA,36.5323,-119.0113,Cal Fire,8,5,"Dry Creek Road and Mile Marker 4, northeast of Woodlake in Tulare County",https://incidents.fire.ca.gov/incidents/2023/8/10/dry-creek-complex/,California
 NA,Trotter,CA,Kern,2023-08-14T11:10:00Z,2023-08-16T17:56:16Z,52,100,Wildfire,NA,NA,35.1387962,-118.6027987,Cal Fire,4,2,"Trotter Dr and Skyline Drive, West of Tehachapi ",https://incidents.fire.ca.gov/incidents/2023/8/14/trotter/,California
 NA,Bitter Fire,CA,San Luis Obispo,2023-08-15T17:56:00Z,2023-08-16T07:19:50Z,703,100,Wildfire,NA,NA,35.4854,-120.0574,Cal Fire,3,2,"Soda Lake Road and Bitterwater Road, Southeast of Shandon",https://incidents.fire.ca.gov/incidents/2023/8/15/bitter-fire/,California
 NA,SKU August Lightning Complex,CA,Siskiyou,2023-08-15T19:48:44Z,2023-08-18T09:27:34Z,791,50,Wildfire,NA,NA,41.2477,-121.5041,Cal Fire,3,0,Siskiyou County,https://incidents.fire.ca.gov/incidents/2023/8/15/sku-august-lightning-complex/,California
-NA,Klamath National Forest Lightning Complex,CA,Siskiyou,2023-08-16T08:16:35Z,2023-08-17T08:45:47Z,NA,NA,Wildfire,NA,NA,41.740833,-123,Cal Fire,2,1,Klamath and Scott Rivers,https://incidents.fire.ca.gov/incidents/2023/8/16/klamath-national-forest-lightning-complex/,California
+NA,Klamath National Forest Lightning Complex,CA,Siskiyou,2023-08-16T08:16:35Z,2023-08-18T10:12:09Z,NA,NA,Wildfire,NA,NA,41.740833,-123,Cal Fire,2,0,Klamath and Scott Rivers,https://incidents.fire.ca.gov/incidents/2023/8/16/klamath-national-forest-lightning-complex/,California
 NA,Slide Fire,CA,Mendocino,2023-08-16T08:35:57Z,2023-08-16T15:13:23Z,NA,NA,Wildfire,NA,NA,40.036944,-122.855,Cal Fire,2,2,North of Mount Linn,https://incidents.fire.ca.gov/incidents/2023/8/16/slide-fire/,California
 NA,Thirty Five Fire,CA,Glenn,2023-08-17T12:36:00Z,2023-08-17T18:19:56Z,109,100,Wildfire,NA,NA,39.6194,-122.3287,Cal Fire,1,1,"County Road 35 and County Road 33, west of Artois",https://incidents.fire.ca.gov/incidents/2023/8/17/thirty-five-fire/,California
 NA,Smith River Complex,CA,Del Norte,2023-08-15T07:00:00Z,2023-08-17T08:56:42Z,NA,NA,Wildfire,NA,NA,41.958269,-123.868447,Cal Fire,3,1,"South of the Oregon border, northeast of High Plateau Mountain",https://incidents.fire.ca.gov/incidents/2023/8/15/smith-river-complex/,California
 NA,Highway Fire,CA,Nevada,2023-08-16T15:35:53Z,2023-08-17T13:39:16Z,NA,NA,Wildfire,NA,NA,39.339386,-120.788152,Cal Fire,2,1,Washington Road south of Alpha Road,https://incidents.fire.ca.gov/incidents/2023/8/16/highway-fire/,California
 NA,Cochrane Fire,CA,Santa Clara,2023-08-16T17:31:03Z,2023-08-17T18:06:57Z,72,95,Wildfire,NA,NA,37.18725,-121.67208,Cal Fire,2,1,Hwy 101 X Coyote Creek Golf Drive in north Morgan Hill,https://incidents.fire.ca.gov/incidents/2023/8/16/cochrane-fire/,California
+NA,Happy Camp Complex,CA,Siskiyou,2023-08-16T10:27:00Z,2023-08-18T10:19:05Z,NA,NA,Wildfire,NA,NA,41.777554,-123.045093,Cal Fire,2,0,Klamath National Forest,https://incidents.fire.ca.gov/incidents/2023/8/16/happy-camp-complex/,California
