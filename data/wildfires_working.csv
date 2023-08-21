@@ -1,13 +1,13 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
 2023-NMGNF-000191,Pass Fire,NM,Catron,2023-05-19T00:26:00Z,2023-07-08T11:15:01Z,59833,98,WF,Minimal,Natural,33.396264,-108.288375,NFIS,94,44.1,NA,NA,New Mexico
 2023-ORUM7N-000096,Hat Rock Fire,OR,Umatilla,2023-06-13T19:05:00Z,2023-06-17T01:46:57Z,400,100,WF,Minimal,Undetermined,45.912324,-119.142789,NFIS,68,65.5,NA,NA,Oregon
-2023-COGFX-230097,Spring Creek Fire,CO,Garfield,2023-06-24T20:27:00Z,2023-07-10T21:55:15Z,3286,90,WF,Moderate,Undetermined,39.409718,-108.042769,NFIS,57,41.6,NA,NA,Colorado
+2023-COGFX-230097,Spring Creek Fire,CO,Garfield,2023-06-24T20:27:00Z,2023-07-10T21:55:15Z,3286,90,WF,Moderate,Undetermined,39.409718,-108.042769,NFIS,57,41.7,NA,NA,Colorado
 2023-IDIPF-000238,Beetop Fire,ID,Bonner,2023-07-01T19:24:00Z,2023-07-17T00:53:29Z,45,95,WF,Minimal,Natural,48.21345,-116.07816,NFIS,50,35.5,NA,NA,Idaho
 2023-IDIPF-000234,Consalus Fire,WA,Pend Oreille,2023-06-30T20:42:00Z,2023-08-12T10:10:05Z,475,83,WF,Minimal,Natural,48.452833,-117.065667,NFIS,51,9.1,NA,NA,Washington
 2023-AKTAD-000127,Orum Fire,AK,Yukon-Koyukuk,2023-06-18T00:56:00Z,2023-08-18T17:32:08Z,58.3,NA,WF,NA,Natural,65.23076,-150.6633,NFIS,64,2.8,NA,NA,Alaska
 2023-IDNCF-000321,Little Bear Fire,ID,Idaho,2023-07-03T19:57:00Z,2023-08-17T11:26:30Z,1204,20,WF,Moderate,Natural,46.443367,-114.897633,NFIS,48,4.1,NA,NA,Idaho
 2023-IDNCF-000370,Midnight Fire,ID,Idaho,2023-07-10T14:10:49Z,2023-07-19T13:55:15Z,179,75,WF,Minimal,Natural,46.002256,-115.889342,NFIS,41,33,NA,NA,Idaho
-2023-ORRSF-000209,Flat Fire,OR,Curry,2023-07-16T00:51:00Z,2023-08-19T05:07:58Z,34242,58,WF,Moderate,Undetermined,42.516315,-124.039078,NFIS,36,2.3,NA,NA,Oregon
+2023-ORRSF-000209,Flat Fire,OR,Curry,2023-07-16T00:51:00Z,2023-08-19T05:07:58Z,34242,58,WF,Moderate,Undetermined,42.516315,-124.039078,NFIS,36,2.4,NA,NA,Oregon
 2023-NMGNF-000360,Divide Fire,NM,Catron,2023-07-13T21:12:11Z,2023-08-04T12:45:18Z,26514,100,WF,Minimal,Natural,33.570892,-108.409418,NFIS,38,17,NA,NA,New Mexico
 2023-NMGNF-000382,Davis Fire,NM,Catron,2023-07-15T20:07:00Z,2023-07-26T12:53:42Z,6073,100,WF,Minimal,Natural,33.673166,-108.479257,NFIS,36,26,NA,NA,New Mexico
 2023-NMGNF-000357,Dark Fire,NM,Catron,2023-07-13T02:44:00Z,2023-08-10T16:35:00Z,4246,67,WF,Minimal,Natural,33.50059,-108.640259,NFIS,39,10.9,NA,NA,New Mexico
@@ -102,7 +102,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-OR772S-000002,Priceboro Fire,OR,Linn,2023-08-04T22:13:00Z,2023-08-08T20:30:10Z,309.5,45,WF,Minimal,Human,NA,NA,NFIS,16,12.7,NA,NA,Oregon
 2023-IDIPF-000447,Ridge Creek Fire,ID,Kootenai,2023-08-03T21:25:00Z,2023-08-21T05:28:30Z,4099,20,WF,Moderate,Undetermined,47.825696,-116.715543,NFIS,17,0.3,NA,NA,Idaho
 2023-AZASF-000611,Willow Fire,AZ,Greenlee,2023-07-27T22:24:00Z,2023-08-08T01:48:11Z,401,63,WF,Active,Natural,33.667524,-109.308386,NFIS,24,13.5,NA,NA,Arizona
-2023-AZASF-000459,Corduroy Fire,AZ,Greenlee,2023-07-12T21:47:41Z,2023-08-09T19:34:56Z,1027,98,WF,Active,Natural,33.605608,-109.366364,NFIS,39,11.7,NA,NA,Arizona
+2023-AZASF-000459,Corduroy Fire,AZ,Greenlee,2023-07-12T21:47:41Z,2023-08-09T19:34:56Z,1027,98,WF,Active,Natural,33.605608,-109.366364,NFIS,39,11.8,NA,NA,Arizona
 2023-AZASF-000610,Boundary Fire,AZ,Apache,2023-07-27T21:37:00Z,2023-08-10T01:48:02Z,929,79,WF,Active,Natural,33.582033,-109.487815,NFIS,24,11.5,NA,NA,Arizona
 2023-AKUYD-000332,Draanjik Fire,AK,Yukon-Koyukuk,2023-08-03T22:32:00Z,2023-08-17T20:36:42Z,1890.1,0,WF,Minimal,Natural,66.36996,-142.6195,NFIS,17,3.7,NA,NA,Alaska
 2023-NMCAF-000342,American Mesa Fire,NM,Rio Arriba,2023-08-05T19:18:00Z,2023-08-13T01:02:32Z,386,85,WF,Minimal,Natural,36.827211,-107.270567,NFIS,15,8.5,NA,NA,New Mexico
@@ -201,7 +201,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-TXTXS-233323,Hill Top Fire,TX,Taylor,2023-08-18T21:47:10Z,2023-08-21T00:44:48Z,200,85,WF,Minimal,Undetermined,32.28336,-99.74433,NFIS,2,0.5,NA,NA,Texas
 2023-IDCTS-000655,Old Ahsahka Fire,ID,Clearwater,2023-08-19T22:09:00Z,2023-08-21T02:02:42Z,40,NA,WF,NA,Undetermined,46.517383,-116.33325,NFIS,1,0.5,NA,NA,Idaho
 2023-WASPD-002000,Keystone Fire,WA,Stevens,2023-08-20T21:07:00Z,2023-08-21T03:14:41Z,2,NA,WF,NA,Undetermined,48.188885,-117.879872,NFIS,0,0.4,NA,NA,Washington
-2023-MSMNF-000457,Beaver Pond Fire,MS,Stone,2023-08-19T16:37:00Z,2023-08-21T12:19:26Z,350,60,WF,Moderate,Natural,30.68488,-88.8925,NFIS,1,0,NA,NA,Mississippi
+2023-MSMNF-000457,Beaver Pond Fire,MS,Stone,2023-08-19T16:37:00Z,2023-08-21T12:19:26Z,350,60,WF,Moderate,Natural,30.68488,-88.8925,NFIS,1,0.1,NA,NA,Mississippi
 NA,Bitter Fire,CA,San Luis Obispo,2023-08-15T17:56:00Z,2023-08-16T07:19:50Z,703,100,Wildfire,NA,NA,35.4854,-120.0574,Cal Fire,6,5,"Soda Lake Road and Bitterwater Road, Southeast of Shandon",https://incidents.fire.ca.gov/incidents/2023/8/15/bitter-fire/,California
 NA,SKU August Lightning Complex,CA,Siskiyou,2023-08-15T19:48:44Z,2023-08-20T19:11:49Z,883,90,Wildfire,NA,NA,41.2477,-121.5041,Cal Fire,6,1,Siskiyou County,https://incidents.fire.ca.gov/incidents/2023/8/15/sku-august-lightning-complex/,California
 NA,Slide 1 Fire,CA,Mendocino,2023-08-16T08:35:57Z,2023-08-19T09:31:49Z,NA,NA,Wildfire,NA,NA,40.036944,-122.855,Cal Fire,5,2,North of Mount Linn,https://incidents.fire.ca.gov/incidents/2023/8/16/slide-1-fire/,California
