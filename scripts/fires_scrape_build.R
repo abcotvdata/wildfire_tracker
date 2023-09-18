@@ -33,8 +33,16 @@ library(janitor)
 # this script won't stop; the map will be made with the last/newest data
 
 # Get active CALIFORNIA FIRES data from Calfire
-try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?inactive=true",
-                  "data/calfire_activefires.geojson"))
+temp_file <- "data/temp.geojson"
+original_file <- "data/calfire_activefires.geojson"
+
+# Try downloading the file to a temporary file
+download_status <- try(download.file("https://www.fire.ca.gov/umbraco/api/IncidentApi/GeoJsonList?inactive=true", temp_file))
+
+# If download is successful, move the temporary file to replace the original file
+if (!inherits(download_status, "try-error")) {
+  file.rename(temp_file, original_file)
+}
 
 # Get active FEDERAL WILDFIRE PERIMETERS from NFIS, which we use for both perimeters and points
 # Separate point file if we ever need again is here: https://opendata.arcgis.com/datasets/51192330d3f14664bd69b6faed0fdf05_0.geojson
