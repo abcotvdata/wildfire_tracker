@@ -1,3 +1,4 @@
+library(lubridate)
 # Every morning, by 1130UTC/730EDST, NOAA moves the latest
 # wildfire smoke files from satellites
 # We are setting a script to fetch every morning
@@ -37,14 +38,28 @@ try(file.rename(paste(sep="",
 ## NEED TO STREAMLINE THIS TEST-and-DOWNLOAD METHOD
 # create a pair of urls based on yesterday's date and today's
 # idea is to make sure we have the latest
+#hotspot_url2 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
+#                      format(Sys.Date(), "%Y"),"/",
+#                      format(Sys.Date(), "%m"),"/",
+#                      "hms_fire",format(Sys.Date()-1, "%Y%m%d"),".txt")
+#hotspot_url1 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
+#                      format(Sys.Date(), "%Y"),"/",
+#                      format(Sys.Date(), "%m"),"/",
+#                      "hms_fire",format(Sys.Date(), "%Y%m%d"),".txt")
+
+# modified code for testing
+# create a pair of urls based on yesterday's date and today's
+# idea is to make sure we have the latest
+today <- Sys.Date()
+yesterday <- today - 1
 hotspot_url2 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
-                      format(Sys.Date(), "%Y"),"/",
-                      format(Sys.Date(), "%m"),"/",
-                      "hms_fire",format(Sys.Date()-1, "%Y%m%d"),".txt")
+                      year(yesterday),"/",
+                      month(yesterday),"/",
+                      "hms_fire",format(yesterday, "%Y%m%d"),".txt")
 hotspot_url1 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
-                      format(Sys.Date(), "%Y"),"/",
-                      format(Sys.Date(), "%m"),"/",
-                      "hms_fire",format(Sys.Date(), "%Y%m%d"),".txt")
+                      year(today),"/",
+                      month(today),"/",
+                      "hms_fire",format(today, "%Y%m%d"),".txt")
 
 ## download the yesterday file and then download the today file
 # which will replace if today file exists and won't if not
@@ -52,3 +67,12 @@ result <- try(download.file(hotspot_url1,"data/hotspots.csv"))
 if (inherits(result, "try-error")) {
   try(download.file(hotspot_url2,"data/hotspots.csv"))
 }
+
+
+
+## download the yesterday file and then download the today file
+# which will replace if today file exists and won't if not
+#result <- try(download.file(hotspot_url1,"data/hotspots.csv"))
+#if (inherits(result, "try-error")) {
+#  try(download.file(hotspot_url2,"data/hotspots.csv"))
+#}
