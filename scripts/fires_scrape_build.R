@@ -438,9 +438,10 @@ hawaiiheaderhtml <- tags$div(
 # New wildfire base map include fires, smoke and hotspots
 base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
   setView(-116, 43.5, zoom = 5) %>% 
-  addProviderTiles(providers$Esri.WorldTerrain) %>%
-  addProviderTiles(providers$Stamen.TonerLines) %>%
-  addProviderTiles(providers$Stamen.TonerLabels) %>%
+#  addProviderTiles(providers$Esri.WorldTerrain) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+#  addProviderTiles(providers$Stamen.TonerLines) %>%
+#  addProviderTiles(providers$Stamen.TonerLabels) %>%
   addCircleMarkers(radius = 2.5,
                    color = "#be0000",
                    weight = 1,
