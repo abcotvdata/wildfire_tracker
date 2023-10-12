@@ -615,9 +615,7 @@ california_map <- base_map %>%
 ### SECTION 11. Script California map + variant(s). ###
 
 hawaii_map <- base_map %>%
-  addProviderTiles(providers$Esri.WorldImagery) %>%
-  addProviderTiles(providers$Stamen.TonerLines) %>%
-  addProviderTiles(providers$Stamen.TonerLabels) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
   addControl(position = "topleft", html = hawaiiheaderhtml, className="map-title") %>%
   setView(-156.4, 20.798, zoom = 10) %>%
   addEasyButtonBar(easyButton(icon = fire_button, title = fire_buttontitle,
