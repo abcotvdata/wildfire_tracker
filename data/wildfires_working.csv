@@ -13,7 +13,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-CASRF-000952,Holiday Fire,CA,Del Norte,2023-08-15T18:41:00Z,2023-08-20T20:55:25Z,7071,100,WF,NA,Undetermined,41.9485,-123.8995,NFIS,71,66.7,NA,NA,California
 2023-CASRF-000945,Diamond Fire,CA,Del Norte,2023-08-15T16:24:00Z,2023-09-13T11:25:46Z,550,100,WF,NA,Undetermined,41.938613,-123.951946,NFIS,71,43.1,NA,NA,California
 2023-CASRF-000939,Kelly Fire,CA,Del Norte,2023-08-15T14:19:00Z,2023-10-21T23:12:28Z,81148.3,95,WF,NA,Undetermined,41.860828,-123.94475,NFIS,71,4.6,NA,NA,California
-2023-CASRF-000972,3-9 Fire,CA,Humboldt,2023-08-16T09:22:13Z,2023-09-06T05:20:18Z,2840,95,WF,NA,Undetermined,40.636317,-123.5797,NFIS,71,50.3,NA,NA,California
+2023-CASRF-000972,3-9 Fire,CA,Humboldt,2023-08-16T09:22:13Z,2023-09-06T05:20:18Z,2840,95,WF,NA,Undetermined,40.636317,-123.5797,NFIS,71,50.4,NA,NA,California
 2023-CASRF-000989,Prescott Fire,CA,Siskiyou,2023-08-17T18:41:43Z,2023-09-13T11:25:46Z,599,100,WF,NA,Undetermined,41.735,-123.674,NFIS,69,43.1,NA,NA,California
 2023-CASRF-000968,Corral Fire,CA,Del Norte,2023-08-16T01:30:31Z,2023-08-21T06:16:57Z,95106.7,95,CX,Minimal,Undetermined,41.841319,-123.846438,NFIS,71,66.3,NA,NA,California
 2023-CASRF-000962,Marlow Fire,CA,Del Norte,2023-08-15T21:29:21Z,2023-09-28T22:29:16Z,1997.21,100,WF,NA,Undetermined,41.934667,-124.267,NFIS,71,27.6,NA,NA,California
@@ -55,8 +55,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-COSJF-001184,Trail Springs Fire,CO,Archuleta,2023-10-19T20:11:00Z,2023-10-26T11:50:21Z,749,0,WF,Moderate,Natural,37.300847,-107.24701,NFIS,6,0.1,NA,NA,Colorado
 2023-COSJF-001183,Mill Creek 2 Fire,CO,Archuleta,2023-10-19T16:55:00Z,2023-10-26T12:17:02Z,118,0,WF,Moderate,Undetermined,37.28815,-106.911618,NFIS,6,0.1,NA,NA,Colorado
 2023-OKWMR-002173,Fort Sill Assist Fire,OK,Comanche,2023-10-20T20:00:00Z,2023-10-23T13:26:06Z,120,NA,WF,NA,Undetermined,34.719932,-98.500309,NFIS,5,3,NA,NA,Oklahoma
+2023-ALALF-230247,Bk Hill Fire,AL,Winston,2023-10-22T14:25:00Z,2023-10-25T19:58:15Z,8,NA,WF,NA,Undetermined,34.282789,-87.256531,NFIS,3,0.7,NA,NA,Alabama
 2023-AZASF-000956,Brady Springs Fire,AZ,Apache,2023-10-19T21:46:29Z,2023-10-23T16:46:22Z,75,NA,WF,NA,Natural,34.104321,-109.568895,NFIS,6,2.9,NA,NA,Arizona
-2023-TXTXS-234394,H&H North Fire,TX,Jefferson,2023-10-24T19:40:00Z,2023-10-24T22:03:00Z,9600,95,WF,Minimal,Undetermined,29.8423,-94.08358333,NFIS,1,1.6,NA,NA,Texas
+2023-TXTXS-234394,H&H North Fire,TX,Jefferson,2023-10-24T19:40:00Z,2023-10-24T22:03:00Z,9600,95,WF,Minimal,Undetermined,29.8423,-94.08358333,NFIS,1,1.7,NA,NA,Texas
 2023-NCNCF-230262,Collett Ridge Fire,NC,Cherokee,2023-10-23T15:57:26Z,2023-10-25T18:12:26Z,52,NA,WF,NA,Natural,35.151633,-83.799717,NFIS,2,0.8,NA,NA,North Carolina
 NA,Deep Fire,CA,Trinity,2023-08-16T08:28:40Z,2023-10-24T14:48:10Z,NA,NA,Wildfire,NA,NA,40.93686,-122.94871,Cal Fire,71,2,Stuart Fork drainage,https://incidents.fire.ca.gov/incidents/2023/8/16/deep-fire/,California
 NA,Happy Camp Complex,CA,Siskiyou,2023-08-16T10:27:00Z,2023-10-24T08:43:45Z,NA,NA,Wildfire,NA,NA,41.777554,-123.045093,Cal Fire,71,2,Klamath National Forest and Happy Camp Ranger District near Scott Bar,https://incidents.fire.ca.gov/incidents/2023/8/16/happy-camp-complex/,California
