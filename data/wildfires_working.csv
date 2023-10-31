@@ -8,11 +8,10 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AKFAS-311257,Teklanika River Fire,AK,Yukon-Koyukuk,2023-07-26T08:02:14Z,2023-09-06T15:28:42Z,8858,17,WF,Active,Natural,64.398617,-149.222217,NFIS,97,55,NA,NA,Alaska
 2023-TXTXS-232299,Eggy Fire,TX,Jim Wells,2023-07-01T20:19:10Z,2023-07-27T17:18:17Z,42,100,WF,Moderate,Undetermined,27.87771,-98.13687,NFIS,121,95.9,NA,NA,Texas
 2023-AKFAS-311325,Shores Landing Fire,AK,Yukon-Koyukuk,2023-08-02T22:20:41Z,2023-09-06T15:28:42Z,3786.2,5,WF,Minimal,Natural,64.448,-149.256167,NFIS,89,55,NA,NA,Alaska
-2023-COSJF-000570,Bear Creek Fire,CO,Hinsdale,2023-07-28T19:44:00Z,2023-10-26T23:59:36Z,1101,86,WF,Minimal,Natural,37.521333,-107.29995,NFIS,94,4.6,NA,NA,Colorado
-2023-COSJF-000678,Quartz Ridge Fire,CO,Archuleta,2023-08-05T15:01:00Z,2023-09-30T16:52:33Z,2850,85,WF,Minimal,Natural,37.32985,-106.82525,NFIS,87,30.9,NA,NA,Colorado
+2023-COSJF-000570,Bear Creek Fire,CO,Hinsdale,2023-07-28T19:44:00Z,2023-10-26T23:59:36Z,1101,86,WF,Minimal,Natural,37.521333,-107.29995,NFIS,94,4.7,NA,NA,Colorado
+2023-COSJF-000678,Quartz Ridge Fire,CO,Archuleta,2023-08-05T15:01:00Z,2023-09-30T16:52:33Z,2850,85,WF,Minimal,Natural,37.32985,-106.82525,NFIS,87,31,NA,NA,Colorado
 2023-NMSNF-000345,Black Feather Fire,NM,Rio Arriba,2023-08-05T21:17:53Z,2023-08-18T23:27:27Z,2198,85,WF,Minimal,Natural,36.122497,-106.804971,NFIS,86,73.7,NA,NA,New Mexico
 2023-TXTXS-232894,Yowell Rd. Fire,TX,Montague,2023-08-07T15:02:55Z,2023-08-15T22:48:27Z,100,100,WF,Minimal,Undetermined,33.67167826,-97.89037258,NFIS,85,76.7,NA,NA,Texas
-2023-CASRF-000954,Mosquito Fire,CA,Humboldt,2023-08-15T19:12:00Z,2023-10-09T15:22:41Z,17983.53,100,WF,NA,Undetermined,41.372167,-123.6725,NFIS,76,22,NA,NA,California
 2023-CASRF-000952,Holiday Fire,CA,Del Norte,2023-08-15T18:41:00Z,2023-08-20T20:55:25Z,7071,100,WF,NA,Undetermined,41.9485,-123.8995,NFIS,76,71.8,NA,NA,California
 2023-CASRF-000945,Diamond Fire,CA,Del Norte,2023-08-15T16:24:00Z,2023-09-13T11:25:46Z,550,100,WF,NA,Undetermined,41.938613,-123.951946,NFIS,76,48.2,NA,NA,California
 2023-CASRF-000939,Kelly Fire,CA,Del Norte,2023-08-15T14:19:00Z,2023-10-21T23:12:28Z,81148.3,95,WF,NA,Undetermined,41.860828,-123.94475,NFIS,77,9.7,NA,NA,California
@@ -28,7 +27,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-CASRF-000957,Mosquito Fire,CA,Del Norte,2023-08-15T20:13:55Z,2023-09-23T01:24:33Z,4269.99,100,WF,NA,Undetermined,41.432883,-123.692767,NFIS,76,38.6,NA,NA,California
 2023-CASRF-000961,Mosquito Fire,CA,Del Norte,2023-08-15T20:52:14Z,2023-09-23T01:24:33Z,9751.13,100,WF,NA,Undetermined,41.527778,-123.724444,NFIS,76,38.6,NA,NA,California
 2023-CASRF-000984,Let Er-Buck Fire,CA,Siskiyou,2023-08-17T01:20:59Z,2023-09-28T22:27:19Z,95.92,100,WF,NA,Undetermined,41.481633,-123.392333,NFIS,75,32.7,NA,NA,California
-2023-CASHF-000992,Sulpher Fire,CA,Trinity,2023-08-15T23:06:00Z,2023-08-22T19:10:13Z,31,100,WF,NA,Natural,40.492234,-123.454302,NFIS,76,69.8,NA,NA,California
+2023-CASHF-000992,Sulpher Fire,CA,Trinity,2023-08-15T23:06:00Z,2023-08-22T19:10:13Z,31,100,WF,NA,Natural,40.492234,-123.454302,NFIS,76,69.9,NA,NA,California
 2023-CASRF-000946,Corral Fire,CA,Del Norte,2023-08-15T16:26:00Z,2023-09-13T11:25:46Z,1090,100,WF,NA,Undetermined,41.9797,-123.96,NFIS,76,48.2,NA,NA,California
 2023-CASRF-001003,Iron Fire,CA,Siskiyou,2023-08-19T18:14:52Z,2023-09-28T22:27:19Z,20.02,100,WF,NA,Undetermined,41.5433,-123.502,NFIS,72,32.7,NA,NA,California
 2023-UTGRD-023296,Light House Canyon Fire,UT,Emery,2023-08-16T21:31:00Z,2023-09-29T19:49:57Z,1962,85,WF,Minimal,Natural,39.4275,-110.160167,NFIS,75,31.8,NA,NA,Utah
@@ -44,7 +43,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-CASTF-001921,Quarry Fire,CA,Tuolumne,2023-09-09T23:32:00Z,2023-10-20T23:28:18Z,12935,80,WF,Minimal,Natural,38.061,-119.989667,NFIS,51,10.7,NA,NA,California
 2023-CASRF-000986,Mosquito Fire,CA,Humboldt,2023-08-17T17:02:29Z,2023-09-26T01:45:21Z,50198.04,100,CX,Minimal,Undetermined,41.456944,-123.602471,NFIS,74,35.6,NA,NA,California
 2023-AZCOF-001048,Still Fire,AZ,Coconino,2023-09-14T13:32:00Z,2023-10-13T23:25:10Z,11233,95,WF,Minimal,Natural,34.574385,-111.242752,NFIS,47,17.7,NA,NA,Arizona
-2023-COPSF-001717,Saint Charles Fire,CO,Pueblo,2023-10-15T00:19:00Z,2023-10-30T14:19:46Z,492,99,WF,Minimal,Natural,37.983006,-105.025177,NFIS,16,1,NA,NA,Colorado
+2023-COPSF-001717,Saint Charles Fire,CO,Pueblo,2023-10-15T00:19:00Z,2023-10-30T14:19:46Z,492,99,WF,Minimal,Natural,37.983006,-105.025177,NFIS,16,1.1,NA,NA,Colorado
 2023-LAJEP-000387,Lafitte Fire,LA,Jefferson,2023-10-17T21:00:00Z,2023-10-21T00:09:47Z,147,60,WF,Minimal,Undetermined,29.744583,-90.12675,NFIS,13,10.6,NA,NA,Louisiana
 2023-COSJF-001184,Trail Springs Fire,CO,Archuleta,2023-10-19T20:11:00Z,2023-10-31T13:06:49Z,1250,37,WF,Minimal,Natural,37.300847,-107.24701,NFIS,11,0.1,NA,NA,Colorado
 2023-COSJF-001183,Mill Creek 2 Fire,CO,Archuleta,2023-10-19T16:55:00Z,2023-10-31T14:12:04Z,121,0,WF,Minimal,Undetermined,37.28815,-106.911618,NFIS,11,0.1,NA,NA,Colorado
@@ -55,5 +54,5 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-VAVAS-230102,Quaker Run Fire,VA,Madison,2023-10-26T17:49:00Z,2023-10-31T11:16:12Z,510,40,WF,Moderate,Undetermined,38.476733,-78.346697,NFIS,4,0.2,NA,NA,Virginia
 NA,Border 34 Fire,CA,San Diego,2023-10-29T15:29:00Z,2023-10-30T14:11:22Z,24,60,Wildfire,NA,NA,32.598,-116.9196,Cal Fire,2,1,"Otay Mountain Wilderness, east of Otay Mesa",https://incidents.fire.ca.gov/incidents/2023/10/29/border-34-fire/,California
 NA,SRF Lightning Complex,CA,Humboldt,2023-08-20T11:16:48Z,2023-10-30T11:53:57Z,NA,NA,Wildfire,NA,NA,41.017222,-123.611167,Cal Fire,72,1,Humboldt County,https://incidents.fire.ca.gov/incidents/2023/8/20/srf-lightning-complex/,California
-NA,Highland Fire,CA,Riverside,2023-10-30T12:37:00Z,2023-10-31T08:23:06Z,2200,NA,Wildfire,NA,NA,33.438207,-116.82307,Cal Fire,1,0,"Highland Road and Aguanga Ranchos Road, Aguanga",https://incidents.fire.ca.gov/incidents/2023/10/30/highland-fire/,California
-NA,Lizzie Fire,CA,San Luis Obispo,2023-10-30T14:14:00Z,2023-10-31T07:19:04Z,100,35,Wildfire,NA,NA,35.2808,-120.644,Cal Fire,1,0,"Johnson Avenue and Bishop Street, city of San Luis Obispo",https://incidents.fire.ca.gov/incidents/2023/10/30/lizzie-fire/,California
+NA,Highland Fire,CA,Riverside,2023-10-30T12:37:00Z,2023-10-31T08:40:27Z,2200,NA,Wildfire,NA,NA,33.438207,-116.82307,Cal Fire,1,0,"Highland Road and Aguanga Ranchos Road, Aguanga",https://incidents.fire.ca.gov/incidents/2023/10/30/highland-fire/,California
+NA,Lizzie Fire,CA,San Luis Obispo,2023-10-30T14:14:00Z,2023-10-31T08:36:11Z,100,35,Wildfire,NA,NA,35.2808,-120.644,Cal Fire,1,0,"Johnson Avenue and Bishop Street, city of San Luis Obispo",https://incidents.fire.ca.gov/incidents/2023/10/30/lizzie-fire/,California
