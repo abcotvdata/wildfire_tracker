@@ -29,7 +29,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-CASRF-000986,Mosquito Fire,CA,Humboldt,2023-08-17T17:02:29Z,2023-09-26T01:45:21Z,50198.04,100,CX,Minimal,Undetermined,41.456944,-123.602471,NFIS,81,41.8,NA,NA,California
 2023-AZCOF-001048,Still Fire,AZ,Coconino,2023-09-14T13:32:00Z,2023-10-13T23:25:10Z,11233,100,WF,Minimal,Natural,34.574385,-111.242752,NFIS,53,23.9,NA,NA,Arizona
 2023-COPSF-001717,Saint Charles Fire,CO,Pueblo,2023-10-15T00:19:00Z,2023-10-30T14:19:46Z,492,99,WF,Minimal,Natural,37.983006,-105.025177,NFIS,22,7.3,NA,NA,Colorado
-2023-LAJEP-000387,Lafitte Fire,LA,Jefferson,2023-10-17T21:00:00Z,2023-10-21T00:09:47Z,147,90,WF,Minimal,Undetermined,29.744583,-90.12675,NFIS,19,16.8,NA,NA,Louisiana
+2023-LAJEP-000387,Lafitte Fire,LA,Jefferson,2023-10-17T21:00:00Z,2023-10-21T00:09:47Z,147,90,WF,Minimal,Undetermined,29.744583,-90.12675,NFIS,19,16.9,NA,NA,Louisiana
 2023-COSJF-001184,Trail Springs Fire,CO,Archuleta,2023-10-19T20:11:00Z,2023-11-05T15:12:15Z,1269,37,WF,Minimal,Natural,37.300847,-107.24701,NFIS,18,1.2,NA,NA,Colorado
 2023-COSJF-001183,Mill Creek 2 Fire,CO,Archuleta,2023-10-19T16:55:00Z,2023-11-05T15:59:31Z,126,0,WF,Minimal,Undetermined,37.28815,-106.911618,NFIS,18,1.2,NA,NA,Colorado
 2023-NCNCF-230262,Collett Ridge Fire,NC,Cherokee,2023-10-23T15:57:26Z,2023-11-06T18:36:15Z,2158,0,WF,Moderate,Natural,35.151633,-83.799717,NFIS,14,0.1,NA,NA,North Carolina
@@ -42,7 +42,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AZCOF-001241,Maid Fire,AZ,Coconino,2023-11-04T12:11:56Z,2023-11-06T02:07:22Z,427,0,WF,Active,Human,34.71,-111.53,NFIS,2,0.8,NA,NA,Arizona
 2023-MSMNF-000678,Foster Fire,MS,Amite,2023-11-04T15:03:57Z,2023-11-05T13:57:14Z,111,NA,WF,NA,Human,31.2235,-91.036,NFIS,2,1.3,NA,NA,Mississippi
 2023-KYDBF-230227,Str - Lick Creek Fire,KY,McCreary,2023-10-29T21:34:00Z,2023-11-05T15:53:32Z,88,NA,WF,NA,Human,36,-83.59005,NFIS,7,1.2,NA,NA,Kentucky
-2023-MN1FS-000075,Tower Cr Fire Fire,MN,Cass,2023-11-04T17:19:28Z,2023-11-06T14:42:51Z,3,NA,WF,NA,NA,NA,NA,NFIS,2,0.2,NA,NA,Minnesota
-2023-NCNCS-230039,Poplar Drive Fire,NC,Henderson,2023-11-03T18:45:00Z,2023-11-06T17:05:40Z,250,5,WF,Active,Undetermined,NA,NA,NFIS,3,0.1,NA,NA,North Carolina
+2023-MN1FS-000075,Tower Cr Fire Fire,MN,Cass,2023-11-04T17:19:28Z,2023-11-06T14:42:51Z,3,NA,WF,NA,NA,NA,NA,NFIS,2,0.3,NA,NA,Minnesota
+2023-NCNCS-230039,Poplar Drive Fire,NC,Henderson,2023-11-03T18:45:00Z,2023-11-06T17:05:40Z,250,5,WF,Active,Undetermined,NA,NA,NFIS,3,0.2,NA,NA,North Carolina
 2023-AZCNF-001076,Gap Fire,AZ,Pinal,2023-11-03T16:52:01Z,2023-11-06T17:16:49Z,242,NA,WF,NA,Undetermined,32.516819,-110.810852,NFIS,3,0.1,NA,NA,Arizona
 NA,Lizzie Fire,CA,San Luis Obispo,2023-10-30T14:14:00Z,2023-11-01T19:25:56Z,124,100,Wildfire,NA,NA,35.2808,-120.644,Cal Fire,7,5,"Johnson Avenue and Bishop Street, city of San Luis Obispo",https://incidents.fire.ca.gov/incidents/2023/10/30/lizzie-fire/,California
