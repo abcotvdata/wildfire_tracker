@@ -1,5 +1,5 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2023-TXTXS-232562,Waggner Fire,TX,Duval,2023-07-19T20:47:28Z,2023-07-20T22:06:13Z,1066,100,WF,Moderate,Human,27.36944444,-98.52222222,NFIS,110,109.3,NA,NA,Texas
+2023-TXTXS-232562,Waggner Fire,TX,Duval,2023-07-19T20:47:28Z,2023-07-20T22:06:13Z,1066,100,WF,Moderate,Human,27.36944444,-98.52222222,NFIS,110,109.4,NA,NA,Texas
 2023-MTNWS-000274L,Gravel Pit Fire,MT,Lincoln,2023-08-02T00:26:00Z,2023-08-16T11:31:35Z,304,95,WF,Minimal,Human,48.031796,-115.360222,NFIS,97,82.8,NA,NA,Montana
 2023-COSJF-000570,Bear Creek Fire,CO,Hinsdale,2023-07-28T19:44:00Z,2023-11-05T16:43:14Z,1101,90,WF,Minimal,Natural,37.521333,-107.29995,NFIS,101,1.6,NA,NA,Colorado
 2023-COSJF-000678,Quartz Ridge Fire,CO,Archuleta,2023-08-05T15:01:00Z,2023-09-30T16:52:33Z,2850,95,WF,Minimal,Natural,37.32985,-106.82525,NFIS,93,37.6,NA,NA,Colorado
@@ -39,8 +39,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AZCOF-001241,Maid Fire,AZ,Coconino,2023-11-04T12:11:56Z,2023-11-07T01:09:08Z,942,15,WF,Active,Human,34.71,-111.53,NFIS,2,0.2,NA,NA,Arizona
 2023-MSMNF-000678,Foster Fire,MS,Amite,2023-11-04T15:03:57Z,2023-11-05T13:57:14Z,111,NA,WF,NA,Human,31.2235,-91.036,NFIS,2,1.7,NA,NA,Mississippi
 2023-KYDBF-230227,Str - Lick Creek Fire,KY,McCreary,2023-10-29T21:34:00Z,2023-11-05T15:53:32Z,88,NA,WF,NA,Human,36,-83.59005,NFIS,8,1.6,NA,NA,Kentucky
-2023-MN1FS-000075,Tower Cr Fire Fire,MN,Cass,2023-11-04T17:19:28Z,2023-11-06T14:42:51Z,3,NA,WF,NA,NA,NA,NA,NFIS,2,0.6,NA,NA,Minnesota
-2023-NCNCS-230039,Poplar Drive Fire,NC,Henderson,2023-11-03T18:45:00Z,2023-11-06T17:05:40Z,431,5,WF,Minimal,Undetermined,NA,NA,NFIS,3,0.5,NA,NA,North Carolina
-2023-AZCNF-001076,Gap Fire,AZ,Pinal,2023-11-03T16:52:01Z,2023-11-06T17:16:49Z,242,NA,WF,NA,Undetermined,32.516819,-110.810852,NFIS,3,0.5,NA,NA,Arizona
+2023-MN1FS-000075,Tower Cr Fire Fire,MN,Cass,2023-11-04T17:19:28Z,2023-11-06T14:42:51Z,3,NA,WF,NA,NA,NA,NA,NFIS,2,0.7,NA,NA,Minnesota
+2023-NCNCS-230039,Poplar Drive Fire,NC,Henderson,2023-11-03T18:45:00Z,2023-11-06T17:05:40Z,431,5,WF,Minimal,Undetermined,NA,NA,NFIS,3,0.6,NA,NA,North Carolina
+2023-AZCNF-001076,Gap Fire,AZ,Pinal,2023-11-03T16:52:01Z,2023-11-06T17:16:49Z,242,NA,WF,NA,Undetermined,32.516819,-110.810852,NFIS,3,0.6,NA,NA,Arizona
 2023-ALALF-230268,Tl Adam's Gap Fire,AL,Clay,2023-11-06T16:45:35Z,2023-11-06T21:15:21Z,0.5,NA,WF,NA,Undetermined,33.403999,-85.874409,NFIS,0,0.4,NA,NA,Alabama
 NA,Lizzie Fire,CA,San Luis Obispo,2023-10-30T14:14:00Z,2023-11-01T19:25:56Z,124,100,Wildfire,NA,NA,35.2808,-120.644,Cal Fire,8,6,"Johnson Avenue and Bishop Street, city of San Luis Obispo",https://incidents.fire.ca.gov/incidents/2023/10/30/lizzie-fire/,California
