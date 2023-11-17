@@ -33,7 +33,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AZCNF-001076,Gap Fire,AZ,Pinal,2023-11-03T16:52:01Z,2023-11-06T17:16:49Z,242,NA,WF,NA,Undetermined,32.516819,-110.810852,NFIS,13,10.6,NA,NA,Arizona
 2023-COPSF-001717,Saint Charles Fire,CO,Pueblo,2023-10-15T00:19:00Z,2023-10-30T14:19:46Z,492,99,WF,Minimal,Natural,37.983006,-105.025177,NFIS,33,17.8,NA,NA,Colorado
 2023-CASRF-000952,Holiday Fire,CA,Del Norte,2023-08-15T18:41:00Z,2023-08-20T20:55:25Z,7071,100,WF,NA,Undetermined,41.9485,-123.8995,NFIS,93,88.5,NA,NA,California
-2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:53Z,2023-11-16T21:13:44Z,382,0,WF,Active,Undetermined,35.755583,-83.054967,NFIS,0,0.5,NA,NA,North Carolina
+2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:53Z,2023-11-16T21:13:44Z,5,0,WF,Active,Undetermined,35.755583,-83.054967,NFIS,0,0.5,NA,NA,North Carolina
 2023-NCNCS-230044,Elk Creek Fire,NC,Watauga,2023-11-09T00:45:00Z,2023-11-14T22:37:49Z,225,100,WF,Minimal,Undetermined,NA,NA,NFIS,8,2.4,NA,NA,North Carolina
 2023-MOMOS-000555,Texas County Assist Fire,MO,Texas,2023-11-15T20:08:00Z,2023-11-16T14:29:52Z,NA,NA,WF,NA,NA,NA,NA,NFIS,1,0.8,NA,NA,Missouri
 NA,Sun Fire,CA,Santa Barbara,2023-11-09T12:15:00Z,2023-11-13T08:50:31Z,211,100,Wildfire,NA,NA,34.55742,-120.32318,Cal Fire,8,4,"7200 San Julian Road, Lompoc",https://incidents.fire.ca.gov/incidents/2023/11/9/sun-fire/,California
