@@ -1,6 +1,6 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
 2023-COSJF-000570,Bear Creek Fire,CO,Hinsdale,2023-07-28T19:44:00Z,2023-11-05T16:43:14Z,1102,90,WF,Minimal,Natural,37.521333,-107.29995,NFIS,115,15.3,NA,NA,Colorado
-2023-COSJF-000678,Quartz Ridge Fire,CO,Archuleta,2023-08-05T15:01:00Z,2023-09-30T16:52:33Z,2850,95,WF,Minimal,Natural,37.32985,-106.82525,NFIS,107,51.2,NA,NA,Colorado
+2023-COSJF-000678,Quartz Ridge Fire,CO,Archuleta,2023-08-05T15:01:00Z,2023-09-30T16:52:33Z,2850,95,WF,Minimal,Natural,37.32985,-106.82525,NFIS,107,51.3,NA,NA,Colorado
 2023-CASRF-000952,Holiday Fire,CA,Del Norte,2023-08-15T18:41:00Z,2023-08-20T20:55:25Z,7071,100,WF,NA,Undetermined,41.9485,-123.8995,NFIS,97,92.1,NA,NA,California
 2023-CASRF-000945,Diamond Fire,CA,Del Norte,2023-08-15T16:24:00Z,2023-09-13T11:25:46Z,550,100,WF,NA,Undetermined,41.938613,-123.951946,NFIS,97,68.5,NA,NA,California
 2023-CASRF-000989,Prescott Fire,CA,Siskiyou,2023-08-17T18:41:43Z,2023-09-13T11:25:46Z,599,100,WF,NA,Undetermined,41.735,-123.674,NFIS,95,68.5,NA,NA,California
@@ -30,14 +30,15 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-MSMNF-000668,Range 45 Northeast Fire,MS,Forrest,2023-11-02T23:22:47Z,2023-11-11T19:58:47Z,1200,NA,WF,NA,Undetermined,31.11468,-89.147491,NFIS,17,9.1,NA,NA,Mississippi
 2023-TNCNF-000471,Tweed Fire,TN,Cocke,2023-11-08T16:43:00Z,2023-11-16T21:59:50Z,538,85,WF,Minimal,Human,35.9473,-83.0115,NFIS,12,4,NA,NA,Tennessee
 2023-MAMAS-MAARNG-08,Cped-Rx Glu2a-20231112-01 Fire,MA,Barnstable,2023-11-12T17:00:44Z,2023-11-13T20:18:51Z,10,NA,RX,NA,NA,NA,NA,NFIS,8,7.1,NA,NA,Massachusetts
-2023-MAMAS-TTORRX0501,Weir Hill Rx Fire,MA,Essex,2023-11-11T14:13:15Z,2023-11-13T21:57:39Z,19,NA,RX,NA,NA,NA,NA,NFIS,9,7,NA,NA,Massachusetts
+2023-MAMAS-TTORRX0501,Weir Hill Rx Fire,MA,Essex,2023-11-11T14:13:15Z,2023-11-13T21:57:39Z,19,NA,RX,NA,NA,NA,NA,NFIS,9,7.1,NA,NA,Massachusetts
 2023-VAVAF-230128,Matts Creek Fire,VA,Bedford,2023-11-13T00:13:00Z,2023-11-20T20:55:55Z,10813,33,WF,Moderate,Undetermined,37.577015,-79.445572,NFIS,7,0.1,NA,NA,Virginia
-2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-11-20T19:11:49Z,1888,42,WF,Minimal,Undetermined,35.755583,-83.054967,NFIS,4,0.1,NA,NA,North Carolina
+2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-11-20T19:11:49Z,1888,42,WF,Minimal,Undetermined,35.755583,-83.054967,NFIS,4,0.2,NA,NA,North Carolina
 2023-TNCNF-000445,Bullet Fire,TN,Monroe,2023-11-05T19:28:00Z,2023-11-17T20:33:29Z,103,40,WF,Minimal,Undetermined,35.290417,-84.441833,NFIS,15,3.1,NA,NA,Tennessee
-2023-MAMAS-TTORRX0502,Boston Hill Rx Fire,MA,Essex,2023-11-12T15:00:06Z,2023-11-17T14:38:03Z,19,NA,RX,NA,NA,NA,NA,NFIS,8,3.3,NA,NA,Massachusetts
+2023-MAMAS-TTORRX0502,Boston Hill Rx Fire,MA,Essex,2023-11-12T15:00:06Z,2023-11-17T14:38:03Z,19,NA,RX,NA,NA,NA,NA,NFIS,8,3.4,NA,NA,Massachusetts
 2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-20T20:45:48Z,400,0,WF,Active,Undetermined,NA,NA,NFIS,1,0.1,NA,NA,North Carolina
 2023-MN2PS-000054,Peat 8 Fire,MN,St. Louis,2023-11-13T15:25:49Z,2023-11-20T15:33:45Z,0.1,NA,WF,NA,NA,NA,NA,NFIS,7,0.3,NA,NA,Minnesota
 2023-MAMAS-DFG-RX24,Rx Dfg-Mashpee Wma F G2 Fire,MA,Barnstable,2023-11-16T16:53:19Z,2023-11-20T21:05:30Z,49,NA,RX,NA,NA,NA,NA,NFIS,4,0.1,NA,NA,Massachusetts
+2023-TNGSP-000539,Rich Mountain Trail Fire,TN,Blount,2023-11-20T20:09:00Z,2023-11-20T23:04:01Z,5,NA,WF,NA,Undetermined,35.644583,-83.805233,NFIS,0,0,NA,NA,Tennessee
 NA,Sun Fire,CA,Santa Barbara,2023-11-09T12:15:00Z,2023-11-13T08:50:31Z,211,100,Wildfire,NA,NA,34.55742,-120.32318,Cal Fire,11,7,"7200 San Julian Road, Lompoc",https://incidents.fire.ca.gov/incidents/2023/11/9/sun-fire/,California
 NA,Lamb Fire,CA,Riverside,2023-11-14T10:48:00Z,2023-11-20T11:31:43Z,13,100,Wildfire,NA,NA,33.85008,-116.99867,Cal Fire,6,0,Northeast of Lamb Canyon Road,https://incidents.fire.ca.gov/incidents/2023/11/14/lamb-fire/,California
 NA,Manzanita Fire,CA,Riverside,2023-11-14T16:25:00Z,2023-11-20T11:32:33Z,15,100,Wildfire,NA,NA,33.839416,-117.003584,Cal Fire,6,0,Northbound Highway 79 and Gilman Springs Road,https://incidents.fire.ca.gov/incidents/2023/11/14/manzanita-fire/,California
