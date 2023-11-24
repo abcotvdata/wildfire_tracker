@@ -1,6 +1,6 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
 2023-ORWSA-000068,Grade Fire,OR,Wasco,2023-08-01T05:30:00Z,2023-08-01T22:04:21Z,225,100,WF,Minimal,Undetermined,NA,NA,NFIS,115,115,NA,NA,Oregon
-2023-COSJF-000570,Bear Creek Fire,CO,Hinsdale,2023-07-28T19:44:00Z,2023-11-05T16:43:14Z,1102,90,WF,Minimal,Natural,37.521333,-107.29995,NFIS,119,19.2,NA,NA,Colorado
+2023-COSJF-000570,Bear Creek Fire,CO,Hinsdale,2023-07-28T19:44:00Z,2023-11-05T16:43:14Z,1102,90,WF,Minimal,Natural,37.521333,-107.29995,NFIS,119,19.3,NA,NA,Colorado
 2023-CASRF-000952,Holiday Fire,CA,Del Norte,2023-08-15T18:41:00Z,2023-08-20T20:55:25Z,7071,100,WF,NA,Undetermined,41.9485,-123.8995,NFIS,101,96.1,NA,NA,California
 2023-CASRF-000945,Diamond Fire,CA,Del Norte,2023-08-15T16:24:00Z,2023-09-13T11:25:46Z,550,100,WF,NA,Undetermined,41.938613,-123.951946,NFIS,101,72.5,NA,NA,California
 2023-CASRF-000989,Prescott Fire,CA,Siskiyou,2023-08-17T18:41:43Z,2023-09-13T11:25:46Z,599,100,WF,NA,Undetermined,41.735,-123.674,NFIS,99,72.5,NA,NA,California
@@ -19,14 +19,14 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-11-13T22:00:05Z,1696,90,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,25,11,NA,NA,Hawaii
 2023-AKMID-230009,Fwa Wdp Rx Fire,AK,Fairbanks North Star,2023-04-21T18:39:15Z,2023-11-03T20:04:07Z,10,NA,RX,NA,Undetermined,64.80228,-147.6127,NFIS,217,21.1,NA,NA,Alaska
 2023-AZTNF-001665,Silver Fire,AZ,Pinal,2023-11-03T21:25:47Z,2023-11-10T17:31:07Z,972,100,WF,Minimal,Human,33.3081,-111.244,NFIS,21,14.2,NA,NA,Arizona
-2023-WVNRP-000763,Steep Valley Fire,WV,Fayette,2023-11-06T17:56:00Z,2023-11-15T23:53:35Z,2206,100,WF,Minimal,Undetermined,37.83429,-81.039,NFIS,18,8.9,NA,NA,West Virginia
+2023-WVNRP-000763,Steep Valley Fire,WV,Fayette,2023-11-06T17:56:00Z,2023-11-15T23:53:35Z,2206,100,WF,Minimal,Undetermined,37.83429,-81.039,NFIS,18,9,NA,NA,West Virginia
 2023-NCNCS-230040,East Fork Fire,NC,Jackson,2023-11-04T21:06:00Z,2023-11-07T20:15:34Z,310,100,WF,Minimal,Undetermined,NA,NA,NFIS,20,17.1,NA,NA,North Carolina
 2023-NCNCS-230044,Elk Creek Fire,NC,Watauga,2023-11-09T00:45:00Z,2023-11-14T22:37:49Z,225,100,WF,Minimal,Undetermined,NA,NA,NFIS,15,10,NA,NA,North Carolina
 2023-NCNCS-230045,Tripplett Fire,NC,Wilkes,2023-11-08T23:25:00Z,2023-11-11T23:19:41Z,107,100,WF,Minimal,Undetermined,NA,NA,NFIS,15,13,NA,NA,North Carolina
 2023-TNCNF-000471,Tweed Fire,TN,Cocke,2023-11-08T16:43:00Z,2023-11-16T21:59:50Z,538,95,WF,Minimal,Human,35.9473,-83.0115,NFIS,16,8,NA,NA,Tennessee
-2023-VAVAF-230128,Matts Creek Fire,VA,Bedford,2023-11-13T00:13:00Z,2023-11-21T17:04:22Z,11020,88,WF,Minimal,Undetermined,37.577015,-79.445572,NFIS,11,3.2,NA,NA,Virginia
+2023-VAVAF-230128,Matts Creek Fire,VA,Bedford,2023-11-13T00:13:00Z,2023-11-21T17:04:22Z,11020,91,WF,Minimal,Undetermined,37.577015,-79.445572,NFIS,11,3.2,NA,NA,Virginia
 2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-11-20T19:11:49Z,1888,80,WF,Minimal,Human,35.755583,-83.054967,NFIS,8,4.1,NA,NA,North Carolina
-2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-24T21:11:49Z,833,69,WF,Moderate,Undetermined,NA,NA,NFIS,5,0.1,NA,NA,North Carolina
+2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-24T22:15:53Z,833,69,WF,Moderate,Undetermined,NA,NA,NFIS,5,0,NA,NA,North Carolina
 2023-MAMAS-DFG-RX24,Rx Dfg-Mashpee Wma F G2 Fire,MA,Barnstable,2023-11-16T16:53:19Z,2023-11-20T21:05:30Z,49,NA,RX,NA,NA,NA,NA,NFIS,8,4.1,NA,NA,Massachusetts
 2023-MN1FS-000079,Turkey Day Fire,MN,Crow Wing,2023-11-23T17:06:30Z,2023-11-24T21:40:33Z,60,NA,WF,NA,NA,NA,NA,NFIS,1,0,NA,NA,Minnesota
 NA,Smith River Complex,CA,Del Norte,2023-08-15T07:00:00Z,2023-11-23T15:19:17Z,NA,NA,Wildfire,NA,NA,41.958269,-123.868447,Cal Fire,101,1,"South of the Oregon border, northeast of High Plateau Mountain",https://incidents.fire.ca.gov/incidents/2023/8/15/smith-river-complex/,California
