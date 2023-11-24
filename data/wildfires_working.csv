@@ -16,7 +16,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-COPSF-001717,Saint Charles Fire,CO,Pueblo,2023-10-15T00:19:00Z,2023-10-30T14:19:46Z,492,99,WF,Minimal,Natural,37.983006,-105.025177,NFIS,40,24.7,NA,NA,Colorado
 2023-COSJF-001184,Trail Springs Fire,CO,Archuleta,2023-10-19T20:11:00Z,2023-11-07T13:39:41Z,1358,44,WF,Minimal,Natural,37.300847,-107.24701,NFIS,35,16.7,NA,NA,Colorado
 2023-COSJF-001183,Mill Creek 2 Fire,CO,Archuleta,2023-10-19T16:55:00Z,2023-11-07T13:01:54Z,150,0,WF,Minimal,Undetermined,37.28815,-106.911618,NFIS,35,16.8,NA,NA,Colorado
-2023-NCNCF-230262,Collett Ridge Fire,NC,Cherokee,2023-10-23T15:57:26Z,2023-11-16T22:55:52Z,5505,100,WF,Minimal,Natural,35.151633,-83.799717,NFIS,31,7.3,NA,NA,North Carolina
+2023-NCNCF-230262,Collett Ridge Fire,NC,Cherokee,2023-10-23T15:57:26Z,2023-11-16T22:55:52Z,5505,100,WF,Minimal,Natural,35.151633,-83.799717,NFIS,31,7.4,NA,NA,North Carolina
 2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-11-13T22:00:05Z,1696,90,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,24,10.4,NA,NA,Hawaii
 2023-AKMID-230009,Fwa Wdp Rx Fire,AK,Fairbanks North Star,2023-04-21T18:39:15Z,2023-11-03T20:04:07Z,10,NA,RX,NA,Undetermined,64.80228,-147.6127,NFIS,216,20.5,NA,NA,Alaska
 2023-AZTNF-001665,Silver Fire,AZ,Pinal,2023-11-03T21:25:47Z,2023-11-10T17:31:07Z,972,100,WF,Minimal,Human,33.3081,-111.244,NFIS,20,13.6,NA,NA,Arizona
@@ -30,7 +30,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-23T19:02:59Z,833,69,WF,Minimal,Undetermined,NA,NA,NFIS,5,0.5,NA,NA,North Carolina
 2023-MAMAS-DFG-RX24,Rx Dfg-Mashpee Wma F G2 Fire,MA,Barnstable,2023-11-16T16:53:19Z,2023-11-20T21:05:30Z,49,NA,RX,NA,NA,NA,NA,NFIS,7,3.4,NA,NA,Massachusetts
 2023-VAVAF-230138,Hercules Fire,VA,Amherst,2023-11-19T15:39:27Z,2023-11-21T17:25:41Z,0.75,NA,WF,NA,Undetermined,37.60145,-79.393167,NFIS,4,2.6,NA,NA,Virginia
-2023-CAKRN-053238,Fano Fire,CA,Kern,2023-11-21T16:42:00Z,2023-11-22T18:04:35Z,NA,NA,WF,NA,NA,NA,NA,NFIS,2,1.5,NA,NA,California
+2023-CAKRN-053238,Fano Fire,CA,Kern,2023-11-21T16:42:00Z,2023-11-22T18:04:35Z,NA,NA,WF,NA,NA,NA,NA,NFIS,2,1.6,NA,NA,California
 2023-CAKRN-051380,Road Fire,CA,Kern,2023-11-09T22:52:00Z,2023-11-22T18:18:43Z,NA,NA,WF,NA,NA,NA,NA,NFIS,14,1.5,NA,NA,California
 NA,Smith River Complex,CA,Del Norte,2023-08-15T07:00:00Z,2023-11-23T15:19:17Z,NA,NA,Wildfire,NA,NA,41.958269,-123.868447,Cal Fire,101,1,"South of the Oregon border, northeast of High Plateau Mountain",https://incidents.fire.ca.gov/incidents/2023/8/15/smith-river-complex/,California
 NA,Sage Fire,CA,San Diego,2023-11-23T13:50:00Z,2023-11-23T17:37:12Z,39,5,Wildfire,NA,NA,32.723389,-116.891493,Cal Fire,1,1,"Highway 94 at Vista Sage Lane, Jamul",https://incidents.fire.ca.gov/incidents/2023/11/23/sage-fire/,California
