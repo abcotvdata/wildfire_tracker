@@ -1,5 +1,5 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2023-ORWSA-000068,Grade Fire,OR,Wasco,2023-08-01T05:30:00Z,2023-08-01T22:04:21Z,225,100,WF,Minimal,Undetermined,NA,NA,NFIS,118,118,NA,NA,Oregon
+2023-ORWSA-000068,Grade Fire,OR,Wasco,2023-08-01T05:30:00Z,2023-08-01T22:04:21Z,225,100,WF,Minimal,Undetermined,NA,NA,NFIS,118,118.1,NA,NA,Oregon
 2023-CASRF-000952,Holiday Fire,CA,Del Norte,2023-08-15T18:41:00Z,2023-08-20T20:55:25Z,7071,100,WF,NA,Undetermined,41.9485,-123.8995,NFIS,104,99.1,NA,NA,California
 2023-CASRF-000945,Diamond Fire,CA,Del Norte,2023-08-15T16:24:00Z,2023-09-13T11:25:46Z,550,100,WF,NA,Undetermined,41.938613,-123.951946,NFIS,104,75.5,NA,NA,California
 2023-CASRF-000989,Prescott Fire,CA,Siskiyou,2023-08-17T18:41:43Z,2023-09-13T11:25:46Z,599,100,WF,NA,Undetermined,41.735,-123.674,NFIS,102,75.5,NA,NA,California
@@ -17,7 +17,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-AZTNF-001665,Silver Fire,AZ,Pinal,2023-11-03T21:25:47Z,2023-11-10T17:31:07Z,972,100,WF,Minimal,Human,33.3081,-111.244,NFIS,24,17.2,NA,NA,Arizona
 2023-WVNRP-000763,Steep Valley Fire,WV,Fayette,2023-11-06T17:56:00Z,2023-11-15T23:53:35Z,2206,100,WF,Minimal,Undetermined,37.83429,-81.039,NFIS,21,12,NA,NA,West Virginia
 2023-NCNCS-230044,Elk Creek Fire,NC,Watauga,2023-11-09T00:45:00Z,2023-11-14T22:37:49Z,225,100,WF,Minimal,Undetermined,NA,NA,NFIS,18,13,NA,NA,North Carolina
-2023-NCNCS-230045,Tripplett Fire,NC,Wilkes,2023-11-08T23:25:00Z,2023-11-11T23:19:41Z,107,100,WF,Minimal,Undetermined,NA,NA,NFIS,18,16,NA,NA,North Carolina
+2023-NCNCS-230045,Tripplett Fire,NC,Wilkes,2023-11-08T23:25:00Z,2023-11-11T23:19:41Z,107,100,WF,Minimal,Undetermined,NA,NA,NFIS,19,16,NA,NA,North Carolina
 2023-VAVAF-230128,Matts Creek Fire,VA,Bedford,2023-11-13T00:13:00Z,2023-11-21T17:04:22Z,5,95,WF,Minimal,Undetermined,37.577015,-79.445572,NFIS,14,6.3,NA,NA,Virginia
 2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-11-20T19:11:49Z,1888,80,WF,Minimal,Human,35.755583,-83.054967,NFIS,11,7.2,NA,NA,North Carolina
 2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-25T19:12:30Z,805,88,WF,Minimal,Undetermined,NA,NA,NFIS,8,2.2,NA,NA,North Carolina
