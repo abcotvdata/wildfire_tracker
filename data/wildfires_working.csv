@@ -7,7 +7,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2023-NCNCF-230262,Collett Ridge Fire,NC,Cherokee,2023-10-23T15:57:26Z,2023-11-16T22:55:52Z,5505,100,WF,Minimal,Natural,35.151633,-83.799717,NFIS,43,18.9,NA,NA,North Carolina
 2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-11-13T22:00:05Z,1696,100,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,36,21.9,NA,NA,Hawaii
 2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-12-04T23:09:32Z,2008,80,WF,Minimal,Human,35.755583,-83.054967,NFIS,19,0.9,NA,NA,North Carolina
-2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-25T19:12:30Z,805,98,WF,Minimal,Undetermined,NA,NA,NFIS,16,10,NA,NA,North Carolina
+2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-25T19:12:30Z,805,98,WF,Minimal,Undetermined,NA,NA,NFIS,16,10.1,NA,NA,North Carolina
 2023-NCNCF-230346,Locust Cove 2 Fire,NC,McDowell,2023-11-29T20:54:39Z,2023-12-03T22:21:10Z,165,48,WF,Minimal,Human,35.351561,-83.698995,NFIS,5,1.9,NA,NA,North Carolina
 2023-NCNCS-230051,Clear Creek Fire,NC,McDowell,2023-11-30T20:00:00Z,2023-12-02T01:22:20Z,124,50,WF,Minimal,Human,NA,NA,NFIS,5,3.8,NA,NA,North Carolina
 2023-MNMNS-202343014,202343014 Fire,MN,Watonwan,2023-11-30T18:00:37Z,2023-12-05T18:49:47Z,70,NA,WF,NA,NA,NA,NA,NFIS,5,0.1,NA,NA,Minnesota
@@ -19,4 +19,8 @@ NA,Vineyard Fire,CA,"Monterey, San Luis Obispo",2023-07-09T18:31:43Z,2023-12-05T
 NA,Gavilan Fire,CA,Riverside,2023-07-15T15:28:00Z,2023-12-05T12:08:43Z,301,100,Wildfire,NA,NA,33.817004,-117.358124,Cal Fire,143,0,Gavilan Road and Smith Road in Lake Matthews,https://incidents.fire.ca.gov/incidents/2023/7/15/gavilan-fire/,California
 NA,Rock Fire,CA,Riverside,2023-08-09T14:35:00Z,2023-12-05T12:10:04Z,500,100,Wildfire,NA,NA,33.871189,-117.150639,Cal Fire,118,0,"Southwest of Martin St & Davis Rd, Lake Perris",https://incidents.fire.ca.gov/incidents/2023/8/9/rock-fire/,California
 NA,Dry Creek Complex,CA,Tulare,2023-08-10T18:51:00Z,2023-12-05T12:10:52Z,301,100,Wildfire,NA,NA,36.5323,-119.0113,Cal Fire,117,0,"Dry Creek Road and Mile Marker 4, northeast of Woodlake in Tulare County",https://incidents.fire.ca.gov/incidents/2023/8/10/dry-creek-complex/,California
+NA,Bitter Fire,CA,San Luis Obispo,2023-08-15T17:56:00Z,2023-12-05T12:11:18Z,693,100,Wildfire,NA,NA,35.4854,-120.0574,Cal Fire,112,0,"Soda Lake Road and Bitterwater Road, Southeast of Shandon",https://incidents.fire.ca.gov/incidents/2023/8/15/bitter-fire/,California
+NA,SKU August Lightning Complex,CA,Siskiyou,2023-08-15T19:48:44Z,2023-12-05T12:14:00Z,884,100,Wildfire,NA,NA,41.2477,-121.5041,Cal Fire,112,0,Siskiyou County,https://incidents.fire.ca.gov/incidents/2023/8/15/sku-august-lightning-complex/,California
 NA,South Fork Complex,CA,Humboldt,2023-08-15T08:00:00Z,2023-11-30T09:39:26Z,3929,100,Wildfire,NA,NA,40.623606,-123.662677,Cal Fire,112,5,"Little Pilot Rock, Bridgeville",https://incidents.fire.ca.gov/incidents/2023/8/15/south-fork-complex/,California
+NA,Plant Fire,CA,Santa Barbara,2023-08-19T13:25:33Z,2023-12-05T12:14:45Z,5464,100,Wildfire,NA,NA,34.9190169,-119.73328,Cal Fire,108,0,"Aliso Park Road and Foothill Road, New Cuyama",https://incidents.fire.ca.gov/incidents/2023/8/19/plant-fire/,California
+NA,SRF Lightning Complex,CA,Humboldt,2023-08-20T11:16:48Z,2023-12-05T12:13:24Z,NA,NA,Wildfire,NA,NA,41.017222,-123.611167,Cal Fire,107,0,Humboldt County,https://incidents.fire.ca.gov/incidents/2023/8/20/srf-lightning-complex/,California
