@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
 2023-ORRSF-000209,Flat Fire,OR,Curry,2023-07-16T00:51:00Z,2023-10-07T21:50:35Z,34242,95,WF,Minimal,Undetermined,42.516315,-124.039078,NFIS,146,62.9,NA,NA,Oregon
 2023-ORRSF-000413,Anvil Fire,OR,Curry,2023-08-25T19:23:00Z,2023-10-07T21:50:35Z,22170,95,WF,Minimal,Undetermined,42.745833,-124.344667,NFIS,105,62.9,NA,NA,Oregon
-2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-12-06T05:53:14Z,1696,100,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,40,3.5,NA,NA,Hawaii
+2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-12-06T05:53:14Z,1696,100,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,40,3.6,NA,NA,Hawaii
 2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-12-04T23:09:32Z,2008,80,WF,Minimal,Human,35.755583,-83.054967,NFIS,23,4.8,NA,NA,North Carolina
 2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-25T19:12:30Z,805,100,WF,Minimal,Undetermined,NA,NA,NFIS,20,14,NA,NA,North Carolina
 2023-NCNCF-230346,Locust Cove 2 Fire,NC,McDowell,2023-11-29T20:54:39Z,2023-12-06T22:48:00Z,189,70,WF,Minimal,Human,35.351561,-83.698995,NFIS,9,2.8,NA,NA,North Carolina
@@ -35,3 +35,4 @@ NA,South Fork Complex,CA,Trinity,2023-08-15T08:00:00Z,2023-12-05T14:31:48Z,3929,
 NA,Plant Fire,CA,Santa Barbara,2023-08-19T13:25:33Z,2023-12-05T14:20:04Z,5464,100,Wildfire,NA,NA,34.9190169,-119.73328,Cal Fire,112,4,"Aliso Park Road and Foothill Road, New Cuyama",https://incidents.fire.ca.gov/incidents/2023/8/19/plant-fire/,California
 NA,SRF Lightning Complex,CA,Humboldt,2023-08-20T11:16:48Z,2023-12-05T14:31:03Z,50198,100,Wildfire,NA,NA,41.017222,-123.611167,Cal Fire,111,4,Humboldt County,https://incidents.fire.ca.gov/incidents/2023/8/20/srf-lightning-complex/,California
 NA,Highland Fire,CA,Riverside,2023-10-30T12:37:00Z,2023-12-05T14:20:27Z,2487,100,Wildfire,NA,NA,33.438207,-116.82307,Cal Fire,40,4,"Highland Road and Aguanga Ranchos Road, Aguanga",https://incidents.fire.ca.gov/incidents/2023/10/30/highland-fire/,California
+NA,Elm Fire,CA,Riverside,2023-12-09T09:21:00Z,2023-12-09T10:52:33Z,50,NA,Wildfire,NA,NA,33.9007,-116.7635,Cal Fire,0,0,"Ida Avenue, Cabazon",https://incidents.fire.ca.gov/incidents/2023/12/9/elm-fire/,California
