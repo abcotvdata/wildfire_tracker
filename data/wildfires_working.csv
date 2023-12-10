@@ -1,15 +1,15 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
 2023-ORRSF-000209,Flat Fire,OR,Curry,2023-07-16T00:51:00Z,2023-10-07T21:50:35Z,34242,95,WF,Minimal,Undetermined,42.516315,-124.039078,NFIS,147,64,NA,NA,Oregon
 2023-ORRSF-000413,Anvil Fire,OR,Curry,2023-08-25T19:23:00Z,2023-10-07T21:50:35Z,22170,95,WF,Minimal,Undetermined,42.745833,-124.344667,NFIS,107,64,NA,NA,Oregon
-2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-12-06T05:53:14Z,1696,100,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,41,4.6,NA,NA,Hawaii
+2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-12-06T05:53:14Z,1696,100,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,41,4.7,NA,NA,Hawaii
 2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-12-04T23:09:32Z,2008,80,WF,Minimal,Human,35.755583,-83.054967,NFIS,24,5.9,NA,NA,North Carolina
 2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-25T19:12:30Z,805,100,WF,Minimal,Undetermined,NA,NA,NFIS,21,15.1,NA,NA,North Carolina
-2023-NCNCF-230346,Locust Cove 2 Fire,NC,McDowell,2023-11-29T20:54:39Z,2023-12-06T22:48:00Z,189,80,WF,Minimal,Human,35.351561,-83.698995,NFIS,11,3.9,NA,NA,North Carolina
+2023-NCNCF-230346,Locust Cove 2 Fire,NC,McDowell,2023-11-29T20:54:39Z,2023-12-06T22:48:00Z,189,80,WF,Minimal,Human,35.351561,-83.698995,NFIS,11,4,NA,NA,North Carolina
 2023-NCNCS-230051,Clear Creek Fire,NC,McDowell,2023-11-30T20:00:00Z,2023-12-05T23:44:42Z,124,90,WF,Minimal,Human,NA,NA,NFIS,10,4.9,NA,NA,North Carolina
 2023-MAMAS-DFG-RX25,Rx Dfg-Birch Hill Dam Usace-D2-D5 Fire,MA,Worcester,2023-11-30T17:08:40Z,2023-12-04T14:53:34Z,38,NA,RX,NA,NA,NA,NA,NFIS,10,6.3,NA,NA,Massachusetts
 2023-WICNF-000180,Slush Bucket Stewardship Rx Fire,WI,Bayfield,2023-11-27T19:26:00Z,2023-12-06T21:09:20Z,201,NA,RX,NA,Undetermined,46.653875,-91.257167,NFIS,13,4,NA,NA,Wisconsin
 2023-MN1DS-000054,Border '23 Fire Fire,MN,Kittson,2023-12-07T17:00:44Z,2023-12-08T21:29:17Z,600,NA,WF,NA,NA,NA,NA,NFIS,3,2,NA,NA,Minnesota
-2023-CAVNC-105733,South Fire,CA,Ventura,2023-12-09T17:40:00Z,2023-12-10T03:22:31Z,2944,15,WF,Moderate,Undetermined,NA,NA,NFIS,1,0.8,NA,NA,California
+2023-CAVNC-105733,South Fire,CA,Ventura,2023-12-09T17:40:00Z,2023-12-10T21:21:33Z,2944,15,WF,Moderate,Undetermined,NA,NA,NFIS,1,0,NA,NA,California
 NA,Ramona Fire,CA,Riverside,2023-05-22T14:11:00Z,2023-12-05T12:04:19Z,348,100,Wildfire,NA,NA,33.823424,-117.033714,Cal Fire,202,5, Ramona Expressway and N Warren Rd,https://incidents.fire.ca.gov/incidents/2023/5/22/ramona-fire/,California
 NA,Geology Fire,CA,San Bernardino,2023-06-10T16:01:00Z,2023-12-05T14:28:43Z,1088,100,Wildfire,NA,NA,33.896,-116.0533,Cal Fire,183,5,"Berdoo Canyon Road and Geology Tour Road, Joshua Tree National Park",https://incidents.fire.ca.gov/incidents/2023/6/10/geology-fire/,California
 NA,Slough Fire,CA,Fresno,2023-06-18T11:31:00Z,2023-12-05T14:14:13Z,640,100,Wildfire,NA,NA,36.5737,-120.188,Cal Fire,175,5," South Colusa Ave and West Floral Ave, San Joaquin, West of Fresno Slough ",https://incidents.fire.ca.gov/incidents/2023/6/18/slough-fire/,California
