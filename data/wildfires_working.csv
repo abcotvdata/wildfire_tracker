@@ -1,12 +1,12 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2023-ORRSF-000209,Flat Fire,OR,Curry,2023-07-16T00:51:00Z,2023-10-07T21:50:35Z,34242,95,WF,Minimal,Undetermined,42.516315,-124.039078,NFIS,147,63.7,NA,NA,Oregon
-2023-ORRSF-000413,Anvil Fire,OR,Curry,2023-08-25T19:23:00Z,2023-10-07T21:50:35Z,22170,95,WF,Minimal,Undetermined,42.745833,-124.344667,NFIS,106,63.7,NA,NA,Oregon
-2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-12-06T05:53:14Z,1696,100,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,40,4.4,NA,NA,Hawaii
+2023-ORRSF-000209,Flat Fire,OR,Curry,2023-07-16T00:51:00Z,2023-10-07T21:50:35Z,34242,95,WF,Minimal,Undetermined,42.516315,-124.039078,NFIS,147,63.8,NA,NA,Oregon
+2023-ORRSF-000413,Anvil Fire,OR,Curry,2023-08-25T19:23:00Z,2023-10-07T21:50:35Z,22170,95,WF,Minimal,Undetermined,42.745833,-124.344667,NFIS,106,63.8,NA,NA,Oregon
+2023-HIOFR-001480,Mililani Fire,HI,Honolulu,2023-10-30T15:51:00Z,2023-12-06T05:53:14Z,1696,100,WF,Minimal,Undetermined,21.484,-157.959833,NFIS,41,4.4,NA,NA,Hawaii
 2023-NCNCF-230334,Black Bear Fire,NC,Haywood,2023-11-16T14:13:00Z,2023-12-04T23:09:32Z,2008,80,WF,Minimal,Human,35.755583,-83.054967,NFIS,24,5.7,NA,NA,North Carolina
 2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-25T19:12:30Z,805,100,WF,Minimal,Undetermined,NA,NA,NFIS,21,14.9,NA,NA,North Carolina
 2023-NCNCF-230346,Locust Cove 2 Fire,NC,McDowell,2023-11-29T20:54:39Z,2023-12-06T22:48:00Z,189,80,WF,Minimal,Human,35.351561,-83.698995,NFIS,10,3.7,NA,NA,North Carolina
 2023-NCNCS-230051,Clear Creek Fire,NC,McDowell,2023-11-30T20:00:00Z,2023-12-05T23:44:42Z,124,90,WF,Minimal,Human,NA,NA,NFIS,9,4.7,NA,NA,North Carolina
-2023-MAMAS-DFG-RX25,Rx Dfg-Birch Hill Dam Usace-D2-D5 Fire,MA,Worcester,2023-11-30T17:08:40Z,2023-12-04T14:53:34Z,38,NA,RX,NA,NA,NA,NA,NFIS,9,6,NA,NA,Massachusetts
+2023-MAMAS-DFG-RX25,Rx Dfg-Birch Hill Dam Usace-D2-D5 Fire,MA,Worcester,2023-11-30T17:08:40Z,2023-12-04T14:53:34Z,38,NA,RX,NA,NA,NA,NA,NFIS,9,6.1,NA,NA,Massachusetts
 2023-WICNF-000180,Slush Bucket Stewardship Rx Fire,WI,Bayfield,2023-11-27T19:26:00Z,2023-12-06T21:09:20Z,201,NA,RX,NA,Undetermined,46.653875,-91.257167,NFIS,12,3.8,NA,NA,Wisconsin
 2023-MN1DS-000054,Border '23 Fire Fire,MN,Kittson,2023-12-07T17:00:44Z,2023-12-08T21:29:17Z,600,NA,WF,NA,NA,NA,NA,NFIS,2,1.8,NA,NA,Minnesota
 2023-CAVNC-105733,South Fire,CA,Ventura,2023-12-09T17:40:00Z,2023-12-10T03:22:31Z,2944,15,WF,Moderate,Undetermined,NA,NA,NFIS,0,0.5,NA,NA,California
@@ -35,4 +35,4 @@ NA,South Fork Complex,CA,Trinity,2023-08-15T08:00:00Z,2023-12-05T14:31:48Z,3929,
 NA,Plant Fire,CA,Santa Barbara,2023-08-19T13:25:33Z,2023-12-05T14:20:04Z,5464,100,Wildfire,NA,NA,34.9190169,-119.73328,Cal Fire,113,5,"Aliso Park Road and Foothill Road, New Cuyama",https://incidents.fire.ca.gov/incidents/2023/8/19/plant-fire/,California
 NA,SRF Lightning Complex,CA,Humboldt,2023-08-20T11:16:48Z,2023-12-05T14:31:03Z,50198,100,Wildfire,NA,NA,41.017222,-123.611167,Cal Fire,112,5,Humboldt County,https://incidents.fire.ca.gov/incidents/2023/8/20/srf-lightning-complex/,California
 NA,Highland Fire,CA,Riverside,2023-10-30T12:37:00Z,2023-12-05T14:20:27Z,2487,100,Wildfire,NA,NA,33.438207,-116.82307,Cal Fire,41,5,"Highland Road and Aguanga Ranchos Road, Aguanga",https://incidents.fire.ca.gov/incidents/2023/10/30/highland-fire/,California
-NA,Elm Fire,CA,Riverside,2023-12-09T09:21:00Z,2023-12-09T18:49:40Z,65,15,Wildfire,NA,NA,33.9007,-116.7635,Cal Fire,1,1,"Ida Avenue and Peach Street, Cabazon ",https://incidents.fire.ca.gov/incidents/2023/12/9/elm-fire/,California
+NA,Elm Fire,CA,Riverside,2023-12-09T09:21:00Z,2023-12-10T07:53:39Z,65,40,Wildfire,NA,NA,33.9007,-116.7635,Cal Fire,1,0,"Ida Avenue and Peach Street, Cabazon ",https://incidents.fire.ca.gov/incidents/2023/12/9/elm-fire/,California
