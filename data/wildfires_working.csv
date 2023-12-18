@@ -1,8 +1,8 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2023-WAOWF-000563,Blue Lake Fire,WA,Chelan,2023-08-15T06:50:35Z,2023-09-03T12:08:19Z,530,100,WF,Minimal,Undetermined,48.504934,-120.675888,NFIS,125,106.1,NA,NA,Washington
+2023-WAOWF-000563,Blue Lake Fire,WA,Chelan,2023-08-15T06:50:35Z,2023-09-03T12:08:19Z,530,100,WF,Minimal,Undetermined,48.504934,-120.675888,NFIS,125,106.2,NA,NA,Washington
 2023-CASRF-000968,Corral Fire,CA,Del Norte,2023-08-16T01:30:31Z,2023-08-21T06:16:57Z,95106.7,100,CX,Minimal,Undetermined,41.844647,-123.842695,NFIS,124,119.4,NA,NA,California
-2023-WACLCN-000095,Mcdonnell Creek Fire,WA,Clallam,2023-09-16T17:47:04Z,2023-09-16T19:32:38Z,0.1,NA,WF,NA,Undetermined,48.1255,-123.2196,NFIS,92,92.8,NA,NA,Washington
-2023-MSMNF-000657,Strong Fire,MS,Perry,2023-10-31T15:45:44Z,2023-11-02T01:54:58Z,53,NA,WF,NA,Human,30.997557,-89.102677,NFIS,47,46.6,NA,NA,Mississippi
+2023-WACLCN-000095,Mcdonnell Creek Fire,WA,Clallam,2023-09-16T17:47:04Z,2023-09-16T19:32:38Z,0.1,NA,WF,NA,Undetermined,48.1255,-123.2196,NFIS,92,92.9,NA,NA,Washington
+2023-MSMNF-000657,Strong Fire,MS,Perry,2023-10-31T15:45:44Z,2023-11-02T01:54:58Z,53,NA,WF,NA,Human,30.997557,-89.102677,NFIS,48,46.6,NA,NA,Mississippi
 2023-NCNCS-230049,Sauratown Mountain Fire,NC,Stokes,2023-11-19T03:00:00Z,2023-11-25T19:12:30Z,805,100,WF,Minimal,Undetermined,NA,NA,NFIS,29,22.9,NA,NA,North Carolina
 2023-NCNCS-230051,Clear Creek Fire,NC,McDowell,2023-11-30T20:00:00Z,2023-12-05T23:44:42Z,124,100,WF,Minimal,Human,NA,NA,NFIS,17,12.7,NA,NA,North Carolina
 2023-MN1DS-000054,Border '23 Fire Fire,MN,Kittson,2023-12-07T17:00:44Z,2023-12-08T21:29:17Z,600,NA,WF,NA,NA,NA,NA,NFIS,10,9.8,NA,NA,Minnesota
