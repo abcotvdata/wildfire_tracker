@@ -37,15 +37,16 @@ try(file.rename(paste(sep="",
 
 # create a pair of urls based on yesterday's date and today's
 # idea is to make sure we have the latest
-today <- Sys.Date()-1
+today_formatted <- format(Sys.Date()-1)
+today <- Sys.Date()
 yesterday <- today - 1
 hotspot_url2 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
                       year(yesterday),"/",
                       month(yesterday),"/",
                       "hms_fire",format(yesterday, "%Y%m%d"),".txt")
 hotspot_url1 <- paste(sep="","https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Fire_Points/Text/",
-                      year(today),"/",
-                      month(today),"/",
+                      year(today_formatted),"/",
+                      month(today_formatted),"/",
                       "hms_fire",format(today, "%Y%m%d"),".txt")
 
 ## download the yesterday file and then download the today file
