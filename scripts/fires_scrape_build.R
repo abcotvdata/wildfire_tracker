@@ -460,7 +460,7 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
                     icon = fireIcons,
                     group="Wildfires") %>%
   addPolygons(data = noaa_latest_smoke, 
-              color = ~smokepal(Density),
+              color = ~smokepal(density),
               fillOpacity = 0.6,
               weight = 0,
               group="Fire smoke") %>%
