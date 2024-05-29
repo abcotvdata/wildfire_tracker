@@ -1,32 +1,35 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2024-NENES-240137,Betty's Way Fire,NE,Lincoln,2024-02-26T16:00:00Z,2024-03-06T18:23:17Z,69810,100,WF,Minimal,Undetermined,41.48738,-100.57133,NFIS,92,83.3,NA,NA,Nebraska
-2024-ORFWF-240107,Little Yamsay Fire,OR,Klamath,2024-04-21T00:18:00Z,2024-05-13T23:51:39Z,6340,100,WF,Minimal,Natural,43.045373,-121.445567,NFIS,38,15.1,NA,NA,Oregon
-2024-MNBNR-001591,Artichoke North Rx Fire,MN,Big Stone,2024-04-22T13:20:00Z,2024-04-29T20:45:12Z,297,NA,RX,NA,Undetermined,45.404367,-96.194117,NFIS,36,29.2,NA,NA,Minnesota
-2024-MSMNF-000350,Leno Fire,MS,Harrison,2024-04-23T21:51:00Z,2024-05-26T17:53:13Z,40,NA,WF,NA,Undetermined,30.5623,-89.0024,NFIS,35,2.3,NA,NA,Mississippi
-2024-AKDAS-240037,Delta Bison Range Rx Fire,AK,Southeast Fairbanks,2024-04-26T18:15:00Z,2024-05-08T17:48:51Z,832.95,NA,RX,NA,Human,63.8954,-145.311717,NFIS,32,20.3,NA,NA,Alaska
-2024-AZCOF-000176,Wolf Fire,AZ,Coconino,2024-04-29T16:40:37Z,2024-05-12T15:57:14Z,9896,100,WF,Minimal,Natural,34.686396,-111.380682,NFIS,29,16.4,NA,NA,Arizona
-2024-AZTNF-000444,Horse Fire,AZ,Maricopa,2024-05-05T23:09:00Z,2024-05-11T02:02:02Z,512,74,WF,Minimal,Human,33.9188,-111.728,NFIS,23,18,NA,NA,Arizona
-2024-AZA4S-240423,Flying Bucket Fire,AZ,Maricopa,2024-05-06T21:35:49Z,2024-05-14T23:02:46Z,2795,100,WF,Minimal,Human,32.996667,-112.271667,NFIS,22,14.1,NA,NA,Arizona
-2024-AKFAS-411067,Popovitch Creek Coal Seam Fire,AK,Denali,2024-05-13T05:53:00Z,2024-05-22T21:03:52Z,3953.9,100,WF,Minimal,Natural,63.928526,-148.847497,NFIS,15,6.2,NA,NA,Alaska
-2024-WICNF-000064,Nw Sands Block B Rx Fire,WI,Bayfield,2024-05-13T12:39:00Z,2024-05-20T14:11:21Z,897,NA,RX,NA,Undetermined,46.6032,-91.2852,NFIS,15,8.5,NA,NA,Wisconsin
-2024-COSJF-000178,Spruce Creek Fire,CO,Montezuma,2024-05-14T22:28:00Z,2024-05-23T22:59:39Z,5699,88,WF,Minimal,Natural,37.560778,-108.341806,NFIS,14,5.1,NA,NA,Colorado
-2024-NMLNF-000227,Blue 2 Fire,NM,Lincoln,2024-05-16T20:30:00Z,2024-05-28T08:17:15Z,7178,0,WF,Active,Natural,33.425972,-105.802306,NFIS,12,0.7,NA,NA,New Mexico
-2024-AZTNF-000559,Wildcat Fire,AZ,Maricopa,2024-05-18T16:21:00Z,2024-05-21T21:12:26Z,14402,86,WF,Minimal,Human,33.7604,-111.787,NFIS,10,7.2,NA,NA,Arizona
-2024-AZSCA-000564,Gopher Fire,AZ,Gila,2024-05-18T23:24:00Z,2024-05-28T15:55:22Z,160,NA,WF,NA,Human,33.2928,-110.444,NFIS,10,0.4,NA,NA,Arizona
-2024-NMSNF-000091,Indios Fire,NM,Rio Arriba,2024-05-19T17:48:00Z,2024-05-28T11:56:12Z,4844,5,WF,Moderate,Natural,36.182269,-106.903152,NFIS,9,0.6,NA,NA,New Mexico
-2024-AKFAS-411084,Sanderson Creek Fire,AK,Denali,2024-05-22T03:07:15Z,2024-05-25T02:04:12Z,140.2,NA,WF,NA,Natural,63.919483,-148.708183,NFIS,6,4,NA,NA,Alaska
-2024-AZSCA-000600,Rocky Fire,AZ,Graham,2024-05-23T16:25:00Z,2024-05-27T17:42:41Z,1597,53,WF,Minimal,Human,33.355288,-110.212986,NFIS,5,1.3,NA,NA,Arizona
-2024-AZIMR-000407,Refuge Fire,AZ,Yuma,2024-05-25T21:08:00Z,2024-05-28T18:50:02Z,1041,61,WF,Minimal,Human,32.9809,-114.468,NFIS,3,0.3,NA,NA,Arizona
-2024-NVSND-500499,Bird Springs Fire,NV,Clark,2024-05-27T18:40:00Z,2024-05-29T01:03:11Z,150,NA,WF,NA,Human,36.010901,-115.431118,NFIS,1,0,NA,NA,Nevada
-2024-AZPNF-000437,Boulder Pass Fire,AZ,Yavapai,2024-05-27T20:34:49Z,2024-05-28T14:15:56Z,15,NA,WF,NA,Human,34.718238,-112.64647,NFIS,1,0.5,NA,NA,Arizona
-2024-CACDD-007914,Cameron Fire,CA,San Diego,2024-05-27T20:37:23Z,2024-05-27T23:47:31Z,5.3,NA,WF,NA,Undetermined,32.406921,-116.28516,NFIS,1,1.1,NA,NA,California
-2024-WYPDD-240062,Hill Fire,WY,Sublette,2024-05-28T19:44:38Z,2024-05-28T21:44:03Z,NA,NA,RX,NA,Undetermined,42.317033,-110.387083,NFIS,0,0.2,NA,NA,Wyoming
-2024-WASPD-001237,Folsom Fire,WA,Lincoln,2024-05-28T21:26:48Z,2024-05-29T00:30:41Z,0.2,NA,WF,NA,Human,47.372578,-117.829053,NFIS,0,0,NA,NA,Washington
+2024-NENES-240137,Betty's Way Fire,NE,Lincoln,2024-02-26T16:00:00Z,2024-03-06T18:23:17Z,69810,100,WF,Minimal,Undetermined,41.48738,-100.57133,NFIS,92,83.5,NA,NA,Nebraska
+2024-ORFWF-240107,Little Yamsay Fire,OR,Klamath,2024-04-21T00:18:00Z,2024-05-13T23:51:39Z,6340,100,WF,Minimal,Natural,43.045373,-121.445567,NFIS,38,15.3,NA,NA,Oregon
+2024-MNBNR-001591,Artichoke North Rx Fire,MN,Big Stone,2024-04-22T13:20:00Z,2024-04-29T20:45:12Z,297,NA,RX,NA,Undetermined,45.404367,-96.194117,NFIS,36,29.4,NA,NA,Minnesota
+2024-MSMNF-000350,Leno Fire,MS,Harrison,2024-04-23T21:51:00Z,2024-05-26T17:53:13Z,40,NA,WF,NA,Undetermined,30.5623,-89.0024,NFIS,35,2.5,NA,NA,Mississippi
+2024-AKDAS-240037,Delta Bison Range Rx Fire,AK,Southeast Fairbanks,2024-04-26T18:15:00Z,2024-05-08T17:48:51Z,832.95,NA,RX,NA,Human,63.8954,-145.311717,NFIS,32,20.5,NA,NA,Alaska
+2024-AZCOF-000176,Wolf Fire,AZ,Coconino,2024-04-29T16:40:37Z,2024-05-12T15:57:14Z,9896,100,WF,Minimal,Natural,34.686396,-111.380682,NFIS,29,16.6,NA,NA,Arizona
+2024-AZTNF-000444,Horse Fire,AZ,Maricopa,2024-05-05T23:09:00Z,2024-05-11T02:02:02Z,512,74,WF,Minimal,Human,33.9188,-111.728,NFIS,23,18.2,NA,NA,Arizona
+2024-AZA4S-240423,Flying Bucket Fire,AZ,Maricopa,2024-05-06T21:35:49Z,2024-05-14T23:02:46Z,2795,100,WF,Minimal,Human,32.996667,-112.271667,NFIS,22,14.3,NA,NA,Arizona
+2024-AKFAS-411067,Popovitch Creek Coal Seam Fire,AK,Denali,2024-05-13T05:53:00Z,2024-05-22T21:03:52Z,3953.9,100,WF,Minimal,Natural,63.928526,-148.847497,NFIS,16,6.4,NA,NA,Alaska
+2024-WICNF-000064,Nw Sands Block B Rx Fire,WI,Bayfield,2024-05-13T12:39:00Z,2024-05-20T14:11:21Z,897,NA,RX,NA,Undetermined,46.6032,-91.2852,NFIS,15,8.7,NA,NA,Wisconsin
+2024-COSJF-000178,Spruce Creek Fire,CO,Montezuma,2024-05-14T22:28:00Z,2024-05-23T22:59:39Z,5699,88,WF,Minimal,Natural,37.560778,-108.341806,NFIS,14,5.3,NA,NA,Colorado
+2024-NMLNF-000227,Blue 2 Fire,NM,Lincoln,2024-05-16T20:30:00Z,2024-05-28T08:17:15Z,7178,0,WF,Active,Natural,33.425972,-105.802306,NFIS,12,0.9,NA,NA,New Mexico
+2024-AZTNF-000559,Wildcat Fire,AZ,Maricopa,2024-05-18T16:21:00Z,2024-05-21T21:12:26Z,14402,86,WF,Minimal,Human,33.7604,-111.787,NFIS,10,7.4,NA,NA,Arizona
+2024-AZSCA-000564,Gopher Fire,AZ,Gila,2024-05-18T23:24:00Z,2024-05-28T15:55:22Z,160,NA,WF,NA,Human,33.2928,-110.444,NFIS,10,0.6,NA,NA,Arizona
+2024-NMSNF-000091,Indios Fire,NM,Rio Arriba,2024-05-19T17:48:00Z,2024-05-29T02:15:53Z,4844,5,WF,Moderate,Natural,36.182269,-106.903152,NFIS,9,0.2,NA,NA,New Mexico
+2024-AKFAS-411084,Sanderson Creek Fire,AK,Denali,2024-05-22T03:07:15Z,2024-05-25T02:04:12Z,140.2,NA,WF,NA,Natural,63.919483,-148.708183,NFIS,7,4.2,NA,NA,Alaska
+2024-AZSCA-000600,Rocky Fire,AZ,Graham,2024-05-23T16:25:00Z,2024-05-27T17:42:41Z,1597,100,WF,Minimal,Human,33.355288,-110.212986,NFIS,5,1.5,NA,NA,Arizona
+2024-AZIMR-000407,Refuge Fire,AZ,Yuma,2024-05-25T21:08:00Z,2024-05-28T18:50:02Z,1041,61,WF,Minimal,Human,32.9809,-114.468,NFIS,3,0.5,NA,NA,Arizona
+2024-NVSND-500499,Bird Springs Fire,NV,Clark,2024-05-27T18:40:00Z,2024-05-29T01:03:11Z,150,NA,WF,NA,Human,36.010901,-115.431118,NFIS,1,0.2,NA,NA,Nevada
+2024-AZPNF-000437,Boulder Pass Fire,AZ,Yavapai,2024-05-27T20:34:49Z,2024-05-28T14:15:56Z,15,NA,WF,NA,Human,34.718238,-112.64647,NFIS,1,0.7,NA,NA,Arizona
+2024-CACDD-007914,Cameron Fire,CA,San Diego,2024-05-27T20:37:23Z,2024-05-27T23:47:31Z,5.3,NA,WF,NA,Undetermined,32.406921,-116.28516,NFIS,1,1.3,NA,NA,California
+2024-CASBC-007371,Hill Fire,CA,Santa Barbara,2024-05-28T19:15:00Z,2024-05-29T04:33:32Z,632,0,WF,Active,Undetermined,NA,NA,NFIS,0,0.1,NA,NA,California
+2024-WYPDD-240062,Hill Fire,WY,Sublette,2024-05-28T19:44:38Z,2024-05-28T21:44:03Z,NA,NA,RX,NA,Undetermined,42.317033,-110.387083,NFIS,0,0.4,NA,NA,Wyoming
 NA,Valley Fire,CA,Modoc,2024-05-21T13:31:09Z,2024-05-22T20:32:18Z,536,100,Wildfire,NA,NA,41.2449,-120.31,Cal Fire,8,7,Unknown / TBD,http://incidents.fire.ca.gov/incidents/2024/5/21/valley-fire/,California
-NA,Panoche Fire,CA,San Benito,2024-05-25T10:14:38Z,2024-05-28T07:31:11Z,191,95,Wildfire,NA,NA,36.5097274085376,-120.847135080488,Cal Fire,4,1,"Pimental Creek Rd West of New Idria Rd, Paicines",http://incidents.fire.ca.gov/incidents/2024/5/25/panoche-fire/,California
+NA,Panoche Fire,CA,San Benito,2024-05-25T10:14:38Z,2024-05-28T19:53:30Z,191,100,Wildfire,NA,NA,36.5097274,-120.8471351,Cal Fire,4,1,"Panoche Road and Clear Creek Road, New Idria ",http://incidents.fire.ca.gov/incidents/2024/5/25/panoche-fire/,California
 NA,Holiday Fire,CA,Kern,2024-05-25T14:21:00Z,2024-05-26T05:57:51Z,398,100,Wildfire,NA,NA,34.8492868,-118.2554355,Cal Fire,4,3,Unknown / TBD,http://incidents.fire.ca.gov/incidents/2024/5/25/holiday-fire/,California
 NA,Millerton Fire,CA,Madera,2024-05-26T17:44:30Z,2024-05-28T08:27:51Z,47,100,Wildfire,NA,NA,37.01741,-119.689804,Cal Fire,3,1,Millerton Lake ,http://incidents.fire.ca.gov/incidents/2024/5/26/millerton-fire/,California
 NA,Vince Fire,CA,Los Angeles,2024-05-27T14:29:48Z,2024-05-28T08:06:54Z,22,100,Wildfire,NA,NA,34.50941,-118.05215,Cal Fire,2,1,"4300 Block of East Avenue, Palmdale",http://incidents.fire.ca.gov/incidents/2024/5/27/vince-fire/,California
 NA,Five Fire,CA,Fresno,2024-05-28T04:34:43Z,2024-05-28T07:31:31Z,150,100,Wildfire,NA,NA,36.43706,-120.393699,Cal Fire,1,1,Unknown / TBD,http://incidents.fire.ca.gov/incidents/2024/5/28/five-fire/,California
-NA,Pepper Fire,CA,Fresno,2024-05-28T15:32:47Z,2024-05-28T17:41:03Z,30,NA,Wildfire,NA,NA,36.68768,-119.158199,Cal Fire,1,1,"Pepperweed Road & Partridge Lane, Eastern Fresno County",http://incidents.fire.ca.gov/incidents/2024/5/28/pepper-fire/,California
-NA,Dillon Fire,CA,Riverside,2024-05-28T15:19:33Z,2024-05-28T18:31:02Z,34,NA,Wildfire,NA,NA,33.925778,-116.600203,Cal Fire,1,1,"Highway 62 / Pierson Blvd., unincorporated Desert Hot Springs",http://incidents.fire.ca.gov/incidents/2024/5/28/dillon-fire/,California
+NA,Pepper Fire,CA,Fresno,2024-05-28T15:32:47Z,2024-05-28T19:44:30Z,27,40,Wildfire,NA,NA,36.68768,-119.158199,Cal Fire,1,1,"Pepperweed Road & Partridge Lane, Eastern Fresno County",http://incidents.fire.ca.gov/incidents/2024/5/28/pepper-fire/,California
+NA,Dillon Fire,CA,Riverside,2024-05-28T15:19:33Z,2024-05-28T19:52:19Z,34,NA,Wildfire,NA,NA,33.925778,-116.600203,Cal Fire,1,1,"Highway 62 / Pierson Blvd., unincorporated Desert Hot Springs",http://incidents.fire.ca.gov/incidents/2024/5/28/dillon-fire/,California
+NA,Clark Fire,CA,Fresno,2024-05-28T17:50:59Z,2024-05-28T20:19:05Z,35,NA,Wildfire,NA,NA,36.501499,-120.389098,Cal Fire,1,1,Unknown / TBD,http://incidents.fire.ca.gov/incidents/2024/5/28/clark-fire/,California
+NA,Mocal Fire,CA,Kern,2024-05-28T16:31:00Z,2024-05-28T21:58:39Z,116,0,Wildfire,NA,NA,35.180776,-119.558308,Cal Fire,1,1,West of Fellows Ca ,http://incidents.fire.ca.gov/incidents/2024/5/28/mocal-fire/,California
+NA,Shirleon Fire,CA,Riverside,2024-05-28T19:29:11Z,2024-05-28T23:00:46Z,15,NA,Wildfire,NA,NA,33.896179,-116.917099,Cal Fire,1,1,Unknown / TBD,http://incidents.fire.ca.gov/incidents/2024/5/28/shirleon-fire/,California
