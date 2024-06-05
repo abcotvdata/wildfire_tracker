@@ -1,8 +1,9 @@
 on:
   schedule:
-    - cron: '10 0/6 * * *'
-      # Above is temporary for winter season; change back 2 hours in late
-      # sping and then to 2 in summer and 1 during height of fire season
+    - cron: '10 0/2 * * *'
+      # During winter season set to '10 0/6 * * *'
+      # During late spring and early summer set to '10 0/2 * * *'
+      # During wildfire season set to '10 0/1 * * *'
   workflow_dispatch:
 
 name: Wildfire data maps scrape reshape build
