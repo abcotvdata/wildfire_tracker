@@ -1,72 +1,77 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2024-AKCRS-414044,Icy Bay Fire,AK,Yakutat,2024-05-04T20:29:37Z,2024-06-06T16:04:59Z,226.5,NA,WF,NA,Human,59.969476,-141.66544,NFIS,44,11.9,NA,NA,Alaska
-2024-COSJF-000178,Spruce Creek Fire,CO,Montezuma,2024-05-14T22:28:00Z,2024-05-23T22:59:39Z,5699,100,WF,Minimal,Natural,37.560778,-108.341806,NFIS,34,25.6,NA,NA,Colorado
-2024-NMLNF-000227,Blue 2 Fire,NM,Lincoln,2024-05-16T20:30:00Z,2024-06-04T22:10:47Z,7532,92,WF,Minimal,Natural,33.425972,-105.802306,NFIS,32,13.7,NA,NA,New Mexico
-2024-NMSNF-000091,Indios Fire,NM,Rio Arriba,2024-05-19T17:48:00Z,2024-06-07T01:16:09Z,11500,90,WF,Minimal,Natural,36.182269,-106.903152,NFIS,29,11.5,NA,NA,New Mexico
-2024-AKFAS-411084,Sanderson Creek Fire,AK,Denali,2024-05-22T03:07:15Z,2024-05-25T02:04:12Z,140.2,NA,WF,NA,Natural,63.919483,-148.708183,NFIS,27,24.5,NA,NA,Alaska
-2024-AZIMR-000407,Refuge Fire,AZ,Yuma,2024-05-25T21:08:00Z,2024-05-28T18:50:02Z,1041,100,WF,Minimal,Human,32.9809,-114.468,NFIS,23,20.8,NA,NA,Arizona
-2024-AKGAD-000090,Atchuelinguk Fire,AK,Kusilvak,2024-05-26T16:14:31Z,2024-06-01T15:54:03Z,1890.3,0,WF,Minimal,Human,62.35,-162.04,NFIS,22,16.9,NA,NA,Alaska
-2024-FLBCP-001624,407 Fire,FL,Collier,2024-05-30T16:19:00Z,2024-06-14T17:09:00Z,30,NA,WF,NA,Undetermined,25.9258,-80.89175,NFIS,18,3.9,NA,NA,Florida
-2024-OR781S-000194,Letsom Mt Fire,OR,Lane,2024-05-31T23:45:00Z,2024-06-03T17:18:30Z,69.39,NA,WF,NA,Human,43.90805556,-123.46916667,NFIS,17,14.9,NA,NA,Oregon
-2024-AZTNF-000722,Adams Fire,AZ,Maricopa,2024-06-03T00:07:00Z,2024-06-03T21:16:54Z,5029,100,WF,Minimal,Human,33.6734,-111.562,NFIS,15,14.7,NA,NA,Arizona
-2024-CACDD-008217,West Fire,CA,Kern,2024-06-03T01:04:00Z,2024-06-03T21:41:12Z,190,NA,WF,NA,Undetermined,34.91,-118.254,NFIS,15,14.7,NA,NA,California
-2024-CAKRN-023932,Road Fire,CA,Kern,2024-06-05T00:04:00Z,2024-06-06T20:28:06Z,1088,100,WF,Minimal,Undetermined,NA,NA,NFIS,13,11.7,NA,NA,California
-2024-AZKNF-000431,Bravo Fire,AZ,Coconino,2024-06-06T14:42:00Z,2024-06-08T19:55:20Z,960,100,WF,Minimal,Undetermined,35.192143,-111.823145,NFIS,11,9.8,NA,NA,Arizona
-2024-NMGNF-000210,Antone Fire,NM,Catron,2024-06-07T22:20:56Z,2024-06-14T01:22:07Z,12395,70,WF,Minimal,Natural,34.031095,-108.357917,NFIS,10,4.5,NA,NA,New Mexico
+2024-AKCRS-414044,Icy Bay Fire,AK,Yakutat,2024-05-04T20:29:37Z,2024-06-06T16:04:59Z,226.5,NA,WF,NA,Human,59.969476,-141.66544,NFIS,44,12,NA,NA,Alaska
+2024-COSJF-000178,Spruce Creek Fire,CO,Montezuma,2024-05-14T22:28:00Z,2024-05-23T22:59:39Z,5699,100,WF,Minimal,Natural,37.560778,-108.341806,NFIS,34,25.7,NA,NA,Colorado
+2024-NMLNF-000227,Blue 2 Fire,NM,Lincoln,2024-05-16T20:30:00Z,2024-06-04T22:10:47Z,7532,92,WF,Minimal,Natural,33.425972,-105.802306,NFIS,32,13.8,NA,NA,New Mexico
+2024-NMSNF-000091,Indios Fire,NM,Rio Arriba,2024-05-19T17:48:00Z,2024-06-07T01:16:09Z,11500,90,WF,Minimal,Natural,36.182269,-106.903152,NFIS,29,11.6,NA,NA,New Mexico
+2024-AKFAS-411084,Sanderson Creek Fire,AK,Denali,2024-05-22T03:07:15Z,2024-05-25T02:04:12Z,140.2,NA,WF,NA,Natural,63.919483,-148.708183,NFIS,27,24.6,NA,NA,Alaska
+2024-AZIMR-000407,Refuge Fire,AZ,Yuma,2024-05-25T21:08:00Z,2024-05-28T18:50:02Z,1041,100,WF,Minimal,Human,32.9809,-114.468,NFIS,23,20.9,NA,NA,Arizona
+2024-AKGAD-000090,Atchuelinguk Fire,AK,Kusilvak,2024-05-26T16:14:31Z,2024-06-01T15:54:03Z,1890.3,0,WF,Minimal,Human,62.35,-162.04,NFIS,23,17,NA,NA,Alaska
+2024-FLBCP-001624,407 Fire,FL,Collier,2024-05-30T16:19:00Z,2024-06-14T17:09:00Z,30,NA,WF,NA,Undetermined,25.9258,-80.89175,NFIS,19,4,NA,NA,Florida
+2024-OR781S-000194,Letsom Mt Fire,OR,Lane,2024-05-31T23:45:00Z,2024-06-03T17:18:30Z,69.39,NA,WF,NA,Human,43.90805556,-123.46916667,NFIS,17,15,NA,NA,Oregon
+2024-AZTNF-000722,Adams Fire,AZ,Maricopa,2024-06-03T00:07:00Z,2024-06-03T21:16:54Z,5029,100,WF,Minimal,Human,33.6734,-111.562,NFIS,15,14.8,NA,NA,Arizona
+2024-CACDD-008217,West Fire,CA,Kern,2024-06-03T01:04:00Z,2024-06-03T21:41:12Z,190,NA,WF,NA,Undetermined,34.91,-118.254,NFIS,15,14.8,NA,NA,California
+2024-CAKRN-023932,Road Fire,CA,Kern,2024-06-05T00:04:00Z,2024-06-06T20:28:06Z,1088,100,WF,Minimal,Undetermined,NA,NA,NFIS,13,11.8,NA,NA,California
+2024-AZKNF-000431,Bravo Fire,AZ,Coconino,2024-06-06T14:42:00Z,2024-06-08T19:55:20Z,960,100,WF,Minimal,Undetermined,35.192143,-111.823145,NFIS,12,9.9,NA,NA,Arizona
+2024-NMGNF-000210,Antone Fire,NM,Catron,2024-06-07T22:20:56Z,2024-06-14T01:22:07Z,12395,70,WF,Minimal,Natural,34.031095,-108.357917,NFIS,10,4.6,NA,NA,New Mexico
 2024-AZFTA-000231,Bear Fire,AZ,Gila,2024-06-08T18:56:00Z,2024-06-14T03:22:56Z,447,81,WF,Minimal,Undetermined,33.934414,-110.522289,NFIS,9,4.5,NA,NA,Arizona
-2024-WASES-000173,Pioneer Fire,WA,Chelan,2024-06-08T19:48:00Z,2024-06-17T15:16:47Z,3811,0,WF,Moderate,Undetermined,48.199206,-120.546799,NFIS,9,1,NA,NA,Washington
-2024-AKMID-000119,Mcdonald Fire,AK,Fairbanks North Star,2024-06-08T21:11:00Z,2024-06-17T16:18:19Z,30590.9,0,WF,Moderate,Natural,64.40688,-147.21692,NFIS,9,0.9,NA,NA,Alaska
-2024-AKUYD-000121,Owl Fire,AK,Yukon-Koyukuk,2024-06-08T22:59:45Z,2024-06-17T16:08:02Z,920,0,WF,Minimal,Natural,66.15,-142.17,NFIS,9,0.9,NA,NA,Alaska
+2024-WASES-000173,Pioneer Fire,WA,Chelan,2024-06-08T19:48:00Z,2024-06-17T15:16:47Z,3811,0,WF,Moderate,Undetermined,48.199206,-120.546799,NFIS,9,1.1,NA,NA,Washington
+2024-AKMID-000119,Mcdonald Fire,AK,Fairbanks North Star,2024-06-08T21:11:00Z,2024-06-18T16:09:10Z,30590.9,0,WF,Moderate,Natural,64.40688,-147.21692,NFIS,9,0,NA,NA,Alaska
+2024-AKUYD-000121,Owl Fire,AK,Yukon-Koyukuk,2024-06-08T22:59:45Z,2024-06-18T16:04:12Z,920,0,WF,Minimal,Natural,66.15,-142.17,NFIS,9,0,NA,NA,Alaska
 2024-WASPD-000183,Palisades Road Fire,WA,Douglas,2024-06-11T05:58:00Z,2024-06-13T01:07:51Z,693,99,WF,Minimal,Undetermined,47.275592,-120.012476,NFIS,7,5.6,NA,NA,Washington
-2024-COSJF-000269,Snow Ranch Fire,CO,Archuleta,2024-06-11T17:40:00Z,2024-06-15T22:04:33Z,386,93,WF,Minimal,Natural,37.253575,-107.220193,NFIS,6,2.7,NA,NA,Colorado
-2024-COPSF-000697,Interlaken Fire,CO,Lake,2024-06-11T19:44:00Z,2024-06-17T20:29:01Z,739,86,WF,Moderate,Human,39.07743,-106.31127,NFIS,6,0.7,NA,NA,Colorado
-2024-NVTMFX-030366,Trail Fire,NV,Washoe,2024-06-11T22:00:00Z,2024-06-12T14:37:45Z,193,100,WF,Minimal,Human,39.625623,-119.764023,NFIS,6,6,NA,NA,Nevada
-2024-AKGAD-000130,Goldbug Fire,AK,Northwest Arctic,2024-06-12T20:08:00Z,2024-06-17T15:49:02Z,5843.7,0,WF,Active,Natural,65.73,-162.48,NFIS,5,0.9,NA,NA,Alaska
-2024-AKGAD-000131,Urgoon Fire,AK,Northwest Arctic,2024-06-13T20:07:00Z,2024-06-17T15:51:05Z,4264.9,0,WF,Active,Natural,67.781833,-162.4155,NFIS,4,0.9,NA,NA,Alaska
-2024-UTFIF-240112,Little Twist Fire,UT,Beaver,2024-06-13T22:28:24Z,2024-06-16T16:34:23Z,2279,0,WF,Moderate,Undetermined,38.234812,-112.491335,NFIS,4,1.9,NA,NA,Utah
-2024-AKGAD-000135,Tututalak Fire,AK,Northwest Arctic,2024-06-13T22:45:00Z,2024-06-17T15:52:32Z,6930.9,0,WF,Active,Natural,67.915833,-162.112667,NFIS,4,0.9,NA,NA,Alaska
-2024-WAWFS-001303,Nisqually John Fire,WA,Whitman,2024-06-14T16:02:00Z,2024-06-16T04:52:07Z,1207,100,WF,Minimal,Undetermined,46.479138,-117.232284,NFIS,3,2.4,NA,NA,Washington
-2024-NMN5S-000364,Riverside Fire,NM,Eddy,2024-06-14T19:52:33Z,2024-06-14T22:07:48Z,39.7,NA,WF,NA,Human,32.841125,-104.330949,NFIS,3,3.7,NA,NA,New Mexico
-2024-AZASF-000264,Foote Fire,AZ,Greenlee,2024-06-14T20:17:55Z,2024-06-17T21:03:44Z,1158,0,WF,Moderate,Natural,33.698568,-109.350741,NFIS,3,0.7,NA,NA,Arizona
-2024-AZPHD-000601,Ironwood Fire,AZ,Yavapai,2024-06-14T22:45:00Z,2024-06-15T01:14:40Z,229,NA,WF,NA,Human,34.3046,-112.126999,NFIS,3,3.5,NA,NA,Arizona
-2024-NMEMP-000234,Encerrito Fire,NM,Cibola,2024-06-15T18:41:00Z,2024-06-17T19:02:54Z,1000,0,WF,Active,Undetermined,34.931138,-107.92064,NFIS,2,0.8,NA,NA,New Mexico
-2024-WASPD-000205,Beam Road Fire,WA,Yakima,2024-06-15T19:22:00Z,2024-06-17T18:03:49Z,8542,82,WF,Minimal,Human,46.43,-120.16,NFIS,2,0.8,NA,NA,Washington
+2024-COSJF-000269,Snow Ranch Fire,CO,Archuleta,2024-06-11T17:40:00Z,2024-06-15T22:04:33Z,386,93,WF,Minimal,Natural,37.253575,-107.220193,NFIS,6,2.8,NA,NA,Colorado
+2024-COPSF-000697,Interlaken Fire,CO,Lake,2024-06-11T19:44:00Z,2024-06-17T20:29:01Z,739,86,WF,Moderate,Human,39.07743,-106.31127,NFIS,6,0.8,NA,NA,Colorado
+2024-NVTMFX-030366,Trail Fire,NV,Washoe,2024-06-11T22:00:00Z,2024-06-12T14:37:45Z,193,100,WF,Minimal,Human,39.625623,-119.764023,NFIS,6,6.1,NA,NA,Nevada
+2024-AKGAD-000130,Goldbug Fire,AK,Northwest Arctic,2024-06-12T20:08:00Z,2024-06-17T15:49:02Z,5843.7,0,WF,Active,Natural,65.73,-162.48,NFIS,5,1,NA,NA,Alaska
+2024-AKGAD-000131,Urgoon Fire,AK,Northwest Arctic,2024-06-13T20:07:00Z,2024-06-17T15:51:05Z,4264.9,0,WF,Active,Natural,67.781833,-162.4155,NFIS,4,1,NA,NA,Alaska
+2024-UTFIF-240112,Little Twist Fire,UT,Beaver,2024-06-13T22:28:24Z,2024-06-18T14:29:03Z,2279,0,WF,Moderate,Undetermined,38.234812,-112.491335,NFIS,4,0.1,NA,NA,Utah
+2024-AKGAD-000135,Tututalak Fire,AK,Northwest Arctic,2024-06-13T22:45:00Z,2024-06-17T15:52:32Z,6930.9,0,WF,Active,Natural,67.915833,-162.112667,NFIS,4,1,NA,NA,Alaska
+2024-WAWFS-001303,Nisqually John Fire,WA,Whitman,2024-06-14T16:02:00Z,2024-06-16T04:52:07Z,1207,100,WF,Minimal,Undetermined,46.479138,-117.232284,NFIS,4,2.5,NA,NA,Washington
+2024-NMN5S-000364,Riverside Fire,NM,Eddy,2024-06-14T19:52:33Z,2024-06-14T22:07:48Z,39.7,NA,WF,NA,Human,32.841125,-104.330949,NFIS,3,3.8,NA,NA,New Mexico
+2024-AZASF-000264,Foote Fire,AZ,Greenlee,2024-06-14T20:17:55Z,2024-06-17T21:03:44Z,1200,0,WF,Moderate,Natural,33.698568,-109.350741,NFIS,3,0.8,NA,NA,Arizona
+2024-AZPHD-000601,Ironwood Fire,AZ,Yavapai,2024-06-14T22:45:00Z,2024-06-15T01:14:40Z,229,NA,WF,NA,Human,34.3046,-112.126999,NFIS,3,3.6,NA,NA,Arizona
+2024-NMEMP-000234,Encerrito Fire,NM,Cibola,2024-06-15T18:41:00Z,2024-06-17T19:02:54Z,1000,0,WF,Active,Undetermined,34.931138,-107.92064,NFIS,2,0.9,NA,NA,New Mexico
+2024-WASPD-000205,Beam Road Fire,WA,Yakima,2024-06-15T19:22:00Z,2024-06-17T18:03:49Z,8542,82,WF,Minimal,Human,46.43,-120.16,NFIS,2,0.9,NA,NA,Washington
 2024-CALAC-205253,Post Fire,CA,Los Angeles,2024-06-15T20:47:05Z,2024-06-18T03:33:22Z,15611,24,WF,Minimal,Undetermined,34.80285,-118.8776,NFIS,2,0.5,NA,NA,California
-2024-WAWWLN-000207,Neff Road Cmd Fire,WA,Walla Walla,2024-06-15T21:22:00Z,2024-06-16T23:18:29Z,250,NA,WF,NA,Undetermined,46.300438,-118.71033,NFIS,2,1.6,NA,NA,Washington
-2024-ORPRD-000244,0244 Rv Trout Creek Fire,OR,Wasco,2024-06-15T21:25:00Z,2024-06-16T23:32:29Z,725,90,WF,Minimal,Human,44.8493,-121.0084,NFIS,2,1.6,NA,NA,Oregon
-2024-WAYAA-000031,Camas & Industrial Fire,WA,Yakima,2024-06-15T22:37:00Z,2024-06-17T17:11:22Z,NA,NA,WF,NA,NA,NA,NA,NFIS,2,0.9,NA,NA,Washington
-2024-UTCYD-004142,Marble Canyon Fire,UT,Grand,2024-06-15T22:55:00Z,2024-06-17T12:18:33Z,35,NA,WF,NA,Natural,39.046417,-109.04395,NFIS,2,1.1,NA,NA,Utah
-2024-AKUYD-000140,Snowy Fire,AK,Yukon-Koyukuk,2024-06-16T00:11:55Z,2024-06-17T16:16:26Z,80,NA,WF,NA,Natural,65.538,-143.042833,NFIS,2,0.9,NA,NA,Alaska
-2024-AZTNF-000850,Riverside Fire,AZ,Maricopa,2024-06-16T19:17:52Z,2024-06-17T21:36:53Z,177,NA,WF,NA,Human,33.7695,-111.669,NFIS,1,0.7,NA,NA,Arizona
-2024-CALNU-010992,Point Fire,CA,Sonoma,2024-06-16T19:33:55Z,2024-06-18T04:27:57Z,1207,20,WF,Moderate,Undetermined,38.705475,-123.012253,NFIS,1,0.4,NA,NA,California
-2024-NVEIC-010095,Summit Fire,NV,Elko,2024-06-16T19:45:53Z,2024-06-16T21:35:05Z,0.1,NA,WF,NA,Undetermined,40.800948,-115.732427,NFIS,1,1.7,NA,NA,Nevada
-2024-AZKNF-000485,Sayer Fire,AZ,Coconino,2024-06-16T23:33:08Z,2024-06-18T00:13:22Z,375,5,WF,Active,Undetermined,35.68,-111.749,NFIS,1,0.6,NA,NA,Arizona
-2024-NMMEA-000382,South Fork Fire,NM,Otero,2024-06-17T15:07:00Z,2024-06-18T12:57:20Z,3000,NA,WF,NA,Human,33.343147,-105.791419,NFIS,0,0.1,NA,NA,New Mexico
-2024-CACDD-008882,Tuscany Fire,CA,Riverside,2024-06-17T18:35:11Z,2024-06-17T23:21:49Z,350,50,WF,Moderate,Undetermined,33.847642,-116.569117,NFIS,0,0.6,NA,NA,California
+2024-WAWWLN-000207,Neff Road Cmd Fire,WA,Walla Walla,2024-06-15T21:22:00Z,2024-06-16T23:18:29Z,250,NA,WF,NA,Undetermined,46.300438,-118.71033,NFIS,2,1.7,NA,NA,Washington
+2024-ORPRD-000244,0244 Rv Trout Creek Fire,OR,Wasco,2024-06-15T21:25:00Z,2024-06-16T23:32:29Z,725.33,90,WF,Minimal,Human,44.8493,-121.0084,NFIS,2,1.7,NA,NA,Oregon
+2024-WAYAA-000031,Camas & Industrial Fire,WA,Yakima,2024-06-15T22:37:00Z,2024-06-17T17:11:22Z,NA,NA,WF,NA,NA,NA,NA,NFIS,2,1,NA,NA,Washington
+2024-UTCYD-004142,Marble Canyon Fire,UT,Grand,2024-06-15T22:55:00Z,2024-06-17T12:18:33Z,35,NA,WF,NA,Natural,39.046417,-109.04395,NFIS,2,1.2,NA,NA,Utah
+2024-AKUYD-000140,Snowy Fire,AK,Yukon-Koyukuk,2024-06-16T00:11:55Z,2024-06-17T16:16:26Z,80,NA,WF,NA,Natural,65.538,-143.042833,NFIS,2,1,NA,NA,Alaska
+2024-AZTNF-000850,Riverside Fire,AZ,Maricopa,2024-06-16T19:17:52Z,2024-06-17T21:36:53Z,177,NA,WF,NA,Human,33.7695,-111.669,NFIS,1,0.8,NA,NA,Arizona
+2024-CALNU-010992,Point Fire,CA,Sonoma,2024-06-16T19:33:55Z,2024-06-18T04:27:57Z,1207,20,WF,Moderate,Undetermined,38.705475,-123.012253,NFIS,1,0.5,NA,NA,California
+2024-NVEIC-010095,Summit Fire,NV,Elko,2024-06-16T19:45:53Z,2024-06-16T21:35:05Z,0.1,NA,WF,NA,Undetermined,40.800948,-115.732427,NFIS,1,1.8,NA,NA,Nevada
+2024-AZKNF-000485,Sayer Fire,AZ,Coconino,2024-06-16T23:33:08Z,2024-06-18T00:13:22Z,375,5,WF,Active,Natural,35.68,-111.749,NFIS,1,0.7,NA,NA,Arizona
+2024-AKSWS-404143,American Creek Fire,AK,Lake and Peninsula,2024-06-16T23:50:00Z,2024-06-18T15:43:56Z,100,NA,WF,NA,Natural,58,-155.079,NFIS,1,0,NA,NA,Alaska
+2024-AKSWS-404146,Naknek Lake Fire,AK,Lake and Peninsula,2024-06-17T01:56:00Z,2024-06-18T15:58:03Z,3,NA,WF,NA,Natural,58.605,-156.00333,NFIS,1,0,NA,NA,Alaska
+2024-AKSWS-404144,Alagnak River Fire,AK,Lake and Peninsula,2024-06-17T03:59:00Z,2024-06-18T16:03:01Z,36,NA,WF,NA,Natural,59.078667,-155.819,NFIS,1,0,NA,NA,Alaska
+2024-NMMEA-000382,South Fork Fire,NM,Otero,2024-06-17T15:07:00Z,2024-06-18T12:57:20Z,3000,NA,WF,NA,Human,33.343147,-105.791419,NFIS,1,0.1,NA,NA,New Mexico
+2024-AKSWS-404149,Mulchatna River Fire,AK,Lake and Peninsula,2024-06-17T16:02:52Z,2024-06-18T15:42:09Z,20,NA,WF,NA,Natural,60.87,-154.77,NFIS,1,0,NA,NA,Alaska
+2024-CACDD-008882,Tuscany Fire,CA,Riverside,2024-06-17T18:35:11Z,2024-06-17T23:21:49Z,350,50,WF,Minimal,Undetermined,33.847642,-116.569117,NFIS,0,0.7,NA,NA,California
 2024-NMMEA-000385,Salt Fire,NM,Otero,2024-06-17T20:20:33Z,2024-06-18T12:53:58Z,2802,NA,WF,NA,Human,33.239316,-105.70015,NFIS,0,0.1,NA,NA,New Mexico
-2024-CALNU-011083,Sites Fire,CA,Colusa,2024-06-17T20:39:25Z,2024-06-18T06:47:14Z,10000,0,WF,Extreme,Undetermined,39.308886,-122.338129,NFIS,0,0.3,NA,NA,California
-2024-WASPC-000033,Warden Fire,WA,Mason,2024-06-17T23:45:00Z,2024-06-18T06:34:40Z,19.2,NA,WF,NA,Undetermined,47.16581,-123.38909,NFIS,0,0.3,NA,NA,Washington
+2024-CALNU-011083,Sites Fire,CA,Colusa,2024-06-17T20:39:25Z,2024-06-18T06:47:14Z,10000,0,WF,Extreme,Undetermined,39.308886,-122.338129,NFIS,0,0.4,NA,NA,California
+2024-WASPC-000033,Warden Fire,WA,Mason,2024-06-17T23:45:00Z,2024-06-18T06:34:40Z,19.2,NA,WF,NA,Undetermined,47.16581,-123.38909,NFIS,0,0.4,NA,NA,Washington
+2024-AKSWS-404169,Portage Fire,AK,Bethel,2024-06-18T07:20:00Z,2024-06-18T16:22:04Z,5,NA,WF,NA,Natural,61.86055,-157.902383,NFIS,0,0,NA,NA,Alaska
 NA,Lost Fire,CA,Kern,2024-06-06T14:05:28Z,2024-06-11T19:05:30Z,3600,100,Wildfire,NA,NA,35.735279,-119.69294,Cal Fire,12,7,Lost Hills Road and Weiser Road,http://incidents.fire.ca.gov/incidents/2024/6/6/lost-fire/,California
 NA,Stoddard 3 Fire,CA,San Bernardino,2024-06-11T12:31:08Z,2024-06-14T18:21:55Z,472,100,Wildfire,NA,NA,34.72209,-117.16739,Cal Fire,7,4,"Stoddard Wells Road, South of Barstow",http://incidents.fire.ca.gov/incidents/2024/6/11/stoddard-3-fire/,California
 NA,Grant Fire,CA,Sacramento,2024-06-12T15:34:05Z,2024-06-14T13:42:03Z,119,100,Wildfire,NA,NA,38.59179,-121.17954,Cal Fire,6,4,"Grantline and White Rock Road, Rancho Cordova",http://incidents.fire.ca.gov/incidents/2024/6/12/grant-fire/,California
 NA,Hinkley Fire,CA,San Bernardino,2024-06-11T16:13:34Z,2024-06-14T09:38:08Z,126,100,Wildfire,NA,NA,34.89273,-117.188996,Cal Fire,7,4,"Hinkley Road, Hinkley",http://incidents.fire.ca.gov/incidents/2024/6/11/hinkley-fire/,California
 NA,Oil Fire,CA,Kern,2024-06-11T15:15:00Z,2024-06-14T09:15:09Z,214,100,Wildfire,NA,NA,35.506667,-119.071667,Cal Fire,7,4,"East of Highway 65 and Lerdo Highway, North of Bakersfield",http://incidents.fire.ca.gov/incidents/2024/6/11/oil-fire/,California
 NA,Felipe Fire,CA,Santa Clara,2024-06-15T09:48:59Z,2024-06-16T11:12:36Z,19,100,Wildfire,NA,NA,37.28197,-121.73844,Cal Fire,3,2,Southeast San Jose,http://incidents.fire.ca.gov/incidents/2024/6/15/felipe-fire/,California
-NA,Junes Fire,CA,Butte,2024-06-15T15:20:59Z,2024-06-18T07:07:58Z,1056,95,Wildfire,NA,NA,39.369439,-121.518592,Cal Fire,3,0,"Four Junes Way and Palermo Honcut Hwy, south of Palermo",http://incidents.fire.ca.gov/incidents/2024/6/15/junes-fire/,California
+NA,Junes Fire,CA,Butte,2024-06-15T15:20:59Z,2024-06-18T08:52:17Z,1056,98,Wildfire,NA,NA,39.369439,-121.518592,Cal Fire,3,0,"Four Junes Way and Palermo Honcut Hwy, south of Palermo",http://incidents.fire.ca.gov/incidents/2024/6/15/junes-fire/,California
 NA,Hernandez Fire,CA,San Benito,2024-06-15T17:05:07Z,2024-06-18T06:11:44Z,642,65,Wildfire,NA,NA,36.400976,-120.986676,Cal Fire,3,0,"Airline HWY and Old Hernandez Rd, Beaver Dam ",http://incidents.fire.ca.gov/incidents/2024/6/15/hernandez-fire/,California
-NA,Rocky Fire,CA,Butte,2024-06-15T16:02:34Z,2024-06-17T15:53:40Z,18,70,Wildfire,NA,NA,39.548761,-121.355159,Cal Fire,3,1,Community of Robinson Mill,http://incidents.fire.ca.gov/incidents/2024/6/15/rocky-fire/,California
-NA,Hesperia Fire,CA,San Bernardino,2024-06-15T18:49:39Z,2024-06-17T18:19:38Z,1078,72,Wildfire,NA,NA,34.30769,-117.28811,Cal Fire,3,1,"Arrowhead Lake Rd, Hesperia",http://incidents.fire.ca.gov/incidents/2024/6/15/hesperia-fire/,California
+NA,Rocky Fire,CA,Butte,2024-06-15T16:02:34Z,2024-06-18T08:52:33Z,18,98,Wildfire,NA,NA,39.548761,-121.355159,Cal Fire,3,0,Community of Robinson Mill,http://incidents.fire.ca.gov/incidents/2024/6/15/rocky-fire/,California
+NA,Hesperia Fire,CA,San Bernardino,2024-06-15T18:49:39Z,2024-06-18T08:52:41Z,1078,86,Wildfire,NA,NA,34.30769,-117.28811,Cal Fire,3,0,"Arrowhead Lake Rd, Hesperia",http://incidents.fire.ca.gov/incidents/2024/6/15/hesperia-fire/,California
 NA,Excelsior Fire,CA,Sacramento,2024-06-16T12:19:53Z,2024-06-17T12:48:57Z,876,100,Wildfire,NA,NA,38.52658,-121.28408,Cal Fire,2,1,"Jackson road and Excelsior Road, South of Mather",http://incidents.fire.ca.gov/incidents/2024/6/16/excelsior-fire/,California
 NA,Lisa Fire,CA,Riverside,2024-06-16T13:13:44Z,2024-06-18T06:59:29Z,890,100,Wildfire,NA,NA,33.943389,-117.06443,Cal Fire,2,0,"Highway 60 and Jack Rabbit Trail, East of Moreno Valley ",http://incidents.fire.ca.gov/incidents/2024/6/16/lisa-fire/,California
 NA,Inkopah 5 Fire,CA,Imperial,2024-06-16T11:15:56Z,2024-06-16T20:30:04Z,30,20,Wildfire,NA,NA,32.655183,-116.099983,Cal Fire,2,2,"InKoPah Park road, Boulder Park",http://incidents.fire.ca.gov/incidents/2024/6/16/inkopah-5-fire/,California
-NA,Elgin Fire,CA,Merced,2024-06-16T14:53:31Z,2024-06-17T10:48:45Z,86,45,Wildfire,NA,NA,37.097775,-120.635371,Cal Fire,2,1,"Elgin Road and Henry Miller Road, North of Dos Palos",http://incidents.fire.ca.gov/incidents/2024/6/16/elgin-fire/,California
+NA,Elgin Fire,CA,Merced,2024-06-16T14:53:31Z,2024-06-18T08:52:55Z,86,100,Wildfire,NA,NA,37.097775,-120.635371,Cal Fire,2,0,"Elgin Road and Henry Miller Road, North of Dos Palos",http://incidents.fire.ca.gov/incidents/2024/6/16/elgin-fire/,California
 NA,Max Fire,CA,Los Angeles,2024-06-16T15:46:34Z,2024-06-16T22:12:20Z,338,NA,Wildfire,NA,NA,34.67529,-118.27108,Cal Fire,2,2,"80th Street West, Lancaster",http://incidents.fire.ca.gov/incidents/2024/6/16/max-fire/,California
 NA,Hidden Fire,CA,Shasta,2024-06-16T16:33:21Z,2024-06-18T06:51:16Z,45,60,Wildfire,NA,NA,40.72052,-122.23967,Cal Fire,2,0,"Silverthorn Rd and Hidden Valley Dr., northeast of Redding ",http://incidents.fire.ca.gov/incidents/2024/6/16/hidden-fire/,California
 NA,62 Fire,CA,Riverside,2024-06-16T17:04:14Z,2024-06-17T06:47:48Z,13,100,Wildfire,NA,NA,33.984079,-116.583039,Cal Fire,2,1,Unknown / TBD,http://incidents.fire.ca.gov/incidents/2024/6/16/62-fire/,California
 NA,Slough Fire,CA,Riverside,2024-06-17T13:47:02Z,2024-06-17T13:49:28Z,33,NA,Wildfire,NA,NA,36.996139,-120.383187,Cal Fire,1,1,"Road 9, Chowchilla",http://incidents.fire.ca.gov/incidents/2024/6/17/slough-fire/,California
 NA,Railroad Fire,CA,Madera,2024-06-17T14:05:18Z,2024-06-17T14:40:07Z,15,NA,Wildfire,NA,NA,37.010829,-120.056215,Cal Fire,1,1,"Road 27, Madera",http://incidents.fire.ca.gov/incidents/2024/6/17/railroad-fire/,California
 NA,Stage Fire,CA,Tulare,2024-06-17T14:31:36Z,2024-06-17T17:32:53Z,81,100,Wildfire,NA,NA,35.942249,-118.946399,Cal Fire,1,1,"8400 Block of Old Stage Coach Road, Porterville",http://incidents.fire.ca.gov/incidents/2024/6/17/stage-fire/,California
-NA,Coast Fire,CA,Monterey,2024-06-17T13:41:22Z,2024-06-17T20:13:17Z,15,5,Wildfire,NA,NA,36.311476999999996,-121.855352,Cal Fire,1,1,Botchers Gap Campground ,http://incidents.fire.ca.gov/incidents/2024/6/17/coast-fire/,California
-NA,Aero Fire,CA,Calaveras,2024-06-17T15:23:08Z,2024-06-18T06:53:52Z,5249,20,Wildfire,NA,NA,38.031684,-120.684174,Cal Fire,1,0,"Rock Creek Rd and Hwy 4, North of Copperopolis ",http://incidents.fire.ca.gov/incidents/2024/6/17/aero-fire/,California
+NA,Coast Fire,CA,Monterey,2024-06-17T13:41:22Z,2024-06-18T08:53:15Z,15,5,Wildfire,NA,NA,36.311476999999996,-121.855352,Cal Fire,1,0,Botchers Gap Campground ,http://incidents.fire.ca.gov/incidents/2024/6/17/coast-fire/,California
+NA,Aero Fire,CA,Calaveras,2024-06-17T15:23:08Z,2024-06-18T08:06:36Z,5425,20,Wildfire,NA,NA,38.031684,-120.684174,Cal Fire,1,0,"Rock Creek Rd and Hwy 4, North of Copperopolis ",http://incidents.fire.ca.gov/incidents/2024/6/17/aero-fire/,California
 NA,Douglas Fire,CA,Sacramento,2024-06-17T14:03:14Z,2024-06-17T16:43:07Z,327,NA,Wildfire,NA,NA,38.54166,-121.24438,Cal Fire,1,1,"Douglas Road and Grant Line Road, Sacramento",http://incidents.fire.ca.gov/incidents/2024/6/17/douglas-fire/,California
-NA,Ingomar Fire,CA,Merced,2024-06-17T16:56:57Z,2024-06-17T18:04:06Z,20,NA,Wildfire,NA,NA,37.15858,-120.968478,Cal Fire,1,1,"Ingomar Rd & Husman Rd, Ingomar",http://incidents.fire.ca.gov/incidents/2024/6/17/ingomar-fire/,California
+NA,Ingomar Fire,CA,Merced,2024-06-17T16:56:57Z,2024-06-18T08:52:04Z,12,100,Wildfire,NA,NA,37.15858,-120.968478,Cal Fire,1,0,"Ingomar Rd & Husman Rd, Ingomar",http://incidents.fire.ca.gov/incidents/2024/6/17/ingomar-fire/,California
