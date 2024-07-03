@@ -327,7 +327,7 @@ fireIcons <- awesomeIcons(
   iconColor = "white",
   library = 'glyphicon',
   squareMarker = TRUE,
-  markerColor = ifelse(fires$percent_contained == 100 | fires$percent_contained == NA, "lightgray", "orange"))
+  #markerColor = ifelse(fires$percent_contained == 100 | fires$percent_contained == NA, "lightgray", "orange"))
 # options include ion-flame, ion-fireball, fa-fire
 
 # Set values for EasyButtonBar controls here
@@ -458,6 +458,7 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
                     popupOptions = popupOptions(keepInView = T, 
                                                 autoPanPaddingTopLeft=c(100,120)),
                     icon = fireIcons,
+                    markerColor = ~ifelse(percent_contained == 100, "lightgray", "orange"),
                     group="Wildfires") %>%
   addPolygons(data = noaa_latest_smoke, 
               color = ~smokepal(Density),
