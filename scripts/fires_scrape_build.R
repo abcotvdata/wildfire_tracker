@@ -327,7 +327,8 @@ fireIcons <- awesomeIcons(
   iconColor = "white",
   library = 'glyphicon',
   squareMarker = TRUE,
-  markerColor = "orange")
+  markerColor = ifelse(fires$percent_contained == 100, "gray", "orange")),
+)
 # options include ion-flame, ion-fireball, fa-fire
 
 # Set values for EasyButtonBar controls here
