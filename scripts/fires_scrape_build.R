@@ -326,7 +326,7 @@ fireIcons <- awesomeIcons(
   icon = "fire",
   iconColor = "white",
   library = 'glyphicon',
-  squareMarker = TRUE,
+  squareMarker = TRUE)
   #markerColor = ifelse(fires$percent_contained == 100 | fires$percent_contained == NA, "lightgray", "orange"))
 # options include ion-flame, ion-fireball, fa-fire
 
