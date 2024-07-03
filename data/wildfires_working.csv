@@ -1,11 +1,11 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name
-2024-MN3VS-000462,Loc Mille Lacs Fire,MN,Mille Lacs,2024-03-09T20:59:00Z,2024-06-28T20:11:10Z,50,NA,WF,NA,Undetermined,46.10192,-93.8054,NFIS,115,4.9,NA,NA,Minnesota
+2024-MN3VS-000462,Loc Mille Lacs Fire,MN,Mille Lacs,2024-03-09T20:59:00Z,2024-06-28T20:11:10Z,50,NA,WF,NA,Undetermined,46.10192,-93.8054,NFIS,115,5,NA,NA,Minnesota
 2024-TXAMP-000193,Hufford Engle Fire,TX,Val Verde,2024-03-22T21:58:00Z,2024-06-12T18:25:11Z,10,NA,WF,NA,Undetermined,29.466361,-101.025611,NFIS,102,21,NA,NA,Texas
 2024-ALALF-240185,Tal Bell Spring Fire,AL,Talladega,2024-03-28T20:26:00Z,2024-04-01T13:39:50Z,902,100,WF,Minimal,Undetermined,33.527833,-85.89,NFIS,96,93.2,NA,NA,Alabama
 2024-NDFTA-000056,Twisted Arrow Fire,ND,Benson,2024-04-07T04:03:00Z,2024-04-09T20:15:17Z,1365.3,100,WF,Minimal,Undetermined,47.859167,-98.565278,NFIS,87,84.9,NA,NA,North Dakota
 2024-WYJOX-240038,Deer Park Fire,WY,Johnson,2024-04-14T22:06:41Z,2024-04-15T21:03:38Z,10.3,NA,WF,NA,Undetermined,44.354483,-106.669283,NFIS,79,78.9,NA,NA,Wyoming
 2024-UTFIF-240034,South Beaver Rx Fire,UT,Beaver,2024-04-22T16:18:21Z,2024-06-24T17:27:09Z,5254,NA,RX,NA,Undetermined,38.234812,-112.491335,NFIS,72,9.1,NA,NA,Utah
-2024-AKDAS-240037,Delta Bison Range Rx Fire,AK,Southeast Fairbanks,2024-04-26T18:15:00Z,2024-05-08T17:48:51Z,832.95,NA,RX,NA,Human,63.8954,-145.311717,NFIS,68,56,NA,NA,Alaska
+2024-AKDAS-240037,Delta Bison Range Rx Fire,AK,Southeast Fairbanks,2024-04-26T18:15:00Z,2024-05-08T17:48:51Z,832.95,NA,RX,NA,Human,63.8954,-145.311717,NFIS,68,56.1,NA,NA,Alaska
 2024-AKCRS-414044,Icy Bay Fire,AK,Yakutat,2024-05-04T20:29:37Z,2024-06-20T16:46:23Z,226.5,NA,WF,NA,Human,59.969476,-141.66544,NFIS,59,13.1,NA,NA,Alaska
 2024-CAKRN-019555,Sherwood Fire,CA,Kern,2024-05-10T17:15:00Z,2024-05-15T17:23:04Z,353,100,WF,Minimal,Undetermined,NA,NA,NFIS,54,49.1,NA,NA,California
 2024-AKFAS-411067,Popovitch Creek Coal Seam Fire,AK,Denali,2024-05-13T05:53:00Z,2024-05-22T21:03:52Z,3953.9,100,WF,Minimal,Natural,63.928526,-148.847497,NFIS,51,41.9,NA,NA,Alaska
@@ -19,7 +19,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-CAKRN-023932,Road Fire,CA,Kern,2024-06-05T00:04:00Z,2024-06-06T20:28:06Z,1088,100,WF,Minimal,Undetermined,NA,NA,NFIS,28,26.9,NA,NA,California
 2024-AZKNF-000431,Bravo Fire,AZ,Coconino,2024-06-06T14:42:00Z,2024-06-30T21:30:20Z,960,100,WF,Minimal,Undetermined,35.192143,-111.823145,NFIS,27,2.9,NA,NA,Arizona
 2024-AKUYD-000115,Fossil Fire,AK,Yukon-Koyukuk,2024-06-06T22:03:47Z,2024-07-03T02:53:22Z,8,0,WF,NA,Natural,65.476417,-147.461867,NFIS,26,0.7,NA,NA,Alaska
-2024-AZFTA-000231,Bear Fire,AZ,Gila,2024-06-08T18:56:00Z,2024-06-14T03:22:56Z,447,80,WF,Minimal,Human,33.934414,-110.522289,NFIS,24,19.6,NA,NA,Arizona
+2024-AZFTA-000231,Bear Fire,AZ,Gila,2024-06-08T18:56:00Z,2024-06-14T03:22:56Z,447,80,WF,Minimal,Human,33.934414,-110.522289,NFIS,25,19.7,NA,NA,Arizona
 2024-WASES-000173,Pioneer Fire,WA,Chelan,2024-06-08T19:48:00Z,2024-07-03T12:50:31Z,4776,14,WF,Moderate,Undetermined,48.199206,-120.546799,NFIS,24,0.3,NA,NA,Washington
 2024-AKMID-000119,Mcdonald Fire,AK,Fairbanks North Star,2024-06-08T21:11:00Z,2024-07-03T16:58:43Z,141625,0,WF,Moderate,Natural,64.40688,-147.21692,NFIS,24,0.1,NA,NA,Alaska
 2024-AKUYD-000121,Owl Fire,AK,Yukon-Koyukuk,2024-06-08T22:59:45Z,2024-06-30T23:52:48Z,11121,0,WF,Minimal,Natural,66.15,-142.17,NFIS,24,2.8,NA,NA,Alaska
@@ -56,7 +56,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-AKSWS-404171,Eightmile Creek Fire,AK,Bethel,2024-06-18T07:24:52Z,2024-06-29T17:16:00Z,4379.7,NA,WF,NA,Natural,61.80745,-157.591333,NFIS,15,4.1,NA,NA,Alaska
 2024-AKSWS-404172,South Fork George River Fire,AK,Bethel,2024-06-18T07:28:00Z,2024-07-03T00:20:04Z,7415,0,WF,Moderate,Natural,61.937117,-157.4235,NFIS,15,0.8,NA,NA,Alaska
 2024-AKSWS-404173,Zimmerman Creek Fire,AK,Yukon-Koyukuk,2024-06-18T16:12:00Z,2024-06-23T02:22:02Z,1934.1,0,WF,Active,Natural,62.59,-158.28,NFIS,15,10.7,NA,NA,Alaska
-2024-AKSWS-404174,Big Yetna River Fire,AK,Yukon-Koyukuk,2024-06-18T16:15:47Z,2024-06-24T08:11:31Z,4271.99,0,WF,Minimal,Natural,62.63,-158.74,NFIS,15,9.4,NA,NA,Alaska
+2024-AKSWS-404174,Big Yetna River Fire,AK,Yukon-Koyukuk,2024-06-18T16:15:47Z,2024-06-24T08:11:31Z,4271.99,0,WF,Minimal,Natural,62.63,-158.74,NFIS,15,9.5,NA,NA,Alaska
 2024-AKSWS-404176,Kapon Creek Fire,AK,Bethel,2024-06-18T16:23:18Z,2024-06-29T03:38:15Z,355.4,NA,WF,NA,Natural,60.16,-160.24,NFIS,15,4.6,NA,NA,Alaska
 2024-AKTAD-000179,Mud Fire,AK,Yukon-Koyukuk,2024-06-19T00:08:00Z,2024-06-22T15:34:15Z,100.6,NA,WF,NA,Natural,65.514833,-149.318833,NFIS,14,11.1,NA,NA,Alaska
 2024-AKUYD-000184,Ikheenjik Fire,AK,Yukon-Koyukuk,2024-06-19T01:56:49Z,2024-06-30T19:55:55Z,35,NA,WF,NA,Natural,65.525833,-143.902783,NFIS,14,3,NA,NA,Alaska
@@ -71,7 +71,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-AKTAD-000199,Foraker Fire,AK,Denali,2024-06-21T21:58:04Z,2024-07-01T16:44:35Z,4443,0,WF,Active,Natural,63.2605,-151.809667,NFIS,11,2.1,NA,NA,Alaska
 2024-AKGAD-000200,Yuki Fire,AK,Yukon-Koyukuk,2024-06-21T22:05:00Z,2024-06-25T16:50:23Z,39.5,NA,WF,NA,Natural,66.0565,-156.485833,NFIS,11,8.1,NA,NA,Alaska
 2024-AKSWS-404201,Cribby Creek Fire,AK,Bethel,2024-06-21T22:54:00Z,2024-06-24T21:07:42Z,91.2,9,WF,Minimal,Natural,61.841833,-157.300667,NFIS,11,8.9,NA,NA,Alaska
-2024-AKMID-000204,Clear Fire,AK,Fairbanks North Star,2024-06-22T00:56:26Z,2024-06-26T15:19:38Z,23409.8,0,WF,Active,Natural,64.590783,-147.5935,NFIS,11,7.1,NA,NA,Alaska
+2024-AKMID-000204,Clear Fire,AK,Fairbanks North Star,2024-06-22T00:56:26Z,2024-06-26T15:19:38Z,23409.8,0,WF,Active,Natural,64.590783,-147.5935,NFIS,11,7.2,NA,NA,Alaska
 2024-AKSWS-404206,Crater Mountain Fire,AK,Yukon-Koyukuk,2024-06-22T01:57:00Z,2024-06-28T20:23:35Z,1223,0,WF,Moderate,Natural,63.1,-156.425,NFIS,11,4.9,NA,NA,Alaska
 2024-AKGAD-000209,Naluk Fire,AK,Northwest Arctic,2024-06-22T03:14:00Z,2024-07-02T14:37:45Z,15338.1,0,WF,Active,Natural,66.8905,-159.506833,NFIS,11,1.2,NA,NA,Alaska
 2024-AKSWS-404210,Beaver Creek Fire,AK,Yukon-Koyukuk,2024-06-22T04:09:00Z,2024-06-25T04:11:42Z,50.5,NA,WF,NA,Natural,62.7385,-156.380833,NFIS,11,8.6,NA,NA,Alaska
@@ -132,7 +132,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-AZA4S-240980,Scd - Boulder View Fire,AZ,Maricopa,2024-06-27T21:23:00Z,2024-06-29T22:29:32Z,3200,87,WF,Minimal,Undetermined,33.817639,-111.838933,NFIS,5,3.9,NA,NA,Arizona
 2024-WYWEX-240133,NA Fire,WY,Weston,2024-06-27T21:28:13Z,2024-07-02T21:33:16Z,287,NA,WF,NA,Undetermined,41.647531,-108.179197,NFIS,5,0.9,NA,NA,Wyoming
 2024-AKTAS-413291,Lost Chicken Hill Fire,AK,Southeast Fairbanks,2024-06-27T22:21:15Z,2024-07-02T06:35:22Z,1111.8,NA,WF,NA,Natural,64.054913,-141.910845,NFIS,5,1.5,NA,NA,Alaska
-2024-AKFAS-411294,Bear Creek Fire,AK,Fairbanks North Star,2024-06-28T00:58:00Z,2024-06-30T00:54:40Z,73,NA,WF,NA,Natural,63.901,-149.783833,NFIS,5,3.7,NA,NA,Alaska
+2024-AKFAS-411294,Bear Creek Fire,AK,Fairbanks North Star,2024-06-28T00:58:00Z,2024-06-30T00:54:40Z,73,NA,WF,NA,Natural,63.901,-149.783833,NFIS,5,3.8,NA,NA,Alaska
 2024-AKFAS-411293,Sushana River Fire,AK,Denali,2024-06-28T01:11:23Z,2024-07-02T06:09:24Z,1203.5,NA,WF,NA,Natural,63.901,-149.783833,NFIS,5,1.5,NA,NA,Alaska
 2024-UTCPD-000299,Skutumpah Fire,UT,Kane,2024-06-28T01:45:00Z,2024-07-01T13:44:48Z,58,NA,WF,NA,Natural,37.215429,-112.366791,NFIS,5,2.2,NA,NA,Utah
 2024-AKTAD-000299,Torment Fire,AK,Yukon-Koyukuk,2024-06-28T02:25:00Z,2024-06-29T17:52:28Z,10,NA,WF,NA,Natural,65.866667,-151.316667,NFIS,5,4,NA,NA,Alaska
@@ -160,7 +160,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-AKTAD-000324,Melozitna Fire,AK,Yukon-Koyukuk,2024-06-30T22:28:37Z,2024-07-02T17:34:56Z,254,NA,WF,NA,Natural,65.583883,-154.154167,NFIS,2,1.1,NA,NA,Alaska
 2024-TXBRR-000295,Butterfly 24 Fire,TX,Brazoria,2024-07-01T04:50:50Z,2024-07-03T16:11:27Z,1,NA,WF,NA,Undetermined,29.143889,-95.259167,NFIS,2,0.1,NA,NA,Texas
 2024-MTLG52-000188,Mm7 Wibaux Fire,MT,Wibaux,2024-07-01T05:30:00Z,2024-07-03T16:54:21Z,0.1,NA,WF,NA,Natural,47.08596,-104.19878,NFIS,2,0.1,NA,NA,Montana
-2024-CASDU-015805,Mccain 4 Fire,CA,San Diego,2024-07-01T22:34:14Z,2024-07-02T05:48:32Z,1362,50,WF,Minimal,Undetermined,32.668151,-116.260045,NFIS,1,1.5,NA,NA,California
+2024-CASDU-015805,Mccain 4 Fire,CA,San Diego,2024-07-01T22:34:14Z,2024-07-02T05:48:32Z,1362,50,WF,Minimal,Undetermined,32.668151,-116.260045,NFIS,1,1.6,NA,NA,California
 2024-AKGAD-000334,Hawk Fire,AK,Yukon-Koyukuk,2024-07-01T23:47:00Z,2024-07-02T14:46:41Z,44,NA,WF,NA,Natural,66.065924,-157.135005,NFIS,1,1.2,NA,NA,Alaska
 2024-AKGAD-000340,Okotak Fire,AK,Northwest Arctic,2024-07-02T16:31:56Z,2024-07-02T17:09:28Z,9.3,NA,WF,NA,Undetermined,68.186833,-161.223333,NFIS,1,1.1,NA,NA,Alaska
 2024-AKGAD-000341,Uluksian Fire,AK,Northwest Arctic,2024-07-02T16:35:59Z,2024-07-02T17:09:28Z,51,NA,WF,NA,Natural,67.993667,-159.999167,NFIS,1,1.1,NA,NA,Alaska
@@ -229,7 +229,7 @@ NA,Toll Fire,CA,Napa,2024-07-02T09:42:17Z,2024-07-03T10:30:28Z,41,20,Wildfire,NA
 NA,Border 60 Fire,CA,San Diego,2024-07-02T14:06:15Z,2024-07-02T17:36:13Z,22,50,Wildfire,NA,NA,32.582559,-116.616755,Cal Fire,1,1,"Humphries Road, Potrero",http://incidents.fire.ca.gov/incidents/2024/7/2/border-60-fire/,California
 NA,Yolla Fire,CA,Shasta,2024-07-02T10:27:27Z,2024-07-03T08:38:30Z,19,70,Wildfire,NA,NA,40.386141,-122.760479,Cal Fire,1,0,Yolla Bolla Road and Wintun Road,http://incidents.fire.ca.gov/incidents/2024/7/2/yolla-fire/,California
 NA,Denverton Fire,CA,Solano,2024-07-02T13:13:39Z,2024-07-02T16:05:15Z,25,NA,Wildfire,NA,NA,38.242509,-121.91466,Cal Fire,1,1,Creed Road and Denverton Road,http://incidents.fire.ca.gov/incidents/2024/7/2/denverton-fire/,California
-NA,Airline Fire,CA,San Benito,2024-07-02T13:56:12Z,2024-07-03T06:00:41Z,1150,55,Wildfire,NA,NA,36.65921,-121.22114,Cal Fire,1,0,"Panoche Road, Paicines, CA",http://incidents.fire.ca.gov/incidents/2024/7/2/airline-fire/,California
+NA,Airline Fire,CA,San Benito,2024-07-02T13:56:12Z,2024-07-03T11:56:02Z,1200,55,Wildfire,NA,NA,36.65921,-121.22114,Cal Fire,1,0,"Panoche Road, Paicines, CA",http://incidents.fire.ca.gov/incidents/2024/7/2/airline-fire/,California
 NA,Moccasin Fire,CA,El Dorado,2024-07-02T15:40:31Z,2024-07-03T06:52:53Z,51,25,Wildfire,NA,NA,38.63826,-120.774929,Cal Fire,1,0,"Moccasin Trail, West of Somerset",http://incidents.fire.ca.gov/incidents/2024/7/2/moccasin-fire/,California
 NA,Bowman Fire,CA,Kern,2024-07-02T10:36:27Z,2024-07-02T20:59:12Z,13,NA,Wildfire,NA,NA,35.608374,-117.899544,Cal Fire,1,1,Unknown / TBD,http://incidents.fire.ca.gov/incidents/2024/7/2/bowman-fire/,California
 NA,Luken Fire,CA,Riverside,2024-07-02T15:34:42Z,2024-07-02T22:36:09Z,18,80,Wildfire,NA,NA,33.79682,-117.264072,Cal Fire,1,1,"Lukens Lane and Metz Road, unincorporated Perris",http://incidents.fire.ca.gov/incidents/2024/7/2/luken-fire/,California
