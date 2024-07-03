@@ -276,10 +276,7 @@ fires <- left_join(fires,states,by=c("state"="state_abb"))
 
 # add column for contained vs not contained fire
 fires <- fires %>% 
-mutate(
-    status = ifelse(percent_contained == 100, "contained", "not_contained")
-  ) %>%
-mutate(status = replace_na(status, "contained"))
+mutate(status = ifelse(percent_contained == 100 | percent_contained == NA, "contained", "not_contained"))
 
 # Save latest merged fire points file as csv
 write_csv(fires,"data/wildfires_working.csv")
