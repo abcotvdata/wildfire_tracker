@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '10 0/2 * * *'
+    - cron: '10 0/1 * * *'
       # During winter season set to '10 0/6 * * *'
       # During late spring and early summer set to '10 0/2 * * *'
       # During wildfire season set to '10 0/1 * * *'
