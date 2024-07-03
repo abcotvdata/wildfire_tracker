@@ -274,6 +274,12 @@ try(rm(cal_fires_unique))
 states <- as.data.frame(cbind(state.abb,state.name)) %>% janitor::clean_names()
 fires <- left_join(fires,states,by=c("state"="state_abb"))
 
+# add column for contained vs not contained fire
+fires <- fires %>% 
+mutate(
+    status = ifelse(percent_contained == 100, "contained", "not_contained")
+  )
+
 # Save latest merged fire points file as csv
 write_csv(fires,"data/wildfires_working.csv")
 
@@ -326,8 +332,8 @@ fireIcons <- awesomeIcons(
   icon = "fire",
   iconColor = "white",
   library = 'glyphicon',
-  squareMarker = TRUE)
-  #markerColor = ifelse(fires$percent_contained == 100 | fires$percent_contained == NA, "lightgray", "orange"))
+  squareMarker = TRUE,
+  markerColor = ifelse(fires$status == "contained", "lightgray", "orange"))
 # options include ion-flame, ion-fireball, fa-fire
 
 # Set values for EasyButtonBar controls here
@@ -458,7 +464,6 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
                     popupOptions = popupOptions(keepInView = T, 
                                                 autoPanPaddingTopLeft=c(100,120)),
                     icon = fireIcons,
-                    markerColor = ~ifelse(percent_contained == 100, "lightgray", "orange"),
                     group="Wildfires") %>%
   addPolygons(data = noaa_latest_smoke, 
               color = ~smokepal(Density),
