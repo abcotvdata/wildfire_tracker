@@ -1,31 +1,31 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-CABDF-009908,Vista Fire,CA,San Bernardino,2024-07-07T16:51:00Z,2024-09-16T16:31:56Z,2936,100,WF,Minimal,Undetermined,34.248302,-117.494141,NFIS,147,76.4,NA,NA,California,contained
-2024-CASQF-001285,Happy Fire,CA,Fresno,2024-07-16T16:18:00Z,2024-11-13T21:44:59Z,12543,100,WF,Minimal,Natural,36.850037,-118.738174,NFIS,138,18.2,NA,NA,California,contained
-2024-WYSHF-000225,Clearwater Fire,WY,Park,2024-07-19T22:30:00Z,2024-08-16T21:26:56Z,1966,93,WF,Minimal,Natural,44.458987,-109.671793,NFIS,135,107.2,NA,NA,Wyoming,not_contained
-2024-CAKNP-000088,Coffee Pot Fire,CA,Tulare,2024-08-03T15:05:00Z,2024-09-18T12:30:00Z,14104,93,WF,Minimal,Natural,36.4307,-118.762,NFIS,120,74.6,NA,NA,California,not_contained
+2024-CABDF-009908,Vista Fire,CA,San Bernardino,2024-07-07T16:51:00Z,2024-09-16T16:31:56Z,2936,100,WF,Minimal,Undetermined,34.248302,-117.494141,NFIS,147,76.5,NA,NA,California,contained
+2024-CASQF-001285,Happy Fire,CA,Fresno,2024-07-16T16:18:00Z,2024-11-13T21:44:59Z,12543,100,WF,Minimal,Natural,36.850037,-118.738174,NFIS,138,18.3,NA,NA,California,contained
+2024-WYSHF-000225,Clearwater Fire,WY,Park,2024-07-19T22:30:00Z,2024-08-16T21:26:56Z,1966,93,WF,Minimal,Natural,44.458987,-109.671793,NFIS,135,107.3,NA,NA,Wyoming,not_contained
+2024-CAKNP-000088,Coffee Pot Fire,CA,Tulare,2024-08-03T15:05:00Z,2024-09-18T12:30:00Z,14104,93,WF,Minimal,Natural,36.4307,-118.762,NFIS,120,74.7,NA,NA,California,not_contained
 2024-IDNCF-000678,Cracker Jack Complex Fire,ID,Idaho,2024-08-12T19:49:00Z,2024-11-05T17:48:50Z,5240.3,100,CX,Minimal,Undetermined,43.6167,-116.2,NFIS,111,26.4,NA,NA,Idaho,contained
 2024-MTBRF-024418,Sharrott Creek Fire,MT,Ravalli,2024-08-23T21:47:00Z,2024-10-08T21:01:12Z,3253,100,WF,Minimal,Natural,46.5117,-114.244,NFIS,100,54.3,NA,NA,Montana,contained
-2024-OR953S-000766,Shoe Fly Fire,OR,Wheeler,2024-09-02T11:22:00Z,2024-10-09T19:14:59Z,26817,100,WF,Minimal,Natural,44.717464,-120.051951,NFIS,90,53.3,NA,NA,Oregon,contained
+2024-OR953S-000766,Shoe Fly Fire,OR,Wheeler,2024-09-02T11:22:00Z,2024-10-09T19:14:59Z,26817,100,WF,Minimal,Natural,44.717464,-120.051951,NFIS,90,53.4,NA,NA,Oregon,contained
 2024-CABDF-012520,Line Fire,CA,San Bernardino,2024-09-06T01:00:00Z,2024-10-11T01:42:41Z,43978,99,WF,Moderate,Undetermined,34.162415,-117.334427,NFIS,87,52.1,NA,NA,California,not_contained
-2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,99,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,84,32.3,NA,NA,California,not_contained
+2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,99,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,84,32.4,NA,NA,California,not_contained
 2024-WYBTF-002439,Pack Trail Fire,WY,Teton,2024-08-16T20:52:00Z,2024-10-27T10:47:07Z,89930,95,WF,Minimal,Natural,43.59595,-110.152167,NFIS,107,35.7,NA,NA,Wyoming,not_contained
 2024-WYSHX-240561,Passiac 2 Fire,WY,Sheridan,2024-09-24T01:13:46Z,2024-09-26T15:48:50Z,356,100,WF,Minimal,Human,44.903319,-106.335254,NFIS,69,66.5,NA,NA,Wyoming,contained
-2024-NDFBA-000069,Bear Den Fire,ND,McKenzie,2024-10-05T11:00:00Z,2024-10-07T17:20:01Z,13500,100,WF,Minimal,Undetermined,NA,NA,NFIS,57,55.4,NA,NA,North Dakota,contained
+2024-NDFBA-000069,Bear Den Fire,ND,McKenzie,2024-10-05T11:00:00Z,2024-10-07T17:20:01Z,13500,100,WF,Minimal,Undetermined,NA,NA,NFIS,57,55.5,NA,NA,North Dakota,contained
 2024-MAMAS-FD05084,Fd05084 Fire,MA,Essex,2024-10-23T20:22:00Z,2024-10-24T20:16:36Z,0.6,NA,WF,NA,Human,NA,NA,NFIS,39,38.3,NA,NA,Massachusetts,not_contained
 2024-MAMAS-FD05090,Fd05090 Fire,MA,Essex,2024-10-26T23:00:00Z,2024-10-28T20:40:04Z,141,100,WF,Minimal,Human,NA,NA,NFIS,36,34.3,NA,NA,Massachusetts,contained
-2024-WVNRP-000840,Highland Fire,WV,Fayette,2024-11-05T21:00:00Z,2024-11-10T00:20:32Z,210,90,WF,Minimal,Human,37.870815,-81.01661,NFIS,26,22.1,NA,NA,West Virginia,not_contained
+2024-WVNRP-000840,Highland Fire,WV,Fayette,2024-11-05T21:00:00Z,2024-11-10T00:20:32Z,210,90,WF,Minimal,Human,37.870815,-81.01661,NFIS,26,22.2,NA,NA,West Virginia,not_contained
 2024-MAMAS-FD05120,Mount Gilead Fire,MA,Essex,2024-11-08T20:30:00Z,2024-11-10T21:01:54Z,440,100,WF,Minimal,Human,NA,NA,NFIS,23,21.3,NA,NA,Massachusetts,contained
-2024-MAMAS-FD050093,Middleton Pond Fire,MA,Essex,2024-10-27T15:00:03Z,2024-11-10T21:24:26Z,242,100,WF,Minimal,Human,NA,NA,NFIS,35,21.2,NA,NA,Massachusetts,contained
-2024-MAMAS-FD05097,Fd05097 Fire,MA,Essex,2024-10-29T18:33:00Z,2024-11-11T03:13:59Z,134,100,WF,Minimal,Human,NA,NA,NFIS,33,21,NA,NA,Massachusetts,contained
-2024-PAPAS-000882,Ganner Fire,PA,Berks,2024-11-10T03:37:00Z,2024-11-11T21:01:19Z,120,100,WF,Minimal,Undetermined,40.324167,-75.918056000000007,NFIS,21,20.3,NA,NA,Pennsylvania,contained
-2024-MAMAS-FD11018,Fd11018 Fire,MA,Hampden,2024-10-31T19:00:24Z,2024-11-15T20:01:28Z,44,NA,WF,NA,Human,NA,NA,NFIS,31,16.3,NA,NA,Massachusetts,not_contained
+2024-MAMAS-FD050093,Middleton Pond Fire,MA,Essex,2024-10-27T15:00:03Z,2024-11-10T21:24:26Z,242,100,WF,Minimal,Human,NA,NA,NFIS,35,21.3,NA,NA,Massachusetts,contained
+2024-MAMAS-FD05097,Fd05097 Fire,MA,Essex,2024-10-29T18:33:00Z,2024-11-11T03:13:59Z,134,100,WF,Minimal,Human,NA,NA,NFIS,33,21.1,NA,NA,Massachusetts,contained
+2024-PAPAS-000882,Ganner Fire,PA,Berks,2024-11-10T03:37:00Z,2024-11-11T21:01:19Z,120,100,WF,Minimal,Undetermined,40.324167,-75.918056000000007,NFIS,22,20.3,NA,NA,Pennsylvania,contained
+2024-MAMAS-FD11018,Fd11018 Fire,MA,Hampden,2024-10-31T19:00:24Z,2024-11-15T20:01:28Z,44,NA,WF,NA,Human,NA,NA,NFIS,31,16.4,NA,NA,Massachusetts,not_contained
 2024-CAVNC-094825,Mountain Fire,CA,Ventura,2024-11-06T17:00:00Z,2024-11-19T23:17:54Z,19904,NA,WF,NA,Undetermined,NA,NA,NFIS,25,12.2,NA,NA,California,not_contained
 2024-CAVNC-084318,Felicia Fire,CA,Ventura,2024-10-03T19:45:00Z,2024-11-19T22:49:56Z,367,100,WF,Minimal,Undetermined,NA,NA,NFIS,59,12.2,NA,NA,California,contained
 2024-CAINF-001995,Horseshoe Fire,CA,Inyo,2024-10-30T18:27:00Z,2024-11-28T06:25:45Z,4537,95,WF,Minimal,Undetermined,36.512672,-118.146973,NFIS,32,3.9,NA,NA,California,not_contained
-2024-MAMAS-FD0593,Traders Way Fire,MA,Essex,2024-10-30T03:26:00Z,2024-11-24T19:14:49Z,15,NA,WF,NA,Human,NA,NA,NFIS,32,7.3,NA,NA,Massachusetts,not_contained
-2024-MAMAS-FD05106,Castle Rock Fire,MA,Essex,2024-11-01T20:18:00Z,2024-11-24T19:39:23Z,27,NA,WF,NA,Human,NA,NA,NFIS,30,7.3,NA,NA,Massachusetts,not_contained
+2024-MAMAS-FD0593,Traders Way Fire,MA,Essex,2024-10-30T03:26:00Z,2024-11-24T19:14:49Z,15,NA,WF,NA,Human,NA,NA,NFIS,33,7.4,NA,NA,Massachusetts,not_contained
+2024-MAMAS-FD05106,Castle Rock Fire,MA,Essex,2024-11-01T20:18:00Z,2024-11-24T19:39:23Z,27,NA,WF,NA,Human,NA,NA,NFIS,30,7.4,NA,NA,Massachusetts,not_contained
 2024-MAMAS-FD120021,Fd120021 Fire,MA,Berkshire,2024-11-19T01:30:19Z,2024-11-25T16:16:41Z,1670,41,WF,Minimal,Human,NA,NA,NFIS,13,6.5,NA,NA,Massachusetts,not_contained
-2024-SDPRA-0000197,Jotto Fire,SD,Oglala Lakota,2024-11-29T21:31:00Z,2024-11-29T21:38:56Z,1,NA,WF,NA,Human,NA,NA,NFIS,2,2.2,NA,NA,South Dakota,not_contained
+2024-SDPRA-0000197,Jotto Fire,SD,Oglala Lakota,2024-11-29T21:31:00Z,2024-11-29T21:38:56Z,1,NA,WF,NA,Human,NA,NA,NFIS,2,2.3,NA,NA,South Dakota,not_contained
 2024-MAMAS-FD05099,Fd0597 Fire,MA,Essex,2024-10-28T23:07:00Z,2024-12-01T20:53:28Z,0.32,NA,WF,NA,Human,NA,NA,NFIS,34,0.3,NA,NA,Massachusetts,not_contained
 2024-MAMAS-FD05105,Fd05105 Fire,MA,Essex,2024-10-27T14:20:00Z,2024-12-01T20:56:34Z,0.13,NA,WF,NA,Human,NA,NA,NFIS,35,0.3,NA,NA,Massachusetts,not_contained
 NA,Canyon Crest Fire,CA,"Riverside, San Bernardino",2024-11-28T20:04:37Z,2024-12-01T11:08:32Z,254,100,Wildfire,NA,NA,34.034077,-117.481178,Cal Fire,4,1,"North of Highway 60, near Canyon Crest Drive in Riverside County",https://www.fire.ca.gov/incidents/2024/11/28/canyon-crest-fire/,California,contained
