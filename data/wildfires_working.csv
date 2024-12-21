@@ -1,45 +1,43 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-WAOWF-000435,Easy Fire,WA,Skagit,2024-07-18T02:55:00Z,2024-08-23T12:24:32Z,2130,100,WF,Minimal,Natural,48.592406,-120.833515,NFIS,155,119.3,NA,NA,Washington,contained
-2024-ORWIF-240203,Chalk Fire,OR,Lane,2024-07-17T18:36:00Z,2024-10-12T11:54:37Z,6015,100,WF,Moderate,Natural,43.887333,-122.431,NFIS,155,69.3,NA,NA,Oregon,contained
-2024-ORWIF-240214,Moss Mountain Fire,OR,Lane,2024-07-17T19:52:00Z,2024-10-22T15:41:21Z,2849,10,WF,Moderate,Natural,43.577542,-122.260891,NFIS,155,59.1,NA,NA,Oregon,not_contained
-2024-ORWIF-240237,Coffee Pot Fire,OR,Lane,2024-07-21T10:57:00Z,2024-10-06T13:11:34Z,6203,100,WF,Moderate,Natural,43.661688,-122.401572,NFIS,152,75.2,NA,NA,Oregon,contained
-2024-ORWIF-240193,Mckinley Creek Fire,OR,Lane,2024-07-17T15:40:00Z,2024-10-08T15:42:00Z,24,100,WF,NA,Natural,43.86645,-122.44355,NFIS,156,73.1,NA,NA,Oregon,contained
-2024-ORWIF-240208,208 Mf Fire,OR,Lane,2024-07-17T18:59:00Z,2024-10-22T15:42:04Z,11262,4,WF,Moderate,Natural,43.519266,-122.130979,NFIS,155,59.1,NA,NA,Oregon,not_contained
-2024-ORWIF-240207,Tire Mountain Fire,OR,Lane,2024-07-17T18:51:33Z,2024-10-08T15:42:02Z,23,100,WF,NA,Natural,43.840667,-122.524667,NFIS,155,73.1,NA,NA,Oregon,contained
-2024-ORUPF-240311,Bullpup Fire,OR,Lane,2024-07-19T20:55:54Z,2024-10-18T12:42:56Z,12917,100,CX,Minimal,Undetermined,43.462402,-122.633706,NFIS,153,63.2,NA,NA,Oregon,contained
-2024-CAKNP-000088,Coffee Pot Fire,CA,Tulare,2024-08-03T15:05:00Z,2024-09-18T12:30:00Z,14104,100,WF,Minimal,Natural,36.4307,-118.762,NFIS,139,93.3,NA,NA,California,contained
-2024-OROCF-000675,0675 Ochoco Fire,OR,Jefferson,2024-08-18T20:44:00Z,2024-09-28T19:42:52Z,590,100,WF,Minimal,Natural,44.513191,-121.139242,NFIS,123,83,NA,NA,Oregon,contained
-2024-CABDF-012520,Line Fire,CA,San Bernardino,2024-09-06T01:00:00Z,2024-10-11T01:42:41Z,43978,99,WF,Minimal,Undetermined,34.162415,-117.334427,NFIS,105,70.7,NA,NA,California,not_contained
-2024-ORDEF-000899,Little Lava Fire,OR,Deschutes,2024-09-08T00:16:00Z,2024-10-18T22:12:23Z,15514,75,WF,NA,Natural,43.895667,-121.727333,NFIS,103,62.8,NA,NA,Oregon,not_contained
-2024-ORWIF-240373,Boulder Creek Fire,OR,Lane,2024-09-07T18:02:24Z,2024-09-28T16:02:27Z,523,84,WF,NA,Natural,44.210717,-122.030717,NFIS,104,83.1,NA,NA,Oregon,not_contained
-2024-ORWIF-240362,Young Grasshopper Fire,OR,Lane,2024-09-07T00:14:00Z,2024-10-22T15:44:16Z,5313,98,WF,Minimal,Natural,43.888589,-122.115172,NFIS,104,59.1,NA,NA,Oregon,not_contained
-2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,99,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,102,50.9,NA,NA,California,not_contained
-2024-ORDEF-000911,0911 Nw Fire,OR,Deschutes,2024-09-08T18:58:33Z,2024-10-10T04:16:50Z,14,100,WF,NA,Natural,44.006364,-121.780573,NFIS,102,71.6,NA,NA,Oregon,contained
-2024-ORDEF-000913,0913 Nw Fire,OR,Deschutes,2024-09-08T20:30:26Z,2024-10-09T14:10:15Z,248,90,WF,NA,Natural,43.903667,-121.7227,NFIS,102,72.2,NA,NA,Oregon,not_contained
-2024-ORDEF-000857,0857 Nw Fire,OR,Deschutes,2024-09-07T05:43:48Z,2024-10-15T19:23:23Z,0.23,100,WF,NA,Natural,43.901833,-121.706167,NFIS,104,66,NA,NA,Oregon,contained
-2024-ORDEF-000892,0892 Lucky Butte Fire,OR,Deschutes,2024-09-07T20:13:43Z,2024-10-15T16:59:49Z,548,90,WF,NA,Natural,43.907217,-121.8893,NFIS,103,66.1,NA,NA,Oregon,not_contained
-2024-ORDEF-000885,0885 Nw Fire,OR,Deschutes,2024-09-07T18:15:08Z,2024-10-03T18:11:50Z,1.25,100,WF,NA,Natural,44.014667,-121.807167,NFIS,104,78,NA,NA,Oregon,contained
-2024-IDBOF-000936,Middle Fork Complex Fire,ID,Boise,2024-08-08T22:30:00Z,2024-09-15T18:15:40Z,61496,100,CX,Minimal,Undetermined,44.171802,-115.797332,NFIS,133,96,NA,NA,Idaho,contained
-2024-OR781S-000171,Siuslaw Fire,OR,Lane,2024-10-10T20:46:00Z,2024-10-28T16:06:47Z,3.08,NA,WF,NA,Undetermined,43.93033333,-123.63166667,NFIS,70,53.1,NA,NA,Oregon,not_contained
-2024-MAMAS-FD050093,Middleton Pond Fire,MA,Essex,2024-10-27T15:00:03Z,2024-11-10T21:24:26Z,243,100,WF,Minimal,Human,NA,NA,NFIS,54,39.9,NA,NA,Massachusetts,contained
-2024-MAMAS-FD05097,Fd05097 Fire,MA,Essex,2024-10-29T18:33:00Z,2024-11-11T03:13:59Z,134,100,WF,Minimal,Human,NA,NA,NFIS,52,39.6,NA,NA,Massachusetts,contained
-2024-CAINF-001995,Horseshoe Fire,CA,Inyo,2024-10-30T18:27:00Z,2024-11-28T06:25:45Z,4537,95,WF,Minimal,Undetermined,36.512672,-118.146973,NFIS,51,22.5,NA,NA,California,not_contained
-2024-MAMAS-FD050140,Thomas Road Fire,MA,Essex,2024-11-18T01:50:00Z,2024-12-06T20:13:50Z,494,NA,WF,NA,Human,NA,NA,NFIS,32,13.9,NA,NA,Massachusetts,not_contained
-2024-NCNCS-240033,Buck Creek Fire,NC,McDowell,2024-12-05T14:45:00Z,2024-12-09T02:13:09Z,518,100,WF,Minimal,Human,NA,NA,NFIS,15,11.7,NA,NA,North Carolina,contained
-2024-MTLG14-000635,NA Fire,MT,Custer,2024-12-08T21:32:39Z,2024-12-09T19:49:45Z,851.9,NA,WF,NA,Human,46.09975,-105.874483,NFIS,11,10.9,NA,NA,Montana,not_contained
-2024-CALAC-434928,Franklin Fire,CA,Los Angeles,2024-12-10T06:50:53Z,2024-12-17T03:02:52Z,4037,100,WF,Minimal,Undetermined,34.06343,-118.69642,NFIS,10,3.6,NA,NA,California,contained
-2024-MAMAS-FD050150,Thomas Road Fire,NY,Albany,2024-11-18T01:45:00Z,2024-12-14T14:31:39Z,517,100,WF,Minimal,Human,NA,NA,NFIS,32,6.2,NA,NA,New York,contained
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2024-12-20T00:14:19Z,520,0,WF,Moderate,Human,34.384474,-111.455141,NFIS,5,0.8,NA,NA,Arizona,not_contained
-2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-16T21:35:23Z,630,60,WF,Minimal,Human,34.116501,-112.144997,NFIS,5,3.9,NA,NA,Arizona,not_contained
-2024-FLFNF-003153,Styx Fire,FL,Liberty,2024-12-16T17:28:26Z,2024-12-17T13:57:33Z,76,NA,WF,NA,Human,30.125861,-85.0925,NFIS,4,3.2,NA,NA,Florida,not_contained
-2024-SDPRA-0000201,Lbull Fire,SD,Oglala Lakota,2024-12-18T21:33:00Z,2024-12-18T22:29:36Z,34.38,NA,WF,NA,Human,NA,NA,NFIS,1,1.8,NA,NA,South Dakota,not_contained
-NA,Point Fire,CA,Sonoma,2024-06-16T12:33:55Z,2024-12-18T12:04:02Z,1207,100,Wildfire,NA,NA,38.705475,-123.012253,Cal Fire,187,2,"Stewarts Point Road and Skaggs Springs, Geyserville ",https://www.fire.ca.gov/incidents/2024/6/16/point-fire/,California,contained
-NA,Point Fire,CA,Modoc,2024-07-15T18:26:31Z,2024-12-18T11:40:22Z,298,100,Wildfire,NA,NA,41.7975,-121.369,Cal Fire,158,2,South of Newell,https://www.fire.ca.gov/incidents/2024/7/15/point-fire/,California,contained
-NA,Park Fire,CA,"Butte, Tehama",2024-07-24T14:52:43Z,2024-12-18T11:38:45Z,429603,100,Wildfire,NA,NA,39.7789,-121.76168,Cal Fire,149,2,"Off Upper Park Road in Bidwell Park, Chico",https://www.fire.ca.gov/incidents/2024/7/24/park-fire/,California,contained
-NA,Happy Fire,CA,Fresno,2024-07-16T09:18:46Z,2024-12-13T12:33:52Z,12145,65,Wildfire,NA,NA,36.850037,-118.738174,Cal Fire,157,7,Cedar Grove,https://www.fire.ca.gov/incidents/2024/7/16/happy-fire/,California,not_contained
-NA,Morrison Fire,CA,Tuolumne,2024-08-04T10:46:39Z,2024-12-20T09:18:04Z,30,100,Wildfire,NA,NA,37.9043,-119.615283,Cal Fire,138,0,"Near Morrison Creek, Yosemite National Park",https://www.fire.ca.gov/incidents/2024/8/4/morrison-fire/,California,contained
-NA,Moon Fire,CA,Los Angeles,2024-08-13T14:08:09Z,2024-12-20T09:17:10Z,15,100,Wildfire,NA,NA,34.284624,-117.8406047,Cal Fire,129,0,Unknown / TBD,https://www.fire.ca.gov/incidents/2024/8/13/moon-fire/,California,contained
-NA,Bear Fire,CA,Sierra,2024-09-02T14:09:00Z,2024-12-20T09:16:37Z,3323,100,Wildfire,NA,NA,39.596704,-120.21859,Cal Fire,109,0,"Off Bear Valley Road, South of Loyalton",https://www.fire.ca.gov/incidents/2024/9/2/bear-fire/,California,contained
-NA,Snake Fire,CA,San Luis Obispo,2024-10-17T13:33:02Z,2024-12-18T11:38:20Z,8,100,Wildfire,NA,NA,35.375211,-120.435273,Cal Fire,64,2,Unknown / TBD,https://www.fire.ca.gov/incidents/2024/10/17/snake-fire/,California,contained
-NA,Waucoba Fire,CA,Inyo,2024-11-11T09:54:34Z,2024-12-20T09:19:04Z,8,100,Wildfire,NA,NA,37.0211,-118.007,Cal Fire,39,0,"Badger Flat, west of Waucoba Mountain",https://www.fire.ca.gov/incidents/2024/11/11/waucoba-fire/,California,contained
-NA,Soto Fire,CA,Riverside,2024-12-17T19:50:15Z,2024-12-18T18:01:19Z,25,100,Wildfire,NA,NA,34.002023,-117.440844,Cal Fire,3,2,"Soto Street and Sedona Drive, Jurupa Valley",https://www.fire.ca.gov/incidents/2024/12/17/soto-fire/,California,contained
+2024-WAOWF-000435,Easy Fire,WA,Skagit,2024-07-18T02:55:00Z,2024-08-23T12:24:32Z,2130,100,WF,Minimal,Natural,48.592406,-120.833515,NFIS,155,119.6,NA,NA,Washington,contained
+2024-ORWIF-240203,Chalk Fire,OR,Lane,2024-07-17T18:36:00Z,2024-10-12T11:54:37Z,6015,100,WF,Moderate,Natural,43.887333,-122.431,NFIS,156,69.6,NA,NA,Oregon,contained
+2024-ORWIF-240214,Moss Mountain Fire,OR,Lane,2024-07-17T19:52:00Z,2024-10-22T15:41:21Z,2849,10,WF,Moderate,Natural,43.577542,-122.260891,NFIS,156,59.4,NA,NA,Oregon,not_contained
+2024-ORWIF-240237,Coffee Pot Fire,OR,Lane,2024-07-21T10:57:00Z,2024-10-06T13:11:34Z,6203,100,WF,Moderate,Natural,43.661688,-122.401572,NFIS,152,75.5,NA,NA,Oregon,contained
+2024-ORWIF-240193,Mckinley Creek Fire,OR,Lane,2024-07-17T15:40:00Z,2024-10-08T15:42:00Z,24,100,WF,NA,Natural,43.86645,-122.44355,NFIS,156,73.4,NA,NA,Oregon,contained
+2024-ORWIF-240208,208 Mf Fire,OR,Lane,2024-07-17T18:59:00Z,2024-10-22T15:42:04Z,11262,4,WF,Moderate,Natural,43.519266,-122.130979,NFIS,156,59.4,NA,NA,Oregon,not_contained
+2024-ORWIF-240207,Tire Mountain Fire,OR,Lane,2024-07-17T18:51:33Z,2024-10-08T15:42:02Z,23,100,WF,NA,Natural,43.840667,-122.524667,NFIS,156,73.4,NA,NA,Oregon,contained
+2024-ORUPF-240311,Bullpup Fire,OR,Lane,2024-07-19T20:55:54Z,2024-10-18T12:42:56Z,12917,100,CX,Minimal,Undetermined,43.462402,-122.633706,NFIS,154,63.5,NA,NA,Oregon,contained
+2024-CAKNP-000088,Coffee Pot Fire,CA,Tulare,2024-08-03T15:05:00Z,2024-09-18T12:30:00Z,14104,100,WF,Minimal,Natural,36.4307,-118.762,NFIS,139,93.6,NA,NA,California,contained
+2024-OROCF-000675,0675 Ochoco Fire,OR,Jefferson,2024-08-18T20:44:00Z,2024-09-28T19:42:52Z,590,100,WF,Minimal,Natural,44.513191,-121.139242,NFIS,124,83.3,NA,NA,Oregon,contained
+2024-CABDF-012520,Line Fire,CA,San Bernardino,2024-09-06T01:00:00Z,2024-10-11T01:42:41Z,43978,99,WF,Minimal,Undetermined,34.162415,-117.334427,NFIS,106,71,NA,NA,California,not_contained
+2024-ORDEF-000899,Little Lava Fire,OR,Deschutes,2024-09-08T00:16:00Z,2024-10-18T22:12:23Z,15514,75,WF,NA,Natural,43.895667,-121.727333,NFIS,104,63.2,NA,NA,Oregon,not_contained
+2024-ORWIF-240373,Boulder Creek Fire,OR,Lane,2024-09-07T18:02:24Z,2024-09-28T16:02:27Z,523,84,WF,NA,Natural,44.210717,-122.030717,NFIS,104,83.4,NA,NA,Oregon,not_contained
+2024-ORWIF-240362,Young Grasshopper Fire,OR,Lane,2024-09-07T00:14:00Z,2024-10-22T15:44:16Z,5313,98,WF,Minimal,Natural,43.888589,-122.115172,NFIS,105,59.4,NA,NA,Oregon,not_contained
+2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,99,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,103,51.2,NA,NA,California,not_contained
+2024-ORDEF-000911,0911 Nw Fire,OR,Deschutes,2024-09-08T18:58:33Z,2024-10-10T04:16:50Z,14,100,WF,NA,Natural,44.006364,-121.780573,NFIS,103,71.9,NA,NA,Oregon,contained
+2024-ORDEF-000913,0913 Nw Fire,OR,Deschutes,2024-09-08T20:30:26Z,2024-10-09T14:10:15Z,248,90,WF,NA,Natural,43.903667,-121.7227,NFIS,103,72.5,NA,NA,Oregon,not_contained
+2024-ORDEF-000892,0892 Lucky Butte Fire,OR,Deschutes,2024-09-07T20:13:43Z,2024-10-15T16:59:49Z,548,90,WF,NA,Natural,43.907217,-121.8893,NFIS,104,66.4,NA,NA,Oregon,not_contained
+2024-IDBOF-000936,Middle Fork Complex Fire,ID,Boise,2024-08-08T22:30:00Z,2024-09-15T18:15:40Z,61496,100,CX,Minimal,Undetermined,44.171802,-115.797332,NFIS,134,96.3,NA,NA,Idaho,contained
+2024-OR781S-000171,Siuslaw Fire,OR,Lane,2024-10-10T20:46:00Z,2024-10-28T16:06:47Z,3.08,NA,WF,NA,Undetermined,43.93033333,-123.63166667,NFIS,71,53.4,NA,NA,Oregon,not_contained
+2024-MAMAS-FD050093,Middleton Pond Fire,MA,Essex,2024-10-27T15:00:03Z,2024-11-10T21:24:26Z,243,100,WF,Minimal,Human,NA,NA,NFIS,54,40.2,NA,NA,Massachusetts,contained
+2024-MAMAS-FD05097,Fd05097 Fire,MA,Essex,2024-10-29T18:33:00Z,2024-11-11T03:13:59Z,134,100,WF,Minimal,Human,NA,NA,NFIS,52,39.9,NA,NA,Massachusetts,contained
+2024-CAINF-001995,Horseshoe Fire,CA,Inyo,2024-10-30T18:27:00Z,2024-11-28T06:25:45Z,4537,95,WF,Minimal,Undetermined,36.512672,-118.146973,NFIS,51,22.8,NA,NA,California,not_contained
+2024-MAMAS-FD050140,Thomas Road Fire,MA,Essex,2024-11-18T01:50:00Z,2024-12-06T20:13:50Z,494,NA,WF,NA,Human,NA,NA,NFIS,33,14.2,NA,NA,Massachusetts,not_contained
+2024-NCNCS-240033,Buck Creek Fire,NC,McDowell,2024-12-05T14:45:00Z,2024-12-09T02:13:09Z,518,100,WF,Minimal,Human,NA,NA,NFIS,15,12,NA,NA,North Carolina,contained
+2024-MTLG14-000635,NA Fire,MT,Custer,2024-12-08T21:32:39Z,2024-12-09T19:49:45Z,851.9,NA,WF,NA,Human,46.09975,-105.874483,NFIS,12,11.3,NA,NA,Montana,not_contained
+2024-CALAC-434928,Franklin Fire,CA,Los Angeles,2024-12-10T06:50:53Z,2024-12-17T03:02:52Z,4037,100,WF,Minimal,Undetermined,34.06343,-118.69642,NFIS,10,3.9,NA,NA,California,contained
+2024-MAMAS-FD050150,Thomas Road Fire,NY,Albany,2024-11-18T01:45:00Z,2024-12-14T14:31:39Z,517,100,WF,Minimal,Human,NA,NA,NFIS,33,6.5,NA,NA,New York,contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2024-12-20T23:14:14Z,520,0,WF,Moderate,Human,34.384474,-111.455141,NFIS,6,0.1,NA,NA,Arizona,not_contained
+2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-16T21:35:23Z,930,90,WF,Minimal,Human,34.116501,-112.144997,NFIS,5,4.2,NA,NA,Arizona,not_contained
+2024-FLFNF-003153,Styx Fire,FL,Liberty,2024-12-16T17:28:26Z,2024-12-17T13:57:33Z,76,NA,WF,NA,Human,30.125861,-85.0925,NFIS,4,3.5,NA,NA,Florida,not_contained
+2024-SDPRA-0000201,Lbull Fire,SD,Oglala Lakota,2024-12-18T21:33:00Z,2024-12-18T22:29:36Z,34.38,NA,WF,NA,Human,NA,NA,NFIS,2,2.1,NA,NA,South Dakota,not_contained
+NA,Point Fire,CA,Sonoma,2024-06-16T12:33:55Z,2024-12-18T12:04:02Z,1207,100,Wildfire,NA,NA,38.705475,-123.012253,Cal Fire,188,3,"Stewarts Point Road and Skaggs Springs, Geyserville ",https://www.fire.ca.gov/incidents/2024/6/16/point-fire/,California,contained
+NA,Sonora Fire,CA,San Bernardino,2024-07-04T20:10:07Z,2024-12-20T11:18:38Z,5,100,Wildfire,NA,NA,34.50711,-117.5124,Cal Fire,170,1,Highway 18 at Sonora Road,https://www.fire.ca.gov/incidents/2024/7/4/sonora-fire/,California,contained
+NA,Point Fire,CA,Modoc,2024-07-15T18:26:31Z,2024-12-18T11:40:22Z,298,100,Wildfire,NA,NA,41.7975,-121.369,Cal Fire,159,3,South of Newell,https://www.fire.ca.gov/incidents/2024/7/15/point-fire/,California,contained
+NA,Ridge Fire,CA,"Colusa, Lake",2024-07-20T16:26:18Z,2024-12-20T11:21:59Z,2756,100,Wildfire,NA,NA,39.0329124,-122.457217,Cal Fire,154,1,"Walker Ridge Rd and Highway 20, at the Lake and Colusa County border",https://www.fire.ca.gov/incidents/2024/7/20/ridge-fire/,California,contained
+NA,Park Fire,CA,"Butte, Tehama",2024-07-24T14:52:43Z,2024-12-18T11:38:45Z,429603,100,Wildfire,NA,NA,39.7789,-121.76168,Cal Fire,150,3,"Off Upper Park Road in Bidwell Park, Chico",https://www.fire.ca.gov/incidents/2024/7/24/park-fire/,California,contained
+NA,Morrison Fire,CA,Tuolumne,2024-08-04T10:46:39Z,2024-12-20T09:18:04Z,30,100,Wildfire,NA,NA,37.9043,-119.615283,Cal Fire,139,1,"Near Morrison Creek, Yosemite National Park",https://www.fire.ca.gov/incidents/2024/8/4/morrison-fire/,California,contained
+NA,Moon Fire,CA,Los Angeles,2024-08-13T14:08:09Z,2024-12-20T09:17:10Z,15,100,Wildfire,NA,NA,34.284624,-117.8406047,Cal Fire,130,1,Unknown / TBD,https://www.fire.ca.gov/incidents/2024/8/13/moon-fire/,California,contained
+NA,Bear Fire,CA,Sierra,2024-09-02T14:09:00Z,2024-12-20T09:16:37Z,3323,100,Wildfire,NA,NA,39.596704,-120.21859,Cal Fire,110,1,"Off Bear Valley Road, South of Loyalton",https://www.fire.ca.gov/incidents/2024/9/2/bear-fire/,California,contained
+NA,Frenchman Fire,CA,Los Angeles,2024-11-07T12:41:00Z,2024-12-20T11:19:25Z,94,100,Wildfire,NA,NA,34.615371,-118.749654,Cal Fire,44,1,"West of Frenchman's Flat Day Use Area, South of Pyramid Dam",https://www.fire.ca.gov/incidents/2024/11/7/frenchman-fire/,California,contained
+NA,Waucoba Fire,CA,Inyo,2024-11-11T09:54:34Z,2024-12-20T09:19:04Z,8,100,Wildfire,NA,NA,37.0211,-118.007,Cal Fire,40,1,"Badger Flat, west of Waucoba Mountain",https://www.fire.ca.gov/incidents/2024/11/11/waucoba-fire/,California,contained
