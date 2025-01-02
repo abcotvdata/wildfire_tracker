@@ -1,13 +1,14 @@
-fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,state_name,status
-2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324000001,NFIS,168,73.6,Oregon,not_contained
-2024-CABDF-012520,Line Fire,CA,San Bernardino,2024-09-06T01:00:00Z,2024-10-11T01:42:41Z,43978,100,WF,Minimal,Undetermined,34.162415,-117.334427,NFIS,118,83,California,contained
-2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,100,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,115,63.2,California,contained
-2024-IDBOF-000936,Middle Fork Complex Fire,ID,Boise,2024-08-08T22:30:00Z,2024-09-15T18:15:40Z,61496,100,CX,Minimal,Undetermined,44.171802,-115.797332,NFIS,146,108.3,Idaho,contained
-2024-MAMAS-FD05097,Fd05097 Fire,MA,Essex,2024-10-29T18:33:00Z,2024-11-11T03:13:59Z,134,100,WF,Minimal,Human,NA,NA,NFIS,64,51.9,Massachusetts,contained
-2024-CAINF-001995,Horseshoe Fire,CA,Inyo,2024-10-30T18:27:00Z,2024-11-28T06:25:45Z,4537,95,WF,Minimal,Undetermined,36.512672,-118.146973,NFIS,63,34.8,California,not_contained
-2024-CALAC-434928,Franklin Fire,CA,Los Angeles,2024-12-10T06:50:53Z,2024-12-17T03:02:52Z,4037,100,WF,Minimal,Undetermined,34.06343,-118.69642,NFIS,22,16,California,contained
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-01T23:49:54Z,1164,17,WF,Minimal,Human,34.384474,-111.455141,NFIS,18,0.1,Arizona,not_contained
-2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,17,9.3,Arizona,contained
-2024-FLFNF-003187,Field Branch Fire,FL,Liberty,2024-12-21T20:08:00Z,2024-12-23T02:33:01Z,470,100,WF,Minimal,Undetermined,30.052259,-85.071602,NFIS,11,10,Florida,contained
-2024-ALALF-240316,Sherman Camp Fire,AL,Clay,2024-12-26T04:00:00Z,2024-12-27T21:16:39Z,25.5,NA,WF,NA,Undetermined,33.282373,-86.103888,NFIS,6,5.2,Alabama,not_contained
-2024-NEWIA-000008,Ditch Fire,NE,Knox,2024-12-29T20:12:00Z,2024-12-31T16:40:54Z,NA,NA,WF,NA,NA,NA,NA,NFIS,3,1.4,Nebraska,not_contained
+fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
+2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324000001,NFIS,168,73.8,NA,NA,Oregon,not_contained
+2024-CABDF-012520,Line Fire,CA,San Bernardino,2024-09-06T01:00:00Z,2024-10-11T01:42:41Z,43978,100,WF,Minimal,Undetermined,34.162415,-117.334427,NFIS,118,83.2,NA,NA,California,contained
+2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,100,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,115,63.4,NA,NA,California,contained
+2024-IDBOF-000936,Middle Fork Complex Fire,ID,Boise,2024-08-08T22:30:00Z,2024-09-15T18:15:40Z,61496,100,CX,Minimal,Undetermined,44.171802,-115.797332,NFIS,146,108.5,NA,NA,Idaho,contained
+2024-MAMAS-FD05097,Fd05097 Fire,MA,Essex,2024-10-29T18:33:00Z,2024-11-11T03:13:59Z,134,100,WF,Minimal,Human,NA,NA,NFIS,64,52.1,NA,NA,Massachusetts,contained
+2024-CAINF-001995,Horseshoe Fire,CA,Inyo,2024-10-30T18:27:00Z,2024-11-28T06:25:45Z,4537,95,WF,Minimal,Undetermined,36.512672,-118.146973,NFIS,63,35,NA,NA,California,not_contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-01T23:49:54Z,1164,17,WF,Minimal,Human,34.384474,-111.455141,NFIS,18,0.3,NA,NA,Arizona,not_contained
+2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,17,9.5,NA,NA,Arizona,contained
+2024-FLFNF-003187,Field Branch Fire,FL,Liberty,2024-12-21T20:08:00Z,2024-12-23T02:33:01Z,470,100,WF,Minimal,Undetermined,30.052259,-85.071602,NFIS,11,10.2,NA,NA,Florida,contained
+2024-ALALF-240316,Sherman Camp Fire,AL,Clay,2024-12-26T04:00:00Z,2025-01-02T02:47:59Z,25.5,NA,WF,NA,Undetermined,33.282373,-86.103888,NFIS,7,0.2,NA,NA,Alabama,not_contained
+2024-NEWIA-000008,Ditch Fire,NE,Knox,2024-12-29T20:12:00Z,2024-12-31T16:40:54Z,NA,NA,WF,NA,NA,NA,NA,NFIS,3,1.6,NA,NA,Nebraska,not_contained
+2024-ALALF-240315,Weewoka Creek Fire,AL,Talladega,2024-12-21T14:03:00Z,2025-01-02T02:37:42Z,265,100,WF,Minimal,Undetermined,33.349544,-86.104403,NFIS,11,0.2,NA,NA,Alabama,contained
+NA,Border Fire,CA,San Diego,2025-01-01T18:23:09Z,2025-01-01T21:58:45Z,17,NA,Wildfire,NA,NA,32.59853,-116.82817,Cal Fire,1,1,Near Otey Moutain,https://www.fire.ca.gov/incidents/2025/1/1/border-fire/,California,not_contained
