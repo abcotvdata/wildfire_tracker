@@ -1,14 +1,12 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324000001,NFIS,169,75,NA,NA,Oregon,not_contained
-2024-CABDF-012520,Line Fire,CA,San Bernardino,2024-09-06T01:00:00Z,2024-10-11T01:42:41Z,43978,100,WF,Minimal,Undetermined,34.162415,-117.334427,NFIS,119,84.5,NA,NA,California,contained
-2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,100,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,116,64.7,NA,NA,California,contained
-2024-CAINF-001995,Horseshoe Fire,CA,Inyo,2024-10-30T18:27:00Z,2024-11-28T06:25:45Z,4537,95,WF,Minimal,Undetermined,36.512672,-118.146973,NFIS,64,36.3,NA,NA,California,not_contained
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-02T22:35:24Z,1352,17,WF,Minimal,Human,34.384474,-111.455141,NFIS,19,0.6,NA,NA,Arizona,not_contained
-2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,18,10.8,NA,NA,Arizona,contained
-2024-FLFNF-003187,Field Branch Fire,FL,Liberty,2024-12-21T20:08:00Z,2024-12-23T02:33:01Z,470,100,WF,Minimal,Undetermined,30.052259,-85.071602,NFIS,12,11.4,NA,NA,Florida,contained
-2024-ALALF-240316,Sherman Camp Fire,AL,Clay,2024-12-26T04:00:00Z,2025-01-02T02:47:59Z,25.5,NA,WF,NA,Undetermined,33.282373,-86.103888,NFIS,8,1.4,NA,NA,Alabama,not_contained
-2024-AZCRD-001657,Levee Fire,CA,Imperial,2024-12-24T06:15:53Z,2024-12-26T23:57:33Z,17,NA,WF,NA,Human,32.751746,-114.647709,NFIS,10,7.5,NA,NA,California,not_contained
-2024-NEWIA-000008,Ditch Fire,NE,Knox,2024-12-29T20:12:00Z,2024-12-31T16:40:54Z,NA,NA,WF,NA,NA,NA,NA,NFIS,4,2.8,NA,NA,Nebraska,not_contained
-2024-ALALF-240315,Weewoka Creek Fire,AL,Talladega,2024-12-21T14:03:00Z,2025-01-02T02:37:42Z,265,100,WF,Minimal,Undetermined,33.349544,-86.104403,NFIS,12,1.4,NA,NA,Alabama,contained
+2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324000001,NFIS,169,75.3,NA,NA,Oregon,not_contained
+2024-CABDF-012520,Line Fire,CA,San Bernardino,2024-09-06T01:00:00Z,2024-10-11T01:42:41Z,43978,100,WF,Minimal,Undetermined,34.162415,-117.334427,NFIS,119,84.7,NA,NA,California,contained
+2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,100,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,116,64.9,NA,NA,California,contained
+2024-WYBHF-000399,Elk Fire,WY,Sheridan,2024-09-27T14:36:00Z,2024-10-27T16:55:07Z,98352,100,WF,Minimal,Natural,44.89798,-107.526283,NFIS,98,68.1,NA,NA,Wyoming,contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-03T17:20:00Z,1352,17,WF,Minimal,Human,34.384474,-111.455141,NFIS,19,0.1,NA,NA,Arizona,not_contained
+2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,19,11,NA,NA,Arizona,contained
+2024-FLFNF-003187,Field Branch Fire,FL,Liberty,2024-12-21T20:08:00Z,2024-12-23T02:33:01Z,470,100,WF,Minimal,Undetermined,30.052259,-85.071602,NFIS,12,11.7,NA,NA,Florida,contained
+2024-AZCRD-001657,Levee Fire,CA,Imperial,2024-12-24T06:15:53Z,2024-12-26T23:57:33Z,17,NA,WF,NA,Human,32.751746,-114.647709,NFIS,10,7.8,NA,NA,California,not_contained
+2024-ALALF-240315,Weewoka Creek Fire,AL,Talladega,2024-12-21T14:03:00Z,2025-01-02T02:37:42Z,265,100,WF,Minimal,Undetermined,33.349544,-86.104403,NFIS,13,1.7,NA,NA,Alabama,contained
 NA,Oak Fire,CA,Santa Barbara,2025-01-01T20:08:00Z,2025-01-02T12:14:10Z,42,100,Wildfire,NA,NA,34.883723,-120.246601,Cal Fire,2,1,"Tepesquet Canyon/Santa Maria Mesa Road, Santa Maria",https://www.fire.ca.gov/incidents/2025/1/1/oak-fire/,California,contained
 NA,Border Fire,CA,San Diego,2025-01-01T18:23:09Z,2025-01-02T22:04:25Z,25,100,Wildfire,NA,NA,32.59853,-116.82817,Cal Fire,2,1,Otay Mountain Wilderness,https://www.fire.ca.gov/incidents/2025/1/1/border-fire/,California,contained
