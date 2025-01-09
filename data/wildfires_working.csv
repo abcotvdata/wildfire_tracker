@@ -8,17 +8,18 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-08T22:46:07Z,10600,0,WF,Extreme,Undetermined,34.19163,-118.10544,NFIS,1,0.3,NA,NA,California,not_contained
 2024-ORDEF-000857,0857 Nw Fire,OR,Deschutes,2024-09-07T05:43:48Z,2024-10-15T19:23:23Z,0.72,100,WF,NA,Natural,43.901833,-121.706167,NFIS,124,85.5,NA,NA,Oregon,contained
 2025-AZA4S-250070,Ranch Fire,AZ,Yuma,2025-01-08T05:38:07Z,2025-01-08T19:04:11Z,65,NA,WF,NA,Undetermined,32.733795,-114.534607,NFIS,1,0.5,NA,NA,Arizona,not_contained
-2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,100,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,122,70.4,NA,NA,California,contained
+2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,100,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,122,70.5,NA,NA,California,contained
 2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-07T16:59:34Z,8337,23,WF,Minimal,Human,34.384474,-111.455141,NFIS,25,1.6,NA,NA,Arizona,not_contained
 2024-AZCRD-001657,Levee Fire,CA,Imperial,2024-12-24T06:15:53Z,2024-12-26T23:57:33Z,17,NA,WF,NA,Human,32.751746,-114.647709,NFIS,16,13.3,NA,NA,California,not_contained
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-09T03:02:43Z,15832,0,WF,Extreme,Undetermined,NA,NA,NFIS,1,0.2,NA,NA,California,not_contained
 2025-AZA4S-250069,Cattle Fire,AZ,Yuma,2025-01-08T01:18:30Z,2025-01-08T18:43:58Z,48,NA,WF,NA,Undetermined,32.735052,-114.252907,NFIS,1,0.5,NA,NA,Arizona,not_contained
 2024-OR953S-000766,Shoe Fly Fire,OR,Wheeler,2024-09-02T11:22:00Z,2024-10-09T19:14:59Z,26817,100,WF,Minimal,Natural,44.717464,-120.051951,NFIS,128,91.5,NA,NA,Oregon,contained
 2024-ORPRD-000672,0672 Rv Fire,OR,Gilliam,2024-08-18T03:02:02Z,2024-11-21T19:16:54Z,5488.4,NA,WF,NA,Undetermined,45.744671,-120.176422,NFIS,144,48.5,NA,NA,Oregon,not_contained
-2024-UTUWF-200884,Timpooneke Cg Piles Rx Fire,UT,Utah,2024-10-30T17:42:21Z,2025-01-08T22:31:29Z,25,NA,RX,NA,Undetermined,40.433467,-111.635917,NFIS,70,0.3,NA,NA,Utah,not_contained
+2024-UTUWF-200884,Timpooneke Cg Piles Rx Fire,UT,Utah,2024-10-30T17:42:21Z,2025-01-08T22:31:29Z,25,NA,RX,NA,Undetermined,40.433467,-111.635917,NFIS,70,0.4,NA,NA,Utah,not_contained
 NA,Hurst Fire,CA,Los Angeles,2025-01-07T22:29:30Z,2025-01-08T21:40:54Z,855,10,Wildfire,NA,NA,34.32533,-118.478134,Cal Fire,2,1,"Near Diamond Road, Sylmar",https://www.fire.ca.gov/incidents/2025/1/7/hurst-fire/,California,not_contained
 NA,Tyler Fire,CA,Riverside,2025-01-08T03:25:39Z,2025-01-08T11:14:43Z,11,100,Wildfire,NA,NA,33.706565,-116.164126,Cal Fire,1,1,"Tyler Street & 47th Avenue, Coachella",https://www.fire.ca.gov/incidents/2025/1/8/tyler-fire/,California,contained
 NA,Woodley Fire,CA,Los Angeles,2025-01-08T06:15:27Z,2025-01-08T20:35:53Z,30,100,Wildfire,NA,NA,34.17973,-118.47438,Cal Fire,1,1,"North Woodley Avenue, Sepulveda Basin",https://www.fire.ca.gov/incidents/2025/1/8/woodley-fire/,California,contained
 NA,Olivas Fire,CA,Ventura,2025-01-08T10:44:16Z,2025-01-08T20:35:01Z,11,100,Wildfire,NA,NA,34.244456,-119.2567768,Cal Fire,1,1,"Olivas Park Dr & E Harbor Blvd, Ventura",https://www.fire.ca.gov/incidents/2025/1/8/olivas-fire/,California,contained
+NA,Scout Fire,CA,Riverside,2025-01-08T04:45:37Z,2025-01-08T13:53:28Z,12,NA,Wildfire,NA,NA,33.548561,-116.718483,Cal Fire,1,1,Unknown / TBD,https://www.fire.ca.gov/incidents/2025/1/8/scout-fire/,California,not_contained
 NA,Lidia Fire,CA,Los Angeles,2025-01-08T14:07:38Z,2025-01-08T22:45:16Z,348,40,Wildfire,NA,NA,34.4408,-118.2433,Cal Fire,1,1,"5700 Block of Soledad Canyon Rd, Acton",https://www.fire.ca.gov/incidents/2025/1/8/lidia-fire/,California,not_contained
 NA,Sunset Fire,CA,Los Angeles,2025-01-08T17:57:36Z,2025-01-08T21:25:08Z,60,NA,Wildfire,NA,NA,34.1105,-118.3536,Cal Fire,1,1,"2300 block Solar Dr, Hollywood Hills",https://www.fire.ca.gov/incidents/2025/1/8/sunset-fire/,California,not_contained
