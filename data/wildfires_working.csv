@@ -1,8 +1,8 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-OR953S-024259,Two Cabin Fire,OR,Grant,2024-09-03T20:41:14Z,2024-09-21T07:36:32Z,253,100,WF,Moderate,Natural,44.802888,-119.317758,NFIS,127,110,NA,NA,Oregon,contained
+2024-OR953S-024259,Two Cabin Fire,OR,Grant,2024-09-03T20:41:14Z,2024-09-21T07:36:32Z,253,100,WF,Moderate,Natural,44.802888,-119.317758,NFIS,127,110.1,NA,NA,Oregon,contained
 2024-WYBHF-000399,Elk Fire,WY,Sheridan,2024-09-27T14:36:00Z,2024-10-27T16:55:07Z,98352,100,WF,Minimal,Natural,44.89798,-107.526283,NFIS,103,73.7,NA,NA,Wyoming,contained
 2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,24,16.6,NA,NA,Arizona,contained
-2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324000001,NFIS,175,80.8,NA,NA,Oregon,not_contained
+2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324000001,NFIS,175,80.9,NA,NA,Oregon,not_contained
 2024-ALALF-240315,Weewoka Creek Fire,AL,Talladega,2024-12-21T14:03:00Z,2025-01-02T02:37:42Z,265,100,WF,Minimal,Undetermined,33.349544,-86.104403,NFIS,18,7.3,NA,NA,Alabama,contained
 2024-ORPRD-000793,793 Rv Hawley Ridge Fire,OR,Crook,2024-09-03T01:40:00Z,2024-11-21T19:26:29Z,198.83,NA,WF,NA,Natural,44.083,-120.144333,NFIS,128,48.6,NA,NA,Oregon,not_contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-08T22:46:07Z,10600,0,WF,Extreme,Undetermined,34.19163,-118.10544,NFIS,1,0.4,NA,NA,California,not_contained
@@ -20,6 +20,5 @@ NA,Hurst Fire,CA,Los Angeles,2025-01-07T22:29:30Z,2025-01-08T21:40:54Z,855,10,Wi
 NA,Tyler Fire,CA,Riverside,2025-01-08T03:25:39Z,2025-01-08T11:14:43Z,11,100,Wildfire,NA,NA,33.706565,-116.164126,Cal Fire,1,1,"Tyler Street & 47th Avenue, Coachella",https://www.fire.ca.gov/incidents/2025/1/8/tyler-fire/,California,contained
 NA,Woodley Fire,CA,Los Angeles,2025-01-08T06:15:27Z,2025-01-08T20:35:53Z,30,100,Wildfire,NA,NA,34.17973,-118.47438,Cal Fire,1,1,"North Woodley Avenue, Sepulveda Basin",https://www.fire.ca.gov/incidents/2025/1/8/woodley-fire/,California,contained
 NA,Olivas Fire,CA,Ventura,2025-01-08T10:44:16Z,2025-01-08T20:35:01Z,11,100,Wildfire,NA,NA,34.244456,-119.2567768,Cal Fire,1,1,"Olivas Park Dr & E Harbor Blvd, Ventura",https://www.fire.ca.gov/incidents/2025/1/8/olivas-fire/,California,contained
-NA,Scout Fire,CA,Riverside,2025-01-08T04:45:37Z,2025-01-08T13:53:28Z,12,NA,Wildfire,NA,NA,33.548561,-116.718483,Cal Fire,1,1,Unknown / TBD,https://www.fire.ca.gov/incidents/2025/1/8/scout-fire/,California,not_contained
 NA,Lidia Fire,CA,Los Angeles,2025-01-08T14:07:38Z,2025-01-08T23:25:32Z,348,40,Wildfire,NA,NA,34.4408,-118.2433,Cal Fire,1,1,"5700 Block of Soledad Canyon Rd, Acton",https://www.fire.ca.gov/incidents/2025/1/8/lidia-fire/,California,not_contained
 NA,Sunset Fire,CA,Los Angeles,2025-01-08T17:57:36Z,2025-01-09T00:17:16Z,43,NA,Wildfire,NA,NA,34.1105,-118.3536,Cal Fire,1,0,"2300 block Solar Dr, Hollywood Hills",https://www.fire.ca.gov/incidents/2025/1/8/sunset-fire/,California,not_contained
