@@ -281,6 +281,10 @@ mutate(status = ifelse(percent_contained == 100, "contained", "not_contained"))
 
 fires$status <- fires$status %>% replace_na('not_contained')
 
+# add custom lat/longs for the Palisades Fire (remove when the fire is 100% contained)
+fires$latitude[fires$fed_fire_id == '2025-CALFD-000738'] <- '34.07022'
+fires$longitude[fires$fed_fire_id == '2025-CALFD-000738'] <- '-118.54453'
+
 # Save latest merged fire points file as csv
 write_csv(fires,"data/wildfires_working.csv")
 
