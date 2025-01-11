@@ -293,7 +293,11 @@ fires$longitude[fires$fed_fire_id == '2025-CAVNC-003155'] <- '-118.66991'
 
 # remove Kenneth duplicated fire row, add LA to location column
 fires <- fires[!grepl("2025-CALAC-012267", fires$fed_fire_id), ]
-fires$county[grepl("2025-CAVNC-003155",fires$fed_fire_id)] <- "Ventura, Los Angeles" 
+fires$county[grepl("2025-CAVNC-003155",fires$fed_fire_id)] <- "Ventura County, Los Angeles" 
+
+# remove Bridge fire row and shapefile (old fire)
+fires <- fires[!grepl("2024-CAANF-243334", fires$fed_fire_id), ]
+nfis_perimeters <- fires[!grepl("Bridge Fire", nfis_perimeters$name), ]
 
 # Save latest merged fire points file as csv
 write_csv(fires,"data/wildfires_working.csv")
@@ -331,7 +335,7 @@ fires <- st_as_sf(fires, coords = c("longitude", "latitude"),
 ### SECTION 7. Script popups, buttons and icons ###
 
 fireLabel <- paste(sep = "",
-                   paste("<font size='3'><b>",fires$name,"</font size></b><hr style='margin-top:0px; margin-bottom:0px;'><font size='2'>",fires$county," County<b>,",fires$state_name,"</b>"),
+                   paste("<font size='3'><b>",fires$name,"</font size></b><hr style='margin-top:0px; margin-bottom:0px;'><font size='2'>",fires$county," County,",fires$state_name,""),
                    paste("<hr style='margin-top:0px; margin-bottom:0px;'>Burning for ",ifelse(fires$days_burning<2,"about <b>1</b> day",paste(sep="","<b>",fires$days_burning,"</b> days"))),
                    paste("<hr style='margin-top:0px; margin-bottom:0px;'><b>",prettyNum(fires$acres_burned,big.mark=","),"</b> acres burned"),
                    paste("<hr style='margin-top:0px; margin-bottom:0px;'><b>",ifelse(is.na(fires$percent_contained),"</b>Percent contained not available",paste(sep="",fires$percent_contained,"</b>","% contained"))),
