@@ -297,7 +297,6 @@ fires$county[grepl("2025-CAVNC-003155",fires$fed_fire_id)] <- "Ventura County, L
 
 # remove Bridge fire row and shapefile (old fire)
 fires <- fires[!grepl("2024-CAANF-243334", fires$fed_fire_id), ]
-#nfis_perimeters = fires[!grepl("Bridge Fire", nfis_perimeters$name), ]
 
 ids <- which(
 !(nfis_perimeters$name %in% c('Bridge Fire'))
