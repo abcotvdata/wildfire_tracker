@@ -281,9 +281,19 @@ mutate(status = ifelse(percent_contained == 100, "contained", "not_contained"))
 
 fires$status <- fires$status %>% replace_na('not_contained')
 
-# add custom lat/longs for the Palisades Fire (remove when the fire is 100% contained)
+# add custom lat/longs for several LA fires (remove when they are 100% contained)
 fires$latitude[fires$fed_fire_id == '2025-CALFD-000738'] <- '34.07022'
 fires$longitude[fires$fed_fire_id == '2025-CALFD-000738'] <- '-118.54453'
+fires$latitude[fires$fed_fire_id == '2025-CALFD-0003294'] <- '34.32533'
+fires$longitude[fires$fed_fire_id == '2025-CALFD-0003294'] <- '-118.478134'
+fires$latitude[fires$fed_fire_id == '2025-CALFD-0003294'] <- '34.32533'
+fires$longitude[fires$fed_fire_id == '2025-CALFD-0003294'] <- '-118.478134'
+fires$latitude[fires$fed_fire_id == '2025-CAVNC-003155'] <- '34.185198'
+fires$longitude[fires$fed_fire_id == '2025-CAVNC-003155'] <- '-118.66991'
+
+# remove Kenneth duplicated fire row, add LA to location column
+fires <- fires[!grepl("2025-CALAC-012267", fires$fed_fire_id), ]
+fires$county[grepl("2025-CAVNC-003155",fires$fed_fire_id)] <- "Ventura, Los Angeles" 
 
 # Save latest merged fire points file as csv
 write_csv(fires,"data/wildfires_working.csv")
