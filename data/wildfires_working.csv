@@ -11,12 +11,12 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-ALALF-240315,Weewoka Creek Fire,AL,Talladega,2024-12-21T14:03:00Z,2025-01-02T02:37:42Z,265,100,WF,Minimal,Undetermined,33.349544,-86.104403,NFIS,20,9.1,NA,NA,Alabama,contained
 2025-AZA4S-250069,Cattle Fire,AZ,Yuma,2025-01-08T01:18:30Z,2025-01-08T18:43:58Z,48,NA,WF,NA,Undetermined,32.735052,-114.252907,NFIS,3,2.4,NA,NA,Arizona,not_contained
 2025-AZA4S-250070,Ranch Fire,AZ,Yuma,2025-01-08T05:38:07Z,2025-01-08T19:04:11Z,65,NA,WF,NA,Undetermined,32.733795,-114.534607,NFIS,2,2.4,NA,NA,Arizona,not_contained
-2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-11T04:00:40Z,21317,8,WF,Active,Undetermined,34.07022,-118.54453,NFIS,3,0,NA,NA,California,not_contained
+2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-11T04:00:40Z,21317,8,WF,Active,Undetermined,34.07022,-118.54453,NFIS,3,0.1,NA,NA,California,not_contained
 2024-UTUWF-200884,Timpooneke Cg Piles Rx Fire,UT,Utah,2024-10-30T17:42:21Z,2025-01-08T22:31:29Z,25,NA,RX,NA,Undetermined,40.433467,-111.635917,NFIS,72,2.3,NA,NA,Utah,not_contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-10T19:46:18Z,14117,3,WF,Active,Undetermined,34.19163,-118.10544,NFIS,3,0.4,NA,NA,California,not_contained
 2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,771,70,WF,Minimal,Undetermined,NA,NA,NFIS,2,0.1,NA,NA,California,not_contained
 2025-CALAC-012267,Kenneth Fire,CA,Los Angeles,2025-01-09T22:39:23Z,2025-01-10T03:42:48Z,NA,NA,WF,NA,Undetermined,34.18487,-118.65586,NFIS,1,1.1,NA,NA,California,not_contained
-2025-CAVNC-003155,Kenneth Fire,CA,Ventura,2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,50,WF,Minimal,Undetermined,NA,NA,NFIS,1,0.1,NA,NA,California,not_contained
+2025-CAVNC-003155,Kenneth Fire,CA,Ventura,2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,50,WF,Minimal,Undetermined,NA,NA,NFIS,1,0.2,NA,NA,California,not_contained
 2025-MAMAS-FD05004,Fd05004 Fire,MA,Essex,2025-01-10T19:14:00Z,2025-01-10T20:41:08Z,0.06,NA,WF,NA,Human,NA,NA,NFIS,0,0.4,NA,NA,Massachusetts,not_contained
 NA,Tyler Fire,CA,Riverside,2025-01-08T03:25:39Z,2025-01-10T11:18:58Z,11,100,Wildfire,NA,NA,33.706565,-116.164126,Cal Fire,3,1,"Tyler Street & 47th Avenue, Coachella",https://www.fire.ca.gov/incidents/2025/1/8/tyler-fire/,California,contained
 NA,Olivas Fire,CA,Ventura,2025-01-08T10:44:16Z,2025-01-09T10:21:40Z,11,100,Wildfire,NA,NA,34.244456,-119.2567768,Cal Fire,3,2,"Olivas Park Dr & E Harbor Blvd, Ventura",https://www.fire.ca.gov/incidents/2025/1/8/olivas-fire/,California,contained
