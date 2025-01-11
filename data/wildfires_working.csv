@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324,NFIS,177,82.9,NA,NA,Oregon,not_contained
-2024-OR953S-000766,Shoe Fly Fire,OR,Wheeler,2024-09-02T11:22:00Z,2024-10-09T19:14:59Z,26817,100,WF,Minimal,Natural,44.717464,-120.051951,NFIS,130,93.7,NA,NA,Oregon,contained
-2024-OR953S-024259,Two Cabin Fire,OR,Grant,2024-09-03T20:41:14Z,2024-09-21T07:36:32Z,253,100,WF,Moderate,Natural,44.802888,-119.317758,NFIS,129,112.1,NA,NA,Oregon,contained
+2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324,NFIS,177,83,NA,NA,Oregon,not_contained
+2024-OR953S-000766,Shoe Fly Fire,OR,Wheeler,2024-09-02T11:22:00Z,2024-10-09T19:14:59Z,26817,100,WF,Minimal,Natural,44.717464,-120.051951,NFIS,131,93.7,NA,NA,Oregon,contained
+2024-OR953S-024259,Two Cabin Fire,OR,Grant,2024-09-03T20:41:14Z,2024-09-21T07:36:32Z,253,100,WF,Moderate,Natural,44.802888,-119.317758,NFIS,129,112.2,NA,NA,Oregon,contained
 2024-CAANF-243334,Bridge Fire,CA,Los Angeles,2024-09-08T21:12:00Z,2024-10-30T20:00:04Z,56030,100,WF,Minimal,Undetermined,34.2305,-117.758,NFIS,124,72.6,NA,NA,California,contained
 2024-WYBHF-000399,Elk Fire,WY,Sheridan,2024-09-27T14:36:00Z,2024-10-27T16:55:07Z,98352,100,WF,Minimal,Natural,44.89798,-107.526283,NFIS,105,75.8,NA,NA,Wyoming,contained
-2024-ORPRD-000793,793 Rv Hawley Ridge Fire,OR,Crook,2024-09-03T01:40:00Z,2024-11-21T19:26:29Z,198.83,NA,WF,NA,Natural,44.083,-120.144333,NFIS,130,50.6,NA,NA,Oregon,not_contained
+2024-ORPRD-000793,793 Rv Hawley Ridge Fire,OR,Crook,2024-09-03T01:40:00Z,2024-11-21T19:26:29Z,198.83,NA,WF,NA,Natural,44.083,-120.144333,NFIS,130,50.7,NA,NA,Oregon,not_contained
 2024-ORPRD-000672,0672 Rv Fire,OR,Gilliam,2024-08-18T03:02:02Z,2024-11-21T19:16:54Z,5488.4,NA,WF,NA,Undetermined,45.744671,-120.176422,NFIS,146,50.7,NA,NA,Oregon,not_contained
 2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-07T16:59:34Z,8337,75,WF,Minimal,Human,34.384474,-111.455141,NFIS,27,3.8,NA,NA,Arizona,not_contained
 2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,26,18.7,NA,NA,Arizona,contained
@@ -13,7 +13,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AZA4S-250070,Ranch Fire,AZ,Yuma,2025-01-08T05:38:07Z,2025-01-08T19:04:11Z,65,NA,WF,NA,Undetermined,32.733795,-114.534607,NFIS,3,2.7,NA,NA,Arizona,not_contained
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-11T07:07:26Z,21317,8,WF,Active,Undetermined,34.07022,-118.54453,NFIS,3,0.2,NA,NA,California,not_contained
 2024-UTUWF-200884,Timpooneke Cg Piles Rx Fire,UT,Utah,2024-10-30T17:42:21Z,2025-01-08T22:31:29Z,25,NA,RX,NA,Undetermined,40.433467,-111.635917,NFIS,72,2.5,NA,NA,Utah,not_contained
-2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-10T19:46:18Z,14117,3,WF,Active,Undetermined,34.19163,-118.10544,NFIS,3,0.6,NA,NA,California,not_contained
+2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-10T19:46:18Z,14117,3,WF,Active,Undetermined,34.19163,-118.10544,NFIS,3,0.7,NA,NA,California,not_contained
 2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,771,70,WF,Minimal,Undetermined,NA,NA,NFIS,3,0.3,NA,NA,California,not_contained
 2025-CALAC-012267,Kenneth Fire,CA,Los Angeles,2025-01-09T22:39:23Z,2025-01-10T03:42:48Z,NA,NA,WF,NA,Undetermined,34.18487,-118.65586,NFIS,1,1.3,NA,NA,California,not_contained
 2025-CAVNC-003155,Kenneth Fire,CA,Ventura,2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,50,WF,Minimal,Undetermined,NA,NA,NFIS,1,0.4,NA,NA,California,not_contained
