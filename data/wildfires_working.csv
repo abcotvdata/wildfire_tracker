@@ -5,7 +5,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-WYBHF-000399,Elk Fire,WY,Sheridan,2024-09-27T14:36:00Z,2024-10-27T16:55:07Z,98352,100,WF,Minimal,Natural,44.89798,-107.526283,NFIS,107,77.1,NA,NA,Wyoming,contained
 2024-ORPRD-000793,793 Rv Hawley Ridge Fire,OR,Crook,2024-09-03T01:40:00Z,2024-11-21T19:26:29Z,198.83,NA,WF,NA,Natural,44.083,-120.144333,NFIS,131,52,NA,NA,Oregon,not_contained
 2024-ORPRD-000672,0672 Rv Fire,OR,Gilliam,2024-08-18T03:02:02Z,2024-11-21T19:16:54Z,5488.4,NA,WF,NA,Undetermined,45.744671,-120.176422,NFIS,147,52,NA,NA,Oregon,not_contained
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,80,WF,Minimal,Human,34.384474,-111.455141,NFIS,28,0.2,NA,NA,Arizona,not_contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,80,WF,Minimal,Human,34.384474,-111.455141,NFIS,28,0.3,NA,NA,Arizona,not_contained
 2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,28,20.1,NA,NA,Arizona,contained
 2024-ALALF-240315,Weewoka Creek Fire,AL,Talladega,2024-12-21T14:03:00Z,2025-01-02T02:37:42Z,265,100,WF,Minimal,Undetermined,33.349544,-86.104403,NFIS,22,10.7,NA,NA,Alabama,contained
 2025-AZA4S-250069,Cattle Fire,AZ,Yuma,2025-01-08T01:18:30Z,2025-01-08T18:43:58Z,48,NA,WF,NA,Undetermined,32.735052,-114.252907,NFIS,4,4,NA,NA,Arizona,not_contained
@@ -14,8 +14,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2024-UTUWF-200884,Timpooneke Cg Piles Rx Fire,UT,Utah,2024-10-30T17:42:21Z,2025-01-08T22:31:29Z,25,NA,RX,NA,Undetermined,40.433467,-111.635917,NFIS,74,3.9,NA,NA,Utah,not_contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-12T04:50:44Z,14117,27,WF,Active,Undetermined,34.19163,-118.10544,NFIS,4,0.6,NA,NA,California,not_contained
 2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,799,89,WF,Minimal,Undetermined,34.32533,-118.478134,NFIS,4,1.7,NA,NA,California,not_contained
-2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,2,1.7,NA,NA,California,contained
-2025-MAMAS-FD05004,Fd05004 Fire,MA,Essex,2025-01-10T19:14:00Z,2025-01-10T20:41:08Z,0.06,NA,WF,NA,Human,NA,NA,NFIS,2,1.9,NA,NA,Massachusetts,not_contained
+2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,2,1.8,NA,NA,California,contained
+2025-MAMAS-FD05004,Fd05004 Fire,MA,Essex,2025-01-10T19:14:00Z,2025-01-10T20:41:08Z,0.06,NA,WF,NA,Human,NA,NA,NFIS,2,2,NA,NA,Massachusetts,not_contained
 2024-CALAC-357394,Harper Fire,CA,Los Angeles,2024-10-09T18:22:09Z,2025-01-12T08:59:35Z,NA,NA,WF,NA,Undetermined,34.10528,-118.41745,NFIS,95,0.4,NA,NA,California,not_contained
 NA,Oak Fire,CA,Santa Barbara,2025-01-01T20:08:00Z,2025-01-12T09:36:42Z,42,100,Wildfire,NA,NA,34.883723,-120.246601,Cal Fire,11,0,"Tepesquet Canyon/Santa Maria Mesa Road, Santa Maria",https://www.fire.ca.gov/incidents/2025/1/1/oak-fire/,California,contained
 NA,Tyler Fire,CA,Riverside,2025-01-08T03:25:39Z,2025-01-10T11:18:58Z,11,100,Wildfire,NA,NA,33.706565,-116.164126,Cal Fire,4,2,"Tyler Street & 47th Avenue, Coachella",https://www.fire.ca.gov/incidents/2025/1/8/tyler-fire/,California,contained
