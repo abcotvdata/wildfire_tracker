@@ -303,6 +303,9 @@ ids <- which(
 )
 nfis_perimeters <- nfis_perimeters[ids, ]
 
+# remove Harper fire row (old fire)
+fires <- fires[!grepl("2024-CALAC-357394", fires$fed_fire_id), ]
+
 # Save latest merged fire points file as csv
 write_csv(fires,"data/wildfires_working.csv")
 
