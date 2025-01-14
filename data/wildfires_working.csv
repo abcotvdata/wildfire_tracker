@@ -1,9 +1,11 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-OR953S-000766,Shoe Fly Fire,OR,Wheeler,2024-09-02T11:22:00Z,2024-10-09T19:14:59Z,26817,100,WF,Minimal,Natural,44.717464,-120.051951,NFIS,134,97,NA,NA,Oregon,contained
+2024-OR781S-000194,Letsom Mt Fire,OR,Lane,2024-05-31T23:45:00Z,2024-10-28T16:06:47Z,69.39,NA,WF,NA,Human,43.90805556,-123.46916667,NFIS,227,78.2,NA,NA,Oregon,not_contained
+2024-OR771S-000028,Lane 1 Fire,OR,Lane,2024-07-17T22:10:00Z,2024-10-20T12:32:24Z,25951,99,WF,Minimal,Natural,43.6504488,-122.79171324,NFIS,180,86.3,NA,NA,Oregon,not_contained
+2024-OR953S-000766,Shoe Fly Fire,OR,Wheeler,2024-09-02T11:22:00Z,2024-10-09T19:14:59Z,26817,100,WF,Minimal,Natural,44.717464,-120.051951,NFIS,134,97.1,NA,NA,Oregon,contained
 2024-OR953S-024259,Two Cabin Fire,OR,Grant,2024-09-03T20:41:14Z,2024-09-21T07:36:32Z,253,100,WF,Moderate,Natural,44.802888,-119.317758,NFIS,132,115.5,NA,NA,Oregon,contained
 2024-WYBHF-000399,Elk Fire,WY,Sheridan,2024-09-27T14:36:00Z,2024-10-27T16:55:07Z,98352,100,WF,Minimal,Natural,44.89798,-107.526283,NFIS,109,79.1,NA,NA,Wyoming,contained
 2024-ORPRD-000793,793 Rv Hawley Ridge Fire,OR,Crook,2024-09-03T01:40:00Z,2024-11-21T19:26:29Z,198.83,NA,WF,NA,Natural,44.083,-120.144333,NFIS,133,54,NA,NA,Oregon,not_contained
-2024-ORPRD-000672,0672 Rv Fire,OR,Gilliam,2024-08-18T03:02:02Z,2024-11-21T19:16:54Z,5488.4,NA,WF,NA,Undetermined,45.744671,-120.176422,NFIS,149,54,NA,NA,Oregon,not_contained
+2024-ORPRD-000672,0672 Rv Fire,OR,Gilliam,2024-08-18T03:02:02Z,2024-11-21T19:16:54Z,5488.4,NA,WF,NA,Undetermined,45.744671,-120.176422,NFIS,149,54.1,NA,NA,Oregon,not_contained
 2024-CAINF-001995,Horseshoe Fire,CA,Inyo,2024-10-30T18:27:00Z,2024-11-28T06:25:45Z,4537,95,WF,Minimal,Undetermined,36.512672,-118.146973,NFIS,76,47.6,NA,NA,California,not_contained
 2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,80,WF,Minimal,Human,34.384474,-111.455141,NFIS,30,2.3,NA,NA,Arizona,not_contained
 2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,30,22.1,NA,NA,Arizona,contained
@@ -15,7 +17,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,4,3.8,NA,NA,California,contained
 2025-MAMAS-FD05004,Labor In Vain Fire,MA,Essex,2025-01-10T19:14:00Z,2025-01-13T20:08:32Z,0.05,NA,WF,NA,Human,NA,NA,NFIS,4,1,NA,NA,Massachusetts,not_contained
 2024-CAVNC-097576,University Fire,CA,Ventura,2024-11-14T12:18:00Z,2025-01-13T03:56:02Z,NA,NA,WF,NA,NA,NA,NA,NFIS,61,1.7,NA,NA,California,not_contained
+2025-CAVNC-004700,Auto Fire,CA,Ventura,2025-01-14T02:50:00Z,2025-01-14T20:07:57Z,NA,NA,WF,NA,NA,NA,NA,NFIS,0,0,NA,NA,California,not_contained
 NA,Oak Fire,CA,Santa Barbara,2025-01-01T20:08:00Z,2025-01-12T09:36:42Z,42,100,Wildfire,NA,NA,34.883723,-120.246601,Cal Fire,13,2,"Tepesquet Canyon/Santa Maria Mesa Road, Santa Maria",https://www.fire.ca.gov/incidents/2025/1/1/oak-fire/,California,contained
 NA,Olivas Fire,CA,Ventura,2025-01-08T10:44:16Z,2025-01-13T14:12:44Z,11,100,Wildfire,NA,NA,34.244456,-119.2567768,Cal Fire,6,1,"Olivas Park Dr & E Harbor Blvd, Ventura",https://www.fire.ca.gov/incidents/2025/1/8/olivas-fire/,California,contained
 NA,Lidia Fire,CA,Los Angeles,2025-01-08T14:07:38Z,2025-01-11T07:41:52Z,395,100,Wildfire,NA,NA,34.4408,-118.2433,Cal Fire,6,3,"5700 Block of Soledad Canyon Road, Acton",https://www.fire.ca.gov/incidents/2025/1/8/lidia-fire/,California,contained
-NA,Auto Fire,CA,Ventura,2025-01-13T21:25:00Z,2025-01-14T08:26:36Z,56,NA,Wildfire,NA,NA,34.23661,-119.20224,Cal Fire,1,0,"Near Auto Center Drive, Ventura",https://www.fire.ca.gov/incidents/2025/1/13/auto-fire/,California,not_contained
