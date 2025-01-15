@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,89,WF,Minimal,Human,34.384474,-111.455141,NFIS,31,2.8,NA,NA,Arizona,not_contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,89,WF,Minimal,Human,34.384474,-111.455141,NFIS,31,2.9,NA,NA,Arizona,not_contained
 2024-AZPHD-001636,Soap Fire,AZ,Yavapai,2024-12-15T18:30:00Z,2024-12-23T17:57:16Z,930,100,WF,Minimal,Human,34.116501,-112.144997,NFIS,30,22.7,NA,NA,Arizona,contained
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-15T00:34:15Z,23713,18,WF,Moderate,Undetermined,34.07022,-118.54453,NFIS,7,0.4,NA,NA,California,not_contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-14T05:59:37Z,14117,35,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,7,1.2,NA,NA,California,not_contained
 2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,799,97,WF,Minimal,Undetermined,34.32533,-118.478134,NFIS,7,4.3,NA,NA,California,not_contained
-2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,5,4.3,NA,NA,California,contained
+2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,5,4.4,NA,NA,California,contained
 2025-MAMAS-FD05004,Labor In Vain Fire,MA,Essex,2025-01-10T19:14:00Z,2025-01-13T20:08:32Z,0.05,NA,WF,NA,Human,NA,NA,NFIS,4,1.6,NA,NA,Massachusetts,not_contained
 2025-CAVNC-004700,Auto Fire,CA,Ventura,2025-01-14T02:50:00Z,2025-01-14T20:07:57Z,NA,NA,WF,NA,NA,34.23661,-119.20224,NFIS,1,0.6,NA,NA,California,not_contained
 NA,Olivas Fire,CA,Ventura,2025-01-08T10:44:16Z,2025-01-13T14:12:44Z,11,100,Wildfire,NA,NA,34.244456,-119.2567768,Cal Fire,7,2,"Olivas Park Dr & E Harbor Blvd, Ventura",https://www.fire.ca.gov/incidents/2025/1/8/olivas-fire/,California,contained
