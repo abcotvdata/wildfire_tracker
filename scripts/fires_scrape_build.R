@@ -294,8 +294,8 @@ fires$latitude[fires$fed_fire_id == '2025-CAVNC-004700'] <- '34.23661'
 fires$longitude[fires$fed_fire_id == '2025-CAVNC-004700'] <- '-119.20224'
 
 # add Auto fire stats
-fires$acres_burned[fires$fed_fire_id == '2025-CAVNC-004700'] <- '61'
-fires$percent_contained[fires$fed_fire_id == '2025-CAVNC-004700'] <- '50'
+#fires$acres_burned[fires$fed_fire_id == '2025-CAVNC-004700'] <- '61'
+#fires$percent_contained[fires$fed_fire_id == '2025-CAVNC-004700'] <- '50'
 
 # remove Kenneth duplicated fire row, add LA to location column
 fires <- fires[!grepl("2025-CALAC-012267", fires$fed_fire_id), ]
