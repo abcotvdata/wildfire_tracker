@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,94,WF,Minimal,Human,34.384474,-111.455141,NFIS,34,5.7,NA,NA,Arizona,not_contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,94,WF,Minimal,Human,34.384474,-111.455141,NFIS,34,5.8,NA,NA,Arizona,not_contained
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-16T22:41:44Z,23713,39,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,10,1.4,NA,NA,California,not_contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-18T03:33:15Z,14117,65,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,10,0.2,NA,NA,California,not_contained
 2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,799,100,WF,Minimal,Undetermined,34.32533,-118.478134,NFIS,10,7.2,NA,NA,California,contained
 2025-CALAC-010618,Freddy Fire,CA,Los Angeles,2025-01-08T20:38:04Z,2025-01-15T23:26:40Z,NA,NA,WF,NA,Undetermined,34.04503,-118.93501,NFIS,9,2.3,NA,NA,California,not_contained
-2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,8,7.2,NA,NA,California,contained
+2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,8,7.3,NA,NA,California,contained
 NA,Lidia Fire,CA,Los Angeles,2025-01-08T14:07:38Z,2025-01-11T07:41:52Z,395,100,Wildfire,NA,NA,34.4408,-118.2433,Cal Fire,10,7,"5700 Block of Soledad Canyon Road, Acton",https://www.fire.ca.gov/incidents/2025/1/8/lidia-fire/,California,contained
 NA,Auto Fire,CA,Ventura,2025-01-13T21:25:00Z,2025-01-17T13:52:34Z,61,100,Wildfire,NA,NA,34.23661,-119.20224,Cal Fire,5,1,"Near Auto Center Drive, Ventura",https://www.fire.ca.gov/incidents/2025/1/13/auto-fire/,California,contained
 NA,Scout Fire,CA,Riverside,2025-01-14T13:10:51Z,2025-01-16T21:56:11Z,2,100,Wildfire,NA,NA,33.989,-117.3887,Cal Fire,4,2,"Between Indian Hill Road and the Santa Ana River, Riverside  ",https://www.fire.ca.gov/incidents/2025/1/14/scout-fire/,California,contained
