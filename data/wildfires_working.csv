@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,94,WF,Minimal,Human,34.384474,-111.455141,NFIS,35,7,NA,NA,Arizona,not_contained
-2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-16T22:41:44Z,23713,52,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,11,2.6,NA,NA,California,not_contained
+2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-16T22:41:44Z,23713,52,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,11,2.7,NA,NA,California,not_contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-18T23:35:27Z,14021,81,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,11,0.6,NA,NA,California,not_contained
-2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,799,100,WF,Minimal,Undetermined,34.32533,-118.478134,NFIS,11,8.4,NA,NA,California,contained
+2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,799,100,WF,Minimal,Undetermined,34.32533,-118.478134,NFIS,11,8.5,NA,NA,California,contained
 2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,9,8.5,NA,NA,California,contained
 NA,Auto Fire,CA,Ventura,2025-01-13T21:25:00Z,2025-01-18T00:09:04Z,61,100,Wildfire,NA,NA,34.23661,-119.20224,Cal Fire,6,1,"Near Auto Center Drive, Ventura",https://www.fire.ca.gov/incidents/2025/1/13/auto-fire/,California,contained
