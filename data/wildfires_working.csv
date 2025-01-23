@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-12T13:40:26Z,8346,96,WF,Minimal,Human,34.384474,-111.455141,NFIS,39,11.2,NA,NA,Arizona,not_contained
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:38:00Z,2025-01-21T23:43:48Z,23448,72,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,15,1.8,NA,NA,California,not_contained
-2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-21T00:18:44Z,14021,95,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,15,2.7,NA,NA,California,not_contained
+2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-21T00:18:44Z,14021,95,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,15,2.8,NA,NA,California,not_contained
 2025-CALFD-0003294,Hurst Fire,CA,Los Angeles,2025-01-08T06:30:00Z,2025-01-11T03:25:04Z,799,100,WF,Minimal,Undetermined,34.32533,-118.478134,NFIS,15,12.6,NA,NA,California,contained
 2025-CAVNC-003155,Kenneth Fire,CA,"Ventura County, Los Angeles",2025-01-09T22:52:00Z,2025-01-11T01:34:57Z,1052,100,WF,Minimal,Undetermined,34.185198,-118.66991,NFIS,13,12.7,NA,NA,California,contained
 2025-AZNAA-000008,Sonsela Butte Fire,NM,San Juan,2025-01-21T20:03:55Z,2025-01-22T16:29:14Z,133,NA,WF,NA,Human,NA,NA,NFIS,1,1.1,NA,NA,New Mexico,not_contained
