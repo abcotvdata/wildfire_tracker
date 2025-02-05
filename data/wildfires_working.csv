@@ -1,14 +1,13 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-27T15:51:03Z,8346,100,WF,Minimal,Human,34.384474,-111.455141,NFIS,51,8.3,NA,NA,Arizona,contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-27T15:51:03Z,8346,100,WF,Minimal,Human,34.384474,-111.455141,NFIS,51,8.4,NA,NA,Arizona,contained
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:30:00Z,2025-01-21T23:43:48Z,23448,100,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,28,14,NA,NA,California,contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-21T00:18:44Z,14021,100,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,27,15,NA,NA,California,contained
 2025-AZNAA-000008,Sonsela Butte Fire,NM,San Juan,2025-01-21T20:03:55Z,2025-01-22T16:29:14Z,133,NA,WF,NA,Human,NA,NA,NFIS,14,13.3,NA,NA,New Mexico,not_contained
 2025-ALALF-000028,Cave Creek Fire,AL,Clay,2025-01-26T02:43:11Z,2025-01-29T17:38:28Z,200,NA,WF,NA,Undetermined,33.418999,-85.827185,NFIS,9,6.3,NA,NA,Alabama,not_contained
 2025-MOMTF-000023,Buttram Rx Fire,MO,Ozark,2025-01-28T12:14:00Z,2025-01-30T19:34:47Z,2258,NA,RX,NA,Undetermined,36.702667,-92.764833,NFIS,7,5.2,NA,NA,Missouri,not_contained
-2025-NCNCF-250021,North Fork Fire,NC,McDowell,2025-01-29T21:05:53Z,2025-01-31T22:50:20Z,644,90,WF,Minimal,Undetermined,35.806845,-81.98792,NFIS,6,4,NA,NA,North Carolina,not_contained
-2025-FLLSR-000279,Fish Bone Fire,FL,Dixie,2025-01-31T20:52:21Z,2025-02-04T20:25:40Z,40,NA,WF,NA,Human,29.43,-83.198,NFIS,4,0.1,NA,NA,Florida,not_contained
-2025-TXTXS-250333,Blue Hills Fire,TX,Moore,2025-02-01T19:11:41Z,2025-02-04T02:29:09Z,3900,95,WF,Minimal,Human,35.70057,-101.65394,NFIS,3,0.9,NA,NA,Texas,not_contained
+2025-NCNCF-250021,North Fork Fire,NC,McDowell,2025-01-29T21:05:53Z,2025-01-31T22:50:20Z,644,90,WF,Minimal,Undetermined,35.806845,-81.98792,NFIS,6,4.1,NA,NA,North Carolina,not_contained
+2025-FLLSR-000279,Fish Bone Fire,FL,Dixie,2025-01-31T20:52:21Z,2025-02-04T20:25:40Z,40,NA,WF,NA,Human,29.43,-83.198,NFIS,4,0.2,NA,NA,Florida,not_contained
 2025-CACDD-002228,Veg/Zl/71a Fire,CA,Imperial,2025-02-03T21:05:00Z,2025-02-04T17:36:41Z,0.01,NA,WF,NA,Undetermined,32.8154,-114.838,NFIS,1,0.3,NA,NA,California,not_contained
-NA,Hughes Fire,CA,Los Angeles,2025-01-22T10:53:02Z,2025-01-30T22:10:52Z,10425,100,Wildfire,NA,NA,34.553008,-118.56687,Cal Fire,13,5,"Lake Hughes Road near Castaic Lake, Castaic",https://www.fire.ca.gov/incidents/2025/1/22/hughes-fire/,California,contained
-NA,Border 2 Fire,CA,San Diego,2025-01-23T13:58:00Z,2025-01-30T22:10:30Z,6625,100,Wildfire,NA,NA,32.5947,-116.8437,Cal Fire,12,5,"Otay Mountain Wilderness, Northwest aspect of Otay Mountain",https://www.fire.ca.gov/incidents/2025/1/23/border-2-fire/,California,contained
-NA,Rosa Fire,CA,San Luis Obispo,2025-01-29T12:53:53Z,2025-01-30T08:30:36Z,105,100,Wildfire,NA,NA,35.303682,-119.982524,Cal Fire,6,5,"Soda Lake Rd., San Luis Obispo County",https://www.fire.ca.gov/incidents/2025/1/29/rosa-fire/,California,contained
+NA,Hughes Fire,CA,Los Angeles,2025-01-22T10:53:02Z,2025-01-30T22:10:52Z,10425,100,Wildfire,NA,NA,34.553008,-118.56687,Cal Fire,14,6,"Lake Hughes Road near Castaic Lake, Castaic",https://www.fire.ca.gov/incidents/2025/1/22/hughes-fire/,California,contained
+NA,Border 2 Fire,CA,San Diego,2025-01-23T13:58:00Z,2025-01-30T22:10:30Z,6625,100,Wildfire,NA,NA,32.5947,-116.8437,Cal Fire,13,6,"Otay Mountain Wilderness, Northwest aspect of Otay Mountain",https://www.fire.ca.gov/incidents/2025/1/23/border-2-fire/,California,contained
+NA,Rosa Fire,CA,San Luis Obispo,2025-01-29T12:53:53Z,2025-01-30T08:30:36Z,105,100,Wildfire,NA,NA,35.303682,-119.982524,Cal Fire,7,6,"Soda Lake Rd., San Luis Obispo County",https://www.fire.ca.gov/incidents/2025/1/29/rosa-fire/,California,contained
