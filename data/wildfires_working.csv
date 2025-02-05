@@ -1,8 +1,8 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-27T15:51:03Z,8346,100,WF,Minimal,Human,34.384474,-111.455141,NFIS,52,9,NA,NA,Arizona,contained
-2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:30:00Z,2025-01-21T23:43:48Z,23448,100,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,28,14.6,NA,NA,California,contained
+2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:30:00Z,2025-01-21T23:43:48Z,23448,100,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,28,14.7,NA,NA,California,contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-21T00:18:44Z,14021,100,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,28,15.6,NA,NA,California,contained
-2025-AZNAA-000008,Sonsela Butte Fire,NM,San Juan,2025-01-21T20:03:55Z,2025-01-22T16:29:14Z,133,NA,WF,NA,Human,NA,NA,NFIS,14,13.9,NA,NA,New Mexico,not_contained
+2025-AZNAA-000008,Sonsela Butte Fire,NM,San Juan,2025-01-21T20:03:55Z,2025-01-22T16:29:14Z,133,NA,WF,NA,Human,NA,NA,NFIS,14,14,NA,NA,New Mexico,not_contained
 2025-ALALF-000028,Cave Creek Fire,AL,Clay,2025-01-26T02:43:11Z,2025-01-29T17:38:28Z,200,NA,WF,NA,Undetermined,33.418999,-85.827185,NFIS,10,6.9,NA,NA,Alabama,not_contained
 2025-MOMTF-000023,Buttram Rx Fire,MO,Ozark,2025-01-28T12:14:00Z,2025-01-30T19:34:47Z,2258,NA,RX,NA,Undetermined,36.702667,-92.764833,NFIS,8,5.8,NA,NA,Missouri,not_contained
 2025-NCNCF-250021,North Fork Fire,NC,McDowell,2025-01-29T21:05:53Z,2025-01-31T22:50:20Z,644,90,WF,Minimal,Undetermined,35.806845,-81.98792,NFIS,6,4.7,NA,NA,North Carolina,not_contained
