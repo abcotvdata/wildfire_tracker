@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-27T15:51:03Z,8346,100,WF,Minimal,Human,34.384474,-111.455141,NFIS,55,12.3,NA,NA,Arizona,contained
+2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-27T15:51:03Z,8346,100,WF,Minimal,Human,34.384474,-111.455141,NFIS,55,12.4,NA,NA,Arizona,contained
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:30:00Z,2025-01-21T23:43:48Z,23448,100,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,32,18,NA,NA,California,contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-21T00:18:44Z,14021,100,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,31,19,NA,NA,California,contained
 2025-ALALF-000028,Cave Creek Fire,AL,Clay,2025-01-26T02:43:11Z,2025-01-29T17:38:28Z,200,NA,WF,NA,Undetermined,33.418999,-85.827185,NFIS,13,10.3,NA,NA,Alabama,not_contained
 2025-MOMTF-000023,Buttram Rx Fire,MO,Ozark,2025-01-28T12:14:00Z,2025-01-30T19:34:47Z,2258,NA,RX,NA,Undetermined,36.702667,-92.764833,NFIS,11,9.2,NA,NA,Missouri,not_contained
 2025-AROUF-000134,Rx Cedar Lake North Shore Fire,OK,Le Flore,2025-01-28T14:30:43Z,2025-02-07T23:56:54Z,178,NA,RX,NA,Undetermined,34.7788,-94.694133,NFIS,11,1,NA,NA,Oklahoma,not_contained
-2025-NCNCF-250021,North Fork Fire,NC,McDowell,2025-01-29T21:05:53Z,2025-01-31T22:50:20Z,644,90,WF,Minimal,Undetermined,35.806845,-81.98792,NFIS,10,8,NA,NA,North Carolina,not_contained
+2025-NCNCF-250021,North Fork Fire,NC,McDowell,2025-01-29T21:05:53Z,2025-01-31T22:50:20Z,644,90,WF,Minimal,Undetermined,35.806845,-81.98792,NFIS,10,8.1,NA,NA,North Carolina,not_contained
 2025-AROUF-000157,Rx Cedar Lake South Shore Fire,OK,Le Flore,2025-02-03T15:44:07Z,2025-02-07T23:55:58Z,581,NA,RX,NA,Undetermined,34.874167,-94.775,NFIS,5,1,NA,NA,Oklahoma,not_contained
 2025-TXACT-000039,Spring Fire,TX,Polk,2025-02-06T21:36:49Z,2025-02-06T22:29:53Z,0.25,NA,WF,NA,Undetermined,30.68788,-94.75061,NFIS,2,2.1,NA,NA,Texas,not_contained
