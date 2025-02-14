@@ -3,8 +3,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-CALFD-000738,Palisades Fire,CA,Los Angeles,2025-01-07T18:30:00Z,2025-01-21T23:43:48Z,23448,100,WF,Minimal,Undetermined,34.07022,-118.54453,NFIS,38,23.8,NA,NA,California,contained
 2025-CALAC-009087,Eaton Fire,CA,Los Angeles,2025-01-08T02:18:47Z,2025-01-21T00:18:44Z,14021,100,WF,Minimal,Undetermined,34.19163,-118.10544,NFIS,37,24.8,NA,NA,California,contained
 2025-AROUF-000157,Rx Cedar Lake South Shore Fire,OK,Le Flore,2025-02-03T15:44:07Z,2025-02-07T23:55:58Z,581,NA,RX,NA,Undetermined,34.874167,-94.775,NFIS,11,6.8,NA,NA,Oklahoma,not_contained
-2025-AZPNF-000122,Brady Fire,AZ,Yavapai,2025-02-10T22:00:40Z,2025-02-11T22:33:56Z,363,60,WF,Minimal,Human,34.245067,-112.366104,NFIS,3,2.8,NA,NA,Arizona,not_contained
-2025-FLFNF-000432,Kever Fire,FL,Liberty,2025-02-12T18:59:12Z,2025-02-14T16:59:02Z,50,NA,WF,NA,Human,30.268167,-85.019,NFIS,1,0.1,NA,NA,Florida,not_contained
+2025-AZPNF-000122,Brady Fire,AZ,Yavapai,2025-02-10T22:00:40Z,2025-02-11T22:33:56Z,363,60,WF,Minimal,Human,34.245067,-112.366104,NFIS,3,2.9,NA,NA,Arizona,not_contained
+2025-FLFNF-000432,Kever Fire,FL,Liberty,2025-02-12T18:59:12Z,2025-02-14T16:59:02Z,50,NA,WF,NA,Human,30.268167,-85.019,NFIS,2,0.1,NA,NA,Florida,not_contained
 2025-FLFNF-000436,131 Fire,FL,Liberty,2025-02-12T22:06:46Z,2025-02-13T23:24:09Z,100,NA,WF,NA,Human,30.277431,-84.989429,NFIS,1,0.8,NA,NA,Florida,not_contained
 2025-FLFNF-000437,108 Fire,FL,Liberty,2025-02-12T22:43:48Z,2025-02-13T23:14:24Z,184,70,WF,Minimal,Human,30.243197,-84.940369,NFIS,1,0.8,NA,NA,Florida,not_contained
 NA,Eaton Flood,CA,Los Angeles,2025-02-13T13:51:16Z,2025-02-13T14:16:49Z,0,NA,Flood,NA,NA,34.2038707,-118.1584203,Cal Fire,1,1,"Near Altadena Drive and Midwick Drive, Altadena/Pasadena",https://www.fire.ca.gov/incidents/2025/2/13/eaton-flood/,California,not_contained
