@@ -1,6 +1,6 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2024-AZTNF-001989,Horton Fire,AZ,Gila,2024-12-15T01:31:00Z,2025-01-27T15:51:03Z,8346,100,WF,Minimal,Human,34.384474,-111.455141,NFIS,63,19.5,NA,NA,Arizona,contained
-2025-AROUF-000157,Rx Cedar Lake South Shore Fire,OK,Le Flore,2025-02-03T15:44:07Z,2025-02-07T23:55:58Z,581,NA,RX,NA,Undetermined,34.874167,-94.775,NFIS,12,8.1,NA,NA,Oklahoma,not_contained
+2025-AROUF-000157,Rx Cedar Lake South Shore Fire,OK,Le Flore,2025-02-03T15:44:07Z,2025-02-07T23:55:58Z,581,NA,RX,NA,Undetermined,34.874167,-94.775,NFIS,12,8.2,NA,NA,Oklahoma,not_contained
 2025-AZPNF-000122,Brady Fire,AZ,Yavapai,2025-02-10T22:00:40Z,2025-02-11T22:33:56Z,363,90,WF,Minimal,Human,34.245067,-112.366104,NFIS,5,4.2,NA,NA,Arizona,not_contained
 2025-FLFNF-000432,Kever Fire,FL,Liberty,2025-02-12T18:59:12Z,2025-02-16T03:12:26Z,47,NA,WF,NA,Human,30.268167,-85.019,NFIS,3,0,NA,NA,Florida,not_contained
 2025-FLFNF-000436,131 Fire,FL,Liberty,2025-02-12T22:06:46Z,2025-02-16T03:12:28Z,41,NA,WF,NA,Human,30.277431,-84.989429,NFIS,3,0,NA,NA,Florida,not_contained
