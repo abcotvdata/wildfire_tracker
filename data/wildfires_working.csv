@@ -3,7 +3,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Moderate,Undetermined,33.804617,-78.8596,NFIS,39,33.1,NA,NA,South Carolina,not_contained
 2025-ILCOR-250111,Hampton Rx Fire,IL,Williamson,2025-03-10T15:32:46Z,2025-03-28T14:27:48Z,418,NA,RX,NA,Undetermined,37.694396,-89.066301,NFIS,31,13.1,NA,NA,Illinois,not_contained
 2025-ILCOR-250113,Grassy Creek Rx Fire,IL,Williamson,2025-03-10T15:58:03Z,2025-03-28T14:26:53Z,344,NA,RX,NA,Undetermined,37.696866,-89.082462,NFIS,31,13.1,NA,NA,Illinois,not_contained
-2025-ILCOR-250117,Devils Kitchen West Rx Fire,IL,Williamson,2025-03-11T13:48:09Z,2025-03-28T14:02:17Z,620,NA,RX,NA,Undetermined,37.6258,-89.0997,NFIS,30,13.1,NA,NA,Illinois,not_contained
+2025-ILCOR-250117,Devils Kitchen West Rx Fire,IL,Williamson,2025-03-11T13:48:09Z,2025-03-28T14:02:17Z,620,NA,RX,NA,Undetermined,37.6258,-89.0997,NFIS,30,13.2,NA,NA,Illinois,not_contained
 2025-WIWIS-FIRE123180,121 East Fire,WI,Waushara,2025-03-11T16:50:00Z,2025-03-14T12:38:59Z,1.31,NA,WF,NA,Human,43.99622,-89.49779,NFIS,30,27.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123201,Hwy 80 Fire,WI,Richland,2025-03-13T20:30:00Z,2025-03-28T14:29:55Z,1.19,NA,WF,NA,Human,43.41022,-90.35941,NFIS,27,13.1,NA,NA,Wisconsin,not_contained
 2025-MNRLA-000006,Rl 006 River Road 13 Fire,MN,Clearwater,2025-03-14T22:40:00Z,2025-03-18T15:01:59Z,400,100,WF,Minimal,Undetermined,47.92037,-95.37949,NFIS,26,23.1,NA,NA,Minnesota,contained
@@ -52,13 +52,12 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NMN3S-000133,Sugarloaf.   Fire,NM,Catron,2025-04-07T20:13:19Z,2025-04-08T15:36:21Z,43,NA,WF,NA,Human,34.098492,-107.942725,NFIS,2,2.1,NA,NA,New Mexico,not_contained
 2025-WIWIS-FIRE123411,Round Bale Fire,WI,Oconto,2025-04-07T22:45:00Z,2025-04-08T18:34:19Z,3.55,NA,WF,NA,Human,45.00873,-88.27546,NFIS,2,2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123419,Adams Fire,WI,Marathon,2025-04-08T05:00:00Z,2025-04-10T13:34:06Z,0.04,NA,WF,NA,Human,45.11983,-89.74716,NFIS,2,0.2,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123415,Roberts Fire,WI,Jackson,2025-04-08T17:44:00Z,2025-04-10T13:05:59Z,5.85,NA,WF,NA,Human,44.22549,-90.78516,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
-2025-MNBNR-000522,Spellman Lake Fire,MN,Yellow Medicine,2025-04-08T20:32:00Z,2025-04-09T13:33:23Z,264,NA,WF,NA,Undetermined,44.673563,-44.673563,NFIS,1,1.2,NA,NA,Minnesota,not_contained
+2025-WIWIS-FIRE123415,Roberts Fire,WI,Jackson,2025-04-08T17:44:00Z,2025-04-10T13:05:59Z,5.85,NA,WF,NA,Human,44.22549,-90.78516,NFIS,2,0.2,NA,NA,Wisconsin,not_contained
 2025-TXTXS-252030,Aransas Woods Fire,TX,Aransas,2025-04-08T21:43:08Z,2025-04-10T01:40:42Z,38,95,WF,NA,Undetermined,27.98867,-97.10655,NFIS,1,0.7,NA,NA,Texas,not_contained
 2025-WYNAX-250040,Casper Creek Fire,WY,Natrona,2025-04-09T00:46:59Z,2025-04-10T15:58:57Z,163.3,NA,WF,NA,Human,42.879733,-106.397333,NFIS,1,0.1,NA,NA,Wyoming,not_contained
 2025-GUGUR-000298,Bubulao 20250409 Fire,GU,Guam,2025-04-09T02:18:00Z,2025-04-09T21:08:13Z,NA,NA,WF,NA,NA,NA,NA,NFIS,1,0.9,NA,NA,NA,not_contained
 2025-GUWPP-000296,Mount Alifan 20250409a Fire,GU,Guam,2025-04-09T05:00:00Z,2025-04-09T19:07:22Z,NA,NA,WF,NA,NA,NA,NA,NFIS,1,0.9,NA,NA,NA,not_contained
-2025-TXTXS-252063,Salt Flats Fire,TX,Aransas,2025-04-09T18:19:56Z,2025-04-10T01:40:42Z,157,50,WF,Active,Undetermined,27.993962,-97.104833,NFIS,0,0.7,NA,NA,Texas,not_contained
+2025-TXTXS-252063,Salt Flats Fire,TX,Aransas,2025-04-09T18:19:56Z,2025-04-10T01:40:42Z,157,75,WF,Active,Undetermined,27.993962,-97.104833,NFIS,0,0.7,NA,NA,Texas,not_contained
 NA,Palisades Fire,CA,Los Angeles,2025-01-07T10:30:00Z,2025-04-03T13:10:43Z,23448,100,Wildfire,NA,NA,34.07022,-118.54453,Cal Fire,93,7,"Southeast of Palisades Drive, Pacific Palisades",https://www.fire.ca.gov/incidents/2025/1/7/palisades-fire/,California,contained
 NA,Eaton Fire,CA,Los Angeles,2025-01-07T18:18:00Z,2025-04-03T13:10:59Z,14021,100,Wildfire,NA,NA,34.203483,-118.069155,Cal Fire,93,7,"Near Altadena Drive and Midwick Drive, Altadena/Pasadena",https://www.fire.ca.gov/incidents/2025/1/7/eaton-fire/,California,contained
 NA,Silver Fire,CA,Inyo,2025-03-30T14:11:35Z,2025-04-06T21:49:31Z,1611,100,Wildfire,NA,NA,37.399684,-118.352523,Cal Fire,11,4,"Highway 6 near Silver Canyon Road, North of Bishop",https://www.fire.ca.gov/incidents/2025/3/30/silver-fire/,California,contained
