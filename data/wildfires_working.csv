@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-TXTXF-000084,Lbj Wc Fire,TX,Wise,2025-02-28T17:30:47Z,2025-04-08T19:07:08Z,2,NA,WF,NA,Undetermined,33.348419,-97.658844,NFIS,41,2.9,NA,NA,Texas,not_contained
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Moderate,Undetermined,33.804617,-78.8596,NFIS,40,34,NA,NA,South Carolina,not_contained
-2025-WIWIS-FIRE123201,Hwy 80 Fire,WI,Richland,2025-03-13T20:30:00Z,2025-03-28T14:29:55Z,1.19,NA,WF,NA,Human,43.41022,-90.35941,NFIS,28,14,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123201,Hwy 80 Fire,WI,Richland,2025-03-13T20:30:00Z,2025-03-28T14:29:55Z,1.19,NA,WF,NA,Human,43.41022,-90.35941,NFIS,28,14.1,NA,NA,Wisconsin,not_contained
 2025-MNRLA-000006,Rl 006 River Road 13 Fire,MN,Clearwater,2025-03-14T22:40:00Z,2025-03-18T15:01:59Z,400,100,WF,Minimal,Undetermined,47.92037,-95.37949,NFIS,27,24,NA,NA,Minnesota,contained
 2025-TXTXS-251315,Fifty Fire,TX,Willacy,2025-03-16T21:51:24Z,2025-03-17T13:07:02Z,98,100,WF,NA,Human,26.48072266,-97.61652726,NFIS,25,25.1,NA,NA,Texas,contained
 2025-WIWIS-FIRE123242,Pond Fire,WI,Columbia,2025-03-17T13:00:00Z,2025-04-08T18:32:29Z,1.23,NA,WF,NA,Human,43.50811,-89.4817,NFIS,25,2.9,NA,NA,Wisconsin,not_contained
