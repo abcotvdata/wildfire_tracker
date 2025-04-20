@@ -1,6 +1,6 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Active,Undetermined,33.804617,-78.8596,NFIS,49,43,NA,NA,South Carolina,not_contained
-2025-WIWIS-FIRE123252,Big Island Fire,WI,Green Lake,2025-03-17T21:15:00Z,2025-04-14T14:22:26Z,810.56,100,WF,Minimal,Human,43.92567,-89.06903,NFIS,33,6,NA,NA,Wisconsin,contained
+2025-WIWIS-FIRE123252,Big Island Fire,WI,Green Lake,2025-03-17T21:15:00Z,2025-04-14T14:22:26Z,810.56,100,WF,Minimal,Human,43.92567,-89.06903,NFIS,33,6.1,NA,NA,Wisconsin,contained
 2025-WIWIS-FIRE123255,Clover Fire,WI,Adams,2025-03-17T22:00:00Z,2025-03-18T20:21:16Z,27.61,NA,WF,NA,Human,44.00088,-89.70692,NFIS,33,32.8,NA,NA,Wisconsin,not_contained
 2025-NCNCS-250019,Black Cove Fire,NC,Polk,2025-03-19T19:00:00Z,2025-04-03T21:26:48Z,3502,100,WF,Minimal,Human,NA,NA,NFIS,31,16.8,NA,NA,North Carolina,contained
 2025-NCNCS-250021,Deep Woods Fire,NC,Polk,2025-03-20T00:00:00Z,2025-04-03T21:26:48Z,3969,100,WF,Minimal,Undetermined,NA,NA,NFIS,31,16.8,NA,NA,North Carolina,contained
@@ -30,7 +30,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NDFTA-000103,Bike 1 Fire,ND,Benson,2025-04-09T17:58:56Z,2025-04-16T16:35:03Z,0.5,NA,WF,NA,Human,47.985833,-99,NFIS,10,4,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123432,Golden Valley Fire,WI,Jackson,2025-04-09T19:50:00Z,2025-04-11T13:06:38Z,79.74,NA,WF,NA,Undetermined,44.50447,-91.16098,NFIS,10,9.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123457,Wishow Fire,WI,Vilas,2025-04-11T00:15:00Z,2025-04-14T14:17:59Z,0.01,NA,WF,NA,Human,45.94913,-89.80153,NFIS,9,6.1,NA,NA,Wisconsin,not_contained
-2025-AROUF-000940,Rx Mcwa West Fire,OK,McCurtain,2025-04-11T12:49:10Z,2025-04-12T02:26:49Z,256,NA,RX,NA,Undetermined,34.327367,-94.72295,NFIS,9,8.5,NA,NA,Oklahoma,not_contained
+2025-AROUF-000940,Rx Mcwa West Fire,OK,McCurtain,2025-04-11T12:49:10Z,2025-04-12T02:26:49Z,256,NA,RX,NA,Undetermined,34.327367,-94.72295,NFIS,9,8.6,NA,NA,Oklahoma,not_contained
 2025-SDCRA-000015,Buffalo Fire,SD,Dewey,2025-04-11T19:50:00Z,2025-04-12T22:49:02Z,611,95,WF,Minimal,Human,NA,NA,NFIS,8,7.7,NA,NA,South Dakota,not_contained
 2025-WIWIS-FIRE123449,Casper Fire,WI,Jackson,2025-04-11T19:50:00Z,2025-04-13T16:06:11Z,6.04,NA,WF,NA,Human,44.40008,-90.91248,NFIS,8,7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123456,Ridge Fire,WI,Green Lake,2025-04-11T21:47:00Z,2025-04-14T13:18:48Z,1.04,NA,WF,NA,Human,43.92068,-88.92975,NFIS,8,6.1,NA,NA,Wisconsin,not_contained
@@ -83,7 +83,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MAMAS-PRI-RX0201,Ttor Rx Onset_lyman Reserve Field 6 Fire,MA,Plymouth,2025-04-17T12:38:34Z,2025-04-17T20:13:46Z,16,NA,RX,NA,NA,NA,NA,NFIS,3,2.8,NA,NA,Massachusetts,not_contained
 2025-MAMAS-FD02RX0001,Dcr Rx Mssf_south Tract Unit Cc-01 Fire,MA,Plymouth,2025-04-17T14:30:28Z,2025-04-18T00:19:12Z,72,NA,RX,NA,NA,NA,NA,NFIS,3,2.6,NA,NA,Massachusetts,not_contained
 2025-MAMAS-MAARNG11,Cped-Rx Fmz09-20250417-01 Fire,MA,Barnstable,2025-04-17T15:00:55Z,2025-04-18T18:26:45Z,182,NA,RX,NA,NA,NA,NA,NFIS,3,1.9,NA,NA,Massachusetts,not_contained
-2025-WIWIS-FIRE123581,Old Town Fire,WI,Richland,2025-04-17T15:45:00Z,2025-04-17T21:09:34Z,6.1,NA,WF,NA,Human,43.54864,-90.55987,NFIS,2,2.8,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123581,Old Town Fire,WI,Richland,2025-04-17T15:45:00Z,2025-04-17T21:09:34Z,6.1,NA,WF,NA,Human,43.54864,-90.55987,NFIS,3,2.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123586,Relish Fire,WI,Marinette,2025-04-17T17:00:00Z,2025-04-18T14:14:30Z,1.35,NA,WF,NA,Human,45.58523,-88.03426,NFIS,2,2.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123583,Co Rd Y Fire,WI,Langlade,2025-04-17T17:11:00Z,2025-04-17T21:04:25Z,0.1,NA,WF,NA,Human,45.12535,-89.20544,NFIS,2,2.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123590,Elk Fire,WI,Vilas,2025-04-17T19:15:00Z,2025-04-18T13:03:10Z,0.01,NA,WF,NA,Human,45.97035,-89.88841,NFIS,2,2.1,NA,NA,Wisconsin,not_contained
