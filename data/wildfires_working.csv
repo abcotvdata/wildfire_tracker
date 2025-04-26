@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Active,Undetermined,33.804617,-78.8596,NFIS,54,48.8,NA,NA,South Carolina,not_contained
 2025-TXTXS-250881,Jasper 0881 Fire,TX,Jasper,2025-03-05T06:01:00Z,2025-03-19T23:34:51Z,0.43,100,WF,Minimal,Human,30.91779857,-94.04535144,NFIS,52,37.5,NA,NA,Texas,contained
-2025-WIWIS-FIRE123252,Big Island Fire,WI,Green Lake,2025-03-17T21:15:00Z,2025-04-14T14:22:26Z,810.56,100,WF,Minimal,Human,43.92567,-89.06903,NFIS,39,11.8,NA,NA,Wisconsin,contained
+2025-WIWIS-FIRE123252,Big Island Fire,WI,Green Lake,2025-03-17T21:15:00Z,2025-04-14T14:22:26Z,810.56,100,WF,Minimal,Human,43.92567,-89.06903,NFIS,39,11.9,NA,NA,Wisconsin,contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-04-25T17:53:03Z,3673,65,WF,Moderate,Undetermined,25.324297,-80.832251,NFIS,38,0.7,NA,NA,Florida,not_contained
 2025-SCSCS-250123,Table Rock Fire,SC,Pickens,2025-03-22T13:26:00Z,2025-04-02T20:11:11Z,13845,100,WF,Minimal,Undetermined,35.036733,-82.71055,NFIS,34,23.6,NA,NA,South Carolina,contained
 2025-SCSCS-250127,Persimmon Ridge Fire,SC,Greenville,2025-03-23T18:46:32Z,2025-04-02T20:10:42Z,2078,100,WF,Minimal,Undetermined,35.092356,-82.581117,NFIS,33,23.6,NA,NA,South Carolina,contained
@@ -32,7 +32,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123512,Ridge Fire,WI,Burnett,2025-04-13T09:00:00Z,2025-04-21T12:54:37Z,1.71,NA,WF,NA,Human,45.86097,-92.58212,NFIS,13,4.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123511,Sunday Fire,WI,Burnett,2025-04-13T10:00:00Z,2025-04-21T13:18:11Z,0.76,NA,WF,NA,Human,45.91264,-92.58983,NFIS,13,4.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123523,Old 14 Fire,WI,Rusk,2025-04-13T16:50:00Z,2025-04-14T13:20:16Z,7.96,NA,WF,NA,Human,45.45433,-91.22085,NFIS,12,11.9,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123529,County Road Ee Fire,WI,Oconto,2025-04-13T19:45:00Z,2025-04-16T19:07:53Z,0.09,NA,WF,NA,Human,44.77452,-88.05199,NFIS,12,9.6,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123529,County Road Ee Fire,WI,Oconto,2025-04-13T19:45:00Z,2025-04-16T19:07:53Z,0.09,NA,WF,NA,Human,44.77452,-88.05199,NFIS,12,9.7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123532,Highway 40 Fire,WI,Sawyer,2025-04-13T22:15:00Z,2025-04-15T12:59:36Z,0.07,NA,WF,NA,Human,45.69066,-91.22094,NFIS,12,10.9,NA,NA,Wisconsin,not_contained
 2025-AROUF-000964,Rx N Bee Rough Fire,OK,McCurtain,2025-04-14T12:40:36Z,2025-04-16T01:48:56Z,1900,NA,RX,NA,Undetermined,34.254,-94.705967,NFIS,11,10.4,NA,NA,Oklahoma,not_contained
 2025-WIWIS-FIRE123541,Late Night Fire,WI,Oconto,2025-04-15T03:00:00Z,2025-04-22T12:44:24Z,0.05,NA,WF,NA,Human,44.83678,-88.17691,NFIS,11,3.9,NA,NA,Wisconsin,not_contained
@@ -83,7 +83,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-OR781S-000186,T-Lake Fire,OR,Lane,2025-04-23T21:26:00Z,2025-04-25T04:27:56Z,NA,NA,WF,NA,Undetermined,44.178,-123.57716667,NFIS,2,1.3,NA,NA,Oregon,not_contained
 2025-NDFTA-000206,Van Fire,ND,Benson,2025-04-23T22:27:19Z,2025-04-23T23:05:05Z,0.85,NA,WF,NA,Undetermined,47.978889,-98.885,NFIS,2,2.5,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123631,Mauthe Lake Fire,WI,Fond du Lac,2025-04-24T05:00:00Z,2025-04-25T14:39:38Z,0.46,NA,WF,NA,Human,43.5924,-88.17025,NFIS,2,0.8,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123628,Finch Fire,WI,Adams,2025-04-24T18:15:00Z,2025-04-25T11:58:03Z,0.65,NA,WF,NA,Human,44.21001,-89.82382,NFIS,1,0.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123628,Finch Fire,WI,Adams,2025-04-24T18:15:00Z,2025-04-25T11:58:03Z,0.65,NA,WF,NA,Human,44.21001,-89.82382,NFIS,1,1,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000210,Green Leaf Fire,ND,Benson,2025-04-24T22:48:00Z,2025-04-24T23:04:40Z,0.1,NA,WF,NA,Undetermined,47.981944,-98.863056,NFIS,1,1.5,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123633,Cholula Fire Fire,WI,Marinette,2025-04-25T00:50:00Z,2025-04-25T17:17:53Z,0.13,NA,WF,NA,Human,45.58262,-87.8487,NFIS,1,0.7,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000212,Rolling Timber Fire,ND,Benson,2025-04-25T02:06:31Z,2025-04-25T02:26:31Z,0.5,NA,WF,NA,Undetermined,47.957222,-99.069722,NFIS,1,1.3,NA,NA,North Dakota,not_contained
