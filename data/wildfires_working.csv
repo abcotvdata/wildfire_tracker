@@ -80,7 +80,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MN3XS-000923,Hay Creek Fire,MN,Goodhue,2025-04-23T19:52:39Z,2025-04-23T22:47:10Z,4,NA,WF,NA,Undetermined,44.506236,-92.566285,NFIS,2,2.3,NA,NA,Minnesota,not_contained
 2025-PAPAS-000331,Thompson Hollow Fire,PA,Adams,2025-04-23T20:00:00Z,2025-04-26T01:36:54Z,100,0,WF,Active,Undetermined,39.988532,-77.403951,NFIS,2,0.2,NA,NA,Pennsylvania,not_contained
 2025-WIWIS-FIRE123621,Fifty One Fire,WI,Iron,2025-04-23T20:15:00Z,2025-04-24T17:13:10Z,0.32,NA,WF,NA,Human,46.22892,-90.14456,NFIS,2,1.5,NA,NA,Wisconsin,not_contained
-2025-OR781S-000186,T-Lake Fire,OR,Lane,2025-04-23T21:26:00Z,2025-04-25T04:27:56Z,NA,NA,WF,NA,Undetermined,44.178,-123.57716667,NFIS,2,1,NA,NA,Oregon,not_contained
+2025-OR781S-000186,T-Lake Fire,OR,Lane,2025-04-23T21:26:00Z,2025-04-25T04:27:56Z,NA,NA,WF,NA,Undetermined,44.178,-123.57716667,NFIS,2,1.1,NA,NA,Oregon,not_contained
 2025-NDFTA-000206,Van Fire,ND,Benson,2025-04-23T22:27:19Z,2025-04-23T23:05:05Z,0.85,NA,WF,NA,Undetermined,47.978889,-98.885,NFIS,2,2.3,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123631,Mauthe Lake Fire,WI,Fond du Lac,2025-04-24T05:00:00Z,2025-04-25T14:39:38Z,0.46,NA,WF,NA,Human,43.5924,-88.17025,NFIS,2,0.6,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123628,Finch Fire,WI,Adams,2025-04-24T18:15:00Z,2025-04-25T11:58:03Z,0.65,NA,WF,NA,Human,44.21001,-89.82382,NFIS,1,0.7,NA,NA,Wisconsin,not_contained
@@ -90,4 +90,4 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MAMAS-MAARNG014,Cped-Rx Fmz09-20250424-01 Fire,MA,Barnstable,2025-04-25T18:17:32Z,2025-04-25T18:22:15Z,146.8,NA,RX,NA,NA,NA,NA,NFIS,0,0.5,NA,NA,Massachusetts,not_contained
 NA,Laporte Fire,CA,Yuba,2025-04-23T21:15:12Z,2025-04-25T16:18:59Z,15,NA,Wildfire,NA,NA,39.516462,-121.19237,Cal Fire,3,1,"LaPorte Road/Forbestown Road, Woodleaf",https://www.fire.ca.gov/incidents/2025/4/23/laporte-fire/,California,not_contained
 NA,Church Fire,CA,Riverside,2025-04-24T22:12:58Z,2025-04-25T21:19:58Z,50,100,Wildfire,NA,NA,33.638422,-116.142626,Cal Fire,2,1,"Church and Olive Street, Thermal",https://www.fire.ca.gov/incidents/2025/4/24/church-fire/,California,contained
-NA,Reef Fire,CA,Kings,2025-04-25T20:12:14Z,2025-04-25T22:30:04Z,346,0,Wildfire,NA,NA,35.813704,-120.014805,Cal Fire,1,1,"Hwy 33, North of Pyramid Hills Road, Reef City",https://www.fire.ca.gov/incidents/2025/4/25/reef-fire/,California,not_contained
+NA,Reef Fire,CA,Kings,2025-04-25T20:12:14Z,2025-04-25T22:42:14Z,346,75,Wildfire,NA,NA,35.813704,-120.014805,Cal Fire,1,1,"Hwy 33, North of Pyramid Hills Road, Reef City",https://www.fire.ca.gov/incidents/2025/4/25/reef-fire/,California,not_contained
