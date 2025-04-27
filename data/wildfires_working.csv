@@ -7,7 +7,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MTFPA-000022,Cottonwood Fire,MT,Roosevelt,2025-03-25T22:49:48Z,2025-04-10T18:47:08Z,662.75,100,WF,Minimal,Undetermined,48.10692,-105.04257,NFIS,32,17.1,NA,NA,Montana,contained
 2025-AZSCA-000370,Bull Fire,AZ,Graham,2025-03-31T00:14:00Z,2025-04-04T22:06:14Z,546,100,WF,Minimal,Human,33.1276,-110.114,NFIS,27,22.9,NA,NA,Arizona,contained
 2025-WIWIS-FIRE123384,Seneca Fire,WI,Crawford,2025-04-06T17:30:00Z,2025-04-07T13:33:29Z,0.33,NA,WF,NA,Human,43.29035,-90.96716,NFIS,21,20.3,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123406,King Fire,WI,Grant,2025-04-06T23:30:00Z,2025-04-23T14:42:59Z,15.87,NA,WF,NA,Human,43.04863,-90.51753,NFIS,20,4.2,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123406,King Fire,WI,Grant,2025-04-06T23:30:00Z,2025-04-23T14:42:59Z,15.87,NA,WF,NA,Human,43.04863,-90.51753,NFIS,20,4.3,NA,NA,Wisconsin,not_contained
 2025-WVMOF-000264,Brushy Mtn 1 Fire,WV,Greenbrier,2025-04-07T19:41:01Z,2025-04-23T20:25:05Z,640,NA,RX,NA,Undetermined,37.826062,-80.217861,NFIS,20,4,NA,NA,West Virginia,not_contained
 2025-WIWIS-FIRE123418,Double E Fire,WI,Portage,2025-04-08T18:00:00Z,2025-04-10T20:30:46Z,24.61,NA,WF,NA,Human,44.33584,-89.39003,NFIS,19,17,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123423,Blue Bill Fire,WI,Crawford,2025-04-08T18:00:00Z,2025-04-13T16:05:21Z,10.5,NA,WF,NA,Human,43.42548,-90.85831,NFIS,19,14.2,NA,NA,Wisconsin,not_contained
@@ -24,9 +24,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123532,Highway 40 Fire,WI,Sawyer,2025-04-13T22:15:00Z,2025-04-15T12:59:36Z,0.07,NA,WF,NA,Human,45.69066,-91.22094,NFIS,13,12.3,NA,NA,Wisconsin,not_contained
 2025-AROUF-000964,Rx N Bee Rough Fire,OK,McCurtain,2025-04-14T12:40:36Z,2025-04-16T01:48:56Z,1900,NA,RX,NA,Undetermined,34.254,-94.705967,NFIS,13,11.8,NA,NA,Oklahoma,not_contained
 2025-NCNCS-250045,Bee Rock Creek Fire,NC,McDowell,2025-04-15T20:49:00Z,2025-04-21T20:58:57Z,2085,100,WF,Minimal,Undetermined,NA,NA,NFIS,11,6,NA,NA,North Carolina,contained
-2025-MN4XS-000670,Horizon Hills Fire,MN,Kandiyohi,2025-04-16T00:00:00Z,2025-04-21T17:06:45Z,86,NA,WF,NA,Undetermined,45.158063,-95.077206,NFIS,11,6.1,NA,NA,Minnesota,not_contained
+2025-MN4XS-000670,Horizon Hills Fire,MN,Kandiyohi,2025-04-16T00:00:00Z,2025-04-21T17:06:45Z,86,NA,WF,NA,Undetermined,45.158063,-95.077206,NFIS,11,6.2,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123562,Crystal Fire,WI,Douglas,2025-04-16T15:00:00Z,2025-04-23T18:47:11Z,19.2,NA,WF,NA,Human,46.20746,-91.94388,NFIS,11,4.1,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123550,Cottonville Ave Fire,WI,Waushara,2025-04-16T16:14:00Z,2025-04-23T14:40:01Z,12.96,NA,WF,NA,Human,44.05106,-89.36583,NFIS,11,4.2,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123550,Cottonville Ave Fire,WI,Waushara,2025-04-16T16:14:00Z,2025-04-23T14:40:01Z,12.96,NA,WF,NA,Human,44.05106,-89.36583,NFIS,11,4.3,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123566,28th Court Fire,WI,Waushara,2025-04-16T17:30:00Z,2025-04-21T12:43:39Z,10.73,NA,WF,NA,Undetermined,44.14668,-89.05778,NFIS,11,6.3,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123555,Lind Center Fire,WI,Waupaca,2025-04-16T18:15:00Z,2025-04-23T14:32:34Z,6.4,NA,WF,NA,Human,44.32006,-89.07786,NFIS,11,4.3,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123560,Albatross Fire,WI,Richland,2025-04-16T18:30:00Z,2025-04-18T12:33:13Z,1.88,NA,WF,NA,Human,43.27001,-90.44203,NFIS,11,9.3,NA,NA,Wisconsin,not_contained
@@ -50,7 +50,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-SDPRA-250357,Sharps Corner Rx Fire,SD,Oglala Lakota,2025-04-23T15:21:38Z,2025-04-24T19:42:47Z,100,NA,RX,NA,Undetermined,43.388339,-102.404152,NFIS,4,3,NA,NA,South Dakota,not_contained
 2025-PAPAS-000331,Thompson Hollow Fire,PA,Adams,2025-04-23T20:00:00Z,2025-04-26T18:22:16Z,100,0,WF,Active,Undetermined,39.988532,-77.403951,NFIS,4,1.1,NA,NA,Pennsylvania,not_contained
 2025-WIWIS-FIRE123621,Fifty One Fire,WI,Iron,2025-04-23T20:15:00Z,2025-04-24T17:13:10Z,0.32,NA,WF,NA,Human,46.22892,-90.14456,NFIS,4,3.1,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123631,Mauthe Lake Fire,WI,Fond du Lac,2025-04-24T05:00:00Z,2025-04-25T14:39:38Z,0.46,NA,WF,NA,Human,43.5924,-88.17025,NFIS,3,2.2,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123631,Mauthe Lake Fire,WI,Fond du Lac,2025-04-24T05:00:00Z,2025-04-25T14:39:38Z,0.46,NA,WF,NA,Human,43.5924,-88.17025,NFIS,3,2.3,NA,NA,Wisconsin,not_contained
 2025-MAMAS-FD05067,Fd05067 Fire,MA,Essex,2025-04-24T13:49:16Z,2025-04-27T20:24:48Z,0.55,NA,WF,NA,NA,NA,NA,NFIS,3,0,NA,NA,Massachusetts,not_contained
 2025-WIWIS-FIRE123628,Finch Fire,WI,Adams,2025-04-24T18:15:00Z,2025-04-25T11:58:03Z,0.65,NA,WF,NA,Human,44.21001,-89.82382,NFIS,3,2.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123629,Agency Fire,WI,Columbia,2025-04-24T21:55:00Z,2025-04-27T14:18:31Z,2.5,NA,WF,NA,Undetermined,43.5567,-89.43018,NFIS,2,0.3,NA,NA,Wisconsin,not_contained
@@ -64,7 +64,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123640,Redwing Fire,WI,Marinette,2025-04-26T05:00:00Z,2025-04-27T16:29:43Z,11.7,NA,WF,NA,Human,45.45436,-88.03705,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123638,Shay Fire,WI,Oconto,2025-04-26T05:00:00Z,2025-04-27T16:28:50Z,0.5,NA,WF,NA,Human,45.1601,-88.29372,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123639,Perkinstown-Mauer Fire,WI,Taylor,2025-04-26T05:00:00Z,2025-04-27T16:50:48Z,4.3,NA,WF,NA,Human,45.19019,-90.51617,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123648,Ottertail Fire,WI,Oneida,2025-04-26T05:00:00Z,2025-04-27T17:08:44Z,0.5,NA,WF,NA,Human,45.81419,-89.82338,NFIS,1,0.1,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123648,Ottertail Fire,WI,Oneida,2025-04-26T05:00:00Z,2025-04-27T17:08:44Z,0.5,NA,WF,NA,Human,45.81419,-89.82338,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123637,Iron Lake Fire,WI,Bayfield,2025-04-26T05:00:00Z,2025-04-27T18:53:41Z,2.11,NA,WF,NA,Human,46.52655,-91.43583,NFIS,1,0.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123647,Erickson Fire,WI,Burnett,2025-04-26T20:50:00Z,2025-04-27T14:16:30Z,1.64,NA,WF,NA,Human,45.658,-92.67303,NFIS,0,0.3,NA,NA,Wisconsin,not_contained
 NA,Laporte Fire,CA,Yuba,2025-04-23T21:15:12Z,2025-04-25T16:18:59Z,15,NA,Wildfire,NA,NA,39.516462,-121.19237,Cal Fire,4,2,"LaPorte Road/Forbestown Road, Woodleaf",https://www.fire.ca.gov/incidents/2025/4/23/laporte-fire/,California,not_contained
