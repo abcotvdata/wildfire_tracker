@@ -45,7 +45,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123600,Garden Fire,WI,Oconto,2025-04-20T15:45:00Z,2025-05-01T12:44:51Z,0.04,NA,WF,NA,Human,44.79336,-88.17855,NFIS,11,0.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123608,3 Mile Fire,WI,Douglas,2025-04-21T20:50:00Z,2025-04-22T13:39:37Z,2.24,NA,WF,NA,Human,46.18471,-91.98896,NFIS,10,9.8,NA,NA,Wisconsin,not_contained
 2025-NENES-250344,Plum Creek Fire,NE,Brown,2025-04-21T21:15:48Z,2025-04-24T22:19:24Z,7075,100,WF,Minimal,Undetermined,42.599661,-100.149164,NFIS,10,7.5,NA,NA,Nebraska,contained
-2025-MAMAS-DFG-RX10,Rx Dfg-Leydenwma-A3 Fire,MA,Franklin,2025-04-23T15:00:23Z,2025-04-29T20:29:43Z,13,NA,RX,NA,NA,NA,NA,NFIS,8,2.5,NA,NA,Massachusetts,not_contained
+2025-MAMAS-DFG-RX10,Rx Dfg-Leydenwma-A3 Fire,MA,Franklin,2025-04-23T15:00:23Z,2025-04-29T20:29:43Z,13,NA,RX,NA,NA,NA,NA,NFIS,8,2.6,NA,NA,Massachusetts,not_contained
 2025-SDPRA-250357,Sharps Corner Rx Fire,SD,Oglala Lakota,2025-04-23T15:21:38Z,2025-04-24T19:42:47Z,100,NA,RX,NA,Undetermined,43.388339,-102.404152,NFIS,8,7.6,NA,NA,South Dakota,not_contained
 2025-FLFNF-001206,Bombing Range 11 Fire,FL,Marion,2025-04-23T17:24:00Z,2025-04-29T12:44:49Z,35,NA,WF,NA,Human,29.118367,-81.710083,NFIS,8,2.9,NA,NA,Florida,not_contained
 2025-WIWIS-FIRE123619,Hwy H Fire,WI,Chippewa,2025-04-23T18:00:00Z,2025-05-01T12:46:50Z,0.2,NA,WF,NA,Human,45.03997,-90.93449,NFIS,8,0.9,NA,NA,Wisconsin,not_contained
@@ -67,7 +67,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123641,Knight Fire,WI,Price,2025-04-26T19:30:00Z,2025-05-01T18:57:49Z,6.73,NA,WF,NA,Human,45.61783,-90.60957,NFIS,5,0.6,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123646,Raven Fire,WI,Oneida,2025-04-26T20:48:00Z,2025-04-29T15:25:02Z,0.01,NA,WF,NA,Human,45.641,-89.52526,NFIS,5,2.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123647,Erickson Fire,WI,Burnett,2025-04-26T20:50:00Z,2025-04-27T14:16:30Z,1.64,NA,WF,NA,Human,45.658,-92.67303,NFIS,5,4.8,NA,NA,Wisconsin,not_contained
-2025-MN4XS-001134,Loon Lake Fire,MN,Jackson,2025-04-26T23:00:00Z,2025-04-29T13:22:41Z,175,NA,WF,NA,Undetermined,43,-95.097397,NFIS,5,2.8,NA,NA,Minnesota,not_contained
+2025-MN4XS-001134,Loon Lake Fire,MN,Jackson,2025-04-26T23:00:00Z,2025-04-29T13:22:41Z,175,NA,WF,NA,Undetermined,43,-95.097397,NFIS,5,2.9,NA,NA,Minnesota,not_contained
 2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,60,WF,Moderate,Undetermined,34.900313,-77.104551,NFIS,4,0.8,NA,NA,North Carolina,not_contained
 2025-WIWIS-FIRE123661,Pine View Fire Fire,WI,Oconto,2025-04-27T19:40:00Z,2025-05-01T12:43:39Z,1.93,NA,WF,NA,Human,45.04903,-88.36652,NFIS,4,0.9,NA,NA,Wisconsin,not_contained
 2025-FLFNF-001246,351 Fire,FL,Wakulla,2025-04-27T20:56:00Z,2025-05-01T12:50:20Z,97,NA,WF,NA,Undetermined,30.083318,-84.397397,NFIS,4,0.9,NA,NA,Florida,not_contained
