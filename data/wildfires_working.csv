@@ -5,8 +5,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-SCSCS-250123,Table Rock Fire,SC,Pickens,2025-03-22T13:26:00Z,2025-04-02T20:11:11Z,13845,100,WF,Minimal,Undetermined,35.036733,-82.71055,NFIS,42,30.7,NA,NA,South Carolina,contained
 2025-GACHF-000079,Big Ridge Fire,GA,Rabun,2025-03-22T18:06:00Z,2025-04-03T18:39:11Z,3434,100,WF,Minimal,Undetermined,34.946333,-83.2815,NFIS,41,29.8,NA,NA,Georgia,contained
 2025-SCSCS-250127,Persimmon Ridge Fire,SC,Greenville,2025-03-23T18:46:32Z,2025-04-02T20:10:42Z,2078,100,WF,Minimal,Undetermined,35.092356,-82.581117,NFIS,40,30.7,NA,NA,South Carolina,contained
-2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,36,30.6,NA,NA,Virginia,not_contained
-2025-AZSCA-000370,Bull Fire,AZ,Graham,2025-03-31T00:14:00Z,2025-04-04T22:06:14Z,546,100,WF,Minimal,Human,33.1276,-110.114,NFIS,33,28.6,NA,NA,Arizona,contained
+2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,36,30.7,NA,NA,Virginia,not_contained
+2025-AZSCA-000370,Bull Fire,AZ,Graham,2025-03-31T00:14:00Z,2025-04-04T22:06:14Z,546,100,WF,Minimal,Human,33.1276,-110.114,NFIS,33,28.7,NA,NA,Arizona,contained
 2025-WIWIS-FIRE123393,Wilkinson Fire,WI,Dane,2025-04-06T19:30:00Z,2025-04-07T19:18:57Z,2.76,NA,WF,NA,Human,43.14237,-89.80406,NFIS,26,25.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123400,Mellum Fire,WI,Iowa,2025-04-06T21:01:00Z,2025-05-01T18:56:24Z,2,NA,WF,NA,Human,43.12848,-89.94681,NFIS,26,1.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123406,King Fire,WI,Grant,2025-04-06T23:30:00Z,2025-04-23T14:42:59Z,15.87,NA,WF,NA,Human,43.04863,-90.51753,NFIS,26,10,NA,NA,Wisconsin,not_contained
@@ -33,7 +33,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123611,Coyote Fire,WI,Adams,2025-04-21T23:00:00Z,2025-04-23T14:36:06Z,5.59,NA,WF,NA,Human,43.87516,-89.83649,NFIS,11,10,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123623,Eab Fire,WI,Waupaca,2025-04-23T15:00:00Z,2025-04-25T15:49:50Z,1.72,NA,WF,NA,Natural,44.26169,-88.83973,NFIS,9,7.9,NA,NA,Wisconsin,not_contained
 2025-MAMAS-DFG-RX10,Rx Dfg-Leydenwma-A3 Fire,MA,Franklin,2025-04-23T15:00:23Z,2025-04-29T20:29:43Z,13,NA,RX,NA,NA,NA,NA,NFIS,9,3.7,NA,NA,Massachusetts,not_contained
-2025-SDPRA-250357,Sharps Corner Rx Fire,SD,Oglala Lakota,2025-04-23T15:21:38Z,2025-04-24T19:42:47Z,100,NA,RX,NA,Undetermined,43.388339,-102.404152,NFIS,9,8.7,NA,NA,South Dakota,not_contained
+2025-SDPRA-250357,Sharps Corner Rx Fire,SD,Oglala Lakota,2025-04-23T15:21:38Z,2025-04-24T19:42:47Z,100,NA,RX,NA,Undetermined,43.388339,-102.404152,NFIS,9,8.8,NA,NA,South Dakota,not_contained
 2025-FLFNF-001206,Bombing Range 11 Fire,FL,Marion,2025-04-23T17:24:00Z,2025-05-02T15:08:19Z,35,NA,WF,NA,Human,29.118367,-81.710083,NFIS,9,0.9,NA,NA,Florida,not_contained
 2025-WIWIS-FIRE123619,Hwy H Fire,WI,Chippewa,2025-04-23T18:00:00Z,2025-05-01T12:46:50Z,0.2,NA,WF,NA,Human,45.03997,-90.93449,NFIS,9,2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123618,County Road Y Fire,WI,Green Lake,2025-04-23T19:38:00Z,2025-04-29T15:23:04Z,3.79,NA,WF,NA,Human,43.90782,-89.1731,NFIS,9,3.9,NA,NA,Wisconsin,not_contained
@@ -86,7 +86,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MAMAS-MAARNG18,Cped-Rx Fmz08-20250501-01 Fire,MA,Barnstable,2025-05-01T14:30:27Z,2025-05-02T19:06:23Z,133,NA,RX,NA,NA,NA,NA,NFIS,1,0.8,NA,NA,Massachusetts,not_contained
 2025-MAMAS-MAARNG-019,Wheelock Road Fire,MA,Barnstable,2025-05-01T18:30:48Z,2025-05-03T12:59:36Z,171,NA,WF,NA,Human,NA,NA,NFIS,1,0,NA,NA,Massachusetts,not_contained
 2025-NDFTA-000261,Big Sky Fire,ND,Benson,2025-05-01T23:19:26Z,2025-05-03T00:44:51Z,0.1,NA,WF,NA,Undetermined,48.106387,-98.858083,NFIS,1,0.5,NA,NA,North Dakota,not_contained
-2025-FLFNF-001312,Diamond Back Fire,FL,Baker,2025-05-02T01:50:00Z,2025-05-02T12:27:18Z,96,NA,WF,NA,Undetermined,30.394533,-82.289583,NFIS,1,1,NA,NA,Florida,not_contained
+2025-FLFNF-001312,Diamond Back Fire,FL,Baker,2025-05-02T01:50:00Z,2025-05-02T12:27:18Z,96,NA,WF,NA,Undetermined,30.394533,-82.289583,NFIS,1,1.1,NA,NA,Florida,not_contained
 2025-NDFTA-000265,Willow Fire,ND,Benson,2025-05-02T18:15:01Z,2025-05-02T18:51:17Z,1,NA,WF,NA,Undetermined,47.963683,-98.8724,NFIS,0,0.8,NA,NA,North Dakota,not_contained
 2025-NDFTA-000267,Baseball Fire,ND,Benson,2025-05-02T19:04:04Z,2025-05-02T20:47:32Z,5,NA,WF,NA,Undetermined,47.981944,-98.872222,NFIS,0,0.7,NA,NA,North Dakota,not_contained
 2025-NDFTA-000268,Cardboard Fire,ND,Benson,2025-05-02T20:40:20Z,2025-05-02T21:13:14Z,0.5,NA,WF,NA,Undetermined,47.988778,-98.879611,NFIS,0,0.7,NA,NA,North Dakota,not_contained
