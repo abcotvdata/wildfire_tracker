@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-MSMNF-000103,Shoot House Fire,MS,Perry,2025-03-02T15:00:00Z,2025-04-29T17:44:23Z,6082,100,WF,Moderate,Human,NA,NA,NFIS,62,4.7,NA,NA,Mississippi,contained
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Moderate,Undetermined,33.804617,-78.8596,NFIS,62,56.7,NA,NA,South Carolina,not_contained
-2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-02T22:53:32Z,8340,65,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,46,1.4,NA,NA,Florida,not_contained
+2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-02T22:53:32Z,8340,65,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,46,1.5,NA,NA,Florida,not_contained
 2025-SCSCS-250123,Table Rock Fire,SC,Pickens,2025-03-22T13:26:00Z,2025-04-02T20:11:11Z,13845,100,WF,Minimal,Undetermined,35.036733,-82.71055,NFIS,42,31.6,NA,NA,South Carolina,contained
 2025-GACHF-000079,Big Ridge Fire,GA,Rabun,2025-03-22T18:06:00Z,2025-04-03T18:39:11Z,3434,100,WF,Minimal,Undetermined,34.946333,-83.2815,NFIS,42,30.6,NA,NA,Georgia,contained
 2025-SCSCS-250127,Persimmon Ridge Fire,SC,Greenville,2025-03-23T18:46:32Z,2025-04-02T20:10:42Z,2078,100,WF,Minimal,Undetermined,35.092356,-82.581117,NFIS,41,31.6,NA,NA,South Carolina,contained
@@ -13,9 +13,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123409,Veness Fire,WI,Sawyer,2025-04-07T19:50:00Z,2025-04-17T20:57:15Z,11.9,NA,WF,NA,Human,45.68964,-91.32728,NFIS,26,16.5,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123419,Adams Fire,WI,Marathon,2025-04-08T19:45:00Z,2025-04-10T13:34:06Z,0.04,NA,WF,NA,Human,45.11983,-89.74716,NFIS,25,23.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123420,Klang Drive Fire,WI,Richland,2025-04-08T21:15:00Z,2025-04-21T15:29:50Z,1.77,NA,WF,NA,Human,43.53265,-90.21998,NFIS,25,12.8,NA,NA,Wisconsin,not_contained
-2025-AKMID-250009,Dtaw Oklahoma Rx Fire,AK,Southeast Fairbanks,2025-04-08T23:15:00Z,2025-05-02T20:27:50Z,8235,NA,RX,NA,Human,64.00716,-146.3023,NFIS,25,1.5,NA,NA,Alaska,not_contained
+2025-AKMID-250009,Dtaw Oklahoma Rx Fire,AK,Southeast Fairbanks,2025-04-08T23:15:00Z,2025-05-02T20:27:50Z,8235,NA,RX,NA,Human,64.00716,-146.3023,NFIS,25,1.6,NA,NA,Alaska,not_contained
 2025-WIWIS-FIRE123457,Wishow Fire,WI,Vilas,2025-04-11T00:15:00Z,2025-04-14T14:17:59Z,0.01,NA,WF,NA,Human,45.94913,-89.80153,NFIS,23,19.8,NA,NA,Wisconsin,not_contained
-2025-SDCRA-000015,Buffalo Fire,SD,Dewey,2025-04-11T19:50:00Z,2025-04-12T22:49:02Z,611,100,WF,Minimal,Human,NA,NA,NFIS,22,21.4,NA,NA,South Dakota,contained
+2025-SDCRA-000015,Buffalo Fire,SD,Dewey,2025-04-11T19:50:00Z,2025-04-12T22:49:02Z,611,100,WF,Minimal,Human,NA,NA,NFIS,22,21.5,NA,NA,South Dakota,contained
 2025-WIWIS-FIRE123448,Elk Point Fire,WI,Vilas,2025-04-11T19:55:00Z,2025-04-14T14:20:29Z,0.03,NA,WF,NA,Human,45.96582,-89.886,NFIS,22,19.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123453,Muscovy Fire,WI,Grant,2025-04-11T20:50:00Z,2025-04-14T14:12:08Z,0.13,NA,WF,NA,Human,43.06375,-90.70523,NFIS,22,19.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123462,Tango Fire,WI,Iowa,2025-04-12T14:30:00Z,2025-04-21T12:46:17Z,0.1,NA,WF,NA,Human,43.08254,-89.97263,NFIS,21,12.9,NA,NA,Wisconsin,not_contained
@@ -36,7 +36,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NENES-250344,Plum Creek Fire,NE,Brown,2025-04-21T21:15:48Z,2025-04-24T22:19:24Z,7075,100,WF,Minimal,Undetermined,42.599661,-100.149164,NFIS,12,9.5,NA,NA,Nebraska,contained
 2025-WIWIS-FIRE123611,Coyote Fire,WI,Adams,2025-04-21T23:00:00Z,2025-04-23T14:36:06Z,5.59,NA,WF,NA,Human,43.87516,-89.83649,NFIS,12,10.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123623,Eab Fire,WI,Waupaca,2025-04-23T15:00:00Z,2025-04-25T15:49:50Z,1.72,NA,WF,NA,Natural,44.26169,-88.83973,NFIS,10,8.7,NA,NA,Wisconsin,not_contained
-2025-MAMAS-DFG-RX10,Rx Dfg-Leydenwma-A3 Fire,MA,Franklin,2025-04-23T15:00:23Z,2025-04-29T20:29:43Z,13,NA,RX,NA,NA,NA,NA,NFIS,10,4.5,NA,NA,Massachusetts,not_contained
+2025-MAMAS-DFG-RX10,Rx Dfg-Leydenwma-A3 Fire,MA,Franklin,2025-04-23T15:00:23Z,2025-04-29T20:29:43Z,13,NA,RX,NA,NA,NA,NA,NFIS,10,4.6,NA,NA,Massachusetts,not_contained
 2025-SDPRA-250357,Sharps Corner Rx Fire,SD,Oglala Lakota,2025-04-23T15:21:38Z,2025-04-24T19:42:47Z,100,NA,RX,NA,Undetermined,43.388339,-102.404152,NFIS,10,9.6,NA,NA,South Dakota,not_contained
 2025-FLFNF-001206,Bombing Range 11 Fire,FL,Marion,2025-04-23T17:24:00Z,2025-05-02T15:08:19Z,35,NA,WF,NA,Human,29.118367,-81.710083,NFIS,10,1.8,NA,NA,Florida,not_contained
 2025-WIWIS-FIRE123618,County Road Y Fire,WI,Green Lake,2025-04-23T19:38:00Z,2025-04-29T15:23:04Z,3.79,NA,WF,NA,Human,43.90782,-89.1731,NFIS,10,4.8,NA,NA,Wisconsin,not_contained
