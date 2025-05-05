@@ -72,7 +72,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123680,Buttercup Fire,WI,Adams,2025-04-30T17:00:00Z,2025-05-01T12:50:27Z,3.1,NA,WF,NA,Human,44.0828,-89.85794,NFIS,5,4.2,NA,NA,Wisconsin,not_contained
 2025-MIMIS-010022,Crooked Lake Fire Fire,MI,Alcona,2025-04-30T17:00:00Z,2025-05-03T21:09:34Z,1.2,NA,WF,NA,Human,NA,NA,NFIS,5,1.9,NA,NA,Michigan,not_contained
 2025-FLBCP-001290,Jet Port Fire,FL,Collier,2025-04-30T18:47:00Z,2025-05-03T20:59:56Z,31,NA,WF,NA,Undetermined,25.916983,-80.886533,NFIS,4,1.9,NA,NA,Florida,not_contained
-2025-WIWIS-FIRE123684,Rux Fire Fire,WI,Vilas,2025-04-30T20:00:00Z,2025-04-30T21:21:04Z,0.06,NA,WF,NA,Human,45.96605,-89.72597,NFIS,4,4.8,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123684,Rux Fire Fire,WI,Vilas,2025-04-30T20:00:00Z,2025-04-30T21:21:04Z,0.06,NA,WF,NA,Human,45.96605,-89.72597,NFIS,4,4.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123685,Buckle Fire,WI,Chippewa,2025-04-30T20:20:00Z,2025-05-02T12:39:09Z,0.19,NA,WF,NA,Human,45.16984,-91.36624,NFIS,4,3.2,NA,NA,Wisconsin,not_contained
 2025-MAMAS-MAARNG18,Cped-Rx Fmz08-20250501-01 Fire,MA,Barnstable,2025-05-01T14:30:27Z,2025-05-02T19:06:23Z,133,NA,RX,NA,NA,NA,NA,NFIS,4,2.9,NA,NA,Massachusetts,not_contained
 2025-MAMAS-DFG-RX13,Rx Dfg-Muddybrookwma-W1w8 Fire,MA,Worcester,2025-05-01T14:30:54Z,2025-05-05T13:39:05Z,63,NA,RX,NA,NA,NA,NA,NFIS,4,0.2,NA,NA,Massachusetts,not_contained
@@ -82,9 +82,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-FLFNF-001312,Diamond Back Fire,FL,Baker,2025-05-02T01:50:00Z,2025-05-02T12:27:18Z,96,NA,WF,NA,Undetermined,30.394533,-82.289583,NFIS,3,3.2,NA,NA,Florida,not_contained
 2025-WIWIS-FIRE123693,Stillwater Fire,WI,Marinette,2025-05-02T05:00:00Z,2025-05-04T13:40:54Z,0.16,NA,WF,NA,Human,45.71885,-87.87102,NFIS,3,1.2,NA,NA,Wisconsin,not_contained
 2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-05T15:09:07Z,1500,10,WF,Moderate,Undetermined,NA,NA,NFIS,3,0.1,NA,NA,North Carolina,not_contained
-2025-NDFTA-000265,Willow Fire,ND,Benson,2025-05-02T18:15:01Z,2025-05-02T18:51:17Z,1,NA,WF,NA,Undetermined,47.963683,-98.8724,NFIS,2,2.9,NA,NA,North Dakota,not_contained
+2025-NDFTA-000265,Willow Fire,ND,Benson,2025-05-02T18:15:01Z,2025-05-02T18:51:17Z,1,NA,WF,NA,Undetermined,47.963683,-98.8724,NFIS,2,3,NA,NA,North Dakota,not_contained
 2025-NDFTA-000267,Baseball Fire,ND,Benson,2025-05-02T19:04:04Z,2025-05-02T20:47:32Z,5,NA,WF,NA,Undetermined,47.981944,-98.872222,NFIS,2,2.9,NA,NA,North Dakota,not_contained
-2025-NDFTA-000268,Cardboard Fire,ND,Benson,2025-05-02T20:40:20Z,2025-05-02T21:13:14Z,0.5,NA,WF,NA,Undetermined,47.988778,-98.879611,NFIS,2,2.8,NA,NA,North Dakota,not_contained
+2025-NDFTA-000268,Cardboard Fire,ND,Benson,2025-05-02T20:40:20Z,2025-05-02T21:13:14Z,0.5,NA,WF,NA,Undetermined,47.988778,-98.879611,NFIS,2,2.9,NA,NA,North Dakota,not_contained
 2025-NDFTA-000269,Bikeframe Fire,ND,Benson,2025-05-02T21:23:22Z,2025-05-02T21:54:38Z,0.1,NA,WF,NA,Undetermined,47.980556,-98.868056,NFIS,2,2.8,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123694,Midway Fire,WI,Douglas,2025-05-03T05:00:00Z,2025-05-04T13:36:12Z,1.7,NA,WF,NA,Undetermined,46.58598,-91.74141,NFIS,2,1.2,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000270,Blue Van Fire,ND,Ramsey,2025-05-03T19:02:00Z,2025-05-03T23:54:26Z,0.1,NA,WF,NA,Undetermined,48.221667,-99.056389,NFIS,1,1.7,NA,NA,North Dakota,not_contained
@@ -93,13 +93,14 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NDFTA-000274,Trash Fire,ND,Benson,2025-05-03T22:54:51Z,2025-05-04T00:13:00Z,10.2,NA,WF,NA,Undetermined,47.97975,-98.866633,NFIS,1,1.7,NA,NA,North Dakota,not_contained
 2025-NDFTA-000275,Haystack Fire,ND,Benson,2025-05-04T01:08:22Z,2025-05-04T01:35:18Z,0.5,NA,WF,NA,Undetermined,47.976389,-99.079444,NFIS,1,1.7,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123709,County E Fire,WI,Douglas,2025-05-04T05:00:00Z,2025-05-05T12:20:42Z,0.5,NA,WF,NA,Human,46.41638,-91.8202,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123708,Spruce Fire,WI,Iron,2025-05-04T05:00:00Z,2025-05-05T12:34:11Z,0.5,NA,WF,NA,Human,46.00129,-90.06771,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123708,Spruce Fire,WI,Iron,2025-05-04T05:00:00Z,2025-05-05T12:34:11Z,1.38,NA,WF,NA,Undetermined,46.00129,-90.06771,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123710,Koubenic Fire,WI,Oneida,2025-05-04T05:00:00Z,2025-05-05T12:36:49Z,0.03,NA,WF,NA,Human,45.82649,-89.16944,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000277,Corner Fire,ND,Benson,2025-05-04T13:04:39Z,2025-05-04T14:22:28Z,1,NA,WF,NA,Undetermined,47.920833,-99.081944,NFIS,1,1.1,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123697,Bakely Fire,WI,Oneida,2025-05-04T16:00:00Z,2025-05-05T14:22:47Z,0.31,NA,WF,NA,Human,45.88125,-89.89599,NFIS,1,0.1,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000278,Ape Man Fire,ND,Benson,2025-05-04T16:26:50Z,2025-05-04T18:15:54Z,1.5,NA,WF,NA,Undetermined,47.989722,-98.876667,NFIS,1,1,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123702,Fire Lane Fire,WI,Florence,2025-05-04T18:32:00Z,2025-05-05T14:19:28Z,2.22,NA,WF,NA,Human,45.81887,-88.21339,NFIS,0,0.1,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000279,Buck Fire,ND,Benson,2025-05-04T19:04:41Z,2025-05-04T19:26:43Z,3,NA,WF,NA,Undetermined,47.983611,-98.873889,NFIS,0,0.9,NA,NA,North Dakota,not_contained
+2025-NDFTA-000280,Ash Fire,ND,Benson,2025-05-04T22:12:17Z,2025-05-05T17:33:30Z,10.3,NA,WF,NA,Undetermined,47.951944,-98.849722,NFIS,0,0,NA,NA,North Dakota,not_contained
 2025-NDFTA-000281,Steel Fire,ND,Benson,2025-05-04T22:18:07Z,2025-05-05T17:20:47Z,1,NA,WF,NA,Undetermined,47.9525,-98.875556,NFIS,0,0,NA,NA,North Dakota,not_contained
 2025-SDBKF-250412,Reno Fire,SD,Pennington,2025-05-05T02:57:40Z,2025-05-05T04:46:07Z,0.91,NA,WF,NA,Undetermined,43.9147,-103.6,NFIS,0,0.5,NA,NA,South Dakota,not_contained
 NA,Felipe Fire,CA,San Diego,2025-05-01T13:37:00Z,2025-05-03T00:44:29Z,50,100,Wildfire,NA,NA,33.098585,-116.470729,Cal Fire,4,2,"Highway 78, East of San Felipe Road",https://www.fire.ca.gov/incidents/2025/5/1/felipe-fire/,California,contained
