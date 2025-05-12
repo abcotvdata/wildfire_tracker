@@ -86,7 +86,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NDFTA-000365,Red Fire,ND,Benson,2025-05-10T15:01:20Z,2025-05-10T15:31:53Z,0.25,NA,WF,NA,Undetermined,47.986667,-98.915833,NFIS,2,2.1,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123810,Swamp Creek Fire,WI,Douglas,2025-05-10T15:58:00Z,2025-05-12T12:44:18Z,0.8,NA,WF,NA,Human,46.56969,-91.96044,NFIS,2,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123813,Payette Fire,WI,Marinette,2025-05-10T17:00:00Z,2025-05-12T12:41:11Z,0.89,NA,WF,NA,Human,45.75441,-87.91462,NFIS,2,0.2,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123814,Doyle Fire,WI,Oneida,2025-05-10T17:43:00Z,2025-05-11T23:54:50Z,0.01,NA,WF,NA,Human,45.76157,-89.49148,NFIS,1,0.7,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123814,Doyle Fire,WI,Oneida,2025-05-10T17:43:00Z,2025-05-11T23:54:50Z,0.01,NA,WF,NA,Human,45.76157,-89.49148,NFIS,2,0.7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123822,Eddie Fire,WI,Vilas,2025-05-10T19:00:00Z,2025-05-11T23:54:50Z,0.4,NA,WF,NA,Human,45.90353,-89.10867,NFIS,1,0.7,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000366,Go Cart Fire,ND,Benson,2025-05-10T20:15:11Z,2025-05-10T20:53:42Z,2,NA,WF,NA,Undetermined,48.02,-98.856944,NFIS,1,1.9,NA,NA,North Dakota,not_contained
 2025-MN1DS-001677,Tweetie Fire,MN,Marshall,2025-05-10T20:49:58Z,2025-05-11T23:01:15Z,5,NA,WF,NA,Undetermined,48.515348,-96.1685,NFIS,1,0.8,NA,NA,Minnesota,not_contained
@@ -103,7 +103,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MN1BS-001725,Shack Fire,MN,Polk,2025-05-11T17:53:00Z,2025-05-11T20:16:45Z,1,NA,WF,NA,Undetermined,47.738833,-95.997058,NFIS,0,0.9,NA,NA,Minnesota,not_contained
 2025-MN2QS-001729,Camphouse Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-12T13:22:55Z,750,0,WF,Active,Undetermined,47.372203,-91.433036,NFIS,0,0.2,NA,NA,Minnesota,not_contained
 2025-NDFTA-000375,Chevy Fire,ND,Benson,2025-05-12T03:54:35Z,2025-05-12T04:10:20Z,0.1,NA,WF,NA,Undetermined,47.984167,-99.005278,NFIS,0,0.6,NA,NA,North Dakota,not_contained
-2025-WIWIS-FIRE123856,Jagiello Fire,WI,Oconto,2025-05-12T05:00:00Z,2025-05-12T17:09:53Z,0.1,NA,WF,NA,Human,44.95866,-88.06699,NFIS,0,0,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123856,Jagiello Fire,WI,Oconto,2025-05-12T05:00:00Z,2025-05-12T17:09:53Z,0.25,NA,WF,NA,Human,44.95866,-88.06699,NFIS,0,0,NA,NA,Wisconsin,not_contained
 NA,Springs Fire,CA,Tulare,2025-05-06T14:10:31Z,2025-05-08T20:18:35Z,1817,100,Wildfire,NA,NA,35.817188,-118.954931,Cal Fire,6,4,Avenue 56 and Road 272,https://www.fire.ca.gov/incidents/2025/5/6/springs-fire/,California,contained
 NA,Cherokee Fire,CA,Tulare,2025-05-10T16:56:55Z,2025-05-10T21:56:34Z,20,100,Wildfire,NA,NA,36.4213337,-118.9149505,Cal Fire,2,2,"Old Three Rivers Road, East of Highway 198, Three Rivers",https://www.fire.ca.gov/incidents/2025/5/10/cherokee-fire/,California,contained
 NA,Pozo Fire,CA,San Luis Obispo,2025-05-10T18:20:58Z,2025-05-11T18:40:14Z,86,100,Wildfire,NA,NA,35.4018646,-120.1997983,Cal Fire,2,1,"SR 58 West of East Pozo Road, East of Santa Margarita",https://www.fire.ca.gov/incidents/2025/5/10/pozo-fire/,California,contained
