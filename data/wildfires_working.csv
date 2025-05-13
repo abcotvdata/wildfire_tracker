@@ -2,7 +2,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MSMNF-000103,Shoot House Fire,MS,Perry,2025-03-02T15:00:00Z,2025-04-29T17:44:23Z,6082,100,WF,Moderate,Human,NA,NA,NFIS,71,13.5,NA,NA,Mississippi,contained
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,71,65.6,NA,NA,South Carolina,not_contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,87,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,55,6.6,NA,NA,Florida,not_contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,52,41.7,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,52,41.8,NA,NA,Florida,contained
 2025-GACHF-000079,Big Ridge Fire,GA,Rabun,2025-03-22T18:06:00Z,2025-04-03T18:39:11Z,3434,100,WF,Minimal,Undetermined,34.946333,-83.2815,NFIS,51,39.5,NA,NA,Georgia,contained
 2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,46,40.3,NA,NA,Virginia,not_contained
 2025-AKMID-250009,Dtaw Oklahoma Rx Fire,AK,Southeast Fairbanks,2025-04-08T23:15:00Z,2025-05-02T20:27:50Z,8235,NA,RX,NA,Human,64.00716,-146.3023,NFIS,34,10.4,NA,NA,Alaska,not_contained
@@ -113,7 +113,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123867,Aspen Branch Fire,WI,Burnett,2025-05-12T05:00:00Z,2025-05-13T01:38:04Z,9.43,NA,WF,NA,Undetermined,46.01557,-92.41594,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123875,Warthog Fire,WI,Juneau,2025-05-12T05:00:00Z,2025-05-13T01:00:48Z,130,NA,WF,NA,Undetermined,44.10197,-90.26762,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-MEMES-25001478.1,Shaprio Fire 2 Fire,ME,Aroostook,2025-05-12T14:21:00Z,2025-05-12T18:50:58Z,4.8,NA,WF,NA,Human,NA,NA,NFIS,0,0.5,NA,NA,Maine,not_contained
-2025-MN1DS-001785,Southswift Fire,MN,Roseau,2025-05-12T15:18:48Z,2025-05-12T18:53:37Z,5,NA,WF,NA,Undetermined,48.82815,-95.119176,NFIS,0,0.4,NA,NA,Minnesota,not_contained
+2025-MN1DS-001785,Southswift Fire,MN,Roseau,2025-05-12T15:18:48Z,2025-05-12T18:53:37Z,5,NA,WF,NA,Undetermined,48.82815,-95.119176,NFIS,0,0.5,NA,NA,Minnesota,not_contained
 2025-WAOLS-000017,Ocean Beach Rd Fire,WA,Grays Harbor,2025-05-12T20:56:00Z,2025-05-13T01:42:31Z,2,NA,WF,NA,Undetermined,47.151351,-124.097663,NFIS,0,0.2,NA,NA,Washington,not_contained
 NA,Springs Fire,CA,Tulare,2025-05-06T14:10:31Z,2025-05-08T20:18:35Z,1817,100,Wildfire,NA,NA,35.817188,-118.954931,Cal Fire,7,5,Avenue 56 and Road 272,https://www.fire.ca.gov/incidents/2025/5/6/springs-fire/,California,contained
 NA,Pozo Fire,CA,San Luis Obispo,2025-05-10T18:20:58Z,2025-05-11T18:40:14Z,86,100,Wildfire,NA,NA,35.4018646,-120.1997983,Cal Fire,3,2,"SR 58 West of East Pozo Road, East of Santa Margarita",https://www.fire.ca.gov/incidents/2025/5/10/pozo-fire/,California,contained
