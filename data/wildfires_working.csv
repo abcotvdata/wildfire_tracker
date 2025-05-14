@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,72,66.6,NA,NA,South Carolina,not_contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,56,7.6,NA,NA,Florida,contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,53,42.7,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,53,42.8,NA,NA,Florida,contained
 2025-GACHF-000079,Big Ridge Fire,GA,Rabun,2025-03-22T18:06:00Z,2025-04-03T18:39:11Z,3434,100,WF,Minimal,Undetermined,34.946333,-83.2815,NFIS,52,40.5,NA,NA,Georgia,contained
 2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,47,41.3,NA,NA,Virginia,not_contained
-2025-FLBCP-000913,Dogwood Fire,FL,Miami-Dade,2025-03-27T18:53:00Z,2025-03-29T21:18:02Z,6,NA,WF,NA,Natural,25.696833,-80.858733,NFIS,47,45.3,NA,NA,Florida,not_contained
+2025-FLBCP-000913,Dogwood Fire,FL,Miami-Dade,2025-03-27T18:53:00Z,2025-03-29T21:18:02Z,6,NA,WF,NA,Natural,25.696833,-80.858733,NFIS,47,45.4,NA,NA,Florida,not_contained
 2025-AKMID-250009,Dtaw Oklahoma Rx Fire,AK,Southeast Fairbanks,2025-04-08T23:15:00Z,2025-05-02T20:27:50Z,8235,NA,RX,NA,Human,64.00716,-146.3023,NFIS,35,11.4,NA,NA,Alaska,not_contained
 2025-WIWIS-FIRE123445,Bb Road Fire,WI,Oconto,2025-04-11T18:50:00Z,2025-05-11T23:54:50Z,2.4,NA,WF,NA,Human,44.88568,-88.3029,NFIS,32,2.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123517,King's Corner Fire,WI,Sauk,2025-04-13T00:30:00Z,2025-05-11T23:54:50Z,15.5,NA,WF,NA,Human,43.37366,-89.80959,NFIS,31,2.2,NA,NA,Wisconsin,not_contained
@@ -102,13 +102,13 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NDFTA-000381,Bunny Fire,ND,Benson,2025-05-12T05:00:00Z,2025-05-14T00:22:15Z,0.1,NA,WF,NA,Undetermined,47.979444,-99.011389,NFIS,2,0.2,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123853,Five Dozen Fire,WI,Taylor,2025-05-12T14:00:00Z,2025-05-13T19:03:00Z,0.08,NA,WF,NA,Human,45.07353,-90.45454,NFIS,1,0.4,NA,NA,Wisconsin,not_contained
 2025-MEMES-25001478.1,Shaprio Fire 2 Fire,ME,Aroostook,2025-05-12T14:21:00Z,2025-05-12T18:50:58Z,4.8,NA,WF,NA,Human,NA,NA,NFIS,1,1.5,NA,NA,Maine,not_contained
-2025-MN1DS-001785,Southswift Fire,MN,Roseau,2025-05-12T15:18:48Z,2025-05-12T18:53:37Z,5,NA,WF,NA,Undetermined,48.82815,-95.119176,NFIS,1,1.4,NA,NA,Minnesota,not_contained
+2025-MN1DS-001785,Southswift Fire,MN,Roseau,2025-05-12T15:18:48Z,2025-05-12T18:53:37Z,5,NA,WF,NA,Undetermined,48.82815,-95.119176,NFIS,1,1.5,NA,NA,Minnesota,not_contained
 2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-13T15:09:30Z,6800,0,WF,Extreme,Undetermined,47.372131,-92.016281,NFIS,1,0.6,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123856,Jagiello Fire,WI,Oconto,2025-05-12T16:30:00Z,2025-05-12T19:38:26Z,0.25,NA,WF,NA,Human,44.95866,-88.06699,NFIS,1,1.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123858,Butler Fire,WI,Ashland,2025-05-12T17:00:00Z,2025-05-12T19:36:40Z,0.1,NA,WF,NA,Undetermined,46.33492,-90.6381,NFIS,1,1.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123859,Cutoff 1 Fire,WI,Rusk,2025-05-12T17:18:00Z,2025-05-13T19:15:19Z,0.08,NA,WF,NA,Human,45.52382,-91.05925,NFIS,1,0.4,NA,NA,Wisconsin,not_contained
 2025-MN2PS-001825,Munger Shaw Fire,MN,St. Louis,2025-05-12T19:37:00Z,2025-05-13T16:13:58Z,1600,0,WF,Active,Undetermined,47.080229,-92.343839,NFIS,1,0.6,NA,NA,Minnesota,not_contained
-2025-WIWIS-FIRE123884,18th Ave Fire,WI,Adams,2025-05-12T22:00:00Z,2025-05-13T18:57:36Z,1.81,NA,WF,NA,Human,44.10895,-89.9185,NFIS,1,0.4,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123884,18th Ave Fire,WI,Adams,2025-05-12T22:00:00Z,2025-05-13T18:57:36Z,1.81,NA,WF,NA,Human,44.10895,-89.9185,NFIS,1,0.5,NA,NA,Wisconsin,not_contained
 2025-NDFTA-000383,Too Short Fire,ND,Benson,2025-05-13T03:49:18Z,2025-05-14T00:03:17Z,0.1,NA,WF,NA,Undetermined,47.985278,-98.865278,NFIS,1,0.2,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE123886,Smoke Fire,WI,Douglas,2025-05-13T05:00:00Z,2025-05-13T18:18:32Z,1.9,NA,WF,NA,Human,46.60296,-91.98277,NFIS,1,0.5,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123893,Leaman Complex Fire,WI,Washburn,2025-05-13T05:00:00Z,2025-05-13T22:26:31Z,0.01,NA,WF,NA,Human,45.70325,-91.95219,NFIS,1,0.3,NA,NA,Wisconsin,not_contained
