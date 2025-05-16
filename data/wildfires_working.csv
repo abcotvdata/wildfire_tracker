@@ -32,7 +32,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123750,Frog Creek Fire Fire,WI,Washburn,2025-05-06T16:30:00Z,2025-05-11T23:54:50Z,0.2,NA,WF,NA,Human,46.11823,-91.77191,NFIS,10,4.8,NA,NA,Wisconsin,not_contained
 2025-MTBRF-000091,Big Creek Fire,MT,Ravalli,2025-05-06T21:51:00Z,2025-05-09T20:42:16Z,75,0,WF,Minimal,Undetermined,46.4813,-114.291,NFIS,9,6.9,NA,NA,Montana,not_contained
 2025-WIWIS-FIRE123764,West View Fire,WI,Price,2025-05-06T23:36:00Z,2025-05-11T23:54:50Z,0.03,NA,WF,NA,Human,45.7181,-90.38417,NFIS,9,4.8,NA,NA,Wisconsin,not_contained
-2025-OR731S-000513,Barrel Ground Fire,OR,Douglas,2025-05-07T18:15:00Z,2025-05-08T20:38:12Z,36,NA,WF,NA,Human,43.65186667,-123.17161667,NFIS,9,7.9,NA,NA,Oregon,not_contained
+2025-OR731S-000513,Barrel Ground Fire,OR,Douglas,2025-05-07T18:15:00Z,2025-05-08T20:38:12Z,36,NA,WF,NA,Human,43.65186667,-123.17161667,NFIS,9,8,NA,NA,Oregon,not_contained
 2025-WIWIS-FIRE123770,Indian Trail Fire,WI,Sawyer,2025-05-07T18:30:00Z,2025-05-12T12:37:07Z,0.83,NA,WF,NA,Human,45.96939,-91.3378,NFIS,9,4.3,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123769,Trappers Fire,WI,Oneida,2025-05-07T18:50:00Z,2025-05-11T23:54:50Z,0.05,NA,WF,NA,Human,45.72768,-89.49968,NFIS,9,4.8,NA,NA,Wisconsin,not_contained
 2025-MN1GS-001506,Faith Wma Fire,MN,Norman,2025-05-07T22:09:00Z,2025-05-08T03:05:24Z,300,100,WF,Active,Undetermined,47.254568,-96.111068,NFIS,8,8.7,NA,NA,Minnesota,contained
@@ -84,13 +84,13 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MAMAS-FD10RX002,Dcr Rx Quabbin Spillway West Fire,MA,Hampshire,2025-05-14T12:16:28Z,2025-05-15T19:33:06Z,2,NA,RX,NA,NA,NA,NA,NFIS,2,1,NA,NA,Massachusetts,not_contained
 2025-MEMES-1747329629,1747329629 Fire,ME,Aroostook,2025-05-14T17:20:00Z,2025-05-14T17:26:21Z,1,NA,WF,NA,Human,NA,NA,NFIS,2,2.1,NA,NA,Maine,not_contained
 2025-WIWIS-FIRE123899,Oak Hollow Fire,WI,Juneau,2025-05-14T17:35:00Z,2025-05-14T20:08:02Z,0.63,NA,WF,NA,Undetermined,43.94316,-90.06171,NFIS,2,2,NA,NA,Wisconsin,not_contained
-2025-MEMES-25001560,Pennington Pond Fire Fire,ME,Aroostook,2025-05-14T20:13:00Z,2025-05-15T18:09:12Z,49,NA,WF,NA,Human,NA,NA,NFIS,1,1,NA,NA,Maine,not_contained
+2025-MEMES-25001560,Pennington Pond Fire Fire,ME,Aroostook,2025-05-14T20:13:00Z,2025-05-15T18:09:12Z,49,NA,WF,NA,Human,NA,NA,NFIS,1,1.1,NA,NA,Maine,not_contained
 2025-WIWIS-FIRE123903,Perch Lake Fire,WI,Langlade,2025-05-15T05:00:00Z,2025-05-15T19:24:12Z,0.22,NA,WF,NA,Human,45.38297,-89.06054,NFIS,1,1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123902,Timber Fire,WI,Richland,2025-05-15T05:00:00Z,2025-05-15T19:27:36Z,0.01,NA,WF,NA,Human,43.21789,-90.28346,NFIS,1,1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123913,White Lightning Fire,WI,Waupaca,2025-05-15T05:00:00Z,2025-05-16T14:32:11Z,1.1,NA,WF,NA,Natural,44.37749,-88.92065,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123908,Hardwood Fire,WI,Florence,2025-05-15T05:00:00Z,2025-05-16T14:43:47Z,1.4,NA,WF,NA,Human,45.90654,-88.42196,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123905,Bridge Fire,WI,Juneau,2025-05-15T18:45:00Z,2025-05-16T12:45:36Z,0.1,NA,WF,NA,Undetermined,43.94305,-90.03986,NFIS,1,0.3,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123907,Tiger Fire,WI,Lincoln,2025-05-15T19:18:00Z,2025-05-15T22:09:33Z,0.71,NA,WF,NA,Human,45.48727,-89.75442,NFIS,0,0.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123907,Tiger Fire,WI,Lincoln,2025-05-15T19:18:00Z,2025-05-15T22:09:33Z,0.71,NA,WF,NA,Human,45.48727,-89.75442,NFIS,1,0.9,NA,NA,Wisconsin,not_contained
 2025-FLFNF-001496,Shanty 2 Fire,FL,Marion,2025-05-15T22:41:17Z,2025-05-16T12:52:43Z,60,NA,WF,NA,Human,29.3379,-81.7257,NFIS,0,0.3,NA,NA,Florida,not_contained
 NA,Catlett Fire,CA,Placer,2025-05-10T13:38:42Z,2025-05-10T21:55:31Z,175,100,Wildfire,NA,NA,38.846183,-121.407882,Cal Fire,6,6,"East Catlett Road, Lincoln",https://www.fire.ca.gov/incidents/2025/5/10/catlett-fire/,California,contained
 NA,Energy Fire,CA,San Luis Obispo,2025-05-12T12:29:22Z,2025-05-14T06:51:34Z,43,100,Wildfire,NA,NA,35.351787,-120.040599,Cal Fire,4,2,California Valley near Energy Place and Highway 58,https://www.fire.ca.gov/incidents/2025/5/12/energy-fire/,California,contained
