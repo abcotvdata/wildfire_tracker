@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,90,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,74,68.6,NA,NA,South Carolina,not_contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,58,9.6,NA,NA,Florida,contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,55,44.7,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,55,44.8,NA,NA,Florida,contained
 2025-GACHF-000079,Big Ridge Fire,GA,Rabun,2025-03-22T18:06:00Z,2025-04-03T18:39:11Z,3434,100,WF,Minimal,Undetermined,34.946333,-83.2815,NFIS,54,42.5,NA,NA,Georgia,contained
 2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,49,43.3,NA,NA,Virginia,not_contained
-2025-FLBCP-000913,Dogwood Fire,FL,Miami-Dade,2025-03-27T18:53:00Z,2025-03-29T21:18:02Z,6,NA,WF,NA,Natural,25.696833,-80.858733,NFIS,49,47.3,NA,NA,Florida,not_contained
+2025-FLBCP-000913,Dogwood Fire,FL,Miami-Dade,2025-03-27T18:53:00Z,2025-03-29T21:18:02Z,6,NA,WF,NA,Natural,25.696833,-80.858733,NFIS,49,47.4,NA,NA,Florida,not_contained
 2025-AKMID-250009,Dtaw Oklahoma Rx Fire,AK,Southeast Fairbanks,2025-04-08T23:15:00Z,2025-05-15T19:30:22Z,8235,NA,RX,NA,Human,64.00716,-146.3023,NFIS,37,0.4,NA,NA,Alaska,not_contained
 2025-WIWIS-FIRE123517,King's Corner Fire,WI,Sauk,2025-04-13T00:30:00Z,2025-05-11T23:54:50Z,15.5,NA,WF,NA,Human,43.37366,-89.80959,NFIS,33,4.2,NA,NA,Wisconsin,not_contained
 2025-NCNCS-250045,Bee Rock Creek Fire,NC,McDowell,2025-04-15T20:49:00Z,2025-04-21T20:58:57Z,2085,100,WF,Minimal,Undetermined,NA,NA,NFIS,30,24.4,NA,NA,North Carolina,contained
