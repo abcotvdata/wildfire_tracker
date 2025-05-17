@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,98,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,76,70.3,NA,NA,South Carolina,not_contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,60,11.3,NA,NA,Florida,contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,57,46.4,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,57,46.5,NA,NA,Florida,contained
 2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,51,45,NA,NA,Virginia,not_contained
 2025-NCNCS-250045,Bee Rock Creek Fire,NC,McDowell,2025-04-15T20:49:00Z,2025-04-21T20:58:57Z,2085,100,WF,Minimal,Undetermined,NA,NA,NFIS,32,26.1,NA,NA,North Carolina,contained
 2025-WIWIS-FIRE123566,28th Court Fire,WI,Waushara,2025-04-16T17:30:00Z,2025-05-11T23:54:50Z,10.73,NA,WF,NA,Human,44.14668,-89.05778,NFIS,31,5.9,NA,NA,Wisconsin,not_contained
@@ -37,7 +37,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123797,Pine Island Fire,WI,Vilas,2025-05-09T19:45:00Z,2025-05-11T23:54:50Z,1.4,NA,WF,NA,Human,45.99293,-89.21723,NFIS,8,5.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123798,Creamery Fire,WI,Ashland,2025-05-09T21:15:00Z,2025-05-16T20:24:28Z,1.64,NA,WF,NA,Human,46.00938,-90.40465,NFIS,8,1.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123800,Atkinson Fire,WI,Burnett,2025-05-09T22:15:00Z,2025-05-13T19:05:25Z,0.26,NA,WF,NA,Human,45.81573,-92.09318,NFIS,8,4.1,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123801,Cross 1 Fire,WI,Juneau,2025-05-09T22:25:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,43.88369,-89.99545,NFIS,7,5.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123801,Cross 1 Fire,WI,Juneau,2025-05-09T22:25:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,43.88369,-89.99545,NFIS,8,5.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123819,Convoy Fire,WI,Taylor,2025-05-10T18:50:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,45.20549,-90.40703,NFIS,7,5.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123822,Eddie Fire,WI,Vilas,2025-05-10T19:00:00Z,2025-05-11T23:54:50Z,0.4,NA,WF,NA,Human,45.90353,-89.10867,NFIS,7,5.9,NA,NA,Wisconsin,not_contained
 2025-MTLG52-000397,Cottonwood - Wibaux Fire,MT,Wibaux,2025-05-11T14:47:00Z,2025-05-14T14:53:22Z,10,NA,WF,NA,Human,47.208321,-104.318002,NFIS,6,3.3,NA,NA,Montana,not_contained
@@ -45,12 +45,12 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123843,Maple Fire,WI,Forest,2025-05-11T17:45:00Z,2025-05-11T23:54:50Z,0.46,NA,WF,NA,Human,45.40375,-88.63415,NFIS,6,5.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123837,Dummy Lake Fire,WI,Barron,2025-05-11T18:03:00Z,2025-05-15T19:29:59Z,0.21,NA,WF,NA,Human,45.57596,-91.98184,NFIS,6,2.1,NA,NA,Wisconsin,not_contained
 2025-MN2QS-001729,Camp House Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-17T20:15:54Z,14805,0,WF,Minimal,Undetermined,47.372203,-91.433036,NFIS,6,0.1,NA,NA,Minnesota,not_contained
-2025-MNRLA-000268,West Rd Fire,MN,Beltrami,2025-05-11T18:58:44Z,2025-05-14T18:47:59Z,69,NA,WF,NA,Undetermined,48.12135,-95.31799,NFIS,6,3.1,NA,NA,Minnesota,not_contained
+2025-MNRLA-000268,West Rd Fire,MN,Beltrami,2025-05-11T18:58:44Z,2025-05-14T18:47:59Z,69,NA,WF,NA,Undetermined,48.12135,-95.31799,NFIS,6,3.2,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123842,Korpi Rd Fire,WI,Bayfield,2025-05-11T19:11:00Z,2025-05-14T20:03:18Z,19.1,NA,WF,NA,Human,46.61476,-91.47588,NFIS,6,3.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123845,Heart Lake Fire,WI,Washburn,2025-05-11T20:48:00Z,2025-05-11T23:54:50Z,0.49,NA,WF,NA,Human,45.69549,-91.97972,NFIS,6,5.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123866,Swiss-Jack Pine Fire,WI,Burnett,2025-05-12T05:00:00Z,2025-05-14T14:39:39Z,49.5,100,WF,Minimal,Human,46.01557,-92.41594,NFIS,5,3.3,NA,NA,Wisconsin,contained
 2025-WIWIS-FIRE123855,Weigh Station Fire,WI,Douglas,2025-05-12T15:45:00Z,2025-05-12T19:29:14Z,0.25,NA,WF,NA,Human,46.61437,-91.9331,NFIS,5,5.1,NA,NA,Wisconsin,not_contained
-2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-17T01:58:47Z,16281,0,WF,Minimal,Human,47.372131,-92.016281,NFIS,5,0.8,NA,NA,Minnesota,not_contained
+2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-17T01:58:47Z,16281,0,WF,Minimal,Human,47.372131,-92.016281,NFIS,5,0.9,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123858,Butler Fire,WI,Ashland,2025-05-12T17:00:00Z,2025-05-14T14:47:14Z,0.07,NA,WF,NA,Undetermined,46.33492,-90.6381,NFIS,5,3.3,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123861,640th St Fire,WI,Dunn,2025-05-12T18:15:00Z,2025-05-16T20:25:23Z,1.02,NA,WF,NA,Undetermined,45.02891,-91.83951,NFIS,5,1.1,NA,NA,Wisconsin,not_contained
 2025-MN2JS-001824,Bello Lake Fire,MN,Itasca,2025-05-12T19:29:00Z,2025-05-14T19:47:08Z,19,NA,WF,NA,Undetermined,47.669952,-93.687919,NFIS,5,3.1,NA,NA,Minnesota,not_contained
@@ -95,5 +95,5 @@ NA,Academy Fire,CA,San Diego,2025-05-16T14:58:54Z,2025-05-17T08:12:22Z,49,90,Wil
 NA,Creek Fire 2025,CA,Santa Clara,2025-05-16T18:41:06Z,2025-05-16T18:42:36Z,66,100,Wildfire,NA,NA,37.53969,-121.2681383,Cal Fire,1,1,"I-5/Ingram Creek Road, Westly",https://www.fire.ca.gov/incidents/2025/5/16/creek-fire-2025/,California,contained
 NA,Main Fire,CA,Merced,2025-05-16T19:08:49Z,2025-05-17T08:21:47Z,22,100,Wildfire,NA,NA,37.4533143,-120.4255565,Cal Fire,1,0,"G street cross of the Main Canal, 8 Miles North of the City of Merced.",https://www.fire.ca.gov/incidents/2025/5/16/main-fire/,California,contained
 NA,Kahlon Fire,CA,Merced,2025-05-17T07:49:33Z,2025-05-17T12:57:06Z,18,100,Wildfire,NA,NA,37.187714,-120.333898,Cal Fire,0,0,East Sandy Mush Rd and South Vista Avenue Le Grand,https://www.fire.ca.gov/incidents/2025/5/17/kahlon-fire/,California,contained
-NA,Nella Fire,CA,Merced,2025-05-17T12:03:21Z,2025-05-17T14:50:25Z,458,20,Wildfire,NA,NA,37.0462978,-120.9680028,Cal Fire,0,0,I-5 and Hwy 152 Santa Nella,https://www.fire.ca.gov/incidents/2025/5/17/nella-fire/,California,not_contained
-NA,Idria Fire,CA,San Benito,2025-05-17T13:03:19Z,2025-05-17T15:09:15Z,170,0,Wildfire,NA,NA,36.543667,-120.835667,Cal Fire,0,0,New Idria Road South of Panoche Valley Paicines,https://www.fire.ca.gov/incidents/2025/5/17/idria-fire/,California,not_contained
+NA,Nella Fire,CA,Merced,2025-05-17T12:03:21Z,2025-05-17T15:21:00Z,458,50,Wildfire,NA,NA,37.0462978,-120.9680028,Cal Fire,0,0,I-5 and Hwy 152 Santa Nella,https://www.fire.ca.gov/incidents/2025/5/17/nella-fire/,California,not_contained
+NA,Idria Fire,CA,San Benito,2025-05-17T13:03:19Z,2025-05-17T15:31:36Z,301,0,Wildfire,NA,NA,36.543667,-120.835667,Cal Fire,0,0,New Idria Road South of Panoche Valley Paicines,https://www.fire.ca.gov/incidents/2025/5/17/idria-fire/,California,not_contained
