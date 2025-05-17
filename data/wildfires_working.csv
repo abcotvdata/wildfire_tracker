@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,98,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,75,69.6,NA,NA,South Carolina,not_contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,59,10.6,NA,NA,Florida,contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,56,45.7,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,56,45.8,NA,NA,Florida,contained
 2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,50,44.3,NA,NA,Virginia,not_contained
 2025-NCNCS-250045,Bee Rock Creek Fire,NC,McDowell,2025-04-15T20:49:00Z,2025-04-21T20:58:57Z,2085,100,WF,Minimal,Undetermined,NA,NA,NFIS,31,25.4,NA,NA,North Carolina,contained
 2025-WIWIS-FIRE123566,28th Court Fire,WI,Waushara,2025-04-16T17:30:00Z,2025-05-11T23:54:50Z,10.73,NA,WF,NA,Human,44.14668,-89.05778,NFIS,30,5.2,NA,NA,Wisconsin,not_contained
@@ -62,7 +62,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MAMAS-FD03RX01,Fd03 Rx 01 Uniti Fire,MA,Bristol,2025-05-13T14:00:31Z,2025-05-16T15:40:03Z,47,NA,RX,NA,NA,NA,NA,NFIS,3,0.6,NA,NA,Massachusetts,not_contained
 2025-WIWIS-FIRE123886,Smoke Fire,WI,Douglas,2025-05-13T14:55:00Z,2025-05-13T18:18:32Z,1.9,NA,WF,NA,Human,46.60296,-91.98277,NFIS,3,3.5,NA,NA,Wisconsin,not_contained
 2025-MTLG52-000398,Cottonwood 2 - Wibaux Fire,MT,Wibaux,2025-05-13T15:28:00Z,2025-05-14T15:36:42Z,88.3,NA,WF,NA,Natural,47.20002,-104.310238,NFIS,3,2.6,NA,NA,Montana,not_contained
-2025-AZASF-000213,Greer Fire,AZ,Apache,2025-05-13T17:47:56Z,2025-05-16T11:46:51Z,12616,0,WF,Active,Undetermined,34.021733,-109.456272,NFIS,3,0.7,NA,NA,Arizona,not_contained
+2025-AZASF-000213,Greer Fire,AZ,Apache,2025-05-13T17:47:56Z,2025-05-16T11:46:51Z,12616,0,WF,Active,Undetermined,34.021733,-109.456272,NFIS,3,0.8,NA,NA,Arizona,not_contained
 2025-MTLG14-000390,Phennock Creek Fire,MT,Custer,2025-05-13T21:00:00Z,2025-05-14T15:55:17Z,69.4,NA,WF,NA,Undetermined,46.241467,-105.242417,NFIS,3,2.6,NA,NA,Montana,not_contained
 2025-WIWIS-FIRE123893,Lehman-Heart Lk Fire,WI,Washburn,2025-05-13T21:36:00Z,2025-05-14T14:38:18Z,0.02,NA,WF,NA,Human,45.70325,-91.95219,NFIS,3,2.6,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123892,Lehman-Old 63 Fire,WI,Washburn,2025-05-13T21:36:00Z,2025-05-14T14:36:42Z,0.01,NA,WF,NA,Human,45.70325,-91.95219,NFIS,3,2.6,NA,NA,Wisconsin,not_contained
