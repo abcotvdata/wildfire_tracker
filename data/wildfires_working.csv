@@ -1,13 +1,13 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,98,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,77,71.3,NA,NA,South Carolina,not_contained
-2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,61,12.3,NA,NA,Florida,contained
+2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,61,12.4,NA,NA,Florida,contained
 2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,58,47.5,NA,NA,Florida,contained
 2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,52,46,NA,NA,Virginia,not_contained
 2025-NCNCS-250045,Bee Rock Creek Fire,NC,McDowell,2025-04-15T20:49:00Z,2025-04-21T20:58:57Z,2085,100,WF,Minimal,Undetermined,NA,NA,NFIS,33,27.1,NA,NA,North Carolina,contained
 2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,90,WF,Minimal,Undetermined,34.900313,-77.104551,NFIS,21,17.3,NA,NA,North Carolina,not_contained
 2025-WIWIS-FIRE123661,Pine View Fire Fire,WI,Oconto,2025-04-27T19:40:00Z,2025-05-11T23:54:50Z,1.93,NA,WF,NA,Human,45.04903,-88.36652,NFIS,21,7,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123689,Bell Fire,WI,Bayfield,2025-04-28T23:00:00Z,2025-05-11T23:54:50Z,12.06,NA,WF,NA,Natural,46.78724,-91.08503,NFIS,19,7,NA,NA,Wisconsin,not_contained
-2025-AKFAS-000108,2025 Creamer's Field Rx Fire,AK,Fairbanks North Star,2025-05-01T15:12:00Z,2025-05-15T19:32:56Z,36,NA,RX,NA,Human,64.866053,-147.734914,NFIS,17,3.1,NA,NA,Alaska,not_contained
+2025-WIWIS-FIRE123689,Bell Fire,WI,Bayfield,2025-04-28T23:00:00Z,2025-05-11T23:54:50Z,12.06,NA,WF,NA,Natural,46.78724,-91.08503,NFIS,20,7,NA,NA,Wisconsin,not_contained
+2025-AKFAS-000108,2025 Creamer's Field Rx Fire,AK,Fairbanks North Star,2025-05-01T15:12:00Z,2025-05-15T19:32:56Z,36,NA,RX,NA,Human,64.866053,-147.734914,NFIS,17,3.2,NA,NA,Alaska,not_contained
 2025-MAMAS-MAARNG-019,Wheelock Road Fire,MA,Barnstable,2025-05-01T18:30:48Z,2025-05-03T12:59:36Z,171,100,WF,Minimal,Human,NA,NA,NFIS,17,15.4,NA,NA,Massachusetts,contained
 2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-08T20:23:42Z,1331,85,WF,Minimal,Human,NA,NA,NFIS,16,10.1,NA,NA,North Carolina,not_contained
 2025-NMGNF-000261,Iron Fire,NM,Catron,2025-05-04T17:33:00Z,2025-05-12T16:17:31Z,482,100,WF,Minimal,Natural,33.354059,-108.591733,NFIS,14,6.3,NA,NA,New Mexico,contained
@@ -22,22 +22,22 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AZA3S-250644,Pim-Bryce Fire,AZ,Graham,2025-05-08T02:00:00Z,2025-05-13T23:07:29Z,3294,80,WF,Minimal,Human,32.945847,-109.882558,NFIS,10,5,NA,NA,Arizona,not_contained
 2025-WIWIS-FIRE123779,Fire 75 Fire,WI,Burnett,2025-05-08T18:00:00Z,2025-05-11T23:54:50Z,0.42,NA,WF,NA,Human,45.93988,-92.27863,NFIS,10,7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123781,Anderson Lake Fire,WI,Oconto,2025-05-08T20:25:00Z,2025-05-12T12:43:09Z,0.02,NA,WF,NA,Human,45.12183,-88.42125,NFIS,10,6.4,NA,NA,Wisconsin,not_contained
-2025-MTNWS-000072L,Lu Wolf Prairie Fire,MT,Lincoln,2025-05-09T16:17:15Z,2025-05-13T17:11:53Z,102,100,WF,Minimal,Undetermined,48.3406,-115.039,NFIS,9,5.2,NA,NA,Montana,contained
+2025-MTNWS-000072L,Lu Wolf Prairie Fire,MT,Lincoln,2025-05-09T16:17:15Z,2025-05-13T17:11:53Z,102,100,WF,Minimal,Undetermined,48.3406,-115.039,NFIS,9,5.3,NA,NA,Montana,contained
 2025-WIWIS-FIRE123790,Rye Bluff Fire,WI,Jackson,2025-05-09T17:50:00Z,2025-05-11T23:54:50Z,0.3,NA,WF,NA,Human,44.30326,-90.86842,NFIS,9,7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123797,Pine Island Fire,WI,Vilas,2025-05-09T19:45:00Z,2025-05-11T23:54:50Z,1.4,NA,WF,NA,Human,45.99293,-89.21723,NFIS,9,7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123798,Creamery Fire,WI,Ashland,2025-05-09T21:15:00Z,2025-05-16T20:24:28Z,1.64,NA,WF,NA,Human,46.00938,-90.40465,NFIS,9,2.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123804,Coffee Fire,WI,Marathon,2025-05-10T06:00:00Z,2025-05-11T23:54:50Z,0.1,NA,WF,NA,Human,44.94352,-89.38782,NFIS,8,7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123813,Payette Fire,WI,Marinette,2025-05-10T17:00:00Z,2025-05-12T12:41:11Z,0.89,NA,WF,NA,Human,45.75441,-87.91462,NFIS,8,6.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123822,Eddie Fire,WI,Vilas,2025-05-10T19:00:00Z,2025-05-11T23:54:50Z,0.4,NA,WF,NA,Human,45.90353,-89.10867,NFIS,8,7,NA,NA,Wisconsin,not_contained
-2025-MTLG52-000397,Cottonwood - Wibaux Fire,MT,Wibaux,2025-05-11T14:47:00Z,2025-05-14T14:53:22Z,10,NA,WF,NA,Human,47.208321,-104.318002,NFIS,7,4.3,NA,NA,Montana,not_contained
+2025-MTLG52-000397,Cottonwood - Wibaux Fire,MT,Wibaux,2025-05-11T14:47:00Z,2025-05-14T14:53:22Z,10,NA,WF,NA,Human,47.208321,-104.318002,NFIS,7,4.4,NA,NA,Montana,not_contained
 2025-NDFTA-000371,Baked Bean Fire,ND,Benson,2025-05-11T17:22:49Z,2025-05-11T22:23:21Z,50,NA,WF,NA,Undetermined,48.007222,-99.02,NFIS,7,7,NA,NA,North Dakota,not_contained
-2025-MN2QS-001729,Camp House Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-18T21:52:38Z,12337,31,WF,Minimal,Undetermined,47.372203,-91.433036,NFIS,7,0,NA,NA,Minnesota,not_contained
+2025-MN2QS-001729,Camp House Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-18T21:52:38Z,12337,31,WF,Minimal,Undetermined,47.372203,-91.433036,NFIS,7,0.1,NA,NA,Minnesota,not_contained
 2025-MNRLA-000268,West Rd Fire,MN,Beltrami,2025-05-11T18:58:44Z,2025-05-14T18:47:59Z,69,NA,WF,NA,Undetermined,48.12135,-95.31799,NFIS,7,4.2,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123842,Korpi Rd Fire,WI,Bayfield,2025-05-11T19:11:00Z,2025-05-14T20:03:18Z,19.1,NA,WF,NA,Human,46.61476,-91.47588,NFIS,7,4.1,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123866,Swiss-Jack Pine Fire,WI,Burnett,2025-05-12T05:00:00Z,2025-05-14T14:39:39Z,49.5,100,WF,Minimal,Human,46.01557,-92.41594,NFIS,6,4.3,NA,NA,Wisconsin,contained
-2025-WIWIS-FIRE123855,Weigh Station Fire,WI,Douglas,2025-05-12T15:45:00Z,2025-05-12T19:29:14Z,0.25,NA,WF,NA,Human,46.61437,-91.9331,NFIS,6,6.1,NA,NA,Wisconsin,not_contained
-2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-18T21:55:27Z,16281,0,WF,Minimal,Human,47.372131,-92.016281,NFIS,6,0,NA,NA,Minnesota,not_contained
-2025-WIWIS-FIRE123856,Jagiello Fire,WI,Oconto,2025-05-12T16:30:00Z,2025-05-12T19:38:26Z,0.25,NA,WF,NA,Human,44.95866,-88.06699,NFIS,6,6.1,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123866,Swiss-Jack Pine Fire,WI,Burnett,2025-05-12T05:00:00Z,2025-05-14T14:39:39Z,49.5,100,WF,Minimal,Human,46.01557,-92.41594,NFIS,6,4.4,NA,NA,Wisconsin,contained
+2025-WIWIS-FIRE123855,Weigh Station Fire,WI,Douglas,2025-05-12T15:45:00Z,2025-05-12T19:29:14Z,0.25,NA,WF,NA,Human,46.61437,-91.9331,NFIS,6,6.2,NA,NA,Wisconsin,not_contained
+2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-18T21:55:27Z,16332,0,WF,Minimal,Human,47.372131,-92.016281,NFIS,6,0.1,NA,NA,Minnesota,not_contained
+2025-WIWIS-FIRE123856,Jagiello Fire,WI,Oconto,2025-05-12T16:30:00Z,2025-05-12T19:38:26Z,0.25,NA,WF,NA,Human,44.95866,-88.06699,NFIS,6,6.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123861,640th St Fire,WI,Dunn,2025-05-12T18:15:00Z,2025-05-16T20:25:23Z,1.02,NA,WF,NA,Undetermined,45.02891,-91.83951,NFIS,6,2.1,NA,NA,Wisconsin,not_contained
 2025-MN2JS-001824,Bello Lake Fire,MN,Itasca,2025-05-12T19:29:00Z,2025-05-14T19:47:08Z,19,NA,WF,NA,Undetermined,47.669952,-93.687919,NFIS,6,4.1,NA,NA,Minnesota,not_contained
 2025-MN2PS-001825,Munger Shaw Fire,MN,St. Louis,2025-05-12T19:37:00Z,2025-05-13T16:13:58Z,1700,75,WF,Moderate,Undetermined,47.080229,-92.343839,NFIS,6,5.3,NA,NA,Minnesota,not_contained
@@ -50,7 +50,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123895,E Way Fire,WI,Douglas,2025-05-14T13:32:00Z,2025-05-14T15:21:03Z,0.1,NA,WF,NA,Human,46.58185,-91.99497,NFIS,4,4.3,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123899,Oak Hollow Fire,WI,Juneau,2025-05-14T17:35:00Z,2025-05-14T20:08:02Z,0.63,NA,WF,NA,Human,43.94316,-90.06171,NFIS,4,4.1,NA,NA,Wisconsin,not_contained
 2025-MEMES-25001560,Pennington Pond Fire Fire,ME,Aroostook,2025-05-14T20:13:00Z,2025-05-15T18:09:12Z,49,NA,WF,NA,Human,NA,NA,NFIS,4,3.2,NA,NA,Maine,not_contained
-2025-WIWIS-FIRE123913,White Lightning Fire,WI,Waupaca,2025-05-15T05:00:00Z,2025-05-16T14:32:11Z,1.14,NA,WF,NA,Natural,44.37749,-88.92065,NFIS,3,2.3,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123913,White Lightning Fire,WI,Waupaca,2025-05-15T05:00:00Z,2025-05-16T14:32:11Z,1.14,NA,WF,NA,Natural,44.37749,-88.92065,NFIS,3,2.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123905,Bridge Fire,WI,Juneau,2025-05-15T18:45:00Z,2025-05-16T12:45:36Z,0.22,NA,WF,NA,Human,43.94305,-90.03986,NFIS,3,2.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123907,Tiger Fire,WI,Lincoln,2025-05-15T19:18:00Z,2025-05-16T20:23:45Z,0.71,NA,WF,NA,Human,45.48727,-89.75442,NFIS,3,2.1,NA,NA,Wisconsin,not_contained
 2025-FLFNF-001496,Shanty 2 Fire,FL,Marion,2025-05-15T22:41:00Z,2025-05-16T12:52:43Z,103,NA,WF,NA,Human,29.3379,-81.7257,NFIS,3,2.4,NA,NA,Florida,not_contained
@@ -59,7 +59,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123937,Raven Fire,WI,Oneida,2025-05-16T05:00:00Z,2025-05-17T13:21:31Z,0.26,NA,WF,NA,Human,45.76961,-89.71721,NFIS,2,1.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123916,Trout Pond Fire,WI,Iron,2025-05-16T16:20:00Z,2025-05-16T20:31:37Z,0.08,NA,WF,NA,Human,46.45049,-90.20608,NFIS,2,2.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123918,Deerhorn Fire,WI,Oneida,2025-05-16T17:15:00Z,2025-05-16T20:26:37Z,0.12,NA,WF,NA,Human,45.6429,-89.26435,NFIS,2,2.1,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123935,Willow Fire,WI,Oneida,2025-05-16T21:21:00Z,2025-05-17T14:46:16Z,0.07,NA,WF,NA,Human,45.5548,-89.98939,NFIS,2,1.3,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123935,Willow Fire,WI,Oneida,2025-05-16T21:21:00Z,2025-05-17T14:46:16Z,0.07,NA,WF,NA,Human,45.5548,-89.98939,NFIS,2,1.4,NA,NA,Wisconsin,not_contained
 2025-NMN3S-000308,Carrizo Fire,NM,Grant,2025-05-17T19:28:00Z,2025-05-18T18:49:08Z,137,NA,WF,NA,Natural,32.726167,-107.7655,NFIS,1,0.2,NA,NA,New Mexico,not_contained
 NA,Robinson Fire,CA,Merced,2025-05-13T13:48:24Z,2025-05-14T06:39:27Z,120,100,Wildfire,NA,NA,37.498636,-120.44704,Cal Fire,5,4,"Snelling Road & Robinson Road, South of Snelling",https://www.fire.ca.gov/incidents/2025/5/13/robinson-fire/,California,contained
 NA,L7a 2 Fire,CA,Merced,2025-05-13T21:35:17Z,2025-05-14T06:39:52Z,120,100,Wildfire,NA,NA,37.493638,-120.445783,Cal Fire,5,4,"Robinson Road and Spring Road, south of Merced River",https://www.fire.ca.gov/incidents/2025/5/13/l7a-2-fire/,California,contained
@@ -76,6 +76,6 @@ NA,12th St / B St Fire,CA,Fresno,2025-05-17T21:16:20Z,2025-05-18T09:30:28Z,10,10
 NA,Jacobs Fire,CA,Fresno,2025-05-17T21:06:13Z,2025-05-18T09:30:32Z,15,100,Wildfire,NA,NA,36.639031,-119.313661,Cal Fire,1,0,Clayton Ave and South Jacobs Ave in Orange Cove,https://www.fire.ca.gov/incidents/2025/5/17/jacobs-fire/,California,contained
 NA,Adams Fire,CA,Fresno,2025-05-17T23:42:45Z,2025-05-18T08:53:38Z,30,100,Wildfire,NA,NA,36.631825,-119.317698,Cal Fire,1,0,Adams Ave and 10th St in Orange Cove,https://www.fire.ca.gov/incidents/2025/5/17/adams-fire/,California,contained
 NA,Grange Fire,CA,Stanislaus,2025-05-18T08:58:06Z,2025-05-18T14:43:12Z,30,100,Wildfire,NA,NA,37.6693899,-120.4395747,Cal Fire,0,0,"Highway 132 and Old La Grange Rd. , La Grange",https://www.fire.ca.gov/incidents/2025/5/18/grange-fire/,California,contained
-NA,Sunset Fire,CA,Placer,2025-05-18T13:43:22Z,2025-05-18T15:36:52Z,10,25,Wildfire,NA,NA,38.824583,-121.349272,Cal Fire,0,0,"Sunset Blvd. West cross of Fiddyment Road, Lincoln",https://www.fire.ca.gov/incidents/2025/5/18/sunset-fire/,California,not_contained
-NA,Corn Fire,CA,Fresno,2025-05-18T13:47:18Z,2025-05-18T15:25:22Z,30,NA,Wildfire,NA,NA,36.661361,-119.14466,Cal Fire,0,0,Cornflower Lane east of Squaw Valley Road in Yokuts Valley,https://www.fire.ca.gov/incidents/2025/5/18/corn-fire/,California,not_contained
-NA,Panoche Fire,CA,Fresno,2025-05-18T14:48:51Z,2025-05-18T15:29:13Z,27,NA,Wildfire,NA,NA,36.63874,-120.624598,Cal Fire,0,0,Unknown / TBD,https://www.fire.ca.gov/incidents/2025/5/18/panoche-fire/,California,not_contained
+NA,Sunset Fire,CA,Placer,2025-05-18T13:43:22Z,2025-05-18T16:08:13Z,15,25,Wildfire,NA,NA,38.824583,-121.349272,Cal Fire,0,0,"Sunset Blvd. West cross of Fiddyment Road, Lincoln",https://www.fire.ca.gov/incidents/2025/5/18/sunset-fire/,California,not_contained
+NA,Corn Fire,CA,Fresno,2025-05-18T13:47:18Z,2025-05-18T16:02:29Z,26,NA,Wildfire,NA,NA,36.661361,-119.14466,Cal Fire,0,0,Cornflower Lane east of Squaw Valley Road in Yokuts Valley,https://www.fire.ca.gov/incidents/2025/5/18/corn-fire/,California,not_contained
+NA,Panoche Fire,CA,Fresno,2025-05-18T14:48:51Z,2025-05-18T16:12:13Z,27,NA,Wildfire,NA,NA,36.63874,-120.624598,Cal Fire,0,0,"West Ponoche Road near I-5, Chaney Ranch",https://www.fire.ca.gov/incidents/2025/5/18/panoche-fire/,California,not_contained
