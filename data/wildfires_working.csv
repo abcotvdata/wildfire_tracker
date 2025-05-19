@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,98,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,77,71.6,NA,NA,South Carolina,not_contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,61,12.6,NA,NA,Florida,contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,58,47.7,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,58,47.8,NA,NA,Florida,contained
 2025-NCBRP-250053,Glass Hollow Fire,VA,Nelson,2025-03-27T18:02:00Z,2025-04-02T22:06:33Z,90,40,WF,Minimal,Undetermined,37.964444,-78.861,NFIS,52,46.3,NA,NA,Virginia,not_contained
 2025-NCNCS-250045,Bee Rock Creek Fire,NC,McDowell,2025-04-15T20:49:00Z,2025-04-21T20:58:57Z,2085,100,WF,Minimal,Undetermined,NA,NA,NFIS,33,27.4,NA,NA,North Carolina,contained
 2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,90,WF,Minimal,Undetermined,34.900313,-77.104551,NFIS,21,17.6,NA,NA,North Carolina,not_contained
