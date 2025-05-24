@@ -46,7 +46,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123866,Swiss-Jack Pine Fire,WI,Burnett,2025-05-12T05:00:00Z,2025-05-14T14:39:39Z,49.5,100,WF,Minimal,Human,46.01557,-92.41594,NFIS,12,10,NA,NA,Wisconsin,contained
 2025-MAMAS-DFG-RX16,Rx Dfg-Montagueplainswma_bitzer1 Fire,MA,Franklin,2025-05-12T15:01:40Z,2025-05-21T17:05:01Z,6,NA,RX,NA,NA,NA,NA,NFIS,11,2.9,NA,NA,Massachusetts,not_contained
 2025-MAMAS-DFG-RX15,Rx Dfg-Mashpeepinebarrenswma-G1g2 Fire,MA,Barnstable,2025-05-12T15:09:41Z,2025-05-21T17:01:01Z,48,NA,RX,NA,NA,NA,NA,NFIS,11,2.9,NA,NA,Massachusetts,not_contained
-2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-23T14:51:19Z,16089,62,WF,Minimal,Human,47.372131,-92.016281,NFIS,11,0.9,NA,NA,Minnesota,not_contained
+2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-23T14:51:19Z,16089,62,WF,Minimal,Human,47.372131,-92.016281,NFIS,11,1,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123874,Cutoff 8 Fire,WI,Rusk,2025-05-12T17:18:00Z,2025-05-13T19:15:19Z,0.02,NA,WF,NA,Human,45.52367,-91.06184,NFIS,11,10.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123869,Cutoff 3 Fire,WI,Rusk,2025-05-12T17:18:00Z,2025-05-13T19:15:19Z,0.04,NA,WF,NA,Human,45.52368,-91.0682,NFIS,11,10.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123873,Cutoff 7 Fire,WI,Rusk,2025-05-12T17:18:00Z,2025-05-13T19:15:19Z,0.09,NA,WF,NA,Human,45.52367,-91.06184,NFIS,11,10.8,NA,NA,Wisconsin,not_contained
@@ -80,7 +80,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123953,Panthers Fire,WI,Vilas,2025-05-20T05:00:00Z,2025-05-20T21:28:56Z,0.11,NA,WF,NA,Human,46.23498,-89.71012,NFIS,4,3.7,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123954,6.45081932040915e-02 Fire,WI,Vilas,2025-05-20T05:00:00Z,2025-05-23T18:00:20Z,0.01,NA,WF,NA,Human,46.18916,-89.52308,NFIS,4,0.8,NA,NA,Wisconsin,not_contained
 2025-MAMAS-FD03RX02,Fd03 Rx 02 Fire,MA,Bristol,2025-05-20T14:00:42Z,2025-05-21T23:00:56Z,19,NA,RX,NA,NA,NA,NA,NFIS,3,2.6,NA,NA,Massachusetts,not_contained
-2025-MAMAS-DFG-RX20,Rx Dfg-Montagueplainswma_bitzer2-6_powerline Fire,MA,Franklin,2025-05-20T15:00:54Z,2025-05-21T17:23:53Z,39,NA,RX,NA,NA,NA,NA,NFIS,3,2.8,NA,NA,Massachusetts,not_contained
+2025-MAMAS-DFG-RX20,Rx Dfg-Montagueplainswma_bitzer2-6_powerline Fire,MA,Franklin,2025-05-20T15:00:54Z,2025-05-21T17:23:53Z,39,NA,RX,NA,NA,NA,NA,NFIS,3,2.9,NA,NA,Massachusetts,not_contained
 2025-MN2LS-002051,Pipeline Fire,MN,Itasca,2025-05-20T16:36:26Z,2025-05-20T19:53:46Z,2,NA,WF,NA,Undetermined,47.402778,-93.077547,NFIS,3,3.7,NA,NA,Minnesota,not_contained
 2025-MN2LS-002061,Wild Turkey Fire,MN,St. Louis,2025-05-20T18:54:31Z,2025-05-21T22:43:33Z,0.1,NA,WF,NA,Undetermined,47.466219,-92.239301,NFIS,3,2.6,NA,NA,Minnesota,not_contained
 2025-AZCNF-000285,Cedar Fire,AZ,Pinal,2025-05-20T23:47:00Z,2025-05-23T01:56:20Z,10.5,NA,WF,NA,Human,32.594559,-110.762302,NFIS,3,1.5,NA,NA,Arizona,not_contained
