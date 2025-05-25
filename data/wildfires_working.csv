@@ -2,7 +2,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,100,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,83,77.6,NA,NA,South Carolina,contained
 2025-TXRGR-000016,Cottam Fire,TX,Hidalgo,2025-03-10T01:45:43Z,2025-03-10T20:06:37Z,306,100,WF,Minimal,Undetermined,NA,NA,NFIS,76,75.4,NA,NA,Texas,contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,67,18.6,NA,NA,Florida,contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,64,53.7,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,64,53.8,NA,NA,Florida,contained
 2025-MAMAS-FD020061,Fd020061 Fire,MA,Plymouth,2025-04-04T18:30:23Z,2025-05-23T18:34:45Z,17.5,NA,WF,NA,Human,NA,NA,NFIS,50,1.5,NA,NA,Massachusetts,not_contained
 2025-AKMID-250006,Yta Moose Creek Rx Fire,AK,Fairbanks North Star,2025-04-08T22:55:08Z,2025-05-22T17:53:49Z,263.4,NA,RX,NA,Human,64.69925,-146.9802,NFIS,46,2.5,NA,NA,Alaska,not_contained
 2025-AKMID-250010,Yta Stuart Creek Rx Fire,AK,Fairbanks North Star,2025-04-08T23:20:35Z,2025-05-22T17:56:01Z,13942.4,NA,RX,NA,Human,64.70676,-146.6044,NFIS,46,2.5,NA,NA,Alaska,not_contained
@@ -47,7 +47,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MAMAS-DFG-RX17,Rx Dfg-Francescranewma-Fsh Fire,MA,Barnstable,2025-05-13T17:05:34Z,2025-05-21T17:10:01Z,20,NA,RX,NA,NA,NA,NA,NFIS,11,3.5,NA,NA,Massachusetts,not_contained
 2025-AZASF-000213,Greer Fire,AZ,Apache,2025-05-13T17:47:56Z,2025-05-21T16:22:32Z,20308,88,WF,Minimal,Undetermined,34.021733,-109.456272,NFIS,11,3.6,NA,NA,Arizona,not_contained
 2025-WIWIS-FIRE123890,Namakagon Fire,WI,Sawyer,2025-05-13T20:30:00Z,2025-05-20T13:11:26Z,2.93,NA,WF,NA,Human,46.12832,-91.40648,NFIS,11,4.7,NA,NA,Wisconsin,not_contained
-2025-MNRLA-000281,Rl 128 Old Ponemah Rd Fire,MN,Beltrami,2025-05-15T19:04:45Z,2025-05-20T18:50:54Z,20,NA,WF,NA,Undetermined,47.88442,-94.85666,NFIS,9,4.4,NA,NA,Minnesota,not_contained
+2025-MNRLA-000281,Rl 128 Old Ponemah Rd Fire,MN,Beltrami,2025-05-15T19:04:45Z,2025-05-20T18:50:54Z,20,NA,WF,NA,Undetermined,47.88442,-94.85666,NFIS,9,4.5,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123913,White Lightning Fire,WI,Waupaca,2025-05-15T22:30:00Z,2025-05-16T14:32:11Z,1.14,NA,WF,NA,Natural,44.37749,-88.92065,NFIS,9,8.6,NA,NA,Wisconsin,not_contained
 2025-FLFNF-001496,Shanty 2 Fire,FL,Marion,2025-05-15T22:41:00Z,2025-05-23T14:16:28Z,298,NA,WF,NA,Human,29.3379,-81.7257,NFIS,9,1.6,NA,NA,Florida,not_contained
 2025-WIWIS-FIRE123916,Trout Pond Fire,WI,Iron,2025-05-16T16:20:00Z,2025-05-16T20:31:37Z,0.08,NA,WF,NA,Human,46.45049,-90.20608,NFIS,8,8.4,NA,NA,Wisconsin,not_contained
