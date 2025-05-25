@@ -1,5 +1,5 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,100,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,83,77.6,NA,NA,South Carolina,contained
+2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,100,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,83,77.7,NA,NA,South Carolina,contained
 2025-TXRGR-000016,Cottam Fire,TX,Hidalgo,2025-03-10T01:45:43Z,2025-03-10T20:06:37Z,306,100,WF,Minimal,Undetermined,NA,NA,NFIS,76,75.5,NA,NA,Texas,contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,67,18.7,NA,NA,Florida,contained
 2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,64,53.8,NA,NA,Florida,contained
@@ -42,7 +42,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123859,Cutoff 1 Fire,WI,Rusk,2025-05-12T17:18:00Z,2025-05-13T19:15:19Z,0.08,NA,WF,NA,Human,45.52382,-91.05925,NFIS,12,11.5,NA,NA,Wisconsin,not_contained
 2025-MN2JS-001822,Juneberry Fire Fire,MN,Itasca,2025-05-12T19:25:00Z,2025-05-23T16:36:58Z,8,NA,WF,NA,Undetermined,47.649833,-93.485883,NFIS,12,1.6,NA,NA,Minnesota,not_contained
 2025-MN2PS-001825,Munger Shaw Fire,MN,St. Louis,2025-05-12T19:37:00Z,2025-05-13T16:13:58Z,1259,95,WF,Minimal,Undetermined,47.080229,-92.343839,NFIS,12,11.6,NA,NA,Minnesota,not_contained
-2025-WIWIS-FIRE123875,Warthog Fire,WI,Juneau,2025-05-12T20:25:00Z,2025-05-13T20:57:31Z,108.91,100,WF,Minimal,Human,44.10197,-90.26762,NFIS,12,11.4,NA,NA,Wisconsin,contained
+2025-WIWIS-FIRE123875,Warthog Fire,WI,Juneau,2025-05-12T20:25:00Z,2025-05-13T20:57:31Z,108.91,100,WF,Minimal,Human,44.10197,-90.26762,NFIS,12,11.5,NA,NA,Wisconsin,contained
 2025-WIWIS-FIRE123883,Hay Creek Fire,WI,Dunn,2025-05-12T21:40:00Z,2025-05-20T13:18:44Z,11.2,NA,WF,NA,Human,45.13926,-91.75653,NFIS,12,4.8,NA,NA,Wisconsin,not_contained
 2025-MAMAS-DFG-RX17,Rx Dfg-Francescranewma-Fsh Fire,MA,Barnstable,2025-05-13T17:05:34Z,2025-05-21T17:10:01Z,20,NA,RX,NA,NA,NA,NA,NFIS,11,3.6,NA,NA,Massachusetts,not_contained
 2025-AZASF-000213,Greer Fire,AZ,Apache,2025-05-13T17:47:56Z,2025-05-21T16:22:32Z,20308,88,WF,Minimal,Undetermined,34.021733,-109.456272,NFIS,11,3.6,NA,NA,Arizona,not_contained
@@ -61,8 +61,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AZCNF-000285,Cedar Fire,AZ,Pinal,2025-05-20T23:47:00Z,2025-05-23T01:56:20Z,10.5,NA,WF,NA,Human,32.594559,-110.762302,NFIS,4,2.2,NA,NA,Arizona,not_contained
 2025-AZCNF-000289,Cody Fire,AZ,Pinal,2025-05-21T22:29:00Z,2025-05-25T03:07:17Z,1223,47,WF,Minimal,Undetermined,32.563239,-110.71928,NFIS,3,0.2,NA,NA,Arizona,not_contained
 2025-AKMID-250011,Yta 100 Yard Buffer Rx Fire,AK,Fairbanks North Star,2025-05-22T18:29:22Z,2025-05-22T19:06:43Z,17.4,NA,RX,NA,Undetermined,64.686383,-146.828333,NFIS,2,2.5,NA,NA,Alaska,not_contained
-2025-MN2JS-002102,72 Fire,MN,Itasca,2025-05-22T18:43:23Z,2025-05-23T16:08:51Z,0.1,NA,WF,NA,Undetermined,47.093454,-93.294087,NFIS,2,1.6,NA,NA,Minnesota,not_contained
-2025-MNSUF-002104,Horse River Fire,MN,Lake,2025-05-22T19:48:12Z,2025-05-23T16:03:49Z,5,NA,WF,NA,Natural,48.092667,-91.708,NFIS,2,1.6,NA,NA,Minnesota,not_contained
+2025-MN2JS-002102,72 Fire,MN,Itasca,2025-05-22T18:43:23Z,2025-05-23T16:08:51Z,0.1,NA,WF,NA,Undetermined,47.093454,-93.294087,NFIS,2,1.7,NA,NA,Minnesota,not_contained
+2025-MNSUF-002104,Horse River Fire,MN,Lake,2025-05-22T19:48:12Z,2025-05-23T16:03:49Z,5,NA,WF,NA,Natural,48.092667,-91.708,NFIS,2,1.7,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123958,Antler 2 Fire,WI,Douglas,2025-05-22T20:20:00Z,2025-05-23T18:06:58Z,0.04,NA,WF,NA,Human,46.20301,-91.79922,NFIS,2,1.6,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123957,Antler Fire,WI,Douglas,2025-05-22T20:20:00Z,2025-05-23T18:06:58Z,2.48,NA,WF,NA,Human,46.20211,-91.79927,NFIS,2,1.6,NA,NA,Wisconsin,not_contained
 2025-CACDD-008240,Veh/Mc/Icso Fire,CA,Imperial,2025-05-22T21:39:53Z,2025-05-23T15:47:30Z,0.1,NA,WF,NA,Undetermined,32.679,-116.095,NFIS,2,1.7,NA,NA,California,not_contained
