@@ -2,7 +2,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-SCSCS-250089,Covington Drive Fire,SC,Horry,2025-03-02T15:12:07Z,2025-03-08T16:02:14Z,2059,100,WF,Minimal,Undetermined,33.804617,-78.8596,NFIS,85,79.6,NA,NA,South Carolina,contained
 2025-TXRGR-000016,Cottam Fire,TX,Hidalgo,2025-03-10T01:45:43Z,2025-03-10T20:06:37Z,306,100,WF,Minimal,Undetermined,NA,NA,NFIS,78,77.4,NA,NA,Texas,contained
 2025-FLEVP-000814,Johnson Fire,FL,Miami-Dade,2025-03-18T22:12:00Z,2025-05-06T14:24:25Z,8340,100,WF,Minimal,Undetermined,25.324297,-80.832251,NFIS,69,20.6,NA,NA,Florida,contained
-2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,66,55.7,NA,NA,Florida,contained
+2025-FLFNF-000846,Fernadez Fire,FL,Lake,2025-03-21T17:02:00Z,2025-04-01T11:47:47Z,565,100,WF,Minimal,Undetermined,29.028883,-81.436367,NFIS,66,55.8,NA,NA,Florida,contained
 2025-MAMAS-FD020061,Fd020061 Fire,MA,Plymouth,2025-04-04T18:30:23Z,2025-05-23T18:34:45Z,17.5,NA,WF,NA,Human,NA,NA,NFIS,52,3.5,NA,NA,Massachusetts,not_contained
 2025-GUWPP-000453,Asdonoa Hill 20250408 Fire,GU,Guam,2025-04-08T05:00:00Z,2025-05-26T19:07:53Z,NA,NA,WF,NA,NA,NA,NA,NFIS,49,0.4,NA,NA,NA,not_contained
 2025-AKMID-250006,Yta Moose Creek Rx Fire,AK,Fairbanks North Star,2025-04-08T22:55:08Z,2025-05-22T17:53:49Z,263.4,NA,RX,NA,Human,64.69925,-146.9802,NFIS,48,4.5,NA,NA,Alaska,not_contained
@@ -29,7 +29,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AZASF-000213,Greer Fire,AZ,Apache,2025-05-13T17:47:56Z,2025-05-21T16:22:32Z,20308,100,WF,Minimal,Undetermined,34.021733,-109.456272,NFIS,13,5.6,NA,NA,Arizona,contained
 2025-MNRLA-000281,Rl 128 Old Ponemah Rd Fire,MN,Beltrami,2025-05-15T19:04:45Z,2025-05-20T18:50:54Z,20,NA,WF,NA,Undetermined,47.88442,-94.85666,NFIS,11,6.5,NA,NA,Minnesota,not_contained
 2025-FLFNF-001496,Shanty 2 Fire,FL,Marion,2025-05-15T22:41:00Z,2025-05-23T14:16:28Z,298,NA,WF,NA,Human,29.3379,-81.7257,NFIS,11,3.6,NA,NA,Florida,not_contained
-2025-WIWIS-FIRE123924,Thousand Isle Fire,WI,Vilas,2025-05-16T20:05:00Z,2025-05-20T19:02:41Z,0.06,NA,WF,NA,Human,46.18739,-89.38085,NFIS,10,6.4,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123924,Thousand Isle Fire,WI,Vilas,2025-05-16T20:05:00Z,2025-05-20T19:02:41Z,0.06,NA,WF,NA,Human,46.18739,-89.38085,NFIS,10,6.5,NA,NA,Wisconsin,not_contained
 2025-CACDD-008099,Jaw Fire,CA,Kern,2025-05-19T21:23:00Z,2025-05-24T22:10:36Z,4327,90,WF,Minimal,Undetermined,35.3022,-118.002,NFIS,7,2.3,NA,NA,California,not_contained
 2025-MAMAS-FD03RX02,Fd03 Rx 02 Fire,MA,Bristol,2025-05-20T14:00:42Z,2025-05-21T23:00:56Z,19,NA,RX,NA,NA,NA,NA,NFIS,6,5.3,NA,NA,Massachusetts,not_contained
 2025-MAMAS-DFG-RX20,Rx Dfg-Montagueplainswma_bitzer2-6_powerline Fire,MA,Franklin,2025-05-20T15:00:54Z,2025-05-21T17:23:53Z,39,NA,RX,NA,NA,NA,NA,NFIS,6,5.5,NA,NA,Massachusetts,not_contained
@@ -44,7 +44,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123960,Fen Fire,WI,Iron,2025-05-23T15:35:00Z,2025-05-23T18:00:56Z,0.01,NA,WF,NA,Human,46.2695,-90.05688,NFIS,3,3.5,NA,NA,Wisconsin,not_contained
 2025-CACDD-008339,Sf/Cbt/82a Fire,CA,San Bernardino,2025-05-24T20:10:18Z,2025-05-25T21:04:39Z,43,NA,WF,NA,Undetermined,34.41394,-117.102913,NFIS,2,1.4,NA,NA,California,not_contained
 2025-MN1DS-002141,Sw Fox Fire,MN,Roseau,2025-05-25T18:42:20Z,2025-05-25T21:33:36Z,15,NA,WF,NA,Undetermined,48.8165,-95.941833,NFIS,1,1.3,NA,NA,Minnesota,not_contained
-2025-AZA1S-250754,Knolls Fire,AZ,Coconino,2025-05-25T19:50:02Z,2025-05-26T02:13:15Z,4.76,NA,WF,NA,Undetermined,35.387109,-111.843665,NFIS,1,1.1,NA,NA,Arizona,not_contained
+2025-AZA1S-250754,Knolls Fire,AZ,Coconino,2025-05-25T19:50:02Z,2025-05-26T02:13:15Z,4.76,NA,WF,NA,Undetermined,35.387109,-111.843665,NFIS,1,1.2,NA,NA,Arizona,not_contained
 2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,3000,0,WF,Active,Undetermined,45.069819,-120.496463,NFIS,1,0.2,NA,NA,Oregon,not_contained
 2025-NMROD-000245,Camp Fire,NM,Lincoln,2025-05-25T21:57:00Z,2025-05-27T01:43:47Z,720,0,WF,Active,Human,33.485756,-105.541648,NFIS,1,0.2,NA,NA,New Mexico,not_contained
 2025-AZKNF-000387,Town Fire,AZ,Coconino,2025-05-26T22:46:00Z,2025-05-27T00:19:12Z,1,NA,WF,NA,Undetermined,35.20788,-112.137232,NFIS,0,0.2,NA,NA,Arizona,not_contained
