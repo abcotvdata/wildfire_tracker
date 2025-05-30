@@ -770,6 +770,8 @@ saveWidget(socal_map, 'docs/socal_map.html', title = "ABC7 Southern California W
 
 saveWidget(hawaii_map, 'docs/hawaii_map.html', title = "ABC Owned Television Stations Hawaii Wildfire Tracker")
 
+saveWidget(national_map, 'docs/national_map.html', title = "ABC Owned Television Stations Hawaii Wildfire Tracker")
+
 #saveWidget(idaho_map, 'docs/idaho_map.html', title = "ABC Owned Television Stations and ABC News Idaho Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(colorado_map, 'docs/colorado_map.html', title = "ABC Owned Television Stations and ABC News Colorado Wildfire Tracker", selfcontained = TRUE)
 #saveWidget(nevada_map, 'docs/nevada_map.html', title = "ABC Owned Television Stations and ABC News Nevada Wildfire Tracker", selfcontained = TRUE)
