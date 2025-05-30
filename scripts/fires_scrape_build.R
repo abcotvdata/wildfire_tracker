@@ -705,7 +705,7 @@ hawaii_map <- base_map %>%
 national_map <- base_map %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
   addControl(position = "topleft", html = hawaiiheaderhtml, className="map-title") %>%
-  setView(-84.593673, 44.766579, zoom = 5) %>%
+  setView(-84.110274, 49.671495, zoom = 5) %>%
   addEasyButtonBar(easyButton(icon = fire_button, title = fire_buttontitle,
                               onClick = JS("function(btn, map) {
                      
