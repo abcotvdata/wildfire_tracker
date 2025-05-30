@@ -700,6 +700,56 @@ hawaii_map <- base_map %>%
         document.getElementsByClassName('leaflet-control-layers')[0].style.display = 'none';
     }")
 
+# NATIONAL - ZOOMED TO HIGHEST RISK LEVEL AREAS
+
+national_map <- base_map %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addControl(position = "topleft", html = hawaiiheaderhtml, className="map-title") %>%
+  setView(-84.593673, 44.766579, zoom = 5) %>%
+  addEasyButtonBar(easyButton(icon = fire_button, title = fire_buttontitle,
+                              onClick = JS("function(btn, map) {
+                     
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[0].click();
+
+                }")), 
+                   easyButton(icon = hotspot_button, title = hotspot_buttontitle,
+                              onClick = JS("function(btn, map) {
+
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[1].click();
+
+                }")),
+                   
+                   easyButton(icon = smoke_button, title = smoke_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[2].click();
+                              }")),
+                   
+                   easyButton(icon = aq_button, title = aq_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[3].click();
+                              }")),
+                   
+                   easyButton(icon = forecast_button, title = forecast_buttontitle,
+                              onClick = JS("function(btn, map) {
+                              
+                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                             layerControlElement.getElementsByTagName('input')[4].click();
+
+                }"))) %>% 
+  htmlwidgets::onRender("function(el, x) {
+        L.control.zoom({ position: 'topleft'}).addTo(this)
+    }") %>%
+  htmlwidgets::onRender("
+    function(el, x) {
+        document.getElementsByClassName('leaflet-control-layers')[0].style.display = 'none';
+    }")
+
 
 #largest_calfire_map <- california_map %>%
 #  setView(top_calfires[1,7], top_calfires[1,6], zoom = 10)
