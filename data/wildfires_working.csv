@@ -4,13 +4,13 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,100,WF,Minimal,Undetermined,34.900313,-77.104551,NFIS,34,30.3,NA,NA,North Carolina,contained
 2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-08T20:23:42Z,1331,95,WF,Minimal,Human,NA,NA,NFIS,29,23.1,NA,NA,North Carolina,not_contained
 2025-IDNCF-000110,Shingle Fire,ID,Idaho,2025-05-05T20:33:00Z,2025-05-06T23:10:13Z,70,40,WF,Minimal,Human,45.38065,-116.44,NFIS,26,25,NA,NA,Idaho,not_contained
-2025-WIWIS-FIRE123759,Monarch Fire,WI,Oneida,2025-05-06T21:45:00Z,2025-05-11T23:54:50Z,0.72,NA,WF,NA,Human,45.49278,-89.19365,NFIS,25,19.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123759,Monarch Fire,WI,Oneida,2025-05-06T21:45:00Z,2025-05-11T23:54:50Z,0.72,NA,WF,NA,Human,45.49278,-89.19365,NFIS,25,20,NA,NA,Wisconsin,not_contained
 2025-MTBRF-000091,Big Creek Fire,MT,Ravalli,2025-05-06T21:51:00Z,2025-05-09T20:42:16Z,75,0,WF,Minimal,Undetermined,46.4813,-114.291,NFIS,25,22.1,NA,NA,Montana,not_contained
-2025-WIWIS-FIRE123801,Cross 1 Fire,WI,Juneau,2025-05-09T22:25:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,43.88369,-89.99545,NFIS,22,19.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123801,Cross 1 Fire,WI,Juneau,2025-05-09T22:25:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,43.88369,-89.99545,NFIS,22,20,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123810,Swamp Creek Fire,WI,Douglas,2025-05-10T15:58:00Z,2025-05-12T12:44:18Z,0.8,NA,WF,NA,Human,46.56969,-91.96044,NFIS,21,19.4,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123819,Convoy Fire,WI,Taylor,2025-05-10T18:50:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,45.20549,-90.40703,NFIS,21,19.9,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123829,Bass Lake Fire,WI,Oneida,2025-05-10T23:45:00Z,2025-05-11T23:54:50Z,0.03,NA,WF,NA,Human,45.5972,-89.50951,NFIS,20,19.9,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123833,Helen Creek Fire,WI,Vilas,2025-05-11T14:00:00Z,2025-05-11T23:54:50Z,0.05,NA,WF,NA,Human,46.1887,-89.40132,NFIS,20,19.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123819,Convoy Fire,WI,Taylor,2025-05-10T18:50:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,45.20549,-90.40703,NFIS,21,20,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123829,Bass Lake Fire,WI,Oneida,2025-05-10T23:45:00Z,2025-05-11T23:54:50Z,0.03,NA,WF,NA,Human,45.5972,-89.50951,NFIS,20,20,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123833,Helen Creek Fire,WI,Vilas,2025-05-11T14:00:00Z,2025-05-11T23:54:50Z,0.05,NA,WF,NA,Human,46.1887,-89.40132,NFIS,20,20,NA,NA,Wisconsin,not_contained
 2025-MN2QS-001729,Camp House Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-21T01:06:34Z,12071,98,WF,Minimal,Undetermined,47.372203,-91.433036,NFIS,20,10.9,NA,NA,Minnesota,not_contained
 2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-31T12:25:13Z,16090,94,WF,Minimal,Human,47.372131,-92.016281,NFIS,19,0.4,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123869,Cutoff 3 Fire,WI,Rusk,2025-05-12T17:18:00Z,2025-05-13T19:15:19Z,0.04,NA,WF,NA,Human,45.52368,-91.0682,NFIS,19,18.1,NA,NA,Wisconsin,not_contained
@@ -66,5 +66,5 @@ NA,Grubbs Fire,CA,Butte,2025-05-30T10:32:48Z,2025-05-31T09:55:49Z,10,100,Wildfir
 NA,Hensley Fire,CA,Madera,2025-05-30T10:37:09Z,2025-05-30T21:56:19Z,24,100,Wildfire,NA,NA,37.100283,-119.883749,Cal Fire,1,1,"Road 400 and Road 603, near Hensley Lake",https://www.fire.ca.gov/incidents/2025/5/30/hensley-fire/,California,contained
 NA,Emily Fire,CA,Los Angeles,2025-05-30T16:07:41Z,2025-05-31T06:58:30Z,10,100,Wildfire,NA,NA,34.7561047,-118.46498,Cal Fire,1,0,"Near West 180th Street and West Ave E-8,  North of Fairmont",https://www.fire.ca.gov/incidents/2025/5/30/emily-fire/,California,contained
 NA,Henderson Fire,CA,San Diego,2025-05-30T17:45:04Z,2025-05-31T15:21:30Z,300,15,Wildfire,NA,NA,33.3803841,-117.0608758,Cal Fire,1,0,Henderson Road and Pala Mission Road,https://www.fire.ca.gov/incidents/2025/5/30/henderson-fire/,California,not_contained
-NA,State Fire,CA,Riverside,2025-05-31T11:48:32Z,2025-05-31T14:04:23Z,10,NA,Wildfire,NA,NA,33.799855,-116.972054,Cal Fire,0,0,Unknown / TBD,https://www.fire.ca.gov/incidents/2025/5/31/state-fire/,California,not_contained
-NA,Coyote Fire,CA,Lassen,2025-05-31T13:24:49Z,2025-05-31T15:33:50Z,22,100,Wildfire,NA,NA,40.4095336,-120.526195,Cal Fire,0,0,"Rice Canyon Road north of Coyote Lane, Susanville",https://www.fire.ca.gov/incidents/2025/5/31/coyote-fire/,California,contained
+NA,State Fire,CA,Riverside,2025-05-31T11:48:32Z,2025-05-31T15:43:46Z,10,100,Wildfire,NA,NA,33.799855,-116.972054,Cal Fire,0,0,State St. X Idyllwild Dr. in San Jacinto,https://www.fire.ca.gov/incidents/2025/5/31/state-fire/,California,contained
+NA,Coyote Fire,CA,Lassen,2025-05-31T13:24:49Z,2025-05-31T15:43:07Z,22,100,Wildfire,NA,NA,40.4095336,-120.526195,Cal Fire,0,0,"Rice Canyon Road north of Coyote Lane, Susanville",https://www.fire.ca.gov/incidents/2025/5/31/coyote-fire/,California,contained
