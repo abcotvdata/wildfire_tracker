@@ -5,9 +5,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-08T20:23:42Z,1331,95,WF,Minimal,Human,NA,NA,NFIS,30,24.1,NA,NA,North Carolina,not_contained
 2025-IDNCF-000110,Shingle Fire,ID,Idaho,2025-05-05T20:33:00Z,2025-05-06T23:10:13Z,70,40,WF,Minimal,Human,45.38065,-116.44,NFIS,27,26,NA,NA,Idaho,not_contained
 2025-MTBRF-000091,Big Creek Fire,MT,Ravalli,2025-05-06T21:51:00Z,2025-05-09T20:42:16Z,75,0,WF,Minimal,Undetermined,46.4813,-114.291,NFIS,26,23.1,NA,NA,Montana,not_contained
-2025-WIWIS-FIRE123819,Convoy Fire,WI,Taylor,2025-05-10T18:50:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,45.20549,-90.40703,NFIS,22,20.9,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123829,Bass Lake Fire,WI,Oneida,2025-05-10T23:45:00Z,2025-05-11T23:54:50Z,0.03,NA,WF,NA,Human,45.5972,-89.50951,NFIS,21,20.9,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123833,Helen Creek Fire,WI,Vilas,2025-05-11T14:00:00Z,2025-05-11T23:54:50Z,0.05,NA,WF,NA,Human,46.1887,-89.40132,NFIS,21,20.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123819,Convoy Fire,WI,Taylor,2025-05-10T18:50:00Z,2025-05-11T23:54:50Z,0.07,NA,WF,NA,Human,45.20549,-90.40703,NFIS,22,21,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123829,Bass Lake Fire,WI,Oneida,2025-05-10T23:45:00Z,2025-05-11T23:54:50Z,0.03,NA,WF,NA,Human,45.5972,-89.50951,NFIS,21,21,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123833,Helen Creek Fire,WI,Vilas,2025-05-11T14:00:00Z,2025-05-11T23:54:50Z,0.05,NA,WF,NA,Human,46.1887,-89.40132,NFIS,21,21,NA,NA,Wisconsin,not_contained
 2025-MN2QS-001729,Camp House Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-21T01:06:34Z,12071,98,WF,Minimal,Undetermined,47.372203,-91.433036,NFIS,21,11.9,NA,NA,Minnesota,not_contained
 2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-05-31T12:25:13Z,16091,94,WF,Minimal,Human,47.372131,-92.016281,NFIS,20,1.4,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123874,Cutoff 8 Fire,WI,Rusk,2025-05-12T17:18:00Z,2025-05-13T19:15:19Z,0.02,NA,WF,NA,Human,45.52367,-91.06184,NFIS,20,19.1,NA,NA,Wisconsin,not_contained
@@ -43,12 +43,11 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NVHUMX-020175,Bighorn Fire,NV,Humboldt,2025-05-28T18:35:22Z,2025-05-29T20:04:29Z,18.1,NA,WF,NA,Human,40.883051,-117.871113,NFIS,4,3.1,NA,NA,Nevada,not_contained
 2025-AKGAD-000096,Mountain Village Dump Fire,AK,Kusilvak,2025-05-28T21:05:00Z,2025-05-28T23:39:42Z,34.48,NA,WF,NA,Human,62.0871,-163.7517,NFIS,4,4,NA,NA,Alaska,not_contained
 2025-LAKIF-000161,Par Fire,LA,Vernon,2025-05-30T16:20:30Z,2025-05-30T19:28:43Z,33.03,NA,WF,NA,Undetermined,30.965583,-93.201667,NFIS,2,2.1,NA,NA,Louisiana,not_contained
-2025-CAJTP-008653,Eureka Fire,CA,San Bernardino,2025-05-30T18:57:36Z,2025-06-01T02:17:18Z,214,NA,WF,NA,Undetermined,34.07991,-116.373085,NFIS,2,0.8,NA,NA,California,not_contained
+2025-CAJTP-008653,Eureka Fire,CA,San Bernardino,2025-05-30T18:57:36Z,2025-06-01T02:17:18Z,214,NA,WF,NA,Undetermined,34.07991,-116.373085,NFIS,2,0.9,NA,NA,California,not_contained
 2025-MTNWS-250207,Banana Lake Fire,MT,Sanders,2025-05-31T22:25:27Z,2025-06-01T21:39:32Z,600,NA,WF,NA,Human,47.518835,-114.845796,NFIS,1,0,NA,NA,Montana,not_contained
 2025-MNFDA-1748824580,Fox Dr Fire Fire,MN,Carlton,2025-05-31T23:34:00Z,2025-06-01T19:37:07Z,0.1,NA,WF,NA,Human,NA,NA,NFIS,0,0.1,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE124011,Hwy 63 Fire,WI,Sawyer,2025-06-01T05:00:00Z,2025-06-01T20:03:36Z,3.3,NA,WF,NA,Human,45.99441,-91.51306,NFIS,0,0.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124013,Pow Rd Fire,WI,Washburn,2025-06-01T20:07:00Z,2025-06-01T20:52:21Z,0.1,NA,WF,NA,Human,45.91201,-91.75318,NFIS,0,0.1,NA,NA,Wisconsin,not_contained
-2025-WANES-001351,South Craig Fire,WA,Spokane,2025-06-01T21:06:00Z,2025-06-01T22:18:00Z,0.1,NA,WF,NA,Undetermined,47.580694,-117.609082,NFIS,0,0,NA,NA,Washington,not_contained
 NA,Democrat Fire,CA,Kern,2025-05-18T15:39:17Z,2025-05-28T07:31:02Z,1700,100,Wildfire,NA,NA,35.479027,-118.7094208,Cal Fire,14,4,"Highway 178 near of Upper Richbar Picnic Area, Sequoia National Forest",https://www.fire.ca.gov/incidents/2025/5/18/democrat-fire/,California,contained
 NA,Jaw Fire,CA,Kern,2025-05-19T14:23:58Z,2025-05-25T17:31:12Z,4327,90,Wildfire,NA,NA,35.3158,-118.2225,Cal Fire,13,7,Kelso Valley Road & Jawbone Canyon Road,https://www.fire.ca.gov/incidents/2025/5/19/jaw-fire/,California,not_contained
 NA,Run Fire,CA,Madera,2025-05-26T14:45:12Z,2025-05-27T22:03:55Z,421,100,Wildfire,NA,NA,37.08447,-119.99113,Cal Fire,6,5,"Road 607 and Road D29, Raymond CA",https://www.fire.ca.gov/incidents/2025/5/26/run-fire/,California,contained
