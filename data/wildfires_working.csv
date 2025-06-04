@@ -4,10 +4,10 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,100,WF,Minimal,Undetermined,34.900313,-77.104551,NFIS,37,33.9,NA,NA,North Carolina,contained
 2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-08T20:23:42Z,1331,100,WF,Minimal,Human,NA,NA,NFIS,32,26.7,NA,NA,North Carolina,contained
 2025-WICNF-250045,Riley 8 Rx Fire,WI,Price,2025-05-04T15:22:29Z,2025-06-03T19:34:08Z,212,NA,RX,NA,Undetermined,45.8345,-90.148233,NFIS,30,0.8,NA,NA,Wisconsin,not_contained
-2025-WICNF-250046,Riley 7 Rx Fire,WI,Price,2025-05-04T20:37:48Z,2025-06-03T19:37:07Z,18,NA,RX,NA,Undetermined,45.818317,-90.161362,NFIS,30,0.7,NA,NA,Wisconsin,not_contained
+2025-WICNF-250046,Riley 7 Rx Fire,WI,Price,2025-05-04T20:37:48Z,2025-06-03T19:37:07Z,18,NA,RX,NA,Undetermined,45.818317,-90.161362,NFIS,30,0.8,NA,NA,Wisconsin,not_contained
 2025-WICNF-250047,Riley 10 Rx Fire,WI,Price,2025-05-04T20:38:37Z,2025-06-03T19:29:56Z,316,NA,RX,NA,Undetermined,45.841522,-90.149517,NFIS,30,0.8,NA,NA,Wisconsin,not_contained
 2025-WICNF-250048,Riley 5w Rx Fire,WI,Price,2025-05-04T20:39:12Z,2025-06-03T19:22:20Z,50,NA,RX,NA,Undetermined,45.840445,-90.184193,NFIS,30,0.8,NA,NA,Wisconsin,not_contained
-2025-WICNF-250049,Wilson Flowage Rx Fire,WI,Price,2025-05-05T12:48:00Z,2025-06-03T19:39:45Z,150,NA,RX,NA,Undetermined,45.802367,-90.2133,NFIS,30,0.7,NA,NA,Wisconsin,not_contained
+2025-WICNF-250049,Wilson Flowage Rx Fire,WI,Price,2025-05-05T12:48:00Z,2025-06-03T19:39:45Z,150,NA,RX,NA,Undetermined,45.802367,-90.2133,NFIS,30,0.8,NA,NA,Wisconsin,not_contained
 2025-IDNCF-000110,Shingle Fire,ID,Idaho,2025-05-05T20:33:00Z,2025-05-06T23:10:13Z,70,40,WF,Minimal,Human,45.38065,-116.44,NFIS,29,28.6,NA,NA,Idaho,not_contained
 2025-WIWIS-FIRE123736,Ackley 1 Fire,WI,Ashland,2025-05-05T21:50:00Z,2025-06-02T15:51:51Z,6.54,NA,WF,NA,Human,46.60933,-90.81186,NFIS,29,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123738,Ackley 3 Fire,WI,Ashland,2025-05-05T21:50:00Z,2025-06-02T15:51:51Z,15.47,NA,WF,NA,Human,46.60933,-90.81186,NFIS,29,1.9,NA,NA,Wisconsin,not_contained
@@ -21,14 +21,14 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MN2PS-001825,Munger Shaw Fire,MN,St. Louis,2025-05-12T19:37:00Z,2025-05-13T16:13:58Z,1259,95,WF,Minimal,Undetermined,47.080229,-92.343839,NFIS,22,21.9,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123878,Plank 2 Fire,WI,Columbia,2025-05-12T19:40:00Z,2025-06-02T15:51:51Z,0.31,NA,WF,NA,Human,43.58372,-89.40674,NFIS,22,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123866,Swiss-Jack Pine Fire,WI,Burnett,2025-05-12T20:12:00Z,2025-06-02T15:51:51Z,49.55,100,WF,Minimal,Human,46.01557,-92.41594,NFIS,22,1.9,NA,NA,Wisconsin,contained
-2025-WIWIS-FIRE123867,Swiss-Aspen Fire,WI,Burnett,2025-05-12T20:12:00Z,2025-06-03T12:30:48Z,9.44,NA,WF,NA,Human,46.01557,-92.41594,NFIS,22,1,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123867,Swiss-Aspen Fire,WI,Burnett,2025-05-12T20:12:00Z,2025-06-03T12:30:48Z,9.44,NA,WF,NA,Human,46.01557,-92.41594,NFIS,22,1.1,NA,NA,Wisconsin,not_contained
 2025-AZASF-000213,Greer Fire,AZ,Apache,2025-05-13T17:47:56Z,2025-05-21T16:22:32Z,20308,100,WF,Minimal,Human,34.021733,-109.456272,NFIS,21,13.9,NA,NA,Arizona,contained
 2025-WIWIS-FIRE123902,Timber Fire,WI,Richland,2025-05-15T15:20:00Z,2025-06-02T15:51:51Z,0.09,NA,WF,NA,Human,43.21789,-90.28346,NFIS,19,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123907,Tiger Fire,WI,Lincoln,2025-05-15T19:18:00Z,2025-06-02T15:51:51Z,0.71,NA,WF,NA,Human,45.48727,-89.75442,NFIS,19,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123918,Deerhorn Fire,WI,Oneida,2025-05-16T17:15:00Z,2025-06-02T15:51:51Z,0.12,NA,WF,NA,Human,45.6429,-89.26435,NFIS,18,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123935,Willow Fire,WI,Oneida,2025-05-16T21:00:00Z,2025-06-02T15:51:51Z,0.07,NA,WF,NA,Human,45.5548,-89.98939,NFIS,18,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123955,Raven Fire,WI,Vilas,2025-05-20T03:00:00Z,2025-06-02T15:51:51Z,0.24,NA,WF,NA,Human,45.97769,-89.85904,NFIS,15,1.9,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE123951,Paladin Fire,WI,Price,2025-05-20T13:50:00Z,2025-06-02T15:51:51Z,0.31,NA,WF,NA,Human,45.77301,-90.42267,NFIS,14,1.9,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123951,Paladin Fire,WI,Price,2025-05-20T13:50:00Z,2025-06-02T15:51:51Z,0.31,NA,WF,NA,Human,45.77301,-90.42267,NFIS,15,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123953,Panthers Fire,WI,Vilas,2025-05-20T17:15:00Z,2025-06-02T17:01:26Z,0.11,NA,WF,NA,Human,46.23498,-89.71012,NFIS,14,1.9,NA,NA,Wisconsin,not_contained
 2025-AZCNF-000289,Cody Fire,AZ,Pinal,2025-05-21T22:29:00Z,2025-05-28T03:07:19Z,1223,95,WF,Minimal,Human,32.563239,-110.71928,NFIS,13,7.4,NA,NA,Arizona,not_contained
 2025-MNSUF-002104,Horse River Fire,MN,Lake,2025-05-22T19:48:00Z,2025-06-01T18:16:29Z,13,0,WF,Minimal,Natural,48.092667,-91.708,NFIS,12,2.8,NA,NA,Minnesota,not_contained
@@ -44,7 +44,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NMLNF-000257,Flume Fire,NM,Lincoln,2025-05-26T22:01:00Z,2025-05-27T16:26:52Z,1.5,NA,WF,NA,Human,33.3314,-105.69,NFIS,8,7.9,NA,NA,New Mexico,not_contained
 2025-NMGNF-000333,Paradise Fire,NM,Catron,2025-05-27T00:53:00Z,2025-05-29T01:34:52Z,727,95,WF,Minimal,Undetermined,34.1383,-108.497,NFIS,8,6.5,NA,NA,New Mexico,not_contained
 2025-MN1DS-002177,Cloverleaf Fire,MN,Marshall,2025-05-27T14:25:00Z,2025-06-02T19:11:26Z,5.5,NA,WF,NA,Undetermined,48.179377,-96.046665,NFIS,7,1.8,NA,NA,Minnesota,not_contained
-2025-MSMSS-015245,Escatawpa Fire,MS,Jackson,2025-05-27T14:47:47Z,2025-05-27T15:04:34Z,25,NA,WF,NA,Human,NA,NA,NFIS,7,7.9,NA,NA,Mississippi,not_contained
+2025-MSMSS-015245,Escatawpa Fire,MS,Jackson,2025-05-27T14:47:47Z,2025-05-27T15:04:34Z,25,NA,WF,NA,Human,NA,NA,NFIS,7,8,NA,NA,Mississippi,not_contained
 2025-MAMAS-DFG-RX22,Rx Dfg-Francescranewmanorth_f-H-P-Q-R-S Fire,MA,Barnstable,2025-05-27T15:32:25Z,2025-05-29T15:49:40Z,100,NA,RX,NA,NA,NA,NA,NFIS,7,5.9,NA,NA,Massachusetts,not_contained
 2025-MAMAS-DFG-RX23,Rx Dfg-Quaboagwma_f1e1e2 Fire,MA,Worcester,2025-05-28T15:55:04Z,2025-05-29T15:56:00Z,40,NA,RX,NA,NA,NA,NA,NFIS,6,5.9,NA,NA,Massachusetts,not_contained
 2025-NVHUMX-020175,Bighorn Fire,NV,Humboldt,2025-05-28T18:35:22Z,2025-05-29T20:04:29Z,18.1,NA,WF,NA,Human,40.883051,-117.871113,NFIS,6,5.7,NA,NA,Nevada,not_contained
@@ -59,7 +59,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE124006,Broken Arrow Fire,WI,Taylor,2025-05-31T19:00:00Z,2025-06-02T15:51:51Z,9.98,NA,WF,NA,Human,45.12057,-90.52215,NFIS,3,1.9,NA,NA,Wisconsin,not_contained
 2025-NVHUMX-020184,Us 95 Mm 7 Fire,NV,Humboldt,2025-05-31T19:47:54Z,2025-06-02T14:22:18Z,4.9,NA,WF,NA,Undetermined,41.067678,-117.718493,NFIS,3,2,NA,NA,Nevada,not_contained
 2025-NDTMA-000439,Turtleville Fire,ND,Rolette,2025-05-31T20:38:00Z,2025-06-03T21:36:58Z,0.1,NA,WF,NA,Human,48.836667,-99.724722,NFIS,3,0.7,NA,NA,North Dakota,not_contained
-2025-MTNWS-250207,Banana Lake Fire,MT,Sanders,2025-05-31T22:25:27Z,2025-06-04T11:32:05Z,913,15,WF,Moderate,Human,47.518835,-114.845796,NFIS,3,0.1,NA,NA,Montana,not_contained
+2025-MTNWS-250207,Banana Lake Fire,MT,Sanders,2025-05-31T22:25:27Z,2025-06-04T11:32:05Z,929,15,WF,Moderate,Human,47.518835,-114.845796,NFIS,3,0.1,NA,NA,Montana,not_contained
 2025-MNFDA-1748824580,Fox Dr Fire Fire,MN,Carlton,2025-05-31T23:34:00Z,2025-06-02T15:51:51Z,0.1,NA,WF,NA,Human,NA,NA,NFIS,3,1.9,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE124009,Double N Fire,WI,Sawyer,2025-06-01T05:00:00Z,2025-06-02T15:51:51Z,4.6,NA,WF,NA,Human,45.88161,-91.31491,NFIS,3,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124008,Kagerville 1 Fire,WI,Ashland,2025-06-01T05:00:00Z,2025-06-02T15:51:51Z,4,NA,WF,NA,Human,46.6088,-90.74313,NFIS,3,1.9,NA,NA,Wisconsin,not_contained
@@ -67,13 +67,13 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE124014,Elf Owl Fire,WI,Marathon,2025-06-01T05:00:00Z,2025-06-02T15:51:51Z,0.36,NA,WF,NA,Human,44.6968,-89.6141,NFIS,3,1.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124015,Rolling Bear Fire,WI,Oneida,2025-06-01T05:00:00Z,2025-06-02T15:51:51Z,0.15,NA,WF,NA,Human,45.87617,-89.83223,NFIS,3,1.9,NA,NA,Wisconsin,not_contained
 2025-NDTMA-000445,Peltier Corner Fire,ND,Rolette,2025-06-01T14:45:00Z,2025-06-02T20:52:05Z,15,NA,WF,NA,Human,48.839167,-99.726667,NFIS,2,1.7,NA,NA,North Dakota,not_contained
-2025-WIWIS-FIRE124011,Stress Fire,WI,Sawyer,2025-06-01T17:00:00Z,2025-06-03T19:43:27Z,3.29,NA,WF,NA,Human,45.99441,-91.51306,NFIS,2,0.7,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE124011,Stress Fire,WI,Sawyer,2025-06-01T17:00:00Z,2025-06-03T19:43:27Z,3.29,NA,WF,NA,Human,45.99441,-91.51306,NFIS,2,0.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124013,Pow Rd Fire,WI,Washburn,2025-06-01T20:07:00Z,2025-06-02T18:09:40Z,0.89,NA,WF,NA,Human,45.91201,-91.75318,NFIS,2,1.8,NA,NA,Wisconsin,not_contained
 2025-MIMIS-720011,Holliday Fire Fire,MI,Roscommon,2025-06-01T20:30:00Z,2025-06-02T16:36:39Z,0.8,NA,WF,NA,Human,NA,NA,NFIS,2,1.9,NA,NA,Michigan,not_contained
 2025-CACND-000523,Honolulu Fire,CA,Kern,2025-06-01T21:33:00Z,2025-06-02T00:14:21Z,1,NA,WF,NA,Undetermined,35.140053,-118.370998,NFIS,2,2.6,NA,NA,California,not_contained
 2025-ORFWF-250118,Telephone Fire,OR,Klamath,2025-06-01T23:23:00Z,2025-06-02T20:49:36Z,43,NA,WF,NA,Undetermined,42.789196,-121.588026,NFIS,2,1.7,NA,NA,Oregon,not_contained
 2025-MIMIS-220007,Carney Outcrop Fire Fire,MI,Dickinson,2025-06-02T00:31:00Z,2025-06-02T20:50:01Z,8,NA,WF,NA,Human,NA,NA,NFIS,2,1.7,NA,NA,Michigan,not_contained
-2025-WIWIS-FIRE124028,Buck Fire,WI,Vilas,2025-06-02T05:00:00Z,2025-06-03T13:23:41Z,2,NA,WF,NA,Human,46.0144,-89.33912,NFIS,2,1,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE124028,Buck Fire,WI,Vilas,2025-06-02T05:00:00Z,2025-06-03T13:23:41Z,1.4,NA,WF,NA,Human,46.0144,-89.33912,NFIS,2,1,NA,NA,Wisconsin,not_contained
 2025-NMN3S-000350,Conklin Fire,NM,Socorro,2025-06-02T13:16:24Z,2025-06-02T14:09:03Z,2,NA,WF,NA,Undetermined,34.09692,-34.09692,NFIS,2,2,NA,NA,New Mexico,not_contained
 2025-IDIFD-000028,Lava Rd Fire,ID,Bingham,2025-06-03T23:17:38Z,2025-06-04T04:48:43Z,8.1,NA,WF,NA,Undetermined,43.355771,-112.254829,NFIS,0,0.4,NA,NA,Idaho,not_contained
 NA,Democrat Fire,CA,Kern,2025-05-18T15:39:17Z,2025-05-28T07:31:02Z,1700,100,Wildfire,NA,NA,35.479027,-118.7094208,Cal Fire,17,7,"Highway 178 near of Upper Richbar Picnic Area, Sequoia National Forest",https://www.fire.ca.gov/incidents/2025/5/18/democrat-fire/,California,contained
@@ -85,6 +85,6 @@ NA,Cottonwood Fire,CA,Siskiyou,2025-06-02T14:44:15Z,2025-06-04T06:26:26Z,19,100,
 NA,Rector Fire,CA,Fresno,2025-06-02T16:08:08Z,2025-06-04T06:03:35Z,84,76,Wildfire,NA,NA,36.7665646,-119.238331,Cal Fire,2,0,"Elwood Road and Rector Lane, Yokuts Valley",https://www.fire.ca.gov/incidents/2025/6/2/rector-fire/,California,not_contained
 NA,Vista Grande Fire,CA,Solano,2025-06-02T16:04:20Z,2025-06-04T06:28:05Z,62,100,Wildfire,NA,NA,38.276076,-122.0643336,Cal Fire,2,0,"Vista Grande & Capitola Way, Fairfield",https://www.fire.ca.gov/incidents/2025/6/2/vista-grande-fire/,California,contained
 NA,Ford Fire,CA,Fresno,2025-06-03T06:42:55Z,2025-06-04T05:59:58Z,80,62,Wildfire,NA,NA,36.7485076,-119.3741071,Cal Fire,1,0,"Highway 180 & Crawford Avenue, near Yokuts Valley",https://www.fire.ca.gov/incidents/2025/6/3/ford-fire/,California,not_contained
-NA,Fish Fire,CA,Inyo,2025-06-03T13:29:48Z,2025-06-03T21:40:38Z,2,15,Wildfire,NA,NA,37.075,-118.252778,Cal Fire,1,1,"Fish Springs Road & Griffith Road, Fish Springs",https://www.fire.ca.gov/incidents/2025/6/3/fish-fire/,California,not_contained
+NA,Fish Fire,CA,Inyo,2025-06-03T13:29:48Z,2025-06-04T06:39:29Z,2,20,Wildfire,NA,NA,37.075,-118.252778,Cal Fire,1,0,"Fish Springs Road & Griffith Road, Fish Springs",https://www.fire.ca.gov/incidents/2025/6/3/fish-fire/,California,not_contained
 NA,Byers Fire,CA,Lassen,2025-06-03T18:51:21Z,2025-06-03T22:40:11Z,107,10,Wildfire,NA,NA,40.338757,-120.47846,Cal Fire,1,1,"Byers Pass Road & Mariah Way, Janesville",https://www.fire.ca.gov/incidents/2025/6/3/byers-fire/,California,not_contained
-NA,Baxter Fire,CA,Inyo,2025-06-03T20:38:12Z,2025-06-03T21:56:40Z,35,0,Wildfire,NA,NA,37.070967,-118.314192,Cal Fire,1,1,"Near Crater Mountain Wilderness Study Area, Fish Springs",https://www.fire.ca.gov/incidents/2025/6/3/baxter-fire/,California,not_contained
+NA,Baxter Fire,CA,Inyo,2025-06-03T20:38:12Z,2025-06-04T06:39:17Z,32,10,Wildfire,NA,NA,37.070967,-118.314192,Cal Fire,1,0,"Near Crater Mountain Wilderness Study Area, Fish Springs",https://www.fire.ca.gov/incidents/2025/6/3/baxter-fire/,California,not_contained
