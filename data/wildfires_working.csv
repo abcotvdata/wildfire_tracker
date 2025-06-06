@@ -34,14 +34,14 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKUYD-000090,Kathul Fire,AK,Southeast Fairbanks,2025-05-25T15:59:53Z,2025-05-29T16:22:13Z,1008.93,0,WF,Minimal,Natural,65.33,-142.19,NFIS,12,8.3,NA,NA,Alaska,not_contained
 2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,12,10.9,NA,NA,Oregon,contained
 2025-WASES-000153,Second Creek Fire,WA,Chelan,2025-05-26T18:51:00Z,2025-06-01T13:54:09Z,81,77,WF,Minimal,Undetermined,47.716134,-120.614233,NFIS,11,5.4,NA,NA,Washington,not_contained
-2025-WIWIS-FIRE123973,Undaunted Fire,WI,Juneau,2025-05-26T22:40:00Z,2025-06-06T19:28:49Z,1.1,NA,WF,NA,Human,43.98828,-90.0182,NFIS,10,0.1,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE123973,Undaunted Fire,WI,Juneau,2025-05-26T22:40:00Z,2025-06-06T19:28:49Z,1.1,NA,WF,NA,Human,43.98828,-90.0182,NFIS,11,0.1,NA,NA,Wisconsin,not_contained
 2025-MAMAS-DFG-RX22,Rx Dfg-Francescranewmanorth_f-H-P-Q-R-S Fire,MA,Barnstable,2025-05-27T15:32:25Z,2025-05-29T15:49:40Z,100,NA,RX,NA,NA,NA,NA,NFIS,10,8.3,NA,NA,Massachusetts,not_contained
 2025-WIWIS-FIRE123991,Lindquist Lake Fire,WI,Marinette,2025-05-28T04:15:00Z,2025-06-02T15:51:51Z,0.14,NA,WF,NA,Human,45.61626,-88.06327,NFIS,9,4.3,NA,NA,Wisconsin,not_contained
 2025-NVHUMX-020175,Bighorn Fire,NV,Humboldt,2025-05-28T18:35:22Z,2025-05-29T20:04:29Z,18.1,NA,WF,NA,Human,40.883051,-117.871113,NFIS,9,8.1,NA,NA,Nevada,not_contained
-2025-CAJTP-008653,Eureka Fire,CA,San Bernardino,2025-05-30T18:57:36Z,2025-06-01T02:17:18Z,214,NA,WF,NA,Undetermined,34.07991,-116.373085,NFIS,7,5.8,NA,NA,California,not_contained
+2025-CAJTP-008653,Eureka Fire,CA,San Bernardino,2025-05-30T18:57:36Z,2025-06-01T02:17:18Z,214,NA,WF,NA,Undetermined,34.07991,-116.373085,NFIS,7,5.9,NA,NA,California,not_contained
 2025-WIWIS-FIRE123995,Wentworth Fire,WI,Douglas,2025-05-30T21:25:00Z,2025-06-02T15:51:51Z,0.05,NA,WF,NA,Human,46.61892,-91.8355,NFIS,7,4.3,NA,NA,Wisconsin,not_contained
-2025-NVHUMX-020181,Jungo Fire,NV,Humboldt,2025-05-30T22:43:22Z,2025-06-02T14:01:26Z,4.8,NA,WF,NA,Undetermined,40.969146,-117.895614,NFIS,6,4.4,NA,NA,Nevada,not_contained
-2025-NVHUMX-020184,Us 95 Mm 7 Fire,NV,Humboldt,2025-05-31T19:47:54Z,2025-06-02T14:22:18Z,4.9,NA,WF,NA,Undetermined,41.067678,-117.718493,NFIS,6,4.3,NA,NA,Nevada,not_contained
+2025-NVHUMX-020181,Jungo Fire,NV,Humboldt,2025-05-30T22:43:22Z,2025-06-02T14:01:26Z,4.8,NA,WF,NA,Undetermined,40.969146,-117.895614,NFIS,7,4.4,NA,NA,Nevada,not_contained
+2025-NVHUMX-020184,Us 95 Mm 7 Fire,NV,Humboldt,2025-05-31T19:47:54Z,2025-06-02T14:22:18Z,4.9,NA,WF,NA,Undetermined,41.067678,-117.718493,NFIS,6,4.4,NA,NA,Nevada,not_contained
 2025-MTNWS-250207,Banana Lake Fire,MT,Sanders,2025-05-31T22:25:00Z,2025-06-05T01:09:31Z,833,55,WF,Minimal,Human,47.518835,-114.845796,NFIS,6,1.9,NA,NA,Montana,not_contained
 2025-NDTMA-000445,Peltier Corner Fire,ND,Rolette,2025-06-01T14:45:00Z,2025-06-02T20:52:05Z,15,NA,WF,NA,Human,48.839167,-99.726667,NFIS,5,4.1,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE124008,Kagerville 1 Fire,WI,Ashland,2025-06-01T17:23:00Z,2025-06-06T18:19:38Z,3.9,NA,WF,NA,Human,46.6088,-90.74313,NFIS,5,0.2,NA,NA,Wisconsin,not_contained
@@ -50,8 +50,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE124028,Buck Fire,WI,Vilas,2025-06-02T05:00:00Z,2025-06-03T13:23:41Z,1.4,NA,WF,NA,Human,46.0144,-89.33912,NFIS,4,3.4,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124036,Labrador Fire,WI,Crawford,2025-06-02T22:00:00Z,2025-06-06T18:20:20Z,1,NA,WF,NA,Human,43.40536,-90.99788,NFIS,4,0.2,NA,NA,Wisconsin,not_contained
 2025-AZA3S-250815,Ranch Fire,AZ,Santa Cruz,2025-06-04T16:45:00Z,2025-06-05T00:35:01Z,2751,47,WF,Moderate,Natural,34.6192,-112.5357,NFIS,2,1.9,NA,NA,Arizona,not_contained
-2025-MTLG16-000457,Airport - Dawson Fire,MT,Dawson,2025-06-05T19:24:08Z,2025-06-06T16:42:47Z,14.1,NA,WF,NA,Human,47.136223,-104.808479,NFIS,1,0.2,NA,NA,Montana,not_contained
+2025-MTLG16-000457,Airport - Dawson Fire,MT,Dawson,2025-06-05T19:24:08Z,2025-06-06T16:42:47Z,14.1,NA,WF,NA,Human,47.136223,-104.808479,NFIS,1,0.3,NA,NA,Montana,not_contained
 2025-WANES-001381,Eagle Pond #2 Fire,WA,Spokane,2025-06-06T10:38:00Z,2025-06-06T19:47:15Z,1,NA,WF,NA,Human,47.651547,-117.290962,NFIS,0,0.1,NA,NA,Washington,not_contained
+2025-WANES-001385,Nelson Pit Fire,WA,Spokane,2025-06-06T21:45:06Z,2025-06-06T22:37:09Z,0.25,NA,WF,NA,Undetermined,48.014926,-117.348568,NFIS,0,0,NA,NA,Washington,not_contained
 NA,Quail Fire,CA,Shasta,2025-06-04T15:02:01Z,2025-06-05T21:38:50Z,16,100,Wildfire,NA,NA,40.542584,-122.274206,Cal Fire,2,1,"Quail Valley Drive, Redding",https://www.fire.ca.gov/incidents/2025/6/4/quail-fire/,California,contained
 NA,Jaw Fire,CA,Kern,2025-05-19T14:23:58Z,2025-06-01T22:01:46Z,4327,100,Wildfire,NA,NA,35.3158,-118.2225,Cal Fire,18,5,Kelso Valley Road & Jawbone Canyon Road,https://www.fire.ca.gov/incidents/2025/5/19/jaw-fire/,California,contained
 NA,Frazier Fire,CA,Kern,2025-05-29T13:55:00Z,2025-06-03T08:27:22Z,105,85,Wildfire,NA,NA,34.8229,-118.9121,Cal Fire,8,3,"Cuddy Creek at end of Cuddy Canyon Road, Lebec",https://www.fire.ca.gov/incidents/2025/5/29/frazier-fire/,California,not_contained
