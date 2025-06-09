@@ -30,14 +30,14 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MTNWS-250207,Banana Lake Fire,MT,Sanders,2025-05-31T22:25:00Z,2025-06-07T22:05:59Z,833,100,WF,Minimal,Human,47.518835,-114.845796,NFIS,8,1.8,NA,NA,Montana,contained
 2025-NDTMA-000445,Peltier Corner Fire,ND,Rolette,2025-06-01T14:45:00Z,2025-06-02T20:52:05Z,15,NA,WF,NA,Human,48.839167,-99.726667,NFIS,8,6.9,NA,NA,North Dakota,not_contained
 2025-AZA3S-250815,Ranch Fire,AZ,Santa Cruz,2025-06-04T16:45:00Z,2025-06-05T00:35:01Z,2751,70,WF,Minimal,Natural,34.6192,-112.5357,NFIS,5,4.7,NA,NA,Arizona,not_contained
-2025-MN2NS-002340,Camp 90 Creek Fire,MN,St. Louis,2025-06-04T18:49:01Z,2025-06-07T16:29:56Z,10,NA,WF,NA,Natural,48.285977,-92.879791,NFIS,4,2,NA,NA,Minnesota,not_contained
+2025-MN2NS-002340,Camp 90 Creek Fire,MN,St. Louis,2025-06-04T18:49:01Z,2025-06-07T16:29:56Z,10,NA,WF,NA,Natural,48.285977,-92.879791,NFIS,4,2.1,NA,NA,Minnesota,not_contained
 2025-MTLG16-000457,Airport - Dawson Fire,MT,Dawson,2025-06-05T19:24:08Z,2025-06-06T16:42:47Z,14.1,NA,WF,NA,Human,47.136223,-104.808479,NFIS,3,3,NA,NA,Montana,not_contained
 2025-WIWIS-FIRE124043,Pinecone Fire,WI,Vilas,2025-06-07T05:00:00Z,2025-06-09T17:20:39Z,0.16,NA,WF,NA,Undetermined,45.95469,-89.89307,NFIS,2,0,NA,NA,Wisconsin,not_contained
 2025-MIMIS-200010,Spite Trail Fire Fire,MI,Crawford,2025-06-07T18:05:00Z,2025-06-09T15:57:38Z,0.7,NA,WF,NA,Human,NA,NA,NFIS,1,0.1,NA,NA,Michigan,not_contained
 2025-FLEVP-001769,152 Fire,FL,Miami-Dade,2025-06-07T20:13:27Z,2025-06-08T12:48:25Z,1.5,NA,WF,NA,Undetermined,25.622833,-80.529417,NFIS,1,1.2,NA,NA,Florida,not_contained
 2025-UTASF-100094,Sterling Fire,UT,Duchesne,2025-06-07T21:30:00Z,2025-06-09T15:43:34Z,25,NA,WF,NA,Natural,39.93374,-110.68834,NFIS,1,0.1,NA,NA,Utah,not_contained
 2025-MIMIS-600014,River Road Fire,MI,Montmorency,2025-06-07T21:39:00Z,2025-06-09T15:01:16Z,0.1,NA,WF,NA,Human,NA,NA,NFIS,1,0.1,NA,NA,Michigan,not_contained
-2025-MTLG14-000470,Sunday Creek Fire,MT,Custer,2025-06-08T22:00:00Z,2025-06-09T14:02:59Z,12.5,NA,WF,NA,Human,46.492953,-105.76747,NFIS,0,0.1,NA,NA,Montana,not_contained
+2025-MTLG14-000470,Sunday Creek Fire,MT,Custer,2025-06-08T22:00:00Z,2025-06-09T14:02:59Z,12.5,NA,WF,NA,Human,46.492953,-105.76747,NFIS,0,0.2,NA,NA,Montana,not_contained
 2025-MTLG09-000466,Lilly Mae Fire,MT,Powder River,2025-06-09T02:41:00Z,2025-06-09T14:21:23Z,13.5,NA,WF,NA,Undetermined,45.17517,-105.17404,NFIS,0,0.1,NA,NA,Montana,not_contained
 NA,Frazier Fire,CA,Kern,2025-05-29T13:55:00Z,2025-06-09T10:24:10Z,105,100,Wildfire,NA,NA,34.8229,-118.9121,Cal Fire,11,0,"Cuddy Creek at end of Cuddy Canyon Road, Lebec",https://www.fire.ca.gov/incidents/2025/5/29/frazier-fire/,California,contained
 NA,Henderson Fire,CA,San Diego,2025-05-30T17:45:04Z,2025-06-04T06:29:33Z,256,100,Wildfire,NA,NA,33.3803841,-117.0608758,Cal Fire,10,5,Henderson Road and Pala Mission Road,https://www.fire.ca.gov/incidents/2025/5/30/henderson-fire/,California,contained
