@@ -17,7 +17,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-FLBCP-001596,Sandy Fire,FL,Monroe,2025-05-24T19:54:00Z,2025-06-01T21:25:18Z,6656,100,WF,Minimal,Natural,25.761054,-80.840492,NFIS,16,8,NA,NA,Florida,contained
 2025-AKUYD-000090,Kathul Fire,AK,Southeast Fairbanks,2025-05-25T15:59:53Z,2025-05-29T16:22:13Z,1008.93,0,WF,Minimal,Natural,65.33,-142.19,NFIS,15,11.2,NA,NA,Alaska,not_contained
 2025-WIWIS-FIRE123970,Creekside Court Fire,WI,Iron,2025-05-25T21:20:00Z,2025-06-02T15:51:51Z,0.03,NA,WF,NA,Human,46.17839,-90.13568,NFIS,15,7.2,NA,NA,Wisconsin,not_contained
-2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,15,13.8,NA,NA,Oregon,contained
+2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,15,13.9,NA,NA,Oregon,contained
 2025-WIWIS-FIRE123976,Zillinger Fire,WI,Ashland,2025-05-25T23:00:00Z,2025-06-02T15:51:51Z,0.08,NA,WF,NA,Human,46.03824,-90.50025,NFIS,14,7.2,NA,NA,Wisconsin,not_contained
 2025-WASES-000153,Second Creek Fire,WA,Chelan,2025-05-26T18:51:00Z,2025-06-01T13:54:09Z,81,77,WF,Minimal,Undetermined,47.716134,-120.614233,NFIS,14,8.3,NA,NA,Washington,not_contained
 2025-WIWIS-FIRE123982,Chicago Rd Fire,WI,Waushara,2025-05-26T21:00:00Z,2025-06-02T16:56:21Z,0.01,NA,WF,NA,Human,44.0606,-88.98935,NFIS,14,7.2,NA,NA,Wisconsin,not_contained
@@ -36,8 +36,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-ORWSA-000019,Sunny Side Fire,OR,Wasco,2025-06-07T17:49:00Z,2025-06-09T18:21:14Z,755,0,WF,Minimal,Undetermined,44.823879,-121.233273,NFIS,2,0.1,NA,NA,Oregon,not_contained
 2025-MIMIS-200010,Spite Trail Fire Fire,MI,Crawford,2025-06-07T18:05:00Z,2025-06-09T15:57:38Z,0.7,NA,WF,NA,Human,NA,NA,NFIS,2,0.2,NA,NA,Michigan,not_contained
 2025-FLEVP-001769,152 Fire,FL,Miami-Dade,2025-06-07T20:13:27Z,2025-06-08T12:48:25Z,1.5,NA,WF,NA,Undetermined,25.622833,-80.529417,NFIS,2,1.4,NA,NA,Florida,not_contained
-2025-UTASF-100094,Sterling Fire,UT,Duchesne,2025-06-07T21:30:00Z,2025-06-09T15:43:34Z,25,NA,WF,NA,Natural,39.93374,-110.68834,NFIS,2,0.2,NA,NA,Utah,not_contained
-2025-MIMIS-600014,River Road Fire,MI,Montmorency,2025-06-07T21:39:00Z,2025-06-09T15:01:16Z,0.1,NA,WF,NA,Human,NA,NA,NFIS,1,0.3,NA,NA,Michigan,not_contained
+2025-UTASF-100094,Sterling Fire,UT,Duchesne,2025-06-07T21:30:00Z,2025-06-09T15:43:34Z,25,NA,WF,NA,Natural,39.93374,-110.68834,NFIS,2,0.3,NA,NA,Utah,not_contained
+2025-MIMIS-600014,River Road Fire,MI,Montmorency,2025-06-07T21:39:00Z,2025-06-09T15:01:16Z,0.1,NA,WF,NA,Human,NA,NA,NFIS,2,0.3,NA,NA,Michigan,not_contained
 2025-WASPD-000218,Firewater Fire,WA,Yakima,2025-06-08T17:29:00Z,2025-06-09T19:13:33Z,3820,0,WF,Active,Human,46.505066,-120.09655,NFIS,1,0.1,NA,NA,Washington,not_contained
 2025-NVSND-500544,Mule Springs Fire,NV,Clark,2025-06-08T19:00:34Z,2025-06-09T19:41:21Z,70,NA,WF,NA,Undetermined,36.0314,-115.58,NFIS,1,0.1,NA,NA,Nevada,not_contained
 2025-MTLG14-000470,Sunday Creek Fire,MT,Custer,2025-06-08T22:00:00Z,2025-06-09T14:02:59Z,12.5,NA,WF,NA,Human,46.492953,-105.76747,NFIS,0,0.3,NA,NA,Montana,not_contained
