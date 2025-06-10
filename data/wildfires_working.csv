@@ -17,7 +17,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-FLBCP-001596,Sandy Fire,FL,Monroe,2025-05-24T19:54:00Z,2025-06-01T21:25:18Z,6656,100,WF,Minimal,Natural,25.761054,-80.840492,NFIS,17,9,NA,NA,Florida,contained
 2025-AKUYD-000090,Kathul Fire,AK,Southeast Fairbanks,2025-05-25T15:59:53Z,2025-05-29T16:22:13Z,1008.93,0,WF,Minimal,Natural,65.33,-142.19,NFIS,16,12.2,NA,NA,Alaska,not_contained
 2025-WIWIS-FIRE123970,Creekside Court Fire,WI,Iron,2025-05-25T21:20:00Z,2025-06-02T15:51:51Z,0.03,NA,WF,NA,Human,46.17839,-90.13568,NFIS,16,8.2,NA,NA,Wisconsin,not_contained
-2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,15,14.8,NA,NA,Oregon,contained
+2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,16,14.9,NA,NA,Oregon,contained
 2025-WIWIS-FIRE123976,Zillinger Fire,WI,Ashland,2025-05-25T23:00:00Z,2025-06-02T15:51:51Z,0.08,NA,WF,NA,Human,46.03824,-90.50025,NFIS,15,8.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123982,Chicago Rd Fire,WI,Waushara,2025-05-26T21:00:00Z,2025-06-02T16:56:21Z,0.01,NA,WF,NA,Human,44.0606,-88.98935,NFIS,15,8.2,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE123978,Einert Creek Fire,WI,Marathon,2025-05-26T22:30:00Z,2025-06-02T15:51:51Z,0.95,NA,WF,NA,Human,45.06231,-89.90514,NFIS,14,8.2,NA,NA,Wisconsin,not_contained
@@ -36,8 +36,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-ORWSA-000019,Sunny Side Fire,OR,Wasco,2025-06-07T17:49:00Z,2025-06-09T18:21:14Z,750,0,WF,Minimal,Undetermined,44.823879,-121.233273,NFIS,3,1.1,NA,NA,Oregon,not_contained
 2025-MIMIS-200010,Spite Trail Fire Fire,MI,Crawford,2025-06-07T18:05:00Z,2025-06-09T15:57:38Z,0.7,NA,WF,NA,Human,NA,NA,NFIS,3,1.2,NA,NA,Michigan,not_contained
 2025-FLEVP-001769,152 Fire,FL,Miami-Dade,2025-06-07T20:13:27Z,2025-06-08T12:48:25Z,1.5,NA,WF,NA,Undetermined,25.622833,-80.529417,NFIS,3,2.4,NA,NA,Florida,not_contained
-2025-UTASF-100094,Sterling Fire,UT,Duchesne,2025-06-07T21:30:00Z,2025-06-09T15:43:34Z,11.3,0,WF,Active,Natural,39.93374,-110.68834,NFIS,3,1.2,NA,NA,Utah,not_contained
-2025-MIMIS-600014,River Road Fire,MI,Montmorency,2025-06-07T21:39:00Z,2025-06-09T15:01:16Z,0.1,NA,WF,NA,Human,NA,NA,NFIS,2,1.3,NA,NA,Michigan,not_contained
+2025-UTASF-100094,Sterling Fire,UT,Duchesne,2025-06-07T21:30:00Z,2025-06-09T15:43:34Z,11.3,0,WF,Active,Natural,39.93374,-110.68834,NFIS,3,1.3,NA,NA,Utah,not_contained
+2025-MIMIS-600014,River Road Fire,MI,Montmorency,2025-06-07T21:39:00Z,2025-06-09T15:01:16Z,0.1,NA,WF,NA,Human,NA,NA,NFIS,3,1.3,NA,NA,Michigan,not_contained
 2025-MTLG14-000470,Sunday Creek Fire,MT,Custer,2025-06-08T22:00:00Z,2025-06-09T14:02:59Z,12.5,NA,WF,NA,Human,46.492953,-105.76747,NFIS,1,1.3,NA,NA,Montana,not_contained
 2025-MTLG09-000466,Lilly Mae Fire,MT,Powder River,2025-06-09T02:41:00Z,2025-06-09T14:21:23Z,13.5,NA,WF,NA,Undetermined,45.17517,-105.17404,NFIS,1,1.3,NA,NA,Montana,not_contained
 2025-MEMES-25001923,E Smith Brook Road Fire Fire,ME,Aroostook,2025-06-09T18:18:00Z,2025-06-10T18:28:37Z,9.2,NA,WF,NA,Human,NA,NA,NFIS,1,0.1,NA,NA,Maine,not_contained
@@ -55,5 +55,5 @@ NA,Barcelona Fire,CA,San Luis Obispo,2025-06-09T16:28:47Z,2025-06-09T19:17:24Z,6
 NA,Feather Complex Fire,CA,Plumas,2025-06-09T08:04:54Z,2025-06-10T07:52:32Z,19,NA,Wildfire,NA,NA,39.8913619,-121.2897146,Cal Fire,1,0,"Near Grizzly Forebay, Bucks Lake",https://www.fire.ca.gov/incidents/2025/6/9/feather-complex-fire/,California,not_contained
 NA,Antonio Fire,CA,Santa Clara,2025-06-09T16:13:55Z,2025-06-10T12:48:54Z,18,100,Wildfire,NA,NA,37.353834,-121.554371,Cal Fire,1,0,West of San Antonio Valley Road and Upper San Antonio Valley Road in Mount Hamilton,https://www.fire.ca.gov/incidents/2025/6/9/antonio-fire/,California,contained
 NA,Windy Fire,CA,Madera,2025-06-09T15:42:39Z,2025-06-09T22:08:00Z,12,NA,Wildfire,NA,NA,37.34,-119.327,Cal Fire,1,1," Near Mammoth Pool Road and Mammoth Pool Reservoir, Sierra National Forest ",https://www.fire.ca.gov/incidents/2025/6/9/windy-fire/,California,not_contained
-NA,Cahuilla Fire,CA,Riverside,2025-06-10T12:30:13Z,2025-06-10T14:26:48Z,134,0,Wildfire,NA,NA,33.540872,-116.740299,Cal Fire,0,0,"52700 Highway 371, Anza",https://www.fire.ca.gov/incidents/2025/6/10/cahuilla-fire/,California,not_contained
+NA,Cahuilla Fire,CA,Riverside,2025-06-10T12:30:13Z,2025-06-10T14:44:49Z,134,0,Wildfire,NA,NA,33.540872,-116.740299,Cal Fire,0,0,"52700 Highway 371, Anza",https://www.fire.ca.gov/incidents/2025/6/10/cahuilla-fire/,California,not_contained
 NA,McNamara Fire,CA,Merced,2025-06-10T11:59:51Z,2025-06-10T14:19:20Z,30,NA,Wildfire,NA,NA,37.228714,-120.457979,Cal Fire,0,0,"Los Banos Highway and McNamara Road, Merced",https://www.fire.ca.gov/incidents/2025/6/10/mcnamara-fire/,California,not_contained
