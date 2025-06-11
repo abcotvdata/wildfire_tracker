@@ -31,7 +31,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE124036,Labrador Fire,WI,Crawford,2025-06-02T22:00:00Z,2025-06-06T18:20:20Z,1,NA,WF,NA,Human,43.40536,-90.99788,NFIS,9,5.2,NA,NA,Wisconsin,not_contained
 2025-AZA3S-250815,Ranch Fire,AZ,Santa Cruz,2025-06-04T16:45:00Z,2025-06-05T00:35:01Z,2751,90,WF,Minimal,Natural,34.6192,-112.5357,NFIS,7,6.9,NA,NA,Arizona,not_contained
 2025-MN2NS-002340,Camp 90 Creek Fire,MN,St. Louis,2025-06-04T18:49:01Z,2025-06-10T21:01:27Z,10,NA,WF,NA,Natural,48.285977,-92.879791,NFIS,7,1.1,NA,NA,Minnesota,not_contained
-2025-MTLG16-000457,Airport - Dawson Fire,MT,Dawson,2025-06-05T19:24:08Z,2025-06-06T16:42:47Z,14.1,NA,WF,NA,Human,47.136223,-104.808479,NFIS,6,5.2,NA,NA,Montana,not_contained
+2025-MTLG16-000457,Airport - Dawson Fire,MT,Dawson,2025-06-05T19:24:08Z,2025-06-06T16:42:47Z,14.1,NA,WF,NA,Human,47.136223,-104.808479,NFIS,6,5.3,NA,NA,Montana,not_contained
 2025-AZCOF-000576,Basin Fire,AZ,Coconino,2025-06-05T20:36:00Z,2025-06-10T23:03:29Z,9145,42,WF,Moderate,Natural,35.444722,-111.818611,NFIS,6,1,NA,NA,Arizona,not_contained
 2025-WIWIS-FIRE124043,Pinecone Fire,WI,Vilas,2025-06-07T05:00:00Z,2025-06-09T17:20:39Z,0.16,NA,WF,NA,Undetermined,45.95469,-89.89307,NFIS,4,2.2,NA,NA,Wisconsin,not_contained
 2025-ORWSA-000019,Sunny Side Fire,OR,Wasco,2025-06-07T17:49:00Z,2025-06-09T18:21:14Z,755,80,WF,Minimal,Undetermined,44.823879,-121.233273,NFIS,4,2.2,NA,NA,Oregon,not_contained
@@ -43,19 +43,19 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MEMES-25001923,E Smith Brook Road Fire Fire,ME,Aroostook,2025-06-09T18:18:00Z,2025-06-10T18:28:37Z,9.2,NA,WF,NA,Human,NA,NA,NFIS,2,1.2,NA,NA,Maine,not_contained
 2025-MTCES-000261,Hilger Valley Fire,MT,Lewis and Clark,2025-06-09T20:10:39Z,2025-06-11T20:44:37Z,318,15,WF,Active,Undetermined,46.8397,-112.0103,NFIS,2,0.1,NA,NA,Montana,not_contained
 2025-WASES-000226,Red Bridge Fire,WA,Kittitas,2025-06-09T22:57:24Z,2025-06-11T18:05:21Z,60,20,WF,Minimal,Human,47.196468,-120.804304,NFIS,1,0.2,NA,NA,Washington,not_contained
-2025-WASPD-000227,Sand Hollow Fire,WA,Grant,2025-06-09T23:21:09Z,2025-06-11T19:08:35Z,75,NA,WF,NA,Human,46.93556,-119.888725,NFIS,1,0.1,NA,NA,Washington,not_contained
+2025-WASPD-000227,Sand Hollow Fire,WA,Grant,2025-06-09T23:21:09Z,2025-06-11T19:08:35Z,75,NA,WF,NA,Human,46.93556,-119.888725,NFIS,1,0.2,NA,NA,Washington,not_contained
 2025-MTLG50-000475,West Hwy - Garfield Fire,MT,Garfield,2025-06-09T23:49:00Z,2025-06-11T15:27:29Z,2.9,NA,WF,NA,Human,47.349743,-107.01684,NFIS,1,0.3,NA,NA,Montana,not_contained
 2025-MTLG50-000476,Brusett Road - Garfield Fire,MT,Garfield,2025-06-09T23:55:00Z,2025-06-11T15:28:24Z,1.5,NA,WF,NA,Human,47.347078,-107.013228,NFIS,1,0.3,NA,NA,Montana,not_contained
 2025-MTLG50-000480,Section 4 - Garfield Fire,MT,Garfield,2025-06-09T23:58:00Z,2025-06-11T16:34:49Z,1.6,NA,WF,NA,Human,47.346688,-107.012342,NFIS,1,0.3,NA,NA,Montana,not_contained
-2025-MTLG50-000481,Section 9 - Garfield Fire,MT,Garfield,2025-06-10T00:04:00Z,2025-06-11T16:46:58Z,0.7,NA,WF,NA,Human,47.337439,-107.00231,NFIS,1,0.2,NA,NA,Montana,not_contained
+2025-MTLG50-000481,Section 9 - Garfield Fire,MT,Garfield,2025-06-10T00:04:00Z,2025-06-11T16:46:58Z,0.7,NA,WF,NA,Human,47.337439,-107.00231,NFIS,1,0.3,NA,NA,Montana,not_contained
 2025-MTLG50-000482,Section 10 - Garfield Fire,MT,Garfield,2025-06-10T00:09:00Z,2025-06-11T17:10:51Z,0.7,NA,WF,NA,Undetermined,47.333229,-106.998883,NFIS,1,0.2,NA,NA,Montana,not_contained
 2025-MTLG50-000483,Highway - Garfield Fire,MT,Garfield,2025-06-10T00:14:00Z,2025-06-11T17:17:28Z,0.2,NA,WF,NA,Human,47.329286,-106.994291,NFIS,1,0.2,NA,NA,Montana,not_contained
-2025-NVHUMX-020203,Island Fire,NV,Humboldt,2025-06-10T00:20:12Z,2025-06-11T14:22:12Z,0.1,NA,WF,NA,Human,40.959412,-117.495003,NFIS,1,0.3,NA,NA,Nevada,not_contained
+2025-NVHUMX-020203,Island Fire,NV,Humboldt,2025-06-10T00:20:12Z,2025-06-11T14:22:12Z,0.1,NA,WF,NA,Human,40.959412,-117.495003,NFIS,1,0.4,NA,NA,Nevada,not_contained
 2025-CACDD-009149,Bdu/Ranch Fire,CA,San Bernardino,2025-06-10T20:41:49Z,2025-06-11T06:25:26Z,4205,NA,WF,NA,Undetermined,34.421185,-117.131508,NFIS,1,0.7,NA,NA,California,not_contained
 2025-CABDU-008759,Ranch Fire,CA,San Bernardino,2025-06-10T20:45:10Z,2025-06-11T15:04:18Z,4205,NA,WF,NA,Undetermined,34.421197,-117.131495,NFIS,1,0.3,NA,NA,California,not_contained
 2025-MTLG14-000477,Knowlton Fire,MT,Custer,2025-06-10T21:04:00Z,2025-06-11T19:30:11Z,16.8,NA,WF,NA,Human,46.343283,-105.097383,NFIS,1,0.1,NA,NA,Montana,not_contained
 2025-NVCCD-030291,Marie Fire,NV,Washoe,2025-06-10T23:03:57Z,2025-06-11T16:35:41Z,114.9,NA,WF,NA,Human,39.623433,-119.751717,NFIS,0,0.3,NA,NA,Nevada,not_contained
-2025-MTLG16-000484,Crystal Skull - Dawson Fire,MT,Dawson,2025-06-10T23:36:00Z,2025-06-11T19:13:47Z,37,NA,WF,NA,Undetermined,46.924834,-104.620675,NFIS,0,0.1,NA,NA,Montana,not_contained
+2025-MTLG16-000484,Crystal Skull - Dawson Fire,MT,Dawson,2025-06-10T23:36:00Z,2025-06-11T19:13:47Z,37,NA,WF,NA,Undetermined,46.924834,-104.620675,NFIS,0,0.2,NA,NA,Montana,not_contained
 NA,Frazier Fire,CA,Kern,2025-05-29T13:55:00Z,2025-06-09T10:24:10Z,105,100,Wildfire,NA,NA,34.8229,-118.9121,Cal Fire,13,2,"Cuddy Creek at end of Cuddy Canyon Road, Lebec",https://www.fire.ca.gov/incidents/2025/5/29/frazier-fire/,California,contained
 NA,Eureka Fire,CA,San Bernardino,2025-05-30T11:57:36Z,2025-06-10T08:58:03Z,214,100,Wildfire,NA,NA,34.0618164,-116.3269976,Cal Fire,12,1,"Carmelita Place and Carmelita Circle, Yucca Valley",https://www.fire.ca.gov/incidents/2025/5/30/eureka-fire/,California,contained
 NA,Henderson Fire,CA,San Diego,2025-05-30T17:45:04Z,2025-06-04T06:29:33Z,256,100,Wildfire,NA,NA,33.3803841,-117.0608758,Cal Fire,12,7,Henderson Road and Pala Mission Road,https://www.fire.ca.gov/incidents/2025/5/30/henderson-fire/,California,contained
@@ -74,5 +74,5 @@ NA,Letter Fire,CA,Plumas,2025-06-08T22:04:46Z,2025-06-10T18:41:34Z,15,NA,Wildfir
 NA,Lake Fire,CA,Kern,2025-06-10T19:00:41Z,2025-06-10T19:07:44Z,23,NA,Wildfire,NA,NA,35.1160766223395,-119.303064743887,Cal Fire,1,1,"Near Gardner Field Road, Northeast of Maricopa",https://www.fire.ca.gov/incidents/2025/6/10/lake-fire/,California,not_contained
 NA,Little Fire,CA,San Benito,2025-06-11T13:56:00Z,2025-06-11T15:25:14Z,100,30,Wildfire,NA,NA,36.656093,-120.876101,Cal Fire,0,0,"Little Panoche Road & Yturriarte Road, Panoche",https://www.fire.ca.gov/incidents/2025/6/11/little-fire/,California,not_contained
 NA,Willow Fire,CA,Modoc,2025-06-11T11:22:38Z,2025-06-11T15:24:56Z,20,NA,Wildfire,NA,NA,41.812667,-120.245333,Cal Fire,0,0,"Fandango Pass Road & Surprise Valley Road, Fort Bidwell",https://www.fire.ca.gov/incidents/2025/6/11/willow-fire/,California,not_contained
-NA,Dino Fire,CA,Santa Clara,2025-06-11T14:58:38Z,2025-06-11T15:40:16Z,20,0,Wildfire,NA,NA,37.066401,-121.219118,Cal Fire,0,0,"EB Hwy 152 and Dinosaur Point Rd, Pacheco Pass",https://www.fire.ca.gov/incidents/2025/6/11/dino-fire/,California,not_contained
-NA,Miller Fire,CA,Trinity,2025-06-09T17:09:52Z,2025-06-11T15:38:26Z,30,NA,Wildfire,NA,NA,40.436496,-123.409997,Cal Fire,2,0,North of Graham Place,https://www.fire.ca.gov/incidents/2025/6/9/miller-fire/,California,not_contained
+NA,Dino Fire,CA,Santa Clara,2025-06-11T14:58:38Z,2025-06-11T15:48:31Z,20,0,Wildfire,NA,NA,37.066401,-121.219118,Cal Fire,0,0,"EB Hwy 152 and Dinosaur Point Rd, Pacheco Pass",https://www.fire.ca.gov/incidents/2025/6/11/dino-fire/,California,not_contained
+NA,Miller Fire,CA,Trinity,2025-06-09T17:09:52Z,2025-06-11T15:51:15Z,30,NA,Wildfire,NA,NA,40.436496,-123.409997,Cal Fire,2,0,North of Graham Place,https://www.fire.ca.gov/incidents/2025/6/9/miller-fire/,California,not_contained
