@@ -1,10 +1,9 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-NENES-250344,Plum Creek Fire,NE,Brown,2025-04-21T21:15:00Z,2025-04-24T22:19:24Z,7075,100,WF,Minimal,Undetermined,42.599661,-100.149164,NFIS,51,48.9,NA,NA,Nebraska,contained
 2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,100,WF,Minimal,Undetermined,34.900313,-77.104551,NFIS,46,42.2,NA,NA,North Carolina,contained
-2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-08T20:23:42Z,1331,100,WF,Minimal,Human,NA,NA,NFIS,41,34.9,NA,NA,North Carolina,contained
-2025-WIWIS-FIRE123738,Ackley 3 Fire,WI,Ashland,2025-05-05T21:50:00Z,2025-06-02T15:51:51Z,15.47,NA,WF,NA,Human,46.60933,-90.81186,NFIS,37,10.1,NA,NA,Wisconsin,not_contained
+2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-08T20:23:42Z,1331,100,WF,Minimal,Human,NA,NA,NFIS,41,35,NA,NA,North Carolina,contained
 2025-MTBRF-000091,Big Creek Fire,MT,Ravalli,2025-05-06T21:51:00Z,2025-05-09T20:42:16Z,75,0,WF,Minimal,Undetermined,46.4813,-114.291,NFIS,36,33.9,NA,NA,Montana,not_contained
-2025-MN2QS-001729,Camp House Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-21T01:06:34Z,12071,98,WF,Minimal,Undetermined,47.372203,-91.433036,NFIS,32,22.7,NA,NA,Minnesota,not_contained
+2025-MN2QS-001729,Camp House Fire,MN,St. Louis,2025-05-11T18:36:00Z,2025-05-21T01:06:34Z,12071,98,WF,Minimal,Undetermined,47.372203,-91.433036,NFIS,32,22.8,NA,NA,Minnesota,not_contained
 2025-MNSUF-001789,Jenkins Creek Fire,MN,St. Louis,2025-05-12T16:07:00Z,2025-06-04T01:28:21Z,16145,94,WF,Minimal,Human,47.372131,-92.016281,NFIS,31,8.7,NA,NA,Minnesota,not_contained
 2025-MN2PS-001825,Munger Shaw Fire,MN,St. Louis,2025-05-12T19:37:00Z,2025-05-13T16:13:58Z,1259,95,WF,Minimal,Undetermined,47.080229,-92.343839,NFIS,30,30.1,NA,NA,Minnesota,not_contained
 2025-WIWIS-FIRE123875,Warthog Fire,WI,Juneau,2025-05-12T20:25:00Z,2025-06-02T15:51:51Z,108.91,100,WF,Minimal,Human,44.10197,-90.26762,NFIS,30,10.1,NA,NA,Wisconsin,contained
@@ -32,8 +31,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MTCES-000261,Hilger Valley Fire,MT,Lewis and Clark,2025-06-09T20:10:39Z,2025-06-11T20:44:37Z,295,40,WF,Moderate,Undetermined,46.8397,-112.0103,NFIS,2,0.9,NA,NA,Montana,not_contained
 2025-WASES-000226,Red Bridge Fire,WA,Kittitas,2025-06-09T22:57:24Z,2025-06-11T18:05:21Z,60,60,WF,Minimal,Human,47.196468,-120.804304,NFIS,2,1,NA,NA,Washington,not_contained
 2025-WASPD-000227,Sand Hollow Fire,WA,Grant,2025-06-09T23:21:09Z,2025-06-11T19:08:35Z,75,NA,WF,NA,Human,46.93556,-119.888725,NFIS,2,1,NA,NA,Washington,not_contained
-2025-MTLG50-000475,West Hwy - Garfield Fire,MT,Garfield,2025-06-09T23:49:00Z,2025-06-11T15:27:29Z,2.9,NA,WF,NA,Human,47.349743,-107.01684,NFIS,2,1.1,NA,NA,Montana,not_contained
-2025-MTLG50-000476,Brusett Road - Garfield Fire,MT,Garfield,2025-06-09T23:55:00Z,2025-06-11T15:28:24Z,1.5,NA,WF,NA,Human,47.347078,-107.013228,NFIS,2,1.1,NA,NA,Montana,not_contained
+2025-MTLG50-000475,West Hwy - Garfield Fire,MT,Garfield,2025-06-09T23:49:00Z,2025-06-11T15:27:29Z,2.9,NA,WF,NA,Human,47.349743,-107.01684,NFIS,2,1.2,NA,NA,Montana,not_contained
+2025-MTLG50-000476,Brusett Road - Garfield Fire,MT,Garfield,2025-06-09T23:55:00Z,2025-06-11T15:28:24Z,1.5,NA,WF,NA,Human,47.347078,-107.013228,NFIS,2,1.2,NA,NA,Montana,not_contained
 2025-MTLG50-000480,Section 4 - Garfield Fire,MT,Garfield,2025-06-09T23:58:00Z,2025-06-11T16:34:49Z,1.6,NA,WF,NA,Human,47.346688,-107.012342,NFIS,2,1.1,NA,NA,Montana,not_contained
 2025-MTLG50-000481,Section 9 - Garfield Fire,MT,Garfield,2025-06-10T00:04:00Z,2025-06-11T16:46:58Z,0.7,NA,WF,NA,Human,47.337439,-107.00231,NFIS,2,1.1,NA,NA,Montana,not_contained
 2025-MTLG50-000482,Section 10 - Garfield Fire,MT,Garfield,2025-06-10T00:09:00Z,2025-06-11T17:10:51Z,0.7,NA,WF,NA,Undetermined,47.333229,-106.998883,NFIS,2,1.1,NA,NA,Montana,not_contained
@@ -44,7 +43,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-IDNCF-000181,Post Fire,ID,Idaho,2025-06-10T21:23:00Z,2025-06-12T18:40:56Z,260,0,WF,Active,Undetermined,46.425196,-115.022619,NFIS,1,0,NA,NA,Idaho,not_contained
 2025-NVCCD-030291,Marie Fire,NV,Washoe,2025-06-10T23:03:57Z,2025-06-11T16:35:41Z,114.9,NA,WF,NA,Human,39.623433,-119.751717,NFIS,1,1.1,NA,NA,Nevada,not_contained
 2025-MTLG16-000484,Crystal Skull - Dawson Fire,MT,Dawson,2025-06-10T23:36:00Z,2025-06-11T19:13:47Z,37,NA,WF,NA,Undetermined,46.924834,-104.620675,NFIS,1,1,NA,NA,Montana,not_contained
-2025-NVELD-040126,Burnt Canyon Fire,NV,Lincoln,2025-06-11T19:13:55Z,2025-06-12T17:23:16Z,500,0,WF,Extreme,Undetermined,38.308444,-114.241567,NFIS,0,0.1,NA,NA,Nevada,not_contained
+2025-NVELD-040126,Burnt Canyon Fire,NV,Lincoln,2025-06-11T19:13:55Z,2025-06-12T17:23:16Z,500,0,WF,Extreme,Undetermined,38.308444,-114.241567,NFIS,1,0.1,NA,NA,Nevada,not_contained
 2025-OR954S-000327,Rowena Fire,OR,Wasco,2025-06-11T20:24:29Z,2025-06-12T18:33:19Z,3500,0,WF,Extreme,Human,45.6793,-121.2892,NFIS,0,0,NA,NA,Oregon,not_contained
 2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:37Z,2025-06-12T18:09:33Z,3500,NA,WF,NA,Undetermined,45.43526,-120.50285,NFIS,0,0,NA,NA,Oregon,not_contained
 NA,Frazier Fire,CA,Kern,2025-05-29T13:55:00Z,2025-06-09T10:24:10Z,105,100,Wildfire,NA,NA,34.8229,-118.9121,Cal Fire,14,3,"Cuddy Creek at end of Cuddy Canyon Road, Lebec",https://www.fire.ca.gov/incidents/2025/5/29/frazier-fire/,California,contained
