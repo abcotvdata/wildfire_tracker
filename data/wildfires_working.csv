@@ -13,7 +13,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123954,Shovel Fire,WI,Vilas,2025-05-20T17:30:00Z,2025-06-02T15:51:51Z,0.01,NA,WF,NA,Human,46.18916,-89.52308,NFIS,24,11.6,NA,NA,Wisconsin,not_contained
 2025-MNSUF-002104,Horse River Fire,MN,Lake,2025-05-22T19:48:00Z,2025-06-07T13:33:29Z,13,100,WF,Minimal,Natural,48.092667,-91.708,NFIS,22,6.7,NA,NA,Minnesota,contained
 2025-CABID-000733,Inn Fire,CA,Mono,2025-05-22T22:35:00Z,2025-05-26T20:36:32Z,540,100,WF,Minimal,Undetermined,38.009312,-119.156506,NFIS,22,18.4,NA,NA,California,contained
-2025-FLBCP-001596,Sandy Fire,FL,Monroe,2025-05-24T19:54:00Z,2025-06-01T21:25:18Z,6656,100,WF,Minimal,Natural,25.761054,-80.840492,NFIS,20,12.3,NA,NA,Florida,contained
+2025-FLBCP-001596,Sandy Fire,FL,Monroe,2025-05-24T19:54:00Z,2025-06-01T21:25:18Z,6656,100,WF,Minimal,Natural,25.761054,-80.840492,NFIS,20,12.4,NA,NA,Florida,contained
 2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,19,18.2,NA,NA,Oregon,contained
 2025-WIWIS-FIRE123991,Lindquist Lake Fire,WI,Marinette,2025-05-28T04:15:00Z,2025-06-02T15:51:51Z,0.14,NA,WF,NA,Human,45.61626,-88.06327,NFIS,17,11.6,NA,NA,Wisconsin,not_contained
 2025-MIMIS-650012,Boutell Powerline Fire,MI,Ogemaw,2025-05-28T20:00:00Z,2025-06-06T18:37:26Z,0.3,NA,WF,NA,Human,NA,NA,NFIS,16,7.5,NA,NA,Michigan,not_contained
@@ -32,7 +32,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WASES-000226,Red Bridge Fire,WA,Kittitas,2025-06-09T22:57:24Z,2025-06-11T18:05:21Z,53,90,WF,Minimal,Human,47.196468,-120.804304,NFIS,4,2.5,NA,NA,Washington,not_contained
 2025-WASPD-000227,Sand Hollow Fire,WA,Grant,2025-06-09T23:21:09Z,2025-06-11T19:08:35Z,75,NA,WF,NA,Human,46.93556,-119.888725,NFIS,4,2.4,NA,NA,Washington,not_contained
 2025-MTLG50-000476,Brusett Road - Garfield Fire,MT,Garfield,2025-06-09T23:55:00Z,2025-06-11T15:28:24Z,1.5,NA,WF,NA,Human,47.347078,-107.013228,NFIS,4,2.6,NA,NA,Montana,not_contained
-2025-MTLG50-000480,Section 4 - Garfield Fire,MT,Garfield,2025-06-09T23:58:00Z,2025-06-11T16:34:49Z,1.6,NA,WF,NA,Human,47.346688,-107.012342,NFIS,4,2.5,NA,NA,Montana,not_contained
+2025-MTLG50-000480,Section 4 - Garfield Fire,MT,Garfield,2025-06-09T23:58:00Z,2025-06-11T16:34:49Z,1.6,NA,WF,NA,Human,47.346688,-107.012342,NFIS,4,2.6,NA,NA,Montana,not_contained
 2025-MTLG50-000481,Section 9 - Garfield Fire,MT,Garfield,2025-06-10T00:04:00Z,2025-06-11T16:46:58Z,0.7,NA,WF,NA,Human,47.337439,-107.00231,NFIS,4,2.5,NA,NA,Montana,not_contained
 2025-MTLG50-000482,Section 10 - Garfield Fire,MT,Garfield,2025-06-10T00:09:00Z,2025-06-11T17:10:51Z,0.7,NA,WF,NA,Undetermined,47.333229,-106.998883,NFIS,4,2.5,NA,NA,Montana,not_contained
 2025-MTLG50-000483,Highway - Garfield Fire,MT,Garfield,2025-06-10T00:14:00Z,2025-06-11T17:17:28Z,0.2,NA,WF,NA,Human,47.329286,-106.994291,NFIS,4,2.5,NA,NA,Montana,not_contained
@@ -45,9 +45,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-OR954S-000327,Rowena Fire,OR,Wasco,2025-06-11T20:24:29Z,2025-06-14T04:00:19Z,3831,5,WF,Active,Human,45.6793,-121.2892,NFIS,2,0.1,NA,NA,Oregon,not_contained
 2025-UTDIF-000223,France Canyon Fire,UT,Garfield,2025-06-11T22:05:00Z,2025-06-13T20:38:23Z,1900,0,WF,Active,Natural,37.613333,-112.313333,NFIS,2,0.4,NA,NA,Utah,not_contained
 2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-06-13T15:16:33Z,9107,43,WF,Moderate,Undetermined,45.43526,-120.50285,NFIS,2,0.6,NA,NA,Oregon,not_contained
-2025-NMGNF-000384,Trout Fire,NM,Grant,2025-06-12T13:24:00Z,2025-06-14T02:15:10Z,3910,0,WF,Active,Undetermined,32.97783,-108.23091,NFIS,1,0.1,NA,NA,New Mexico,not_contained
+2025-NMGNF-000384,Trout Fire,NM,Grant,2025-06-12T13:24:00Z,2025-06-14T02:15:10Z,3910,0,WF,Active,Undetermined,32.97783,-108.23091,NFIS,1,0.2,NA,NA,New Mexico,not_contained
 2025-WAWFS-000237,Vansycle Canyon Fire,WA,Walla Walla,2025-06-12T14:42:36Z,2025-06-13T16:51:04Z,1900,0,WF,Active,Undetermined,46.0315,-118.831,NFIS,1,0.5,NA,NA,Washington,not_contained
-2025-SDPRA-000044,American Horse Fire,SD,Oglala Lakota,2025-06-12T22:51:38Z,2025-06-13T19:02:32Z,5,NA,WF,NA,NA,NA,NA,NFIS,1,0.4,NA,NA,South Dakota,not_contained
+2025-SDPRA-000044,American Horse Fire,SD,Oglala Lakota,2025-06-12T22:51:38Z,2025-06-13T19:02:32Z,5,NA,WF,NA,NA,NA,NA,NFIS,1,0.5,NA,NA,South Dakota,not_contained
 2025-MTLG14-000491,12 Miles Fire,MT,Custer,2025-06-13T17:31:00Z,2025-06-13T18:39:46Z,5,NA,WF,NA,Human,46.25275,-105.730883,NFIS,0,0.5,NA,NA,Montana,not_contained
 2025-AZTNF-000803,Oak Fire,AZ,Gila,2025-06-13T17:33:46Z,2025-06-13T21:34:45Z,25,NA,WF,NA,Undetermined,34.0135,-111.358002,NFIS,0,0.3,NA,NA,Arizona,not_contained
 2025-WANES-001441,Coyote Ridge Fire,WA,Spokane,2025-06-14T01:47:37Z,2025-06-14T04:05:32Z,0.3,NA,WF,NA,Undetermined,47.801725,-117.758143,NFIS,0,0.1,NA,NA,Washington,not_contained
