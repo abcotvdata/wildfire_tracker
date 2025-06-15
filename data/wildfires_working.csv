@@ -29,7 +29,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-CACDD-009149,Bdu/Ranch Fire,CA,San Bernardino,2025-06-10T20:41:49Z,2025-06-11T06:25:26Z,4293,75,WF,Minimal,Undetermined,34.421185,-117.131508,NFIS,4,4.4,NA,NA,California,not_contained
 2025-MTLG14-000477,Knowlton Fire,MT,Custer,2025-06-10T21:04:00Z,2025-06-11T19:30:11Z,16.8,NA,WF,NA,Human,46.343283,-105.097383,NFIS,4,3.8,NA,NA,Montana,not_contained
 2025-IDNCF-000181,Post Fire,ID,Idaho,2025-06-10T21:23:00Z,2025-06-14T03:34:39Z,260,0,WF,Moderate,Undetermined,46.425196,-115.022619,NFIS,4,1.5,NA,NA,Idaho,not_contained
-2025-MTLG16-000484,Crystal Skull - Dawson Fire,MT,Dawson,2025-06-10T23:36:00Z,2025-06-11T19:13:47Z,37,NA,WF,NA,Undetermined,46.924834,-104.620675,NFIS,4,3.8,NA,NA,Montana,not_contained
+2025-MTLG16-000484,Crystal Skull - Dawson Fire,MT,Dawson,2025-06-10T23:36:00Z,2025-06-11T19:13:47Z,37,NA,WF,NA,Undetermined,46.924834,-104.620675,NFIS,4,3.9,NA,NA,Montana,not_contained
 2025-NVELD-040126,Burnt Canyon Fire,NV,Lincoln,2025-06-11T19:13:00Z,2025-06-12T17:23:16Z,1068,60,WF,Minimal,Natural,38.308444,-114.241567,NFIS,3,2.9,NA,NA,Nevada,not_contained
 2025-NVELD-040127,Rosencrans Fire,NV,Lincoln,2025-06-11T20:05:39Z,2025-06-13T13:44:56Z,727,60,WF,Minimal,Natural,38.296972,-114.197867,NFIS,3,2.1,NA,NA,Nevada,not_contained
 2025-OR954S-000327,Rowena Fire,OR,Wasco,2025-06-11T20:24:29Z,2025-06-15T12:24:32Z,3858,10,WF,Moderate,Human,45.6793,-121.2892,NFIS,3,0.1,NA,NA,Oregon,not_contained
@@ -37,7 +37,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NMSCD-000304,Buck Fire,NM,Catron,2025-06-12T01:23:00Z,2025-06-15T10:37:34Z,31000,0,WF,Extreme,Natural,33.5842,-108.91,NFIS,3,0.2,NA,NA,New Mexico,not_contained
 2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-06-14T17:17:48Z,10458,65,WF,Minimal,Undetermined,45.43526,-120.50285,NFIS,3,0.9,NA,NA,Oregon,not_contained
 2025-NMGNF-000384,Trout Fire,NM,Grant,2025-06-12T13:24:00Z,2025-06-15T08:30:00Z,5234,0,WF,Active,Undetermined,32.97783,-108.23091,NFIS,3,0.3,NA,NA,New Mexico,not_contained
-2025-WAWFS-000237,Vansycle Canyon Fire,WA,Walla Walla,2025-06-12T14:42:36Z,2025-06-13T16:51:04Z,2026,100,WF,Minimal,Undetermined,46.0315,-118.831,NFIS,3,1.9,NA,NA,Washington,contained
+2025-WAWFS-000237,Vansycle Canyon Fire,WA,Walla Walla,2025-06-12T14:42:36Z,2025-06-13T16:51:04Z,2026,100,WF,Minimal,Undetermined,46.0315,-118.831,NFIS,3,2,NA,NA,Washington,contained
 2025-SDPRA-000044,American Horse Fire,SD,Oglala Lakota,2025-06-12T22:51:38Z,2025-06-13T19:02:32Z,5,NA,WF,NA,NA,NA,NA,NFIS,2,1.9,NA,NA,South Dakota,not_contained
 2025-WASPD-000240,Webber Canyon Fire,WA,Benton,2025-06-12T23:47:13Z,2025-06-14T18:24:34Z,391,100,WF,Minimal,Undetermined,46.194509,-119.464402,NFIS,2,0.9,NA,NA,Washington,contained
 2025-SDPRA-000045,Yellow Bear Fire,SD,Bennett,2025-06-13T01:30:36Z,2025-06-14T23:51:11Z,1.96,NA,WF,NA,NA,NA,NA,NFIS,2,0.7,NA,NA,South Dakota,not_contained
@@ -68,7 +68,7 @@ NA,Hudson Fire,CA,Kern,2025-06-12T22:11:00Z,2025-06-14T22:01:50Z,624,100,Wildfir
 NA,Rica Fire,CA,Yuba,2025-06-13T12:27:15Z,2025-06-13T22:05:59Z,25,100,Wildfire,NA,NA,39.27736,-121.479804,Cal Fire,2,2,"Loma Rica Road south of Iowa City Road, Marysville",https://www.fire.ca.gov/incidents/2025/6/13/rica-fire/,California,contained
 NA,Eagle Fire,CA,San Luis Obispo,2025-06-13T12:30:00Z,2025-06-14T21:59:46Z,38,100,Wildfire,NA,NA,35.78442,-120.926961,Cal Fire,2,1,"Eagle Creek Lane & Interlake Road, Lake Nacimiento",https://www.fire.ca.gov/incidents/2025/6/13/eagle-fire/,California,contained
 NA,Clement Fire,CA,Shasta,2025-06-13T13:36:45Z,2025-06-14T22:01:41Z,20,100,Wildfire,NA,NA,40.479167,-122.4495,Cal Fire,2,1,"Clement Court, Anderson",https://www.fire.ca.gov/incidents/2025/6/13/clement-fire/,California,contained
-NA,Bitter Fire,CA,San Luis Obispo,2025-06-14T14:31:35Z,2025-06-15T05:52:56Z,1400,90,Wildfire,NA,NA,35.543275,-120.155841,Cal Fire,1,0,"Bitter Water Road cross of Bitter Water Valley Rd., Shandon",https://www.fire.ca.gov/incidents/2025/6/14/bitter-fire/,California,not_contained
+NA,Bitter Fire,CA,San Luis Obispo,2025-06-14T14:31:35Z,2025-06-15T08:39:29Z,1300,90,Wildfire,NA,NA,35.543275,-120.155841,Cal Fire,1,0,"Bitter Water Road cross of Bitter Water Valley Rd., Shandon",https://www.fire.ca.gov/incidents/2025/6/14/bitter-fire/,California,not_contained
 NA,Dogs Fire,CA,Kern,2025-06-13T14:41:49Z,2025-06-15T05:30:51Z,4407,100,Wildfire,NA,NA,35.6025,-119.0082,Cal Fire,2,0,"Famosos Road and Sherwood Avenue, North of Bakersfield",https://www.fire.ca.gov/incidents/2025/6/13/dogs-fire/,California,contained
 NA,Eldorado Fire,CA,Fresno,2025-06-14T12:45:21Z,2025-06-14T22:00:53Z,50,100,Wildfire,NA,NA,36.2548,-120.211198,Cal Fire,1,1,"Hwy 198 and South El Dorado Ave, Coalinga",https://www.fire.ca.gov/incidents/2025/6/14/eldorado-fire/,California,contained
 NA,Linda Fire,CA,Solano,2025-06-13T14:45:21Z,2025-06-14T21:59:54Z,111,100,Wildfire,NA,NA,38.4513,-122.0102,Cal Fire,2,1,"Off Estate Drive, north of Vacaville",https://www.fire.ca.gov/incidents/2025/6/13/linda-fire/,California,contained
