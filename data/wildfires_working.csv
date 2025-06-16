@@ -14,9 +14,9 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WIWIS-FIRE123950,Sharp Fire,WI,Price,2025-05-20T14:20:00Z,2025-06-02T15:51:51Z,0.04,NA,WF,NA,Human,45.77108,-90.42253,NFIS,27,14.2,NA,NA,Wisconsin,not_contained
 2025-CABID-000733,Inn Fire,CA,Mono,2025-05-22T22:35:00Z,2025-05-26T20:36:32Z,540,100,WF,Minimal,Undetermined,38.009312,-119.156506,NFIS,24,21,NA,NA,California,contained
 2025-FLBCP-001596,Sandy Fire,FL,Monroe,2025-05-24T19:54:00Z,2025-06-01T21:25:18Z,6656,100,WF,Minimal,Natural,25.761054,-80.840492,NFIS,23,15,NA,NA,Florida,contained
-2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,21,20.8,NA,NA,Oregon,contained
+2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,22,20.9,NA,NA,Oregon,contained
 2025-WIWIS-FIRE124000,Gaslyn Fire,WI,Burnett,2025-05-31T18:00:00Z,2025-06-16T17:26:19Z,1.81,NA,WF,NA,Human,45.88781,-92.11417,NFIS,16,0.2,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE124024,Sunday Fire Fire,WI,Waupaca,2025-05-31T21:45:00Z,2025-06-16T19:06:32Z,2.89,NA,WF,NA,Human,44.338,-89.19172,NFIS,15,0.1,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE124024,Sunday Fire Fire,WI,Waupaca,2025-05-31T21:45:00Z,2025-06-16T19:06:32Z,2.89,NA,WF,NA,Human,44.338,-89.19172,NFIS,16,0.1,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124009,Double N Fire,WI,Sawyer,2025-06-01T14:00:00Z,2025-06-16T15:14:24Z,4.6,NA,WF,NA,Human,45.88161,-91.31491,NFIS,15,0.3,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124028,Buck Fire,WI,Vilas,2025-06-02T21:00:00Z,2025-06-12T20:19:58Z,1.46,NA,WF,NA,Human,46.0144,-89.33912,NFIS,14,4.1,NA,NA,Wisconsin,not_contained
 2025-MN2NS-002355,Bluebird Fire,MN,St. Louis,2025-06-05T20:23:16Z,2025-06-16T16:51:31Z,0.5,NA,WF,NA,Undetermined,48.19,-92.43,NFIS,11,0.2,NA,NA,Minnesota,not_contained
@@ -48,7 +48,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-UTNWS-200256,Suncrest Fire,UT,Salt Lake,2025-06-15T19:46:00Z,2025-06-16T14:48:00Z,3,NA,WF,NA,Undetermined,40.521825,-111.787949,NFIS,1,0.3,NA,NA,Utah,not_contained
 2025-SDPRA-000046,Road 9 Fire,SD,Bennett,2025-06-15T21:00:57Z,2025-06-16T20:17:02Z,1.92,NA,WF,NA,NA,NA,NA,NFIS,1,0.1,NA,NA,South Dakota,not_contained
 2025-UTDRD-100107,Pine Spring Fire,UT,Uintah,2025-06-15T21:21:07Z,2025-06-16T14:50:25Z,4,NA,WF,NA,Natural,39.56435,-109.388167,NFIS,1,0.3,NA,NA,Utah,not_contained
-2025-UTSES-005143,Westwater Fire,UT,San Juan,2025-06-15T21:47:00Z,2025-06-16T14:53:21Z,18,0,WF,Active,Undetermined,37.62523,-109.49375,NFIS,0,0.3,NA,NA,Utah,not_contained
+2025-UTSES-005143,Westwater Fire,UT,San Juan,2025-06-15T21:47:00Z,2025-06-16T14:53:21Z,18,0,WF,Active,Undetermined,37.62523,-109.49375,NFIS,1,0.3,NA,NA,Utah,not_contained
 2025-AZTNF-000826,Cub Fire,AZ,Maricopa,2025-06-16T01:08:00Z,2025-06-16T16:19:10Z,386,NA,WF,NA,Undetermined,33.7061,-111.504997,NFIS,0,0.2,NA,NA,Arizona,not_contained
 2025-AKGAD-000128,Caribou Fire,AK,Yukon-Koyukuk,2025-06-16T04:24:13Z,2025-06-16T18:28:25Z,17.02,NA,WF,NA,Natural,66.167333,-155.762667,NFIS,0,0.1,NA,NA,Alaska,not_contained
 NA,Ncfr3 4 Fire,CA,San Diego,2025-01-21T10:19:46Z,2025-06-16T08:31:43Z,80,100,Wildfire,NA,NA,33.299921,-117.174205,Cal Fire,146,0,"West Lilac Road, Near Bonsall",https://www.fire.ca.gov/incidents/2025/1/21/ncfr3-4-fire/,California,contained
@@ -86,4 +86,4 @@ NA,Heaven Fire,CA,Siskiyou,2025-06-15T15:30:44Z,2025-06-16T06:19:31Z,20,20,Wildf
 NA,Oak Fire,CA,Fresno,2025-06-15T16:20:32Z,2025-06-16T06:56:24Z,14,46,Wildfire,NA,NA,37.029083,-119.521241,Cal Fire,1,0,"Morgan Canyon Rd and Country Oak Ln, Prather",https://www.fire.ca.gov/incidents/2025/6/15/oak-fire/,California,not_contained
 NA,Vista Fire,CA,Riverside,2025-06-15T17:06:54Z,2025-06-16T09:09:09Z,15,100,Wildfire,NA,NA,33.817645,-116.865296,Cal Fire,1,0,San Jacinto,https://www.fire.ca.gov/incidents/2025/6/15/vista-fire/,California,contained
 NA,Mission Fire,CA,Alameda,2025-06-16T13:33:37Z,2025-06-16T14:31:52Z,50,0,Wildfire,NA,NA,37.574567,-121.885327,Cal Fire,0,0,"Mission Road and Andrade Road, near Sunol",https://www.fire.ca.gov/incidents/2025/6/16/mission-fire/,California,not_contained
-NA,Elm Fire,CA,Monterey,2025-06-16T13:28:00Z,2025-06-16T14:06:23Z,15,NA,Wildfire,NA,NA,36.285576,-121.288116,Cal Fire,0,0,"Elm Avenue and Reliz Canyon Road, near Greenfield",https://www.fire.ca.gov/incidents/2025/6/16/elm-fire/,California,not_contained
+NA,Elm Fire,CA,Monterey,2025-06-16T13:28:00Z,2025-06-16T14:41:03Z,17,NA,Wildfire,NA,NA,36.285576,-121.288116,Cal Fire,0,0,"Elm Avenue and Reliz Canyon Road, near Greenfield",https://www.fire.ca.gov/incidents/2025/6/16/elm-fire/,California,not_contained
