@@ -1,10 +1,10 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-FLBCP-000021,Bicy Boot Hill Rx Fire,FL,Collier,2025-01-04T21:31:42Z,2025-03-01T15:56:01Z,20837,NA,RX,NA,Undetermined,26.0074,-81.097717,NFIS,162,106.6,NA,NA,Florida,not_contained
 2025-AKDAS-000011,2025 Delta Bison Range Fire,AK,Southeast Fairbanks,2025-01-16T19:07:00Z,2025-05-29T21:55:06Z,693,NA,RX,NA,Human,63.8954,-145.311717,NFIS,150,17.4,NA,NA,Alaska,not_contained
-2025-CACDD-005981,Thermal Fire,CA,Riverside,2025-04-03T00:33:58Z,2025-06-15T22:25:19Z,0.01,NA,WF,NA,Undetermined,33.682439,-116.011594,NFIS,74,0.3,NA,NA,California,not_contained
-2025-CACDD-006870,Johnson Fire,CA,San Bernardino,2025-04-21T19:53:54Z,2025-06-15T22:13:46Z,0.1,NA,WF,NA,Undetermined,34.601013,-117.171631,NFIS,55,0.3,NA,NA,California,not_contained
-2025-NENES-250344,Plum Creek Fire,NE,Brown,2025-04-21T21:15:00Z,2025-04-24T22:19:24Z,7075,100,WF,Minimal,Undetermined,42.599661,-100.149164,NFIS,55,52.3,NA,NA,Nebraska,contained
-2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,100,WF,Minimal,Undetermined,34.900313,-77.104551,NFIS,49,45.6,NA,NA,North Carolina,contained
+2025-CACDD-005981,Thermal Fire,CA,Riverside,2025-04-03T00:33:58Z,2025-06-15T22:25:19Z,0.01,NA,WF,NA,Undetermined,33.682439,-116.011594,NFIS,74,0.4,NA,NA,California,not_contained
+2025-CACDD-006870,Johnson Fire,CA,San Bernardino,2025-04-21T19:53:54Z,2025-06-15T22:13:46Z,0.1,NA,WF,NA,Undetermined,34.601013,-117.171631,NFIS,55,0.4,NA,NA,California,not_contained
+2025-NENES-250344,Plum Creek Fire,NE,Brown,2025-04-21T21:15:00Z,2025-04-24T22:19:24Z,7075,100,WF,Minimal,Undetermined,42.599661,-100.149164,NFIS,55,52.4,NA,NA,Nebraska,contained
+2025-NCNCF-250245,Black Swamp Fire,NC,Jones,2025-04-27T16:35:00Z,2025-05-01T15:16:54Z,950,100,WF,Minimal,Undetermined,34.900313,-77.104551,NFIS,49,45.7,NA,NA,North Carolina,contained
 2025-NCNCS-250055,Sunset Rd Fire,NC,Brunswick,2025-05-02T15:00:00Z,2025-05-08T20:23:42Z,1331,100,WF,Minimal,Human,NA,NA,NFIS,44,38.4,NA,NA,North Carolina,contained
 2025-IDNCF-000110,Shingle Fire,ID,Idaho,2025-05-05T20:33:00Z,2025-05-06T23:10:13Z,70,50,WF,Minimal,Human,45.38065,-116.44,NFIS,41,40.3,NA,NA,Idaho,not_contained
 2025-MTBRF-000091,Big Creek Fire,MT,Ravalli,2025-05-06T21:51:00Z,2025-05-09T20:42:16Z,75,0,WF,Minimal,Undetermined,46.4813,-114.291,NFIS,40,37.4,NA,NA,Montana,not_contained
@@ -29,8 +29,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MTLG14-000477,Knowlton Fire,MT,Custer,2025-06-10T21:04:00Z,2025-06-11T19:30:11Z,16.8,NA,WF,NA,Human,46.343283,-105.097383,NFIS,5,4.5,NA,NA,Montana,not_contained
 2025-IDNCF-000181,Post Fire,ID,Idaho,2025-06-10T21:23:00Z,2025-06-15T11:15:16Z,151,0,WF,Moderate,Undetermined,46.425196,-115.022619,NFIS,5,0.8,NA,NA,Idaho,not_contained
 2025-MTLG16-000484,Crystal Skull - Dawson Fire,MT,Dawson,2025-06-10T23:36:00Z,2025-06-11T19:13:47Z,37,NA,WF,NA,Undetermined,46.924834,-104.620675,NFIS,5,4.5,NA,NA,Montana,not_contained
-2025-NVELD-040126,Burnt Canyon Fire,NV,Lincoln,2025-06-11T19:13:00Z,2025-06-12T17:23:16Z,1068,80,WF,Minimal,Natural,38.308444,-114.241567,NFIS,4,3.5,NA,NA,Nevada,not_contained
-2025-OR954S-000327,Rowena Fire,OR,Wasco,2025-06-11T20:24:29Z,2025-06-16T03:09:00Z,3636,24,WF,Moderate,Human,45.6793,-121.2892,NFIS,4,0.1,NA,NA,Oregon,not_contained
+2025-NVELD-040126,Burnt Canyon Fire,NV,Lincoln,2025-06-11T19:13:00Z,2025-06-12T17:23:16Z,1068,80,WF,Minimal,Natural,38.308444,-114.241567,NFIS,4,3.6,NA,NA,Nevada,not_contained
+2025-OR954S-000327,Rowena Fire,OR,Wasco,2025-06-11T20:24:29Z,2025-06-16T03:09:00Z,3636,24,WF,Moderate,Human,45.6793,-121.2892,NFIS,4,0.2,NA,NA,Oregon,not_contained
 2025-UTDIF-000223,France Canyon Fire,UT,Garfield,2025-06-11T22:05:00Z,2025-06-15T11:12:15Z,1496,0,WF,Extreme,Natural,37.613333,-112.313333,NFIS,4,0.8,NA,NA,Utah,not_contained
 2025-NMSCD-000304,Buck Fire,NM,Catron,2025-06-12T01:23:00Z,2025-06-16T02:08:01Z,33737,0,WF,Active,Natural,33.5842,-108.91,NFIS,4,0.2,NA,NA,New Mexico,not_contained
 2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-06-14T17:17:48Z,10458,78,WF,Minimal,Undetermined,45.43526,-120.50285,NFIS,4,1.6,NA,NA,Oregon,not_contained
@@ -41,7 +41,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-WYBTF-002501,Horse Fire,WY,Sublette,2025-06-13T16:32:39Z,2025-06-16T01:04:35Z,968,6,WF,Moderate,Natural,42.900694,-110.538801,NFIS,2,0.2,NA,NA,Wyoming,not_contained
 2025-MTLG14-000491,12 Miles Fire,MT,Custer,2025-06-13T17:31:00Z,2025-06-13T18:39:46Z,5,NA,WF,NA,Human,46.25275,-105.730883,NFIS,2,2.5,NA,NA,Montana,not_contained
 2025-WAOWF-000242,Pomas Fire,WA,Chelan,2025-06-13T17:40:00Z,2025-06-15T20:48:54Z,150,0,WF,Active,Natural,48.1091,-120.7207,NFIS,2,0.4,NA,NA,Washington,not_contained
-2025-AZNAA-000081,Bridge Creek Fire,UT,San Juan,2025-06-13T20:36:00Z,2025-06-15T17:42:24Z,260,0,WF,Moderate,Natural,NA,NA,NFIS,2,0.5,NA,NA,Utah,not_contained
+2025-AZNAA-000081,Bridge Creek Fire,UT,San Juan,2025-06-13T20:36:00Z,2025-06-15T17:42:24Z,260,0,WF,Moderate,Natural,NA,NA,NFIS,2,0.6,NA,NA,Utah,not_contained
 2025-AKSWS-504122,Oskawallk Fire,AK,Bethel,2025-06-14T19:52:00Z,2025-06-15T15:22:19Z,99.5,NA,WF,NA,Undetermined,61.726167,-158.13,NFIS,1,0.6,NA,NA,Alaska,not_contained
 NA,Frazier Fire,CA,Kern,2025-05-29T13:55:00Z,2025-06-09T10:24:10Z,105,100,Wildfire,NA,NA,34.8229,-118.9121,Cal Fire,18,7,"Cuddy Creek at end of Cuddy Canyon Road, Lebec",https://www.fire.ca.gov/incidents/2025/5/29/frazier-fire/,California,contained
 NA,Eureka Fire,CA,San Bernardino,2025-05-30T11:57:36Z,2025-06-10T08:58:03Z,214,100,Wildfire,NA,NA,34.0618164,-116.3269976,Cal Fire,17,6,"Carmelita Place and Carmelita Circle, Yucca Valley",https://www.fire.ca.gov/incidents/2025/5/30/eureka-fire/,California,contained
