@@ -13,7 +13,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-CACDD-008339,Sf/Cbt/82a Fire,CA,San Bernardino,2025-05-24T20:10:18Z,2025-05-25T21:04:39Z,43,NA,WF,NA,Undetermined,34.41394,-117.102913,NFIS,25,24.7,NA,NA,California,not_contained
 2025-ORPRD-000163,0163 Rv Fire,OR,Wheeler,2025-05-25T21:37:18Z,2025-05-27T01:16:49Z,1776,100,WF,Minimal,Human,45.069819,-120.496463,NFIS,24,23.5,NA,NA,Oregon,contained
 2025-WIWIS-FIRE123974,Evergreen Fire,WI,Oneida,2025-05-26T19:40:00Z,2025-06-02T15:51:51Z,0.06,NA,WF,NA,Human,45.71308,-89.51577,NFIS,23,16.9,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE124000,Gaslyn Fire,WI,Burnett,2025-05-31T18:00:00Z,2025-06-16T17:26:19Z,1.81,NA,WF,NA,Human,45.88781,-92.11417,NFIS,18,2.8,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE124000,Gaslyn Fire,WI,Burnett,2025-05-31T18:00:00Z,2025-06-16T17:26:19Z,1.81,NA,WF,NA,Human,45.88781,-92.11417,NFIS,18,2.9,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124024,Sunday Fire Fire,WI,Waupaca,2025-05-31T21:45:00Z,2025-06-16T19:06:32Z,2.89,NA,WF,NA,Human,44.338,-89.19172,NFIS,18,2.8,NA,NA,Wisconsin,not_contained
 2025-MSMSR-025011,O-11 Fire,MS,Jackson,2025-05-31T23:30:54Z,2025-06-17T13:22:52Z,4,NA,WF,NA,Undetermined,NA,NA,NFIS,18,2,NA,NA,Mississippi,not_contained
 2025-WIWIS-FIRE124009,Double N Fire,WI,Sawyer,2025-06-01T14:00:00Z,2025-06-16T15:14:24Z,4.6,NA,WF,NA,Human,45.88161,-91.31491,NFIS,17,2.9,NA,NA,Wisconsin,not_contained
@@ -23,21 +23,21 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MN2NS-002355,Bluebird Fire,MN,St. Louis,2025-06-05T20:23:16Z,2025-06-16T16:51:31Z,0.5,NA,WF,NA,Undetermined,48.19,-92.43,NFIS,13,2.9,NA,NA,Minnesota,not_contained
 2025-AZCOF-000576,Basin Fire,AZ,Coconino,2025-06-05T20:36:00Z,2025-06-10T23:03:29Z,9145,81,WF,Minimal,Natural,35.444722,-111.818611,NFIS,13,8.6,NA,NA,Arizona,not_contained
 2025-ORWSA-000019,Sunny Side Fire,OR,Wasco,2025-06-07T17:49:00Z,2025-06-09T18:21:14Z,755,100,WF,Minimal,Undetermined,44.823879,-121.233273,NFIS,11,9.8,NA,NA,Oregon,contained
-2025-MTLG09-000466,Lilly Mae Fire,MT,Powder River,2025-06-09T02:41:00Z,2025-06-10T21:58:49Z,8.3,NA,WF,NA,Natural,45.17517,-105.17404,NFIS,10,8.6,NA,NA,Montana,not_contained
+2025-MTLG09-000466,Lilly Mae Fire,MT,Powder River,2025-06-09T02:41:00Z,2025-06-10T21:58:49Z,8.3,NA,WF,NA,Natural,45.17517,-105.17404,NFIS,10,8.7,NA,NA,Montana,not_contained
 2025-MTCES-000261,Hilger Valley Fire,MT,Lewis and Clark,2025-06-09T20:10:39Z,2025-06-12T23:09:46Z,295,100,WF,Minimal,Undetermined,46.8397,-112.0103,NFIS,9,6.6,NA,NA,Montana,contained
 2025-WASPD-000227,Sand Hollow Fire,WA,Grant,2025-06-09T23:21:09Z,2025-06-11T19:08:35Z,75,NA,WF,NA,Human,46.93556,-119.888725,NFIS,9,7.8,NA,NA,Washington,not_contained
-2025-MTLG50-000482,Section 10 - Garfield Fire,MT,Garfield,2025-06-10T00:09:00Z,2025-06-11T17:10:51Z,0.7,NA,WF,NA,Undetermined,47.333229,-106.998883,NFIS,9,7.8,NA,NA,Montana,not_contained
+2025-MTLG50-000482,Section 10 - Garfield Fire,MT,Garfield,2025-06-10T00:09:00Z,2025-06-11T17:10:51Z,0.7,NA,WF,NA,Undetermined,47.333229,-106.998883,NFIS,9,7.9,NA,NA,Montana,not_contained
 2025-MTLG14-000477,Knowlton Fire,MT,Custer,2025-06-10T21:04:00Z,2025-06-11T19:30:11Z,16.8,NA,WF,NA,Human,46.343283,-105.097383,NFIS,8,7.8,NA,NA,Montana,not_contained
 2025-IDNCF-000181,Post Fire,ID,Idaho,2025-06-10T21:23:00Z,2025-06-19T04:58:13Z,151,0,WF,Moderate,Undetermined,46.425196,-115.022619,NFIS,8,0.4,NA,NA,Idaho,not_contained
 2025-MTLG16-000484,Crystal Skull - Dawson Fire,MT,Dawson,2025-06-10T23:36:00Z,2025-06-11T19:13:47Z,37,NA,WF,NA,Undetermined,46.924834,-104.620675,NFIS,8,7.8,NA,NA,Montana,not_contained
-2025-NVELD-040126,Burnt Canyon Fire,NV,Lincoln,2025-06-11T19:13:00Z,2025-06-12T17:23:16Z,1068,95,WF,Minimal,Natural,38.308444,-114.241567,NFIS,7,6.8,NA,NA,Nevada,not_contained
-2025-OR954S-000327,Rowena Fire,OR,Wasco,2025-06-11T20:24:29Z,2025-06-17T19:49:42Z,3700,68,WF,Minimal,Human,45.6793,-121.2892,NFIS,7,1.7,NA,NA,Oregon,not_contained
+2025-NVELD-040126,Burnt Canyon Fire,NV,Lincoln,2025-06-11T19:13:00Z,2025-06-12T17:23:16Z,1068,95,WF,Minimal,Natural,38.308444,-114.241567,NFIS,7,6.9,NA,NA,Nevada,not_contained
+2025-OR954S-000327,Rowena Fire,OR,Wasco,2025-06-11T20:24:29Z,2025-06-17T19:49:42Z,3700,68,WF,Minimal,Human,45.6793,-121.2892,NFIS,7,1.8,NA,NA,Oregon,not_contained
 2025-UTDIF-000223,France Canyon Fire,UT,Garfield,2025-06-11T22:05:00Z,2025-06-19T11:25:18Z,6590,5,WF,Extreme,Natural,37.613333,-112.313333,NFIS,7,0.1,NA,NA,Utah,not_contained
-2025-NMSCD-000304,Buck Fire,NM,Catron,2025-06-12T01:23:00Z,2025-06-19T12:23:50Z,57753,39,WF,Extreme,Natural,33.5842,-108.91,NFIS,7,0,NA,NA,New Mexico,not_contained
-2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-06-14T17:17:48Z,10458,93,WF,Minimal,Undetermined,45.43526,-120.50285,NFIS,7,4.8,NA,NA,Oregon,not_contained
+2025-NMSCD-000304,Buck Fire,NM,Catron,2025-06-12T01:23:00Z,2025-06-19T12:23:50Z,57753,39,WF,Extreme,Natural,33.5842,-108.91,NFIS,7,0.1,NA,NA,New Mexico,not_contained
+2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-06-14T17:17:48Z,10458,93,WF,Minimal,Undetermined,45.43526,-120.50285,NFIS,7,4.9,NA,NA,Oregon,not_contained
 2025-NMGNF-000384,Trout Fire,NM,Grant,2025-06-12T13:24:00Z,2025-06-19T13:00:01Z,38682,0,WF,Active,Undetermined,32.97783,-108.23091,NFIS,7,0,NA,NA,New Mexico,not_contained
 2025-WAWFS-000237,Vansycle Canyon Fire,WA,Walla Walla,2025-06-12T14:42:36Z,2025-06-13T16:51:04Z,1900,100,WF,Minimal,Undetermined,46.0315,-118.831,NFIS,6,5.9,NA,NA,Washington,contained
-2025-SDPRA-000044,American Horse Fire,SD,Oglala Lakota,2025-06-12T22:51:38Z,2025-06-17T19:49:22Z,5,NA,WF,NA,NA,NA,NA,NFIS,6,1.7,NA,NA,South Dakota,not_contained
+2025-SDPRA-000044,American Horse Fire,SD,Oglala Lakota,2025-06-12T22:51:38Z,2025-06-17T19:49:22Z,5,NA,WF,NA,NA,NA,NA,NFIS,6,1.8,NA,NA,South Dakota,not_contained
 2025-WYBTF-002501,Horse Fire,WY,Sublette,2025-06-13T16:32:00Z,2025-06-19T11:17:15Z,1356,6,WF,Moderate,Natural,42.900694,-110.538801,NFIS,5,0.1,NA,NA,Wyoming,not_contained
 2025-WAOWF-000242,Pomas Fire,WA,Chelan,2025-06-13T17:40:00Z,2025-06-19T01:24:48Z,824,0,WF,Active,Natural,48.1091,-120.7207,NFIS,5,0.5,NA,NA,Washington,not_contained
 2025-AZNAA-000081,Bridge Creek Fire,UT,San Juan,2025-06-13T20:36:00Z,2025-06-19T03:56:43Z,1100,0,WF,Active,Natural,NA,NA,NFIS,5,0.4,NA,NA,Utah,not_contained
@@ -67,7 +67,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKTAD-000160,Helpmejack Fire,AK,Yukon-Koyukuk,2025-06-17T19:06:02Z,2025-06-18T16:29:26Z,640,0,WF,Active,Natural,66.869717,-154.0625,NFIS,1,0.9,NA,NA,Alaska,not_contained
 2025-AZNAA-000092,Lukachukai Fire,AZ,Apache,2025-06-17T20:00:02Z,2025-06-18T17:46:27Z,15,NA,WF,NA,Human,NA,NA,NFIS,1,0.8,NA,NA,Arizona,not_contained
 2025-AKTAD-000162,Rockybottom Fire,AK,Yukon-Koyukuk,2025-06-17T21:12:36Z,2025-06-18T16:28:32Z,35,NA,WF,NA,Natural,66.89445,-153.085,NFIS,1,0.9,NA,NA,Alaska,not_contained
-2025-WANWS-000064,Wild Coyote Run Incident Fire,WA,Island,2025-06-17T21:15:00Z,2025-06-18T00:24:29Z,0.1,NA,WF,NA,Undetermined,48.009537,-122.525983,NFIS,1,1.5,NA,NA,Washington,not_contained
+2025-WANWS-000064,Wild Coyote Run Incident Fire,WA,Island,2025-06-17T21:15:00Z,2025-06-18T00:24:29Z,0.1,NA,WF,NA,Undetermined,48.009537,-122.525983,NFIS,1,1.6,NA,NA,Washington,not_contained
 2025-NMMEA-000314,Seven Springs Fire,NM,Otero,2025-06-17T21:16:10Z,2025-06-19T10:49:57Z,350,0,WF,Active,Undetermined,33.1589,-105.866,NFIS,1,0.1,NA,NA,New Mexico,not_contained
 2025-AKSWS-504164,Tango Fire,AK,Yukon-Koyukuk,2025-06-17T21:25:00Z,2025-06-19T03:32:01Z,512.02,0,WF,Minimal,Undetermined,63.82,-156.02,NFIS,1,0.4,NA,NA,Alaska,not_contained
 2025-CASDU-014328,Monte Fire,CA,San Diego,2025-06-17T21:26:46Z,2025-06-19T04:07:40Z,976,25,WF,Active,Undetermined,32.891216,-116.841545,NFIS,1,0.4,NA,NA,California,not_contained
@@ -76,7 +76,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKGAD-000167,Kalusuk Fire,AK,Northwest Arctic,2025-06-17T22:34:48Z,2025-06-18T19:02:50Z,17.64,NA,WF,NA,Natural,65.589167,-159.839167,NFIS,1,0.8,NA,NA,Alaska,not_contained
 2025-CASBC-013614,Mariposa Fire,CA,Santa Barbara,2025-06-17T23:20:00Z,2025-06-18T23:49:40Z,NA,NA,WF,NA,NA,NA,NA,NFIS,1,0.6,NA,NA,California,not_contained
 2025-AKGAD-000181,Makpik Fire,AK,Northwest Arctic,2025-06-18T18:26:40Z,2025-06-18T19:08:33Z,107,NA,WF,NA,Undetermined,67.961167,-158.303183,NFIS,0,0.8,NA,NA,Alaska,not_contained
-2025-WANWS-000065,Loc Fales Fire,WA,Snohomish,2025-06-18T18:30:31Z,2025-06-19T03:00:55Z,0.1,NA,WF,NA,Undetermined,47.828306,-122.077153,NFIS,0,0.4,NA,NA,Washington,not_contained
+2025-WANWS-000065,Loc Fales Fire,WA,Snohomish,2025-06-18T18:30:31Z,2025-06-19T03:00:55Z,0.1,NA,WF,NA,Undetermined,47.828306,-122.077153,NFIS,0,0.5,NA,NA,Washington,not_contained
 2025-MTNWS-000126L,Lu Wolf Syrup Fire,MT,Lincoln,2025-06-18T21:29:00Z,2025-06-19T02:04:52Z,5,NA,WF,NA,Undetermined,48.279273,-115.087538,NFIS,0,0.5,NA,NA,Montana,not_contained
 NA,Cahuilla Fire,CA,Riverside,2025-06-10T12:30:13Z,2025-06-13T22:03:44Z,188,100,Wildfire,NA,NA,33.540872,-116.740299,Cal Fire,9,6,"52700 Highway 371, Anza",https://www.fire.ca.gov/incidents/2025/6/10/cahuilla-fire/,California,contained
 NA,Ranch Fire,CA,San Bernardino,2025-06-10T14:33:13Z,2025-06-17T17:55:37Z,4293,90,Wildfire,NA,NA,34.3745,-117.1232,Cal Fire,9,2,"Bowen Ranch Road and Coxey Truck Trail, South of Apple Valley",https://www.fire.ca.gov/incidents/2025/6/10/ranch-fire/,California,not_contained
@@ -95,9 +95,9 @@ NA,Mission Fire,CA,Alameda,2025-06-16T13:33:37Z,2025-06-17T21:54:00Z,64,100,Wild
 NA,Mission 2 Fire,CA,San Diego,2025-06-16T14:56:46Z,2025-06-17T21:52:28Z,21,100,Wildfire,NA,NA,33.304144,-117.222897,Cal Fire,3,2,"South Mission Road, San Diego",https://www.fire.ca.gov/incidents/2025/6/16/mission-2-fire/,California,contained
 NA,Flume Fire,CA,Tuolumne,2025-06-16T16:23:53Z,2025-06-17T21:47:02Z,10,100,Wildfire,NA,NA,38.002498,-120.428245,Cal Fire,3,2,"Highway 49 and Flume Drive , Tuttletown",https://www.fire.ca.gov/incidents/2025/6/16/flume-fire/,California,contained
 NA,Howe Fire,CA,Ventura,2025-06-16T18:19:00Z,2025-06-18T21:14:07Z,44,100,Wildfire,NA,NA,34.390543,-118.788721,Cal Fire,3,1,"Torrey Road and East Guiberson Road, Piru",https://www.fire.ca.gov/incidents/2025/6/16/howe-fire/,California,contained
-NA,Bonanza Fire,CA,El Dorado,2025-06-17T14:31:31Z,2025-06-18T18:44:07Z,181,40,Wildfire,NA,NA,38.65789,-120.88977,Cal Fire,2,1,"Bonanza Auto Road and Hollandview Drive, East of Shingle Springs",https://www.fire.ca.gov/incidents/2025/6/17/bonanza-fire/,California,not_contained
+NA,Bonanza Fire,CA,El Dorado,2025-06-17T14:31:31Z,2025-06-19T06:50:45Z,181,45,Wildfire,NA,NA,38.65789,-120.88977,Cal Fire,2,0,"Bonanza Auto Road and Hollandview Drive, East of Shingle Springs",https://www.fire.ca.gov/incidents/2025/6/17/bonanza-fire/,California,not_contained
 NA,Ranch Pl Fire,CA,Santa Clara,2025-06-17T16:17:50Z,2025-06-18T21:15:28Z,92,100,Wildfire,NA,NA,37.4097645,-121.8445081,Cal Fire,2,1,"Ranch PI and Cliff Drive, Near Cataldi Park",https://www.fire.ca.gov/incidents/2025/6/17/ranch-pl-fire/,California,contained
 NA,Rider Fire,CA,Riverside,2025-06-18T17:19:42Z,2025-06-18T21:45:05Z,50,NA,Wildfire,NA,NA,33.827937,-117.26152,Cal Fire,1,1,"Rider Street and Seaton Avenue, Mead Valley",https://www.fire.ca.gov/incidents/2025/6/18/rider-fire/,California,not_contained
 NA,Band Fire,CA,Mariposa,2025-06-18T19:00:30Z,2025-06-18T22:00:23Z,12,100,Wildfire,NA,NA,37.644013,-120.32096,Cal Fire,1,1,"Picadero Way, Don Pedro",https://www.fire.ca.gov/incidents/2025/6/18/band-fire/,California,contained
-NA,Somersville Fire,CA,Contra Costa,2025-06-18T19:28:29Z,2025-06-18T23:44:09Z,290,50,Wildfire,NA,NA,37.981065,-121.850359,Cal Fire,1,1,"Somersville Road and James Donion Blvd, 3 miles southeast of Pittsburg ",https://www.fire.ca.gov/incidents/2025/6/18/somersville-fire/,California,not_contained
+NA,Somersville Fire,CA,Contra Costa,2025-06-18T19:28:29Z,2025-06-19T06:51:08Z,290,80,Wildfire,NA,NA,37.981065,-121.850359,Cal Fire,1,0,"Somersville Road and James Donion Blvd, 3 miles southeast of Pittsburg ",https://www.fire.ca.gov/incidents/2025/6/18/somersville-fire/,California,not_contained
 NA,Iverson Fire,CA,Monterey,2025-06-19T01:29:28Z,2025-06-19T06:02:39Z,11,NA,Wildfire,NA,NA,36.527575,-121.41631,Cal Fire,0,0,Unknown / TBD,https://www.fire.ca.gov/incidents/2025/6/19/iverson-fire/,California,not_contained
