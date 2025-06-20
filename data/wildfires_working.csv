@@ -28,12 +28,12 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-NMGNF-000384,Trout Fire,NM,Grant,2025-06-12T13:24:00Z,2025-06-20T04:28:41Z,43547,11,WF,Active,Undetermined,32.97783,-108.23091,NFIS,7,0.1,NA,NA,New Mexico,not_contained
 2025-WAWFS-000237,Vansycle Canyon Fire,WA,Walla Walla,2025-06-12T14:42:36Z,2025-06-13T16:51:04Z,1900,100,WF,Minimal,Undetermined,46.0315,-118.831,NFIS,7,6.6,NA,NA,Washington,contained
 2025-SDPRA-000044,American Horse Fire,SD,Oglala Lakota,2025-06-12T22:51:38Z,2025-06-17T19:49:22Z,5,NA,WF,NA,NA,NA,NA,NFIS,7,2.5,NA,NA,South Dakota,not_contained
-2025-WYBTF-002501,Horse Fire,WY,Sublette,2025-06-13T16:32:00Z,2025-06-19T11:17:15Z,1456,11,WF,Moderate,Natural,42.900694,-110.538801,NFIS,6,0.8,NA,NA,Wyoming,not_contained
+2025-WYBTF-002501,Horse Fire,WY,Sublette,2025-06-13T16:32:00Z,2025-06-19T11:17:15Z,1456,11,WF,Moderate,Natural,42.900694,-110.538801,NFIS,6,0.9,NA,NA,Wyoming,not_contained
 2025-WAOWF-000242,Pomas Fire,WA,Chelan,2025-06-13T17:40:00Z,2025-06-19T14:44:49Z,910,0,WF,Active,Natural,48.1091,-120.7207,NFIS,6,0.7,NA,NA,Washington,not_contained
-2025-AZNAA-000081,Bridge Creek Fire,UT,San Juan,2025-06-13T20:36:00Z,2025-06-19T23:18:55Z,1145,0,WF,Moderate,Natural,NA,NA,NFIS,6,0.3,NA,NA,Utah,not_contained
+2025-AZNAA-000081,Bridge Creek Fire,UT,San Juan,2025-06-13T20:36:00Z,2025-06-19T23:18:55Z,1145,0,WF,Moderate,Natural,NA,NA,NFIS,6,0.4,NA,NA,Utah,not_contained
 2025-AKFAS-511120,Mcadams Creek Coal Seam Fire,AK,Denali,2025-06-14T06:51:00Z,2025-06-16T23:05:05Z,193.01,0,WF,Minimal,Natural,64.15,-148.416667,NFIS,6,3.4,NA,NA,Alaska,not_contained
 2025-AKSWS-504122,Oskawalik Fire,AK,Bethel,2025-06-14T19:52:00Z,2025-06-18T04:41:47Z,1779.14,24,WF,Minimal,Undetermined,61.726167,-158.13,NFIS,5,2.1,NA,NA,Alaska,not_contained
-2025-MTMCD-000492,Lost Fire,MT,Garfield,2025-06-14T21:17:00Z,2025-06-16T18:34:02Z,42.1,NA,WF,NA,Natural,47.51683,-107.67954,NFIS,5,3.5,NA,NA,Montana,not_contained
+2025-MTMCD-000492,Lost Fire,MT,Garfield,2025-06-14T21:17:00Z,2025-06-16T18:34:02Z,42.1,NA,WF,NA,Natural,47.51683,-107.67954,NFIS,5,3.6,NA,NA,Montana,not_contained
 2025-AKMID-000124,Stuart 2 Fire,AK,Fairbanks North Star,2025-06-15T02:03:42Z,2025-06-18T19:14:48Z,33.1,NA,WF,NA,Human,64.686283,-146.55875,NFIS,5,1.5,NA,NA,Alaska,not_contained
 2025-AKMID-000125,Stuart 3 Fire,AK,Fairbanks North Star,2025-06-15T03:35:11Z,2025-06-18T19:16:15Z,33.9,NA,WF,NA,Human,64.685333,-146.534833,NFIS,5,1.5,NA,NA,Alaska,not_contained
 2025-WIWIS-FIRE124054,Log Cabin Fire,WI,Juneau,2025-06-15T14:35:00Z,2025-06-16T15:18:46Z,0.18,NA,WF,NA,Human,44.03145,-90.02333,NFIS,4,3.7,NA,NA,Wisconsin,not_contained
@@ -52,7 +52,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKTAD-000153,Chabanika Fire,AK,Yukon-Koyukuk,2025-06-17T15:54:18Z,2025-06-18T16:28:32Z,485,0,WF,Moderate,Natural,66.847217,-153.381667,NFIS,2,1.6,NA,NA,Alaska,not_contained
 2025-AKSWS-504156,Our Creek Fire,AK,Yukon-Koyukuk,2025-06-17T16:11:00Z,2025-06-18T16:50:56Z,34.6,NA,WF,NA,Undetermined,63.78,-155.49,NFIS,2,1.6,NA,NA,Alaska,not_contained
 2025-AKTAD-000155,Wolf Fire,AK,Yukon-Koyukuk,2025-06-17T16:17:00Z,2025-06-18T16:52:01Z,417,0,WF,Active,Natural,65.376667,-154.368883,NFIS,2,1.6,NA,NA,Alaska,not_contained
-2025-WAYAA-000024,Tule Fire,WA,Yakima,2025-06-17T16:45:00Z,2025-06-18T16:04:38Z,304,100,WF,Minimal,Human,NA,NA,NFIS,2,1.6,NA,NA,Washington,contained
+2025-WAYAA-000024,Tule Fire,WA,Yakima,2025-06-17T16:45:00Z,2025-06-18T16:04:38Z,304,100,WF,Minimal,Human,NA,NA,NFIS,2,1.7,NA,NA,Washington,contained
 2025-AKTAD-000160,Helpmejack Fire,AK,Yukon-Koyukuk,2025-06-17T19:06:02Z,2025-06-18T16:29:26Z,640,0,WF,Active,Natural,66.869717,-154.0625,NFIS,2,1.6,NA,NA,Alaska,not_contained
 2025-ORPRD-000300,0300 Gilliam County Assist Fire,OR,Gilliam,2025-06-17T19:50:50Z,2025-06-19T22:31:33Z,1700,100,WF,Minimal,Human,45.3894,-120.059,NFIS,2,0.4,NA,NA,Oregon,contained
 2025-AZNAA-000092,Lukachukai Fire,AZ,Apache,2025-06-17T20:00:02Z,2025-06-18T17:46:27Z,15,NA,WF,NA,Human,NA,NA,NFIS,2,1.6,NA,NA,Arizona,not_contained
@@ -73,7 +73,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MTCMR-000507,East Crooked Creek Fire,MT,Garfield,2025-06-18T19:34:34Z,2025-06-19T14:20:27Z,9,NA,WF,NA,Undetermined,47.669939,-106.685143,NFIS,1,0.7,NA,NA,Montana,not_contained
 2025-MTCMR-000509,Cold Turkey Fire,MT,Garfield,2025-06-18T20:31:00Z,2025-06-19T22:52:17Z,72.1,0,WF,Moderate,Natural,47.62057,-106.890879,NFIS,1,0.4,NA,NA,Montana,not_contained
 2025-AKSWS-504186,Wabash Creek Fire,AK,Yukon-Koyukuk,2025-06-18T21:20:00Z,2025-06-20T03:34:31Z,53.7,NA,WF,NA,Undetermined,63.218056,-155.194167,NFIS,1,0.2,NA,NA,Alaska,not_contained
-2025-MTNWS-000126L,Lu Wolf Syrup Fire,MT,Lincoln,2025-06-18T21:29:00Z,2025-06-19T23:17:48Z,91,0,WF,Active,Undetermined,48.279273,-115.087538,NFIS,1,0.3,NA,NA,Montana,not_contained
+2025-MTNWS-000126L,Lu Wolf Syrup Fire,MT,Lincoln,2025-06-18T21:29:00Z,2025-06-19T23:17:48Z,91,0,WF,Active,Undetermined,48.279273,-115.087538,NFIS,1,0.4,NA,NA,Montana,not_contained
 2025-AKFAS-511208,Bonnifield Creek Fire,AK,Denali,2025-06-19T17:11:39Z,2025-06-20T03:16:47Z,20.2,NA,WF,NA,Natural,64.196567,-147.874245,NFIS,0,0.2,NA,NA,Alaska,not_contained
 2025-WASES-000266,Trail Creek Fire,WA,Kittitas,2025-06-19T20:26:00Z,2025-06-20T03:22:10Z,50.6,NA,WF,NA,Human,47.111841,-120.35856,NFIS,0,0.2,NA,NA,Washington,not_contained
 2025-COGFX-250124,321 Command Fire,CO,Garfield,2025-06-19T22:29:20Z,2025-06-19T23:48:36Z,0.1,NA,WF,NA,Undetermined,39.510824,-107.803134,NFIS,0,0.3,NA,NA,Colorado,not_contained
