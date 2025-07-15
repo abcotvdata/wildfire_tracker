@@ -10,7 +10,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-06-14T17:17:48Z,10458,100,WF,Minimal,Human,45.43526,-120.50285,NFIS,33,30.8,NA,NA,Oregon,contained
 2025-NMGNF-000384,Trout Fire,NM,Grant,2025-06-12T13:24:00Z,2025-06-29T14:48:26Z,47294,96,WF,Minimal,Natural,32.97783,-108.23091,NFIS,32,15.9,NA,NA,New Mexico,not_contained
 2025-WAWFS-000237,Vansycle Canyon Fire,WA,Walla Walla,2025-06-12T14:42:36Z,2025-06-13T16:51:04Z,1900,100,WF,Minimal,Undetermined,46.0315,-118.831,NFIS,32,31.8,NA,NA,Washington,contained
-2025-WYBTF-002501,Horse Fire,WY,Sublette,2025-06-13T16:32:00Z,2025-07-04T12:59:56Z,2802,80,WF,Minimal,Undetermined,42.900694,-110.538801,NFIS,31,10.9,NA,NA,Wyoming,not_contained
+2025-WYBTF-002501,Horse Fire,WY,Sublette,2025-06-13T16:32:00Z,2025-07-04T12:59:56Z,2802,80,WF,Minimal,Undetermined,42.900694,-110.538801,NFIS,31,11,NA,NA,Wyoming,not_contained
 2025-WAOWF-000242,Pomas Fire,WA,Chelan,2025-06-13T17:40:00Z,2025-07-14T12:43:59Z,3430,0,WF,Active,Natural,48.1091,-120.7207,NFIS,31,1,NA,NA,Washington,not_contained
 2025-AZNAA-000081,Bridge Creek Fire,UT,San Juan,2025-06-13T20:36:00Z,2025-06-24T11:26:58Z,2588,80,WF,Minimal,Natural,NA,NA,NFIS,31,21,NA,NA,Utah,not_contained
 2025-AKFAS-511120,Mcadams Creek Coal Seam Fire,AK,Denali,2025-06-14T06:51:00Z,2025-06-16T23:05:05Z,193.01,0,WF,Minimal,Natural,64.15,-148.416667,NFIS,31,28.5,NA,NA,Alaska,not_contained
@@ -23,7 +23,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKGAD-000152,Tetilesook Fire,AK,Northwest Arctic,2025-06-17T04:07:12Z,2025-07-05T16:45:59Z,1259.38,0,WF,Minimal,Natural,66.9025,-161.593,NFIS,28,9.8,NA,NA,Alaska,not_contained
 2025-AKGAD-000154,Tagagawik Fire,AK,Yukon-Koyukuk,2025-06-17T15:52:56Z,2025-06-19T16:22:26Z,1378.37,0,WF,Minimal,Natural,65.66,-159.06,NFIS,27,25.8,NA,NA,Alaska,not_contained
 2025-AKTAD-000153,Chabanika Fire,AK,Yukon-Koyukuk,2025-06-17T15:54:18Z,2025-07-13T18:45:00Z,3893,0,WF,Moderate,Natural,66.847217,-153.381667,NFIS,27,1.7,NA,NA,Alaska,not_contained
-2025-AKSWS-504156,Our Creek Fire,AK,Yukon-Koyukuk,2025-06-17T16:11:00Z,2025-06-26T03:23:12Z,503.3,0,WF,Minimal,Natural,63.78,-155.49,NFIS,27,19.3,NA,NA,Alaska,not_contained
+2025-AKSWS-504156,Our Creek Fire,AK,Yukon-Koyukuk,2025-06-17T16:11:00Z,2025-06-26T03:23:12Z,503.3,0,WF,Minimal,Natural,63.78,-155.49,NFIS,27,19.4,NA,NA,Alaska,not_contained
 2025-AKTAD-000155,Wolf Fire,AK,Yukon-Koyukuk,2025-06-17T16:17:00Z,2025-07-03T21:45:58Z,2022,0,WF,Minimal,Natural,65.376667,-154.368883,NFIS,27,11.6,NA,NA,Alaska,not_contained
 2025-AKTAD-000160,Helpmejack Fire,AK,Yukon-Koyukuk,2025-06-17T19:06:02Z,2025-07-03T21:55:42Z,3182,0,WF,Minimal,Natural,66.869717,-154.0625,NFIS,27,11.6,NA,NA,Alaska,not_contained
 2025-AKTAD-000162,Rockybottom Fire,AK,Yukon-Koyukuk,2025-06-17T21:12:36Z,2025-06-25T22:14:12Z,941,0,WF,Minimal,Natural,66.89445,-153.085,NFIS,27,19.6,NA,NA,Alaska,not_contained
@@ -50,7 +50,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKFAS-511206,Ricks Creek Fire,AK,Fairbanks North Star,2025-06-19T16:06:14Z,2025-07-08T02:09:11Z,16720.2,0,WF,Moderate,Natural,64.85,-145.05,NFIS,25,7.4,NA,NA,Alaska,not_contained
 2025-AKGAD-000204,Aniralik Fire,AK,Northwest Arctic,2025-06-19T16:29:58Z,2025-06-27T15:59:07Z,4906.3,0,WF,Minimal,Natural,68.203333,-159.735833,NFIS,25,17.8,NA,NA,Alaska,not_contained
 2025-AKFAS-511208,Bonnifield Creek Fire,AK,Denali,2025-06-19T17:11:39Z,2025-07-12T23:41:30Z,16219,0,WF,Minimal,Natural,64.196567,-147.874245,NFIS,25,2.5,NA,NA,Alaska,not_contained
-2025-AKFAS-511210,Middle Fork Fire,AK,Fairbanks North Star,2025-06-19T19:55:00Z,2025-07-03T22:34:07Z,176.31,NA,WF,NA,Natural,64.960717,-145.978417,NFIS,25,11.5,NA,NA,Alaska,not_contained
+2025-AKFAS-511210,Middle Fork Fire,AK,Fairbanks North Star,2025-06-19T19:55:00Z,2025-07-03T22:34:07Z,176.31,NA,WF,NA,Natural,64.960717,-145.978417,NFIS,25,11.6,NA,NA,Alaska,not_contained
 2025-AKGAD-000213,23902 Fire,AK,Northwest Arctic,2025-06-19T20:55:13Z,2025-07-13T17:09:23Z,501.83,0,WF,Minimal,Natural,66.717783,-155.097667,NFIS,25,1.8,NA,NA,Alaska,not_contained
 2025-AKUYD-000214,Deadwood Fire,AK,Yukon-Koyukuk,2025-06-19T21:53:00Z,2025-07-01T18:25:45Z,147,100,WF,NA,Natural,65.548535,-144.783129,NFIS,25,13.7,NA,NA,Alaska,contained
 2025-AKUYD-000216,Ophir Fire,AK,Yukon-Koyukuk,2025-06-19T22:01:19Z,2025-07-01T00:44:39Z,729,0,WF,Minimal,Natural,64.4285,-146.89,NFIS,25,14.5,NA,NA,Alaska,not_contained
@@ -76,13 +76,13 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKGAD-000251,Richards Fire,AK,Yukon-Koyukuk,2025-06-20T18:27:00Z,2025-07-06T18:53:24Z,577,20,WF,Minimal,Natural,65.685833,-156.7275,NFIS,24,8.7,NA,NA,Alaska,not_contained
 2025-AKUYD-000256,Birch Fire,AK,Yukon-Koyukuk,2025-06-20T20:35:04Z,2025-07-13T17:55:48Z,4739,28,WF,NA,Natural,65.862217,-144.221117,NFIS,24,1.7,NA,NA,Alaska,not_contained
 2025-AKUYD-000255,Christian Fire,AK,Yukon-Koyukuk,2025-06-20T20:50:49Z,2025-07-14T18:34:10Z,30588,0,WF,Minimal,Natural,67.337383,-144.808,NFIS,24,0.7,NA,NA,Alaska,not_contained
-2025-AKUYD-000265,Alligator Fire,AK,Yukon-Koyukuk,2025-06-20T21:35:59Z,2025-07-07T00:58:43Z,892,67,WF,NA,Natural,65.636167,-144.760333,NFIS,24,8.4,NA,NA,Alaska,not_contained
+2025-AKUYD-000265,Alligator Fire,AK,Yukon-Koyukuk,2025-06-20T21:35:59Z,2025-07-07T00:58:43Z,892,67,WF,NA,Natural,65.636167,-144.760333,NFIS,24,8.5,NA,NA,Alaska,not_contained
 2025-AKTAD-000257,Hay Fire,AK,Yukon-Koyukuk,2025-06-20T21:40:26Z,2025-07-02T23:43:58Z,2034,100,WF,Minimal,Natural,65.1,-151.61,NFIS,24,12.5,NA,NA,Alaska,contained
 2025-AKUYD-000258,Koness Fire,AK,Yukon-Koyukuk,2025-06-20T22:03:34Z,2025-06-23T01:17:04Z,152.63,0,WF,Minimal,Natural,68.191833,-144.485,NFIS,24,22.4,NA,NA,Alaska,not_contained
 2025-AKSWS-504260,Susulatna Hills Fire,AK,Yukon-Koyukuk,2025-06-20T22:06:48Z,2025-07-02T05:26:24Z,8711,0,WF,Minimal,Natural,63.59,-155.29,NFIS,24,13.3,NA,NA,Alaska,not_contained
 2025-AKTAD-000261,Easter Fire,AK,North Slope,2025-06-20T22:12:20Z,2025-07-01T19:06:29Z,471,0,WF,Minimal,Natural,68.05,-153.99,NFIS,24,13.7,NA,NA,Alaska,not_contained
 2025-AKUYD-000264,Buckley Bar Fire,AK,Yukon-Koyukuk,2025-06-20T22:25:24Z,2025-07-12T17:22:11Z,9353,0,WF,Active,Natural,65.37,-144.34,NFIS,24,2.8,NA,NA,Alaska,not_contained
-2025-AKSWS-504263,Pilot Creek Fire,AK,Yukon-Koyukuk,2025-06-20T22:27:00Z,2025-07-02T05:36:31Z,3694,4,WF,Minimal,Natural,63.96,-154.86,NFIS,24,13.2,NA,NA,Alaska,not_contained
+2025-AKSWS-504263,Pilot Creek Fire,AK,Yukon-Koyukuk,2025-06-20T22:27:00Z,2025-07-02T05:36:31Z,3694,4,WF,Minimal,Natural,63.96,-154.86,NFIS,24,13.3,NA,NA,Alaska,not_contained
 2025-AKFAS-511270,Goldstream Creek Fire,AK,Yukon-Koyukuk,2025-06-20T22:51:00Z,2025-07-14T16:25:07Z,20535,NA,WF,NA,Natural,64.7299,-148.685,NFIS,24,0.8,NA,NA,Alaska,not_contained
 2025-AKFAS-511268,Aggie Creek Fire,AK,Fairbanks North Star,2025-06-20T23:10:42Z,2025-07-14T23:06:06Z,35146,2,WF,Moderate,Natural,65.122783,-148.154167,NFIS,24,0.5,NA,NA,Alaska,not_contained
 2025-AKCRS-514274,Fish Lake Fire,AK,Copper River,2025-06-20T23:13:00Z,2025-06-28T04:36:16Z,1841.6,NA,WF,NA,Natural,62.647,-145.482,NFIS,24,17.3,NA,NA,Alaska,not_contained
@@ -93,7 +93,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKTAS-513278,Ridgeline Fire,AK,Southeast Fairbanks,2025-06-21T01:04:43Z,2025-06-28T16:57:14Z,4755.04,0,WF,Minimal,Natural,63.112217,-141.20805,NFIS,24,16.8,NA,NA,Alaska,not_contained
 2025-AKFAS-511280,Dry Creek Fire,AK,Denali,2025-06-21T01:51:53Z,2025-07-08T01:59:40Z,12043.07,0,WF,Moderate,Natural,64.146117,-147.17925,NFIS,24,7.4,NA,NA,Alaska,not_contained
 2025-AKTAS-513276,River Trail Fire,AK,Southeast Fairbanks,2025-06-21T02:12:41Z,2025-07-15T03:27:18Z,22907.1,0,WF,Moderate,Natural,63.4187,-141.947883,NFIS,24,0.3,NA,NA,Alaska,not_contained
-2025-AKTAS-513281,Mcarthur Creek Fire,AK,Southeast Fairbanks,2025-06-21T02:21:00Z,2025-07-02T08:00:55Z,7123.84,0,WF,Minimal,Natural,64.188,-142.538,NFIS,24,13.1,NA,NA,Alaska,not_contained
+2025-AKTAS-513281,Mcarthur Creek Fire,AK,Southeast Fairbanks,2025-06-21T02:21:00Z,2025-07-02T08:00:55Z,7123.84,0,WF,Minimal,Natural,64.188,-142.538,NFIS,24,13.2,NA,NA,Alaska,not_contained
 2025-AKGAD-000279,Moldy Fire,AK,Yukon-Koyukuk,2025-06-21T02:40:32Z,2025-07-15T01:30:29Z,72431,0,WF,Minimal,Natural,65.582658,-156.739841,NFIS,24,0.4,NA,NA,Alaska,not_contained
 2025-AKDAS-512324,Central Creek Fire,AK,Southeast Fairbanks,2025-06-21T02:46:37Z,2025-07-01T03:05:47Z,52.97,NA,WF,NA,Natural,64.351667,-145.015833,NFIS,24,14.4,NA,NA,Alaska,not_contained
 2025-AKTAS-513282,Lake Mansfield Fire,AK,Southeast Fairbanks,2025-06-21T03:38:41Z,2025-07-07T16:14:19Z,850.3,0,WF,Moderate,Natural,63.335927,-142.987701,NFIS,24,7.8,NA,NA,Alaska,not_contained
@@ -133,18 +133,18 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-AKTAD-000365,Huron Fire,AK,Yukon-Koyukuk,2025-07-02T02:14:07Z,2025-07-04T21:20:50Z,0.48,NA,WF,NA,Natural,65.38455,-149.473383,NFIS,13,10.6,NA,NA,Alaska,not_contained
 2025-AKTAD-000366,Union Fire,AK,Yukon-Koyukuk,2025-07-02T02:18:14Z,2025-07-04T21:20:41Z,0.41,NA,WF,NA,Natural,65.384783,-149.467867,NFIS,13,10.6,NA,NA,Alaska,not_contained
 2025-CASHF-000560,Green Fire,CA,Shasta,2025-07-02T04:37:00Z,2025-07-15T07:00:55Z,12933,5,WF,Active,Natural,40.833547,-122.103814,NFIS,13,0.2,NA,NA,California,not_contained
-2025-AZPHD-000669,Juniper Fire,AZ,Yavapai,2025-07-02T05:24:00Z,2025-07-07T00:56:28Z,600,100,WF,Minimal,Natural,34.074278,-112.244468,NFIS,13,8.4,NA,NA,Arizona,contained
+2025-AZPHD-000669,Juniper Fire,AZ,Yavapai,2025-07-02T05:24:00Z,2025-07-07T00:56:28Z,600,100,WF,Minimal,Natural,34.074278,-112.244468,NFIS,13,8.5,NA,NA,Arizona,contained
 2025-AKUYD-000367,Burman Fire,AK,Yukon-Koyukuk,2025-07-02T05:35:32Z,2025-07-08T21:35:13Z,11.79,NA,WF,NA,Natural,66.146833,-145.934,NFIS,13,6.6,NA,NA,Alaska,not_contained
 2025-OR951S-000391,0391 Od Fire,OR,Jefferson,2025-07-02T19:09:00Z,2025-07-03T15:31:41Z,624,95,WF,Minimal,Natural,44.482083,-120.945583,NFIS,12,11.8,NA,NA,Oregon,not_contained
 2025-CASHF-000575,Horse Fire,CA,Shasta,2025-07-02T19:53:00Z,2025-07-07T01:33:59Z,385,100,WF,Minimal,Natural,40.901196,-122.571857,NFIS,12,8.4,NA,NA,California,contained
-2025-CALPF-001817,Madre Fire,CA,San Luis Obispo,2025-07-02T20:07:00Z,2025-07-12T03:14:31Z,80786,86,WF,Minimal,Undetermined,35.110738,-120.08975,NFIS,12,3.3,NA,NA,California,not_contained
+2025-CALPF-001817,Madre Fire,CA,San Luis Obispo,2025-07-02T20:07:00Z,2025-07-12T03:14:31Z,80786,86,WF,Minimal,Undetermined,35.110738,-120.08975,NFIS,12,3.4,NA,NA,California,not_contained
 2025-NMGNF-000443,Panther Fire,NM,Grant,2025-07-02T20:37:00Z,2025-07-05T16:21:33Z,80,83,WF,Minimal,Natural,33.02,-108.335124,NFIS,12,9.8,NA,NA,New Mexico,not_contained
 2025-WANES-001565,Siegel Fire,WA,Spokane,2025-07-02T21:55:00Z,2025-07-07T18:47:12Z,700,93,WF,Minimal,Human,47.306818,-117.507977,NFIS,12,7.7,NA,NA,Washington,not_contained
 2025-WASPD-000339,Apple Acres Fire,WA,Chelan,2025-07-02T22:28:00Z,2025-07-09T12:12:31Z,3410,95,WF,Minimal,Human,47.923977,-119.931294,NFIS,12,6,NA,NA,Washington,not_contained
 2025-MTLG16-000563,Makoshika Fire,MT,Dawson,2025-07-02T23:42:53Z,2025-07-03T16:00:02Z,169.3,NA,WF,NA,Undetermined,47.0631,-104.668,NFIS,12,11.8,NA,NA,Montana,not_contained
 2025-CASHF-000585,Helena Fire,CA,Trinity,2025-07-03T00:17:00Z,2025-07-07T23:24:28Z,105,100,WF,Minimal,Natural,40.782991,-123.130903,NFIS,12,7.5,NA,NA,California,contained
 2025-MTNCD-000152,Wilder Fire,MT,Fergus,2025-07-03T02:40:34Z,2025-07-05T16:04:15Z,3450,100,WF,Minimal,Undetermined,47.514786,-108.538586,NFIS,12,9.8,NA,NA,Montana,contained
-2025-MTLG14-000565,Gardner Fire,MT,Custer,2025-07-03T11:42:00Z,2025-07-10T22:49:14Z,15,NA,WF,NA,Natural,46.0223,-106.17112,NFIS,11,4.5,NA,NA,Montana,not_contained
+2025-MTLG14-000565,Gardner Fire,MT,Custer,2025-07-03T11:42:00Z,2025-07-10T22:49:14Z,15,NA,WF,NA,Natural,46.0223,-106.17112,NFIS,12,4.5,NA,NA,Montana,not_contained
 2025-CAKNF-004795,Jacket Fire,CA,Siskiyou,2025-07-03T15:57:44Z,2025-07-13T15:46:08Z,46,96,WF,NA,Undetermined,41.294333,-123.295667,NFIS,11,1.8,NA,NA,California,not_contained
 2025-MTLG29-000583,Little Rosebud Creek Fire,MT,Rosebud,2025-07-03T22:09:34Z,2025-07-04T17:52:58Z,120,NA,WF,NA,Undetermined,46.067667,-106.568167,NFIS,11,10.7,NA,NA,Montana,not_contained
 2025-MTLG14-000588,Miller Creek Fire,MT,Custer,2025-07-03T23:06:00Z,2025-07-07T16:51:48Z,497.4,100,WF,Minimal,Natural,46.04505,-106.168767,NFIS,11,7.8,NA,NA,Montana,contained
@@ -230,8 +230,8 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-COGRD-250195,Wright Draw Fire,CO,Mesa,2025-07-10T18:27:00Z,2025-07-14T11:25:48Z,350,0,WF,Active,Natural,38.7495,-108.915667,NFIS,4,1,NA,NA,Colorado,not_contained
 2025-COMRX-000072,Little Cimarron Fire,CO,Montrose,2025-07-10T19:10:25Z,2025-07-11T23:04:43Z,50,NA,WF,NA,Undetermined,38.37535,-107.527,NFIS,4,3.5,NA,NA,Colorado,not_contained
 2025-COUPD-000073,Sowbelly Fire,CO,Mesa,2025-07-10T19:17:27Z,2025-07-14T18:58:18Z,2274,0,WF,Moderate,Undetermined,38.663333,-108.417833,NFIS,4,0.7,NA,NA,Colorado,not_contained
-2025-UTSES-005185,Deer Creek Fire,UT,San Juan,2025-07-10T19:41:00Z,2025-07-15T10:35:09Z,11044,7,WF,Active,Undetermined,38.35247,-109.17423,NFIS,4,0,NA,NA,Utah,not_contained
-2025-AKUYD-000435,Polly Fire,AK,Southeast Fairbanks,2025-07-11T00:37:03Z,2025-07-14T17:47:24Z,210,0,WF,Moderate,Natural,64.217217,-141.470283,NFIS,4,0.7,NA,NA,Alaska,not_contained
+2025-UTSES-005185,Deer Creek Fire,UT,San Juan,2025-07-10T19:41:00Z,2025-07-15T10:35:09Z,11044,7,WF,Active,Undetermined,38.35247,-109.17423,NFIS,4,0.1,NA,NA,Utah,not_contained
+2025-AKUYD-000435,Polly Fire,AK,Southeast Fairbanks,2025-07-11T00:37:03Z,2025-07-14T17:47:24Z,210,0,WF,Moderate,Natural,64.217217,-141.470283,NFIS,4,0.8,NA,NA,Alaska,not_contained
 2025-CASDU-015914,Springs Fire,CA,San Diego,2025-07-11T01:23:08Z,2025-07-11T06:41:09Z,50,NA,WF,NA,Undetermined,32.711874,-116.746979,NFIS,4,4.2,NA,NA,California,not_contained
 2025-AKGAD-000438,Ulaneak Fire,AK,Northwest Arctic,2025-07-11T15:54:29Z,2025-07-14T15:59:31Z,257.78,0,WF,Minimal,Natural,67.31,-156.22,NFIS,3,0.8,NA,NA,Alaska,not_contained
 2025-FLFNF-002129,Blue Creek 2 Fire,FL,Lake,2025-07-11T20:10:39Z,2025-07-14T00:34:03Z,10,NA,WF,NA,Natural,29.161882,-81.567902,NFIS,3,1.5,NA,NA,Florida,not_contained
@@ -243,10 +243,10 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-OR712S-006126,Highland Fire,OR,Josephine,2025-07-12T23:23:00Z,2025-07-14T23:23:13Z,NA,NA,WF,NA,Undetermined,42.49516667,-123.3615,NFIS,2,0.5,NA,NA,Oregon,not_contained
 2025-FLFNF-002148,Tracy #2 Fire,FL,Lake,2025-07-13T15:41:24Z,2025-07-14T00:34:58Z,60,NA,WF,NA,Natural,29.023053,-81.511946,NFIS,1,1.5,NA,NA,Florida,not_contained
 2025-ORVAD-250131,Coyote Fire,OR,Malheur,2025-07-13T17:03:00Z,2025-07-14T13:49:51Z,835,80,WF,Moderate,Undetermined,42.683216,-117.027225,NFIS,1,0.9,NA,NA,Oregon,not_contained
-2025-CAFKU-014639,Max Fire,CA,Fresno,2025-07-13T20:11:54Z,2025-07-14T17:39:29Z,426,5,WF,Active,Undetermined,36.933131,-119.352245,NFIS,1,0.7,NA,NA,California,not_contained
+2025-CAFKU-014639,Max Fire,CA,Fresno,2025-07-13T20:11:54Z,2025-07-14T17:39:29Z,426,5,WF,Active,Undetermined,36.933131,-119.352245,NFIS,1,0.8,NA,NA,California,not_contained
 2025-CASNF-001139,Max Fire,CA,Fresno,2025-07-13T20:12:00Z,2025-07-15T05:02:28Z,426,NA,WF,NA,Human,36.933042,-119.352293,NFIS,1,0.3,NA,NA,California,not_contained
 2025-UTFIF-250223,Monroe Canyon Fire,UT,Sevier,2025-07-13T20:22:00Z,2025-07-14T17:34:23Z,1250,0,WF,Extreme,Undetermined,38.5361,-112.073,NFIS,1,0.8,NA,NA,Utah,not_contained
-2025-WASES-000420,Charter Road Fire,WA,Kittitas,2025-07-13T22:50:00Z,2025-07-14T03:14:55Z,5,NA,WF,NA,Human,47.189576,-120.980034,NFIS,1,1.3,NA,NA,Washington,not_contained
+2025-WASES-000420,Charter Road Fire,WA,Kittitas,2025-07-13T22:50:00Z,2025-07-14T03:14:55Z,5,NA,WF,NA,Human,47.189576,-120.980034,NFIS,1,1.4,NA,NA,Washington,not_contained
 2025-ORPRD-000545,0545 Cram Fire,OR,Jefferson,2025-07-14T00:32:00Z,2025-07-15T01:26:19Z,20000,0,WF,Extreme,Human,44.800175,-120.939598,NFIS,1,0.4,NA,NA,Oregon,not_contained
 2025-OR711S-012426,Scenic Ave 4532 Fire,OR,Jackson,2025-07-14T17:38:00Z,2025-07-15T00:29:07Z,NA,NA,WF,NA,Human,42.389,-122.9725,NFIS,0,0.5,NA,NA,Oregon,not_contained
 2025-WANWS-000136,North Fork Fire,WA,Snohomish,2025-07-14T18:08:11Z,2025-07-14T21:24:44Z,0.5,NA,WF,NA,Undetermined,48.272124,-121.853846,NFIS,0,0.6,NA,NA,Washington,not_contained
