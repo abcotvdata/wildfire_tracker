@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-WAOWF-000242,Pomas Fire,WA,Chelan,2025-06-13T17:40:00Z,2025-08-14T04:06:49Z,3533,40,WF,Minimal,Natural,48.1091,-120.7207,NFIS,101,40.6,NA,NA,Washington,not_contained
-2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-09-09T21:05:50Z,10458,100,WF,Minimal,Human,45.43526,-120.50285,NFIS,103,13.8,NA,NA,Oregon,contained
-2025-AKDAS-512220,Twelvemile Lake Fire,AK,Southeast Fairbanks,2025-06-19T23:48:00Z,2025-08-25T21:05:56Z,24145.59,0,WF,Minimal,Natural,63.883333,-144.583333,NFIS,95,28.8,NA,NA,Alaska,not_contained
+2025-ORPRD-000262,0262 Ferry Fire,OR,Sherman,2025-06-12T04:05:00Z,2025-09-09T21:05:50Z,10458,100,WF,Minimal,Human,45.43526,-120.50285,NFIS,103,13.9,NA,NA,Oregon,contained
+2025-AKDAS-512220,Twelvemile Lake Fire,AK,Southeast Fairbanks,2025-06-19T23:48:00Z,2025-08-25T21:05:56Z,24145.59,0,WF,Minimal,Natural,63.883333,-144.583333,NFIS,95,28.9,NA,NA,Alaska,not_contained
 2025-NMSNF-000230,Laguna Fire,NM,Rio Arriba,2025-06-25T20:27:51Z,2025-07-29T12:24:47Z,17415,100,WF,Minimal,Natural,36.342335,-106.779556,NFIS,89,56.2,NA,NA,New Mexico,contained
 2025-CASRF-000503,Red Fire,CA,Del Norte,2025-07-07T01:58:00Z,2025-08-06T18:14:54Z,116,100,WF,NA,Natural,41.507,-123.816,NFIS,78,48,NA,NA,California,contained
 2025-AZGCP-000597,Dragon Bravo Fire,AZ,Coconino,2025-07-04T19:27:00Z,2025-08-22T01:48:20Z,145504,94,WF,Minimal,Natural,36.239167,-112.103833,NFIS,80,32.7,NA,NA,Arizona,not_contained
