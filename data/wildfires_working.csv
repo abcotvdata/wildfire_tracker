@@ -7,7 +7,7 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MTFNF-000376,Squeezer Creek Fire,MT,Lake,2025-08-22T19:04:00Z,2025-09-26T20:17:31Z,165,100,WF,Minimal,Natural,47.7202,-113.6787,NFIS,91,56.6,NA,NA,Montana,contained
 2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,95,WF,Minimal,Natural,39.849358,-107.091013,NFIS,96,38.6,NA,NA,Colorado,not_contained
 2025-COPSF-001374,La Plata Fire,CO,Chaffee,2025-08-17T23:46:00Z,2025-08-24T18:20:27Z,133,92,WF,Minimal,Human,39.0718,-106.4684,NFIS,96,89.7,NA,NA,Colorado,not_contained
-2025-WAOWF-000795,Labor Mountain Fire,WA,Kittitas,2025-09-01T15:29:00Z,2025-10-30T04:41:01Z,42967,97,WF,Minimal,Natural,47.36307,-120.84251,NFIS,81,23.2,NA,NA,Washington,not_contained
+2025-WAOWF-000795,Labor Mountain Fire,WA,Kittitas,2025-09-01T15:29:00Z,2025-10-30T04:41:01Z,42967,97,WF,Minimal,Natural,47.36307,-120.84251,NFIS,81,23.3,NA,NA,Washington,not_contained
 2025-MTKNF-000324,Isabella Fire,MT,Sanders,2025-09-01T13:15:00Z,2025-09-29T11:26:21Z,1411,100,WF,Minimal,Natural,48.1094,-115.677,NFIS,81,54,NA,NA,Montana,contained
 2025-ORRSF-000392,Pinnacle Fire,OR,Curry,2025-09-04T00:34:28Z,2025-10-02T14:27:41Z,26,100,WF,NA,Natural,42.667283,-123.850033,NFIS,79,50.8,NA,NA,Oregon,contained
 2025-ORRSF-000389,Pinnacle Fire,OR,Curry,2025-09-04T00:25:00Z,2025-11-21T01:46:22Z,19520,90,WF,NA,Natural,42.6923,-123.922917,NFIS,79,1.4,NA,NA,Oregon,not_contained
@@ -32,24 +32,24 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-MN2KS-003014,Grouse Fire,MN,Aitkin,2025-11-12T19:57:00Z,2025-11-19T21:22:01Z,100,NA,WF,NA,Undetermined,46.751061,-93.371414,NFIS,9,2.6,NA,NA,Minnesota,not_contained
 2025-FLFNF-003049,Catfish Fire,FL,Columbia,2025-11-19T20:18:29Z,2025-11-20T12:29:53Z,8.54,NA,WF,NA,Human,30.30652,-82.47907,NFIS,2,1.9,NA,NA,Florida,not_contained
 2025-MN2KS-003024,Fleming Lake Fire,MN,Aitkin,2025-11-13T21:17:36Z,2025-11-17T19:23:18Z,20,NA,WF,NA,Undetermined,46.636167,-93.5115,NFIS,8,4.6,NA,NA,Minnesota,not_contained
-2025-CACDD-016387,Powerline Fire,CA,San Bernardino,2025-11-19T20:08:50Z,2025-11-19T23:53:20Z,0.01,NA,WF,NA,Undetermined,34.671925,-117.210297,NFIS,2,2.4,NA,NA,California,not_contained
+2025-CACDD-016387,Powerline Fire,CA,San Bernardino,2025-11-19T20:08:50Z,2025-11-19T23:53:20Z,0.01,NA,WF,NA,Undetermined,34.671925,-117.210297,NFIS,2,2.5,NA,NA,California,not_contained
 2025-NDFTA-000962,Twin Horse Fire,ND,Benson,2025-11-18T19:00:00Z,2025-11-21T18:37:46Z,133,NA,WF,NA,Undetermined,47.899444,-98.6725,NFIS,3,0.7,NA,NA,North Dakota,not_contained
 2025-WIWIS-FIRE124361,Salmon Fire,WI,Monroe,2025-11-17T14:00:00Z,2025-11-20T13:24:32Z,1.12,NA,WF,NA,Human,43.95481,-90.42479,NFIS,4,1.9,NA,NA,Wisconsin,not_contained
 2025-SDCRA-000045,Veneer 25 Fire,SD,Ziebach,2025-07-24T21:00:00Z,2025-11-21T18:49:08Z,NA,NA,WF,NA,NA,NA,NA,NFIS,120,0.7,NA,NA,South Dakota,not_contained
 2025-WIWIS-FIRE124354,Double I Fire,WI,Portage,2025-11-16T19:20:00Z,2025-11-19T13:31:48Z,0.1,NA,WF,NA,Human,44.48375,-89.70797,NFIS,5,2.9,NA,NA,Wisconsin,not_contained
 2025-SDCRA-000055,Strip Fire,SD,Ziebach,2025-08-13T23:00:00Z,2025-11-21T20:28:04Z,NA,NA,WF,NA,NA,NA,NA,NFIS,100,0.6,NA,NA,South Dakota,not_contained
 2025-WIWIS-FIRE124379,Ash Mound Fire,WI,Oconto,2025-11-20T05:00:00Z,2025-11-20T15:35:08Z,0.05,NA,WF,NA,Human,44.88013,-88.04939,NFIS,2,1.8,NA,NA,Wisconsin,not_contained
-2025-SDCRA-000051,Fp744 Fire,SD,Dewey,2025-07-27T17:30:00Z,2025-11-20T19:03:34Z,NA,NA,WF,NA,NA,NA,NA,NFIS,117,1.6,NA,NA,South Dakota,not_contained
+2025-SDCRA-000051,Fp744 Fire,SD,Dewey,2025-07-27T17:30:00Z,2025-11-20T19:03:34Z,NA,NA,WF,NA,NA,NA,NA,NFIS,117,1.7,NA,NA,South Dakota,not_contained
 2025-WIWIS-FIRE124350,Boombox Fire,WI,Waupaca,2025-11-16T11:10:00Z,2025-11-18T19:43:10Z,0.28,NA,WF,NA,Human,44.25828,-89.17679,NFIS,5,3.6,NA,NA,Wisconsin,not_contained
-2025-SDCRA-000059,Ace Diamond Fire,SD,Ziebach,2025-08-21T18:00:00Z,2025-11-21T21:26:46Z,NA,NA,WF,NA,NA,NA,NA,NFIS,92,0.5,NA,NA,South Dakota,not_contained
+2025-SDCRA-000059,Ace Diamond Fire,SD,Ziebach,2025-08-21T18:00:00Z,2025-11-21T21:26:46Z,NA,NA,WF,NA,NA,NA,NA,NFIS,92,0.6,NA,NA,South Dakota,not_contained
 2025-MSNAP-000470,Chickasaw Village Rx Fire,MS,Lee,2025-11-18T15:21:07Z,2025-11-21T22:45:17Z,NA,NA,RX,NA,Undetermined,34.276944,-88.743889,NFIS,3,0.5,NA,NA,Mississippi,not_contained
 2025-ALALF-000365,Gravity Hill Fire,AL,Cleburne,2025-11-17T16:27:23Z,2025-11-17T19:38:57Z,79,NA,WF,NA,Undetermined,33.492633,-85.848883,NFIS,4,4.6,NA,NA,Alabama,not_contained
 2025-MSNAP-000465,20 Mile Rx Fire,MS,Lee,2025-11-17T18:16:30Z,2025-11-21T22:59:34Z,14,NA,RX,NA,Undetermined,34.430278,-88.549722,NFIS,4,0.5,NA,NA,Mississippi,not_contained
 2025-WIWIS-FIRE124333,Hwy V Fire,WI,Rusk,2025-11-14T21:05:00Z,2025-11-17T19:45:09Z,0.07,NA,WF,NA,Human,45.3648,-90.96351,NFIS,7,4.6,NA,NA,Wisconsin,not_contained
 2025-FLFNF-003022,Fernadez 2 Fire,FL,Lake,2025-11-16T21:54:22Z,2025-11-18T12:30:29Z,31.48,NA,WF,NA,Undetermined,29.03441,-81.41686,NFIS,5,3.9,NA,NA,Florida,not_contained
 2025-WIWIS-FIRE124363,Machickanee Pine 1 Fire,WI,Oconto,2025-11-16T05:00:00Z,2025-11-18T14:52:32Z,0.08,NA,WF,NA,Human,44.83893,-88.04525,NFIS,6,3.8,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE124366,Machickanee Pine 4 Fire,WI,Oconto,2025-11-16T05:00:00Z,2025-11-21T16:39:40Z,0.28,NA,WF,NA,Undetermined,44.83714,-88.04444,NFIS,6,0.7,NA,NA,Wisconsin,not_contained
-2025-WIWIS-FIRE124365,Machickanee Pine 3 Fire,WI,Oconto,2025-11-16T05:00:00Z,2025-11-21T16:40:29Z,1.4,NA,WF,NA,Undetermined,44.83725,-88.04282,NFIS,6,0.7,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE124366,Machickanee Pine 4 Fire,WI,Oconto,2025-11-16T05:00:00Z,2025-11-21T16:39:40Z,0.28,NA,WF,NA,Undetermined,44.83714,-88.04444,NFIS,6,0.8,NA,NA,Wisconsin,not_contained
+2025-WIWIS-FIRE124365,Machickanee Pine 3 Fire,WI,Oconto,2025-11-16T05:00:00Z,2025-11-21T16:40:29Z,1.4,NA,WF,NA,Undetermined,44.83725,-88.04282,NFIS,6,0.8,NA,NA,Wisconsin,not_contained
 2025-WIWIS-FIRE124364,Machickanee Pine 2 Fire,WI,Oconto,2025-11-16T06:00:00Z,2025-11-18T14:52:32Z,0.1,NA,WF,NA,Undetermined,44.8356,-88.04485,NFIS,6,3.8,NA,NA,Wisconsin,not_contained
 NA,Dillon Fire,CA,Siskiyou,2025-08-25T18:24:33Z,2025-11-19T11:49:50Z,11929,100,Wildfire,NA,NA,41.54121,-123.539009,Cal Fire,89,3,"Dillion Mountain, 10 miles north of Somes Bar",https://www.fire.ca.gov/incidents/2025/8/25/dillon-fire/,California,contained
 NA,Highline Fire,CA,Imperial,2025-11-09T08:55:54Z,2025-11-21T12:25:03Z,10,100,Wildfire,NA,NA,32.901984,-115.293446,Cal Fire,13,1,"Boyd Road and Graeser Road, Northeast of Holtville",https://www.fire.ca.gov/incidents/2025/11/9/highline-fire/,California,contained
