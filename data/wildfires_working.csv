@@ -1,6 +1,6 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-CORBX-000995,Elk Rbx Fire,CO,Rio Blanco,2025-08-02T18:41:00Z,2025-08-19T11:21:52Z,14518,100,WF,Minimal,Natural,40.03709,-107.837076,NFIS,117,101,NA,NA,Colorado,contained
-2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,95,WF,Minimal,Natural,39.849358,-107.091013,NFIS,102,44.6,NA,NA,Colorado,not_contained
+2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,95,WF,Minimal,Natural,39.849358,-107.091013,NFIS,102,44.7,NA,NA,Colorado,not_contained
 2025-MTFNF-000376,Squeezer Creek Fire,MT,Lake,2025-08-22T19:04:00Z,2025-09-26T20:17:31Z,165,100,WF,Minimal,Natural,47.7202,-113.6787,NFIS,97,62.6,NA,NA,Montana,contained
 2025-COPSF-001374,La Plata Fire,CO,Chaffee,2025-08-17T23:46:00Z,2025-08-24T18:20:27Z,133,100,WF,Minimal,Human,39.0718,-106.4684,NFIS,102,95.7,NA,NA,Colorado,contained
 2025-NDFBA-000810,Elk Path Fire,ND,McKenzie,2025-08-18T13:44:00Z,2025-08-29T20:11:31Z,0.1,NA,WF,NA,Natural,47.799247,-102.723778,NFIS,101,90.6,NA,NA,North Dakota,not_contained
