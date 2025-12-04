@@ -1,9 +1,9 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,95,WF,Minimal,Natural,39.849358,-107.091013,NFIS,108,50.6,NA,NA,Colorado,not_contained
+2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,95,WF,Minimal,Natural,39.849358,-107.091013,NFIS,108,50.7,NA,NA,Colorado,not_contained
 2025-COPSF-001374,La Plata Fire,CO,Chaffee,2025-08-17T23:46:00Z,2025-08-24T18:20:27Z,133,100,WF,Minimal,Human,39.0718,-106.4684,NFIS,108,101.7,NA,NA,Colorado,contained
 2025-WYBTF-002534,Willow Creek Fire,WY,Lincoln,2025-08-22T17:09:00Z,2025-09-23T03:33:12Z,4066,100,WF,Minimal,Undetermined,42.571477,-111.003799,NFIS,103,72.3,NA,NA,Wyoming,contained
 2025-MTFNF-000376,Squeezer Creek Fire,MT,Lake,2025-08-22T19:04:00Z,2025-09-26T20:17:31Z,165,100,WF,Minimal,Natural,47.7202,-113.6787,NFIS,103,68.6,NA,NA,Montana,contained
-2025-MTFNF-000357,Pot Mountain Fire,MT,Flathead,2025-08-18T19:17:29Z,2025-09-05T22:27:19Z,594,100,WF,Minimal,Undetermined,47.7725,-113.196,NFIS,107,89.5,NA,NA,Montana,contained
+2025-MTFNF-000357,Pot Mountain Fire,MT,Flathead,2025-08-18T19:17:29Z,2025-09-05T22:27:19Z,594,100,WF,Minimal,Undetermined,47.7725,-113.196,NFIS,107,89.6,NA,NA,Montana,contained
 2025-WIWIS-FIRE124308,Lost Fire,WI,Richland,2025-11-06T00:20:00Z,2025-11-07T13:53:32Z,0.35,NA,WF,NA,Human,43.40455,-90.23034,NFIS,28,26.9,NA,NA,Wisconsin,not_contained
 2025-NMGNF-000825,Blue Fire,NM,Catron,2025-10-27T13:28:00Z,2025-11-14T21:18:57Z,172,90,WF,Minimal,Natural,33.325897,-108.617708,NFIS,37,19.6,NA,NA,New Mexico,not_contained
 2025-WIWIS-FIRE124359,Switch Fire,WI,Richland,2025-11-16T21:45:00Z,2025-11-19T13:31:48Z,0.1,NA,WF,NA,Human,43.3192,-90.41314,NFIS,17,14.9,NA,NA,Wisconsin,not_contained
