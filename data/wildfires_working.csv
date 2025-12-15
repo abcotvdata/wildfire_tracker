@@ -1,12 +1,12 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-OR711S-004026,Neil Creek Rd Fire,OR,Jackson,2025-07-08T04:00:00Z,2025-08-29T19:47:17Z,256.9,100,WF,Active,Natural,NA,NA,NFIS,160,107.6,NA,NA,Oregon,contained
-2025-ORMED-009826,Benson Gulch Fire,OR,Jackson,2025-07-08T20:04:00Z,2025-08-29T19:56:34Z,12,90,WF,Active,Natural,42.154,-123.11033333,NFIS,159,107.5,NA,NA,Oregon,not_contained
+2025-ORMED-009826,Benson Gulch Fire,OR,Jackson,2025-07-08T20:04:00Z,2025-08-29T19:56:34Z,12,90,WF,Active,Natural,42.154,-123.11033333,NFIS,159,107.6,NA,NA,Oregon,not_contained
 2025-CORBX-000995,Elk Rbx Fire,CO,Rio Blanco,2025-08-02T18:41:00Z,2025-08-19T11:21:52Z,14518,100,WF,Minimal,Natural,40.03709,-107.837076,NFIS,134,117.9,NA,NA,Colorado,contained
-2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,100,WF,Minimal,Natural,39.849358,-107.091013,NFIS,119,61.5,NA,NA,Colorado,contained
+2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,100,WF,Minimal,Natural,39.849358,-107.091013,NFIS,119,61.6,NA,NA,Colorado,contained
 2025-OR955S-000863,Flat Fire,OR,Jefferson,2025-08-21T23:29:00Z,2025-08-30T18:21:45Z,23346,97,WF,Minimal,Human,44.5747,-121.321108,NFIS,115,106.6,NA,NA,Oregon,not_contained
-2025-WYBTF-002534,Willow Creek Fire,WY,Lincoln,2025-08-22T17:09:00Z,2025-09-23T03:33:12Z,4066,100,WF,Minimal,Undetermined,42.571477,-111.003799,NFIS,114,83.2,NA,NA,Wyoming,contained
+2025-WYBTF-002534,Willow Creek Fire,WY,Lincoln,2025-08-22T17:09:00Z,2025-09-23T03:33:12Z,4066,100,WF,Minimal,Undetermined,42.571477,-111.003799,NFIS,114,83.3,NA,NA,Wyoming,contained
 2025-OR732S-000246,Dads Creek Fire,OR,Douglas,2025-09-01T03:49:00Z,2025-09-02T16:58:18Z,145,100,WF,Minimal,Human,42.74745,-123.52113333,NFIS,105,103.7,NA,NA,Oregon,contained
-2025-MTFNF-000357,Pot Mountain Fire,MT,Flathead,2025-08-18T19:17:29Z,2025-09-05T22:27:19Z,594,100,WF,Minimal,Undetermined,47.7725,-113.196,NFIS,118,100.4,NA,NA,Montana,contained
+2025-MTFNF-000357,Pot Mountain Fire,MT,Flathead,2025-08-18T19:17:29Z,2025-09-05T22:27:19Z,594,100,WF,Minimal,Undetermined,47.7725,-113.196,NFIS,118,100.5,NA,NA,Montana,contained
 2025-CAFKU-018739,Salt 14-2 Fire,CA,Fresno,2025-09-02T10:00:54Z,2025-09-08T01:44:27Z,25643,100,WF,Minimal,Undetermined,36.099461,-120.311182,NFIS,103,98.3,NA,NA,California,contained
 2025-ORRSF-000388,Backbone Fire,OR,Curry,2025-09-04T00:23:16Z,2025-11-21T01:43:57Z,3356,4,WF,NA,Natural,42.6965,-123.945883,NFIS,102,24.3,NA,NA,Oregon,not_contained
 2025-NMGNF-000825,Blue Fire,NM,Catron,2025-10-27T13:28:00Z,2025-11-14T21:18:57Z,172,100,WF,Minimal,Natural,33.325897,-108.617708,NFIS,48,30.5,NA,NA,New Mexico,contained
