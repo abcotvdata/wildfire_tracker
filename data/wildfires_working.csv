@@ -1,12 +1,12 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
 2025-OR711S-004026,Neil Creek Rd Fire,OR,Jackson,2025-07-08T04:00:00Z,2025-08-29T19:47:17Z,256.9,100,WF,Active,Natural,NA,NA,NFIS,165,113.1,NA,NA,Oregon,contained
 2025-ORMED-009826,Benson Gulch Fire,OR,Jackson,2025-07-08T20:04:00Z,2025-08-29T19:56:34Z,12,90,WF,Active,Natural,42.154,-123.11033333,NFIS,165,113.1,NA,NA,Oregon,not_contained
-2025-OR955S-000863,Flat Fire,OR,Jefferson,2025-08-21T23:29:00Z,2025-08-30T18:21:45Z,23346,97,WF,Minimal,Human,44.5747,-121.321108,NFIS,120,112.1,NA,NA,Oregon,not_contained
 2025-COWRF-250367,Derby Fire,CO,Eagle,2025-08-17T16:39:00Z,2025-10-14T20:02:04Z,5453,100,WF,Minimal,Natural,39.849358,-107.091013,NFIS,125,67.1,NA,NA,Colorado,contained
+2025-OR955S-000863,Flat Fire,OR,Jefferson,2025-08-21T23:29:00Z,2025-08-30T18:21:45Z,23346,97,WF,Minimal,Human,44.5747,-121.321108,NFIS,120,112.1,NA,NA,Oregon,not_contained
 2025-ORWIF-250322,Emigrant Fire,OR,Lane,2025-08-24T19:30:00Z,2025-10-01T14:01:32Z,33500,100,WF,Minimal,Natural,43.468783,-122.241617,NFIS,118,80.3,NA,NA,Oregon,contained
 2025-WACOA-250164,Rattlesnake Fire,WA,Ferry,2025-09-01T16:20:00Z,2025-09-27T19:39:04Z,21845,96,WF,Minimal,Natural,47.865623,-118.384209,NFIS,110,84.1,NA,NA,Washington,not_contained
-2025-CAFKU-018739,Salt 14-2 Fire,CA,Fresno,2025-09-02T10:00:54Z,2025-09-08T01:44:27Z,25643,100,WF,Minimal,Undetermined,36.099461,-120.311182,NFIS,109,103.8,NA,NA,California,contained
 2025-MTFNF-000357,Pot Mountain Fire,MT,Flathead,2025-08-18T19:17:29Z,2025-09-05T22:27:19Z,594,100,WF,Minimal,Undetermined,47.7725,-113.196,NFIS,124,106,NA,NA,Montana,contained
+2025-CAFKU-018739,Salt 14-2 Fire,CA,Fresno,2025-09-02T10:00:54Z,2025-09-08T01:44:27Z,25643,100,WF,Minimal,Undetermined,36.099461,-120.311182,NFIS,109,103.8,NA,NA,California,contained
 2025-ORRSF-000392,Pinnacle Fire,OR,Curry,2025-09-04T00:34:28Z,2025-10-02T14:27:41Z,26,100,WF,NA,Natural,42.667283,-123.850033,NFIS,107,79.3,NA,NA,Oregon,contained
 2025-ORWIF-250387,Foley Ridge Fire,OR,Lane,2025-09-07T00:07:00Z,2025-09-22T09:09:26Z,497,95,WF,Minimal,Natural,44.148527,-122.0289,NFIS,104,89.5,NA,NA,Oregon,not_contained
 2025-WIWIS-FIRE124386,Opening Fire,WI,Waupaca,2025-11-23T18:00:00Z,2025-12-05T18:19:23Z,0.32,NA,WF,NA,Human,44.63155,-88.62303,NFIS,27,15.1,NA,NA,Wisconsin,not_contained
@@ -14,4 +14,4 @@ fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,typ
 2025-OKOZPR-002504,Ponderosa Fire,OK,Adair,2025-12-11T16:00:00Z,2025-12-17T21:27:36Z,420,85,WF,Minimal,Human,35.751011,-94.536084,NFIS,9,3,NA,NA,Oklahoma,not_contained
 2025-COYMX-001662,33 Incident Fire,CO,Yuma,2025-12-18T02:00:00Z,2025-12-18T19:06:03Z,10102,100,WF,Minimal,Undetermined,40.340319,-102.524739,NFIS,2,2.1,NA,NA,Colorado,contained
 2025-WVAPP-250001,NA Fire,VA,Clarke,2025-11-16T03:00:00Z,2025-12-18T15:02:49Z,NA,NA,WF,NA,NA,NA,NA,NFIS,34,2.3,NA,NA,Virginia,not_contained
-2025-SDBKF-251242,Greyhound Fire,SD,Pennington,2025-12-17T21:33:26Z,2025-12-18T21:42:52Z,166,NA,WF,NA,Undetermined,43.886197,-103.376897,NFIS,2,2,NA,NA,South Dakota,not_contained
+2025-SDBKF-251242,Greyhound Fire,SD,Pennington,2025-12-17T21:33:26Z,2025-12-18T21:42:52Z,166,NA,WF,NA,Undetermined,43.886197,-103.376897,NFIS,3,2,NA,NA,South Dakota,not_contained
