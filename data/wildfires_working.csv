@@ -1,9 +1,9 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,state_name,status
-2025-CAINF-002630,Pack Fire,CA,Mono,2025-11-13T19:15:00Z,2025-11-17T01:33:40Z,1974,100,WF,Minimal,Undetermined,37.566139,-118.785983,NFIS,50,46.8,California,contained
+2025-CAINF-002630,Pack Fire,CA,Mono,2025-11-13T19:15:00Z,2025-11-17T01:33:40Z,1974,100,WF,Minimal,Undetermined,37.566139,-118.785983,NFIS,50,46.9,California,contained
 2025-WIWIS-FIRE124351,30th Fire Fire,WI,Waushara,2025-11-16T17:20:00Z,2025-11-18T19:16:01Z,436.4,100,WF,Minimal,Human,44.04117,-89.01686,NFIS,47,45.1,Wisconsin,contained
 2025-COYMX-001662,33 Incident Fire,CO,Yuma,2025-12-18T02:00:00Z,2025-12-18T19:06:03Z,10102,100,WF,Minimal,Human,40.340319,-102.524739,NFIS,15,15.1,Colorado,contained
 2025-OKOSA-002679,Double Cut Fire,OK,Osage,2025-12-28T19:34:00Z,2025-12-29T20:30:47Z,48,NA,WF,NA,Undetermined,36.67999,-97.00322,NFIS,5,4.1,Oklahoma,not_contained
 2025-OKOSA-002682,Corncrib Fire,OK,Osage,2025-12-29T11:17:00Z,2025-12-29T20:08:33Z,62.2,NA,WF,NA,Undetermined,36.63411,-96.47129,NFIS,4,4.1,Oklahoma,not_contained
 2025-CACDD-018834,Rru/Assist/61a Fire,CA,Riverside,2025-12-29T22:50:44Z,2025-12-31T19:00:59Z,0.1,NA,WF,NA,Undetermined,33.80506,-116.18007,NFIS,3,2.1,California,not_contained
 2025-CACDD-018835,Palms Fire,CA,Riverside,2025-12-29T23:23:21Z,2025-12-31T19:41:49Z,0.1,NA,WF,NA,Undetermined,33.8756,-116.30145,NFIS,3,2.1,California,not_contained
-2026-TXTXS-260049,Esparza Fire,TX,Washington,2026-01-01T19:32:22Z,2026-01-02T19:48:12Z,31,90,WF,NA,Undetermined,30.30270709,-96.54471322,NFIS,1,0.1,Texas,not_contained
+2026-TXTXS-260049,Esparza Fire,TX,Washington,2026-01-01T19:32:22Z,2026-01-02T19:48:12Z,31,95,WF,NA,Undetermined,30.30270709,-96.54471322,NFIS,1,0.1,Texas,not_contained
