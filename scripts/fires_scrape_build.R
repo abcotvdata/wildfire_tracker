@@ -74,8 +74,9 @@ try(download.file("https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/serv
 
 
 # Get FIRE DANGER FORECASTS from U.S. Forest Service's Wildland Fire Assessment System
-try(download.file("https://www.wfas.net/images/firedanger/fdr_fcst.txt","data/wfas_forecast.txt"))
+# try(download.file("https://www.wfas.net/images/firedanger/fdr_fcst.txt","data/wfas_forecast.txt"))
 # OPEN WORK: Move this to the separate once-a-day download script + action
+# this file no longer exists, so it's commented out for now 
 
 ### SECTION 2. Read in Air Quality and Smoke data. ###
 
@@ -84,18 +85,18 @@ air_quality <- st_read("data/airnow_aq.geojson")
 # Load/read NOAA satellite smoke shapefile fetched daily in separate script/action
 noaa_latest_smoke <- st_read("data/satellite/smoke/noaa_latest_smoke.shp")
 # Load, read and clean portion of USFS fire forecast station file with forecast adjectives
-usfs_forecast <- read_fwf("data/wfas_forecast.txt", skip = 7,
-                          fwf_cols(station_id = c(1, 7), 
-                                   station_name = c(8, 26),
-                                   latitude = c(32, 36),
-                                   longitude = c(37, 42),
-                                   fdc_adj = c(112, 114)))
-usfs_forecast <- usfs_forecast %>% filter(!is.na(latitude) & !is.na(longitude) & !is.na(fdc_adj))
-usfs_forecast <- usfs_forecast %>% filter(latitude != "lat" & longitude != "long" & fdc_adj != "ADJ")
-usfs_forecast$longitude <- paste(sep="","-",usfs_forecast$longitude)
-usfs_forecast$longitude <- gsub("--", "-", usfs_forecast$longitude)
-usfs_forecast$latitude <- as.numeric(usfs_forecast$latitude)
-usfs_forecast$longitude <- as.numeric(usfs_forecast$longitude)
+# usfs_forecast <- read_fwf("data/wfas_forecast.txt", skip = 7,
+#                          fwf_cols(station_id = c(1, 7), 
+#                                   station_name = c(8, 26),
+#                                   latitude = c(32, 36),
+#                                   longitude = c(37, 42),
+#                                   fdc_adj = c(112, 114)))
+# usfs_forecast <- usfs_forecast %>% filter(!is.na(latitude) & !is.na(longitude) & !is.na(fdc_adj))
+# usfs_forecast <- usfs_forecast %>% filter(latitude != "lat" & longitude != "long" & fdc_adj != "ADJ")
+# usfs_forecast$longitude <- paste(sep="","-",usfs_forecast$longitude)
+# usfs_forecast$longitude <- gsub("--", "-", usfs_forecast$longitude)
+# usfs_forecast$latitude <- as.numeric(usfs_forecast$latitude)
+# usfs_forecast$longitude <- as.numeric(usfs_forecast$longitude)
 
 ### SECTION 3. Read in and reshape satellite hot spots data. ###
 
@@ -507,27 +508,27 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
               weight = 0,
               fillOpacity = 0.6,
               group = "Air quality") %>%
-  addCircleMarkers(data = usfs_forecast,
-                   radius = 5,
-                   color = ~riskpal(fdc_adj),
-                   weight = 1,
-                   stroke = FALSE,
-                   fillOpacity = 0.8,
-                   group="Fire forecast") %>%
+  # addCircleMarkers(data = usfs_forecast,
+  #                 radius = 5,
+  #                 color = ~riskpal(fdc_adj),
+  #                 weight = 1,
+  #                 stroke = FALSE,
+  #                 fillOpacity = 0.8,
+  #                 group="Fire forecast") %>%
   addLegend(values = values(air_quality$gridcode), title = "Air Quality Index<br><a href='https://www.airnow.gov/aqi/aqi-basics/' target='blank'><small>What AQI ratings mean</a>", 
             group = "Air quality", 
             colors = c("#b1dbad", "#ffffb8", "#ffcc80","#ff8280","#957aa3","#a18f7f","#dde4f0"),
             labels=c("Good", "Moderate", "Unhealthy/Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous","No AQ Data"),
             position = 'bottomright') %>%
-  addLegend(values = values(usfs_forecast$fdc_adj), title = "Wildland Fire Danger Rating<br><a href='https://www.wfas.net/index.php/fire-danger-rating-fire-potential--danger-32/class-rating-fire-potential-danger-51?task=view' target='blank'><small>More detailed on these risk ratings</a>", 
-            group = "Fire forecast", 
-            colors = c("#006400", "green", "yellow","orange","red"),
-            labels=c("Low", "Moderate", "High", "Very High", "Extreme"),
-            position = 'bottomright') %>%
+  # addLegend(values = values(usfs_forecast$fdc_adj), title = "Wildland Fire Danger Rating<br><a href='https://www.wfas.net/index.php/fire-danger-rating-fire-potential--danger-32/class-rating-fire-potential-danger-51?task=view' target='blank'><small>More detailed on these risk ratings</a>", 
+  #          group = "Fire forecast", 
+  #          colors = c("#006400", "green", "yellow","orange","red"),
+  #          labels=c("Low", "Moderate", "High", "Very High", "Extreme"),
+  #          position = 'bottomright') %>%
   addLayersControl(
-    overlayGroups = c("Wildfires","Hot spots","Fire smoke","Air quality","Fire forecast"),
+    overlayGroups = c("Wildfires","Hot spots","Fire smoke","Air quality"),
     options = layersControlOptions(collapsed = FALSE),
-    position = 'bottomleft') %>% hideGroup(c("Fire smoke","Air quality","Fire forecast"))
+    position = 'bottomleft') %>% hideGroup(c("Fire smoke","Air quality"))
 # base_map
 
 ### SECTION 10. Script national map + variant(s). ###
@@ -571,11 +572,11 @@ wildfire_map <- base_map %>%
                              layerControlElement.getElementsByTagName('input')[3].click();
                               }")),
                    
-                   easyButton(icon = forecast_button, title = forecast_buttontitle,
-                              onClick = JS("function(btn, map) {
-                              
-                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
-                             layerControlElement.getElementsByTagName('input')[4].click();
+                   # easyButton(icon = forecast_button, title = forecast_buttontitle,
+                   #           onClick = JS("function(btn, map) {
+                   #           
+                   #          let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                   #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 }"))) %>% 
   htmlwidgets::onRender("function(el, x) {
@@ -635,11 +636,11 @@ california_map <- base_map %>%
                              layerControlElement.getElementsByTagName('input')[3].click();
                               }")),
                    
-                   easyButton(icon = forecast_button, title = forecast_buttontitle,
-                              onClick = JS("function(btn, map) {
-                              
-                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
-                             layerControlElement.getElementsByTagName('input')[4].click();
+                   # easyButton(icon = forecast_button, title = forecast_buttontitle,
+                   #           onClick = JS("function(btn, map) {
+                   #           
+                   #          let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                   #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 }"))) %>% 
   htmlwidgets::onRender("function(el, x) {
@@ -685,11 +686,11 @@ hawaii_map <- base_map %>%
                              layerControlElement.getElementsByTagName('input')[3].click();
                               }")),
                    
-                   easyButton(icon = forecast_button, title = forecast_buttontitle,
-                              onClick = JS("function(btn, map) {
-                              
-                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
-                             layerControlElement.getElementsByTagName('input')[4].click();
+                   # easyButton(icon = forecast_button, title = forecast_buttontitle,
+                   #           onClick = JS("function(btn, map) {
+                   #           
+                   #          let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                   #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 }"))) %>% 
   htmlwidgets::onRender("function(el, x) {
@@ -735,11 +736,11 @@ national_map <- base_map %>%
                              layerControlElement.getElementsByTagName('input')[3].click();
                               }")),
                    
-                   easyButton(icon = forecast_button, title = forecast_buttontitle,
-                              onClick = JS("function(btn, map) {
-                              
-                             let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
-                             layerControlElement.getElementsByTagName('input')[4].click();
+                   # easyButton(icon = forecast_button, title = forecast_buttontitle,
+                   #           onClick = JS("function(btn, map) {
+                   #           
+                   #          let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
+                   #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 }"))) %>% 
   htmlwidgets::onRender("function(el, x) {
