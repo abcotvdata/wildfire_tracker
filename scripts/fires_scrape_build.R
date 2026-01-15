@@ -570,7 +570,7 @@ wildfire_map <- base_map %>%
                               
                              let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
                              layerControlElement.getElementsByTagName('input')[3].click();
-                              }"))
+                              }")) 
                    
                    # easyButton(icon = forecast_button, title = forecast_buttontitle,
                    #           onClick = JS("function(btn, map) {
@@ -579,7 +579,7 @@ wildfire_map <- base_map %>%
                    #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 # }"))
-                  ) %>% 
+                  
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topleft'}).addTo(this)
     }") %>%
@@ -635,7 +635,7 @@ california_map <- base_map %>%
                               
                              let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
                              layerControlElement.getElementsByTagName('input')[3].click();
-                              }")),
+                              }"))
                    
                    # easyButton(icon = forecast_button, title = forecast_buttontitle,
                    #           onClick = JS("function(btn, map) {
