@@ -579,8 +579,7 @@ wildfire_map <- base_map %>%
                    #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 # }"))
-                  ) 
-%>% 
+                  ) %>% 
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topleft'}).addTo(this)
     }") %>%
@@ -645,8 +644,7 @@ california_map <- base_map %>%
                    #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 # }"))
-) 
-%>% 
+) %>% 
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topleft'}).addTo(this)
     }") %>%
@@ -697,8 +695,7 @@ hawaii_map <- base_map %>%
                    #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 # }"))
-) 
-%>% 
+) %>% 
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topleft'}).addTo(this)
     }") %>%
@@ -749,8 +746,7 @@ national_map <- base_map %>%
                    #          layerControlElement.getElementsByTagName('input')[4].click();
 
                 # }"))
-) 
-%>% 
+) %>% 
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topleft'}).addTo(this)
     }") %>%
