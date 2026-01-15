@@ -570,7 +570,7 @@ wildfire_map <- base_map %>%
                               
                              let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
                              layerControlElement.getElementsByTagName('input')[3].click();
-                              }")),
+                              }"))
                    
                    # easyButton(icon = forecast_button, title = forecast_buttontitle,
                    #           onClick = JS("function(btn, map) {
@@ -629,7 +629,7 @@ california_map <- base_map %>%
                               
                              let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
                              layerControlElement.getElementsByTagName('input')[2].click();
-                              }")),
+                              }"))
                    
                    easyButton(icon = aq_button, title = aq_buttontitle,
                               onClick = JS("function(btn, map) {
@@ -688,7 +688,7 @@ hawaii_map <- base_map %>%
                               
                              let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
                              layerControlElement.getElementsByTagName('input')[3].click();
-                              }")),
+                              }"))
                    
                    # easyButton(icon = forecast_button, title = forecast_buttontitle,
                    #           onClick = JS("function(btn, map) {
@@ -740,7 +740,7 @@ national_map <- base_map %>%
                               
                              let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
                              layerControlElement.getElementsByTagName('input')[3].click();
-                              }")),
+                              }"))
                    
                    # easyButton(icon = forecast_button, title = forecast_buttontitle,
                    #           onClick = JS("function(btn, map) {
