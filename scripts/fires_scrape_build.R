@@ -579,7 +579,7 @@ wildfire_map <- base_map %>%
                    #          layerControlElement.getElementsByTagName('input')[4].click();
 
                    # }"))
-  ) %>%           
+) %>%           
   htmlwidgets::onRender("function(el, x) {
         L.control.zoom({ position: 'topleft'}).addTo(this)
     }") %>%
@@ -628,7 +628,7 @@ california_map <- base_map %>%
                               
                              let layerControlElement = document.getElementsByClassName('leaflet-control-layers')[0];
                              layerControlElement.getElementsByTagName('input')[2].click();
-                              }"))
+                              }")),
                    
                    easyButton(icon = aq_button, title = aq_buttontitle,
                               onClick = JS("function(btn, map) {
