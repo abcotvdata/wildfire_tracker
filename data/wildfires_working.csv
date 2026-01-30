@@ -1,7 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2026-MOMTF-000030,Waterhole Rx Fire,MO,Ozark,2026-01-15T14:14:48Z,2026-01-17T21:23:49Z,375,NA,RX,NA,Undetermined,36.782228,-92.738171,NFIS,14,12.4,NA,NA,Missouri,not_contained
-2026-MOMTF-000029,Hanks Rx Fire,MO,Texas,2026-01-13T14:23:00Z,2026-01-17T21:35:44Z,846,NA,RX,NA,Undetermined,37.537536,-92.038889,NFIS,16,12.4,NA,NA,Missouri,not_contained
-2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-01-23T15:28:02Z,4816,60,WF,Moderate,Human,30.10108,-84.584084,NFIS,12,6.7,NA,NA,Florida,not_contained
-2026-MDCOP-260004,Driftwood Fire,DC,District of Columbia,2026-01-24T22:22:48Z,2026-01-28T15:58:03Z,0.5,NA,WF,NA,Human,NA,NA,NFIS,5,1.6,NA,NA,NA,not_contained
-2026-WYWRA-000030,South Fork 1 Fire,WY,Fremont,2026-01-27T19:38:50Z,2026-01-29T20:36:58Z,4.6,NA,WF,NA,Human,43.0019,-108.9363,NFIS,2,0.4,NA,NA,Wyoming,not_contained
+2026-MOMTF-000030,Waterhole Rx Fire,MO,Ozark,2026-01-15T14:14:48Z,2026-01-17T21:23:49Z,375,NA,RX,NA,Undetermined,36.782228,-92.738171,NFIS,14,12.7,NA,NA,Missouri,not_contained
+2026-MOMTF-000029,Hanks Rx Fire,MO,Texas,2026-01-13T14:23:00Z,2026-01-17T21:35:44Z,846,NA,RX,NA,Undetermined,37.537536,-92.038889,NFIS,16,12.7,NA,NA,Missouri,not_contained
+2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-01-23T15:28:02Z,4816,60,WF,Moderate,Human,30.10108,-84.584084,NFIS,12,6.9,NA,NA,Florida,not_contained
+2026-MDCOP-260004,Driftwood Fire,DC,District of Columbia,2026-01-24T22:22:48Z,2026-01-28T15:58:03Z,0.5,NA,WF,NA,Human,NA,NA,NFIS,5,1.9,NA,NA,NA,not_contained
+2026-WYWRA-000030,South Fork 1 Fire,WY,Fremont,2026-01-27T19:38:50Z,2026-01-29T20:36:58Z,4.6,NA,WF,NA,Human,43.0019,-108.9363,NFIS,2,0.7,NA,NA,Wyoming,not_contained
 NA,East Fork Fire,CA,Siskiyou,2026-01-27T15:09:19Z,2026-01-29T11:27:24Z,11,100,Wildfire,NA,NA,41.362804,-122.67011,Cal Fire,3,1,"Kangaroo Creek Road, Callahan ",https://www.fire.ca.gov/incidents/2026/1/27/east-fork-fire/,California,contained
