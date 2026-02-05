@@ -1,4 +1,4 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-01-23T15:28:02Z,4816,60,WF,Moderate,Human,30.10108,-84.584084,NFIS,18,12.2,NA,NA,Florida,not_contained
-2026-FLFNF-000334,Lake Mary 2 Fire,FL,Marion,2026-02-01T12:24:00Z,2026-02-02T14:28:40Z,3,NA,WF,NA,Human,29.0876,-81.82548,NFIS,3,2.2,NA,NA,Florida,not_contained
-NA,Lamb Fire,CA,Trinity,2026-01-24T14:17:06Z,2026-02-03T12:00:52Z,10,100,Wildfire,NA,NA,40.506958,-123.506241,Cal Fire,11,1,"Hastings Tie Road, three miles north of Mad River",https://www.fire.ca.gov/incidents/2026/1/24/lamb-fire/,California,contained
+2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-01-23T15:28:02Z,4816,60,WF,Moderate,Human,30.10108,-84.584084,NFIS,18,12.5,NA,NA,Florida,not_contained
+2026-SDRBA-000004,Fb 212 Fire,SD,Todd,2026-02-02T21:22:00Z,2026-02-04T19:01:04Z,37.42,NA,WF,NA,Undetermined,NA,NA,NFIS,2,0.3,NA,NA,South Dakota,not_contained
+NA,Lamb Fire,CA,Trinity,2026-01-24T14:17:06Z,2026-02-04T15:37:20Z,10,100,Wildfire,NA,NA,40.506958,-123.506241,Cal Fire,12,1,"Hastings Tie Road, three miles north of Mad River",https://www.fire.ca.gov/incidents/2026/1/24/lamb-fire/,California,contained
