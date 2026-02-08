@@ -1,8 +1,7 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-01-23T15:28:02Z,4816,100,WF,Minimal,Human,30.10108,-84.584084,NFIS,20,15.1,NA,NA,Florida,contained
-2026-SDRBA-000004,Fb 212 Fire,SD,Todd,2026-02-02T21:22:00Z,2026-02-04T19:01:04Z,37.42,NA,WF,NA,Undetermined,NA,NA,NFIS,4,3,NA,NA,South Dakota,not_contained
-2026-FLFNF-000323,Honey Butter 131 Fire,FL,Liberty,2026-01-31T19:55:00Z,2026-02-05T11:57:34Z,15,NA,WF,NA,Undetermined,30.262774,-84.955387,NFIS,6,2.3,NA,NA,Florida,not_contained
-2026-OR722S-013726,Tanner Creek Fire,OR,Coos,2026-02-04T15:20:00Z,2026-02-06T18:22:38Z,NA,NA,WF,NA,Human,43.05386667,-123.91871667,NFIS,3,1,NA,NA,Oregon,not_contained
-2026-OKOSA-000351,Ranchland Fire,OK,Osage,2026-02-06T18:58:00Z,2026-02-07T17:45:35Z,230.7,NA,WF,NA,Human,36.40782,-96.136663,NFIS,0,0,NA,NA,Oklahoma,not_contained
-NA,Lamb Fire,CA,Trinity,2026-01-24T14:17:06Z,2026-02-06T10:49:18Z,10,100,Wildfire,NA,NA,40.506958,-123.506241,Cal Fire,14,1,"Hastings Tie Road, three miles north of Mad River",https://www.fire.ca.gov/incidents/2026/1/24/lamb-fire/,California,contained
-NA,Ag Fire,CA,Modoc,2026-02-06T13:01:09Z,2026-02-07T07:00:12Z,11,75,Wildfire,NA,NA,41.525772,-120.473025,Cal Fire,1,0,"Hwy 395 and Hwy 299, Northeast of Alturas",https://www.fire.ca.gov/incidents/2026/2/6/ag-fire/,California,not_contained
+2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-01-23T15:28:02Z,4816,100,WF,Minimal,Human,30.10108,-84.584084,NFIS,21,15.5,NA,NA,Florida,contained
+2026-SDRBA-000004,Fb 212 Fire,SD,Todd,2026-02-02T21:22:00Z,2026-02-04T19:01:04Z,37.42,NA,WF,NA,Undetermined,NA,NA,NFIS,5,3.4,NA,NA,South Dakota,not_contained
+2026-FLFNF-000323,Honey Butter 131 Fire,FL,Liberty,2026-01-31T19:55:00Z,2026-02-05T11:57:34Z,15,NA,WF,NA,Undetermined,30.262774,-84.955387,NFIS,7,2.7,NA,NA,Florida,not_contained
+2026-OKOSA-000351,Ranchland Fire,OK,Osage,2026-02-06T18:58:00Z,2026-02-07T17:45:35Z,230.7,50,WF,Moderate,Human,36.40782,-96.136663,NFIS,1,0.4,NA,NA,Oklahoma,not_contained
+NA,Lamb Fire,CA,Trinity,2026-01-24T14:17:06Z,2026-02-06T10:49:18Z,10,100,Wildfire,NA,NA,40.506958,-123.506241,Cal Fire,15,2,"Hastings Tie Road, three miles north of Mad River",https://www.fire.ca.gov/incidents/2026/1/24/lamb-fire/,California,contained
+NA,Ag Fire,CA,Modoc,2026-02-06T13:01:09Z,2026-02-07T07:00:12Z,11,75,Wildfire,NA,NA,41.525772,-120.473025,Cal Fire,2,1,"Hwy 395 and Hwy 299, Northeast of Alturas",https://www.fire.ca.gov/incidents/2026/2/6/ag-fire/,California,not_contained
