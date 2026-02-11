@@ -1,7 +1,9 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-02-10T15:16:40Z,4816,100,WF,Minimal,Human,30.10108,-84.584084,NFIS,24,0.2,NA,NA,Florida,contained
-2026-FLFNF-000323,Honey Butter 131 Fire,FL,Liberty,2026-01-31T19:55:00Z,2026-02-10T15:16:40Z,15,NA,WF,NA,Undetermined,30.262774,-84.955387,NFIS,9,0.2,NA,NA,Florida,not_contained
-2026-OKOSA-000351,Ranchland Fire,OK,Osage,2026-02-06T18:58:00Z,2026-02-10T15:16:40Z,230.7,75,WF,Moderate,Human,36.40782,-96.136663,NFIS,4,0.2,NA,NA,Oklahoma,not_contained
-2026-AZTNF-000099,Bonita Fire,AZ,Gila,2026-02-07T19:38:38Z,2026-02-10T15:16:40Z,28,NA,WF,NA,Human,34.3805,-111.224,NFIS,2,0.2,NA,NA,Arizona,not_contained
-2026-FLFNF-000419,Nubys Corner Area Fire,FL,Marion,2026-02-10T11:30:00Z,2026-02-10T15:16:40Z,1.92,NA,WF,NA,Undetermined,29.217294,-81.958818,NFIS,0,0.2,NA,NA,Florida,not_contained
-2026-FLFNF-000401,Se 1st Lane Fire,FL,Marion,2026-02-08T02:10:36Z,2026-02-10T15:16:40Z,0.58,NA,WF,NA,Undetermined,29.18558,-81.87197,NFIS,2,0.2,NA,NA,Florida,not_contained
+2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-02-10T15:16:40Z,4816,100,WF,Minimal,Human,30.10108,-84.584084,NFIS,24,0.5,NA,NA,Florida,contained
+2026-FLFNF-000323,Honey Butter 131 Fire,FL,Liberty,2026-01-31T19:55:00Z,2026-02-10T15:16:40Z,15,NA,WF,NA,Undetermined,30.262774,-84.955387,NFIS,10,0.5,NA,NA,Florida,not_contained
+2026-OKOSA-000351,Ranchland Fire,OK,Osage,2026-02-06T18:58:00Z,2026-02-10T15:16:40Z,230.7,75,WF,Moderate,Human,36.40782,-96.136663,NFIS,4,0.5,NA,NA,Oklahoma,not_contained
+2026-AZTNF-000099,Bonita Fire,AZ,Gila,2026-02-07T19:38:38Z,2026-02-10T15:16:40Z,28,NA,WF,NA,Human,34.3805,-111.224,NFIS,3,0.5,NA,NA,Arizona,not_contained
+2026-FLFNF-000419,Nubys Corner Area Fire,FL,Marion,2026-02-10T11:30:00Z,2026-02-10T15:16:40Z,1.92,NA,WF,NA,Undetermined,29.217294,-81.958818,NFIS,0,0.5,NA,NA,Florida,not_contained
+2026-FLFNF-000401,Se 1st Lane Fire,FL,Marion,2026-02-08T02:10:36Z,2026-02-10T15:16:40Z,0.58,NA,WF,NA,Undetermined,29.18558,-81.87197,NFIS,3,0.5,NA,NA,Florida,not_contained
+2026-UTNWS-200030,South Street Fire,UT,Utah,2026-02-07T01:16:33Z,2026-02-10T20:11:51Z,12,NA,WF,NA,Undetermined,40.132583,-111.753183,NFIS,4,0.3,NA,NA,Utah,not_contained
+2026-NCNCF-260040,Winding Stair A Fire,NC,Macon,2026-02-09T14:56:00Z,2026-02-10T20:38:34Z,250,85,WF,Moderate,Undetermined,35.12254,-83.5429,NFIS,1,0.3,NA,NA,North Carolina,not_contained
