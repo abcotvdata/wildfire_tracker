@@ -1,8 +1,8 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-02-10T15:16:40Z,4816,100,WF,Minimal,Human,30.10108,-84.584084,NFIS,26,2.7,NA,NA,Florida,contained
-2026-OKOSA-000351,Ranchland Fire,OK,Osage,2026-02-06T18:58:00Z,2026-02-10T15:16:40Z,230.7,75,WF,Moderate,Human,36.40782,-96.136663,NFIS,6,2.7,NA,NA,Oklahoma,not_contained
-2026-AZTNF-000099,Bonita Fire,AZ,Gila,2026-02-07T19:38:38Z,2026-02-10T15:16:40Z,28,NA,WF,NA,Human,34.3805,-111.224,NFIS,5,2.7,NA,NA,Arizona,not_contained
-2026-FLFNF-000419,Nubys Corner Area Fire,FL,Marion,2026-02-10T11:30:00Z,2026-02-10T15:16:40Z,1.92,NA,WF,NA,Undetermined,29.217294,-81.958818,NFIS,2,2.7,NA,NA,Florida,not_contained
-2026-UTNWS-200030,South Street Fire,UT,Utah,2026-02-07T01:16:33Z,2026-02-10T20:11:51Z,12,NA,WF,NA,Undetermined,40.132583,-111.753183,NFIS,6,2.5,NA,NA,Utah,not_contained
-2026-OKOKS-260147,North 40 Fire,OK,Pottawatomie,2026-02-09T21:09:00Z,2026-02-11T16:40:16Z,71,90,WF,Minimal,Human,NA,NA,NFIS,3,1.6,NA,NA,Oklahoma,not_contained
-2026-SDSDS-260085,Silver Mountain Fire,SD,Pennington,2026-02-11T18:30:45Z,2026-02-12T02:31:44Z,68.49,NA,WF,NA,Human,43.948132,-103.369685,NFIS,1,1.2,NA,NA,South Dakota,not_contained
+2026-FLFNF-000167,Silver Lake Fire,FL,Wakulla,2026-01-17T19:08:00Z,2026-02-10T15:16:40Z,4816,100,WF,Minimal,Human,30.10108,-84.584084,NFIS,26,2.9,NA,NA,Florida,contained
+2026-OKOSA-000351,Ranchland Fire,OK,Osage,2026-02-06T18:58:00Z,2026-02-10T15:16:40Z,230.7,75,WF,Moderate,Human,36.40782,-96.136663,NFIS,6,2.9,NA,NA,Oklahoma,not_contained
+2026-AZTNF-000099,Bonita Fire,AZ,Gila,2026-02-07T19:38:38Z,2026-02-10T15:16:40Z,28,NA,WF,NA,Human,34.3805,-111.224,NFIS,5,2.9,NA,NA,Arizona,not_contained
+2026-FLFNF-000419,Nubys Corner Area Fire,FL,Marion,2026-02-10T11:30:00Z,2026-02-10T15:16:40Z,1.92,NA,WF,NA,Undetermined,29.217294,-81.958818,NFIS,3,2.9,NA,NA,Florida,not_contained
+2026-UTNWS-200030,South Street Fire,UT,Utah,2026-02-07T01:16:33Z,2026-02-10T20:11:51Z,12,NA,WF,NA,Undetermined,40.132583,-111.753183,NFIS,6,2.7,NA,NA,Utah,not_contained
+2026-OKOKS-260147,North 40 Fire,OK,Pottawatomie,2026-02-09T21:09:00Z,2026-02-11T16:40:16Z,71,90,WF,Minimal,Human,NA,NA,NFIS,3,1.9,NA,NA,Oklahoma,not_contained
+2026-SDSDS-260085,Silver Mountain Fire,SD,Pennington,2026-02-11T18:30:45Z,2026-02-12T02:31:44Z,68.49,NA,WF,NA,Human,43.948132,-103.369685,NFIS,1,1.5,NA,NA,South Dakota,not_contained
