@@ -1,18 +1,18 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2026-FLFNF-000323,Honey Butter 131 Fire,FL,Liberty,2026-01-31T19:55:00Z,2026-02-10T15:16:40Z,15,NA,WF,NA,Undetermined,30.262774,-84.955387,NFIS,19,9.9,NA,NA,Florida,not_contained
-2026-OKOKS-260147,North 40 Fire,OK,Pottawatomie,2026-02-09T21:09:00Z,2026-02-11T16:40:16Z,71,100,WF,Minimal,Human,NA,NA,NFIS,10,8.9,NA,NA,Oklahoma,contained
-2026-FLFNF-000456,Foster Bridge Fire,FL,Liberty,2026-02-12T16:44:00Z,2026-02-13T14:30:58Z,675,50,WF,Active,Human,30.258178,-84.988174,NFIS,7,7,NA,NA,Florida,not_contained
-2026-FLFNF-000475,Bills Branch Fire,FL,Marion,2026-02-14T15:25:00Z,2026-02-20T03:09:42Z,470,75,WF,Minimal,Human,29.312922,-81.678739,NFIS,5,0.4,NA,NA,Florida,not_contained
-2026-CACDD-003689,Assist/Rru/61a Fire,CA,Riverside,2026-02-18T01:43:59Z,2026-02-18T04:12:43Z,0.01,NA,WF,NA,Undetermined,33.661329,-115.802168,NFIS,2,2.4,NA,NA,California,not_contained
-2026-SDMDR-260101,Hansen Fire,SD,Lake,2026-02-17T20:46:22Z,2026-02-18T12:34:32Z,100,NA,WF,NA,Human,44.015514,-97.074975,NFIS,2,2,NA,NA,South Dakota,not_contained
-2026-COELX-000171,County Rd 169 Fire,CO,Elbert,2026-02-17T20:48:00Z,2026-02-18T21:26:11Z,5586,100,WF,Minimal,Human,39.1212,-103.869,NFIS,2,1.7,NA,NA,Colorado,contained
-2026-AROUF-000502,Rx Bear Creek Fire,OK,McCurtain,2026-02-18T15:05:39Z,2026-02-19T04:04:44Z,415,NA,RX,NA,Undetermined,34.267463,-94.7796,NFIS,1,1.4,NA,NA,Oklahoma,not_contained
-2026-AROUF-000447,Rx Buffalo 1857 Su2 Fire,OK,McCurtain,2026-02-13T13:17:44Z,2026-02-19T04:12:22Z,245,NA,RX,NA,Undetermined,34.399107,-94.632229,NFIS,7,1.4,NA,NA,Oklahoma,not_contained
-2026-WIWIS-FIRE124392,Uno Fire,WI,Waushara,2026-02-13T22:15:00Z,2026-02-19T16:06:48Z,0.44,NA,WF,NA,Human,44.13571,-88.95568,NFIS,6,0.9,NA,NA,Wisconsin,not_contained
-2026-TXTXS-261433,8 Ball Fire,TX,Armstrong,2026-02-17T21:06:16Z,2026-02-20T00:29:01Z,13500,70,WF,Moderate,Undetermined,35.032,-101.13,NFIS,2,0.5,NA,NA,Texas,not_contained
-2026-IAUSR-IAWMD0001,Tomahawk Fire,IA,Sac,2026-02-18T19:25:44Z,2026-02-19T17:42:31Z,200,NA,WF,NA,NA,NA,NA,NFIS,1,0.8,NA,NA,Iowa,not_contained
-2026-MOMTF-000075,Rock Pile Rx Fire,MO,Howell,2026-02-18T13:40:45Z,2026-02-19T21:20:54Z,2630,NA,RX,NA,Undetermined,36.904333,-92.026333,NFIS,1,0.7,NA,NA,Missouri,not_contained
-2026-MOMTF-000064,Chute Ridge Unit B Rx Fire,MO,Barry,2026-02-11T14:08:48Z,2026-02-19T21:24:19Z,782,NA,RX,NA,Undetermined,36.565833,-93.794167,NFIS,8,0.7,NA,NA,Missouri,not_contained
-2026-MOMTF-000076,Carman Springs Rx S2 Fire,MO,Howell,2026-02-18T13:57:41Z,2026-02-19T21:22:38Z,NA,NA,RX,NA,Undetermined,36.9245,-92.0565,NFIS,1,0.7,NA,NA,Missouri,not_contained
-2026-TXTXS-261434,Lavender Fire,TX,Oldham,2026-02-17T21:25:46Z,2026-02-19T23:39:24Z,18423,40,WF,Active,Undetermined,35.42178109,-102.27343456,NFIS,2,0.6,NA,NA,Texas,not_contained
+2026-FLFNF-000323,Honey Butter 131 Fire,FL,Liberty,2026-01-31T19:55:00Z,2026-02-10T15:16:40Z,15,NA,WF,NA,Undetermined,30.262774,-84.955387,NFIS,19,10.2,NA,NA,Florida,not_contained
+2026-OKOKS-260147,North 40 Fire,OK,Pottawatomie,2026-02-09T21:09:00Z,2026-02-11T16:40:16Z,71,100,WF,Minimal,Human,NA,NA,NFIS,10,9.1,NA,NA,Oklahoma,contained
+2026-FLFNF-000456,Foster Bridge Fire,FL,Liberty,2026-02-12T16:44:00Z,2026-02-13T14:30:58Z,675,50,WF,Active,Human,30.258178,-84.988174,NFIS,8,7.2,NA,NA,Florida,not_contained
+2026-FLFNF-000475,Bills Branch Fire,FL,Marion,2026-02-14T15:25:00Z,2026-02-20T03:09:42Z,470,75,WF,Minimal,Human,29.312922,-81.678739,NFIS,6,0.7,NA,NA,Florida,not_contained
+2026-CACDD-003689,Assist/Rru/61a Fire,CA,Riverside,2026-02-18T01:43:59Z,2026-02-18T04:12:43Z,0.01,NA,WF,NA,Undetermined,33.661329,-115.802168,NFIS,2,2.6,NA,NA,California,not_contained
+2026-SDMDR-260101,Hansen Fire,SD,Lake,2026-02-17T20:46:22Z,2026-02-18T12:34:32Z,100,NA,WF,NA,Human,44.015514,-97.074975,NFIS,2,2.3,NA,NA,South Dakota,not_contained
+2026-AROUF-000502,Rx Bear Creek Fire,OK,McCurtain,2026-02-18T15:05:39Z,2026-02-19T04:04:44Z,415,NA,RX,NA,Undetermined,34.267463,-94.7796,NFIS,2,1.6,NA,NA,Oklahoma,not_contained
+2026-AROUF-000447,Rx Buffalo 1857 Su2 Fire,OK,McCurtain,2026-02-13T13:17:44Z,2026-02-19T04:12:22Z,245,NA,RX,NA,Undetermined,34.399107,-94.632229,NFIS,7,1.6,NA,NA,Oklahoma,not_contained
+2026-WIWIS-FIRE124392,Uno Fire,WI,Waushara,2026-02-13T22:15:00Z,2026-02-19T16:06:48Z,0.44,NA,WF,NA,Human,44.13571,-88.95568,NFIS,6,1.1,NA,NA,Wisconsin,not_contained
+2026-TXTXS-261433,8 Ball Fire,TX,Armstrong,2026-02-17T21:06:16Z,2026-02-20T00:29:01Z,13500,70,WF,Moderate,Undetermined,35.032,-101.13,NFIS,2,0.8,NA,NA,Texas,not_contained
+2026-IAUSR-IAWMD0001,Tomahawk Fire,IA,Sac,2026-02-18T19:25:44Z,2026-02-19T17:42:31Z,200,NA,WF,NA,NA,NA,NA,NFIS,1,1.1,NA,NA,Iowa,not_contained
+2026-MOMTF-000075,Rock Pile Rx Fire,MO,Howell,2026-02-18T13:40:45Z,2026-02-19T21:20:54Z,2630,NA,RX,NA,Undetermined,36.904333,-92.026333,NFIS,2,0.9,NA,NA,Missouri,not_contained
+2026-MOMTF-000064,Chute Ridge Unit B Rx Fire,MO,Barry,2026-02-11T14:08:48Z,2026-02-19T21:24:19Z,782,NA,RX,NA,Undetermined,36.565833,-93.794167,NFIS,9,0.9,NA,NA,Missouri,not_contained
+2026-MOMTF-000076,Carman Springs Rx S2 Fire,MO,Howell,2026-02-18T13:57:41Z,2026-02-19T21:22:38Z,NA,NA,RX,NA,Undetermined,36.9245,-92.0565,NFIS,2,0.9,NA,NA,Missouri,not_contained
+2026-TXTXS-261434,Lavender Fire,TX,Oldham,2026-02-17T21:25:46Z,2026-02-19T23:39:24Z,18423,50,WF,Active,Undetermined,35.42178109,-102.27343456,NFIS,2,0.8,NA,NA,Texas,not_contained
+2026-OKOSA-000559,Canyon Crossing Fire,OK,Osage,2026-02-19T19:00:00Z,2026-02-20T17:56:21Z,65,NA,WF,NA,Human,36.443321,-96.150439,NFIS,1,0,NA,NA,Oklahoma,not_contained
 NA,Cabrillo Fire,CA,San Luis Obispo,2026-02-18T13:43:34Z,2026-02-19T14:33:13Z,0,NA,Wildfire,NA,NA,35.442798,-120.889949,Cal Fire,2,1,Unknown / TBD,https://www.fire.ca.gov/incidents/2026/2/18/cabrillo-fire/,California,not_contained
