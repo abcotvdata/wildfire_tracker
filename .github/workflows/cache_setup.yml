@@ -16,6 +16,7 @@ jobs:
 
       - name: Set R lib path
         run: echo "R_LIBS_USER=$HOME/R/library" >> $GITHUB_ENV
+             mkdir -p $HOME/R/library
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
