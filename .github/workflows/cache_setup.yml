@@ -20,6 +20,12 @@ jobs:
       - name: Set up pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
+      - name: Set R lib path
+        run: |
+         R_LIB=$(Rscript -e 'cat(.libPaths()[1])')
+         mkdir -p "$R_LIB"
+         echo "R_LIBS_USER=$R_LIB" >> $GITHUB_ENV
+
       - name: Cache R packages
         uses: actions/cache@v4
         with:
