@@ -20,7 +20,7 @@ jobs:
       - name: Restore R packages cache
         uses: actions/cache@v4
         with:
-          path: ~/Library/R/arm64/4.5.3/library
+          path: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
           key: ${{ runner.os }}-r-${{ hashFiles('**/DESCRIPTION') }}
           restore-keys: ${{ runner.os }}-r-
       - name: Scrape data, reshape, make fire map
