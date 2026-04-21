@@ -25,6 +25,8 @@ jobs:
           restore-keys: ${{ runner.os }}-r-
       - name: Scrape data, reshape, make fire map
         run: Rscript scripts/fires_scrape_build.R
+        env:
+          R_LIBS: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
       - name: Commit results
         run: |
           git add -A
