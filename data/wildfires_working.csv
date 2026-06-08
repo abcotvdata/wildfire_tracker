@@ -1,61 +1,61 @@
 fed_fire_id,name,state,county,started,updated,acres_burned,percent_contained,type,fire_behavior,fire_cause,latitude,longitude,source,days_burning,days_sinceupdate,location,info_url,state_name,status
-2026-AROUF-000433,Rx North Blue Fire,OK,Le Flore,2026-02-12T15:08:50Z,2026-06-01T03:00:47Z,1000,NA,RX,NA,Undetermined,34.841983,-94.918017,NFIS,116,7.6,NA,NA,Oklahoma,not_contained
-2026-SDSDS-260142,Qury Fire,SD,Custer,2026-03-12T19:16:00Z,2026-03-20T18:22:59Z,9168,100,WF,Minimal,Human,43.748119,-103.566727,NFIS,87,79.9,NA,NA,South Dakota,contained
-2026-NENES-260153,Anderson Bridge Fire,NE,Cherry,2026-03-12T22:22:08Z,2026-03-21T17:00:13Z,17229,100,WF,Minimal,Undetermined,42.802367,-100.9613,NFIS,87,79,NA,NA,Nebraska,contained
-2026-WYNAX-000051,Sandpiper Fire,WY,Natrona,2026-03-20T20:38:00Z,2026-03-23T15:20:46Z,6287,100,WF,Minimal,Human,42.905484,-106.167185,NFIS,79,77,NA,NA,Wyoming,contained
-2026-FLFNF-001208,Gun Range Fire,FL,Columbia,2026-04-19T20:13:00Z,2026-04-23T00:34:15Z,124,85,WF,Minimal,Undetermined,30.2055,-82.59586,NFIS,49,46.7,NA,NA,Florida,not_contained
-2026-MTCGF-260250,East Side Fire,MT,Carbon,2026-04-20T18:34:00Z,2026-04-26T19:36:02Z,1219,100,WF,Minimal,Undetermined,45.099739,-109.300378,NFIS,48,42.9,NA,NA,Montana,contained
-2026-GAGAS-320025,Pineland Rd Fire,GA,Clinch,2026-04-18T19:30:00Z,2026-05-14T22:48:56Z,32031,98,WF,Minimal,Human,NA,NA,NFIS,50,24.7,NA,NA,Georgia,not_contained
-2026-GAGAS-130044,Hwy 82 Fire,GA,Brantley,2026-04-20T20:00:00Z,2026-05-14T15:03:18Z,22419,98,WF,Minimal,Undetermined,NA,NA,NFIS,48,25.1,NA,NA,Georgia,not_contained
-2026-NMGNF-000155,Hummingbird Fire,NM,Catron,2026-04-20T22:41:00Z,2026-05-18T23:44:17Z,5716,100,WF,Minimal,Natural,33.354925,-108.65872,NFIS,48,20.7,NA,NA,New Mexico,contained
-2026-ORDEF-000155,Pine Mountain Fire,OR,Deschutes,2026-05-07T23:06:00Z,2026-05-09T23:33:20Z,2589,100,WF,Minimal,Human,43.810294,-120.917759,NFIS,31,29.7,NA,NA,Oregon,contained
-2026-NMCIF-000228,Six Mile Fire,NM,Socorro,2026-05-08T21:23:00Z,2026-05-16T02:17:23Z,341,100,WF,Minimal,Undetermined,33.979431,-107.098846,NFIS,30,23.6,NA,NA,New Mexico,contained
-2026-CACDD-007308,Neuralia Fire,CA,Kern,2026-05-13T23:07:00Z,2026-05-14T02:42:59Z,1196,100,WF,Minimal,Undetermined,35.243,-117.9858,NFIS,25,25.6,NA,NA,California,contained
-2026-WYMRF-000103,Rochelle 2 Fire,WY,Converse,2026-05-14T02:03:01Z,2026-05-15T21:49:03Z,1317,100,WF,Minimal,Human,43.492023,-105.216258,NFIS,25,23.8,NA,NA,Wyoming,contained
-2026-NMLNF-000335,Seven Cabins Fire,NM,Lincoln,2026-05-14T08:06:18Z,2026-06-07T16:45:23Z,31860,90,WF,Minimal,Human,33.651527,-105.200936,NFIS,25,1,NA,NA,New Mexico,not_contained
-2026-WIWIS-FIRE124937,Jack Pine Fire,WI,Marinette,2026-05-16T19:15:00Z,2026-05-21T12:41:45Z,43.42,NA,WF,NA,Human,45.36306,-87.89534,NFIS,22,18.2,NA,NA,Wisconsin,not_contained
-2026-WIWIS-FIRE124952,Sheep Fire,WI,Vilas,2026-05-16T23:00:00Z,2026-05-21T12:41:45Z,0.63,NA,WF,NA,Human,45.96089,-89.88037,NFIS,22,18.2,NA,NA,Wisconsin,not_contained
-2026-MN1FS-001698,Flanders Fire,MN,Crow Wing,2026-05-16T17:41:00Z,2026-05-20T20:23:29Z,1700,100,WF,Minimal,Undetermined,46.592176,-94.057324,NFIS,22,18.8,NA,NA,Minnesota,contained
-2026-CACNP-001159,Santa Rosa Island Fire,CA,Santa Barbara,2026-05-15T11:57:06Z,2026-05-22T01:21:21Z,18379,100,WF,Minimal,Human,33.958561,-120.106659,NFIS,24,17.6,NA,NA,California,contained
-2026-AKMID-000055,Lynx 1 Fire,AK,Fairbanks North Star,2026-05-14T20:34:00Z,2026-05-19T19:08:09Z,27.1,NA,WF,NA,Human,64.744,-146.776,NFIS,24,19.9,NA,NA,Alaska,not_contained
-2026-CASBC-027077,Foothill Fire,CA,Santa Barbara,2026-05-19T23:03:00Z,2026-05-21T00:39:51Z,904,100,WF,Minimal,Undetermined,NA,NA,NFIS,19,18.7,NA,NA,California,contained
-2026-MTHLF-000235,Jericho Creek Fire,MT,Powell,2026-05-13T20:40:00Z,2026-05-25T16:57:59Z,2068,100,WF,Minimal,Natural,46.5878,-112.065,NFIS,25,14,NA,NA,Montana,contained
-2026-FLFNF-001659,340 Fire,FL,Wakulla,2026-05-23T19:04:00Z,2026-06-08T13:05:14Z,3400,60,WF,Minimal,Natural,30.058856,-84.564042,NFIS,15,0.1,NA,NA,Florida,not_contained
-2026-WIWIS-FIRE124989,Beaver Fire,WI,Marinette,2026-05-25T19:30:00Z,2026-06-03T13:15:04Z,1.48,NA,WF,NA,Human,45.15373,-88.14924,NFIS,13,5.1,NA,NA,Wisconsin,not_contained
-2026-FLFNF-001638,Shell Fire,FL,Lake,2026-05-22T14:16:00Z,2026-05-29T21:15:21Z,2822,70,WF,Minimal,Natural,29.073833,-81.507167,NFIS,17,9.8,NA,NA,Florida,not_contained
-2026-FLFNF-001690,Russian Bend Fire,FL,Marion,2026-05-25T17:23:02Z,2026-05-26T12:48:26Z,34,NA,WF,NA,Undetermined,30.28,-82.47,NFIS,13,13.1,NA,NA,Florida,not_contained
-2026-WAWWLN-260125,Woodward Fire,WA,Walla Walla,2026-05-22T20:38:12Z,2026-05-26T16:40:06Z,100,100,WF,Active,Human,46.1014,-118.582,NFIS,16,13,NA,NA,Washington,contained
-2026-IDSTF-000056,Summit Creek Fire,ID,Cassia,2026-05-25T20:02:00Z,2026-06-06T23:44:54Z,1887,93,WF,Minimal,Natural,42.1856,-113.66,NFIS,13,1.7,NA,NA,Idaho,not_contained
-2026-AROUF-000262,Rx Red Slough Fire,OK,McCurtain,2026-01-20T18:00:00Z,2026-06-07T23:16:47Z,473,NA,RX,NA,Undetermined,33.74111,-94.650159,NFIS,138,0.7,NA,NA,Oklahoma,not_contained
-2026-MTLG09-000337,Bradshaw Fire,MT,Powder River,2026-05-27T01:39:31Z,2026-05-30T01:05:50Z,2689,100,WF,Minimal,Undetermined,45.067622,-105.971203,NFIS,12,9.6,NA,NA,Montana,contained
-2026-AKGAD-000087,Thousand Fire,AK,Northwest Arctic,2026-05-23T15:54:56Z,2026-05-29T16:15:13Z,408.9,0,WF,Minimal,Natural,66.448883,-159.28055,NFIS,16,10,NA,NA,Alaska,not_contained
-2026-WIWIS-FIRE125029,Highway D Fire,WI,Florence,2026-05-29T20:00:00Z,2026-06-01T15:29:17Z,0.3,NA,WF,NA,Human,45.88063,-88.2834,NFIS,9,7,NA,NA,Wisconsin,not_contained
-2026-WIWIS-FIRE125047,K2 Fire Fire,WI,Oconto,2026-05-31T16:30:00Z,2026-06-01T16:48:39Z,0.03,NA,WF,NA,Human,44.89531,-88.21012,NFIS,7,7,NA,NA,Wisconsin,not_contained
-2026-WIWIS-FIRE125046,K Fire Fire,WI,Oconto,2026-05-31T16:30:00Z,2026-06-03T15:43:25Z,0.14,NA,WF,NA,Human,44.89531,-88.21074,NFIS,7,5,NA,NA,Wisconsin,not_contained
-2026-WABENN-260130,Country Meadow Fire,WA,Benton,2026-05-23T21:15:00Z,2026-06-01T17:44:10Z,910,100,WF,Minimal,Human,46.16526,-119.33745,NFIS,15,6.9,NA,NA,Washington,contained
-2026-WIWIS-FIRE125072,Hwy 35 Fire,WI,Polk,2026-06-03T19:20:00Z,2026-06-03T20:22:28Z,0.99,NA,WF,NA,Human,45.67924,-92.44823,NFIS,4,4.8,NA,NA,Wisconsin,not_contained
-2026-AKMID-000056,Lynx 2 Fire,AK,Fairbanks North Star,2026-05-14T21:13:04Z,2026-06-03T21:52:17Z,16.2,NA,WF,NA,Human,64.747827,-146.775082,NFIS,24,4.8,NA,NA,Alaska,not_contained
-2026-AKMID-000075,Moose Creek Fire,AK,Fairbanks North Star,2026-05-18T19:55:36Z,2026-06-03T21:50:40Z,59,NA,WF,NA,Human,64.709833,-146.807833,NFIS,20,4.8,NA,NA,Alaska,not_contained
-2026-CAKRN-022634,House Fire,CA,Kern,2026-06-03T21:26:00Z,2026-06-04T04:34:04Z,NA,NA,WF,NA,NA,NA,NA,NFIS,4,4.5,NA,NA,California,not_contained
-2026-WIWIS-FIRE125071,Gagen Fire,WI,Oneida,2026-06-03T18:49:00Z,2026-06-04T13:06:37Z,0.22,NA,WF,NA,Human,45.67957,-89.14481,NFIS,4,4.1,NA,NA,Wisconsin,not_contained
-2026-ORPRD-000246,0246 Rhea Fire,OR,Gilliam,2026-05-29T01:00:00Z,2026-06-05T21:55:17Z,450,100,WF,Minimal,Undetermined,45.721667,-120.028117,NFIS,10,2.8,NA,NA,Oregon,contained
-2026-WASPD-260182,Moxee Orchard Fire,WA,Yakima,2026-06-04T20:30:23Z,2026-06-05T23:25:35Z,5918,100,WF,Minimal,Human,46.512517,-120.051451,NFIS,3,2.7,NA,NA,Washington,contained
-2026-FLFNF-001800,New Light Fire,FL,Wakulla,2026-06-05T17:02:19Z,2026-06-06T03:11:30Z,148,60,WF,Moderate,Human,30.296321,-84.40129,NFIS,2,2.5,NA,NA,Florida,not_contained
-2026-AZCNF-000234,Benton Fire,AZ,Santa Cruz,2026-06-04T00:12:00Z,2026-06-06T02:04:41Z,218,NA,WF,NA,Undetermined,33.0116,-110.7916,NFIS,4,2.6,NA,NA,Arizona,not_contained
-2026-NCNCS-260058,Rose Bay Canal Fire,NC,Hyde,2026-06-02T22:53:45Z,2026-06-07T22:51:21Z,433,20,WF,Active,Undetermined,NA,NA,NFIS,5,0.7,NA,NA,North Carolina,not_contained
-2026-AKGAD-000137,Kopshesut Fire,AK,Northwest Arctic,2026-06-04T22:01:20Z,2026-06-06T14:38:06Z,1447.6,30,WF,Moderate,Human,67.087167,-157.924333,NFIS,3,2.1,NA,NA,Alaska,not_contained
-2026-AZTNF-000748,Phon D Fire,AZ,Maricopa,2026-06-06T03:50:25Z,2026-06-06T17:39:37Z,7.5,NA,WF,NA,Human,33.53875,-111.669167,NFIS,2,1.9,NA,NA,Arizona,not_contained
-2026-WASES-260190,Chestnut Fire,WA,Chelan,2026-06-06T17:01:00Z,2026-06-08T15:32:43Z,1508,50,WF,Moderate,Human,47.805901,-120.052414,NFIS,1,0,NA,NA,Washington,not_contained
-2026-WYWEX-000139,Raven Creek Fire,WY,Weston,2026-06-06T23:29:14Z,2026-06-07T20:08:08Z,3789,0,WF,Minimal,Undetermined,44.096267,-105.022767,NFIS,1,0.8,NA,NA,Wyoming,not_contained
-2026-WANES-001347,Fries Fire,WA,Pend Oreille,2026-06-08T02:02:17Z,2026-06-08T04:42:34Z,0.3,NA,WF,NA,Undetermined,30,-44,NFIS,0,0.5,NA,NA,Washington,not_contained
-2026-UTWDD-260151,Tower Fire,UT,Millard,2026-06-07T18:07:23Z,2026-06-08T13:31:56Z,1287,10,WF,Active,Human,39.215,-112.156978,NFIS,0,0.1,NA,NA,Utah,not_contained
-2026-UTNWS-200214,Stillwater Fire,UT,Utah,2026-06-07T16:21:55Z,2026-06-08T13:49:53Z,20,NA,WF,NA,Undetermined,40.31134,-111.923546,NFIS,0,0.1,NA,NA,Utah,not_contained
-2026-WYSER-000138,Telephone Island Fire,WY,Sweetwater,2026-06-06T22:40:39Z,2026-06-08T14:10:55Z,16,NA,WF,NA,Human,41.795606,-109.814208,NFIS,1,0.1,NA,NA,Wyoming,not_contained
-2026-MN1FS-002180,South Shore Fire,MN,Crow Wing,2026-06-06T22:18:21Z,2026-06-08T14:46:33Z,0.1,NA,WF,NA,Undetermined,46.731331,-93.9134,NFIS,1,0.1,NA,NA,Minnesota,not_contained
-2026-WIWIS-FIRE125092,Gummy Fire,WI,Waupaca,2026-06-07T19:45:00Z,2026-06-08T15:00:54Z,0.11,NA,WF,NA,Human,44.31681,-89.11457,NFIS,0,0.1,NA,NA,Wisconsin,not_contained
-2026-WIWIS-FIRE125091,Jd Fire Fire,WI,Marinette,2026-06-05T05:00:00Z,2026-06-08T15:04:25Z,0.19,NA,WF,NA,Human,45.22943,-87.96967,NFIS,3,0.1,NA,NA,Wisconsin,not_contained
-2026-PAALF-000310,Lansing Fire,PA,McKean,2026-06-04T10:09:11Z,2026-06-08T15:24:54Z,38,NA,WF,NA,Human,41.8346,-78.8335,NFIS,4,0,NA,NA,Pennsylvania,not_contained
-2026-AZA4S-260637,Ton - Pioneer Fire,AZ,Gila,2026-06-07T18:56:35Z,2026-06-08T15:33:58Z,25,NA,WF,NA,Human,33.9535,-111.321833,NFIS,0,0,NA,NA,Arizona,not_contained
+2026-AROUF-000433,Rx North Blue Fire,OK,Le Flore,2026-02-12T15:08:50Z,2026-06-01T03:00:47Z,1000,NA,RX,NA,Undetermined,34.841983,-94.918017,NFIS,116,7.7,NA,NA,Oklahoma,not_contained
+2026-SDSDS-260142,Qury Fire,SD,Custer,2026-03-12T19:16:00Z,2026-03-20T18:22:59Z,9168,100,WF,Minimal,Human,43.748119,-103.566727,NFIS,88,80.1,NA,NA,South Dakota,contained
+2026-NENES-260153,Anderson Bridge Fire,NE,Cherry,2026-03-12T22:22:08Z,2026-03-21T17:00:13Z,17229,100,WF,Minimal,Undetermined,42.802367,-100.9613,NFIS,87,79.1,NA,NA,Nebraska,contained
+2026-WYNAX-000051,Sandpiper Fire,WY,Natrona,2026-03-20T20:38:00Z,2026-03-23T15:20:46Z,6287,100,WF,Minimal,Human,42.905484,-106.167185,NFIS,79,77.2,NA,NA,Wyoming,contained
+2026-FLFNF-001208,Gun Range Fire,FL,Columbia,2026-04-19T20:13:00Z,2026-04-23T00:34:15Z,124,85,WF,Minimal,Undetermined,30.2055,-82.59586,NFIS,50,46.8,NA,NA,Florida,not_contained
+2026-MTCGF-260250,East Side Fire,MT,Carbon,2026-04-20T18:34:00Z,2026-04-26T19:36:02Z,1219,100,WF,Minimal,Undetermined,45.099739,-109.300378,NFIS,49,43,NA,NA,Montana,contained
+2026-GAGAS-320025,Pineland Rd Fire,GA,Clinch,2026-04-18T19:30:00Z,2026-05-14T22:48:56Z,32031,98,WF,Minimal,Human,NA,NA,NFIS,51,24.9,NA,NA,Georgia,not_contained
+2026-GAGAS-130044,Hwy 82 Fire,GA,Brantley,2026-04-20T20:00:00Z,2026-05-14T15:03:18Z,22419,98,WF,Minimal,Undetermined,NA,NA,NFIS,49,25.2,NA,NA,Georgia,not_contained
+2026-NMGNF-000155,Hummingbird Fire,NM,Catron,2026-04-20T22:41:00Z,2026-05-18T23:44:17Z,5716,100,WF,Minimal,Natural,33.354925,-108.65872,NFIS,48,20.9,NA,NA,New Mexico,contained
+2026-ORDEF-000155,Pine Mountain Fire,OR,Deschutes,2026-05-07T23:06:00Z,2026-05-09T23:33:20Z,2589,100,WF,Minimal,Human,43.810294,-120.917759,NFIS,31,29.9,NA,NA,Oregon,contained
+2026-NMCIF-000228,Six Mile Fire,NM,Socorro,2026-05-08T21:23:00Z,2026-05-16T02:17:23Z,341,100,WF,Minimal,Undetermined,33.979431,-107.098846,NFIS,30,23.8,NA,NA,New Mexico,contained
+2026-CACDD-007308,Neuralia Fire,CA,Kern,2026-05-13T23:07:00Z,2026-05-14T02:42:59Z,1196,100,WF,Minimal,Undetermined,35.243,-117.9858,NFIS,25,25.7,NA,NA,California,contained
+2026-WYMRF-000103,Rochelle 2 Fire,WY,Converse,2026-05-14T02:03:01Z,2026-05-15T21:49:03Z,1317,100,WF,Minimal,Human,43.492023,-105.216258,NFIS,25,23.9,NA,NA,Wyoming,contained
+2026-NMLNF-000335,Seven Cabins Fire,NM,Lincoln,2026-05-14T08:06:18Z,2026-06-07T16:45:23Z,31860,90,WF,Minimal,Human,33.651527,-105.200936,NFIS,25,1.2,NA,NA,New Mexico,not_contained
+2026-WIWIS-FIRE124937,Jack Pine Fire,WI,Marinette,2026-05-16T19:15:00Z,2026-05-21T12:41:45Z,43.42,NA,WF,NA,Human,45.36306,-87.89534,NFIS,23,18.3,NA,NA,Wisconsin,not_contained
+2026-CACNP-001159,Santa Rosa Island Fire,CA,Santa Barbara,2026-05-15T11:57:06Z,2026-05-22T01:21:21Z,18379,100,WF,Minimal,Human,33.958561,-120.106659,NFIS,24,17.8,NA,NA,California,contained
+2026-AKMID-000055,Lynx 1 Fire,AK,Fairbanks North Star,2026-05-14T20:34:00Z,2026-05-19T19:08:09Z,27.1,NA,WF,NA,Human,64.744,-146.776,NFIS,24,20.1,NA,NA,Alaska,not_contained
+2026-CASBC-027077,Foothill Fire,CA,Santa Barbara,2026-05-19T23:03:00Z,2026-05-21T00:39:51Z,904,100,WF,Minimal,Undetermined,NA,NA,NFIS,19,18.8,NA,NA,California,contained
+2026-MTHLF-000235,Jericho Creek Fire,MT,Powell,2026-05-13T20:40:00Z,2026-05-25T16:57:59Z,2068,100,WF,Minimal,Natural,46.5878,-112.065,NFIS,25,14.1,NA,NA,Montana,contained
+2026-FLFNF-001659,340 Fire,FL,Wakulla,2026-05-23T19:04:00Z,2026-06-08T13:05:14Z,3400,60,WF,Minimal,Natural,30.058856,-84.564042,NFIS,16,0.3,NA,NA,Florida,not_contained
+2026-WIWIS-FIRE124989,Beaver Fire,WI,Marinette,2026-05-25T19:30:00Z,2026-06-03T13:15:04Z,1.48,NA,WF,NA,Human,45.15373,-88.14924,NFIS,14,5.3,NA,NA,Wisconsin,not_contained
+2026-FLFNF-001638,Shell Fire,FL,Lake,2026-05-22T14:16:00Z,2026-05-29T21:15:21Z,2822,70,WF,Minimal,Natural,29.073833,-81.507167,NFIS,17,10,NA,NA,Florida,not_contained
+2026-WAWWLN-260125,Woodward Fire,WA,Walla Walla,2026-05-22T20:38:12Z,2026-05-26T16:40:06Z,100,100,WF,Active,Human,46.1014,-118.582,NFIS,16,13.2,NA,NA,Washington,contained
+2026-IDSTF-000056,Summit Creek Fire,ID,Cassia,2026-05-25T20:02:00Z,2026-06-06T23:44:54Z,1887,93,WF,Minimal,Natural,42.1856,-113.66,NFIS,14,1.9,NA,NA,Idaho,not_contained
+2026-AROUF-000262,Rx Red Slough Fire,OK,McCurtain,2026-01-20T18:00:00Z,2026-06-07T23:16:47Z,473,NA,RX,NA,Undetermined,33.74111,-94.650159,NFIS,139,0.9,NA,NA,Oklahoma,not_contained
+2026-MTLG09-000337,Bradshaw Fire,MT,Powder River,2026-05-27T01:39:31Z,2026-05-30T01:05:50Z,2689,100,WF,Minimal,Undetermined,45.067622,-105.971203,NFIS,12,9.8,NA,NA,Montana,contained
+2026-AKGAD-000087,Thousand Fire,AK,Northwest Arctic,2026-05-23T15:54:56Z,2026-05-29T16:15:13Z,408.9,0,WF,Minimal,Natural,66.448883,-159.28055,NFIS,16,10.2,NA,NA,Alaska,not_contained
+2026-WIWIS-FIRE125029,Highway D Fire,WI,Florence,2026-05-29T20:00:00Z,2026-06-01T15:29:17Z,0.3,NA,WF,NA,Human,45.88063,-88.2834,NFIS,10,7.2,NA,NA,Wisconsin,not_contained
+2026-WIWIS-FIRE125047,K2 Fire Fire,WI,Oconto,2026-05-31T16:30:00Z,2026-06-01T16:48:39Z,0.03,NA,WF,NA,Human,44.89531,-88.21012,NFIS,8,7.2,NA,NA,Wisconsin,not_contained
+2026-WIWIS-FIRE125046,K Fire Fire,WI,Oconto,2026-05-31T16:30:00Z,2026-06-03T15:43:25Z,0.14,NA,WF,NA,Human,44.89531,-88.21074,NFIS,8,5.2,NA,NA,Wisconsin,not_contained
+2026-WABENN-260130,Country Meadow Fire,WA,Benton,2026-05-23T21:15:00Z,2026-06-01T17:44:10Z,910,100,WF,Minimal,Human,46.16526,-119.33745,NFIS,15,7.1,NA,NA,Washington,contained
+2026-AKMID-000056,Lynx 2 Fire,AK,Fairbanks North Star,2026-05-14T21:13:04Z,2026-06-03T21:52:17Z,16.2,NA,WF,NA,Human,64.747827,-146.775082,NFIS,24,4.9,NA,NA,Alaska,not_contained
+2026-AKMID-000075,Moose Creek Fire,AK,Fairbanks North Star,2026-05-18T19:55:36Z,2026-06-03T21:50:40Z,59,NA,WF,NA,Human,64.709833,-146.807833,NFIS,21,4.9,NA,NA,Alaska,not_contained
+2026-CAKRN-022634,House Fire,CA,Kern,2026-06-03T21:26:00Z,2026-06-04T04:34:04Z,NA,NA,WF,NA,NA,NA,NA,NFIS,4,4.7,NA,NA,California,not_contained
+2026-WIWIS-FIRE125071,Gagen Fire,WI,Oneida,2026-06-03T18:49:00Z,2026-06-04T13:06:37Z,0.22,NA,WF,NA,Human,45.67957,-89.14481,NFIS,5,4.3,NA,NA,Wisconsin,not_contained
+2026-WYJOX-000133,Indian Creek Fire,WY,Johnson,2026-06-04T20:05:54Z,2026-06-05T16:57:11Z,0.6,NA,WF,NA,Undetermined,44.141528,-106.275006,NFIS,4,3.1,NA,NA,Wyoming,not_contained
+2026-ORPRD-000246,0246 Rhea Fire,OR,Gilliam,2026-05-29T01:00:00Z,2026-06-05T21:55:17Z,450,100,WF,Minimal,Undetermined,45.721667,-120.028117,NFIS,10,2.9,NA,NA,Oregon,contained
+2026-WASPD-260182,Moxee Orchard Fire,WA,Yakima,2026-06-04T20:30:23Z,2026-06-05T23:25:35Z,5918,100,WF,Minimal,Human,46.512517,-120.051451,NFIS,4,2.9,NA,NA,Washington,contained
+2026-FLFNF-001800,New Light Fire,FL,Wakulla,2026-06-05T17:02:19Z,2026-06-08T16:35:10Z,148,80,WF,Minimal,Human,30.296321,-84.40129,NFIS,3,0.2,NA,NA,Florida,not_contained
+2026-AZCNF-000234,Benton Fire,AZ,Santa Cruz,2026-06-04T00:12:00Z,2026-06-08T18:36:23Z,218,NA,WF,NA,Undetermined,33.0116,-110.7916,NFIS,4,0.1,NA,NA,Arizona,not_contained
+2026-NCNCS-260058,Rose Bay Canal Fire,NC,Hyde,2026-06-02T22:53:45Z,2026-06-08T18:25:34Z,433,20,WF,Active,Undetermined,NA,NA,NFIS,5,0.1,NA,NA,North Carolina,not_contained
+2026-AKGAD-000137,Kopshesut Fire,AK,Northwest Arctic,2026-06-04T22:01:20Z,2026-06-06T14:38:06Z,1447.6,30,WF,Moderate,Human,67.087167,-157.924333,NFIS,3,2.2,NA,NA,Alaska,not_contained
+2026-AZTNF-000748,Phon D Fire,AZ,Maricopa,2026-06-06T03:50:25Z,2026-06-06T17:39:37Z,7.5,NA,WF,NA,Human,33.53875,-111.669167,NFIS,2,2.1,NA,NA,Arizona,not_contained
+2026-WASES-260190,Chestnut Fire,WA,Chelan,2026-06-06T17:01:00Z,2026-06-08T15:32:43Z,1508,50,WF,Moderate,Human,47.805901,-120.052414,NFIS,2,0.2,NA,NA,Washington,not_contained
+2026-WYWEX-000139,Raven Creek Fire,WY,Weston,2026-06-06T23:29:14Z,2026-06-07T20:08:08Z,3789,0,WF,Minimal,Undetermined,44.096267,-105.022767,NFIS,1,1,NA,NA,Wyoming,not_contained
+2026-UTWDD-260151,Tower Fire,UT,Millard,2026-06-07T18:07:23Z,2026-06-08T19:00:51Z,1287,10,WF,Active,Human,39.215,-112.156978,NFIS,1,0.1,NA,NA,Utah,not_contained
+2026-UTNWS-200214,Stillwater Fire,UT,Utah,2026-06-07T16:21:55Z,2026-06-08T13:49:53Z,20,NA,WF,NA,Undetermined,40.31134,-111.923546,NFIS,1,0.3,NA,NA,Utah,not_contained
+2026-WYSER-000138,Telephone Island Fire,WY,Sweetwater,2026-06-06T22:40:39Z,2026-06-08T14:10:55Z,16,NA,WF,NA,Human,41.795606,-109.814208,NFIS,1,0.3,NA,NA,Wyoming,not_contained
+2026-MN1FS-002180,South Shore Fire,MN,Crow Wing,2026-06-06T22:18:21Z,2026-06-08T14:46:33Z,0.1,NA,WF,NA,Undetermined,46.731331,-93.9134,NFIS,1,0.2,NA,NA,Minnesota,not_contained
+2026-WIWIS-FIRE125092,Gummy Fire,WI,Waupaca,2026-06-07T19:45:00Z,2026-06-08T15:00:54Z,0.11,NA,WF,NA,Human,44.31681,-89.11457,NFIS,1,0.2,NA,NA,Wisconsin,not_contained
+2026-WIWIS-FIRE125091,Jd Fire Fire,WI,Marinette,2026-06-05T05:00:00Z,2026-06-08T15:04:25Z,0.19,NA,WF,NA,Human,45.22943,-87.96967,NFIS,3,0.2,NA,NA,Wisconsin,not_contained
+2026-PAALF-000310,Lansing Fire,PA,McKean,2026-06-04T10:09:11Z,2026-06-08T15:24:54Z,38,NA,WF,NA,Human,41.8346,-78.8335,NFIS,4,0.2,NA,NA,Pennsylvania,not_contained
+2026-AZA4S-260637,Ton - Pioneer Fire,AZ,Gila,2026-06-07T18:56:35Z,2026-06-08T15:33:58Z,25,NA,WF,NA,Human,33.9535,-111.321833,NFIS,1,0.2,NA,NA,Arizona,not_contained
+2026-AKUYD-000159,Bonanza Fire,AK,Southeast Fairbanks,2026-06-07T22:02:38Z,2026-06-08T17:21:33Z,10.2,NA,WF,NA,Natural,63.762788,-148.90337,NFIS,0,0.1,NA,NA,Alaska,not_contained
+2026-WANES-001345,Lower Weaver Fire,WA,Stevens,2026-06-07T22:14:47Z,2026-06-08T17:08:29Z,5,NA,WF,NA,Human,47.822854,-117.552428,NFIS,0,0.1,NA,NA,Washington,not_contained
+2026-MIMIS-2026180017,Maple Grove Fire Fire,MI,Clare,2026-06-07T18:27:00Z,2026-06-08T17:53:51Z,0.5,NA,WF,NA,Human,NA,NA,NFIS,1,0.1,NA,NA,Michigan,not_contained
+2026-MTBID-260412,Ah Nei Fire,MT,Yellowstone,2026-06-08T17:41:03Z,2026-06-08T19:34:48Z,5,NA,WF,NA,Natural,46.03896,-108.309741,NFIS,0,0,NA,NA,Montana,not_contained
 NA,Border 6 Fire,CA,San Diego,2026-06-01T13:54:22Z,2026-06-08T08:44:51Z,2525,100,Wildfire,NA,NA,32.56692,-116.76388,Cal Fire,7,0,"Tijuana River, Marron Valley ",https://www.fire.ca.gov/incidents/2026/6/1/border-6-fire/,California,contained
 NA,Walker Fire,CA,Kern,2026-06-04T13:11:10Z,2026-06-07T08:22:01Z,138,100,Wildfire,NA,NA,35.417,-118.5368,Cal Fire,4,1,"Bodfish Road and Walser Road, Caliente",https://www.fire.ca.gov/incidents/2026/6/4/walker-fire/,California,contained
 NA,Mauds Fire,CA,Solano,2026-06-04T17:17:37Z,2026-06-06T06:02:38Z,96,100,Wildfire,NA,NA,38.205596,-121.864364,Cal Fire,4,2,"Mauds Lane, East of Rio Vista Road, Rio Vista Junction",https://www.fire.ca.gov/incidents/2026/6/4/mauds-fire/,California,contained
@@ -68,6 +68,9 @@ NA,McCabe Fire,CA,Merced,2026-06-06T18:06:24Z,2026-06-07T22:04:31Z,19,100,Wildfi
 NA,Benito Fire,CA,Fresno,2026-06-06T17:48:42Z,2026-06-07T22:03:39Z,25,100,Wildfire,NA,NA,36.730983,-120.361017,Cal Fire,2,1,North San Benito Avenue ,https://www.fire.ca.gov/incidents/2026/6/6/benito-fire/,California,contained
 NA,Palm Fire,CA,Fresno,2026-06-06T18:01:13Z,2026-06-07T08:31:49Z,11,100,Wildfire,NA,NA,36.209064,-120.391217,Cal Fire,2,1,"Coalinga, Palmer Road and Derrick Bouelvard ",https://www.fire.ca.gov/incidents/2026/6/6/palm-fire/,California,contained
 NA,Cotton Fire,CA,San Luis Obispo,2026-06-07T12:26:11Z,2026-06-08T08:22:30Z,26,100,Wildfire,NA,NA,35.778884,-120.194339,Cal Fire,1,0,Hwy 41 at the Kern County Line,https://www.fire.ca.gov/incidents/2026/6/7/cotton-fire/,California,contained
+NA,Airport Fire,CA,San Diego,2026-06-08T11:42:32Z,2026-06-08T12:37:56Z,4,NA,Wildfire,NA,NA,33.21581,-117.36925,Cal Fire,0,0,"Airport Road & Benet Hill, Oceanside",https://www.fire.ca.gov/incidents/2026/6/8/airport-fire/,California,not_contained
 NA,Shasta Fire,CA,Shasta,2026-06-07T12:22:29Z,2026-06-07T22:05:20Z,13,100,Wildfire,NA,NA,40.679351,-122.348475,Cal Fire,1,1,Virginia Ave North of Akrich St Shasta Lake City,https://www.fire.ca.gov/incidents/2026/6/7/shasta-fire/,California,contained
-NA,Lyon Fire,CA,Solano,2026-06-07T17:26:09Z,2026-06-08T08:43:09Z,8,NA,Wildfire,NA,NA,38.430903,-122.045526,Cal Fire,1,0,"Highway 80 West Bound between Cherry Glen Rd / Lyon Rd, Vacaville ",https://www.fire.ca.gov/incidents/2026/6/7/lyon-fire/,California,not_contained
+NA,Lyon Fire,CA,Solano,2026-06-07T17:26:09Z,2026-06-08T12:35:12Z,8,NA,Wildfire,NA,NA,38.430903,-122.045526,Cal Fire,1,0,"Highway 80 West Bound between Cherry Glen Rd / Lyon Rd, Vacaville ",https://www.fire.ca.gov/incidents/2026/6/7/lyon-fire/,California,not_contained
 NA,Lassen Fire,CA,Fresno,2026-06-07T23:36:53Z,2026-06-08T08:33:20Z,79,100,Wildfire,NA,NA,36.22629,-120.103716,Cal Fire,1,0,S Lassen Ave and W Marmon Ave Huron,https://www.fire.ca.gov/incidents/2026/6/7/lassen-fire/,California,contained
+NA,Sorrento Fire,CA,San Diego,2026-06-08T10:34:37Z,2026-06-08T12:45:19Z,45,NA,Wildfire,NA,NA,32.90984,-117.21359,Cal Fire,0,0,"Sorrento Valley Blvd and Ocean Air Drive, Sorrento Valley",https://www.fire.ca.gov/incidents/2026/6/8/sorrento-fire/,California,not_contained
+NA,Putah Fire,CA,Yolo,2026-06-08T11:34:58Z,2026-06-08T13:28:37Z,120,NA,Wildfire,NA,NA,38.5148,-122.0754,Cal Fire,0,0,"Highway 128, west of Winters",https://www.fire.ca.gov/incidents/2026/6/8/putah-fire/,California,not_contained
