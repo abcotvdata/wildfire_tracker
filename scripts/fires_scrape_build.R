@@ -481,7 +481,7 @@ base_map <- leaflet(hotspots, options = leafletOptions(zoomControl = FALSE)) %>%
 #  addProviderTiles(providers$CartoDB.Positron) %>%
 #  addProviderTiles(providers$Stamen.TonerLines) %>%
 #  addProviderTiles(providers$Stamen.TonerLabels) %>%
-addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/grayscale-abc/{z}/{x}/{y}.png", attribution = "ABC OTV \xc2\xb7 \xc2\xa9 Protomaps \xc2\xa9 OpenStreetMap", options = tileOptions(maxNativeZoom = 15, maxZoom = 19)) %>% 
+addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png", attribution = "ABC OTV \xc2\xb7 \xc2\xa9 Protomaps \xc2\xa9 OpenStreetMap", options = tileOptions(maxNativeZoom = 15, maxZoom = 19)) %>% 
   addCircleMarkers(radius = 2.5,
                    color = "#be0000",
                    weight = 1,
